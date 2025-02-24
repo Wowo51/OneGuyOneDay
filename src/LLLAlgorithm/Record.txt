@@ -1,0 +1,394 @@
+<ActRecord>
+  <ProjectName>LLLAlgorithm</ProjectName>
+  <ProjectDescription>Lenstra–Lenstra–Lovász (LLL) algorithm – Finds a short, nearly orthogonal lattice basis in polynomial time.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Lenstra–Lenstra–Lovász (LLL) algorithm – Finds a short, nearly orthogonal lattice basis in polynomial time.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\LLLAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>LLLAlgorithm</ProjectFolderName>
+  <ProjectName>LLLAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:54:55 AM
+LLLAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:56:03 AM
+LLLAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithm\LLLAlgorithm\LLLReducer.cs(11,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithm\LLLAlgorithm.csproj]
+  LLLAlgorithm -> D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithm\bin\Debug\net9.0\LLLAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithm\LLLAlgorithm\LLLReducer.cs(11,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithm\LLLAlgorithm.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.88
+]]></string>
+    <string>WritePatch: Compile failed.
+LLLAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:56:03 AM
+LLLAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:56:04 AM
+LLLAlgorithm</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 7:56:25 AM
+LLLAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:56:25 AM
+LLLAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:57:33 AM
+LLLAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LLLAlgorithm -> D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithm\bin\Debug\net9.0\LLLAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+]]></string>
+    <string>WritePatch: Code is Complete.
+LLLAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:57:51 AM
+LLLAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:59:33 AM
+LLLAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithmTest\LLLAlgorithmTest.csproj (in 298 ms).
+  1 of 2 projects are up-to-date for restore.
+  LLLAlgorithm -> D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithm\bin\Debug\net9.0\LLLAlgorithm.dll
+D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithmTest\LLLAlgorithmTests.cs(14,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithmTest\LLLAlgorithmTest.csproj]
+  LLLAlgorithmTest -> D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithmTest\bin\Debug\net9.0\LLLAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithmTest\LLLAlgorithmTests.cs(14,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithmTest\LLLAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.06
+]]></string>
+    <string>WritePatch: Compile failed.
+LLLAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:59:35 AM
+LLLAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:59:36 AM
+LLLAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:00:10 AM
+LLLAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LLLAlgorithm -> D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithm\bin\Debug\net9.0\LLLAlgorithm.dll
+  LLLAlgorithmTest -> D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithmTest\bin\Debug\net9.0\LLLAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.91
+]]></string>
+    <string>WritePatch: Code is not Complete.
+LLLAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:00:31 AM
+LLLAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:00:31 AM
+LLLAlgorithmTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 8:01:32 AM
+LLLAlgorithmTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LLLAlgorithm -> D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithm\bin\Debug\net9.0\LLLAlgorithm.dll
+  LLLAlgorithmTest -> D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithmTest\bin\Debug\net9.0\LLLAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.91
+
+</CompilerResponse>
+2025-02-23 8:01:33 AM
+LLLAlgorithmTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 8:01:35 AM
+LLLAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LLLAlgorithm -> D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithm\bin\Debug\net9.0\LLLAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+]]></string>
+    <string>WritePatch: Code is Complete.
+LLLAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:02:01 AM
+LLLAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LLLAlgorithm -> D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithm\bin\Debug\net9.0\LLLAlgorithm.dll
+  LLLAlgorithmTest -> D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithmTest\bin\Debug\net9.0\LLLAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+]]></string>
+    <string>WritePatch: Code is Complete.
+LLLAlgorithmTest</string>
+    <string>[INFO 2025-02-23 8:02:20 AM] Starting test for project: D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithmTest\LLLAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:02:20 AM] Starting test for project: D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithmTest\LLLAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:02:20 AM] Starting test for project: D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithmTest\LLLAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:02:20 AM] Starting test for project: D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithmTest\LLLAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:02:20 AM] Starting test for project: D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithmTest\LLLAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:02:20 AM] Starting test for project: D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithmTest\LLLAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:02:20 AM] Starting test for project: D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithmTest\LLLAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:02:20 AM] Starting test for project: D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithmTest\LLLAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:02:20 AM] Starting test for project: D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithmTest\LLLAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:02:20 AM] Starting test for project: D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithmTest\LLLAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 8:02:23 AM] All tests passed successfully.
+[INFO 2025-02-23 8:02:23 AM] Test process completed. Duration: 3.59 seconds.
+[INFO 2025-02-23 8:02:23 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 8:02:23 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 8:02:23 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:02:23 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:02:22 AM] Test run for D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithmTest\bin\Debug\net9.0\LLLAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:02:22 AM]   LLLAlgorithmTest -> D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithmTest\bin\Debug\net9.0\LLLAlgorithmTest.dll
+[OUTPUT 2025-02-23 8:02:22 AM]   LLLAlgorithm -> D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithm\bin\Debug\net9.0\LLLAlgorithm.dll
+[OUTPUT 2025-02-23 8:02:21 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:02:21 AM]   Determining projects to restore...
+[INFO 2025-02-23 8:02:20 AM] Command: dotnet test "D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithmTest\LLLAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:02:20 AM] Starting test for project: D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithmTest\LLLAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 7:54:55 AM
+LLLAlgorithm
+
+WritePatch ran compiler. 2025-02-23 7:56:03 AM
+LLLAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithm\LLLAlgorithm\LLLReducer.cs(11,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithm\LLLAlgorithm.csproj]
+  LLLAlgorithm -> D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithm\bin\Debug\net9.0\LLLAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithm\LLLAlgorithm\LLLReducer.cs(11,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithm\LLLAlgorithm.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.88
+
+
+WritePatch: Compile failed.
+LLLAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 7:56:03 AM
+LLLAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 7:56:04 AM
+LLLAlgorithm
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 7:56:25 AM
+LLLAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 7:56:25 AM
+LLLAlgorithm
+
+WritePatch ran compiler. 2025-02-23 7:57:33 AM
+LLLAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LLLAlgorithm -> D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithm\bin\Debug\net9.0\LLLAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+
+
+WritePatch: Code is Complete.
+LLLAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 7:57:51 AM
+LLLAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 7:59:33 AM
+LLLAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithmTest\LLLAlgorithmTest.csproj (in 298 ms).
+  1 of 2 projects are up-to-date for restore.
+  LLLAlgorithm -> D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithm\bin\Debug\net9.0\LLLAlgorithm.dll
+D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithmTest\LLLAlgorithmTests.cs(14,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithmTest\LLLAlgorithmTest.csproj]
+  LLLAlgorithmTest -> D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithmTest\bin\Debug\net9.0\LLLAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithmTest\LLLAlgorithmTests.cs(14,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithmTest\LLLAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.06
+
+
+WritePatch: Compile failed.
+LLLAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:59:35 AM
+LLLAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 7:59:36 AM
+LLLAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 8:00:10 AM
+LLLAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LLLAlgorithm -> D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithm\bin\Debug\net9.0\LLLAlgorithm.dll
+  LLLAlgorithmTest -> D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithmTest\bin\Debug\net9.0\LLLAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.91
+
+
+WritePatch: Code is not Complete.
+LLLAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 8:00:31 AM
+LLLAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 8:00:31 AM
+LLLAlgorithmTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 8:01:32 AM
+LLLAlgorithmTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LLLAlgorithm -> D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithm\bin\Debug\net9.0\LLLAlgorithm.dll
+  LLLAlgorithmTest -> D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithmTest\bin\Debug\net9.0\LLLAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.91
+
+</CompilerResponse>
+2025-02-23 8:01:33 AM
+LLLAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 8:01:35 AM
+LLLAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LLLAlgorithm -> D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithm\bin\Debug\net9.0\LLLAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+
+
+WritePatch: Code is Complete.
+LLLAlgorithm
+
+WritePatch ran compiler. 2025-02-23 8:02:01 AM
+LLLAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LLLAlgorithm -> D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithm\bin\Debug\net9.0\LLLAlgorithm.dll
+  LLLAlgorithmTest -> D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithmTest\bin\Debug\net9.0\LLLAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+
+
+WritePatch: Code is Complete.
+LLLAlgorithmTest
+
+TestResult:
+[SUCCESS 2025-02-23 8:02:23 AM] All tests passed successfully.
+[INFO 2025-02-23 8:02:23 AM] Test process completed. Duration: 3.59 seconds.
+[INFO 2025-02-23 8:02:23 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 8:02:23 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 8:02:23 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:02:23 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:02:22 AM] Test run for D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithmTest\bin\Debug\net9.0\LLLAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:02:22 AM]   LLLAlgorithmTest -> D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithmTest\bin\Debug\net9.0\LLLAlgorithmTest.dll
+[OUTPUT 2025-02-23 8:02:22 AM]   LLLAlgorithm -> D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithm\bin\Debug\net9.0\LLLAlgorithm.dll
+[OUTPUT 2025-02-23 8:02:21 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:02:21 AM]   Determining projects to restore...
+[INFO 2025-02-23 8:02:20 AM] Command: dotnet test "D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithmTest\LLLAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:02:20 AM] Starting test for project: D:\Code2025\RavenWork\LLLAlgorithm\LLLAlgorithmTest\LLLAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
