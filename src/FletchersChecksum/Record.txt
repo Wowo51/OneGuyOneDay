@@ -1,0 +1,376 @@
+<ActRecord>
+  <ProjectName>FletchersChecksum</ProjectName>
+  <ProjectDescription><![CDATA[Fletcher's checksum]]></ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification><![CDATA[Fletcher's checksum]]]]><![CDATA[></WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\FletchersChecksum</SolutionFolderPath>
+  <ProjectFolderName>FletchersChecksum</ProjectFolderName>
+  <ProjectName>FletchersChecksum</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:30:49 PM
+FletchersChecksum</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:31:12 PM
+FletchersChecksum</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FletchersChecksum -> D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksum\bin\Debug\net9.0\FletchersChecksum.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.38
+]]></string>
+    <string>WritePatch: Code is Complete.
+FletchersChecksum</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:31:27 PM
+FletchersChecksumTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:32:22 PM
+FletchersChecksumTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\FletchersChecksumTest.csproj (in 323 ms).
+  1 of 2 projects are up-to-date for restore.
+  FletchersChecksum -> D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksum\bin\Debug\net9.0\FletchersChecksum.dll
+D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\FletcherChecksumCalculatorTests.cs(31,74): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\FletchersChecksumTest.csproj]
+  FletchersChecksumTest -> D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\bin\Debug\net9.0\FletchersChecksumTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\FletcherChecksumCalculatorTests.cs(31,74): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\FletchersChecksumTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.14
+]]></string>
+    <string>WritePatch: Compile failed.
+FletchersChecksumTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:32:23 PM
+FletchersChecksumTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:32:24 PM
+FletchersChecksumTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:32:50 PM
+FletchersChecksumTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FletchersChecksum -> D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksum\bin\Debug\net9.0\FletchersChecksum.dll
+  FletchersChecksumTest -> D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\bin\Debug\net9.0\FletchersChecksumTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.42
+]]></string>
+    <string>WritePatch: Code is not Complete.
+FletchersChecksumTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:33:05 PM
+FletchersChecksumTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:33:06 PM
+FletchersChecksumTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:33:42 PM
+FletchersChecksumTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FletchersChecksum -> D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksum\bin\Debug\net9.0\FletchersChecksum.dll
+  FletchersChecksumTest -> D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\bin\Debug\net9.0\FletchersChecksumTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.18
+]]></string>
+    <string>WritePatch: Code is not Complete.
+FletchersChecksumTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:33:57 PM
+FletchersChecksumTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FletchersChecksum -> D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksum\bin\Debug\net9.0\FletchersChecksum.dll
+  FletchersChecksumTest -> D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\bin\Debug\net9.0\FletchersChecksumTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.18
+
+</CompilerResponse>
+2025-02-23 2:33:58 PM
+FletchersChecksumTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 2:33:59 PM
+FletchersChecksum</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FletchersChecksum -> D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksum\bin\Debug\net9.0\FletchersChecksum.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.07
+]]></string>
+    <string>WritePatch: Code is Complete.
+FletchersChecksum</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:34:13 PM
+FletchersChecksumTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FletchersChecksum -> D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksum\bin\Debug\net9.0\FletchersChecksum.dll
+  FletchersChecksumTest -> D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\bin\Debug\net9.0\FletchersChecksumTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.52
+]]></string>
+    <string>WritePatch: Code is Complete.
+FletchersChecksumTest</string>
+    <string>[INFO 2025-02-23 2:34:28 PM] Starting test for project: D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\FletchersChecksumTest.csproj</string>
+    <string>[INFO 2025-02-23 2:34:28 PM] Starting test for project: D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\FletchersChecksumTest.csproj</string>
+    <string>[INFO 2025-02-23 2:34:28 PM] Starting test for project: D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\FletchersChecksumTest.csproj</string>
+    <string>[INFO 2025-02-23 2:34:28 PM] Starting test for project: D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\FletchersChecksumTest.csproj</string>
+    <string>[INFO 2025-02-23 2:34:28 PM] Starting test for project: D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\FletchersChecksumTest.csproj</string>
+    <string>[INFO 2025-02-23 2:34:28 PM] Starting test for project: D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\FletchersChecksumTest.csproj</string>
+    <string>[INFO 2025-02-23 2:34:28 PM] Starting test for project: D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\FletchersChecksumTest.csproj</string>
+    <string>[INFO 2025-02-23 2:34:28 PM] Starting test for project: D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\FletchersChecksumTest.csproj</string>
+    <string>[INFO 2025-02-23 2:34:28 PM] Starting test for project: D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\FletchersChecksumTest.csproj</string>
+    <string>[INFO 2025-02-23 2:34:28 PM] Starting test for project: D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\FletchersChecksumTest.csproj</string>
+    <string>[INFO 2025-02-23 2:34:28 PM] Starting test for project: D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\FletchersChecksumTest.csproj</string>
+    <string>[INFO 2025-02-23 2:34:28 PM] Starting test for project: D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\FletchersChecksumTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 2:34:33 PM] All tests passed successfully.
+[INFO 2025-02-23 2:34:33 PM] Test process completed. Duration: 5.33 seconds.
+[INFO 2025-02-23 2:34:33 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 2:34:33 PM] Test Parallelization enabled for D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\bin\Debug\net9.0\FletchersChecksumTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 2:34:30 PM]   FletchersChecksum -> D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksum\bin\Debug\net9.0\FletchersChecksum.dll
+[OUTPUT 2025-02-23 2:34:29 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 2:34:32 PM] D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\bin\Debug\net9.0\FletchersChecksumTest.dll
+[OUTPUT 2025-02-23 2:34:32 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 2:34:31 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 2:34:31 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 2:34:31 PM] Test run for D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\bin\Debug\net9.0\FletchersChecksumTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 2:34:30 PM]   FletchersChecksumTest -> D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\bin\Debug\net9.0\FletchersChecksumTest.dll
+[OUTPUT 2025-02-23 2:34:29 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 2:34:28 PM] Command: dotnet test "D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\FletchersChecksumTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 2:34:28 PM] Starting test for project: D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\FletchersChecksumTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 2:30:49 PM
+FletchersChecksum
+
+WritePatch ran compiler. 2025-02-23 2:31:12 PM
+FletchersChecksum
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FletchersChecksum -> D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksum\bin\Debug\net9.0\FletchersChecksum.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.38
+
+
+WritePatch: Code is Complete.
+FletchersChecksum
+
+WritePatch Started CycleStep. 2025-02-23 2:31:27 PM
+FletchersChecksumTest
+
+WritePatch ran compiler. 2025-02-23 2:32:22 PM
+FletchersChecksumTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\FletchersChecksumTest.csproj (in 323 ms).
+  1 of 2 projects are up-to-date for restore.
+  FletchersChecksum -> D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksum\bin\Debug\net9.0\FletchersChecksum.dll
+D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\FletcherChecksumCalculatorTests.cs(31,74): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\FletchersChecksumTest.csproj]
+  FletchersChecksumTest -> D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\bin\Debug\net9.0\FletchersChecksumTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\FletcherChecksumCalculatorTests.cs(31,74): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\FletchersChecksumTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.14
+
+
+WritePatch: Compile failed.
+FletchersChecksumTest
+
+Finished WritePatch cycle step.
+2025-02-23 2:32:23 PM
+FletchersChecksumTest
+
+WritePatch Started CycleStep. 2025-02-23 2:32:24 PM
+FletchersChecksumTest
+
+WritePatch ran compiler. 2025-02-23 2:32:50 PM
+FletchersChecksumTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FletchersChecksum -> D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksum\bin\Debug\net9.0\FletchersChecksum.dll
+  FletchersChecksumTest -> D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\bin\Debug\net9.0\FletchersChecksumTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.42
+
+
+WritePatch: Code is not Complete.
+FletchersChecksumTest
+
+Finished WritePatch cycle step.
+2025-02-23 2:33:05 PM
+FletchersChecksumTest
+
+WritePatch Started CycleStep. 2025-02-23 2:33:06 PM
+FletchersChecksumTest
+
+WritePatch ran compiler. 2025-02-23 2:33:42 PM
+FletchersChecksumTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FletchersChecksum -> D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksum\bin\Debug\net9.0\FletchersChecksum.dll
+  FletchersChecksumTest -> D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\bin\Debug\net9.0\FletchersChecksumTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.18
+
+
+WritePatch: Code is not Complete.
+FletchersChecksumTest
+
+Finished WritePatch cycle step.
+2025-02-23 2:33:57 PM
+FletchersChecksumTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FletchersChecksum -> D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksum\bin\Debug\net9.0\FletchersChecksum.dll
+  FletchersChecksumTest -> D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\bin\Debug\net9.0\FletchersChecksumTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.18
+
+</CompilerResponse>
+2025-02-23 2:33:58 PM
+FletchersChecksumTest
+
+WritePatch ran compiler. 2025-02-23 2:33:59 PM
+FletchersChecksum
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FletchersChecksum -> D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksum\bin\Debug\net9.0\FletchersChecksum.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.07
+
+
+WritePatch: Code is Complete.
+FletchersChecksum
+
+WritePatch ran compiler. 2025-02-23 2:34:13 PM
+FletchersChecksumTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FletchersChecksum -> D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksum\bin\Debug\net9.0\FletchersChecksum.dll
+  FletchersChecksumTest -> D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\bin\Debug\net9.0\FletchersChecksumTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.52
+
+
+WritePatch: Code is Complete.
+FletchersChecksumTest
+
+TestResult:
+[SUCCESS 2025-02-23 2:34:33 PM] All tests passed successfully.
+[INFO 2025-02-23 2:34:33 PM] Test process completed. Duration: 5.33 seconds.
+[INFO 2025-02-23 2:34:33 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 2:34:33 PM] Test Parallelization enabled for D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\bin\Debug\net9.0\FletchersChecksumTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 2:34:30 PM]   FletchersChecksum -> D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksum\bin\Debug\net9.0\FletchersChecksum.dll
+[OUTPUT 2025-02-23 2:34:29 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 2:34:32 PM] D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\bin\Debug\net9.0\FletchersChecksumTest.dll
+[OUTPUT 2025-02-23 2:34:32 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 2:34:31 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 2:34:31 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 2:34:31 PM] Test run for D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\bin\Debug\net9.0\FletchersChecksumTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 2:34:30 PM]   FletchersChecksumTest -> D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\bin\Debug\net9.0\FletchersChecksumTest.dll
+[OUTPUT 2025-02-23 2:34:29 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 2:34:28 PM] Command: dotnet test "D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\FletchersChecksumTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 2:34:28 PM] Starting test for project: D:\Code2025\RavenWork\FletchersChecksum\FletchersChecksumTest\FletchersChecksumTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
