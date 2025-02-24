@@ -1,0 +1,240 @@
+<ActRecord>
+  <ProjectName>SingleLinkageClustering</ProjectName>
+  <ProjectDescription>Single‑linkage clustering: A simple agglomerative clustering algorithm</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Single‑linkage clustering: A simple agglomerative clustering algorithm</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\SingleLinkageClustering</SolutionFolderPath>
+  <ProjectFolderName>SingleLinkageClustering</ProjectFolderName>
+  <ProjectName>SingleLinkageClustering</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:47:00 AM
+SingleLinkageClustering</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:47:42 AM
+SingleLinkageClustering</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SingleLinkageClustering -> D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClustering\bin\Debug\net9.0\SingleLinkageClustering.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+]]></string>
+    <string>WritePatch: Code is Complete.
+SingleLinkageClustering</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:47:56 AM
+SingleLinkageClusteringTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:48:47 AM
+SingleLinkageClusteringTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj (in 167 ms).
+  1 of 2 projects are up-to-date for restore.
+  SingleLinkageClustering -> D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClustering\bin\Debug\net9.0\SingleLinkageClustering.dll
+D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClustererTests.cs(15,60): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj]
+D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClustererTests.cs(16,64): warning CS8604: Possible null reference argument for parameter 'points' in 'List<List<int>> SingleLinkageClusterer<int>.ClusterPoints(IList<int> points, Func<int, int, double> distanceFunc, int desiredClusters)'. [D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj]
+D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClustererTests.cs(30,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj]
+  SingleLinkageClusteringTest -> D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\bin\Debug\net9.0\SingleLinkageClusteringTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClustererTests.cs(15,60): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj]
+D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClustererTests.cs(16,64): warning CS8604: Possible null reference argument for parameter 'points' in 'List<List<int>> SingleLinkageClusterer<int>.ClusterPoints(IList<int> points, Func<int, int, double> distanceFunc, int desiredClusters)'. [D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj]
+D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClustererTests.cs(30,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.20
+]]></string>
+    <string>WritePatch: Compile failed.
+SingleLinkageClusteringTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:48:47 AM
+SingleLinkageClusteringTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:48:47 AM
+SingleLinkageClusteringTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:49:54 AM
+SingleLinkageClusteringTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SingleLinkageClustering -> D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClustering\bin\Debug\net9.0\SingleLinkageClustering.dll
+  SingleLinkageClusteringTest -> D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\bin\Debug\net9.0\SingleLinkageClusteringTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+]]></string>
+    <string>WritePatch: Code is Complete.
+SingleLinkageClusteringTest</string>
+    <string>[INFO 2025-02-23 6:50:12 AM] Starting test for project: D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj</string>
+    <string>[INFO 2025-02-23 6:50:12 AM] Starting test for project: D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj</string>
+    <string>[INFO 2025-02-23 6:50:12 AM] Starting test for project: D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj</string>
+    <string>[INFO 2025-02-23 6:50:12 AM] Starting test for project: D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj</string>
+    <string>[INFO 2025-02-23 6:50:12 AM] Starting test for project: D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj</string>
+    <string>[INFO 2025-02-23 6:50:12 AM] Starting test for project: D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj</string>
+    <string>[INFO 2025-02-23 6:50:12 AM] Starting test for project: D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj</string>
+    <string>[INFO 2025-02-23 6:50:12 AM] Starting test for project: D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj</string>
+    <string>[INFO 2025-02-23 6:50:12 AM] Starting test for project: D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj</string>
+    <string>[INFO 2025-02-23 6:50:12 AM] Starting test for project: D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj</string>
+    <string>[INFO 2025-02-23 6:50:12 AM] Starting test for project: D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj</string>
+    <string>[INFO 2025-02-23 6:50:12 AM] Starting test for project: D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj</string>
+    <string>[INFO 2025-02-23 6:50:12 AM] Starting test for project: D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj</string>
+    <string>[INFO 2025-02-23 6:50:12 AM] Starting test for project: D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj</string>
+    <string>[INFO 2025-02-23 6:50:12 AM] Starting test for project: D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj</string>
+    <string>[INFO 2025-02-23 6:50:12 AM] Starting test for project: D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj</string>
+    <string>[INFO 2025-02-23 6:50:12 AM] Starting test for project: D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj</string>
+    <string>[INFO 2025-02-23 6:50:12 AM] Starting test for project: D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj</string>
+    <string>[INFO 2025-02-23 6:50:12 AM] Starting test for project: D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj</string>
+    <string>[INFO 2025-02-23 6:50:12 AM] Starting test for project: D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj</string>
+    <string>[INFO 2025-02-23 6:50:12 AM] Starting test for project: D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 6:50:23 AM] All tests passed successfully.
+[INFO 2025-02-23 6:50:23 AM] Test process completed. Duration: 10.74 seconds.
+[INFO 2025-02-23 6:50:23 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 6:50:24 AM] Test Run Successful.
+[OUTPUT 2025-02-23 6:50:23 AM]   Passed ClusterPoints_SyntheticLargeDataTest [8 s]
+[OUTPUT 2025-02-23 6:50:18 AM]   Passed ClusterPoints_NullPoints_ReturnsEmptyList [3 ms]
+[OUTPUT 2025-02-23 6:50:17 AM]   Passed ClusterPoints_MultiplePoints_DesiredClusters1_ReturnsSingleCluster [4 ms]
+[OUTPUT 2025-02-23 6:50:17 AM]   Passed ClusterPoints_SinglePoint_ReturnsSingleCluster [4 ms]
+[OUTPUT 2025-02-23 6:50:17 AM]   Passed ClusterPoints_NullDistanceFunc_ReturnsEmptyList [3 ms]
+[OUTPUT 2025-02-23 6:50:17 AM]   Passed ClusterPoints_DesiredClustersLessThan1_TreatedAs1 [3 ms]
+[OUTPUT 2025-02-23 6:50:16 AM]   Passed ClusterPoints_TwoPoints_DesiredClusters2_ReturnsTwoClusters [3 ms]
+[OUTPUT 2025-02-23 6:50:16 AM]   Passed ClusterPoints_TwoPoints_DesiredClusters1_ReturnsOneCluster [4 ms]
+[OUTPUT 2025-02-23 6:50:13 AM]   SingleLinkageClustering -> D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClustering\bin\Debug\net9.0\SingleLinkageClustering.dll
+[OUTPUT 2025-02-23 6:50:13 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 6:50:15 AM] Test Parallelization enabled for D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\bin\Debug\net9.0\SingleLinkageClusteringTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 6:50:14 AM] D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\bin\Debug\net9.0\SingleLinkageClusteringTest.dll
+[OUTPUT 2025-02-23 6:50:14 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:50:14 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:50:14 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:50:14 AM] Test run for D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\bin\Debug\net9.0\SingleLinkageClusteringTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:50:13 AM]   SingleLinkageClusteringTest -> D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\bin\Debug\net9.0\SingleLinkageClusteringTest.dll
+[OUTPUT 2025-02-23 6:50:13 AM]   Determining projects to restore...
+[INFO 2025-02-23 6:50:12 AM] Command: dotnet test "D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:50:12 AM] Starting test for project: D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 6:47:00 AM
+SingleLinkageClustering
+
+WritePatch ran compiler. 2025-02-23 6:47:42 AM
+SingleLinkageClustering
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SingleLinkageClustering -> D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClustering\bin\Debug\net9.0\SingleLinkageClustering.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+
+
+WritePatch: Code is Complete.
+SingleLinkageClustering
+
+WritePatch Started CycleStep. 2025-02-23 6:47:56 AM
+SingleLinkageClusteringTest
+
+WritePatch ran compiler. 2025-02-23 6:48:47 AM
+SingleLinkageClusteringTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj (in 167 ms).
+  1 of 2 projects are up-to-date for restore.
+  SingleLinkageClustering -> D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClustering\bin\Debug\net9.0\SingleLinkageClustering.dll
+D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClustererTests.cs(15,60): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj]
+D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClustererTests.cs(16,64): warning CS8604: Possible null reference argument for parameter 'points' in 'List<List<int>> SingleLinkageClusterer<int>.ClusterPoints(IList<int> points, Func<int, int, double> distanceFunc, int desiredClusters)'. [D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj]
+D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClustererTests.cs(30,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj]
+  SingleLinkageClusteringTest -> D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\bin\Debug\net9.0\SingleLinkageClusteringTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClustererTests.cs(15,60): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj]
+D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClustererTests.cs(16,64): warning CS8604: Possible null reference argument for parameter 'points' in 'List<List<int>> SingleLinkageClusterer<int>.ClusterPoints(IList<int> points, Func<int, int, double> distanceFunc, int desiredClusters)'. [D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj]
+D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClustererTests.cs(30,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.20
+
+
+WritePatch: Compile failed.
+SingleLinkageClusteringTest
+
+Finished WritePatch cycle step.
+2025-02-23 6:48:47 AM
+SingleLinkageClusteringTest
+
+WritePatch Started CycleStep. 2025-02-23 6:48:47 AM
+SingleLinkageClusteringTest
+
+WritePatch ran compiler. 2025-02-23 6:49:54 AM
+SingleLinkageClusteringTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SingleLinkageClustering -> D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClustering\bin\Debug\net9.0\SingleLinkageClustering.dll
+  SingleLinkageClusteringTest -> D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\bin\Debug\net9.0\SingleLinkageClusteringTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+
+
+WritePatch: Code is Complete.
+SingleLinkageClusteringTest
+
+TestResult:
+[SUCCESS 2025-02-23 6:50:23 AM] All tests passed successfully.
+[INFO 2025-02-23 6:50:23 AM] Test process completed. Duration: 10.74 seconds.
+[INFO 2025-02-23 6:50:23 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 6:50:24 AM] Test Run Successful.
+[OUTPUT 2025-02-23 6:50:23 AM]   Passed ClusterPoints_SyntheticLargeDataTest [8 s]
+[OUTPUT 2025-02-23 6:50:18 AM]   Passed ClusterPoints_NullPoints_ReturnsEmptyList [3 ms]
+[OUTPUT 2025-02-23 6:50:17 AM]   Passed ClusterPoints_MultiplePoints_DesiredClusters1_ReturnsSingleCluster [4 ms]
+[OUTPUT 2025-02-23 6:50:17 AM]   Passed ClusterPoints_SinglePoint_ReturnsSingleCluster [4 ms]
+[OUTPUT 2025-02-23 6:50:17 AM]   Passed ClusterPoints_NullDistanceFunc_ReturnsEmptyList [3 ms]
+[OUTPUT 2025-02-23 6:50:17 AM]   Passed ClusterPoints_DesiredClustersLessThan1_TreatedAs1 [3 ms]
+[OUTPUT 2025-02-23 6:50:16 AM]   Passed ClusterPoints_TwoPoints_DesiredClusters2_ReturnsTwoClusters [3 ms]
+[OUTPUT 2025-02-23 6:50:16 AM]   Passed ClusterPoints_TwoPoints_DesiredClusters1_ReturnsOneCluster [4 ms]
+[OUTPUT 2025-02-23 6:50:13 AM]   SingleLinkageClustering -> D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClustering\bin\Debug\net9.0\SingleLinkageClustering.dll
+[OUTPUT 2025-02-23 6:50:13 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 6:50:15 AM] Test Parallelization enabled for D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\bin\Debug\net9.0\SingleLinkageClusteringTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 6:50:14 AM] D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\bin\Debug\net9.0\SingleLinkageClusteringTest.dll
+[OUTPUT 2025-02-23 6:50:14 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:50:14 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:50:14 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:50:14 AM] Test run for D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\bin\Debug\net9.0\SingleLinkageClusteringTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:50:13 AM]   SingleLinkageClusteringTest -> D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\bin\Debug\net9.0\SingleLinkageClusteringTest.dll
+[OUTPUT 2025-02-23 6:50:13 AM]   Determining projects to restore...
+[INFO 2025-02-23 6:50:12 AM] Command: dotnet test "D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:50:12 AM] Starting test for project: D:\Code2025\RavenWork\SingleLinkageClustering\SingleLinkageClusteringTest\SingleLinkageClusteringTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
