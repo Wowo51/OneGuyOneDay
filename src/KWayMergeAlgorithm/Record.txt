@@ -1,0 +1,522 @@
+<ActRecord>
+  <ProjectName>KWayMergeAlgorithm</ProjectName>
+  <ProjectDescription>k‑way merge algorithm</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>k‑way merge algorithm</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\KWayMergeAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>KWayMergeAlgorithm</ProjectFolderName>
+  <ProjectName>KWayMergeAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:02:19 PM
+KWayMergeAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:02:50 PM
+KWayMergeAlgorithm</string>
+    <string>CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMerge.cs(14,17): error CS1622: Cannot return a value from an iterator. Use the yield return statement to return a value, or yield break to end the iteration. [D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMergeAlgorithm.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMerge.cs(14,17): error CS1622: Cannot return a value from an iterator. Use the yield return statement to return a value, or yield break to end the iteration. [D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMergeAlgorithm.csproj]
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.88
+
+
+Errors:</string>
+    <string>WritePatch: Compile failed.
+KWayMergeAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:02:51 PM
+KWayMergeAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:02:51 PM
+KWayMergeAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:03:22 PM
+KWayMergeAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMerge.cs(7,25): error CS0101: The namespace 'KWayMergeAlgorithm' already contains a definition for 'KWayMerge' [D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMergeAlgorithm.csproj]
+D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMerge.cs(9,38): error CS0111: Type 'KWayMerge' already defines a member called 'Merge' with the same parameter types [D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMergeAlgorithm.csproj]
+D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMerge.cs(52,22): error CS0111: Type 'KWayMerge.QueueNode<T>' already defines a member called 'QueueNode' with the same parameter types [D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMergeAlgorithm.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMerge.cs(7,25): error CS0101: The namespace 'KWayMergeAlgorithm' already contains a definition for 'KWayMerge' [D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMergeAlgorithm.csproj]
+D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMerge.cs(9,38): error CS0111: Type 'KWayMerge' already defines a member called 'Merge' with the same parameter types [D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMergeAlgorithm.csproj]
+D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMerge.cs(52,22): error CS0111: Type 'KWayMerge.QueueNode<T>' already defines a member called 'QueueNode' with the same parameter types [D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMergeAlgorithm.csproj]
+    0 Warning(s)
+    3 Error(s)
+
+Time Elapsed 00:00:02.22
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+KWayMergeAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:03:25 PM
+KWayMergeAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:03:26 PM
+KWayMergeAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:04:20 PM
+KWayMergeAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KWayMergeAlgorithm -> D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\bin\Debug\net9.0\KWayMergeAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.84
+]]></string>
+    <string>WritePatch: Code is Complete.
+KWayMergeAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:04:37 PM
+KWayMergeAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:05:23 PM
+KWayMergeAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeAlgorithmTest.csproj (in 407 ms).
+  1 of 2 projects are up-to-date for restore.
+  KWayMergeAlgorithm -> D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\bin\Debug\net9.0\KWayMergeAlgorithm.dll
+D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeTests.cs(15,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeAlgorithmTest.csproj]
+  KWayMergeAlgorithmTest -> D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\bin\Debug\net9.0\KWayMergeAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeTests.cs(15,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.96
+]]></string>
+    <string>WritePatch: Compile failed.
+KWayMergeAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:05:24 PM
+KWayMergeAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:05:25 PM
+KWayMergeAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:05:49 PM
+KWayMergeAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KWayMergeAlgorithm -> D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\bin\Debug\net9.0\KWayMergeAlgorithm.dll
+  KWayMergeAlgorithmTest -> D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\bin\Debug\net9.0\KWayMergeAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.91
+]]></string>
+    <string>WritePatch: Code is not Complete.
+KWayMergeAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:06:05 PM
+KWayMergeAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:06:05 PM
+KWayMergeAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:07:00 PM
+KWayMergeAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KWayMergeAlgorithm -> D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\bin\Debug\net9.0\KWayMergeAlgorithm.dll
+D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeTests.cs(15,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeTests.cs(147,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeAlgorithmTest.csproj]
+  KWayMergeAlgorithmTest -> D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\bin\Debug\net9.0\KWayMergeAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeTests.cs(15,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeTests.cs(147,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.39
+]]></string>
+    <string>WritePatch: Compile failed.
+KWayMergeAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:07:02 PM
+KWayMergeAlgorithmTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KWayMergeAlgorithm -> D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\bin\Debug\net9.0\KWayMergeAlgorithm.dll
+D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeTests.cs(15,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeTests.cs(147,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeAlgorithmTest.csproj]
+  KWayMergeAlgorithmTest -> D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\bin\Debug\net9.0\KWayMergeAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeTests.cs(15,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeTests.cs(147,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.39
+
+</CompilerResponse>
+2025-02-23 7:07:03 PM
+KWayMergeAlgorithmTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 7:07:06 PM
+KWayMergeAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KWayMergeAlgorithm -> D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\bin\Debug\net9.0\KWayMergeAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.74
+]]></string>
+    <string>WritePatch: Code is Complete.
+KWayMergeAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:07:22 PM
+KWayMergeAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KWayMergeAlgorithm -> D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\bin\Debug\net9.0\KWayMergeAlgorithm.dll
+  KWayMergeAlgorithmTest -> D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\bin\Debug\net9.0\KWayMergeAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.99
+]]></string>
+    <string>WritePatch: Code is Complete.
+KWayMergeAlgorithmTest</string>
+    <string>[INFO 2025-02-23 7:07:34 PM] Starting test for project: D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:07:34 PM] Starting test for project: D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:07:34 PM] Starting test for project: D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:07:34 PM] Starting test for project: D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:07:34 PM] Starting test for project: D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:07:34 PM] Starting test for project: D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:07:34 PM] Starting test for project: D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:07:34 PM] Starting test for project: D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:07:34 PM] Starting test for project: D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:07:34 PM] Starting test for project: D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:07:34 PM] Starting test for project: D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:07:34 PM] Starting test for project: D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 7:07:41 PM] Test Parallelization enabled for D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\bin\Debug\net9.0\KWayMergeAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:07:35 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:07:40 PM] D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\bin\Debug\net9.0\KWayMergeAlgorithmTest.dll
+[OUTPUT 2025-02-23 7:07:39 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:07:38 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:07:37 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:07:37 PM] Test run for D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\bin\Debug\net9.0\KWayMergeAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:07:36 PM]   KWayMergeAlgorithmTest -> D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\bin\Debug\net9.0\KWayMergeAlgorithmTest.dll
+[OUTPUT 2025-02-23 7:07:36 PM]   KWayMergeAlgorithm -> D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\bin\Debug\net9.0\KWayMergeAlgorithm.dll
+[OUTPUT 2025-02-23 7:07:35 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 7:07:40 PM] All tests passed successfully.
+[INFO 2025-02-23 7:07:40 PM] Test process completed. Duration: 6.55 seconds.
+[INFO 2025-02-23 7:07:40 PM] Process exited with code 0.
+[INFO 2025-02-23 7:07:34 PM] Command: dotnet test "D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:07:34 PM] Starting test for project: D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 7:02:19 PM
+KWayMergeAlgorithm
+
+WritePatch ran compiler. 2025-02-23 7:02:50 PM
+KWayMergeAlgorithm
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMerge.cs(14,17): error CS1622: Cannot return a value from an iterator. Use the yield return statement to return a value, or yield break to end the iteration. [D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMergeAlgorithm.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMerge.cs(14,17): error CS1622: Cannot return a value from an iterator. Use the yield return statement to return a value, or yield break to end the iteration. [D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMergeAlgorithm.csproj]
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.88
+
+
+Errors:
+
+WritePatch: Compile failed.
+KWayMergeAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 7:02:51 PM
+KWayMergeAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 7:02:51 PM
+KWayMergeAlgorithm
+
+WritePatch ran compiler. 2025-02-23 7:03:22 PM
+KWayMergeAlgorithm
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMerge.cs(7,25): error CS0101: The namespace 'KWayMergeAlgorithm' already contains a definition for 'KWayMerge' [D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMergeAlgorithm.csproj]
+D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMerge.cs(9,38): error CS0111: Type 'KWayMerge' already defines a member called 'Merge' with the same parameter types [D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMergeAlgorithm.csproj]
+D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMerge.cs(52,22): error CS0111: Type 'KWayMerge.QueueNode<T>' already defines a member called 'QueueNode' with the same parameter types [D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMergeAlgorithm.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMerge.cs(7,25): error CS0101: The namespace 'KWayMergeAlgorithm' already contains a definition for 'KWayMerge' [D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMergeAlgorithm.csproj]
+D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMerge.cs(9,38): error CS0111: Type 'KWayMerge' already defines a member called 'Merge' with the same parameter types [D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMergeAlgorithm.csproj]
+D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMerge.cs(52,22): error CS0111: Type 'KWayMerge.QueueNode<T>' already defines a member called 'QueueNode' with the same parameter types [D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\KWayMergeAlgorithm.csproj]
+    0 Warning(s)
+    3 Error(s)
+
+Time Elapsed 00:00:02.22
+
+
+Errors:
+
+WritePatch: Compile failed.
+KWayMergeAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 7:03:25 PM
+KWayMergeAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 7:03:26 PM
+KWayMergeAlgorithm
+
+WritePatch ran compiler. 2025-02-23 7:04:20 PM
+KWayMergeAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KWayMergeAlgorithm -> D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\bin\Debug\net9.0\KWayMergeAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.84
+
+
+WritePatch: Code is Complete.
+KWayMergeAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 7:04:37 PM
+KWayMergeAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 7:05:23 PM
+KWayMergeAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeAlgorithmTest.csproj (in 407 ms).
+  1 of 2 projects are up-to-date for restore.
+  KWayMergeAlgorithm -> D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\bin\Debug\net9.0\KWayMergeAlgorithm.dll
+D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeTests.cs(15,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeAlgorithmTest.csproj]
+  KWayMergeAlgorithmTest -> D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\bin\Debug\net9.0\KWayMergeAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeTests.cs(15,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.96
+
+
+WritePatch: Compile failed.
+KWayMergeAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:05:24 PM
+KWayMergeAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 7:05:25 PM
+KWayMergeAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 7:05:49 PM
+KWayMergeAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KWayMergeAlgorithm -> D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\bin\Debug\net9.0\KWayMergeAlgorithm.dll
+  KWayMergeAlgorithmTest -> D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\bin\Debug\net9.0\KWayMergeAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.91
+
+
+WritePatch: Code is not Complete.
+KWayMergeAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:06:05 PM
+KWayMergeAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 7:06:05 PM
+KWayMergeAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 7:07:00 PM
+KWayMergeAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KWayMergeAlgorithm -> D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\bin\Debug\net9.0\KWayMergeAlgorithm.dll
+D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeTests.cs(15,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeTests.cs(147,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeAlgorithmTest.csproj]
+  KWayMergeAlgorithmTest -> D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\bin\Debug\net9.0\KWayMergeAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeTests.cs(15,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeTests.cs(147,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.39
+
+
+WritePatch: Compile failed.
+KWayMergeAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:07:02 PM
+KWayMergeAlgorithmTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KWayMergeAlgorithm -> D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\bin\Debug\net9.0\KWayMergeAlgorithm.dll
+D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeTests.cs(15,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeTests.cs(147,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeAlgorithmTest.csproj]
+  KWayMergeAlgorithmTest -> D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\bin\Debug\net9.0\KWayMergeAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeTests.cs(15,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeTests.cs(147,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.39
+
+</CompilerResponse>
+2025-02-23 7:07:03 PM
+KWayMergeAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 7:07:06 PM
+KWayMergeAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KWayMergeAlgorithm -> D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\bin\Debug\net9.0\KWayMergeAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.74
+
+
+WritePatch: Code is Complete.
+KWayMergeAlgorithm
+
+WritePatch ran compiler. 2025-02-23 7:07:22 PM
+KWayMergeAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KWayMergeAlgorithm -> D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\bin\Debug\net9.0\KWayMergeAlgorithm.dll
+  KWayMergeAlgorithmTest -> D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\bin\Debug\net9.0\KWayMergeAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.99
+
+
+WritePatch: Code is Complete.
+KWayMergeAlgorithmTest
+
+TestResult:
+[OUTPUT 2025-02-23 7:07:41 PM] Test Parallelization enabled for D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\bin\Debug\net9.0\KWayMergeAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:07:35 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:07:40 PM] D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\bin\Debug\net9.0\KWayMergeAlgorithmTest.dll
+[OUTPUT 2025-02-23 7:07:39 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:07:38 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:07:37 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:07:37 PM] Test run for D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\bin\Debug\net9.0\KWayMergeAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:07:36 PM]   KWayMergeAlgorithmTest -> D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\bin\Debug\net9.0\KWayMergeAlgorithmTest.dll
+[OUTPUT 2025-02-23 7:07:36 PM]   KWayMergeAlgorithm -> D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithm\bin\Debug\net9.0\KWayMergeAlgorithm.dll
+[OUTPUT 2025-02-23 7:07:35 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 7:07:40 PM] All tests passed successfully.
+[INFO 2025-02-23 7:07:40 PM] Test process completed. Duration: 6.55 seconds.
+[INFO 2025-02-23 7:07:40 PM] Process exited with code 0.
+[INFO 2025-02-23 7:07:34 PM] Command: dotnet test "D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:07:34 PM] Starting test for project: D:\Code2025\RavenWork\KWayMergeAlgorithm\KWayMergeAlgorithmTest\KWayMergeAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
