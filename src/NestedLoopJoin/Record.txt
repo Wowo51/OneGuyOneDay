@@ -1,0 +1,220 @@
+<ActRecord>
+  <ProjectName>NestedLoopJoin</ProjectName>
+  <ProjectDescription>Nested loop join</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Nested loop join</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\NestedLoopJoin</SolutionFolderPath>
+  <ProjectFolderName>NestedLoopJoin</ProjectFolderName>
+  <ProjectName>NestedLoopJoin</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:58:52 PM
+NestedLoopJoin</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:59:16 PM
+NestedLoopJoin</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  NestedLoopJoin -> D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoin\bin\Debug\net9.0\NestedLoopJoin.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.67
+]]></string>
+    <string>WritePatch: Code is Complete.
+NestedLoopJoin</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:59:29 PM
+NestedLoopJoinTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:00:26 PM
+NestedLoopJoinTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTest.csproj (in 1.09 sec).
+  1 of 2 projects are up-to-date for restore.
+  NestedLoopJoin -> D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoin\bin\Debug\net9.0\NestedLoopJoin.dll
+D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTests.cs(75,84): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTest.csproj]
+D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTests.cs(77,90): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTest.csproj]
+D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTests.cs(79,97): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTest.csproj]
+D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTests.cs(81,121): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTest.csproj]
+  NestedLoopJoinTest -> D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\bin\Debug\net9.0\NestedLoopJoinTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTests.cs(75,84): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTest.csproj]
+D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTests.cs(77,90): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTest.csproj]
+D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTests.cs(79,97): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTest.csproj]
+D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTests.cs(81,121): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.16
+]]></string>
+    <string>WritePatch: Compile failed.
+NestedLoopJoinTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:00:27 PM
+NestedLoopJoinTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:00:28 PM
+NestedLoopJoinTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:01:02 PM
+NestedLoopJoinTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  NestedLoopJoin -> D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoin\bin\Debug\net9.0\NestedLoopJoin.dll
+  NestedLoopJoinTest -> D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\bin\Debug\net9.0\NestedLoopJoinTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.65
+]]></string>
+    <string>WritePatch: Code is Complete.
+NestedLoopJoinTest</string>
+    <string>[INFO 2025-02-23 2:01:25 PM] Starting test for project: D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTest.csproj</string>
+    <string>[INFO 2025-02-23 2:01:25 PM] Starting test for project: D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTest.csproj</string>
+    <string>[INFO 2025-02-23 2:01:25 PM] Starting test for project: D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTest.csproj</string>
+    <string>[INFO 2025-02-23 2:01:25 PM] Starting test for project: D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTest.csproj</string>
+    <string>[INFO 2025-02-23 2:01:25 PM] Starting test for project: D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTest.csproj</string>
+    <string>[INFO 2025-02-23 2:01:25 PM] Starting test for project: D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTest.csproj</string>
+    <string>[INFO 2025-02-23 2:01:25 PM] Starting test for project: D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTest.csproj</string>
+    <string>[INFO 2025-02-23 2:01:25 PM] Starting test for project: D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTest.csproj</string>
+    <string>[INFO 2025-02-23 2:01:25 PM] Starting test for project: D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTest.csproj</string>
+    <string>[INFO 2025-02-23 2:01:25 PM] Starting test for project: D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTest.csproj</string>
+    <string>[INFO 2025-02-23 2:01:25 PM] Starting test for project: D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTest.csproj</string>
+    <string>[INFO 2025-02-23 2:01:25 PM] Starting test for project: D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTest.csproj</string>
+    <string>[INFO 2025-02-23 2:01:25 PM] Starting test for project: D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 2:01:30 PM] All tests passed successfully.
+[INFO 2025-02-23 2:01:30 PM] Test process completed. Duration: 5.20 seconds.
+[INFO 2025-02-23 2:01:30 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 2:01:27 PM]   NestedLoopJoin -> D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoin\bin\Debug\net9.0\NestedLoopJoin.dll
+[OUTPUT 2025-02-23 2:01:29 PM] D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\bin\Debug\net9.0\NestedLoopJoinTest.dll
+[OUTPUT 2025-02-23 2:01:29 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 2:01:29 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 2:01:26 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 2:01:30 PM]   Passed TestJoin_CustomResultSelector [6 ms]
+[OUTPUT 2025-02-23 2:01:30 PM] Test Parallelization enabled for D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\bin\Debug\net9.0\NestedLoopJoinTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 2:01:28 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 2:01:28 PM] Test run for D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\bin\Debug\net9.0\NestedLoopJoinTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 2:01:27 PM]   NestedLoopJoinTest -> D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\bin\Debug\net9.0\NestedLoopJoinTest.dll
+[OUTPUT 2025-02-23 2:01:26 PM]   Determining projects to restore...
+[INFO 2025-02-23 2:01:25 PM] Command: dotnet test "D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 2:01:25 PM] Starting test for project: D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 1:58:52 PM
+NestedLoopJoin
+
+WritePatch ran compiler. 2025-02-23 1:59:16 PM
+NestedLoopJoin
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  NestedLoopJoin -> D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoin\bin\Debug\net9.0\NestedLoopJoin.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.67
+
+
+WritePatch: Code is Complete.
+NestedLoopJoin
+
+WritePatch Started CycleStep. 2025-02-23 1:59:29 PM
+NestedLoopJoinTest
+
+WritePatch ran compiler. 2025-02-23 2:00:26 PM
+NestedLoopJoinTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTest.csproj (in 1.09 sec).
+  1 of 2 projects are up-to-date for restore.
+  NestedLoopJoin -> D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoin\bin\Debug\net9.0\NestedLoopJoin.dll
+D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTests.cs(75,84): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTest.csproj]
+D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTests.cs(77,90): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTest.csproj]
+D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTests.cs(79,97): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTest.csproj]
+D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTests.cs(81,121): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTest.csproj]
+  NestedLoopJoinTest -> D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\bin\Debug\net9.0\NestedLoopJoinTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTests.cs(75,84): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTest.csproj]
+D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTests.cs(77,90): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTest.csproj]
+D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTests.cs(79,97): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTest.csproj]
+D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTests.cs(81,121): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.16
+
+
+WritePatch: Compile failed.
+NestedLoopJoinTest
+
+Finished WritePatch cycle step.
+2025-02-23 2:00:27 PM
+NestedLoopJoinTest
+
+WritePatch Started CycleStep. 2025-02-23 2:00:28 PM
+NestedLoopJoinTest
+
+WritePatch ran compiler. 2025-02-23 2:01:02 PM
+NestedLoopJoinTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  NestedLoopJoin -> D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoin\bin\Debug\net9.0\NestedLoopJoin.dll
+  NestedLoopJoinTest -> D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\bin\Debug\net9.0\NestedLoopJoinTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.65
+
+
+WritePatch: Code is Complete.
+NestedLoopJoinTest
+
+TestResult:
+[SUCCESS 2025-02-23 2:01:30 PM] All tests passed successfully.
+[INFO 2025-02-23 2:01:30 PM] Test process completed. Duration: 5.20 seconds.
+[INFO 2025-02-23 2:01:30 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 2:01:27 PM]   NestedLoopJoin -> D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoin\bin\Debug\net9.0\NestedLoopJoin.dll
+[OUTPUT 2025-02-23 2:01:29 PM] D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\bin\Debug\net9.0\NestedLoopJoinTest.dll
+[OUTPUT 2025-02-23 2:01:29 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 2:01:29 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 2:01:26 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 2:01:30 PM]   Passed TestJoin_CustomResultSelector [6 ms]
+[OUTPUT 2025-02-23 2:01:30 PM] Test Parallelization enabled for D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\bin\Debug\net9.0\NestedLoopJoinTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 2:01:28 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 2:01:28 PM] Test run for D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\bin\Debug\net9.0\NestedLoopJoinTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 2:01:27 PM]   NestedLoopJoinTest -> D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\bin\Debug\net9.0\NestedLoopJoinTest.dll
+[OUTPUT 2025-02-23 2:01:26 PM]   Determining projects to restore...
+[INFO 2025-02-23 2:01:25 PM] Command: dotnet test "D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 2:01:25 PM] Starting test for project: D:\Code2025\RavenWork\NestedLoopJoin\NestedLoopJoinTest\NestedLoopJoinTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
