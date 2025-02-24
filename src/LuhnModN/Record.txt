@@ -1,0 +1,379 @@
+<ActRecord>
+  <ProjectName>LuhnModN</ProjectName>
+  <ProjectDescription>Luhn mod N algorithm: Extension of Luhn to non‑numeric characters</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Luhn mod N algorithm: Extension of Luhn to non‑numeric characters</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\LuhnModN</SolutionFolderPath>
+  <ProjectFolderName>LuhnModN</ProjectFolderName>
+  <ProjectName>LuhnModN</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:09:47 AM
+LuhnModN</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:11:53 AM
+LuhnModN</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LuhnModN -> D:\Code2025\RavenWork\LuhnModN\LuhnModN\bin\Debug\net9.0\LuhnModN.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.78
+]]></string>
+    <string>WritePatch: Code is Complete.
+LuhnModN</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:12:17 AM
+LuhnModNTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:13:33 AM
+LuhnModNTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnModNTest.csproj (in 228 ms).
+  1 of 2 projects are up-to-date for restore.
+  LuhnModN -> D:\Code2025\RavenWork\LuhnModN\LuhnModN\bin\Debug\net9.0\LuhnModN.dll
+D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnTests.cs(14,66): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnModNTest.csproj]
+  LuhnModNTest -> D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\bin\Debug\net9.0\LuhnModNTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnTests.cs(14,66): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnModNTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.53
+]]></string>
+    <string>WritePatch: Compile failed.
+LuhnModNTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:13:34 AM
+LuhnModNTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:13:35 AM
+LuhnModNTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:14:13 AM
+LuhnModNTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LuhnModN -> D:\Code2025\RavenWork\LuhnModN\LuhnModN\bin\Debug\net9.0\LuhnModN.dll
+  LuhnModNTest -> D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\bin\Debug\net9.0\LuhnModNTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.12
+]]></string>
+    <string>WritePatch: Code is not Complete.
+LuhnModNTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:14:29 AM
+LuhnModNTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:14:29 AM
+LuhnModNTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:16:39 AM
+LuhnModNTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LuhnModN -> D:\Code2025\RavenWork\LuhnModN\LuhnModN\bin\Debug\net9.0\LuhnModN.dll
+D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnTests.cs(14,66): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnModNTest.csproj]
+  LuhnModNTest -> D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\bin\Debug\net9.0\LuhnModNTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnTests.cs(14,66): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnModNTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.00
+]]></string>
+    <string>WritePatch: Compile failed.
+LuhnModNTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:16:39 AM
+LuhnModNTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\LuhnModN\LuhnModNTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LuhnModN -> D:\Code2025\RavenWork\LuhnModN\LuhnModN\bin\Debug\net9.0\LuhnModN.dll
+D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnTests.cs(14,66): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnModNTest.csproj]
+  LuhnModNTest -> D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\bin\Debug\net9.0\LuhnModNTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnTests.cs(14,66): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnModNTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.00
+
+</CompilerResponse>
+2025-02-23 8:16:40 AM
+LuhnModNTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 8:16:41 AM
+LuhnModN</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LuhnModN -> D:\Code2025\RavenWork\LuhnModN\LuhnModN\bin\Debug\net9.0\LuhnModN.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.79
+]]></string>
+    <string>WritePatch: Code is Complete.
+LuhnModN</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:17:20 AM
+LuhnModNTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LuhnModN -> D:\Code2025\RavenWork\LuhnModN\LuhnModN\bin\Debug\net9.0\LuhnModN.dll
+  LuhnModNTest -> D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\bin\Debug\net9.0\LuhnModNTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+]]></string>
+    <string>WritePatch: Code is Complete.
+LuhnModNTest</string>
+    <string>[INFO 2025-02-23 8:18:01 AM] Starting test for project: D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnModNTest.csproj</string>
+    <string>[INFO 2025-02-23 8:18:01 AM] Starting test for project: D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnModNTest.csproj</string>
+    <string>[INFO 2025-02-23 8:18:01 AM] Starting test for project: D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnModNTest.csproj</string>
+    <string>[INFO 2025-02-23 8:18:01 AM] Starting test for project: D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnModNTest.csproj</string>
+    <string>[INFO 2025-02-23 8:18:01 AM] Starting test for project: D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnModNTest.csproj</string>
+    <string>[INFO 2025-02-23 8:18:01 AM] Starting test for project: D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnModNTest.csproj</string>
+    <string>[INFO 2025-02-23 8:18:01 AM] Starting test for project: D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnModNTest.csproj</string>
+    <string>[INFO 2025-02-23 8:18:01 AM] Starting test for project: D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnModNTest.csproj</string>
+    <string>[INFO 2025-02-23 8:18:01 AM] Starting test for project: D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnModNTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 8:18:04 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:18:04 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:18:03 AM] Test run for D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\bin\Debug\net9.0\LuhnModNTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:18:02 AM]   LuhnModNTest -> D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\bin\Debug\net9.0\LuhnModNTest.dll
+[OUTPUT 2025-02-23 8:18:02 AM]   LuhnModN -> D:\Code2025\RavenWork\LuhnModN\LuhnModN\bin\Debug\net9.0\LuhnModN.dll
+[OUTPUT 2025-02-23 8:18:02 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:18:01 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 8:18:04 AM] All tests passed successfully.
+[INFO 2025-02-23 8:18:04 AM] Test process completed. Duration: 3.06 seconds.
+[INFO 2025-02-23 8:18:04 AM] Process exited with code 0.
+[INFO 2025-02-23 8:18:01 AM] Command: dotnet test "D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnModNTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:18:01 AM] Starting test for project: D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnModNTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 8:09:47 AM
+LuhnModN
+
+WritePatch ran compiler. 2025-02-23 8:11:53 AM
+LuhnModN
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LuhnModN -> D:\Code2025\RavenWork\LuhnModN\LuhnModN\bin\Debug\net9.0\LuhnModN.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.78
+
+
+WritePatch: Code is Complete.
+LuhnModN
+
+WritePatch Started CycleStep. 2025-02-23 8:12:17 AM
+LuhnModNTest
+
+WritePatch ran compiler. 2025-02-23 8:13:33 AM
+LuhnModNTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnModNTest.csproj (in 228 ms).
+  1 of 2 projects are up-to-date for restore.
+  LuhnModN -> D:\Code2025\RavenWork\LuhnModN\LuhnModN\bin\Debug\net9.0\LuhnModN.dll
+D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnTests.cs(14,66): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnModNTest.csproj]
+  LuhnModNTest -> D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\bin\Debug\net9.0\LuhnModNTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnTests.cs(14,66): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnModNTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.53
+
+
+WritePatch: Compile failed.
+LuhnModNTest
+
+Finished WritePatch cycle step.
+2025-02-23 8:13:34 AM
+LuhnModNTest
+
+WritePatch Started CycleStep. 2025-02-23 8:13:35 AM
+LuhnModNTest
+
+WritePatch ran compiler. 2025-02-23 8:14:13 AM
+LuhnModNTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LuhnModN -> D:\Code2025\RavenWork\LuhnModN\LuhnModN\bin\Debug\net9.0\LuhnModN.dll
+  LuhnModNTest -> D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\bin\Debug\net9.0\LuhnModNTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.12
+
+
+WritePatch: Code is not Complete.
+LuhnModNTest
+
+Finished WritePatch cycle step.
+2025-02-23 8:14:29 AM
+LuhnModNTest
+
+WritePatch Started CycleStep. 2025-02-23 8:14:29 AM
+LuhnModNTest
+
+WritePatch ran compiler. 2025-02-23 8:16:39 AM
+LuhnModNTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LuhnModN -> D:\Code2025\RavenWork\LuhnModN\LuhnModN\bin\Debug\net9.0\LuhnModN.dll
+D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnTests.cs(14,66): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnModNTest.csproj]
+  LuhnModNTest -> D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\bin\Debug\net9.0\LuhnModNTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnTests.cs(14,66): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnModNTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.00
+
+
+WritePatch: Compile failed.
+LuhnModNTest
+
+Finished WritePatch cycle step.
+2025-02-23 8:16:39 AM
+LuhnModNTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\LuhnModN\LuhnModNTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LuhnModN -> D:\Code2025\RavenWork\LuhnModN\LuhnModN\bin\Debug\net9.0\LuhnModN.dll
+D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnTests.cs(14,66): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnModNTest.csproj]
+  LuhnModNTest -> D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\bin\Debug\net9.0\LuhnModNTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnTests.cs(14,66): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnModNTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.00
+
+</CompilerResponse>
+2025-02-23 8:16:40 AM
+LuhnModNTest
+
+WritePatch ran compiler. 2025-02-23 8:16:41 AM
+LuhnModN
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LuhnModN -> D:\Code2025\RavenWork\LuhnModN\LuhnModN\bin\Debug\net9.0\LuhnModN.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.79
+
+
+WritePatch: Code is Complete.
+LuhnModN
+
+WritePatch ran compiler. 2025-02-23 8:17:20 AM
+LuhnModNTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LuhnModN -> D:\Code2025\RavenWork\LuhnModN\LuhnModN\bin\Debug\net9.0\LuhnModN.dll
+  LuhnModNTest -> D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\bin\Debug\net9.0\LuhnModNTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+
+
+WritePatch: Code is Complete.
+LuhnModNTest
+
+TestResult:
+[OUTPUT 2025-02-23 8:18:04 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:18:04 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:18:03 AM] Test run for D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\bin\Debug\net9.0\LuhnModNTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:18:02 AM]   LuhnModNTest -> D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\bin\Debug\net9.0\LuhnModNTest.dll
+[OUTPUT 2025-02-23 8:18:02 AM]   LuhnModN -> D:\Code2025\RavenWork\LuhnModN\LuhnModN\bin\Debug\net9.0\LuhnModN.dll
+[OUTPUT 2025-02-23 8:18:02 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:18:01 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 8:18:04 AM] All tests passed successfully.
+[INFO 2025-02-23 8:18:04 AM] Test process completed. Duration: 3.06 seconds.
+[INFO 2025-02-23 8:18:04 AM] Process exited with code 0.
+[INFO 2025-02-23 8:18:01 AM] Command: dotnet test "D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnModNTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:18:01 AM] Starting test for project: D:\Code2025\RavenWork\LuhnModN\LuhnModNTest\LuhnModNTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
