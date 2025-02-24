@@ -1,0 +1,207 @@
+<ActRecord>
+  <ProjectName>RsaDigitalSignature</ProjectName>
+  <ProjectDescription>RSA (also used for digital signatures)</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>RSA (also used for digital signatures)</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\RsaDigitalSignature</SolutionFolderPath>
+  <ProjectFolderName>RsaDigitalSignature</ProjectFolderName>
+  <ProjectName>RsaDigitalSignature</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:43:38 AM
+RsaDigitalSignature</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:44:14 AM
+RsaDigitalSignature</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignature\DigitalSignatureService.cs(9,23): warning CS8618: Non-nullable property 'PublicKey' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignature\RsaDigitalSignature.csproj]
+D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignature\DigitalSignatureService.cs(10,23): warning CS8618: Non-nullable property 'PrivateKey' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignature\RsaDigitalSignature.csproj]
+  RsaDigitalSignature -> D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignature\bin\Debug\net9.0\RsaDigitalSignature.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignature\DigitalSignatureService.cs(9,23): warning CS8618: Non-nullable property 'PublicKey' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignature\RsaDigitalSignature.csproj]
+D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignature\DigitalSignatureService.cs(10,23): warning CS8618: Non-nullable property 'PrivateKey' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignature\RsaDigitalSignature.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+]]></string>
+    <string>WritePatch: Compile failed.
+RsaDigitalSignature</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:44:15 AM
+RsaDigitalSignature</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:44:16 AM
+RsaDigitalSignature</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:44:43 AM
+RsaDigitalSignature</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RsaDigitalSignature -> D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignature\bin\Debug\net9.0\RsaDigitalSignature.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+]]></string>
+    <string>WritePatch: Code is Complete.
+RsaDigitalSignature</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:44:54 AM
+RsaDigitalSignatureTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:45:39 AM
+RsaDigitalSignatureTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignatureTest\RsaDigitalSignatureTest.csproj (in 184 ms).
+  1 of 2 projects are up-to-date for restore.
+  RsaDigitalSignature -> D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignature\bin\Debug\net9.0\RsaDigitalSignature.dll
+  RsaDigitalSignatureTest -> D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignatureTest\bin\Debug\net9.0\RsaDigitalSignatureTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.30
+]]></string>
+    <string>WritePatch: Code is Complete.
+RsaDigitalSignatureTest</string>
+    <string>[INFO 2025-02-23 7:45:53 AM] Starting test for project: D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignatureTest\RsaDigitalSignatureTest.csproj</string>
+    <string>[INFO 2025-02-23 7:45:53 AM] Starting test for project: D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignatureTest\RsaDigitalSignatureTest.csproj</string>
+    <string>[INFO 2025-02-23 7:45:53 AM] Starting test for project: D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignatureTest\RsaDigitalSignatureTest.csproj</string>
+    <string>[INFO 2025-02-23 7:45:53 AM] Starting test for project: D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignatureTest\RsaDigitalSignatureTest.csproj</string>
+    <string>[INFO 2025-02-23 7:45:53 AM] Starting test for project: D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignatureTest\RsaDigitalSignatureTest.csproj</string>
+    <string>[INFO 2025-02-23 7:45:53 AM] Starting test for project: D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignatureTest\RsaDigitalSignatureTest.csproj</string>
+    <string>[INFO 2025-02-23 7:45:53 AM] Starting test for project: D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignatureTest\RsaDigitalSignatureTest.csproj</string>
+    <string>[INFO 2025-02-23 7:45:53 AM] Starting test for project: D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignatureTest\RsaDigitalSignatureTest.csproj</string>
+    <string>[INFO 2025-02-23 7:45:53 AM] Starting test for project: D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignatureTest\RsaDigitalSignatureTest.csproj</string>
+    <string>[INFO 2025-02-23 7:45:53 AM] Starting test for project: D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignatureTest\RsaDigitalSignatureTest.csproj</string>
+    <string>[INFO 2025-02-23 7:45:53 AM] Starting test for project: D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignatureTest\RsaDigitalSignatureTest.csproj</string>
+    <string>[INFO 2025-02-23 7:45:53 AM] Starting test for project: D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignatureTest\RsaDigitalSignatureTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 7:45:56 AM] All tests passed successfully.
+[INFO 2025-02-23 7:45:56 AM] Test process completed. Duration: 3.25 seconds.
+[INFO 2025-02-23 7:45:56 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 7:45:57 AM] Test Parallelization enabled for D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignatureTest\bin\Debug\net9.0\RsaDigitalSignatureTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:45:56 AM] D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignatureTest\bin\Debug\net9.0\RsaDigitalSignatureTest.dll
+[OUTPUT 2025-02-23 7:45:56 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:45:56 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:45:55 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:45:55 AM] Test run for D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignatureTest\bin\Debug\net9.0\RsaDigitalSignatureTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:45:55 AM]   RsaDigitalSignatureTest -> D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignatureTest\bin\Debug\net9.0\RsaDigitalSignatureTest.dll
+[OUTPUT 2025-02-23 7:45:55 AM]   RsaDigitalSignature -> D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignature\bin\Debug\net9.0\RsaDigitalSignature.dll
+[OUTPUT 2025-02-23 7:45:54 AM]   Determining projects to restore...
+[OUTPUT 2025-02-23 7:45:54 AM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 7:45:53 AM] Command: dotnet test "D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignatureTest\RsaDigitalSignatureTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:45:53 AM] Starting test for project: D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignatureTest\RsaDigitalSignatureTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 7:43:38 AM
+RsaDigitalSignature
+
+WritePatch ran compiler. 2025-02-23 7:44:14 AM
+RsaDigitalSignature
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignature\DigitalSignatureService.cs(9,23): warning CS8618: Non-nullable property 'PublicKey' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignature\RsaDigitalSignature.csproj]
+D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignature\DigitalSignatureService.cs(10,23): warning CS8618: Non-nullable property 'PrivateKey' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignature\RsaDigitalSignature.csproj]
+  RsaDigitalSignature -> D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignature\bin\Debug\net9.0\RsaDigitalSignature.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignature\DigitalSignatureService.cs(9,23): warning CS8618: Non-nullable property 'PublicKey' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignature\RsaDigitalSignature.csproj]
+D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignature\DigitalSignatureService.cs(10,23): warning CS8618: Non-nullable property 'PrivateKey' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignature\RsaDigitalSignature.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+
+
+WritePatch: Compile failed.
+RsaDigitalSignature
+
+Finished WritePatch cycle step.
+2025-02-23 7:44:15 AM
+RsaDigitalSignature
+
+WritePatch Started CycleStep. 2025-02-23 7:44:16 AM
+RsaDigitalSignature
+
+WritePatch ran compiler. 2025-02-23 7:44:43 AM
+RsaDigitalSignature
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RsaDigitalSignature -> D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignature\bin\Debug\net9.0\RsaDigitalSignature.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+
+
+WritePatch: Code is Complete.
+RsaDigitalSignature
+
+WritePatch Started CycleStep. 2025-02-23 7:44:54 AM
+RsaDigitalSignatureTest
+
+WritePatch ran compiler. 2025-02-23 7:45:39 AM
+RsaDigitalSignatureTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignatureTest\RsaDigitalSignatureTest.csproj (in 184 ms).
+  1 of 2 projects are up-to-date for restore.
+  RsaDigitalSignature -> D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignature\bin\Debug\net9.0\RsaDigitalSignature.dll
+  RsaDigitalSignatureTest -> D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignatureTest\bin\Debug\net9.0\RsaDigitalSignatureTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.30
+
+
+WritePatch: Code is Complete.
+RsaDigitalSignatureTest
+
+TestResult:
+[SUCCESS 2025-02-23 7:45:56 AM] All tests passed successfully.
+[INFO 2025-02-23 7:45:56 AM] Test process completed. Duration: 3.25 seconds.
+[INFO 2025-02-23 7:45:56 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 7:45:57 AM] Test Parallelization enabled for D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignatureTest\bin\Debug\net9.0\RsaDigitalSignatureTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:45:56 AM] D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignatureTest\bin\Debug\net9.0\RsaDigitalSignatureTest.dll
+[OUTPUT 2025-02-23 7:45:56 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:45:56 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:45:55 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:45:55 AM] Test run for D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignatureTest\bin\Debug\net9.0\RsaDigitalSignatureTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:45:55 AM]   RsaDigitalSignatureTest -> D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignatureTest\bin\Debug\net9.0\RsaDigitalSignatureTest.dll
+[OUTPUT 2025-02-23 7:45:55 AM]   RsaDigitalSignature -> D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignature\bin\Debug\net9.0\RsaDigitalSignature.dll
+[OUTPUT 2025-02-23 7:45:54 AM]   Determining projects to restore...
+[OUTPUT 2025-02-23 7:45:54 AM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 7:45:53 AM] Command: dotnet test "D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignatureTest\RsaDigitalSignatureTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:45:53 AM] Starting test for project: D:\Code2025\RavenWork\RsaDigitalSignature\RsaDigitalSignatureTest\RsaDigitalSignatureTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
