@@ -1,0 +1,386 @@
+<ActRecord>
+  <ProjectName>LongestIncreasingSubsequence</ProjectName>
+  <ProjectDescription>Longest increasing subsequence problem: Find the longest increasing subsequence of a given sequence</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Longest increasing subsequence problem: Find the longest increasing subsequence of a given sequence</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\LongestIncreasingSubsequence</SolutionFolderPath>
+  <ProjectFolderName>LongestIncreasingSubsequence</ProjectFolderName>
+  <ProjectName>LongestIncreasingSubsequence</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:58:04 AM
+LongestIncreasingSubsequence</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:58:54 AM
+LongestIncreasingSubsequence</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongestIncreasingSubsequence -> D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequence\bin\Debug\net9.0\LongestIncreasingSubsequence.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.92
+]]></string>
+    <string>WritePatch: Code is Complete.
+LongestIncreasingSubsequence</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:59:15 AM
+LongestIncreasingSubsequenceTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:00:00 AM
+LongestIncreasingSubsequenceTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceTest.csproj (in 221 ms).
+  1 of 2 projects are up-to-date for restore.
+  LongestIncreasingSubsequence -> D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequence\bin\Debug\net9.0\LongestIncreasingSubsequence.dll
+D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceCalculatorTests.cs(12,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceTest.csproj]
+D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceCalculatorTests.cs(13,75): warning CS8604: Possible null reference argument for parameter 'sequence' in 'int[] LongestIncreasingSubsequenceCalculator.FindLIS(int[] sequence)'. [D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceTest.csproj]
+  LongestIncreasingSubsequenceTest -> D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\bin\Debug\net9.0\LongestIncreasingSubsequenceTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceCalculatorTests.cs(12,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceTest.csproj]
+D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceCalculatorTests.cs(13,75): warning CS8604: Possible null reference argument for parameter 'sequence' in 'int[] LongestIncreasingSubsequenceCalculator.FindLIS(int[] sequence)'. [D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.61
+]]></string>
+    <string>WritePatch: Compile failed.
+LongestIncreasingSubsequenceTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:00:01 AM
+LongestIncreasingSubsequenceTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:00:01 AM
+LongestIncreasingSubsequenceTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:00:49 AM
+LongestIncreasingSubsequenceTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongestIncreasingSubsequence -> D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequence\bin\Debug\net9.0\LongestIncreasingSubsequence.dll
+D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceCalculatorTests.cs(13,75): warning CS8604: Possible null reference argument for parameter 'sequence' in 'int[] LongestIncreasingSubsequenceCalculator.FindLIS(int[] sequence)'. [D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceTest.csproj]
+  LongestIncreasingSubsequenceTest -> D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\bin\Debug\net9.0\LongestIncreasingSubsequenceTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceCalculatorTests.cs(13,75): warning CS8604: Possible null reference argument for parameter 'sequence' in 'int[] LongestIncreasingSubsequenceCalculator.FindLIS(int[] sequence)'. [D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.26
+]]></string>
+    <string>WritePatch: Compile failed.
+LongestIncreasingSubsequenceTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:00:50 AM
+LongestIncreasingSubsequenceTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:00:51 AM
+LongestIncreasingSubsequenceTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:01:56 AM
+LongestIncreasingSubsequenceTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongestIncreasingSubsequence -> D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequence\bin\Debug\net9.0\LongestIncreasingSubsequence.dll
+  LongestIncreasingSubsequenceTest -> D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\bin\Debug\net9.0\LongestIncreasingSubsequenceTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.07
+]]></string>
+    <string>WritePatch: Code is not Complete.
+LongestIncreasingSubsequenceTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:02:19 AM
+LongestIncreasingSubsequenceTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongestIncreasingSubsequence -> D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequence\bin\Debug\net9.0\LongestIncreasingSubsequence.dll
+  LongestIncreasingSubsequenceTest -> D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\bin\Debug\net9.0\LongestIncreasingSubsequenceTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.07
+
+</CompilerResponse>
+2025-02-23 11:02:19 AM
+LongestIncreasingSubsequenceTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 11:02:20 AM
+LongestIncreasingSubsequence</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongestIncreasingSubsequence -> D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequence\bin\Debug\net9.0\LongestIncreasingSubsequence.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+]]></string>
+    <string>WritePatch: Code is Complete.
+LongestIncreasingSubsequence</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:03:01 AM
+LongestIncreasingSubsequenceTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongestIncreasingSubsequence -> D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequence\bin\Debug\net9.0\LongestIncreasingSubsequence.dll
+  LongestIncreasingSubsequenceTest -> D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\bin\Debug\net9.0\LongestIncreasingSubsequenceTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.19
+]]></string>
+    <string>WritePatch: Code is Complete.
+LongestIncreasingSubsequenceTest</string>
+    <string>[INFO 2025-02-23 11:03:10 AM] Starting test for project: D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceTest.csproj</string>
+    <string>[INFO 2025-02-23 11:03:10 AM] Starting test for project: D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceTest.csproj</string>
+    <string>[INFO 2025-02-23 11:03:10 AM] Starting test for project: D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceTest.csproj</string>
+    <string>[INFO 2025-02-23 11:03:10 AM] Starting test for project: D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceTest.csproj</string>
+    <string>[INFO 2025-02-23 11:03:10 AM] Starting test for project: D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceTest.csproj</string>
+    <string>[INFO 2025-02-23 11:03:10 AM] Starting test for project: D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceTest.csproj</string>
+    <string>[INFO 2025-02-23 11:03:10 AM] Starting test for project: D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceTest.csproj</string>
+    <string>[INFO 2025-02-23 11:03:10 AM] Starting test for project: D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceTest.csproj</string>
+    <string>[INFO 2025-02-23 11:03:10 AM] Starting test for project: D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceTest.csproj</string>
+    <string>[INFO 2025-02-23 11:03:10 AM] Starting test for project: D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceTest.csproj</string>
+    <string>[INFO 2025-02-23 11:03:10 AM] Starting test for project: D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceTest.csproj</string>
+    <string>[INFO 2025-02-23 11:03:10 AM] Starting test for project: D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 11:03:14 AM] Test Parallelization enabled for D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\bin\Debug\net9.0\LongestIncreasingSubsequenceTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 11:03:14 AM] D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\bin\Debug\net9.0\LongestIncreasingSubsequenceTest.dll
+[OUTPUT 2025-02-23 11:03:14 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:03:13 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:03:12 AM]   LongestIncreasingSubsequence -> D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequence\bin\Debug\net9.0\LongestIncreasingSubsequence.dll
+[OUTPUT 2025-02-23 11:03:13 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:03:13 AM] Test run for D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\bin\Debug\net9.0\LongestIncreasingSubsequenceTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:03:12 AM]   LongestIncreasingSubsequenceTest -> D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\bin\Debug\net9.0\LongestIncreasingSubsequenceTest.dll
+[OUTPUT 2025-02-23 11:03:12 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:03:11 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 11:03:14 AM] All tests passed successfully.
+[INFO 2025-02-23 11:03:14 AM] Test process completed. Duration: 3.65 seconds.
+[INFO 2025-02-23 11:03:14 AM] Process exited with code 0.
+[INFO 2025-02-23 11:03:10 AM] Command: dotnet test "D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:03:10 AM] Starting test for project: D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 10:58:04 AM
+LongestIncreasingSubsequence
+
+WritePatch ran compiler. 2025-02-23 10:58:54 AM
+LongestIncreasingSubsequence
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongestIncreasingSubsequence -> D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequence\bin\Debug\net9.0\LongestIncreasingSubsequence.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.92
+
+
+WritePatch: Code is Complete.
+LongestIncreasingSubsequence
+
+WritePatch Started CycleStep. 2025-02-23 10:59:15 AM
+LongestIncreasingSubsequenceTest
+
+WritePatch ran compiler. 2025-02-23 11:00:00 AM
+LongestIncreasingSubsequenceTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceTest.csproj (in 221 ms).
+  1 of 2 projects are up-to-date for restore.
+  LongestIncreasingSubsequence -> D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequence\bin\Debug\net9.0\LongestIncreasingSubsequence.dll
+D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceCalculatorTests.cs(12,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceTest.csproj]
+D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceCalculatorTests.cs(13,75): warning CS8604: Possible null reference argument for parameter 'sequence' in 'int[] LongestIncreasingSubsequenceCalculator.FindLIS(int[] sequence)'. [D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceTest.csproj]
+  LongestIncreasingSubsequenceTest -> D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\bin\Debug\net9.0\LongestIncreasingSubsequenceTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceCalculatorTests.cs(12,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceTest.csproj]
+D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceCalculatorTests.cs(13,75): warning CS8604: Possible null reference argument for parameter 'sequence' in 'int[] LongestIncreasingSubsequenceCalculator.FindLIS(int[] sequence)'. [D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.61
+
+
+WritePatch: Compile failed.
+LongestIncreasingSubsequenceTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:00:01 AM
+LongestIncreasingSubsequenceTest
+
+WritePatch Started CycleStep. 2025-02-23 11:00:01 AM
+LongestIncreasingSubsequenceTest
+
+WritePatch ran compiler. 2025-02-23 11:00:49 AM
+LongestIncreasingSubsequenceTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongestIncreasingSubsequence -> D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequence\bin\Debug\net9.0\LongestIncreasingSubsequence.dll
+D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceCalculatorTests.cs(13,75): warning CS8604: Possible null reference argument for parameter 'sequence' in 'int[] LongestIncreasingSubsequenceCalculator.FindLIS(int[] sequence)'. [D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceTest.csproj]
+  LongestIncreasingSubsequenceTest -> D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\bin\Debug\net9.0\LongestIncreasingSubsequenceTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceCalculatorTests.cs(13,75): warning CS8604: Possible null reference argument for parameter 'sequence' in 'int[] LongestIncreasingSubsequenceCalculator.FindLIS(int[] sequence)'. [D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.26
+
+
+WritePatch: Compile failed.
+LongestIncreasingSubsequenceTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:00:50 AM
+LongestIncreasingSubsequenceTest
+
+WritePatch Started CycleStep. 2025-02-23 11:00:51 AM
+LongestIncreasingSubsequenceTest
+
+WritePatch ran compiler. 2025-02-23 11:01:56 AM
+LongestIncreasingSubsequenceTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongestIncreasingSubsequence -> D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequence\bin\Debug\net9.0\LongestIncreasingSubsequence.dll
+  LongestIncreasingSubsequenceTest -> D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\bin\Debug\net9.0\LongestIncreasingSubsequenceTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.07
+
+
+WritePatch: Code is not Complete.
+LongestIncreasingSubsequenceTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:02:19 AM
+LongestIncreasingSubsequenceTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongestIncreasingSubsequence -> D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequence\bin\Debug\net9.0\LongestIncreasingSubsequence.dll
+  LongestIncreasingSubsequenceTest -> D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\bin\Debug\net9.0\LongestIncreasingSubsequenceTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.07
+
+</CompilerResponse>
+2025-02-23 11:02:19 AM
+LongestIncreasingSubsequenceTest
+
+WritePatch ran compiler. 2025-02-23 11:02:20 AM
+LongestIncreasingSubsequence
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongestIncreasingSubsequence -> D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequence\bin\Debug\net9.0\LongestIncreasingSubsequence.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+
+
+WritePatch: Code is Complete.
+LongestIncreasingSubsequence
+
+WritePatch ran compiler. 2025-02-23 11:03:01 AM
+LongestIncreasingSubsequenceTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongestIncreasingSubsequence -> D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequence\bin\Debug\net9.0\LongestIncreasingSubsequence.dll
+  LongestIncreasingSubsequenceTest -> D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\bin\Debug\net9.0\LongestIncreasingSubsequenceTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.19
+
+
+WritePatch: Code is Complete.
+LongestIncreasingSubsequenceTest
+
+TestResult:
+[OUTPUT 2025-02-23 11:03:14 AM] Test Parallelization enabled for D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\bin\Debug\net9.0\LongestIncreasingSubsequenceTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 11:03:14 AM] D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\bin\Debug\net9.0\LongestIncreasingSubsequenceTest.dll
+[OUTPUT 2025-02-23 11:03:14 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:03:13 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:03:12 AM]   LongestIncreasingSubsequence -> D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequence\bin\Debug\net9.0\LongestIncreasingSubsequence.dll
+[OUTPUT 2025-02-23 11:03:13 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:03:13 AM] Test run for D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\bin\Debug\net9.0\LongestIncreasingSubsequenceTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:03:12 AM]   LongestIncreasingSubsequenceTest -> D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\bin\Debug\net9.0\LongestIncreasingSubsequenceTest.dll
+[OUTPUT 2025-02-23 11:03:12 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:03:11 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 11:03:14 AM] All tests passed successfully.
+[INFO 2025-02-23 11:03:14 AM] Test process completed. Duration: 3.65 seconds.
+[INFO 2025-02-23 11:03:14 AM] Process exited with code 0.
+[INFO 2025-02-23 11:03:10 AM] Command: dotnet test "D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:03:10 AM] Starting test for project: D:\Code2025\RavenWork\LongestIncreasingSubsequence\LongestIncreasingSubsequenceTest\LongestIncreasingSubsequenceTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
