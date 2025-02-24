@@ -1,0 +1,497 @@
+<ActRecord>
+  <ProjectName>KalmanFilter</ProjectName>
+  <ProjectDescription>Kalman filter: Estimates the state of a linear dynamic system from noisy measurements</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Kalman filter: Estimates the state of a linear dynamic system from noisy measurements</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\KalmanFilter</SolutionFolderPath>
+  <ProjectFolderName>KalmanFilter</ProjectFolderName>
+  <ProjectName>KalmanFilter</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:22:45 AM
+KalmanFilter</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:24:23 AM
+KalmanFilter</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\KalmanFilter.cs(22,29): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\KalmanFilter.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\KalmanFilter.cs(14,16): warning CS8618: Non-nullable field 'controlMatrix' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\KalmanFilter.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\MatrixMath.cs(135,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\KalmanFilter.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\MatrixMath.cs(177,32): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\KalmanFilter.csproj]
+  KalmanFilter -> D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\bin\Debug\net9.0\KalmanFilter.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\KalmanFilter.cs(22,29): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\KalmanFilter.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\KalmanFilter.cs(14,16): warning CS8618: Non-nullable field 'controlMatrix' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\KalmanFilter.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\MatrixMath.cs(135,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\KalmanFilter.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\MatrixMath.cs(177,32): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\KalmanFilter.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.45
+]]></string>
+    <string>WritePatch: Compile failed.
+KalmanFilter</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:24:24 AM
+KalmanFilter</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:24:24 AM
+KalmanFilter</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:25:28 AM
+KalmanFilter</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KalmanFilter -> D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\bin\Debug\net9.0\KalmanFilter.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.16
+]]></string>
+    <string>WritePatch: Code is Complete.
+KalmanFilter</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:25:57 AM
+KalmanFilterTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:27:08 AM
+KalmanFilterTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj (in 308 ms).
+  1 of 2 projects are up-to-date for restore.
+  KalmanFilter -> D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\bin\Debug\net9.0\KalmanFilter.dll
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(60,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(160,28): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(213,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(214,46): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(256,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(304,28): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+  KalmanFilterTest -> D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\bin\Debug\net9.0\KalmanFilterTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(60,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(160,28): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(213,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(214,46): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(256,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(304,28): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+    6 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.44
+]]></string>
+    <string>WritePatch: Compile failed.
+KalmanFilterTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:27:09 AM
+KalmanFilterTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:27:09 AM
+KalmanFilterTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:29:12 AM
+KalmanFilterTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KalmanFilter -> D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\bin\Debug\net9.0\KalmanFilter.dll
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(60,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(160,28): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(213,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(214,46): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(256,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(304,28): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(361,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+  KalmanFilterTest -> D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\bin\Debug\net9.0\KalmanFilterTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(60,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(160,28): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(213,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(214,46): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(256,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(304,28): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(361,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+    7 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.53
+]]></string>
+    <string>WritePatch: Compile failed.
+KalmanFilterTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:29:13 AM
+KalmanFilterTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:29:13 AM
+KalmanFilterTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:29:41 AM
+KalmanFilterTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KalmanFilter -> D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\bin\Debug\net9.0\KalmanFilter.dll
+  KalmanFilterTest -> D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\bin\Debug\net9.0\KalmanFilterTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.19
+]]></string>
+    <string>WritePatch: Code is not Complete.
+KalmanFilterTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:29:55 AM
+KalmanFilterTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KalmanFilter -> D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\bin\Debug\net9.0\KalmanFilter.dll
+  KalmanFilterTest -> D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\bin\Debug\net9.0\KalmanFilterTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.19
+
+</CompilerResponse>
+2025-02-23 9:29:55 AM
+KalmanFilterTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 9:29:56 AM
+KalmanFilter</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KalmanFilter -> D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\bin\Debug\net9.0\KalmanFilter.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+]]></string>
+    <string>WritePatch: Code is Complete.
+KalmanFilter</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:30:16 AM
+KalmanFilterTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KalmanFilter -> D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\bin\Debug\net9.0\KalmanFilter.dll
+  KalmanFilterTest -> D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\bin\Debug\net9.0\KalmanFilterTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.25
+]]></string>
+    <string>WritePatch: Code is Complete.
+KalmanFilterTest</string>
+    <string>[INFO 2025-02-23 9:30:30 AM] Starting test for project: D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj</string>
+    <string>[INFO 2025-02-23 9:30:30 AM] Starting test for project: D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj</string>
+    <string>[INFO 2025-02-23 9:30:30 AM] Starting test for project: D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj</string>
+    <string>[INFO 2025-02-23 9:30:30 AM] Starting test for project: D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj</string>
+    <string>[INFO 2025-02-23 9:30:30 AM] Starting test for project: D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj</string>
+    <string>[INFO 2025-02-23 9:30:30 AM] Starting test for project: D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj</string>
+    <string>[INFO 2025-02-23 9:30:30 AM] Starting test for project: D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj</string>
+    <string>[INFO 2025-02-23 9:30:30 AM] Starting test for project: D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj</string>
+    <string>[INFO 2025-02-23 9:30:30 AM] Starting test for project: D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj</string>
+    <string>[INFO 2025-02-23 9:30:30 AM] Starting test for project: D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj</string>
+    <string>[INFO 2025-02-23 9:30:30 AM] Starting test for project: D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj</string>
+    <string>[INFO 2025-02-23 9:30:30 AM] Starting test for project: D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj</string>
+    <string>[INFO 2025-02-23 9:30:30 AM] Starting test for project: D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj</string>
+    <string>[INFO 2025-02-23 9:30:30 AM] Starting test for project: D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 9:30:35 AM]   Passed TestUpdateWithNoninvertibleInnovation [17 ms]
+[OUTPUT 2025-02-23 9:30:35 AM]   Passed TestSyntheticLargeData [9 ms]
+[OUTPUT 2025-02-23 9:30:33 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 9:30:32 AM] Test run for D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\bin\Debug\net9.0\KalmanFilterTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 9:30:32 AM]   KalmanFilterTest -> D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\bin\Debug\net9.0\KalmanFilterTest.dll
+[OUTPUT 2025-02-23 9:30:35 AM] Test Parallelization enabled for D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\bin\Debug\net9.0\KalmanFilterTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 9:30:31 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 9:30:34 AM] D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\bin\Debug\net9.0\KalmanFilterTest.dll
+[OUTPUT 2025-02-23 9:30:33 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 9:30:33 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 9:30:32 AM]   KalmanFilter -> D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\bin\Debug\net9.0\KalmanFilter.dll
+[OUTPUT 2025-02-23 9:30:31 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 9:30:35 AM] All tests passed successfully.
+[INFO 2025-02-23 9:30:35 AM] Test process completed. Duration: 4.99 seconds.
+[INFO 2025-02-23 9:30:35 AM] Process exited with code 0.
+[INFO 2025-02-23 9:30:30 AM] Command: dotnet test "D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 9:30:30 AM] Starting test for project: D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 9:22:45 AM
+KalmanFilter
+
+WritePatch ran compiler. 2025-02-23 9:24:23 AM
+KalmanFilter
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\KalmanFilter.cs(22,29): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\KalmanFilter.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\KalmanFilter.cs(14,16): warning CS8618: Non-nullable field 'controlMatrix' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\KalmanFilter.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\MatrixMath.cs(135,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\KalmanFilter.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\MatrixMath.cs(177,32): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\KalmanFilter.csproj]
+  KalmanFilter -> D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\bin\Debug\net9.0\KalmanFilter.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\KalmanFilter.cs(22,29): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\KalmanFilter.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\KalmanFilter.cs(14,16): warning CS8618: Non-nullable field 'controlMatrix' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\KalmanFilter.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\MatrixMath.cs(135,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\KalmanFilter.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\MatrixMath.cs(177,32): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\KalmanFilter.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.45
+
+
+WritePatch: Compile failed.
+KalmanFilter
+
+Finished WritePatch cycle step.
+2025-02-23 9:24:24 AM
+KalmanFilter
+
+WritePatch Started CycleStep. 2025-02-23 9:24:24 AM
+KalmanFilter
+
+WritePatch ran compiler. 2025-02-23 9:25:28 AM
+KalmanFilter
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KalmanFilter -> D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\bin\Debug\net9.0\KalmanFilter.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.16
+
+
+WritePatch: Code is Complete.
+KalmanFilter
+
+WritePatch Started CycleStep. 2025-02-23 9:25:57 AM
+KalmanFilterTest
+
+WritePatch ran compiler. 2025-02-23 9:27:08 AM
+KalmanFilterTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj (in 308 ms).
+  1 of 2 projects are up-to-date for restore.
+  KalmanFilter -> D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\bin\Debug\net9.0\KalmanFilter.dll
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(60,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(160,28): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(213,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(214,46): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(256,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(304,28): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+  KalmanFilterTest -> D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\bin\Debug\net9.0\KalmanFilterTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(60,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(160,28): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(213,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(214,46): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(256,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(304,28): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+    6 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.44
+
+
+WritePatch: Compile failed.
+KalmanFilterTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:27:09 AM
+KalmanFilterTest
+
+WritePatch Started CycleStep. 2025-02-23 9:27:09 AM
+KalmanFilterTest
+
+WritePatch ran compiler. 2025-02-23 9:29:12 AM
+KalmanFilterTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KalmanFilter -> D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\bin\Debug\net9.0\KalmanFilter.dll
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(60,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(160,28): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(213,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(214,46): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(256,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(304,28): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(361,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+  KalmanFilterTest -> D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\bin\Debug\net9.0\KalmanFilterTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(60,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(160,28): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(213,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(214,46): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(256,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(304,28): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTests.cs(361,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj]
+    7 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.53
+
+
+WritePatch: Compile failed.
+KalmanFilterTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:29:13 AM
+KalmanFilterTest
+
+WritePatch Started CycleStep. 2025-02-23 9:29:13 AM
+KalmanFilterTest
+
+WritePatch ran compiler. 2025-02-23 9:29:41 AM
+KalmanFilterTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KalmanFilter -> D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\bin\Debug\net9.0\KalmanFilter.dll
+  KalmanFilterTest -> D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\bin\Debug\net9.0\KalmanFilterTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.19
+
+
+WritePatch: Code is not Complete.
+KalmanFilterTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:29:55 AM
+KalmanFilterTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KalmanFilter -> D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\bin\Debug\net9.0\KalmanFilter.dll
+  KalmanFilterTest -> D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\bin\Debug\net9.0\KalmanFilterTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.19
+
+</CompilerResponse>
+2025-02-23 9:29:55 AM
+KalmanFilterTest
+
+WritePatch ran compiler. 2025-02-23 9:29:56 AM
+KalmanFilter
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KalmanFilter -> D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\bin\Debug\net9.0\KalmanFilter.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+
+
+WritePatch: Code is Complete.
+KalmanFilter
+
+WritePatch ran compiler. 2025-02-23 9:30:16 AM
+KalmanFilterTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KalmanFilter -> D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\bin\Debug\net9.0\KalmanFilter.dll
+  KalmanFilterTest -> D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\bin\Debug\net9.0\KalmanFilterTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.25
+
+
+WritePatch: Code is Complete.
+KalmanFilterTest
+
+TestResult:
+[OUTPUT 2025-02-23 9:30:35 AM]   Passed TestUpdateWithNoninvertibleInnovation [17 ms]
+[OUTPUT 2025-02-23 9:30:35 AM]   Passed TestSyntheticLargeData [9 ms]
+[OUTPUT 2025-02-23 9:30:33 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 9:30:32 AM] Test run for D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\bin\Debug\net9.0\KalmanFilterTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 9:30:32 AM]   KalmanFilterTest -> D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\bin\Debug\net9.0\KalmanFilterTest.dll
+[OUTPUT 2025-02-23 9:30:35 AM] Test Parallelization enabled for D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\bin\Debug\net9.0\KalmanFilterTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 9:30:31 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 9:30:34 AM] D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\bin\Debug\net9.0\KalmanFilterTest.dll
+[OUTPUT 2025-02-23 9:30:33 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 9:30:33 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 9:30:32 AM]   KalmanFilter -> D:\Code2025\RavenWork\KalmanFilter\KalmanFilter\bin\Debug\net9.0\KalmanFilter.dll
+[OUTPUT 2025-02-23 9:30:31 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 9:30:35 AM] All tests passed successfully.
+[INFO 2025-02-23 9:30:35 AM] Test process completed. Duration: 4.99 seconds.
+[INFO 2025-02-23 9:30:35 AM] Process exited with code 0.
+[INFO 2025-02-23 9:30:30 AM] Command: dotnet test "D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 9:30:30 AM] Starting test for project: D:\Code2025\RavenWork\KalmanFilter\KalmanFilterTest\KalmanFilterTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
