@@ -1,0 +1,153 @@
+<ActRecord>
+  <ProjectName>CombSort</ProjectName>
+  <ProjectDescription>Comb sort</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Comb sort</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\CombSort</SolutionFolderPath>
+  <ProjectFolderName>CombSort</ProjectFolderName>
+  <ProjectName>CombSort</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:58:38 AM
+CombSort</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:58:59 AM
+CombSort</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CombSort -> D:\Code2025\RavenWork\CombSort\CombSort\bin\Debug\net9.0\CombSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.25
+]]></string>
+    <string>WritePatch: Code is Complete.
+CombSort</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:59:29 AM
+CombSortTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:59:57 AM
+CombSortTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\CombSort\CombSortTest\CombSortTest.csproj (in 235 ms).
+  1 of 2 projects are up-to-date for restore.
+  CombSort -> D:\Code2025\RavenWork\CombSort\CombSort\bin\Debug\net9.0\CombSort.dll
+  CombSortTest -> D:\Code2025\RavenWork\CombSort\CombSortTest\bin\Debug\net9.0\CombSortTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.71
+]]></string>
+    <string>WritePatch: Code is Complete.
+CombSortTest</string>
+    <string>[INFO 2025-02-23 10:00:16 AM] Starting test for project: D:\Code2025\RavenWork\CombSort\CombSortTest\CombSortTest.csproj</string>
+    <string>[INFO 2025-02-23 10:00:16 AM] Starting test for project: D:\Code2025\RavenWork\CombSort\CombSortTest\CombSortTest.csproj</string>
+    <string>[INFO 2025-02-23 10:00:16 AM] Starting test for project: D:\Code2025\RavenWork\CombSort\CombSortTest\CombSortTest.csproj</string>
+    <string>[INFO 2025-02-23 10:00:16 AM] Starting test for project: D:\Code2025\RavenWork\CombSort\CombSortTest\CombSortTest.csproj</string>
+    <string>[INFO 2025-02-23 10:00:16 AM] Starting test for project: D:\Code2025\RavenWork\CombSort\CombSortTest\CombSortTest.csproj</string>
+    <string>[INFO 2025-02-23 10:00:16 AM] Starting test for project: D:\Code2025\RavenWork\CombSort\CombSortTest\CombSortTest.csproj</string>
+    <string>[INFO 2025-02-23 10:00:16 AM] Starting test for project: D:\Code2025\RavenWork\CombSort\CombSortTest\CombSortTest.csproj</string>
+    <string>[INFO 2025-02-23 10:00:16 AM] Starting test for project: D:\Code2025\RavenWork\CombSort\CombSortTest\CombSortTest.csproj</string>
+    <string>[INFO 2025-02-23 10:00:16 AM] Starting test for project: D:\Code2025\RavenWork\CombSort\CombSortTest\CombSortTest.csproj</string>
+    <string>[INFO 2025-02-23 10:00:16 AM] Starting test for project: D:\Code2025\RavenWork\CombSort\CombSortTest\CombSortTest.csproj</string>
+    <string>[INFO 2025-02-23 10:00:16 AM] Starting test for project: D:\Code2025\RavenWork\CombSort\CombSortTest\CombSortTest.csproj</string>
+    <string>[INFO 2025-02-23 10:00:16 AM] Starting test for project: D:\Code2025\RavenWork\CombSort\CombSortTest\CombSortTest.csproj</string>
+    <string>[INFO 2025-02-23 10:00:16 AM] Starting test for project: D:\Code2025\RavenWork\CombSort\CombSortTest\CombSortTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 10:00:20 AM] All tests passed successfully.
+[INFO 2025-02-23 10:00:20 AM] Test process completed. Duration: 3.68 seconds.
+[INFO 2025-02-23 10:00:20 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 10:00:20 AM]   Passed TestEmptyArray [4 ms]
+[OUTPUT 2025-02-23 10:00:20 AM] Test Parallelization enabled for D:\Code2025\RavenWork\CombSort\CombSortTest\bin\Debug\net9.0\CombSortTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:00:18 AM]   CombSort -> D:\Code2025\RavenWork\CombSort\CombSort\bin\Debug\net9.0\CombSort.dll
+[OUTPUT 2025-02-23 10:00:17 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:00:19 AM] D:\Code2025\RavenWork\CombSort\CombSortTest\bin\Debug\net9.0\CombSortTest.dll
+[OUTPUT 2025-02-23 10:00:19 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:00:19 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:00:19 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:00:18 AM] Test run for D:\Code2025\RavenWork\CombSort\CombSortTest\bin\Debug\net9.0\CombSortTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:00:18 AM]   CombSortTest -> D:\Code2025\RavenWork\CombSort\CombSortTest\bin\Debug\net9.0\CombSortTest.dll
+[OUTPUT 2025-02-23 10:00:17 AM]   Determining projects to restore...
+[INFO 2025-02-23 10:00:16 AM] Command: dotnet test "D:\Code2025\RavenWork\CombSort\CombSortTest\CombSortTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:00:16 AM] Starting test for project: D:\Code2025\RavenWork\CombSort\CombSortTest\CombSortTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 9:58:38 AM
+CombSort
+
+WritePatch ran compiler. 2025-02-23 9:58:59 AM
+CombSort
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CombSort -> D:\Code2025\RavenWork\CombSort\CombSort\bin\Debug\net9.0\CombSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.25
+
+
+WritePatch: Code is Complete.
+CombSort
+
+WritePatch Started CycleStep. 2025-02-23 9:59:29 AM
+CombSortTest
+
+WritePatch ran compiler. 2025-02-23 9:59:57 AM
+CombSortTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\CombSort\CombSortTest\CombSortTest.csproj (in 235 ms).
+  1 of 2 projects are up-to-date for restore.
+  CombSort -> D:\Code2025\RavenWork\CombSort\CombSort\bin\Debug\net9.0\CombSort.dll
+  CombSortTest -> D:\Code2025\RavenWork\CombSort\CombSortTest\bin\Debug\net9.0\CombSortTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.71
+
+
+WritePatch: Code is Complete.
+CombSortTest
+
+TestResult:
+[SUCCESS 2025-02-23 10:00:20 AM] All tests passed successfully.
+[INFO 2025-02-23 10:00:20 AM] Test process completed. Duration: 3.68 seconds.
+[INFO 2025-02-23 10:00:20 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 10:00:20 AM]   Passed TestEmptyArray [4 ms]
+[OUTPUT 2025-02-23 10:00:20 AM] Test Parallelization enabled for D:\Code2025\RavenWork\CombSort\CombSortTest\bin\Debug\net9.0\CombSortTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:00:18 AM]   CombSort -> D:\Code2025\RavenWork\CombSort\CombSort\bin\Debug\net9.0\CombSort.dll
+[OUTPUT 2025-02-23 10:00:17 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:00:19 AM] D:\Code2025\RavenWork\CombSort\CombSortTest\bin\Debug\net9.0\CombSortTest.dll
+[OUTPUT 2025-02-23 10:00:19 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:00:19 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:00:19 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:00:18 AM] Test run for D:\Code2025\RavenWork\CombSort\CombSortTest\bin\Debug\net9.0\CombSortTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:00:18 AM]   CombSortTest -> D:\Code2025\RavenWork\CombSort\CombSortTest\bin\Debug\net9.0\CombSortTest.dll
+[OUTPUT 2025-02-23 10:00:17 AM]   Determining projects to restore...
+[INFO 2025-02-23 10:00:16 AM] Command: dotnet test "D:\Code2025\RavenWork\CombSort\CombSortTest\CombSortTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:00:16 AM] Starting test for project: D:\Code2025\RavenWork\CombSort\CombSortTest\CombSortTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
