@@ -1,0 +1,138 @@
+<ActRecord>
+  <ProjectName>MuLawAlgorithm</ProjectName>
+  <ProjectDescription>Mu‑law algorithm: A standard analog signal companding algorithm</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Mu‑law algorithm: A standard analog signal companding algorithm</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\MuLawAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>MuLawAlgorithm</ProjectFolderName>
+  <ProjectName>MuLawAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:23:10 PM
+MuLawAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:24:01 PM
+MuLawAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  MuLawAlgorithm -> D:\Code2025\RavenWork\MuLawAlgorithm\MuLawAlgorithm\bin\Debug\net9.0\MuLawAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.33
+]]></string>
+    <string>WritePatch: Code is Complete.
+MuLawAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:24:19 PM
+MuLawAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:24:54 PM
+MuLawAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\MuLawAlgorithm\MuLawAlgorithmTest\MuLawAlgorithmTest.csproj (in 328 ms).
+  1 of 2 projects are up-to-date for restore.
+  MuLawAlgorithm -> D:\Code2025\RavenWork\MuLawAlgorithm\MuLawAlgorithm\bin\Debug\net9.0\MuLawAlgorithm.dll
+  MuLawAlgorithmTest -> D:\Code2025\RavenWork\MuLawAlgorithm\MuLawAlgorithmTest\bin\Debug\net9.0\MuLawAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.25
+]]></string>
+    <string>WritePatch: Code is Complete.
+MuLawAlgorithmTest</string>
+    <string>[INFO 2025-02-23 2:25:14 PM] Starting test for project: D:\Code2025\RavenWork\MuLawAlgorithm\MuLawAlgorithmTest\MuLawAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:25:14 PM] Starting test for project: D:\Code2025\RavenWork\MuLawAlgorithm\MuLawAlgorithmTest\MuLawAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:25:14 PM] Starting test for project: D:\Code2025\RavenWork\MuLawAlgorithm\MuLawAlgorithmTest\MuLawAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:25:14 PM] Starting test for project: D:\Code2025\RavenWork\MuLawAlgorithm\MuLawAlgorithmTest\MuLawAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:25:14 PM] Starting test for project: D:\Code2025\RavenWork\MuLawAlgorithm\MuLawAlgorithmTest\MuLawAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:25:14 PM] Starting test for project: D:\Code2025\RavenWork\MuLawAlgorithm\MuLawAlgorithmTest\MuLawAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:25:14 PM] Starting test for project: D:\Code2025\RavenWork\MuLawAlgorithm\MuLawAlgorithmTest\MuLawAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:25:14 PM] Starting test for project: D:\Code2025\RavenWork\MuLawAlgorithm\MuLawAlgorithmTest\MuLawAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 2:25:22 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 2:25:20 PM] Test run for D:\Code2025\RavenWork\MuLawAlgorithm\MuLawAlgorithmTest\bin\Debug\net9.0\MuLawAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 2:25:18 PM]   MuLawAlgorithmTest -> D:\Code2025\RavenWork\MuLawAlgorithm\MuLawAlgorithmTest\bin\Debug\net9.0\MuLawAlgorithmTest.dll
+[OUTPUT 2025-02-23 2:25:18 PM]   MuLawAlgorithm -> D:\Code2025\RavenWork\MuLawAlgorithm\MuLawAlgorithm\bin\Debug\net9.0\MuLawAlgorithm.dll
+[OUTPUT 2025-02-23 2:25:16 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 2:25:16 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 2:25:20 PM] All tests passed successfully.
+[INFO 2025-02-23 2:25:20 PM] Test process completed. Duration: 5.76 seconds.
+[INFO 2025-02-23 2:25:20 PM] Process exited with code 0.
+[INFO 2025-02-23 2:25:14 PM] Command: dotnet test "D:\Code2025\RavenWork\MuLawAlgorithm\MuLawAlgorithmTest\MuLawAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 2:25:14 PM] Starting test for project: D:\Code2025\RavenWork\MuLawAlgorithm\MuLawAlgorithmTest\MuLawAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 2:23:10 PM
+MuLawAlgorithm
+
+WritePatch ran compiler. 2025-02-23 2:24:01 PM
+MuLawAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  MuLawAlgorithm -> D:\Code2025\RavenWork\MuLawAlgorithm\MuLawAlgorithm\bin\Debug\net9.0\MuLawAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.33
+
+
+WritePatch: Code is Complete.
+MuLawAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 2:24:19 PM
+MuLawAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 2:24:54 PM
+MuLawAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\MuLawAlgorithm\MuLawAlgorithmTest\MuLawAlgorithmTest.csproj (in 328 ms).
+  1 of 2 projects are up-to-date for restore.
+  MuLawAlgorithm -> D:\Code2025\RavenWork\MuLawAlgorithm\MuLawAlgorithm\bin\Debug\net9.0\MuLawAlgorithm.dll
+  MuLawAlgorithmTest -> D:\Code2025\RavenWork\MuLawAlgorithm\MuLawAlgorithmTest\bin\Debug\net9.0\MuLawAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.25
+
+
+WritePatch: Code is Complete.
+MuLawAlgorithmTest
+
+TestResult:
+[OUTPUT 2025-02-23 2:25:22 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 2:25:20 PM] Test run for D:\Code2025\RavenWork\MuLawAlgorithm\MuLawAlgorithmTest\bin\Debug\net9.0\MuLawAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 2:25:18 PM]   MuLawAlgorithmTest -> D:\Code2025\RavenWork\MuLawAlgorithm\MuLawAlgorithmTest\bin\Debug\net9.0\MuLawAlgorithmTest.dll
+[OUTPUT 2025-02-23 2:25:18 PM]   MuLawAlgorithm -> D:\Code2025\RavenWork\MuLawAlgorithm\MuLawAlgorithm\bin\Debug\net9.0\MuLawAlgorithm.dll
+[OUTPUT 2025-02-23 2:25:16 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 2:25:16 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 2:25:20 PM] All tests passed successfully.
+[INFO 2025-02-23 2:25:20 PM] Test process completed. Duration: 5.76 seconds.
+[INFO 2025-02-23 2:25:20 PM] Process exited with code 0.
+[INFO 2025-02-23 2:25:14 PM] Command: dotnet test "D:\Code2025\RavenWork\MuLawAlgorithm\MuLawAlgorithmTest\MuLawAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 2:25:14 PM] Starting test for project: D:\Code2025\RavenWork\MuLawAlgorithm\MuLawAlgorithmTest\MuLawAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
