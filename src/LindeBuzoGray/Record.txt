@@ -1,0 +1,144 @@
+<ActRecord>
+  <ProjectName>LindeBuzoGray</ProjectName>
+  <ProjectDescription>Linde–Buzo–Gray algorithm: A vector quantization algorithm to derive a good codebook</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Linde–Buzo–Gray algorithm: A vector quantization algorithm to derive a good codebook</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\LindeBuzoGray</SolutionFolderPath>
+  <ProjectFolderName>LindeBuzoGray</ProjectFolderName>
+  <ProjectName>LindeBuzoGray</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch ran compiler. 2025-02-23 10:34:00 AM
+LindeBuzoGray</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LindeBuzoGray -> D:\Code2025\RavenWork\LindeBuzoGray\LindeBuzoGray\bin\Debug\net9.0\LindeBuzoGray.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+]]></string>
+    <string>WritePatch: Code is Complete.
+LindeBuzoGray</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:34:11 AM
+LindeBuzoGrayTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LindeBuzoGray -> D:\Code2025\RavenWork\LindeBuzoGray\LindeBuzoGray\bin\Debug\net9.0\LindeBuzoGray.dll
+  LindeBuzoGrayTest -> D:\Code2025\RavenWork\LindeBuzoGray\LindeBuzoGrayTest\bin\Debug\net9.0\LindeBuzoGrayTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.17
+]]></string>
+    <string>WritePatch: Code is Complete.
+LindeBuzoGrayTest</string>
+    <string>[INFO 2025-02-23 10:34:25 AM] Starting test for project: D:\Code2025\RavenWork\LindeBuzoGray\LindeBuzoGrayTest\LindeBuzoGrayTest.csproj</string>
+    <string>[INFO 2025-02-23 10:34:25 AM] Starting test for project: D:\Code2025\RavenWork\LindeBuzoGray\LindeBuzoGrayTest\LindeBuzoGrayTest.csproj</string>
+    <string>[INFO 2025-02-23 10:34:25 AM] Starting test for project: D:\Code2025\RavenWork\LindeBuzoGray\LindeBuzoGrayTest\LindeBuzoGrayTest.csproj</string>
+    <string>[INFO 2025-02-23 10:34:25 AM] Starting test for project: D:\Code2025\RavenWork\LindeBuzoGray\LindeBuzoGrayTest\LindeBuzoGrayTest.csproj</string>
+    <string>[INFO 2025-02-23 10:34:25 AM] Starting test for project: D:\Code2025\RavenWork\LindeBuzoGray\LindeBuzoGrayTest\LindeBuzoGrayTest.csproj</string>
+    <string>[INFO 2025-02-23 10:34:25 AM] Starting test for project: D:\Code2025\RavenWork\LindeBuzoGray\LindeBuzoGrayTest\LindeBuzoGrayTest.csproj</string>
+    <string>[INFO 2025-02-23 10:34:25 AM] Starting test for project: D:\Code2025\RavenWork\LindeBuzoGray\LindeBuzoGrayTest\LindeBuzoGrayTest.csproj</string>
+    <string>[INFO 2025-02-23 10:34:25 AM] Starting test for project: D:\Code2025\RavenWork\LindeBuzoGray\LindeBuzoGrayTest\LindeBuzoGrayTest.csproj</string>
+    <string>[INFO 2025-02-23 10:34:25 AM] Starting test for project: D:\Code2025\RavenWork\LindeBuzoGray\LindeBuzoGrayTest\LindeBuzoGrayTest.csproj</string>
+    <string>[INFO 2025-02-23 10:34:25 AM] Starting test for project: D:\Code2025\RavenWork\LindeBuzoGray\LindeBuzoGrayTest\LindeBuzoGrayTest.csproj</string>
+    <string>[INFO 2025-02-23 10:34:25 AM] Starting test for project: D:\Code2025\RavenWork\LindeBuzoGray\LindeBuzoGrayTest\LindeBuzoGrayTest.csproj</string>
+    <string>[INFO 2025-02-23 10:34:25 AM] Starting test for project: D:\Code2025\RavenWork\LindeBuzoGray\LindeBuzoGrayTest\LindeBuzoGrayTest.csproj</string>
+    <string>[INFO 2025-02-23 10:34:25 AM] Starting test for project: D:\Code2025\RavenWork\LindeBuzoGray\LindeBuzoGrayTest\LindeBuzoGrayTest.csproj</string>
+    <string>[INFO 2025-02-23 10:34:25 AM] Starting test for project: D:\Code2025\RavenWork\LindeBuzoGray\LindeBuzoGrayTest\LindeBuzoGrayTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 10:34:28 AM] All tests passed successfully.
+[INFO 2025-02-23 10:34:28 AM] Test process completed. Duration: 3.37 seconds.
+[INFO 2025-02-23 10:34:28 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 10:34:28 AM]   Passed TestGenerateCodebook_EmptyTrainingData_ReturnsEmptyList [23 ms]
+[OUTPUT 2025-02-23 10:34:28 AM]   Passed TestGenerateCodebook_InvalidCodebookSize_ReturnsEmptyList [23 ms]
+[OUTPUT 2025-02-23 10:34:26 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:34:28 AM] Test Parallelization enabled for D:\Code2025\RavenWork\LindeBuzoGray\LindeBuzoGrayTest\bin\Debug\net9.0\LindeBuzoGrayTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:34:28 AM] D:\Code2025\RavenWork\LindeBuzoGray\LindeBuzoGrayTest\bin\Debug\net9.0\LindeBuzoGrayTest.dll
+[OUTPUT 2025-02-23 10:34:27 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:34:27 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:34:27 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:34:26 AM] Test run for D:\Code2025\RavenWork\LindeBuzoGray\LindeBuzoGrayTest\bin\Debug\net9.0\LindeBuzoGrayTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:34:26 AM]   LindeBuzoGrayTest -> D:\Code2025\RavenWork\LindeBuzoGray\LindeBuzoGrayTest\bin\Debug\net9.0\LindeBuzoGrayTest.dll
+[OUTPUT 2025-02-23 10:34:26 AM]   LindeBuzoGray -> D:\Code2025\RavenWork\LindeBuzoGray\LindeBuzoGray\bin\Debug\net9.0\LindeBuzoGray.dll
+[OUTPUT 2025-02-23 10:34:25 AM]   Determining projects to restore...
+[INFO 2025-02-23 10:34:25 AM] Command: dotnet test "D:\Code2025\RavenWork\LindeBuzoGray\LindeBuzoGrayTest\LindeBuzoGrayTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:34:25 AM] Starting test for project: D:\Code2025\RavenWork\LindeBuzoGray\LindeBuzoGrayTest\LindeBuzoGrayTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch ran compiler. 2025-02-23 10:34:00 AM
+LindeBuzoGray
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LindeBuzoGray -> D:\Code2025\RavenWork\LindeBuzoGray\LindeBuzoGray\bin\Debug\net9.0\LindeBuzoGray.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+
+
+WritePatch: Code is Complete.
+LindeBuzoGray
+
+WritePatch ran compiler. 2025-02-23 10:34:11 AM
+LindeBuzoGrayTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LindeBuzoGray -> D:\Code2025\RavenWork\LindeBuzoGray\LindeBuzoGray\bin\Debug\net9.0\LindeBuzoGray.dll
+  LindeBuzoGrayTest -> D:\Code2025\RavenWork\LindeBuzoGray\LindeBuzoGrayTest\bin\Debug\net9.0\LindeBuzoGrayTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.17
+
+
+WritePatch: Code is Complete.
+LindeBuzoGrayTest
+
+TestResult:
+[SUCCESS 2025-02-23 10:34:28 AM] All tests passed successfully.
+[INFO 2025-02-23 10:34:28 AM] Test process completed. Duration: 3.37 seconds.
+[INFO 2025-02-23 10:34:28 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 10:34:28 AM]   Passed TestGenerateCodebook_EmptyTrainingData_ReturnsEmptyList [23 ms]
+[OUTPUT 2025-02-23 10:34:28 AM]   Passed TestGenerateCodebook_InvalidCodebookSize_ReturnsEmptyList [23 ms]
+[OUTPUT 2025-02-23 10:34:26 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:34:28 AM] Test Parallelization enabled for D:\Code2025\RavenWork\LindeBuzoGray\LindeBuzoGrayTest\bin\Debug\net9.0\LindeBuzoGrayTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:34:28 AM] D:\Code2025\RavenWork\LindeBuzoGray\LindeBuzoGrayTest\bin\Debug\net9.0\LindeBuzoGrayTest.dll
+[OUTPUT 2025-02-23 10:34:27 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:34:27 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:34:27 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:34:26 AM] Test run for D:\Code2025\RavenWork\LindeBuzoGray\LindeBuzoGrayTest\bin\Debug\net9.0\LindeBuzoGrayTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:34:26 AM]   LindeBuzoGrayTest -> D:\Code2025\RavenWork\LindeBuzoGray\LindeBuzoGrayTest\bin\Debug\net9.0\LindeBuzoGrayTest.dll
+[OUTPUT 2025-02-23 10:34:26 AM]   LindeBuzoGray -> D:\Code2025\RavenWork\LindeBuzoGray\LindeBuzoGray\bin\Debug\net9.0\LindeBuzoGray.dll
+[OUTPUT 2025-02-23 10:34:25 AM]   Determining projects to restore...
+[INFO 2025-02-23 10:34:25 AM] Command: dotnet test "D:\Code2025\RavenWork\LindeBuzoGray\LindeBuzoGrayTest\LindeBuzoGrayTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:34:25 AM] Starting test for project: D:\Code2025\RavenWork\LindeBuzoGray\LindeBuzoGrayTest\LindeBuzoGrayTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
