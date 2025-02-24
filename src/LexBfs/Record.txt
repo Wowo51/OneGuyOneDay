@@ -1,0 +1,237 @@
+<ActRecord>
+  <ProjectName>LexBfs</ProjectName>
+  <ProjectDescription>Lexicographic breadth-first search (also known as Lex‑BFS): a linear time algorithm for ordering the vertices of a graph</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Lexicographic breadth-first search (also known as Lex‑BFS): a linear time algorithm for ordering the vertices of a graph</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\LexBfs</SolutionFolderPath>
+  <ProjectFolderName>LexBfs</ProjectFolderName>
+  <ProjectName>LexBfs</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:01:33 AM
+LexBfs</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:02:43 AM
+LexBfs</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\LexBfs\LexBfs\Graph.cs(8,52): warning CS8714: The type 'T' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'T' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfs.csproj]
+D:\Code2025\RavenWork\LexBfs\LexBfs\Graph.cs(11,45): warning CS8714: The type 'T' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'T' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfs.csproj]
+D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfsAlgorithm.cs(11,24): warning CS8714: The type 'T' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'T' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfs.csproj]
+D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfsAlgorithm.cs(11,75): warning CS8714: The type 'T' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'T' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfs.csproj]
+D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfsAlgorithm.cs(12,24): warning CS8714: The type 'T' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'T' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfs.csproj]
+D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfsAlgorithm.cs(12,76): warning CS8714: The type 'T' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'T' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfs.csproj]
+D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfsAlgorithm.cs(32,49): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfs.csproj]
+D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfsAlgorithm.cs(33,23): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfs.csproj]
+  LexBfs -> D:\Code2025\RavenWork\LexBfs\LexBfs\bin\Debug\net9.0\LexBfs.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LexBfs\LexBfs\Graph.cs(8,52): warning CS8714: The type 'T' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'T' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfs.csproj]
+D:\Code2025\RavenWork\LexBfs\LexBfs\Graph.cs(11,45): warning CS8714: The type 'T' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'T' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfs.csproj]
+D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfsAlgorithm.cs(11,24): warning CS8714: The type 'T' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'T' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfs.csproj]
+D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfsAlgorithm.cs(11,75): warning CS8714: The type 'T' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'T' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfs.csproj]
+D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfsAlgorithm.cs(12,24): warning CS8714: The type 'T' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'T' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfs.csproj]
+D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfsAlgorithm.cs(12,76): warning CS8714: The type 'T' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'T' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfs.csproj]
+D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfsAlgorithm.cs(32,49): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfs.csproj]
+D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfsAlgorithm.cs(33,23): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfs.csproj]
+    8 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+]]></string>
+    <string>WritePatch: Compile failed.
+LexBfs</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:02:43 AM
+LexBfs</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:02:44 AM
+LexBfs</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:03:19 AM
+LexBfs</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LexBfs -> D:\Code2025\RavenWork\LexBfs\LexBfs\bin\Debug\net9.0\LexBfs.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+]]></string>
+    <string>WritePatch: Code is Complete.
+LexBfs</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:03:37 AM
+LexBfsTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:05:45 AM
+LexBfsTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LexBfs\LexBfsTest\LexBfsTest.csproj (in 208 ms).
+  1 of 2 projects are up-to-date for restore.
+  LexBfs -> D:\Code2025\RavenWork\LexBfs\LexBfs\bin\Debug\net9.0\LexBfs.dll
+  LexBfsTest -> D:\Code2025\RavenWork\LexBfs\LexBfsTest\bin\Debug\net9.0\LexBfsTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.46
+]]></string>
+    <string>WritePatch: Code is Complete.
+LexBfsTest</string>
+    <string>[INFO 2025-02-23 10:06:02 AM] Starting test for project: D:\Code2025\RavenWork\LexBfs\LexBfsTest\LexBfsTest.csproj</string>
+    <string>[INFO 2025-02-23 10:06:02 AM] Starting test for project: D:\Code2025\RavenWork\LexBfs\LexBfsTest\LexBfsTest.csproj</string>
+    <string>[INFO 2025-02-23 10:06:02 AM] Starting test for project: D:\Code2025\RavenWork\LexBfs\LexBfsTest\LexBfsTest.csproj</string>
+    <string>[INFO 2025-02-23 10:06:02 AM] Starting test for project: D:\Code2025\RavenWork\LexBfs\LexBfsTest\LexBfsTest.csproj</string>
+    <string>[INFO 2025-02-23 10:06:02 AM] Starting test for project: D:\Code2025\RavenWork\LexBfs\LexBfsTest\LexBfsTest.csproj</string>
+    <string>[INFO 2025-02-23 10:06:02 AM] Starting test for project: D:\Code2025\RavenWork\LexBfs\LexBfsTest\LexBfsTest.csproj</string>
+    <string>[INFO 2025-02-23 10:06:02 AM] Starting test for project: D:\Code2025\RavenWork\LexBfs\LexBfsTest\LexBfsTest.csproj</string>
+    <string>[INFO 2025-02-23 10:06:02 AM] Starting test for project: D:\Code2025\RavenWork\LexBfs\LexBfsTest\LexBfsTest.csproj</string>
+    <string>[INFO 2025-02-23 10:06:02 AM] Starting test for project: D:\Code2025\RavenWork\LexBfs\LexBfsTest\LexBfsTest.csproj</string>
+    <string>[INFO 2025-02-23 10:06:02 AM] Starting test for project: D:\Code2025\RavenWork\LexBfs\LexBfsTest\LexBfsTest.csproj</string>
+    <string>[INFO 2025-02-23 10:06:02 AM] Starting test for project: D:\Code2025\RavenWork\LexBfs\LexBfsTest\LexBfsTest.csproj</string>
+    <string>[INFO 2025-02-23 10:06:02 AM] Starting test for project: D:\Code2025\RavenWork\LexBfs\LexBfsTest\LexBfsTest.csproj</string>
+    <string>[INFO 2025-02-23 10:06:02 AM] Starting test for project: D:\Code2025\RavenWork\LexBfs\LexBfsTest\LexBfsTest.csproj</string>
+    <string>[INFO 2025-02-23 10:06:02 AM] Starting test for project: D:\Code2025\RavenWork\LexBfs\LexBfsTest\LexBfsTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 10:06:05 AM] All tests passed successfully.
+[INFO 2025-02-23 10:06:05 AM] Test process completed. Duration: 3.06 seconds.
+[INFO 2025-02-23 10:06:05 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 10:06:05 AM]   Passed TestDisconnectedGraph [6 ms]
+[OUTPUT 2025-02-23 10:06:05 AM]   Passed TestLargeGraph [6 ms]
+[OUTPUT 2025-02-23 10:06:05 AM] Test Parallelization enabled for D:\Code2025\RavenWork\LexBfs\LexBfsTest\bin\Debug\net9.0\LexBfsTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:06:04 AM] D:\Code2025\RavenWork\LexBfs\LexBfsTest\bin\Debug\net9.0\LexBfsTest.dll
+[OUTPUT 2025-02-23 10:06:04 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:06:04 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:06:04 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:06:04 AM] Test run for D:\Code2025\RavenWork\LexBfs\LexBfsTest\bin\Debug\net9.0\LexBfsTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:06:03 AM]   LexBfsTest -> D:\Code2025\RavenWork\LexBfs\LexBfsTest\bin\Debug\net9.0\LexBfsTest.dll
+[OUTPUT 2025-02-23 10:06:03 AM]   LexBfs -> D:\Code2025\RavenWork\LexBfs\LexBfs\bin\Debug\net9.0\LexBfs.dll
+[OUTPUT 2025-02-23 10:06:03 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:06:03 AM]   Determining projects to restore...
+[INFO 2025-02-23 10:06:02 AM] Command: dotnet test "D:\Code2025\RavenWork\LexBfs\LexBfsTest\LexBfsTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:06:02 AM] Starting test for project: D:\Code2025\RavenWork\LexBfs\LexBfsTest\LexBfsTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 10:01:33 AM
+LexBfs
+
+WritePatch ran compiler. 2025-02-23 10:02:43 AM
+LexBfs
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\LexBfs\LexBfs\Graph.cs(8,52): warning CS8714: The type 'T' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'T' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfs.csproj]
+D:\Code2025\RavenWork\LexBfs\LexBfs\Graph.cs(11,45): warning CS8714: The type 'T' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'T' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfs.csproj]
+D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfsAlgorithm.cs(11,24): warning CS8714: The type 'T' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'T' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfs.csproj]
+D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfsAlgorithm.cs(11,75): warning CS8714: The type 'T' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'T' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfs.csproj]
+D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfsAlgorithm.cs(12,24): warning CS8714: The type 'T' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'T' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfs.csproj]
+D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfsAlgorithm.cs(12,76): warning CS8714: The type 'T' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'T' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfs.csproj]
+D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfsAlgorithm.cs(32,49): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfs.csproj]
+D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfsAlgorithm.cs(33,23): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfs.csproj]
+  LexBfs -> D:\Code2025\RavenWork\LexBfs\LexBfs\bin\Debug\net9.0\LexBfs.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LexBfs\LexBfs\Graph.cs(8,52): warning CS8714: The type 'T' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'T' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfs.csproj]
+D:\Code2025\RavenWork\LexBfs\LexBfs\Graph.cs(11,45): warning CS8714: The type 'T' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'T' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfs.csproj]
+D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfsAlgorithm.cs(11,24): warning CS8714: The type 'T' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'T' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfs.csproj]
+D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfsAlgorithm.cs(11,75): warning CS8714: The type 'T' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'T' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfs.csproj]
+D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfsAlgorithm.cs(12,24): warning CS8714: The type 'T' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'T' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfs.csproj]
+D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfsAlgorithm.cs(12,76): warning CS8714: The type 'T' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'T' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfs.csproj]
+D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfsAlgorithm.cs(32,49): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfs.csproj]
+D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfsAlgorithm.cs(33,23): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\LexBfs\LexBfs\LexBfs.csproj]
+    8 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+
+
+WritePatch: Compile failed.
+LexBfs
+
+Finished WritePatch cycle step.
+2025-02-23 10:02:43 AM
+LexBfs
+
+WritePatch Started CycleStep. 2025-02-23 10:02:44 AM
+LexBfs
+
+WritePatch ran compiler. 2025-02-23 10:03:19 AM
+LexBfs
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LexBfs -> D:\Code2025\RavenWork\LexBfs\LexBfs\bin\Debug\net9.0\LexBfs.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+
+
+WritePatch: Code is Complete.
+LexBfs
+
+WritePatch Started CycleStep. 2025-02-23 10:03:37 AM
+LexBfsTest
+
+WritePatch ran compiler. 2025-02-23 10:05:45 AM
+LexBfsTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LexBfs\LexBfsTest\LexBfsTest.csproj (in 208 ms).
+  1 of 2 projects are up-to-date for restore.
+  LexBfs -> D:\Code2025\RavenWork\LexBfs\LexBfs\bin\Debug\net9.0\LexBfs.dll
+  LexBfsTest -> D:\Code2025\RavenWork\LexBfs\LexBfsTest\bin\Debug\net9.0\LexBfsTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.46
+
+
+WritePatch: Code is Complete.
+LexBfsTest
+
+TestResult:
+[SUCCESS 2025-02-23 10:06:05 AM] All tests passed successfully.
+[INFO 2025-02-23 10:06:05 AM] Test process completed. Duration: 3.06 seconds.
+[INFO 2025-02-23 10:06:05 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 10:06:05 AM]   Passed TestDisconnectedGraph [6 ms]
+[OUTPUT 2025-02-23 10:06:05 AM]   Passed TestLargeGraph [6 ms]
+[OUTPUT 2025-02-23 10:06:05 AM] Test Parallelization enabled for D:\Code2025\RavenWork\LexBfs\LexBfsTest\bin\Debug\net9.0\LexBfsTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:06:04 AM] D:\Code2025\RavenWork\LexBfs\LexBfsTest\bin\Debug\net9.0\LexBfsTest.dll
+[OUTPUT 2025-02-23 10:06:04 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:06:04 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:06:04 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:06:04 AM] Test run for D:\Code2025\RavenWork\LexBfs\LexBfsTest\bin\Debug\net9.0\LexBfsTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:06:03 AM]   LexBfsTest -> D:\Code2025\RavenWork\LexBfs\LexBfsTest\bin\Debug\net9.0\LexBfsTest.dll
+[OUTPUT 2025-02-23 10:06:03 AM]   LexBfs -> D:\Code2025\RavenWork\LexBfs\LexBfs\bin\Debug\net9.0\LexBfs.dll
+[OUTPUT 2025-02-23 10:06:03 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:06:03 AM]   Determining projects to restore...
+[INFO 2025-02-23 10:06:02 AM] Command: dotnet test "D:\Code2025\RavenWork\LexBfs\LexBfsTest\LexBfsTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:06:02 AM] Starting test for project: D:\Code2025\RavenWork\LexBfs\LexBfsTest\LexBfsTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
