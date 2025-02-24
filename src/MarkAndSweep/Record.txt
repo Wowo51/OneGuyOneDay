@@ -1,0 +1,147 @@
+<ActRecord>
+  <ProjectName>MarkAndSweep</ProjectName>
+  <ProjectDescription>Mark and sweep</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Mark and sweep</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\MarkAndSweep</SolutionFolderPath>
+  <ProjectFolderName>MarkAndSweep</ProjectFolderName>
+  <ProjectName>MarkAndSweep</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:41:04 PM
+MarkAndSweep</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:41:36 PM
+MarkAndSweep</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  MarkAndSweep -> D:\Code2025\RavenWork\MarkAndSweep\MarkAndSweep\bin\Debug\net9.0\MarkAndSweep.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.67
+]]></string>
+    <string>WritePatch: Code is Complete.
+MarkAndSweep</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:41:57 PM
+MarkAndSweepTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:43:16 PM
+MarkAndSweepTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\MarkAndSweep\MarkAndSweepTest\MarkAndSweepTest.csproj (in 314 ms).
+  1 of 2 projects are up-to-date for restore.
+  MarkAndSweep -> D:\Code2025\RavenWork\MarkAndSweep\MarkAndSweep\bin\Debug\net9.0\MarkAndSweep.dll
+  MarkAndSweepTest -> D:\Code2025\RavenWork\MarkAndSweep\MarkAndSweepTest\bin\Debug\net9.0\MarkAndSweepTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.14
+]]></string>
+    <string>WritePatch: Code is Complete.
+MarkAndSweepTest</string>
+    <string>[INFO 2025-02-23 1:43:24 PM] Starting test for project: D:\Code2025\RavenWork\MarkAndSweep\MarkAndSweepTest\MarkAndSweepTest.csproj</string>
+    <string>[INFO 2025-02-23 1:43:24 PM] Starting test for project: D:\Code2025\RavenWork\MarkAndSweep\MarkAndSweepTest\MarkAndSweepTest.csproj</string>
+    <string>[INFO 2025-02-23 1:43:24 PM] Starting test for project: D:\Code2025\RavenWork\MarkAndSweep\MarkAndSweepTest\MarkAndSweepTest.csproj</string>
+    <string>[INFO 2025-02-23 1:43:24 PM] Starting test for project: D:\Code2025\RavenWork\MarkAndSweep\MarkAndSweepTest\MarkAndSweepTest.csproj</string>
+    <string>[INFO 2025-02-23 1:43:24 PM] Starting test for project: D:\Code2025\RavenWork\MarkAndSweep\MarkAndSweepTest\MarkAndSweepTest.csproj</string>
+    <string>[INFO 2025-02-23 1:43:24 PM] Starting test for project: D:\Code2025\RavenWork\MarkAndSweep\MarkAndSweepTest\MarkAndSweepTest.csproj</string>
+    <string>[INFO 2025-02-23 1:43:24 PM] Starting test for project: D:\Code2025\RavenWork\MarkAndSweep\MarkAndSweepTest\MarkAndSweepTest.csproj</string>
+    <string>[INFO 2025-02-23 1:43:24 PM] Starting test for project: D:\Code2025\RavenWork\MarkAndSweep\MarkAndSweepTest\MarkAndSweepTest.csproj</string>
+    <string>[INFO 2025-02-23 1:43:24 PM] Starting test for project: D:\Code2025\RavenWork\MarkAndSweep\MarkAndSweepTest\MarkAndSweepTest.csproj</string>
+    <string>[INFO 2025-02-23 1:43:24 PM] Starting test for project: D:\Code2025\RavenWork\MarkAndSweep\MarkAndSweepTest\MarkAndSweepTest.csproj</string>
+    <string>[INFO 2025-02-23 1:43:24 PM] Starting test for project: D:\Code2025\RavenWork\MarkAndSweep\MarkAndSweepTest\MarkAndSweepTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 1:43:30 PM] D:\Code2025\RavenWork\MarkAndSweep\MarkAndSweepTest\bin\Debug\net9.0\MarkAndSweepTest.dll
+[OUTPUT 2025-02-23 1:43:30 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 1:43:27 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:43:29 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 1:43:28 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 1:43:28 PM] Test run for D:\Code2025\RavenWork\MarkAndSweep\MarkAndSweepTest\bin\Debug\net9.0\MarkAndSweepTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 1:43:27 PM]   MarkAndSweepTest -> D:\Code2025\RavenWork\MarkAndSweep\MarkAndSweepTest\bin\Debug\net9.0\MarkAndSweepTest.dll
+[OUTPUT 2025-02-23 1:43:27 PM]   MarkAndSweep -> D:\Code2025\RavenWork\MarkAndSweep\MarkAndSweep\bin\Debug\net9.0\MarkAndSweep.dll
+[OUTPUT 2025-02-23 1:43:26 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 1:43:30 PM] All tests passed successfully.
+[INFO 2025-02-23 1:43:30 PM] Test process completed. Duration: 5.21 seconds.
+[INFO 2025-02-23 1:43:30 PM] Process exited with code 0.
+[INFO 2025-02-23 1:43:24 PM] Command: dotnet test "D:\Code2025\RavenWork\MarkAndSweep\MarkAndSweepTest\MarkAndSweepTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:43:24 PM] Starting test for project: D:\Code2025\RavenWork\MarkAndSweep\MarkAndSweepTest\MarkAndSweepTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 1:41:04 PM
+MarkAndSweep
+
+WritePatch ran compiler. 2025-02-23 1:41:36 PM
+MarkAndSweep
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  MarkAndSweep -> D:\Code2025\RavenWork\MarkAndSweep\MarkAndSweep\bin\Debug\net9.0\MarkAndSweep.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.67
+
+
+WritePatch: Code is Complete.
+MarkAndSweep
+
+WritePatch Started CycleStep. 2025-02-23 1:41:57 PM
+MarkAndSweepTest
+
+WritePatch ran compiler. 2025-02-23 1:43:16 PM
+MarkAndSweepTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\MarkAndSweep\MarkAndSweepTest\MarkAndSweepTest.csproj (in 314 ms).
+  1 of 2 projects are up-to-date for restore.
+  MarkAndSweep -> D:\Code2025\RavenWork\MarkAndSweep\MarkAndSweep\bin\Debug\net9.0\MarkAndSweep.dll
+  MarkAndSweepTest -> D:\Code2025\RavenWork\MarkAndSweep\MarkAndSweepTest\bin\Debug\net9.0\MarkAndSweepTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.14
+
+
+WritePatch: Code is Complete.
+MarkAndSweepTest
+
+TestResult:
+[OUTPUT 2025-02-23 1:43:30 PM] D:\Code2025\RavenWork\MarkAndSweep\MarkAndSweepTest\bin\Debug\net9.0\MarkAndSweepTest.dll
+[OUTPUT 2025-02-23 1:43:30 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 1:43:27 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:43:29 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 1:43:28 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 1:43:28 PM] Test run for D:\Code2025\RavenWork\MarkAndSweep\MarkAndSweepTest\bin\Debug\net9.0\MarkAndSweepTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 1:43:27 PM]   MarkAndSweepTest -> D:\Code2025\RavenWork\MarkAndSweep\MarkAndSweepTest\bin\Debug\net9.0\MarkAndSweepTest.dll
+[OUTPUT 2025-02-23 1:43:27 PM]   MarkAndSweep -> D:\Code2025\RavenWork\MarkAndSweep\MarkAndSweep\bin\Debug\net9.0\MarkAndSweep.dll
+[OUTPUT 2025-02-23 1:43:26 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 1:43:30 PM] All tests passed successfully.
+[INFO 2025-02-23 1:43:30 PM] Test process completed. Duration: 5.21 seconds.
+[INFO 2025-02-23 1:43:30 PM] Process exited with code 0.
+[INFO 2025-02-23 1:43:24 PM] Command: dotnet test "D:\Code2025\RavenWork\MarkAndSweep\MarkAndSweepTest\MarkAndSweepTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:43:24 PM] Starting test for project: D:\Code2025\RavenWork\MarkAndSweep\MarkAndSweepTest\MarkAndSweepTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
