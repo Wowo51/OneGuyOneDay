@@ -1,0 +1,392 @@
+<ActRecord>
+  <ProjectName>FuzzyClustering</ProjectName>
+  <ProjectDescription>Fuzzy clustering: A class of clustering algorithms where each point has a degree of belonging to clusters</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Fuzzy clustering: A class of clustering algorithms where each point has a degree of belonging to clusters</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\FuzzyClustering</SolutionFolderPath>
+  <ProjectFolderName>FuzzyClustering</ProjectFolderName>
+  <ProjectName>FuzzyClustering</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:27:09 AM
+FuzzyClustering</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:28:00 AM
+FuzzyClustering</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FuzzyClustering -> D:\Code2025\RavenWork\FuzzyClustering\FuzzyClustering\bin\Debug\net9.0\FuzzyClustering.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.22
+]]></string>
+    <string>WritePatch: Code is Complete.
+FuzzyClustering</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:28:29 AM
+FuzzyClusteringTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:29:18 AM
+FuzzyClusteringTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTest.csproj (in 289 ms).
+  1 of 2 projects are up-to-date for restore.
+  FuzzyClustering -> D:\Code2025\RavenWork\FuzzyClustering\FuzzyClustering\bin\Debug\net9.0\FuzzyClustering.dll
+D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTests.cs(15,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTest.csproj]
+D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTests.cs(20,59): warning CS8604: Possible null reference argument for parameter 'points' in 'FuzzyClusterResult FuzzyClusteringAlgorithm.Cluster(double[][] points, int clusterCount, double fuzziness, int maxIterations, double epsilon)'. [D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTest.csproj]
+  FuzzyClusteringTest -> D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\bin\Debug\net9.0\FuzzyClusteringTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTests.cs(15,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTest.csproj]
+D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTests.cs(20,59): warning CS8604: Possible null reference argument for parameter 'points' in 'FuzzyClusterResult FuzzyClusteringAlgorithm.Cluster(double[][] points, int clusterCount, double fuzziness, int maxIterations, double epsilon)'. [D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.23
+]]></string>
+    <string>WritePatch: Compile failed.
+FuzzyClusteringTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:29:19 AM
+FuzzyClusteringTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:29:19 AM
+FuzzyClusteringTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:31:00 AM
+FuzzyClusteringTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FuzzyClustering -> D:\Code2025\RavenWork\FuzzyClustering\FuzzyClustering\bin\Debug\net9.0\FuzzyClustering.dll
+D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTests.cs(20,59): warning CS8604: Possible null reference argument for parameter 'points' in 'FuzzyClusterResult FuzzyClusteringAlgorithm.Cluster(double[][] points, int clusterCount, double fuzziness, int maxIterations, double epsilon)'. [D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTest.csproj]
+  FuzzyClusteringTest -> D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\bin\Debug\net9.0\FuzzyClusteringTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTests.cs(20,59): warning CS8604: Possible null reference argument for parameter 'points' in 'FuzzyClusterResult FuzzyClusteringAlgorithm.Cluster(double[][] points, int clusterCount, double fuzziness, int maxIterations, double epsilon)'. [D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.48
+]]></string>
+    <string>WritePatch: Compile failed.
+FuzzyClusteringTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:31:01 AM
+FuzzyClusteringTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:31:02 AM
+FuzzyClusteringTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:31:54 AM
+FuzzyClusteringTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FuzzyClustering -> D:\Code2025\RavenWork\FuzzyClustering\FuzzyClustering\bin\Debug\net9.0\FuzzyClustering.dll
+  FuzzyClusteringTest -> D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\bin\Debug\net9.0\FuzzyClusteringTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.64
+]]></string>
+    <string>WritePatch: Code is not Complete.
+FuzzyClusteringTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:32:09 AM
+FuzzyClusteringTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FuzzyClustering -> D:\Code2025\RavenWork\FuzzyClustering\FuzzyClustering\bin\Debug\net9.0\FuzzyClustering.dll
+  FuzzyClusteringTest -> D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\bin\Debug\net9.0\FuzzyClusteringTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.64
+
+</CompilerResponse>
+2025-02-23 9:32:10 AM
+FuzzyClusteringTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 9:32:11 AM
+FuzzyClustering</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FuzzyClustering -> D:\Code2025\RavenWork\FuzzyClustering\FuzzyClustering\bin\Debug\net9.0\FuzzyClustering.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+]]></string>
+    <string>WritePatch: Code is Complete.
+FuzzyClustering</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:32:26 AM
+FuzzyClusteringTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FuzzyClustering -> D:\Code2025\RavenWork\FuzzyClustering\FuzzyClustering\bin\Debug\net9.0\FuzzyClustering.dll
+  FuzzyClusteringTest -> D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\bin\Debug\net9.0\FuzzyClusteringTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.04
+]]></string>
+    <string>WritePatch: Code is Complete.
+FuzzyClusteringTest</string>
+    <string>[INFO 2025-02-23 9:32:36 AM] Starting test for project: D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTest.csproj</string>
+    <string>[INFO 2025-02-23 9:32:36 AM] Starting test for project: D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTest.csproj</string>
+    <string>[INFO 2025-02-23 9:32:36 AM] Starting test for project: D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTest.csproj</string>
+    <string>[INFO 2025-02-23 9:32:36 AM] Starting test for project: D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTest.csproj</string>
+    <string>[INFO 2025-02-23 9:32:36 AM] Starting test for project: D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTest.csproj</string>
+    <string>[INFO 2025-02-23 9:32:36 AM] Starting test for project: D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTest.csproj</string>
+    <string>[INFO 2025-02-23 9:32:36 AM] Starting test for project: D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTest.csproj</string>
+    <string>[INFO 2025-02-23 9:32:36 AM] Starting test for project: D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTest.csproj</string>
+    <string>[INFO 2025-02-23 9:32:36 AM] Starting test for project: D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTest.csproj</string>
+    <string>[INFO 2025-02-23 9:32:36 AM] Starting test for project: D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTest.csproj</string>
+    <string>[INFO 2025-02-23 9:32:36 AM] Starting test for project: D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTest.csproj</string>
+    <string>[INFO 2025-02-23 9:32:36 AM] Starting test for project: D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTest.csproj</string>
+    <string>[INFO 2025-02-23 9:32:36 AM] Starting test for project: D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTest.csproj</string>
+    <string>[INFO 2025-02-23 9:32:36 AM] Starting test for project: D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 9:32:38 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 9:32:38 AM] Test run for D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\bin\Debug\net9.0\FuzzyClusteringTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 9:32:38 AM]   FuzzyClusteringTest -> D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\bin\Debug\net9.0\FuzzyClusteringTest.dll
+[OUTPUT 2025-02-23 9:32:41 AM]   Passed Test_OnePointOneCluster [6 ms]
+[OUTPUT 2025-02-23 9:32:40 AM]   Passed Test_FuzzinessUnderflow [6 ms]
+[OUTPUT 2025-02-23 9:32:40 AM] Test Parallelization enabled for D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\bin\Debug\net9.0\FuzzyClusteringTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 9:32:40 AM] D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\bin\Debug\net9.0\FuzzyClusteringTest.dll
+[OUTPUT 2025-02-23 9:32:39 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 9:32:39 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 9:32:38 AM]   FuzzyClustering -> D:\Code2025\RavenWork\FuzzyClustering\FuzzyClustering\bin\Debug\net9.0\FuzzyClustering.dll
+[OUTPUT 2025-02-23 9:32:37 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 9:32:37 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 9:32:40 AM] All tests passed successfully.
+[INFO 2025-02-23 9:32:40 AM] Test process completed. Duration: 4.37 seconds.
+[INFO 2025-02-23 9:32:40 AM] Process exited with code 0.
+[INFO 2025-02-23 9:32:36 AM] Command: dotnet test "D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 9:32:36 AM] Starting test for project: D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 9:27:09 AM
+FuzzyClustering
+
+WritePatch ran compiler. 2025-02-23 9:28:00 AM
+FuzzyClustering
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FuzzyClustering -> D:\Code2025\RavenWork\FuzzyClustering\FuzzyClustering\bin\Debug\net9.0\FuzzyClustering.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.22
+
+
+WritePatch: Code is Complete.
+FuzzyClustering
+
+WritePatch Started CycleStep. 2025-02-23 9:28:29 AM
+FuzzyClusteringTest
+
+WritePatch ran compiler. 2025-02-23 9:29:18 AM
+FuzzyClusteringTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTest.csproj (in 289 ms).
+  1 of 2 projects are up-to-date for restore.
+  FuzzyClustering -> D:\Code2025\RavenWork\FuzzyClustering\FuzzyClustering\bin\Debug\net9.0\FuzzyClustering.dll
+D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTests.cs(15,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTest.csproj]
+D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTests.cs(20,59): warning CS8604: Possible null reference argument for parameter 'points' in 'FuzzyClusterResult FuzzyClusteringAlgorithm.Cluster(double[][] points, int clusterCount, double fuzziness, int maxIterations, double epsilon)'. [D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTest.csproj]
+  FuzzyClusteringTest -> D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\bin\Debug\net9.0\FuzzyClusteringTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTests.cs(15,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTest.csproj]
+D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTests.cs(20,59): warning CS8604: Possible null reference argument for parameter 'points' in 'FuzzyClusterResult FuzzyClusteringAlgorithm.Cluster(double[][] points, int clusterCount, double fuzziness, int maxIterations, double epsilon)'. [D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.23
+
+
+WritePatch: Compile failed.
+FuzzyClusteringTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:29:19 AM
+FuzzyClusteringTest
+
+WritePatch Started CycleStep. 2025-02-23 9:29:19 AM
+FuzzyClusteringTest
+
+WritePatch ran compiler. 2025-02-23 9:31:00 AM
+FuzzyClusteringTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FuzzyClustering -> D:\Code2025\RavenWork\FuzzyClustering\FuzzyClustering\bin\Debug\net9.0\FuzzyClustering.dll
+D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTests.cs(20,59): warning CS8604: Possible null reference argument for parameter 'points' in 'FuzzyClusterResult FuzzyClusteringAlgorithm.Cluster(double[][] points, int clusterCount, double fuzziness, int maxIterations, double epsilon)'. [D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTest.csproj]
+  FuzzyClusteringTest -> D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\bin\Debug\net9.0\FuzzyClusteringTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTests.cs(20,59): warning CS8604: Possible null reference argument for parameter 'points' in 'FuzzyClusterResult FuzzyClusteringAlgorithm.Cluster(double[][] points, int clusterCount, double fuzziness, int maxIterations, double epsilon)'. [D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.48
+
+
+WritePatch: Compile failed.
+FuzzyClusteringTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:31:01 AM
+FuzzyClusteringTest
+
+WritePatch Started CycleStep. 2025-02-23 9:31:02 AM
+FuzzyClusteringTest
+
+WritePatch ran compiler. 2025-02-23 9:31:54 AM
+FuzzyClusteringTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FuzzyClustering -> D:\Code2025\RavenWork\FuzzyClustering\FuzzyClustering\bin\Debug\net9.0\FuzzyClustering.dll
+  FuzzyClusteringTest -> D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\bin\Debug\net9.0\FuzzyClusteringTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.64
+
+
+WritePatch: Code is not Complete.
+FuzzyClusteringTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:32:09 AM
+FuzzyClusteringTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FuzzyClustering -> D:\Code2025\RavenWork\FuzzyClustering\FuzzyClustering\bin\Debug\net9.0\FuzzyClustering.dll
+  FuzzyClusteringTest -> D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\bin\Debug\net9.0\FuzzyClusteringTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.64
+
+</CompilerResponse>
+2025-02-23 9:32:10 AM
+FuzzyClusteringTest
+
+WritePatch ran compiler. 2025-02-23 9:32:11 AM
+FuzzyClustering
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FuzzyClustering -> D:\Code2025\RavenWork\FuzzyClustering\FuzzyClustering\bin\Debug\net9.0\FuzzyClustering.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+
+
+WritePatch: Code is Complete.
+FuzzyClustering
+
+WritePatch ran compiler. 2025-02-23 9:32:26 AM
+FuzzyClusteringTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FuzzyClustering -> D:\Code2025\RavenWork\FuzzyClustering\FuzzyClustering\bin\Debug\net9.0\FuzzyClustering.dll
+  FuzzyClusteringTest -> D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\bin\Debug\net9.0\FuzzyClusteringTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.04
+
+
+WritePatch: Code is Complete.
+FuzzyClusteringTest
+
+TestResult:
+[OUTPUT 2025-02-23 9:32:38 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 9:32:38 AM] Test run for D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\bin\Debug\net9.0\FuzzyClusteringTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 9:32:38 AM]   FuzzyClusteringTest -> D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\bin\Debug\net9.0\FuzzyClusteringTest.dll
+[OUTPUT 2025-02-23 9:32:41 AM]   Passed Test_OnePointOneCluster [6 ms]
+[OUTPUT 2025-02-23 9:32:40 AM]   Passed Test_FuzzinessUnderflow [6 ms]
+[OUTPUT 2025-02-23 9:32:40 AM] Test Parallelization enabled for D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\bin\Debug\net9.0\FuzzyClusteringTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 9:32:40 AM] D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\bin\Debug\net9.0\FuzzyClusteringTest.dll
+[OUTPUT 2025-02-23 9:32:39 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 9:32:39 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 9:32:38 AM]   FuzzyClustering -> D:\Code2025\RavenWork\FuzzyClustering\FuzzyClustering\bin\Debug\net9.0\FuzzyClustering.dll
+[OUTPUT 2025-02-23 9:32:37 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 9:32:37 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 9:32:40 AM] All tests passed successfully.
+[INFO 2025-02-23 9:32:40 AM] Test process completed. Duration: 4.37 seconds.
+[INFO 2025-02-23 9:32:40 AM] Process exited with code 0.
+[INFO 2025-02-23 9:32:36 AM] Command: dotnet test "D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 9:32:36 AM] Starting test for project: D:\Code2025\RavenWork\FuzzyClustering\FuzzyClusteringTest\FuzzyClusteringTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
