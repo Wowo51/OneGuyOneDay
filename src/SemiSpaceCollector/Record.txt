@@ -1,0 +1,487 @@
+<ActRecord>
+  <ProjectName>SemiSpaceCollector</ProjectName>
+  <ProjectDescription>Semi‑space collector: An early copying garbage collector</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Semi‑space collector: An early copying garbage collector</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\SemiSpaceCollector</SolutionFolderPath>
+  <ProjectFolderName>SemiSpaceCollector</ProjectFolderName>
+  <ProjectName>SemiSpaceCollector</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:02:34 AM
+SemiSpaceCollector</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:03:48 AM
+SemiSpaceCollector</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SemiSpaceCollector -> D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollector\bin\Debug\net9.0\SemiSpaceCollector.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.83
+]]></string>
+    <string>WritePatch: Code is Complete.
+SemiSpaceCollector</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:04:16 AM
+SemiSpaceCollectorTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:05:51 AM
+SemiSpaceCollectorTest</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj (in 192 ms).
+  1 of 2 projects are up-to-date for restore.
+  SemiSpaceCollector -> D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollector\bin\Debug\net9.0\SemiSpaceCollector.dll
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(13,13): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(13,48): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(20,13): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(20,48): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(30,13): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(30,48): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(45,13): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(45,48): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(64,13): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(64,48): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(79,13): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(79,48): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(13,13): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(13,48): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(20,13): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(20,48): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(30,13): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(30,48): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(45,13): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(45,48): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(64,13): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(64,48): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(79,13): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(79,48): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+    0 Warning(s)
+    12 Error(s)
+
+Time Elapsed 00:00:01.18
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+SemiSpaceCollectorTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:05:52 AM
+SemiSpaceCollectorTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:05:52 AM
+SemiSpaceCollectorTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:07:21 AM
+SemiSpaceCollectorTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SemiSpaceCollector -> D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollector\bin\Debug\net9.0\SemiSpaceCollector.dll
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(21,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(31,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(32,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(33,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(36,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(46,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(52,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(67,36): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(72,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(80,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(80,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+  SemiSpaceCollectorTest -> D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\bin\Debug\net9.0\SemiSpaceCollectorTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(21,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(31,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(32,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(33,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(36,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(46,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(52,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(67,36): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(72,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(80,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(80,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+    11 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.13
+]]></string>
+    <string>WritePatch: Compile failed.
+SemiSpaceCollectorTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:07:22 AM
+SemiSpaceCollectorTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:07:22 AM
+SemiSpaceCollectorTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:07:57 AM
+SemiSpaceCollectorTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SemiSpaceCollector -> D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollector\bin\Debug\net9.0\SemiSpaceCollector.dll
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(80,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+  SemiSpaceCollectorTest -> D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\bin\Debug\net9.0\SemiSpaceCollectorTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(80,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+]]></string>
+    <string>WritePatch: Compile failed.
+SemiSpaceCollectorTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:07:58 AM
+SemiSpaceCollectorTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SemiSpaceCollector -> D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollector\bin\Debug\net9.0\SemiSpaceCollector.dll
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(80,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+  SemiSpaceCollectorTest -> D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\bin\Debug\net9.0\SemiSpaceCollectorTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(80,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+
+</CompilerResponse>
+2025-02-23 8:07:58 AM
+SemiSpaceCollectorTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 8:08:00 AM
+SemiSpaceCollector</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SemiSpaceCollector -> D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollector\bin\Debug\net9.0\SemiSpaceCollector.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+]]></string>
+    <string>WritePatch: Code is Complete.
+SemiSpaceCollector</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:08:31 AM
+SemiSpaceCollectorTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SemiSpaceCollector -> D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollector\bin\Debug\net9.0\SemiSpaceCollector.dll
+  SemiSpaceCollectorTest -> D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\bin\Debug\net9.0\SemiSpaceCollectorTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.91
+]]></string>
+    <string>WritePatch: Code is Complete.
+SemiSpaceCollectorTest</string>
+    <string>[INFO 2025-02-23 8:08:58 AM] Starting test for project: D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj</string>
+    <string>[INFO 2025-02-23 8:08:58 AM] Starting test for project: D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj</string>
+    <string>[INFO 2025-02-23 8:08:58 AM] Starting test for project: D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj</string>
+    <string>[INFO 2025-02-23 8:08:58 AM] Starting test for project: D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj</string>
+    <string>[INFO 2025-02-23 8:08:58 AM] Starting test for project: D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj</string>
+    <string>[INFO 2025-02-23 8:08:58 AM] Starting test for project: D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj</string>
+    <string>[INFO 2025-02-23 8:08:58 AM] Starting test for project: D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj</string>
+    <string>[INFO 2025-02-23 8:08:58 AM] Starting test for project: D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj</string>
+    <string>[INFO 2025-02-23 8:08:58 AM] Starting test for project: D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj</string>
+    <string>[INFO 2025-02-23 8:08:58 AM] Starting test for project: D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj</string>
+    <string>[INFO 2025-02-23 8:08:58 AM] Starting test for project: D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj</string>
+    <string>[INFO 2025-02-23 8:08:58 AM] Starting test for project: D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj</string>
+    <string>[INFO 2025-02-23 8:08:58 AM] Starting test for project: D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 8:09:01 AM]   Passed TestAllocateNull [4 ms]
+[OUTPUT 2025-02-23 8:09:01 AM] Test Parallelization enabled for D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\bin\Debug\net9.0\SemiSpaceCollectorTest.dll (Workers: 16, Scope: MethodLevel)
+[SUCCESS 2025-02-23 8:09:01 AM] All tests passed successfully.
+[INFO 2025-02-23 8:09:01 AM] Test process completed. Duration: 3.10 seconds.
+[INFO 2025-02-23 8:09:01 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 8:09:01 AM] D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\bin\Debug\net9.0\SemiSpaceCollectorTest.dll
+[OUTPUT 2025-02-23 8:09:00 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 8:09:00 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:09:00 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:09:00 AM] Test run for D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\bin\Debug\net9.0\SemiSpaceCollectorTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:08:59 AM]   SemiSpaceCollectorTest -> D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\bin\Debug\net9.0\SemiSpaceCollectorTest.dll
+[OUTPUT 2025-02-23 8:08:59 AM]   SemiSpaceCollector -> D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollector\bin\Debug\net9.0\SemiSpaceCollector.dll
+[OUTPUT 2025-02-23 8:08:59 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:08:59 AM]   Determining projects to restore...
+[INFO 2025-02-23 8:08:58 AM] Command: dotnet test "D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:08:58 AM] Starting test for project: D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 8:02:34 AM
+SemiSpaceCollector
+
+WritePatch ran compiler. 2025-02-23 8:03:48 AM
+SemiSpaceCollector
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SemiSpaceCollector -> D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollector\bin\Debug\net9.0\SemiSpaceCollector.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.83
+
+
+WritePatch: Code is Complete.
+SemiSpaceCollector
+
+WritePatch Started CycleStep. 2025-02-23 8:04:16 AM
+SemiSpaceCollectorTest
+
+WritePatch ran compiler. 2025-02-23 8:05:51 AM
+SemiSpaceCollectorTest
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj (in 192 ms).
+  1 of 2 projects are up-to-date for restore.
+  SemiSpaceCollector -> D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollector\bin\Debug\net9.0\SemiSpaceCollector.dll
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(13,13): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(13,48): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(20,13): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(20,48): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(30,13): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(30,48): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(45,13): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(45,48): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(64,13): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(64,48): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(79,13): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(79,48): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(13,13): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(13,48): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(20,13): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(20,48): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(30,13): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(30,48): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(45,13): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(45,48): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(64,13): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(64,48): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(79,13): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(79,48): error CS0118: 'SemiSpaceCollector' is a namespace but is used like a type [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+    0 Warning(s)
+    12 Error(s)
+
+Time Elapsed 00:00:01.18
+
+
+Errors:
+
+WritePatch: Compile failed.
+SemiSpaceCollectorTest
+
+Finished WritePatch cycle step.
+2025-02-23 8:05:52 AM
+SemiSpaceCollectorTest
+
+WritePatch Started CycleStep. 2025-02-23 8:05:52 AM
+SemiSpaceCollectorTest
+
+WritePatch ran compiler. 2025-02-23 8:07:21 AM
+SemiSpaceCollectorTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SemiSpaceCollector -> D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollector\bin\Debug\net9.0\SemiSpaceCollector.dll
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(21,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(31,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(32,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(33,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(36,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(46,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(52,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(67,36): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(72,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(80,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(80,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+  SemiSpaceCollectorTest -> D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\bin\Debug\net9.0\SemiSpaceCollectorTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(21,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(31,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(32,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(33,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(36,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(46,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(52,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(67,36): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(72,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(80,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(80,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+    11 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.13
+
+
+WritePatch: Compile failed.
+SemiSpaceCollectorTest
+
+Finished WritePatch cycle step.
+2025-02-23 8:07:22 AM
+SemiSpaceCollectorTest
+
+WritePatch Started CycleStep. 2025-02-23 8:07:22 AM
+SemiSpaceCollectorTest
+
+WritePatch ran compiler. 2025-02-23 8:07:57 AM
+SemiSpaceCollectorTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SemiSpaceCollector -> D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollector\bin\Debug\net9.0\SemiSpaceCollector.dll
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(80,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+  SemiSpaceCollectorTest -> D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\bin\Debug\net9.0\SemiSpaceCollectorTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(80,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+
+
+WritePatch: Compile failed.
+SemiSpaceCollectorTest
+
+Finished WritePatch cycle step.
+2025-02-23 8:07:58 AM
+SemiSpaceCollectorTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SemiSpaceCollector -> D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollector\bin\Debug\net9.0\SemiSpaceCollector.dll
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(80,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+  SemiSpaceCollectorTest -> D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\bin\Debug\net9.0\SemiSpaceCollectorTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTests.cs(80,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+
+</CompilerResponse>
+2025-02-23 8:07:58 AM
+SemiSpaceCollectorTest
+
+WritePatch ran compiler. 2025-02-23 8:08:00 AM
+SemiSpaceCollector
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SemiSpaceCollector -> D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollector\bin\Debug\net9.0\SemiSpaceCollector.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+
+
+WritePatch: Code is Complete.
+SemiSpaceCollector
+
+WritePatch ran compiler. 2025-02-23 8:08:31 AM
+SemiSpaceCollectorTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SemiSpaceCollector -> D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollector\bin\Debug\net9.0\SemiSpaceCollector.dll
+  SemiSpaceCollectorTest -> D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\bin\Debug\net9.0\SemiSpaceCollectorTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.91
+
+
+WritePatch: Code is Complete.
+SemiSpaceCollectorTest
+
+TestResult:
+[OUTPUT 2025-02-23 8:09:01 AM]   Passed TestAllocateNull [4 ms]
+[OUTPUT 2025-02-23 8:09:01 AM] Test Parallelization enabled for D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\bin\Debug\net9.0\SemiSpaceCollectorTest.dll (Workers: 16, Scope: MethodLevel)
+[SUCCESS 2025-02-23 8:09:01 AM] All tests passed successfully.
+[INFO 2025-02-23 8:09:01 AM] Test process completed. Duration: 3.10 seconds.
+[INFO 2025-02-23 8:09:01 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 8:09:01 AM] D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\bin\Debug\net9.0\SemiSpaceCollectorTest.dll
+[OUTPUT 2025-02-23 8:09:00 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 8:09:00 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:09:00 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:09:00 AM] Test run for D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\bin\Debug\net9.0\SemiSpaceCollectorTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:08:59 AM]   SemiSpaceCollectorTest -> D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\bin\Debug\net9.0\SemiSpaceCollectorTest.dll
+[OUTPUT 2025-02-23 8:08:59 AM]   SemiSpaceCollector -> D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollector\bin\Debug\net9.0\SemiSpaceCollector.dll
+[OUTPUT 2025-02-23 8:08:59 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:08:59 AM]   Determining projects to restore...
+[INFO 2025-02-23 8:08:58 AM] Command: dotnet test "D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:08:58 AM] Starting test for project: D:\Code2025\RavenWork\SemiSpaceCollector\SemiSpaceCollectorTest\SemiSpaceCollectorTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
