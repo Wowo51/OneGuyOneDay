@@ -1,0 +1,394 @@
+<ActRecord>
+  <ProjectName>Threefish</ProjectName>
+  <ProjectDescription>Threefish</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Threefish</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\Threefish</SolutionFolderPath>
+  <ProjectFolderName>Threefish</ProjectFolderName>
+  <ProjectName>Threefish</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:49:25 AM
+Threefish</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:50:50 AM
+Threefish</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Threefish -> D:\Code2025\RavenWork\Threefish\Threefish\bin\Debug\net9.0\Threefish.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.09
+]]></string>
+    <string>WritePatch: Code is Complete.
+Threefish</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:51:43 AM
+ThreefishTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:52:15 AM
+ThreefishTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishTest.csproj (in 253 ms).
+  1 of 2 projects are up-to-date for restore.
+  Threefish -> D:\Code2025\RavenWork\Threefish\Threefish\bin\Debug\net9.0\Threefish.dll
+D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishCipherTests.cs(54,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishTest.csproj]
+  ThreefishTest -> D:\Code2025\RavenWork\Threefish\ThreefishTest\bin\Debug\net9.0\ThreefishTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishCipherTests.cs(54,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.82
+]]></string>
+    <string>WritePatch: Compile failed.
+ThreefishTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:52:15 AM
+ThreefishTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:52:16 AM
+ThreefishTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:54:28 AM
+ThreefishTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Threefish -> D:\Code2025\RavenWork\Threefish\Threefish\bin\Debug\net9.0\Threefish.dll
+  ThreefishTest -> D:\Code2025\RavenWork\Threefish\ThreefishTest\bin\Debug\net9.0\ThreefishTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.25
+]]></string>
+    <string>WritePatch: Code is not Complete.
+ThreefishTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:54:50 AM
+ThreefishTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:54:50 AM
+ThreefishTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:55:36 AM
+ThreefishTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Threefish -> D:\Code2025\RavenWork\Threefish\Threefish\bin\Debug\net9.0\Threefish.dll
+D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishCipherTests.cs(54,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishTest.csproj]
+  ThreefishTest -> D:\Code2025\RavenWork\Threefish\ThreefishTest\bin\Debug\net9.0\ThreefishTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishCipherTests.cs(54,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.33
+]]></string>
+    <string>WritePatch: Compile failed.
+ThreefishTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:55:37 AM
+ThreefishTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\Threefish\ThreefishTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Threefish -> D:\Code2025\RavenWork\Threefish\Threefish\bin\Debug\net9.0\Threefish.dll
+D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishCipherTests.cs(54,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishTest.csproj]
+  ThreefishTest -> D:\Code2025\RavenWork\Threefish\ThreefishTest\bin\Debug\net9.0\ThreefishTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishCipherTests.cs(54,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.33
+
+</CompilerResponse>
+2025-02-23 11:55:37 AM
+ThreefishTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 11:55:39 AM
+Threefish</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Threefish -> D:\Code2025\RavenWork\Threefish\Threefish\bin\Debug\net9.0\Threefish.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.06
+]]></string>
+    <string>WritePatch: Code is Complete.
+Threefish</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:56:20 AM
+ThreefishTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Threefish -> D:\Code2025\RavenWork\Threefish\Threefish\bin\Debug\net9.0\Threefish.dll
+  ThreefishTest -> D:\Code2025\RavenWork\Threefish\ThreefishTest\bin\Debug\net9.0\ThreefishTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.13
+]]></string>
+    <string>WritePatch: Code is Complete.
+ThreefishTest</string>
+    <string>[INFO 2025-02-23 11:56:38 AM] Starting test for project: D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishTest.csproj</string>
+    <string>[INFO 2025-02-23 11:56:38 AM] Starting test for project: D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishTest.csproj</string>
+    <string>[INFO 2025-02-23 11:56:38 AM] Starting test for project: D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishTest.csproj</string>
+    <string>[INFO 2025-02-23 11:56:38 AM] Starting test for project: D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishTest.csproj</string>
+    <string>[INFO 2025-02-23 11:56:38 AM] Starting test for project: D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishTest.csproj</string>
+    <string>[INFO 2025-02-23 11:56:38 AM] Starting test for project: D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishTest.csproj</string>
+    <string>[INFO 2025-02-23 11:56:38 AM] Starting test for project: D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishTest.csproj</string>
+    <string>[INFO 2025-02-23 11:56:38 AM] Starting test for project: D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishTest.csproj</string>
+    <string>[INFO 2025-02-23 11:56:38 AM] Starting test for project: D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishTest.csproj</string>
+    <string>[INFO 2025-02-23 11:56:38 AM] Starting test for project: D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishTest.csproj</string>
+    <string>[INFO 2025-02-23 11:56:38 AM] Starting test for project: D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishTest.csproj</string>
+    <string>[INFO 2025-02-23 11:56:38 AM] Starting test for project: D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishTest.csproj</string>
+    <string>[INFO 2025-02-23 11:56:38 AM] Starting test for project: D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishTest.csproj</string>
+    <string>[INFO 2025-02-23 11:56:38 AM] Starting test for project: D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 11:56:41 AM] All tests passed successfully.
+[INFO 2025-02-23 11:56:41 AM] Test process completed. Duration: 3.45 seconds.
+[INFO 2025-02-23 11:56:41 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 11:56:41 AM] Test Parallelization enabled for D:\Code2025\RavenWork\Threefish\ThreefishTest\bin\Debug\net9.0\ThreefishTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 11:56:39 AM] Test run for D:\Code2025\RavenWork\Threefish\ThreefishTest\bin\Debug\net9.0\ThreefishTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:56:39 AM]   ThreefishTest -> D:\Code2025\RavenWork\Threefish\ThreefishTest\bin\Debug\net9.0\ThreefishTest.dll
+[OUTPUT 2025-02-23 11:56:39 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:56:41 AM]   Passed EncryptDecrypt_NullBlockTest [6 ms]
+[OUTPUT 2025-02-23 11:56:41 AM]   Passed EncryptDecrypt_ExcessKeyAndTweakTest [6 ms]
+[OUTPUT 2025-02-23 11:56:40 AM] D:\Code2025\RavenWork\Threefish\ThreefishTest\bin\Debug\net9.0\ThreefishTest.dll
+[OUTPUT 2025-02-23 11:56:40 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:56:40 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:56:40 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:56:39 AM]   Threefish -> D:\Code2025\RavenWork\Threefish\Threefish\bin\Debug\net9.0\Threefish.dll
+[OUTPUT 2025-02-23 11:56:38 AM]   Determining projects to restore...
+[INFO 2025-02-23 11:56:38 AM] Command: dotnet test "D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:56:38 AM] Starting test for project: D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 11:49:25 AM
+Threefish
+
+WritePatch ran compiler. 2025-02-23 11:50:50 AM
+Threefish
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Threefish -> D:\Code2025\RavenWork\Threefish\Threefish\bin\Debug\net9.0\Threefish.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.09
+
+
+WritePatch: Code is Complete.
+Threefish
+
+WritePatch Started CycleStep. 2025-02-23 11:51:43 AM
+ThreefishTest
+
+WritePatch ran compiler. 2025-02-23 11:52:15 AM
+ThreefishTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishTest.csproj (in 253 ms).
+  1 of 2 projects are up-to-date for restore.
+  Threefish -> D:\Code2025\RavenWork\Threefish\Threefish\bin\Debug\net9.0\Threefish.dll
+D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishCipherTests.cs(54,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishTest.csproj]
+  ThreefishTest -> D:\Code2025\RavenWork\Threefish\ThreefishTest\bin\Debug\net9.0\ThreefishTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishCipherTests.cs(54,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.82
+
+
+WritePatch: Compile failed.
+ThreefishTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:52:15 AM
+ThreefishTest
+
+WritePatch Started CycleStep. 2025-02-23 11:52:16 AM
+ThreefishTest
+
+WritePatch ran compiler. 2025-02-23 11:54:28 AM
+ThreefishTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Threefish -> D:\Code2025\RavenWork\Threefish\Threefish\bin\Debug\net9.0\Threefish.dll
+  ThreefishTest -> D:\Code2025\RavenWork\Threefish\ThreefishTest\bin\Debug\net9.0\ThreefishTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.25
+
+
+WritePatch: Code is not Complete.
+ThreefishTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:54:50 AM
+ThreefishTest
+
+WritePatch Started CycleStep. 2025-02-23 11:54:50 AM
+ThreefishTest
+
+WritePatch ran compiler. 2025-02-23 11:55:36 AM
+ThreefishTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Threefish -> D:\Code2025\RavenWork\Threefish\Threefish\bin\Debug\net9.0\Threefish.dll
+D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishCipherTests.cs(54,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishTest.csproj]
+  ThreefishTest -> D:\Code2025\RavenWork\Threefish\ThreefishTest\bin\Debug\net9.0\ThreefishTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishCipherTests.cs(54,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.33
+
+
+WritePatch: Compile failed.
+ThreefishTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:55:37 AM
+ThreefishTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\Threefish\ThreefishTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Threefish -> D:\Code2025\RavenWork\Threefish\Threefish\bin\Debug\net9.0\Threefish.dll
+D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishCipherTests.cs(54,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishTest.csproj]
+  ThreefishTest -> D:\Code2025\RavenWork\Threefish\ThreefishTest\bin\Debug\net9.0\ThreefishTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishCipherTests.cs(54,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.33
+
+</CompilerResponse>
+2025-02-23 11:55:37 AM
+ThreefishTest
+
+WritePatch ran compiler. 2025-02-23 11:55:39 AM
+Threefish
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Threefish -> D:\Code2025\RavenWork\Threefish\Threefish\bin\Debug\net9.0\Threefish.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.06
+
+
+WritePatch: Code is Complete.
+Threefish
+
+WritePatch ran compiler. 2025-02-23 11:56:20 AM
+ThreefishTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Threefish -> D:\Code2025\RavenWork\Threefish\Threefish\bin\Debug\net9.0\Threefish.dll
+  ThreefishTest -> D:\Code2025\RavenWork\Threefish\ThreefishTest\bin\Debug\net9.0\ThreefishTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.13
+
+
+WritePatch: Code is Complete.
+ThreefishTest
+
+TestResult:
+[SUCCESS 2025-02-23 11:56:41 AM] All tests passed successfully.
+[INFO 2025-02-23 11:56:41 AM] Test process completed. Duration: 3.45 seconds.
+[INFO 2025-02-23 11:56:41 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 11:56:41 AM] Test Parallelization enabled for D:\Code2025\RavenWork\Threefish\ThreefishTest\bin\Debug\net9.0\ThreefishTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 11:56:39 AM] Test run for D:\Code2025\RavenWork\Threefish\ThreefishTest\bin\Debug\net9.0\ThreefishTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:56:39 AM]   ThreefishTest -> D:\Code2025\RavenWork\Threefish\ThreefishTest\bin\Debug\net9.0\ThreefishTest.dll
+[OUTPUT 2025-02-23 11:56:39 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:56:41 AM]   Passed EncryptDecrypt_NullBlockTest [6 ms]
+[OUTPUT 2025-02-23 11:56:41 AM]   Passed EncryptDecrypt_ExcessKeyAndTweakTest [6 ms]
+[OUTPUT 2025-02-23 11:56:40 AM] D:\Code2025\RavenWork\Threefish\ThreefishTest\bin\Debug\net9.0\ThreefishTest.dll
+[OUTPUT 2025-02-23 11:56:40 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:56:40 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:56:40 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:56:39 AM]   Threefish -> D:\Code2025\RavenWork\Threefish\Threefish\bin\Debug\net9.0\Threefish.dll
+[OUTPUT 2025-02-23 11:56:38 AM]   Determining projects to restore...
+[INFO 2025-02-23 11:56:38 AM] Command: dotnet test "D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:56:38 AM] Starting test for project: D:\Code2025\RavenWork\Threefish\ThreefishTest\ThreefishTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
