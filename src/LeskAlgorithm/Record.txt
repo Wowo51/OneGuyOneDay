@@ -1,0 +1,413 @@
+<ActRecord>
+  <ProjectName>LeskAlgorithm</ProjectName>
+  <ProjectDescription>Lesk algorithm – A method for word sense disambiguation that compares dictionary definitions to determine meaning.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Lesk algorithm – A method for word sense disambiguation that compares dictionary definitions to determine meaning.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\LeskAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>LeskAlgorithm</ProjectFolderName>
+  <ProjectName>LeskAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:28:20 AM
+LeskAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:28:51 AM
+LeskAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LeskAlgorithm -> D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithm\bin\Debug\net9.0\LeskAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.04
+]]></string>
+    <string>WritePatch: Code is Complete.
+LeskAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:29:06 AM
+LeskAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:29:59 AM
+LeskAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj (in 262 ms).
+  1 of 2 projects are up-to-date for restore.
+  LeskAlgorithm -> D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithm\bin\Debug\net9.0\LeskAlgorithm.dll
+D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTests.cs(18,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj]
+D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTests.cs(27,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj]
+D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTests.cs(35,69): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj]
+D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTests.cs(35,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj]
+D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTests.cs(55,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj]
+D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTests.cs(75,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj]
+D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTests.cs(90,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj]
+D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTests.cs(116,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj]
+  LeskAlgorithmTest -> D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\bin\Debug\net9.0\LeskAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTests.cs(18,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj]
+D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTests.cs(27,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj]
+D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTests.cs(35,69): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj]
+D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTests.cs(35,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj]
+D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTests.cs(55,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj]
+D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTests.cs(75,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj]
+D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTests.cs(90,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj]
+D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTests.cs(116,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj]
+    8 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.04
+]]></string>
+    <string>WritePatch: Compile failed.
+LeskAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:30:00 AM
+LeskAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:30:00 AM
+LeskAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:30:41 AM
+LeskAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LeskAlgorithm -> D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithm\bin\Debug\net9.0\LeskAlgorithm.dll
+D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTests.cs(35,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj]
+  LeskAlgorithmTest -> D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\bin\Debug\net9.0\LeskAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTests.cs(35,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.40
+]]></string>
+    <string>WritePatch: Compile failed.
+LeskAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:30:41 AM
+LeskAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:30:41 AM
+LeskAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:31:08 AM
+LeskAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LeskAlgorithm -> D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithm\bin\Debug\net9.0\LeskAlgorithm.dll
+  LeskAlgorithmTest -> D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\bin\Debug\net9.0\LeskAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+]]></string>
+    <string>WritePatch: Code is not Complete.
+LeskAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:31:23 AM
+LeskAlgorithmTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LeskAlgorithm -> D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithm\bin\Debug\net9.0\LeskAlgorithm.dll
+  LeskAlgorithmTest -> D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\bin\Debug\net9.0\LeskAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+
+</CompilerResponse>
+2025-02-23 9:31:24 AM
+LeskAlgorithmTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 9:31:25 AM
+LeskAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LeskAlgorithm -> D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithm\bin\Debug\net9.0\LeskAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.02
+]]></string>
+    <string>WritePatch: Code is Complete.
+LeskAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:31:39 AM
+LeskAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LeskAlgorithm -> D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithm\bin\Debug\net9.0\LeskAlgorithm.dll
+  LeskAlgorithmTest -> D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\bin\Debug\net9.0\LeskAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.34
+]]></string>
+    <string>WritePatch: Code is Complete.
+LeskAlgorithmTest</string>
+    <string>[INFO 2025-02-23 9:31:50 AM] Starting test for project: D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:31:50 AM] Starting test for project: D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:31:50 AM] Starting test for project: D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:31:50 AM] Starting test for project: D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:31:50 AM] Starting test for project: D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:31:50 AM] Starting test for project: D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:31:50 AM] Starting test for project: D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:31:50 AM] Starting test for project: D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:31:50 AM] Starting test for project: D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:31:50 AM] Starting test for project: D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:31:50 AM] Starting test for project: D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:31:50 AM] Starting test for project: D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:31:50 AM] Starting test for project: D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 9:31:55 AM] All tests passed successfully.
+[INFO 2025-02-23 9:31:55 AM] Test process completed. Duration: 5.13 seconds.
+[INFO 2025-02-23 9:31:55 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 9:31:55 AM]   Passed Disambiguate_ReturnsFirstSense_OnTie [6 ms]
+[OUTPUT 2025-02-23 9:31:54 AM] Test Parallelization enabled for D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\bin\Debug\net9.0\LeskAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 9:31:51 AM]   LeskAlgorithm -> D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithm\bin\Debug\net9.0\LeskAlgorithm.dll
+[OUTPUT 2025-02-23 9:31:50 AM]   Determining projects to restore...
+[OUTPUT 2025-02-23 9:31:53 AM] D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\bin\Debug\net9.0\LeskAlgorithmTest.dll
+[OUTPUT 2025-02-23 9:31:53 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 9:31:52 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 9:31:52 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 9:31:52 AM] Test run for D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\bin\Debug\net9.0\LeskAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 9:31:51 AM]   LeskAlgorithmTest -> D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\bin\Debug\net9.0\LeskAlgorithmTest.dll
+[OUTPUT 2025-02-23 9:31:51 AM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 9:31:50 AM] Command: dotnet test "D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 9:31:50 AM] Starting test for project: D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 9:28:20 AM
+LeskAlgorithm
+
+WritePatch ran compiler. 2025-02-23 9:28:51 AM
+LeskAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LeskAlgorithm -> D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithm\bin\Debug\net9.0\LeskAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.04
+
+
+WritePatch: Code is Complete.
+LeskAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 9:29:06 AM
+LeskAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 9:29:59 AM
+LeskAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj (in 262 ms).
+  1 of 2 projects are up-to-date for restore.
+  LeskAlgorithm -> D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithm\bin\Debug\net9.0\LeskAlgorithm.dll
+D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTests.cs(18,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj]
+D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTests.cs(27,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj]
+D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTests.cs(35,69): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj]
+D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTests.cs(35,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj]
+D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTests.cs(55,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj]
+D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTests.cs(75,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj]
+D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTests.cs(90,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj]
+D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTests.cs(116,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj]
+  LeskAlgorithmTest -> D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\bin\Debug\net9.0\LeskAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTests.cs(18,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj]
+D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTests.cs(27,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj]
+D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTests.cs(35,69): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj]
+D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTests.cs(35,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj]
+D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTests.cs(55,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj]
+D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTests.cs(75,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj]
+D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTests.cs(90,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj]
+D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTests.cs(116,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj]
+    8 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.04
+
+
+WritePatch: Compile failed.
+LeskAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:30:00 AM
+LeskAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 9:30:00 AM
+LeskAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 9:30:41 AM
+LeskAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LeskAlgorithm -> D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithm\bin\Debug\net9.0\LeskAlgorithm.dll
+D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTests.cs(35,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj]
+  LeskAlgorithmTest -> D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\bin\Debug\net9.0\LeskAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTests.cs(35,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.40
+
+
+WritePatch: Compile failed.
+LeskAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:30:41 AM
+LeskAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 9:30:41 AM
+LeskAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 9:31:08 AM
+LeskAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LeskAlgorithm -> D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithm\bin\Debug\net9.0\LeskAlgorithm.dll
+  LeskAlgorithmTest -> D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\bin\Debug\net9.0\LeskAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+
+
+WritePatch: Code is not Complete.
+LeskAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:31:23 AM
+LeskAlgorithmTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LeskAlgorithm -> D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithm\bin\Debug\net9.0\LeskAlgorithm.dll
+  LeskAlgorithmTest -> D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\bin\Debug\net9.0\LeskAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+
+</CompilerResponse>
+2025-02-23 9:31:24 AM
+LeskAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 9:31:25 AM
+LeskAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LeskAlgorithm -> D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithm\bin\Debug\net9.0\LeskAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.02
+
+
+WritePatch: Code is Complete.
+LeskAlgorithm
+
+WritePatch ran compiler. 2025-02-23 9:31:39 AM
+LeskAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LeskAlgorithm -> D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithm\bin\Debug\net9.0\LeskAlgorithm.dll
+  LeskAlgorithmTest -> D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\bin\Debug\net9.0\LeskAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.34
+
+
+WritePatch: Code is Complete.
+LeskAlgorithmTest
+
+TestResult:
+[SUCCESS 2025-02-23 9:31:55 AM] All tests passed successfully.
+[INFO 2025-02-23 9:31:55 AM] Test process completed. Duration: 5.13 seconds.
+[INFO 2025-02-23 9:31:55 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 9:31:55 AM]   Passed Disambiguate_ReturnsFirstSense_OnTie [6 ms]
+[OUTPUT 2025-02-23 9:31:54 AM] Test Parallelization enabled for D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\bin\Debug\net9.0\LeskAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 9:31:51 AM]   LeskAlgorithm -> D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithm\bin\Debug\net9.0\LeskAlgorithm.dll
+[OUTPUT 2025-02-23 9:31:50 AM]   Determining projects to restore...
+[OUTPUT 2025-02-23 9:31:53 AM] D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\bin\Debug\net9.0\LeskAlgorithmTest.dll
+[OUTPUT 2025-02-23 9:31:53 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 9:31:52 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 9:31:52 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 9:31:52 AM] Test run for D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\bin\Debug\net9.0\LeskAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 9:31:51 AM]   LeskAlgorithmTest -> D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\bin\Debug\net9.0\LeskAlgorithmTest.dll
+[OUTPUT 2025-02-23 9:31:51 AM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 9:31:50 AM] Command: dotnet test "D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 9:31:50 AM] Starting test for project: D:\Code2025\RavenWork\LeskAlgorithm\LeskAlgorithmTest\LeskAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
