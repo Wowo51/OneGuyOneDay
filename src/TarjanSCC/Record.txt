@@ -1,0 +1,394 @@
+<ActRecord>
+  <ProjectName>TarjanSCC</ProjectName>
+  <ProjectDescription><![CDATA[Tarjan's strongly connected components algorithm]]></ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification><![CDATA[Tarjan's strongly connected components algorithm]]]]><![CDATA[></WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\TarjanSCC</SolutionFolderPath>
+  <ProjectFolderName>TarjanSCC</ProjectFolderName>
+  <ProjectName>TarjanSCC</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:05:07 AM
+TarjanSCC</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:05:56 AM
+TarjanSCC</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\TarjanSCC\TarjanSCC\TarjanSCCAlgorithm.cs(29,47): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TarjanSCC\TarjanSCC\TarjanSCC.csproj]
+  TarjanSCC -> D:\Code2025\RavenWork\TarjanSCC\TarjanSCC\bin\Debug\net9.0\TarjanSCC.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\TarjanSCC\TarjanSCC\TarjanSCCAlgorithm.cs(29,47): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TarjanSCC\TarjanSCC\TarjanSCC.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.09
+]]></string>
+    <string>WritePatch: Compile failed.
+TarjanSCC</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:05:57 AM
+TarjanSCC</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:05:57 AM
+TarjanSCC</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:06:23 AM
+TarjanSCC</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TarjanSCC -> D:\Code2025\RavenWork\TarjanSCC\TarjanSCC\bin\Debug\net9.0\TarjanSCC.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.04
+]]></string>
+    <string>WritePatch: Code is Complete.
+TarjanSCC</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:06:44 AM
+TarjanSCCTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:07:36 AM
+TarjanSCCTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\TarjanSCCTest.csproj (in 250 ms).
+  1 of 2 projects are up-to-date for restore.
+  TarjanSCC -> D:\Code2025\RavenWork\TarjanSCC\TarjanSCC\bin\Debug\net9.0\TarjanSCC.dll
+D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\TarjanSCCUnitTests.cs(14,48): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\TarjanSCCTest.csproj]
+D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\TarjanSCCUnitTests.cs(15,87): warning CS8604: Possible null reference argument for parameter 'graph' in 'List<List<int>> TarjanSCCAlgorithm.FindStronglyConnectedComponents(Dictionary<int, List<int>> graph)'. [D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\TarjanSCCTest.csproj]
+  TarjanSCCTest -> D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\bin\Debug\net9.0\TarjanSCCTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\TarjanSCCUnitTests.cs(14,48): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\TarjanSCCTest.csproj]
+D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\TarjanSCCUnitTests.cs(15,87): warning CS8604: Possible null reference argument for parameter 'graph' in 'List<List<int>> TarjanSCCAlgorithm.FindStronglyConnectedComponents(Dictionary<int, List<int>> graph)'. [D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\TarjanSCCTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.78
+]]></string>
+    <string>WritePatch: Compile failed.
+TarjanSCCTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:07:37 AM
+TarjanSCCTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:07:37 AM
+TarjanSCCTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:08:01 AM
+TarjanSCCTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TarjanSCC -> D:\Code2025\RavenWork\TarjanSCC\TarjanSCC\bin\Debug\net9.0\TarjanSCC.dll
+  TarjanSCCTest -> D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\bin\Debug\net9.0\TarjanSCCTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.39
+]]></string>
+    <string>WritePatch: Code is not Complete.
+TarjanSCCTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:08:23 AM
+TarjanSCCTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:08:23 AM
+TarjanSCCTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 11:09:09 AM
+TarjanSCCTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TarjanSCC -> D:\Code2025\RavenWork\TarjanSCC\TarjanSCC\bin\Debug\net9.0\TarjanSCC.dll
+  TarjanSCCTest -> D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\bin\Debug\net9.0\TarjanSCCTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.39
+
+</CompilerResponse>
+2025-02-23 11:09:09 AM
+TarjanSCCTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 11:09:10 AM
+TarjanSCC</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TarjanSCC -> D:\Code2025\RavenWork\TarjanSCC\TarjanSCC\bin\Debug\net9.0\TarjanSCC.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+]]></string>
+    <string>WritePatch: Code is Complete.
+TarjanSCC</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:09:38 AM
+TarjanSCCTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TarjanSCC -> D:\Code2025\RavenWork\TarjanSCC\TarjanSCC\bin\Debug\net9.0\TarjanSCC.dll
+  TarjanSCCTest -> D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\bin\Debug\net9.0\TarjanSCCTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.22
+]]></string>
+    <string>WritePatch: Code is Complete.
+TarjanSCCTest</string>
+    <string>[INFO 2025-02-23 11:09:59 AM] Starting test for project: D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\TarjanSCCTest.csproj</string>
+    <string>[INFO 2025-02-23 11:09:59 AM] Starting test for project: D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\TarjanSCCTest.csproj</string>
+    <string>[INFO 2025-02-23 11:09:59 AM] Starting test for project: D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\TarjanSCCTest.csproj</string>
+    <string>[INFO 2025-02-23 11:09:59 AM] Starting test for project: D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\TarjanSCCTest.csproj</string>
+    <string>[INFO 2025-02-23 11:09:59 AM] Starting test for project: D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\TarjanSCCTest.csproj</string>
+    <string>[INFO 2025-02-23 11:09:59 AM] Starting test for project: D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\TarjanSCCTest.csproj</string>
+    <string>[INFO 2025-02-23 11:09:59 AM] Starting test for project: D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\TarjanSCCTest.csproj</string>
+    <string>[INFO 2025-02-23 11:09:59 AM] Starting test for project: D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\TarjanSCCTest.csproj</string>
+    <string>[INFO 2025-02-23 11:09:59 AM] Starting test for project: D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\TarjanSCCTest.csproj</string>
+    <string>[INFO 2025-02-23 11:09:59 AM] Starting test for project: D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\TarjanSCCTest.csproj</string>
+    <string>[INFO 2025-02-23 11:09:59 AM] Starting test for project: D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\TarjanSCCTest.csproj</string>
+    <string>[INFO 2025-02-23 11:09:59 AM] Starting test for project: D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\TarjanSCCTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 11:10:02 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:10:01 AM] Test run for D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\bin\Debug\net9.0\TarjanSCCTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:10:01 AM]   TarjanSCCTest -> D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\bin\Debug\net9.0\TarjanSCCTest.dll
+[OUTPUT 2025-02-23 11:10:00 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:10:03 AM] Test Parallelization enabled for D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\bin\Debug\net9.0\TarjanSCCTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 11:10:03 AM] D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\bin\Debug\net9.0\TarjanSCCTest.dll
+[OUTPUT 2025-02-23 11:10:02 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:10:02 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:10:01 AM]   TarjanSCC -> D:\Code2025\RavenWork\TarjanSCC\TarjanSCC\bin\Debug\net9.0\TarjanSCC.dll
+[OUTPUT 2025-02-23 11:10:00 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 11:10:03 AM] All tests passed successfully.
+[INFO 2025-02-23 11:10:03 AM] Test process completed. Duration: 3.60 seconds.
+[INFO 2025-02-23 11:10:03 AM] Process exited with code 0.
+[INFO 2025-02-23 11:09:59 AM] Command: dotnet test "D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\TarjanSCCTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:09:59 AM] Starting test for project: D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\TarjanSCCTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 11:05:07 AM
+TarjanSCC
+
+WritePatch ran compiler. 2025-02-23 11:05:56 AM
+TarjanSCC
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\TarjanSCC\TarjanSCC\TarjanSCCAlgorithm.cs(29,47): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TarjanSCC\TarjanSCC\TarjanSCC.csproj]
+  TarjanSCC -> D:\Code2025\RavenWork\TarjanSCC\TarjanSCC\bin\Debug\net9.0\TarjanSCC.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\TarjanSCC\TarjanSCC\TarjanSCCAlgorithm.cs(29,47): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TarjanSCC\TarjanSCC\TarjanSCC.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.09
+
+
+WritePatch: Compile failed.
+TarjanSCC
+
+Finished WritePatch cycle step.
+2025-02-23 11:05:57 AM
+TarjanSCC
+
+WritePatch Started CycleStep. 2025-02-23 11:05:57 AM
+TarjanSCC
+
+WritePatch ran compiler. 2025-02-23 11:06:23 AM
+TarjanSCC
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TarjanSCC -> D:\Code2025\RavenWork\TarjanSCC\TarjanSCC\bin\Debug\net9.0\TarjanSCC.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.04
+
+
+WritePatch: Code is Complete.
+TarjanSCC
+
+WritePatch Started CycleStep. 2025-02-23 11:06:44 AM
+TarjanSCCTest
+
+WritePatch ran compiler. 2025-02-23 11:07:36 AM
+TarjanSCCTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\TarjanSCCTest.csproj (in 250 ms).
+  1 of 2 projects are up-to-date for restore.
+  TarjanSCC -> D:\Code2025\RavenWork\TarjanSCC\TarjanSCC\bin\Debug\net9.0\TarjanSCC.dll
+D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\TarjanSCCUnitTests.cs(14,48): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\TarjanSCCTest.csproj]
+D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\TarjanSCCUnitTests.cs(15,87): warning CS8604: Possible null reference argument for parameter 'graph' in 'List<List<int>> TarjanSCCAlgorithm.FindStronglyConnectedComponents(Dictionary<int, List<int>> graph)'. [D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\TarjanSCCTest.csproj]
+  TarjanSCCTest -> D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\bin\Debug\net9.0\TarjanSCCTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\TarjanSCCUnitTests.cs(14,48): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\TarjanSCCTest.csproj]
+D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\TarjanSCCUnitTests.cs(15,87): warning CS8604: Possible null reference argument for parameter 'graph' in 'List<List<int>> TarjanSCCAlgorithm.FindStronglyConnectedComponents(Dictionary<int, List<int>> graph)'. [D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\TarjanSCCTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.78
+
+
+WritePatch: Compile failed.
+TarjanSCCTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:07:37 AM
+TarjanSCCTest
+
+WritePatch Started CycleStep. 2025-02-23 11:07:37 AM
+TarjanSCCTest
+
+WritePatch ran compiler. 2025-02-23 11:08:01 AM
+TarjanSCCTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TarjanSCC -> D:\Code2025\RavenWork\TarjanSCC\TarjanSCC\bin\Debug\net9.0\TarjanSCC.dll
+  TarjanSCCTest -> D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\bin\Debug\net9.0\TarjanSCCTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.39
+
+
+WritePatch: Code is not Complete.
+TarjanSCCTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:08:23 AM
+TarjanSCCTest
+
+WritePatch Started CycleStep. 2025-02-23 11:08:23 AM
+TarjanSCCTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 11:09:09 AM
+TarjanSCCTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TarjanSCC -> D:\Code2025\RavenWork\TarjanSCC\TarjanSCC\bin\Debug\net9.0\TarjanSCC.dll
+  TarjanSCCTest -> D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\bin\Debug\net9.0\TarjanSCCTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.39
+
+</CompilerResponse>
+2025-02-23 11:09:09 AM
+TarjanSCCTest
+
+WritePatch ran compiler. 2025-02-23 11:09:10 AM
+TarjanSCC
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TarjanSCC -> D:\Code2025\RavenWork\TarjanSCC\TarjanSCC\bin\Debug\net9.0\TarjanSCC.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+
+
+WritePatch: Code is Complete.
+TarjanSCC
+
+WritePatch ran compiler. 2025-02-23 11:09:38 AM
+TarjanSCCTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TarjanSCC -> D:\Code2025\RavenWork\TarjanSCC\TarjanSCC\bin\Debug\net9.0\TarjanSCC.dll
+  TarjanSCCTest -> D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\bin\Debug\net9.0\TarjanSCCTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.22
+
+
+WritePatch: Code is Complete.
+TarjanSCCTest
+
+TestResult:
+[OUTPUT 2025-02-23 11:10:02 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:10:01 AM] Test run for D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\bin\Debug\net9.0\TarjanSCCTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:10:01 AM]   TarjanSCCTest -> D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\bin\Debug\net9.0\TarjanSCCTest.dll
+[OUTPUT 2025-02-23 11:10:00 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:10:03 AM] Test Parallelization enabled for D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\bin\Debug\net9.0\TarjanSCCTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 11:10:03 AM] D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\bin\Debug\net9.0\TarjanSCCTest.dll
+[OUTPUT 2025-02-23 11:10:02 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:10:02 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:10:01 AM]   TarjanSCC -> D:\Code2025\RavenWork\TarjanSCC\TarjanSCC\bin\Debug\net9.0\TarjanSCC.dll
+[OUTPUT 2025-02-23 11:10:00 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 11:10:03 AM] All tests passed successfully.
+[INFO 2025-02-23 11:10:03 AM] Test process completed. Duration: 3.60 seconds.
+[INFO 2025-02-23 11:10:03 AM] Process exited with code 0.
+[INFO 2025-02-23 11:09:59 AM] Command: dotnet test "D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\TarjanSCCTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:09:59 AM] Starting test for project: D:\Code2025\RavenWork\TarjanSCC\TarjanSCCTest\TarjanSCCTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
