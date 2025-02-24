@@ -1,0 +1,403 @@
+<ActRecord>
+  <ProjectName>Deflate</ProjectName>
+  <ProjectDescription>Deflate</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Deflate</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\Deflate</SolutionFolderPath>
+  <ProjectFolderName>Deflate</ProjectFolderName>
+  <ProjectName>Deflate</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:29:26 AM
+Deflate</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:29:53 AM
+Deflate</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Deflate -> D:\Code2025\RavenWork\Deflate\Deflate\bin\Debug\net9.0\Deflate.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.02
+]]></string>
+    <string>WritePatch: Code is Complete.
+Deflate</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:30:18 AM
+DeflateTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:30:50 AM
+DeflateTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj (in 218 ms).
+  1 of 2 projects are up-to-date for restore.
+  Deflate -> D:\Code2025\RavenWork\Deflate\Deflate\bin\Debug\net9.0\Deflate.dll
+D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTests.cs(14,68): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj]
+D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTests.cs(22,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj]
+  DeflateTest -> D:\Code2025\RavenWork\Deflate\DeflateTest\bin\Debug\net9.0\DeflateTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTests.cs(14,68): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj]
+D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTests.cs(22,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.60
+]]></string>
+    <string>WritePatch: Compile failed.
+DeflateTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:30:51 AM
+DeflateTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:30:51 AM
+DeflateTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:31:37 AM
+DeflateTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Deflate -> D:\Code2025\RavenWork\Deflate\Deflate\bin\Debug\net9.0\Deflate.dll
+  DeflateTest -> D:\Code2025\RavenWork\Deflate\DeflateTest\bin\Debug\net9.0\DeflateTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.08
+]]></string>
+    <string>WritePatch: Code is not Complete.
+DeflateTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:32:16 AM
+DeflateTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:32:16 AM
+DeflateTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:33:03 AM
+DeflateTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Deflate -> D:\Code2025\RavenWork\Deflate\Deflate\bin\Debug\net9.0\Deflate.dll
+D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTests.cs(14,68): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj]
+D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTests.cs(22,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj]
+  DeflateTest -> D:\Code2025\RavenWork\Deflate\DeflateTest\bin\Debug\net9.0\DeflateTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTests.cs(14,68): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj]
+D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTests.cs(22,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.16
+]]></string>
+    <string>WritePatch: Compile failed.
+DeflateTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:33:04 AM
+DeflateTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\Deflate\DeflateTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Deflate -> D:\Code2025\RavenWork\Deflate\Deflate\bin\Debug\net9.0\Deflate.dll
+D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTests.cs(14,68): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj]
+D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTests.cs(22,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj]
+  DeflateTest -> D:\Code2025\RavenWork\Deflate\DeflateTest\bin\Debug\net9.0\DeflateTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTests.cs(14,68): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj]
+D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTests.cs(22,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.16
+
+</CompilerResponse>
+2025-02-23 11:33:04 AM
+DeflateTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 11:33:05 AM
+Deflate</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Deflate -> D:\Code2025\RavenWork\Deflate\Deflate\bin\Debug\net9.0\Deflate.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.82
+]]></string>
+    <string>WritePatch: Code is Complete.
+Deflate</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:33:22 AM
+DeflateTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Deflate -> D:\Code2025\RavenWork\Deflate\Deflate\bin\Debug\net9.0\Deflate.dll
+  DeflateTest -> D:\Code2025\RavenWork\Deflate\DeflateTest\bin\Debug\net9.0\DeflateTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.11
+]]></string>
+    <string>WritePatch: Code is Complete.
+DeflateTest</string>
+    <string>[INFO 2025-02-23 11:33:27 AM] Starting test for project: D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj</string>
+    <string>[INFO 2025-02-23 11:33:27 AM] Starting test for project: D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj</string>
+    <string>[INFO 2025-02-23 11:33:27 AM] Starting test for project: D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj</string>
+    <string>[INFO 2025-02-23 11:33:27 AM] Starting test for project: D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj</string>
+    <string>[INFO 2025-02-23 11:33:27 AM] Starting test for project: D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj</string>
+    <string>[INFO 2025-02-23 11:33:27 AM] Starting test for project: D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj</string>
+    <string>[INFO 2025-02-23 11:33:27 AM] Starting test for project: D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj</string>
+    <string>[INFO 2025-02-23 11:33:27 AM] Starting test for project: D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj</string>
+    <string>[INFO 2025-02-23 11:33:27 AM] Starting test for project: D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj</string>
+    <string>[INFO 2025-02-23 11:33:27 AM] Starting test for project: D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj</string>
+    <string>[INFO 2025-02-23 11:33:27 AM] Starting test for project: D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj</string>
+    <string>[INFO 2025-02-23 11:33:27 AM] Starting test for project: D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj</string>
+    <string>[INFO 2025-02-23 11:33:27 AM] Starting test for project: D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 11:33:31 AM]   Passed Decompress_CorruptedData_ThrowsInvalidDataException [6 ms]
+[OUTPUT 2025-02-23 11:33:31 AM] Test Parallelization enabled for D:\Code2025\RavenWork\Deflate\DeflateTest\bin\Debug\net9.0\DeflateTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 11:33:31 AM] D:\Code2025\RavenWork\Deflate\DeflateTest\bin\Debug\net9.0\DeflateTest.dll
+[OUTPUT 2025-02-23 11:33:30 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:33:30 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:33:30 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:33:29 AM] Test run for D:\Code2025\RavenWork\Deflate\DeflateTest\bin\Debug\net9.0\DeflateTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:33:29 AM]   DeflateTest -> D:\Code2025\RavenWork\Deflate\DeflateTest\bin\Debug\net9.0\DeflateTest.dll
+[OUTPUT 2025-02-23 11:33:29 AM]   Deflate -> D:\Code2025\RavenWork\Deflate\Deflate\bin\Debug\net9.0\Deflate.dll
+[OUTPUT 2025-02-23 11:33:29 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:33:28 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 11:33:31 AM] All tests passed successfully.
+[INFO 2025-02-23 11:33:31 AM] Test process completed. Duration: 3.68 seconds.
+[INFO 2025-02-23 11:33:31 AM] Process exited with code 0.
+[INFO 2025-02-23 11:33:27 AM] Command: dotnet test "D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:33:27 AM] Starting test for project: D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 11:29:26 AM
+Deflate
+
+WritePatch ran compiler. 2025-02-23 11:29:53 AM
+Deflate
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Deflate -> D:\Code2025\RavenWork\Deflate\Deflate\bin\Debug\net9.0\Deflate.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.02
+
+
+WritePatch: Code is Complete.
+Deflate
+
+WritePatch Started CycleStep. 2025-02-23 11:30:18 AM
+DeflateTest
+
+WritePatch ran compiler. 2025-02-23 11:30:50 AM
+DeflateTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj (in 218 ms).
+  1 of 2 projects are up-to-date for restore.
+  Deflate -> D:\Code2025\RavenWork\Deflate\Deflate\bin\Debug\net9.0\Deflate.dll
+D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTests.cs(14,68): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj]
+D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTests.cs(22,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj]
+  DeflateTest -> D:\Code2025\RavenWork\Deflate\DeflateTest\bin\Debug\net9.0\DeflateTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTests.cs(14,68): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj]
+D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTests.cs(22,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.60
+
+
+WritePatch: Compile failed.
+DeflateTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:30:51 AM
+DeflateTest
+
+WritePatch Started CycleStep. 2025-02-23 11:30:51 AM
+DeflateTest
+
+WritePatch ran compiler. 2025-02-23 11:31:37 AM
+DeflateTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Deflate -> D:\Code2025\RavenWork\Deflate\Deflate\bin\Debug\net9.0\Deflate.dll
+  DeflateTest -> D:\Code2025\RavenWork\Deflate\DeflateTest\bin\Debug\net9.0\DeflateTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.08
+
+
+WritePatch: Code is not Complete.
+DeflateTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:32:16 AM
+DeflateTest
+
+WritePatch Started CycleStep. 2025-02-23 11:32:16 AM
+DeflateTest
+
+WritePatch ran compiler. 2025-02-23 11:33:03 AM
+DeflateTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Deflate -> D:\Code2025\RavenWork\Deflate\Deflate\bin\Debug\net9.0\Deflate.dll
+D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTests.cs(14,68): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj]
+D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTests.cs(22,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj]
+  DeflateTest -> D:\Code2025\RavenWork\Deflate\DeflateTest\bin\Debug\net9.0\DeflateTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTests.cs(14,68): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj]
+D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTests.cs(22,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.16
+
+
+WritePatch: Compile failed.
+DeflateTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:33:04 AM
+DeflateTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\Deflate\DeflateTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Deflate -> D:\Code2025\RavenWork\Deflate\Deflate\bin\Debug\net9.0\Deflate.dll
+D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTests.cs(14,68): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj]
+D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTests.cs(22,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj]
+  DeflateTest -> D:\Code2025\RavenWork\Deflate\DeflateTest\bin\Debug\net9.0\DeflateTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTests.cs(14,68): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj]
+D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTests.cs(22,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.16
+
+</CompilerResponse>
+2025-02-23 11:33:04 AM
+DeflateTest
+
+WritePatch ran compiler. 2025-02-23 11:33:05 AM
+Deflate
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Deflate -> D:\Code2025\RavenWork\Deflate\Deflate\bin\Debug\net9.0\Deflate.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.82
+
+
+WritePatch: Code is Complete.
+Deflate
+
+WritePatch ran compiler. 2025-02-23 11:33:22 AM
+DeflateTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Deflate -> D:\Code2025\RavenWork\Deflate\Deflate\bin\Debug\net9.0\Deflate.dll
+  DeflateTest -> D:\Code2025\RavenWork\Deflate\DeflateTest\bin\Debug\net9.0\DeflateTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.11
+
+
+WritePatch: Code is Complete.
+DeflateTest
+
+TestResult:
+[OUTPUT 2025-02-23 11:33:31 AM]   Passed Decompress_CorruptedData_ThrowsInvalidDataException [6 ms]
+[OUTPUT 2025-02-23 11:33:31 AM] Test Parallelization enabled for D:\Code2025\RavenWork\Deflate\DeflateTest\bin\Debug\net9.0\DeflateTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 11:33:31 AM] D:\Code2025\RavenWork\Deflate\DeflateTest\bin\Debug\net9.0\DeflateTest.dll
+[OUTPUT 2025-02-23 11:33:30 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:33:30 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:33:30 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:33:29 AM] Test run for D:\Code2025\RavenWork\Deflate\DeflateTest\bin\Debug\net9.0\DeflateTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:33:29 AM]   DeflateTest -> D:\Code2025\RavenWork\Deflate\DeflateTest\bin\Debug\net9.0\DeflateTest.dll
+[OUTPUT 2025-02-23 11:33:29 AM]   Deflate -> D:\Code2025\RavenWork\Deflate\Deflate\bin\Debug\net9.0\Deflate.dll
+[OUTPUT 2025-02-23 11:33:29 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:33:28 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 11:33:31 AM] All tests passed successfully.
+[INFO 2025-02-23 11:33:31 AM] Test process completed. Duration: 3.68 seconds.
+[INFO 2025-02-23 11:33:31 AM] Process exited with code 0.
+[INFO 2025-02-23 11:33:27 AM] Command: dotnet test "D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:33:27 AM] Starting test for project: D:\Code2025\RavenWork\Deflate\DeflateTest\DeflateTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
