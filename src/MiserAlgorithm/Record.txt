@@ -1,0 +1,665 @@
+<ActRecord>
+  <ProjectName>MiserAlgorithm</ProjectName>
+  <ProjectDescription>MISER algorithm – A Monte Carlo simulation algorithm used for numerical integration by adaptive stratified sampling.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>MISER algorithm – A Monte Carlo simulation algorithm used for numerical integration by adaptive stratified sampling.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\MiserAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>MiserAlgorithm</ProjectFolderName>
+  <ProjectName>MiserAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:01:34 AM
+MiserAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:03:08 AM
+MiserAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(37,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(38,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(73,55): warning CS8604: Possible null reference argument for parameter 'upper' in 'double MiserIntegrator.MiserRecursive(Func<double[], double> f, double[] lower, double[] upper, long numSamples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(74,48): warning CS8604: Possible null reference argument for parameter 'lower' in 'double MiserIntegrator.MiserRecursive(Func<double[], double> f, double[] lower, double[] upper, long numSamples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+  MiserAlgorithm -> D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\bin\Debug\net9.0\MiserAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(37,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(38,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(73,55): warning CS8604: Possible null reference argument for parameter 'upper' in 'double MiserIntegrator.MiserRecursive(Func<double[], double> f, double[] lower, double[] upper, long numSamples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(74,48): warning CS8604: Possible null reference argument for parameter 'lower' in 'double MiserIntegrator.MiserRecursive(Func<double[], double> f, double[] lower, double[] upper, long numSamples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.75
+]]></string>
+    <string>WritePatch: Compile failed.
+MiserAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:03:08 AM
+MiserAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:03:09 AM
+MiserAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:04:08 AM
+MiserAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(19,54): warning CS8604: Possible null reference argument for parameter 'lower' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(19,61): warning CS8604: Possible null reference argument for parameter 'upper' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(34,54): warning CS8604: Possible null reference argument for parameter 'lower' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(34,61): warning CS8604: Possible null reference argument for parameter 'upper' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(96,47): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(117,47): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(138,39): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+  MiserAlgorithm -> D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\bin\Debug\net9.0\MiserAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(19,54): warning CS8604: Possible null reference argument for parameter 'lower' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(19,61): warning CS8604: Possible null reference argument for parameter 'upper' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(34,54): warning CS8604: Possible null reference argument for parameter 'lower' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(34,61): warning CS8604: Possible null reference argument for parameter 'upper' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(96,47): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(117,47): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(138,39): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+    7 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.71
+]]></string>
+    <string>WritePatch: Compile failed.
+MiserAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:04:08 AM
+MiserAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:04:08 AM
+MiserAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:06:46 AM
+MiserAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(19,54): warning CS8604: Possible null reference argument for parameter 'lower' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(19,61): warning CS8604: Possible null reference argument for parameter 'upper' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(34,54): warning CS8604: Possible null reference argument for parameter 'lower' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(34,61): warning CS8604: Possible null reference argument for parameter 'upper' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+  MiserAlgorithm -> D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\bin\Debug\net9.0\MiserAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(19,54): warning CS8604: Possible null reference argument for parameter 'lower' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(19,61): warning CS8604: Possible null reference argument for parameter 'upper' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(34,54): warning CS8604: Possible null reference argument for parameter 'lower' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(34,61): warning CS8604: Possible null reference argument for parameter 'upper' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.82
+]]></string>
+    <string>WritePatch: Compile failed.
+MiserAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:06:47 AM
+MiserAlgorithm</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(19,54): warning CS8604: Possible null reference argument for parameter 'lower' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(19,61): warning CS8604: Possible null reference argument for parameter 'upper' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(34,54): warning CS8604: Possible null reference argument for parameter 'lower' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(34,61): warning CS8604: Possible null reference argument for parameter 'upper' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+  MiserAlgorithm -> D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\bin\Debug\net9.0\MiserAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(19,54): warning CS8604: Possible null reference argument for parameter 'lower' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(19,61): warning CS8604: Possible null reference argument for parameter 'upper' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(34,54): warning CS8604: Possible null reference argument for parameter 'lower' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(34,61): warning CS8604: Possible null reference argument for parameter 'upper' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.82
+
+</CompilerResponse>
+2025-02-23 7:06:47 AM
+MiserAlgorithm]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 7:06:48 AM
+MiserAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  MiserAlgorithm -> D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\bin\Debug\net9.0\MiserAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.68
+]]></string>
+    <string>WritePatch: Code is Complete.
+MiserAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:07:57 AM
+MiserAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:09:15 AM
+MiserAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj (in 170 ms).
+  1 of 2 projects are up-to-date for restore.
+  MiserAlgorithm -> D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\bin\Debug\net9.0\MiserAlgorithm.dll
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserIntegratorTests.cs(36,30): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserIntegratorTests.cs(37,30): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserIntegratorTests.cs(43,60): warning CS8604: Possible null reference argument for parameter 'lower' in 'double MiserIntegrator.Integrate(Func<double[], double> f, double[] lower, double[] upper, long numSamples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserIntegratorTests.cs(43,67): warning CS8604: Possible null reference argument for parameter 'upper' in 'double MiserIntegrator.Integrate(Func<double[], double> f, double[] lower, double[] upper, long numSamples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj]
+  MiserAlgorithmTest -> D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\bin\Debug\net9.0\MiserAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserIntegratorTests.cs(36,30): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserIntegratorTests.cs(37,30): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserIntegratorTests.cs(43,60): warning CS8604: Possible null reference argument for parameter 'lower' in 'double MiserIntegrator.Integrate(Func<double[], double> f, double[] lower, double[] upper, long numSamples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserIntegratorTests.cs(43,67): warning CS8604: Possible null reference argument for parameter 'upper' in 'double MiserIntegrator.Integrate(Func<double[], double> f, double[] lower, double[] upper, long numSamples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.22
+]]></string>
+    <string>WritePatch: Compile failed.
+MiserAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:09:15 AM
+MiserAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:09:15 AM
+MiserAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:10:36 AM
+MiserAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  MiserAlgorithm -> D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\bin\Debug\net9.0\MiserAlgorithm.dll
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserIntegratorTests.cs(43,60): warning CS8604: Possible null reference argument for parameter 'lower' in 'double MiserIntegrator.Integrate(Func<double[], double> f, double[] lower, double[] upper, long numSamples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserIntegratorTests.cs(43,67): warning CS8604: Possible null reference argument for parameter 'upper' in 'double MiserIntegrator.Integrate(Func<double[], double> f, double[] lower, double[] upper, long numSamples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj]
+  MiserAlgorithmTest -> D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\bin\Debug\net9.0\MiserAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserIntegratorTests.cs(43,60): warning CS8604: Possible null reference argument for parameter 'lower' in 'double MiserIntegrator.Integrate(Func<double[], double> f, double[] lower, double[] upper, long numSamples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserIntegratorTests.cs(43,67): warning CS8604: Possible null reference argument for parameter 'upper' in 'double MiserIntegrator.Integrate(Func<double[], double> f, double[] lower, double[] upper, long numSamples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+]]></string>
+    <string>WritePatch: Compile failed.
+MiserAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:10:36 AM
+MiserAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:10:36 AM
+MiserAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:12:24 AM
+MiserAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  MiserAlgorithm -> D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\bin\Debug\net9.0\MiserAlgorithm.dll
+  MiserAlgorithmTest -> D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\bin\Debug\net9.0\MiserAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.84
+]]></string>
+    <string>WritePatch: Code is not Complete.
+MiserAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:12:59 AM
+MiserAlgorithmTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  MiserAlgorithm -> D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\bin\Debug\net9.0\MiserAlgorithm.dll
+  MiserAlgorithmTest -> D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\bin\Debug\net9.0\MiserAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.84
+
+</CompilerResponse>
+2025-02-23 7:12:59 AM
+MiserAlgorithmTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 7:13:00 AM
+MiserAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  MiserAlgorithm -> D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\bin\Debug\net9.0\MiserAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.64
+]]></string>
+    <string>WritePatch: Code is Complete.
+MiserAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:13:16 AM
+MiserAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  MiserAlgorithm -> D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\bin\Debug\net9.0\MiserAlgorithm.dll
+  MiserAlgorithmTest -> D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\bin\Debug\net9.0\MiserAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+]]></string>
+    <string>WritePatch: Code is Complete.
+MiserAlgorithmTest</string>
+    <string>[INFO 2025-02-23 7:13:52 AM] Starting test for project: D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:13:52 AM] Starting test for project: D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:13:52 AM] Starting test for project: D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:13:52 AM] Starting test for project: D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:13:52 AM] Starting test for project: D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:13:52 AM] Starting test for project: D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:13:52 AM] Starting test for project: D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:13:52 AM] Starting test for project: D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:13:52 AM] Starting test for project: D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:13:52 AM] Starting test for project: D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:13:52 AM] Starting test for project: D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:13:52 AM] Starting test for project: D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:13:52 AM] Starting test for project: D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:13:52 AM] Starting test for project: D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 7:13:54 AM] Test Parallelization enabled for D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\bin\Debug\net9.0\MiserAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:13:54 AM] D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\bin\Debug\net9.0\MiserAlgorithmTest.dll
+[OUTPUT 2025-02-23 7:13:54 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:13:54 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:13:53 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:13:53 AM] Test run for D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\bin\Debug\net9.0\MiserAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:13:53 AM]   MiserAlgorithmTest -> D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\bin\Debug\net9.0\MiserAlgorithmTest.dll
+[OUTPUT 2025-02-23 7:13:55 AM]   Passed TestIntegrate_LowSamples_Constant [4 ms]
+[OUTPUT 2025-02-23 7:13:54 AM]   Passed TestIntegrate_ConstantFunction [13 ms]
+[OUTPUT 2025-02-23 7:13:53 AM]   MiserAlgorithm -> D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\bin\Debug\net9.0\MiserAlgorithm.dll
+[OUTPUT 2025-02-23 7:13:53 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:13:52 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 7:13:54 AM] All tests passed successfully.
+[INFO 2025-02-23 7:13:54 AM] Test process completed. Duration: 2.74 seconds.
+[INFO 2025-02-23 7:13:54 AM] Process exited with code 0.
+[INFO 2025-02-23 7:13:52 AM] Command: dotnet test "D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:13:52 AM] Starting test for project: D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 7:01:34 AM
+MiserAlgorithm
+
+WritePatch ran compiler. 2025-02-23 7:03:08 AM
+MiserAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(37,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(38,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(73,55): warning CS8604: Possible null reference argument for parameter 'upper' in 'double MiserIntegrator.MiserRecursive(Func<double[], double> f, double[] lower, double[] upper, long numSamples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(74,48): warning CS8604: Possible null reference argument for parameter 'lower' in 'double MiserIntegrator.MiserRecursive(Func<double[], double> f, double[] lower, double[] upper, long numSamples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+  MiserAlgorithm -> D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\bin\Debug\net9.0\MiserAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(37,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(38,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(73,55): warning CS8604: Possible null reference argument for parameter 'upper' in 'double MiserIntegrator.MiserRecursive(Func<double[], double> f, double[] lower, double[] upper, long numSamples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(74,48): warning CS8604: Possible null reference argument for parameter 'lower' in 'double MiserIntegrator.MiserRecursive(Func<double[], double> f, double[] lower, double[] upper, long numSamples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.75
+
+
+WritePatch: Compile failed.
+MiserAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 7:03:08 AM
+MiserAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 7:03:09 AM
+MiserAlgorithm
+
+WritePatch ran compiler. 2025-02-23 7:04:08 AM
+MiserAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(19,54): warning CS8604: Possible null reference argument for parameter 'lower' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(19,61): warning CS8604: Possible null reference argument for parameter 'upper' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(34,54): warning CS8604: Possible null reference argument for parameter 'lower' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(34,61): warning CS8604: Possible null reference argument for parameter 'upper' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(96,47): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(117,47): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(138,39): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+  MiserAlgorithm -> D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\bin\Debug\net9.0\MiserAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(19,54): warning CS8604: Possible null reference argument for parameter 'lower' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(19,61): warning CS8604: Possible null reference argument for parameter 'upper' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(34,54): warning CS8604: Possible null reference argument for parameter 'lower' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(34,61): warning CS8604: Possible null reference argument for parameter 'upper' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(96,47): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(117,47): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(138,39): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+    7 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.71
+
+
+WritePatch: Compile failed.
+MiserAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 7:04:08 AM
+MiserAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 7:04:08 AM
+MiserAlgorithm
+
+WritePatch ran compiler. 2025-02-23 7:06:46 AM
+MiserAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(19,54): warning CS8604: Possible null reference argument for parameter 'lower' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(19,61): warning CS8604: Possible null reference argument for parameter 'upper' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(34,54): warning CS8604: Possible null reference argument for parameter 'lower' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(34,61): warning CS8604: Possible null reference argument for parameter 'upper' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+  MiserAlgorithm -> D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\bin\Debug\net9.0\MiserAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(19,54): warning CS8604: Possible null reference argument for parameter 'lower' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(19,61): warning CS8604: Possible null reference argument for parameter 'upper' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(34,54): warning CS8604: Possible null reference argument for parameter 'lower' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(34,61): warning CS8604: Possible null reference argument for parameter 'upper' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.82
+
+
+WritePatch: Compile failed.
+MiserAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 7:06:47 AM
+MiserAlgorithm
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(19,54): warning CS8604: Possible null reference argument for parameter 'lower' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(19,61): warning CS8604: Possible null reference argument for parameter 'upper' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(34,54): warning CS8604: Possible null reference argument for parameter 'lower' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(34,61): warning CS8604: Possible null reference argument for parameter 'upper' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+  MiserAlgorithm -> D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\bin\Debug\net9.0\MiserAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(19,54): warning CS8604: Possible null reference argument for parameter 'lower' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(19,61): warning CS8604: Possible null reference argument for parameter 'upper' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(34,54): warning CS8604: Possible null reference argument for parameter 'lower' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserIntegrator.cs(34,61): warning CS8604: Possible null reference argument for parameter 'upper' in 'double MiserIntegrator.BasicMonteCarloIntegration(Func<double[], double> f, double[] lower, double[] upper, long samples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\MiserAlgorithm.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.82
+
+</CompilerResponse>
+2025-02-23 7:06:47 AM
+MiserAlgorithm
+
+WritePatch ran compiler. 2025-02-23 7:06:48 AM
+MiserAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  MiserAlgorithm -> D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\bin\Debug\net9.0\MiserAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.68
+
+
+WritePatch: Code is Complete.
+MiserAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 7:07:57 AM
+MiserAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 7:09:15 AM
+MiserAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj (in 170 ms).
+  1 of 2 projects are up-to-date for restore.
+  MiserAlgorithm -> D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\bin\Debug\net9.0\MiserAlgorithm.dll
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserIntegratorTests.cs(36,30): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserIntegratorTests.cs(37,30): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserIntegratorTests.cs(43,60): warning CS8604: Possible null reference argument for parameter 'lower' in 'double MiserIntegrator.Integrate(Func<double[], double> f, double[] lower, double[] upper, long numSamples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserIntegratorTests.cs(43,67): warning CS8604: Possible null reference argument for parameter 'upper' in 'double MiserIntegrator.Integrate(Func<double[], double> f, double[] lower, double[] upper, long numSamples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj]
+  MiserAlgorithmTest -> D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\bin\Debug\net9.0\MiserAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserIntegratorTests.cs(36,30): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserIntegratorTests.cs(37,30): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserIntegratorTests.cs(43,60): warning CS8604: Possible null reference argument for parameter 'lower' in 'double MiserIntegrator.Integrate(Func<double[], double> f, double[] lower, double[] upper, long numSamples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserIntegratorTests.cs(43,67): warning CS8604: Possible null reference argument for parameter 'upper' in 'double MiserIntegrator.Integrate(Func<double[], double> f, double[] lower, double[] upper, long numSamples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.22
+
+
+WritePatch: Compile failed.
+MiserAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:09:15 AM
+MiserAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 7:09:15 AM
+MiserAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 7:10:36 AM
+MiserAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  MiserAlgorithm -> D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\bin\Debug\net9.0\MiserAlgorithm.dll
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserIntegratorTests.cs(43,60): warning CS8604: Possible null reference argument for parameter 'lower' in 'double MiserIntegrator.Integrate(Func<double[], double> f, double[] lower, double[] upper, long numSamples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserIntegratorTests.cs(43,67): warning CS8604: Possible null reference argument for parameter 'upper' in 'double MiserIntegrator.Integrate(Func<double[], double> f, double[] lower, double[] upper, long numSamples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj]
+  MiserAlgorithmTest -> D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\bin\Debug\net9.0\MiserAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserIntegratorTests.cs(43,60): warning CS8604: Possible null reference argument for parameter 'lower' in 'double MiserIntegrator.Integrate(Func<double[], double> f, double[] lower, double[] upper, long numSamples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj]
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserIntegratorTests.cs(43,67): warning CS8604: Possible null reference argument for parameter 'upper' in 'double MiserIntegrator.Integrate(Func<double[], double> f, double[] lower, double[] upper, long numSamples)'. [D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+
+
+WritePatch: Compile failed.
+MiserAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:10:36 AM
+MiserAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 7:10:36 AM
+MiserAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 7:12:24 AM
+MiserAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  MiserAlgorithm -> D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\bin\Debug\net9.0\MiserAlgorithm.dll
+  MiserAlgorithmTest -> D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\bin\Debug\net9.0\MiserAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.84
+
+
+WritePatch: Code is not Complete.
+MiserAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:12:59 AM
+MiserAlgorithmTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  MiserAlgorithm -> D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\bin\Debug\net9.0\MiserAlgorithm.dll
+  MiserAlgorithmTest -> D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\bin\Debug\net9.0\MiserAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.84
+
+</CompilerResponse>
+2025-02-23 7:12:59 AM
+MiserAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 7:13:00 AM
+MiserAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  MiserAlgorithm -> D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\bin\Debug\net9.0\MiserAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.64
+
+
+WritePatch: Code is Complete.
+MiserAlgorithm
+
+WritePatch ran compiler. 2025-02-23 7:13:16 AM
+MiserAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  MiserAlgorithm -> D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\bin\Debug\net9.0\MiserAlgorithm.dll
+  MiserAlgorithmTest -> D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\bin\Debug\net9.0\MiserAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+
+
+WritePatch: Code is Complete.
+MiserAlgorithmTest
+
+TestResult:
+[OUTPUT 2025-02-23 7:13:54 AM] Test Parallelization enabled for D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\bin\Debug\net9.0\MiserAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:13:54 AM] D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\bin\Debug\net9.0\MiserAlgorithmTest.dll
+[OUTPUT 2025-02-23 7:13:54 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:13:54 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:13:53 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:13:53 AM] Test run for D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\bin\Debug\net9.0\MiserAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:13:53 AM]   MiserAlgorithmTest -> D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\bin\Debug\net9.0\MiserAlgorithmTest.dll
+[OUTPUT 2025-02-23 7:13:55 AM]   Passed TestIntegrate_LowSamples_Constant [4 ms]
+[OUTPUT 2025-02-23 7:13:54 AM]   Passed TestIntegrate_ConstantFunction [13 ms]
+[OUTPUT 2025-02-23 7:13:53 AM]   MiserAlgorithm -> D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithm\bin\Debug\net9.0\MiserAlgorithm.dll
+[OUTPUT 2025-02-23 7:13:53 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:13:52 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 7:13:54 AM] All tests passed successfully.
+[INFO 2025-02-23 7:13:54 AM] Test process completed. Duration: 2.74 seconds.
+[INFO 2025-02-23 7:13:54 AM] Process exited with code 0.
+[INFO 2025-02-23 7:13:52 AM] Command: dotnet test "D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:13:52 AM] Starting test for project: D:\Code2025\RavenWork\MiserAlgorithm\MiserAlgorithmTest\MiserAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
