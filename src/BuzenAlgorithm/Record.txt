@@ -1,0 +1,388 @@
+<ActRecord>
+  <ProjectName>BuzenAlgorithm</ProjectName>
+  <ProjectDescription><![CDATA[Buzen's algorithm: Calculates the normalization constant G(K) in the Gordon–Newell theorem]]></ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification><![CDATA[Buzen's algorithm: Calculates the normalization constant G(K) in the Gordon–Newell theorem]]]]><![CDATA[></WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\BuzenAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>BuzenAlgorithm</ProjectFolderName>
+  <ProjectName>BuzenAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:13:13 AM
+BuzenAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:13:43 AM
+BuzenAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BuzenAlgorithm -> D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithm\bin\Debug\net9.0\BuzenAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.11
+]]></string>
+    <string>WritePatch: Code is Complete.
+BuzenAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:14:54 AM
+BuzenAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:16:50 AM
+BuzenAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenAlgorithmTest.csproj (in 270 ms).
+  1 of 2 projects are up-to-date for restore.
+  BuzenAlgorithm -> D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithm\bin\Debug\net9.0\BuzenAlgorithm.dll
+D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenCalculatorTests.cs(14,77): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenCalculatorTests.cs(16,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenAlgorithmTest.csproj]
+  BuzenAlgorithmTest -> D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\bin\Debug\net9.0\BuzenAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenCalculatorTests.cs(14,77): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenCalculatorTests.cs(16,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.60
+]]></string>
+    <string>WritePatch: Compile failed.
+BuzenAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:16:51 AM
+BuzenAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:16:52 AM
+BuzenAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:18:37 AM
+BuzenAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BuzenAlgorithm -> D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithm\bin\Debug\net9.0\BuzenAlgorithm.dll
+  BuzenAlgorithmTest -> D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\bin\Debug\net9.0\BuzenAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.46
+]]></string>
+    <string>WritePatch: Code is not Complete.
+BuzenAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:19:20 AM
+BuzenAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:19:20 AM
+BuzenAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:20:16 AM
+BuzenAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BuzenAlgorithm -> D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithm\bin\Debug\net9.0\BuzenAlgorithm.dll
+D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenCalculatorTests.cs(14,77): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenCalculatorTests.cs(16,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenAlgorithmTest.csproj]
+  BuzenAlgorithmTest -> D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\bin\Debug\net9.0\BuzenAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenCalculatorTests.cs(14,77): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenCalculatorTests.cs(16,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.27
+]]></string>
+    <string>WritePatch: Compile failed.
+BuzenAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:20:17 AM
+BuzenAlgorithmTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BuzenAlgorithm -> D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithm\bin\Debug\net9.0\BuzenAlgorithm.dll
+D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenCalculatorTests.cs(14,77): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenCalculatorTests.cs(16,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenAlgorithmTest.csproj]
+  BuzenAlgorithmTest -> D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\bin\Debug\net9.0\BuzenAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenCalculatorTests.cs(14,77): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenCalculatorTests.cs(16,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.27
+
+</CompilerResponse>
+2025-02-23 9:20:17 AM
+BuzenAlgorithmTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 9:20:19 AM
+BuzenAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BuzenAlgorithm -> D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithm\bin\Debug\net9.0\BuzenAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87
+]]></string>
+    <string>WritePatch: Code is Complete.
+BuzenAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:22:16 AM
+BuzenAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BuzenAlgorithm -> D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithm\bin\Debug\net9.0\BuzenAlgorithm.dll
+  BuzenAlgorithmTest -> D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\bin\Debug\net9.0\BuzenAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.31
+]]></string>
+    <string>WritePatch: Code is Complete.
+BuzenAlgorithmTest</string>
+    <string>[INFO 2025-02-23 9:23:01 AM] Starting test for project: D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:23:01 AM] Starting test for project: D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:23:01 AM] Starting test for project: D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:23:01 AM] Starting test for project: D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:23:01 AM] Starting test for project: D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:23:01 AM] Starting test for project: D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:23:01 AM] Starting test for project: D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:23:01 AM] Starting test for project: D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 9:23:06 AM] All tests passed successfully.
+[INFO 2025-02-23 9:23:06 AM] Test process completed. Duration: 5.19 seconds.
+[INFO 2025-02-23 9:23:06 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 9:23:06 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 9:23:05 AM] Test run for D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\bin\Debug\net9.0\BuzenAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 9:23:05 AM]   BuzenAlgorithmTest -> D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\bin\Debug\net9.0\BuzenAlgorithmTest.dll
+[OUTPUT 2025-02-23 9:23:02 AM]   Determining projects to restore...
+[OUTPUT 2025-02-23 9:23:04 AM]   BuzenAlgorithm -> D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithm\bin\Debug\net9.0\BuzenAlgorithm.dll
+[OUTPUT 2025-02-23 9:23:03 AM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 9:23:01 AM] Command: dotnet test "D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 9:23:01 AM] Starting test for project: D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 9:13:13 AM
+BuzenAlgorithm
+
+WritePatch ran compiler. 2025-02-23 9:13:43 AM
+BuzenAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BuzenAlgorithm -> D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithm\bin\Debug\net9.0\BuzenAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.11
+
+
+WritePatch: Code is Complete.
+BuzenAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 9:14:54 AM
+BuzenAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 9:16:50 AM
+BuzenAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenAlgorithmTest.csproj (in 270 ms).
+  1 of 2 projects are up-to-date for restore.
+  BuzenAlgorithm -> D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithm\bin\Debug\net9.0\BuzenAlgorithm.dll
+D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenCalculatorTests.cs(14,77): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenCalculatorTests.cs(16,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenAlgorithmTest.csproj]
+  BuzenAlgorithmTest -> D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\bin\Debug\net9.0\BuzenAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenCalculatorTests.cs(14,77): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenCalculatorTests.cs(16,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.60
+
+
+WritePatch: Compile failed.
+BuzenAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:16:51 AM
+BuzenAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 9:16:52 AM
+BuzenAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 9:18:37 AM
+BuzenAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BuzenAlgorithm -> D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithm\bin\Debug\net9.0\BuzenAlgorithm.dll
+  BuzenAlgorithmTest -> D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\bin\Debug\net9.0\BuzenAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.46
+
+
+WritePatch: Code is not Complete.
+BuzenAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:19:20 AM
+BuzenAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 9:19:20 AM
+BuzenAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 9:20:16 AM
+BuzenAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BuzenAlgorithm -> D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithm\bin\Debug\net9.0\BuzenAlgorithm.dll
+D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenCalculatorTests.cs(14,77): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenCalculatorTests.cs(16,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenAlgorithmTest.csproj]
+  BuzenAlgorithmTest -> D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\bin\Debug\net9.0\BuzenAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenCalculatorTests.cs(14,77): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenCalculatorTests.cs(16,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.27
+
+
+WritePatch: Compile failed.
+BuzenAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:20:17 AM
+BuzenAlgorithmTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BuzenAlgorithm -> D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithm\bin\Debug\net9.0\BuzenAlgorithm.dll
+D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenCalculatorTests.cs(14,77): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenCalculatorTests.cs(16,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenAlgorithmTest.csproj]
+  BuzenAlgorithmTest -> D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\bin\Debug\net9.0\BuzenAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenCalculatorTests.cs(14,77): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenCalculatorTests.cs(16,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.27
+
+</CompilerResponse>
+2025-02-23 9:20:17 AM
+BuzenAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 9:20:19 AM
+BuzenAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BuzenAlgorithm -> D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithm\bin\Debug\net9.0\BuzenAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87
+
+
+WritePatch: Code is Complete.
+BuzenAlgorithm
+
+WritePatch ran compiler. 2025-02-23 9:22:16 AM
+BuzenAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BuzenAlgorithm -> D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithm\bin\Debug\net9.0\BuzenAlgorithm.dll
+  BuzenAlgorithmTest -> D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\bin\Debug\net9.0\BuzenAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.31
+
+
+WritePatch: Code is Complete.
+BuzenAlgorithmTest
+
+TestResult:
+[SUCCESS 2025-02-23 9:23:06 AM] All tests passed successfully.
+[INFO 2025-02-23 9:23:06 AM] Test process completed. Duration: 5.19 seconds.
+[INFO 2025-02-23 9:23:06 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 9:23:06 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 9:23:05 AM] Test run for D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\bin\Debug\net9.0\BuzenAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 9:23:05 AM]   BuzenAlgorithmTest -> D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\bin\Debug\net9.0\BuzenAlgorithmTest.dll
+[OUTPUT 2025-02-23 9:23:02 AM]   Determining projects to restore...
+[OUTPUT 2025-02-23 9:23:04 AM]   BuzenAlgorithm -> D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithm\bin\Debug\net9.0\BuzenAlgorithm.dll
+[OUTPUT 2025-02-23 9:23:03 AM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 9:23:01 AM] Command: dotnet test "D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 9:23:01 AM] Starting test for project: D:\Code2025\RavenWork\BuzenAlgorithm\BuzenAlgorithmTest\BuzenAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
