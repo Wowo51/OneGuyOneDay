@@ -1,0 +1,355 @@
+<ActRecord>
+  <ProjectName>SecantMethod</ProjectName>
+  <ProjectDescription>Secant method – A derivative‐free root-finding algorithm that approximates the derivative using two points.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Secant method – A derivative‐free root-finding algorithm that approximates the derivative using two points.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\SecantMethod</SolutionFolderPath>
+  <ProjectFolderName>SecantMethod</ProjectFolderName>
+  <ProjectName>SecantMethod</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:21:11 PM
+SecantMethod</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:22:04 PM
+SecantMethod</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SecantMethod -> D:\Code2025\RavenWork\SecantMethod\SecantMethod\bin\Debug\net9.0\SecantMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.21
+]]></string>
+    <string>WritePatch: Code is Complete.
+SecantMethod</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:23:35 PM
+SecantMethodTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:24:31 PM
+SecantMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\SecantMethod\SecantMethodTest\SecantMethodTest.csproj (in 248 ms).
+  1 of 2 projects are up-to-date for restore.
+  SecantMethod -> D:\Code2025\RavenWork\SecantMethod\SecantMethod\bin\Debug\net9.0\SecantMethod.dll
+D:\Code2025\RavenWork\SecantMethod\SecantMethodTest\SecantMethodSolverTests.cs(15,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SecantMethod\SecantMethodTest\SecantMethodTest.csproj]
+  SecantMethodTest -> D:\Code2025\RavenWork\SecantMethod\SecantMethodTest\bin\Debug\net9.0\SecantMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SecantMethod\SecantMethodTest\SecantMethodSolverTests.cs(15,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SecantMethod\SecantMethodTest\SecantMethodTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.72
+]]></string>
+    <string>WritePatch: Compile failed.
+SecantMethodTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 12:25:16 PM
+SecantMethodTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:25:39 PM
+SecantMethodTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:27:14 PM
+SecantMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SecantMethod -> D:\Code2025\RavenWork\SecantMethod\SecantMethod\bin\Debug\net9.0\SecantMethod.dll
+D:\Code2025\RavenWork\SecantMethod\SecantMethodTest\SecantMethodSolverTests.cs(15,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SecantMethod\SecantMethodTest\SecantMethodTest.csproj]
+  SecantMethodTest -> D:\Code2025\RavenWork\SecantMethod\SecantMethodTest\bin\Debug\net9.0\SecantMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SecantMethod\SecantMethodTest\SecantMethodSolverTests.cs(15,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SecantMethod\SecantMethodTest\SecantMethodTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.19
+]]></string>
+    <string>WritePatch: Compile failed.
+SecantMethodTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 12:28:12 PM
+SecantMethodTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:28:31 PM
+SecantMethodTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:29:56 PM
+SecantMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SecantMethod -> D:\Code2025\RavenWork\SecantMethod\SecantMethod\bin\Debug\net9.0\SecantMethod.dll
+  SecantMethodTest -> D:\Code2025\RavenWork\SecantMethod\SecantMethodTest\bin\Debug\net9.0\SecantMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+]]></string>
+    <string>WritePatch: Code is not Complete.
+SecantMethodTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 12:30:41 PM
+SecantMethodTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\SecantMethod\SecantMethodTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SecantMethod -> D:\Code2025\RavenWork\SecantMethod\SecantMethod\bin\Debug\net9.0\SecantMethod.dll
+  SecantMethodTest -> D:\Code2025\RavenWork\SecantMethod\SecantMethodTest\bin\Debug\net9.0\SecantMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+
+</CompilerResponse>
+2025-02-23 12:30:50 PM
+SecantMethodTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 12:31:00 PM
+SecantMethod</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SecantMethod -> D:\Code2025\RavenWork\SecantMethod\SecantMethod\bin\Debug\net9.0\SecantMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.82
+]]></string>
+    <string>WritePatch: Code is Complete.
+SecantMethod</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:31:51 PM
+SecantMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SecantMethod -> D:\Code2025\RavenWork\SecantMethod\SecantMethod\bin\Debug\net9.0\SecantMethod.dll
+  SecantMethodTest -> D:\Code2025\RavenWork\SecantMethod\SecantMethodTest\bin\Debug\net9.0\SecantMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.11
+]]></string>
+    <string>WritePatch: Code is Complete.
+SecantMethodTest</string>
+    <string>[INFO 2025-02-23 12:32:37 PM] Starting test for project: D:\Code2025\RavenWork\SecantMethod\SecantMethodTest\SecantMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 12:32:37 PM] Starting test for project: D:\Code2025\RavenWork\SecantMethod\SecantMethodTest\SecantMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 12:32:37 PM] Starting test for project: D:\Code2025\RavenWork\SecantMethod\SecantMethodTest\SecantMethodTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 12:32:49 PM] All tests passed successfully.
+[INFO 2025-02-23 12:32:49 PM] Test process completed. Duration: 12.57 seconds.
+[INFO 2025-02-23 12:32:49 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 12:32:47 PM]   Determining projects to restore...
+[INFO 2025-02-23 12:32:37 PM] Command: dotnet test "D:\Code2025\RavenWork\SecantMethod\SecantMethodTest\SecantMethodTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 12:32:37 PM] Starting test for project: D:\Code2025\RavenWork\SecantMethod\SecantMethodTest\SecantMethodTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 12:21:11 PM
+SecantMethod
+
+WritePatch ran compiler. 2025-02-23 12:22:04 PM
+SecantMethod
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SecantMethod -> D:\Code2025\RavenWork\SecantMethod\SecantMethod\bin\Debug\net9.0\SecantMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.21
+
+
+WritePatch: Code is Complete.
+SecantMethod
+
+WritePatch Started CycleStep. 2025-02-23 12:23:35 PM
+SecantMethodTest
+
+WritePatch ran compiler. 2025-02-23 12:24:31 PM
+SecantMethodTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\SecantMethod\SecantMethodTest\SecantMethodTest.csproj (in 248 ms).
+  1 of 2 projects are up-to-date for restore.
+  SecantMethod -> D:\Code2025\RavenWork\SecantMethod\SecantMethod\bin\Debug\net9.0\SecantMethod.dll
+D:\Code2025\RavenWork\SecantMethod\SecantMethodTest\SecantMethodSolverTests.cs(15,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SecantMethod\SecantMethodTest\SecantMethodTest.csproj]
+  SecantMethodTest -> D:\Code2025\RavenWork\SecantMethod\SecantMethodTest\bin\Debug\net9.0\SecantMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SecantMethod\SecantMethodTest\SecantMethodSolverTests.cs(15,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SecantMethod\SecantMethodTest\SecantMethodTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.72
+
+
+WritePatch: Compile failed.
+SecantMethodTest
+
+Finished WritePatch cycle step.
+2025-02-23 12:25:16 PM
+SecantMethodTest
+
+WritePatch Started CycleStep. 2025-02-23 12:25:39 PM
+SecantMethodTest
+
+WritePatch ran compiler. 2025-02-23 12:27:14 PM
+SecantMethodTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SecantMethod -> D:\Code2025\RavenWork\SecantMethod\SecantMethod\bin\Debug\net9.0\SecantMethod.dll
+D:\Code2025\RavenWork\SecantMethod\SecantMethodTest\SecantMethodSolverTests.cs(15,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SecantMethod\SecantMethodTest\SecantMethodTest.csproj]
+  SecantMethodTest -> D:\Code2025\RavenWork\SecantMethod\SecantMethodTest\bin\Debug\net9.0\SecantMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SecantMethod\SecantMethodTest\SecantMethodSolverTests.cs(15,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SecantMethod\SecantMethodTest\SecantMethodTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.19
+
+
+WritePatch: Compile failed.
+SecantMethodTest
+
+Finished WritePatch cycle step.
+2025-02-23 12:28:12 PM
+SecantMethodTest
+
+WritePatch Started CycleStep. 2025-02-23 12:28:31 PM
+SecantMethodTest
+
+WritePatch ran compiler. 2025-02-23 12:29:56 PM
+SecantMethodTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SecantMethod -> D:\Code2025\RavenWork\SecantMethod\SecantMethod\bin\Debug\net9.0\SecantMethod.dll
+  SecantMethodTest -> D:\Code2025\RavenWork\SecantMethod\SecantMethodTest\bin\Debug\net9.0\SecantMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+
+
+WritePatch: Code is not Complete.
+SecantMethodTest
+
+Finished WritePatch cycle step.
+2025-02-23 12:30:41 PM
+SecantMethodTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\SecantMethod\SecantMethodTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SecantMethod -> D:\Code2025\RavenWork\SecantMethod\SecantMethod\bin\Debug\net9.0\SecantMethod.dll
+  SecantMethodTest -> D:\Code2025\RavenWork\SecantMethod\SecantMethodTest\bin\Debug\net9.0\SecantMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+
+</CompilerResponse>
+2025-02-23 12:30:50 PM
+SecantMethodTest
+
+WritePatch ran compiler. 2025-02-23 12:31:00 PM
+SecantMethod
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SecantMethod -> D:\Code2025\RavenWork\SecantMethod\SecantMethod\bin\Debug\net9.0\SecantMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.82
+
+
+WritePatch: Code is Complete.
+SecantMethod
+
+WritePatch ran compiler. 2025-02-23 12:31:51 PM
+SecantMethodTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SecantMethod -> D:\Code2025\RavenWork\SecantMethod\SecantMethod\bin\Debug\net9.0\SecantMethod.dll
+  SecantMethodTest -> D:\Code2025\RavenWork\SecantMethod\SecantMethodTest\bin\Debug\net9.0\SecantMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.11
+
+
+WritePatch: Code is Complete.
+SecantMethodTest
+
+TestResult:
+[SUCCESS 2025-02-23 12:32:49 PM] All tests passed successfully.
+[INFO 2025-02-23 12:32:49 PM] Test process completed. Duration: 12.57 seconds.
+[INFO 2025-02-23 12:32:49 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 12:32:47 PM]   Determining projects to restore...
+[INFO 2025-02-23 12:32:37 PM] Command: dotnet test "D:\Code2025\RavenWork\SecantMethod\SecantMethodTest\SecantMethodTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 12:32:37 PM] Starting test for project: D:\Code2025\RavenWork\SecantMethod\SecantMethodTest\SecantMethodTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
