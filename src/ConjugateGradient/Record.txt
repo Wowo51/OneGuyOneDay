@@ -1,0 +1,404 @@
+<ActRecord>
+  <ProjectName>ConjugateGradient</ProjectName>
+  <ProjectDescription>Conjugate gradient – An algorithm for efficiently solving large, sparse systems of linear equations.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Conjugate gradient – An algorithm for efficiently solving large, sparse systems of linear equations.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\ConjugateGradient</SolutionFolderPath>
+  <ProjectFolderName>ConjugateGradient</ProjectFolderName>
+  <ProjectName>ConjugateGradient</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 5:14:37 PM
+ConjugateGradient</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:15:20 PM
+ConjugateGradient</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ConjugateGradient -> D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradient\bin\Debug\net9.0\ConjugateGradient.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.29
+]]></string>
+    <string>WritePatch: Code is Complete.
+ConjugateGradient</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 5:15:33 PM
+ConjugateGradientTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:16:31 PM
+ConjugateGradientTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj (in 451 ms).
+  1 of 2 projects are up-to-date for restore.
+  ConjugateGradient -> D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradient\bin\Debug\net9.0\ConjugateGradient.dll
+D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTests.cs(21,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTests.cs(34,28): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTests.cs(46,79): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTests.cs(65,28): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj]
+  ConjugateGradientTest -> D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\bin\Debug\net9.0\ConjugateGradientTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTests.cs(21,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTests.cs(34,28): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTests.cs(46,79): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTests.cs(65,28): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.39
+]]></string>
+    <string>WritePatch: Compile failed.
+ConjugateGradientTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 5:16:33 PM
+ConjugateGradientTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 5:16:33 PM
+ConjugateGradientTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:17:45 PM
+ConjugateGradientTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ConjugateGradient -> D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradient\bin\Debug\net9.0\ConjugateGradient.dll
+D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTests.cs(21,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTests.cs(46,79): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj]
+  ConjugateGradientTest -> D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\bin\Debug\net9.0\ConjugateGradientTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTests.cs(21,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTests.cs(46,79): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.77
+]]></string>
+    <string>WritePatch: Compile failed.
+ConjugateGradientTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 5:17:46 PM
+ConjugateGradientTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 5:17:47 PM
+ConjugateGradientTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:18:18 PM
+ConjugateGradientTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ConjugateGradient -> D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradient\bin\Debug\net9.0\ConjugateGradient.dll
+  ConjugateGradientTest -> D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\bin\Debug\net9.0\ConjugateGradientTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.11
+]]></string>
+    <string>WritePatch: Code is not Complete.
+ConjugateGradientTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 5:18:41 PM
+ConjugateGradientTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ConjugateGradient -> D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradient\bin\Debug\net9.0\ConjugateGradient.dll
+  ConjugateGradientTest -> D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\bin\Debug\net9.0\ConjugateGradientTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.11
+
+</CompilerResponse>
+2025-02-23 5:18:42 PM
+ConjugateGradientTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 5:18:44 PM
+ConjugateGradient</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ConjugateGradient -> D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradient\bin\Debug\net9.0\ConjugateGradient.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.57
+]]></string>
+    <string>WritePatch: Code is Complete.
+ConjugateGradient</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:18:57 PM
+ConjugateGradientTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ConjugateGradient -> D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradient\bin\Debug\net9.0\ConjugateGradient.dll
+  ConjugateGradientTest -> D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\bin\Debug\net9.0\ConjugateGradientTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.96
+]]></string>
+    <string>WritePatch: Code is Complete.
+ConjugateGradientTest</string>
+    <string>[INFO 2025-02-23 5:19:13 PM] Starting test for project: D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj</string>
+    <string>[INFO 2025-02-23 5:19:13 PM] Starting test for project: D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj</string>
+    <string>[INFO 2025-02-23 5:19:13 PM] Starting test for project: D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj</string>
+    <string>[INFO 2025-02-23 5:19:13 PM] Starting test for project: D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj</string>
+    <string>[INFO 2025-02-23 5:19:13 PM] Starting test for project: D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj</string>
+    <string>[INFO 2025-02-23 5:19:13 PM] Starting test for project: D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj</string>
+    <string>[INFO 2025-02-23 5:19:13 PM] Starting test for project: D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj</string>
+    <string>[INFO 2025-02-23 5:19:13 PM] Starting test for project: D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj</string>
+    <string>[INFO 2025-02-23 5:19:13 PM] Starting test for project: D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj</string>
+    <string>[INFO 2025-02-23 5:19:13 PM] Starting test for project: D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj</string>
+    <string>[INFO 2025-02-23 5:19:13 PM] Starting test for project: D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj</string>
+    <string>[INFO 2025-02-23 5:19:13 PM] Starting test for project: D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj</string>
+    <string>[INFO 2025-02-23 5:19:13 PM] Starting test for project: D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj</string>
+    <string>[INFO 2025-02-23 5:19:13 PM] Starting test for project: D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 5:19:22 PM]   Passed Test_NullMatrixMultiply_ReturnsEmptyArray [8 ms]
+[OUTPUT 2025-02-23 5:19:21 PM]   Passed Test_NullB_ReturnsEmptyArray [8 ms]
+[OUTPUT 2025-02-23 5:19:17 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 5:19:17 PM] Test run for D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\bin\Debug\net9.0\ConjugateGradientTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 5:19:16 PM]   ConjugateGradientTest -> D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\bin\Debug\net9.0\ConjugateGradientTest.dll
+[OUTPUT 2025-02-23 5:19:15 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 5:19:20 PM] Test Parallelization enabled for D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\bin\Debug\net9.0\ConjugateGradientTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 5:19:19 PM] D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\bin\Debug\net9.0\ConjugateGradientTest.dll
+[OUTPUT 2025-02-23 5:19:18 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 5:19:18 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 5:19:16 PM]   ConjugateGradient -> D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradient\bin\Debug\net9.0\ConjugateGradient.dll
+[OUTPUT 2025-02-23 5:19:15 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 5:19:21 PM] All tests passed successfully.
+[INFO 2025-02-23 5:19:21 PM] Test process completed. Duration: 7.43 seconds.
+[INFO 2025-02-23 5:19:21 PM] Process exited with code 0.
+[INFO 2025-02-23 5:19:13 PM] Command: dotnet test "D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 5:19:13 PM] Starting test for project: D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 5:14:37 PM
+ConjugateGradient
+
+WritePatch ran compiler. 2025-02-23 5:15:20 PM
+ConjugateGradient
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ConjugateGradient -> D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradient\bin\Debug\net9.0\ConjugateGradient.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.29
+
+
+WritePatch: Code is Complete.
+ConjugateGradient
+
+WritePatch Started CycleStep. 2025-02-23 5:15:33 PM
+ConjugateGradientTest
+
+WritePatch ran compiler. 2025-02-23 5:16:31 PM
+ConjugateGradientTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj (in 451 ms).
+  1 of 2 projects are up-to-date for restore.
+  ConjugateGradient -> D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradient\bin\Debug\net9.0\ConjugateGradient.dll
+D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTests.cs(21,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTests.cs(34,28): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTests.cs(46,79): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTests.cs(65,28): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj]
+  ConjugateGradientTest -> D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\bin\Debug\net9.0\ConjugateGradientTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTests.cs(21,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTests.cs(34,28): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTests.cs(46,79): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTests.cs(65,28): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.39
+
+
+WritePatch: Compile failed.
+ConjugateGradientTest
+
+Finished WritePatch cycle step.
+2025-02-23 5:16:33 PM
+ConjugateGradientTest
+
+WritePatch Started CycleStep. 2025-02-23 5:16:33 PM
+ConjugateGradientTest
+
+WritePatch ran compiler. 2025-02-23 5:17:45 PM
+ConjugateGradientTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ConjugateGradient -> D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradient\bin\Debug\net9.0\ConjugateGradient.dll
+D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTests.cs(21,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTests.cs(46,79): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj]
+  ConjugateGradientTest -> D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\bin\Debug\net9.0\ConjugateGradientTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTests.cs(21,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTests.cs(46,79): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.77
+
+
+WritePatch: Compile failed.
+ConjugateGradientTest
+
+Finished WritePatch cycle step.
+2025-02-23 5:17:46 PM
+ConjugateGradientTest
+
+WritePatch Started CycleStep. 2025-02-23 5:17:47 PM
+ConjugateGradientTest
+
+WritePatch ran compiler. 2025-02-23 5:18:18 PM
+ConjugateGradientTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ConjugateGradient -> D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradient\bin\Debug\net9.0\ConjugateGradient.dll
+  ConjugateGradientTest -> D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\bin\Debug\net9.0\ConjugateGradientTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.11
+
+
+WritePatch: Code is not Complete.
+ConjugateGradientTest
+
+Finished WritePatch cycle step.
+2025-02-23 5:18:41 PM
+ConjugateGradientTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ConjugateGradient -> D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradient\bin\Debug\net9.0\ConjugateGradient.dll
+  ConjugateGradientTest -> D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\bin\Debug\net9.0\ConjugateGradientTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.11
+
+</CompilerResponse>
+2025-02-23 5:18:42 PM
+ConjugateGradientTest
+
+WritePatch ran compiler. 2025-02-23 5:18:44 PM
+ConjugateGradient
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ConjugateGradient -> D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradient\bin\Debug\net9.0\ConjugateGradient.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.57
+
+
+WritePatch: Code is Complete.
+ConjugateGradient
+
+WritePatch ran compiler. 2025-02-23 5:18:57 PM
+ConjugateGradientTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ConjugateGradient -> D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradient\bin\Debug\net9.0\ConjugateGradient.dll
+  ConjugateGradientTest -> D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\bin\Debug\net9.0\ConjugateGradientTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.96
+
+
+WritePatch: Code is Complete.
+ConjugateGradientTest
+
+TestResult:
+[OUTPUT 2025-02-23 5:19:22 PM]   Passed Test_NullMatrixMultiply_ReturnsEmptyArray [8 ms]
+[OUTPUT 2025-02-23 5:19:21 PM]   Passed Test_NullB_ReturnsEmptyArray [8 ms]
+[OUTPUT 2025-02-23 5:19:17 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 5:19:17 PM] Test run for D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\bin\Debug\net9.0\ConjugateGradientTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 5:19:16 PM]   ConjugateGradientTest -> D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\bin\Debug\net9.0\ConjugateGradientTest.dll
+[OUTPUT 2025-02-23 5:19:15 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 5:19:20 PM] Test Parallelization enabled for D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\bin\Debug\net9.0\ConjugateGradientTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 5:19:19 PM] D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\bin\Debug\net9.0\ConjugateGradientTest.dll
+[OUTPUT 2025-02-23 5:19:18 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 5:19:18 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 5:19:16 PM]   ConjugateGradient -> D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradient\bin\Debug\net9.0\ConjugateGradient.dll
+[OUTPUT 2025-02-23 5:19:15 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 5:19:21 PM] All tests passed successfully.
+[INFO 2025-02-23 5:19:21 PM] Test process completed. Duration: 7.43 seconds.
+[INFO 2025-02-23 5:19:21 PM] Process exited with code 0.
+[INFO 2025-02-23 5:19:13 PM] Command: dotnet test "D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 5:19:13 PM] Starting test for project: D:\Code2025\RavenWork\ConjugateGradient\ConjugateGradientTest\ConjugateGradientTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
