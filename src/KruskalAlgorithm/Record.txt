@@ -1,0 +1,153 @@
+<ActRecord>
+  <ProjectName>KruskalAlgorithm</ProjectName>
+  <ProjectDescription>Kruskal’s Algorithm: Constructs a minimum spanning tree by adding the next lightest edge that does not form a cycle until the tree spans all vertices.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Kruskal’s Algorithm: Constructs a minimum spanning tree by adding the next lightest edge that does not form a cycle until the tree spans all vertices.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\KruskalAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>KruskalAlgorithm</ProjectFolderName>
+  <ProjectName>KruskalAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:13:33 PM
+KruskalAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:14:27 PM
+KruskalAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KruskalAlgorithm -> D:\Code2025\RavenWork\KruskalAlgorithm\KruskalAlgorithm\bin\Debug\net9.0\KruskalAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.89
+]]></string>
+    <string>WritePatch: Code is Complete.
+KruskalAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:14:47 PM
+KruskalAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:15:57 PM
+KruskalAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\KruskalAlgorithm\KruskalAlgorithmTest\KruskalAlgorithmTest.csproj (in 459 ms).
+  1 of 2 projects are up-to-date for restore.
+  KruskalAlgorithm -> D:\Code2025\RavenWork\KruskalAlgorithm\KruskalAlgorithm\bin\Debug\net9.0\KruskalAlgorithm.dll
+  KruskalAlgorithmTest -> D:\Code2025\RavenWork\KruskalAlgorithm\KruskalAlgorithmTest\bin\Debug\net9.0\KruskalAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.13
+]]></string>
+    <string>WritePatch: Code is Complete.
+KruskalAlgorithmTest</string>
+    <string>[INFO 2025-02-23 8:16:27 PM] Starting test for project: D:\Code2025\RavenWork\KruskalAlgorithm\KruskalAlgorithmTest\KruskalAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:16:27 PM] Starting test for project: D:\Code2025\RavenWork\KruskalAlgorithm\KruskalAlgorithmTest\KruskalAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:16:27 PM] Starting test for project: D:\Code2025\RavenWork\KruskalAlgorithm\KruskalAlgorithmTest\KruskalAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:16:27 PM] Starting test for project: D:\Code2025\RavenWork\KruskalAlgorithm\KruskalAlgorithmTest\KruskalAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:16:27 PM] Starting test for project: D:\Code2025\RavenWork\KruskalAlgorithm\KruskalAlgorithmTest\KruskalAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:16:27 PM] Starting test for project: D:\Code2025\RavenWork\KruskalAlgorithm\KruskalAlgorithmTest\KruskalAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:16:27 PM] Starting test for project: D:\Code2025\RavenWork\KruskalAlgorithm\KruskalAlgorithmTest\KruskalAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:16:27 PM] Starting test for project: D:\Code2025\RavenWork\KruskalAlgorithm\KruskalAlgorithmTest\KruskalAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:16:27 PM] Starting test for project: D:\Code2025\RavenWork\KruskalAlgorithm\KruskalAlgorithmTest\KruskalAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:16:27 PM] Starting test for project: D:\Code2025\RavenWork\KruskalAlgorithm\KruskalAlgorithmTest\KruskalAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:16:27 PM] Starting test for project: D:\Code2025\RavenWork\KruskalAlgorithm\KruskalAlgorithmTest\KruskalAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:16:27 PM] Starting test for project: D:\Code2025\RavenWork\KruskalAlgorithm\KruskalAlgorithmTest\KruskalAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:16:27 PM] Starting test for project: D:\Code2025\RavenWork\KruskalAlgorithm\KruskalAlgorithmTest\KruskalAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 8:16:34 PM] All tests passed successfully.
+[INFO 2025-02-23 8:16:34 PM] Test process completed. Duration: 6.38 seconds.
+[INFO 2025-02-23 8:16:34 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 8:16:34 PM]   Passed Test_UnionFind [7 ms]
+[OUTPUT 2025-02-23 8:16:33 PM] D:\Code2025\RavenWork\KruskalAlgorithm\KruskalAlgorithmTest\bin\Debug\net9.0\KruskalAlgorithmTest.dll
+[OUTPUT 2025-02-23 8:16:32 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 8:16:32 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:16:30 PM]   KruskalAlgorithm -> D:\Code2025\RavenWork\KruskalAlgorithm\KruskalAlgorithm\bin\Debug\net9.0\KruskalAlgorithm.dll
+[OUTPUT 2025-02-23 8:16:29 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 8:16:33 PM] Test Parallelization enabled for D:\Code2025\RavenWork\KruskalAlgorithm\KruskalAlgorithmTest\bin\Debug\net9.0\KruskalAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 8:16:31 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:16:31 PM] Test run for D:\Code2025\RavenWork\KruskalAlgorithm\KruskalAlgorithmTest\bin\Debug\net9.0\KruskalAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:16:30 PM]   KruskalAlgorithmTest -> D:\Code2025\RavenWork\KruskalAlgorithm\KruskalAlgorithmTest\bin\Debug\net9.0\KruskalAlgorithmTest.dll
+[OUTPUT 2025-02-23 8:16:29 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 8:16:27 PM] Command: dotnet test "D:\Code2025\RavenWork\KruskalAlgorithm\KruskalAlgorithmTest\KruskalAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:16:27 PM] Starting test for project: D:\Code2025\RavenWork\KruskalAlgorithm\KruskalAlgorithmTest\KruskalAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 8:13:33 PM
+KruskalAlgorithm
+
+WritePatch ran compiler. 2025-02-23 8:14:27 PM
+KruskalAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KruskalAlgorithm -> D:\Code2025\RavenWork\KruskalAlgorithm\KruskalAlgorithm\bin\Debug\net9.0\KruskalAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.89
+
+
+WritePatch: Code is Complete.
+KruskalAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 8:14:47 PM
+KruskalAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 8:15:57 PM
+KruskalAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\KruskalAlgorithm\KruskalAlgorithmTest\KruskalAlgorithmTest.csproj (in 459 ms).
+  1 of 2 projects are up-to-date for restore.
+  KruskalAlgorithm -> D:\Code2025\RavenWork\KruskalAlgorithm\KruskalAlgorithm\bin\Debug\net9.0\KruskalAlgorithm.dll
+  KruskalAlgorithmTest -> D:\Code2025\RavenWork\KruskalAlgorithm\KruskalAlgorithmTest\bin\Debug\net9.0\KruskalAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.13
+
+
+WritePatch: Code is Complete.
+KruskalAlgorithmTest
+
+TestResult:
+[SUCCESS 2025-02-23 8:16:34 PM] All tests passed successfully.
+[INFO 2025-02-23 8:16:34 PM] Test process completed. Duration: 6.38 seconds.
+[INFO 2025-02-23 8:16:34 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 8:16:34 PM]   Passed Test_UnionFind [7 ms]
+[OUTPUT 2025-02-23 8:16:33 PM] D:\Code2025\RavenWork\KruskalAlgorithm\KruskalAlgorithmTest\bin\Debug\net9.0\KruskalAlgorithmTest.dll
+[OUTPUT 2025-02-23 8:16:32 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 8:16:32 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:16:30 PM]   KruskalAlgorithm -> D:\Code2025\RavenWork\KruskalAlgorithm\KruskalAlgorithm\bin\Debug\net9.0\KruskalAlgorithm.dll
+[OUTPUT 2025-02-23 8:16:29 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 8:16:33 PM] Test Parallelization enabled for D:\Code2025\RavenWork\KruskalAlgorithm\KruskalAlgorithmTest\bin\Debug\net9.0\KruskalAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 8:16:31 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:16:31 PM] Test run for D:\Code2025\RavenWork\KruskalAlgorithm\KruskalAlgorithmTest\bin\Debug\net9.0\KruskalAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:16:30 PM]   KruskalAlgorithmTest -> D:\Code2025\RavenWork\KruskalAlgorithm\KruskalAlgorithmTest\bin\Debug\net9.0\KruskalAlgorithmTest.dll
+[OUTPUT 2025-02-23 8:16:29 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 8:16:27 PM] Command: dotnet test "D:\Code2025\RavenWork\KruskalAlgorithm\KruskalAlgorithmTest\KruskalAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:16:27 PM] Starting test for project: D:\Code2025\RavenWork\KruskalAlgorithm\KruskalAlgorithmTest\KruskalAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
