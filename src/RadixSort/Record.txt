@@ -1,0 +1,385 @@
+<ActRecord>
+  <ProjectName>RadixSort</ProjectName>
+  <ProjectDescription>Radix sort: sorts strings letter by letter</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Radix sort: sorts strings letter by letter</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\RadixSort</SolutionFolderPath>
+  <ProjectFolderName>RadixSort</ProjectFolderName>
+  <ProjectName>RadixSort</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:05:12 PM
+RadixSort</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:06:16 PM
+RadixSort</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RadixSort -> D:\Code2025\RavenWork\RadixSort\RadixSort\bin\Debug\net9.0\RadixSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.96
+]]></string>
+    <string>WritePatch: Code is Complete.
+RadixSort</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:07:04 PM
+RadixSortTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:07:35 PM
+RadixSortTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj (in 259 ms).
+  1 of 2 projects are up-to-date for restore.
+  RadixSort -> D:\Code2025\RavenWork\RadixSort\RadixSort\bin\Debug\net9.0\RadixSort.dll
+D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTests.cs(13,30): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj]
+D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTests.cs(14,54): warning CS8604: Possible null reference argument for parameter 'input' in 'string[] StringRadixSorter.Sort(string[] input)'. [D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj]
+D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTests.cs(53,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj]
+  RadixSortTest -> D:\Code2025\RavenWork\RadixSort\RadixSortTest\bin\Debug\net9.0\RadixSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTests.cs(13,30): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj]
+D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTests.cs(14,54): warning CS8604: Possible null reference argument for parameter 'input' in 'string[] StringRadixSorter.Sort(string[] input)'. [D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj]
+D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTests.cs(53,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.75
+]]></string>
+    <string>WritePatch: Compile failed.
+RadixSortTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:07:39 PM
+RadixSortTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:07:39 PM
+RadixSortTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:08:58 PM
+RadixSortTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RadixSort -> D:\Code2025\RavenWork\RadixSort\RadixSort\bin\Debug\net9.0\RadixSort.dll
+D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTests.cs(14,54): warning CS8604: Possible null reference argument for parameter 'input' in 'string[] StringRadixSorter.Sort(string[] input)'. [D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj]
+D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTests.cs(14,54): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] StringRadixSorter.Sort(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj]
+D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTests.cs(63,54): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] StringRadixSorter.Sort(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj]
+D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTests.cs(81,54): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] StringRadixSorter.Sort(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj]
+D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTests.cs(104,54): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] StringRadixSorter.Sort(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj]
+  RadixSortTest -> D:\Code2025\RavenWork\RadixSort\RadixSortTest\bin\Debug\net9.0\RadixSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTests.cs(14,54): warning CS8604: Possible null reference argument for parameter 'input' in 'string[] StringRadixSorter.Sort(string[] input)'. [D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj]
+D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTests.cs(14,54): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] StringRadixSorter.Sort(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj]
+D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTests.cs(63,54): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] StringRadixSorter.Sort(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj]
+D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTests.cs(81,54): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] StringRadixSorter.Sort(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj]
+D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTests.cs(104,54): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] StringRadixSorter.Sort(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj]
+    5 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.30
+]]></string>
+    <string>WritePatch: Compile failed.
+RadixSortTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:09:00 PM
+RadixSortTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:09:01 PM
+RadixSortTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:09:41 PM
+RadixSortTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RadixSort -> D:\Code2025\RavenWork\RadixSort\RadixSort\bin\Debug\net9.0\RadixSort.dll
+  RadixSortTest -> D:\Code2025\RavenWork\RadixSort\RadixSortTest\bin\Debug\net9.0\RadixSortTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+]]></string>
+    <string>WritePatch: Code is not Complete.
+RadixSortTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:10:07 PM
+RadixSortTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\RadixSort\RadixSortTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RadixSort -> D:\Code2025\RavenWork\RadixSort\RadixSort\bin\Debug\net9.0\RadixSort.dll
+  RadixSortTest -> D:\Code2025\RavenWork\RadixSort\RadixSortTest\bin\Debug\net9.0\RadixSortTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+
+</CompilerResponse>
+2025-02-23 1:10:07 PM
+RadixSortTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 1:10:09 PM
+RadixSort</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RadixSort -> D:\Code2025\RavenWork\RadixSort\RadixSort\bin\Debug\net9.0\RadixSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.90
+]]></string>
+    <string>WritePatch: Code is Complete.
+RadixSort</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:10:38 PM
+RadixSortTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RadixSort -> D:\Code2025\RavenWork\RadixSort\RadixSort\bin\Debug\net9.0\RadixSort.dll
+  RadixSortTest -> D:\Code2025\RavenWork\RadixSort\RadixSortTest\bin\Debug\net9.0\RadixSortTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.07
+]]></string>
+    <string>WritePatch: Code is Complete.
+RadixSortTest</string>
+    <string>[INFO 2025-02-23 1:11:05 PM] Starting test for project: D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj</string>
+    <string>[INFO 2025-02-23 1:11:05 PM] Starting test for project: D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj</string>
+    <string>[INFO 2025-02-23 1:11:05 PM] Starting test for project: D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj</string>
+    <string>[INFO 2025-02-23 1:11:05 PM] Starting test for project: D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj</string>
+    <string>[INFO 2025-02-23 1:11:05 PM] Starting test for project: D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 1:11:11 PM]   RadixSort -> D:\Code2025\RavenWork\RadixSort\RadixSort\bin\Debug\net9.0\RadixSort.dll
+[OUTPUT 2025-02-23 1:11:09 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:11:07 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 1:11:10 PM] All tests passed successfully.
+[INFO 2025-02-23 1:11:10 PM] Test process completed. Duration: 4.67 seconds.
+[INFO 2025-02-23 1:11:10 PM] Process exited with code 0.
+[INFO 2025-02-23 1:11:05 PM] Command: dotnet test "D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:11:05 PM] Starting test for project: D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 1:05:12 PM
+RadixSort
+
+WritePatch ran compiler. 2025-02-23 1:06:16 PM
+RadixSort
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RadixSort -> D:\Code2025\RavenWork\RadixSort\RadixSort\bin\Debug\net9.0\RadixSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.96
+
+
+WritePatch: Code is Complete.
+RadixSort
+
+WritePatch Started CycleStep. 2025-02-23 1:07:04 PM
+RadixSortTest
+
+WritePatch ran compiler. 2025-02-23 1:07:35 PM
+RadixSortTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj (in 259 ms).
+  1 of 2 projects are up-to-date for restore.
+  RadixSort -> D:\Code2025\RavenWork\RadixSort\RadixSort\bin\Debug\net9.0\RadixSort.dll
+D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTests.cs(13,30): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj]
+D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTests.cs(14,54): warning CS8604: Possible null reference argument for parameter 'input' in 'string[] StringRadixSorter.Sort(string[] input)'. [D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj]
+D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTests.cs(53,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj]
+  RadixSortTest -> D:\Code2025\RavenWork\RadixSort\RadixSortTest\bin\Debug\net9.0\RadixSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTests.cs(13,30): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj]
+D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTests.cs(14,54): warning CS8604: Possible null reference argument for parameter 'input' in 'string[] StringRadixSorter.Sort(string[] input)'. [D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj]
+D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTests.cs(53,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.75
+
+
+WritePatch: Compile failed.
+RadixSortTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:07:39 PM
+RadixSortTest
+
+WritePatch Started CycleStep. 2025-02-23 1:07:39 PM
+RadixSortTest
+
+WritePatch ran compiler. 2025-02-23 1:08:58 PM
+RadixSortTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RadixSort -> D:\Code2025\RavenWork\RadixSort\RadixSort\bin\Debug\net9.0\RadixSort.dll
+D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTests.cs(14,54): warning CS8604: Possible null reference argument for parameter 'input' in 'string[] StringRadixSorter.Sort(string[] input)'. [D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj]
+D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTests.cs(14,54): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] StringRadixSorter.Sort(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj]
+D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTests.cs(63,54): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] StringRadixSorter.Sort(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj]
+D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTests.cs(81,54): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] StringRadixSorter.Sort(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj]
+D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTests.cs(104,54): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] StringRadixSorter.Sort(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj]
+  RadixSortTest -> D:\Code2025\RavenWork\RadixSort\RadixSortTest\bin\Debug\net9.0\RadixSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTests.cs(14,54): warning CS8604: Possible null reference argument for parameter 'input' in 'string[] StringRadixSorter.Sort(string[] input)'. [D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj]
+D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTests.cs(14,54): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] StringRadixSorter.Sort(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj]
+D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTests.cs(63,54): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] StringRadixSorter.Sort(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj]
+D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTests.cs(81,54): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] StringRadixSorter.Sort(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj]
+D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTests.cs(104,54): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] StringRadixSorter.Sort(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj]
+    5 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.30
+
+
+WritePatch: Compile failed.
+RadixSortTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:09:00 PM
+RadixSortTest
+
+WritePatch Started CycleStep. 2025-02-23 1:09:01 PM
+RadixSortTest
+
+WritePatch ran compiler. 2025-02-23 1:09:41 PM
+RadixSortTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RadixSort -> D:\Code2025\RavenWork\RadixSort\RadixSort\bin\Debug\net9.0\RadixSort.dll
+  RadixSortTest -> D:\Code2025\RavenWork\RadixSort\RadixSortTest\bin\Debug\net9.0\RadixSortTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+
+
+WritePatch: Code is not Complete.
+RadixSortTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:10:07 PM
+RadixSortTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\RadixSort\RadixSortTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RadixSort -> D:\Code2025\RavenWork\RadixSort\RadixSort\bin\Debug\net9.0\RadixSort.dll
+  RadixSortTest -> D:\Code2025\RavenWork\RadixSort\RadixSortTest\bin\Debug\net9.0\RadixSortTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+
+</CompilerResponse>
+2025-02-23 1:10:07 PM
+RadixSortTest
+
+WritePatch ran compiler. 2025-02-23 1:10:09 PM
+RadixSort
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RadixSort -> D:\Code2025\RavenWork\RadixSort\RadixSort\bin\Debug\net9.0\RadixSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.90
+
+
+WritePatch: Code is Complete.
+RadixSort
+
+WritePatch ran compiler. 2025-02-23 1:10:38 PM
+RadixSortTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RadixSort -> D:\Code2025\RavenWork\RadixSort\RadixSort\bin\Debug\net9.0\RadixSort.dll
+  RadixSortTest -> D:\Code2025\RavenWork\RadixSort\RadixSortTest\bin\Debug\net9.0\RadixSortTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.07
+
+
+WritePatch: Code is Complete.
+RadixSortTest
+
+TestResult:
+[OUTPUT 2025-02-23 1:11:11 PM]   RadixSort -> D:\Code2025\RavenWork\RadixSort\RadixSort\bin\Debug\net9.0\RadixSort.dll
+[OUTPUT 2025-02-23 1:11:09 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:11:07 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 1:11:10 PM] All tests passed successfully.
+[INFO 2025-02-23 1:11:10 PM] Test process completed. Duration: 4.67 seconds.
+[INFO 2025-02-23 1:11:10 PM] Process exited with code 0.
+[INFO 2025-02-23 1:11:05 PM] Command: dotnet test "D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:11:05 PM] Starting test for project: D:\Code2025\RavenWork\RadixSort\RadixSortTest\RadixSortTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
