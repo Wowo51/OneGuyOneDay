@@ -1,0 +1,353 @@
+<ActRecord>
+  <ProjectName>GaussJordanElimination</ProjectName>
+  <ProjectDescription>Gauss–Jordan elimination – An extension of Gaussian elimination that reduces a matrix to reduced row echelon form.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Gauss–Jordan elimination – An extension of Gaussian elimination that reduces a matrix to reduced row echelon form.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\GaussJordanElimination</SolutionFolderPath>
+  <ProjectFolderName>GaussJordanElimination</ProjectFolderName>
+  <ProjectName>GaussJordanElimination</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:41:59 AM
+GaussJordanElimination</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:42:59 AM
+GaussJordanElimination</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GaussJordanElimination -> D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanElimination\bin\Debug\net9.0\GaussJordanElimination.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+]]></string>
+    <string>WritePatch: Code is Complete.
+GaussJordanElimination</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:43:51 AM
+GaussJordanEliminationTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:44:40 AM
+GaussJordanEliminationTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanEliminationTest.csproj (in 204 ms).
+  1 of 2 projects are up-to-date for restore.
+  GaussJordanElimination -> D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanElimination\bin\Debug\net9.0\GaussJordanElimination.dll
+D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanSolverTests.cs(69,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanEliminationTest.csproj]
+D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanSolverTests.cs(70,64): warning CS8604: Possible null reference argument for parameter 'matrix' in 'double[,] GaussJordanSolver.ReduceToRREF(double[,] matrix)'. [D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanEliminationTest.csproj]
+  GaussJordanEliminationTest -> D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\bin\Debug\net9.0\GaussJordanEliminationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanSolverTests.cs(69,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanEliminationTest.csproj]
+D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanSolverTests.cs(70,64): warning CS8604: Possible null reference argument for parameter 'matrix' in 'double[,] GaussJordanSolver.ReduceToRREF(double[,] matrix)'. [D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanEliminationTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.50
+]]></string>
+    <string>WritePatch: Compile failed.
+GaussJordanEliminationTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:44:40 AM
+GaussJordanEliminationTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:44:41 AM
+GaussJordanEliminationTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 10:45:35 AM
+GaussJordanEliminationTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:45:35 AM
+GaussJordanEliminationTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:46:35 AM
+GaussJordanEliminationTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GaussJordanElimination -> D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanElimination\bin\Debug\net9.0\GaussJordanElimination.dll
+D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanSolverTests.cs(70,64): warning CS8604: Possible null reference argument for parameter 'matrix' in 'double[,] GaussJordanSolver.ReduceToRREF(double[,] matrix)'. [D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanEliminationTest.csproj]
+  GaussJordanEliminationTest -> D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\bin\Debug\net9.0\GaussJordanEliminationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanSolverTests.cs(70,64): warning CS8604: Possible null reference argument for parameter 'matrix' in 'double[,] GaussJordanSolver.ReduceToRREF(double[,] matrix)'. [D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanEliminationTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+]]></string>
+    <string>WritePatch: Compile failed.
+GaussJordanEliminationTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:46:35 AM
+GaussJordanEliminationTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GaussJordanElimination -> D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanElimination\bin\Debug\net9.0\GaussJordanElimination.dll
+D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanSolverTests.cs(70,64): warning CS8604: Possible null reference argument for parameter 'matrix' in 'double[,] GaussJordanSolver.ReduceToRREF(double[,] matrix)'. [D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanEliminationTest.csproj]
+  GaussJordanEliminationTest -> D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\bin\Debug\net9.0\GaussJordanEliminationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanSolverTests.cs(70,64): warning CS8604: Possible null reference argument for parameter 'matrix' in 'double[,] GaussJordanSolver.ReduceToRREF(double[,] matrix)'. [D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanEliminationTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+
+</CompilerResponse>
+2025-02-23 10:46:36 AM
+GaussJordanEliminationTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 10:46:37 AM
+GaussJordanElimination</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GaussJordanElimination -> D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanElimination\bin\Debug\net9.0\GaussJordanElimination.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.84
+]]></string>
+    <string>WritePatch: Code is Complete.
+GaussJordanElimination</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:46:46 AM
+GaussJordanEliminationTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GaussJordanElimination -> D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanElimination\bin\Debug\net9.0\GaussJordanElimination.dll
+  GaussJordanEliminationTest -> D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\bin\Debug\net9.0\GaussJordanEliminationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.96
+]]></string>
+    <string>WritePatch: Code is Complete.
+GaussJordanEliminationTest</string>
+    <string>[INFO 2025-02-23 10:47:05 AM] Starting test for project: D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanEliminationTest.csproj</string>
+    <string>[INFO 2025-02-23 10:47:05 AM] Starting test for project: D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanEliminationTest.csproj</string>
+    <string>[INFO 2025-02-23 10:47:05 AM] Starting test for project: D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanEliminationTest.csproj</string>
+    <string>[INFO 2025-02-23 10:47:05 AM] Starting test for project: D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanEliminationTest.csproj</string>
+    <string>[INFO 2025-02-23 10:47:05 AM] Starting test for project: D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanEliminationTest.csproj</string>
+    <string>[INFO 2025-02-23 10:47:05 AM] Starting test for project: D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanEliminationTest.csproj</string>
+    <string>[INFO 2025-02-23 10:47:05 AM] Starting test for project: D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanEliminationTest.csproj</string>
+    <string>[INFO 2025-02-23 10:47:05 AM] Starting test for project: D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanEliminationTest.csproj</string>
+    <string>[INFO 2025-02-23 10:47:05 AM] Starting test for project: D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanEliminationTest.csproj</string>
+    <string>[INFO 2025-02-23 10:47:05 AM] Starting test for project: D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanEliminationTest.csproj</string>
+    <string>[INFO 2025-02-23 10:47:05 AM] Starting test for project: D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanEliminationTest.csproj</string>
+    <string>[INFO 2025-02-23 10:47:05 AM] Starting test for project: D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanEliminationTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 10:47:09 AM] Test Parallelization enabled for D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\bin\Debug\net9.0\GaussJordanEliminationTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:47:09 AM] D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\bin\Debug\net9.0\GaussJordanEliminationTest.dll
+[OUTPUT 2025-02-23 10:47:08 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:47:08 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:47:08 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:47:08 AM] Test run for D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\bin\Debug\net9.0\GaussJordanEliminationTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:47:07 AM]   GaussJordanEliminationTest -> D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\bin\Debug\net9.0\GaussJordanEliminationTest.dll
+[OUTPUT 2025-02-23 10:47:07 AM]   GaussJordanElimination -> D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanElimination\bin\Debug\net9.0\GaussJordanElimination.dll
+[OUTPUT 2025-02-23 10:47:07 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:47:06 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 10:47:09 AM] All tests passed successfully.
+[INFO 2025-02-23 10:47:09 AM] Test process completed. Duration: 3.23 seconds.
+[INFO 2025-02-23 10:47:09 AM] Process exited with code 0.
+[INFO 2025-02-23 10:47:05 AM] Command: dotnet test "D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanEliminationTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:47:05 AM] Starting test for project: D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanEliminationTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 10:41:59 AM
+GaussJordanElimination
+
+WritePatch ran compiler. 2025-02-23 10:42:59 AM
+GaussJordanElimination
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GaussJordanElimination -> D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanElimination\bin\Debug\net9.0\GaussJordanElimination.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+
+
+WritePatch: Code is Complete.
+GaussJordanElimination
+
+WritePatch Started CycleStep. 2025-02-23 10:43:51 AM
+GaussJordanEliminationTest
+
+WritePatch ran compiler. 2025-02-23 10:44:40 AM
+GaussJordanEliminationTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanEliminationTest.csproj (in 204 ms).
+  1 of 2 projects are up-to-date for restore.
+  GaussJordanElimination -> D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanElimination\bin\Debug\net9.0\GaussJordanElimination.dll
+D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanSolverTests.cs(69,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanEliminationTest.csproj]
+D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanSolverTests.cs(70,64): warning CS8604: Possible null reference argument for parameter 'matrix' in 'double[,] GaussJordanSolver.ReduceToRREF(double[,] matrix)'. [D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanEliminationTest.csproj]
+  GaussJordanEliminationTest -> D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\bin\Debug\net9.0\GaussJordanEliminationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanSolverTests.cs(69,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanEliminationTest.csproj]
+D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanSolverTests.cs(70,64): warning CS8604: Possible null reference argument for parameter 'matrix' in 'double[,] GaussJordanSolver.ReduceToRREF(double[,] matrix)'. [D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanEliminationTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.50
+
+
+WritePatch: Compile failed.
+GaussJordanEliminationTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:44:40 AM
+GaussJordanEliminationTest
+
+WritePatch Started CycleStep. 2025-02-23 10:44:41 AM
+GaussJordanEliminationTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 10:45:35 AM
+GaussJordanEliminationTest
+
+WritePatch Started CycleStep. 2025-02-23 10:45:35 AM
+GaussJordanEliminationTest
+
+WritePatch ran compiler. 2025-02-23 10:46:35 AM
+GaussJordanEliminationTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GaussJordanElimination -> D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanElimination\bin\Debug\net9.0\GaussJordanElimination.dll
+D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanSolverTests.cs(70,64): warning CS8604: Possible null reference argument for parameter 'matrix' in 'double[,] GaussJordanSolver.ReduceToRREF(double[,] matrix)'. [D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanEliminationTest.csproj]
+  GaussJordanEliminationTest -> D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\bin\Debug\net9.0\GaussJordanEliminationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanSolverTests.cs(70,64): warning CS8604: Possible null reference argument for parameter 'matrix' in 'double[,] GaussJordanSolver.ReduceToRREF(double[,] matrix)'. [D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanEliminationTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+
+
+WritePatch: Compile failed.
+GaussJordanEliminationTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:46:35 AM
+GaussJordanEliminationTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GaussJordanElimination -> D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanElimination\bin\Debug\net9.0\GaussJordanElimination.dll
+D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanSolverTests.cs(70,64): warning CS8604: Possible null reference argument for parameter 'matrix' in 'double[,] GaussJordanSolver.ReduceToRREF(double[,] matrix)'. [D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanEliminationTest.csproj]
+  GaussJordanEliminationTest -> D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\bin\Debug\net9.0\GaussJordanEliminationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanSolverTests.cs(70,64): warning CS8604: Possible null reference argument for parameter 'matrix' in 'double[,] GaussJordanSolver.ReduceToRREF(double[,] matrix)'. [D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanEliminationTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+
+</CompilerResponse>
+2025-02-23 10:46:36 AM
+GaussJordanEliminationTest
+
+WritePatch ran compiler. 2025-02-23 10:46:37 AM
+GaussJordanElimination
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GaussJordanElimination -> D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanElimination\bin\Debug\net9.0\GaussJordanElimination.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.84
+
+
+WritePatch: Code is Complete.
+GaussJordanElimination
+
+WritePatch ran compiler. 2025-02-23 10:46:46 AM
+GaussJordanEliminationTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GaussJordanElimination -> D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanElimination\bin\Debug\net9.0\GaussJordanElimination.dll
+  GaussJordanEliminationTest -> D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\bin\Debug\net9.0\GaussJordanEliminationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.96
+
+
+WritePatch: Code is Complete.
+GaussJordanEliminationTest
+
+TestResult:
+[OUTPUT 2025-02-23 10:47:09 AM] Test Parallelization enabled for D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\bin\Debug\net9.0\GaussJordanEliminationTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:47:09 AM] D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\bin\Debug\net9.0\GaussJordanEliminationTest.dll
+[OUTPUT 2025-02-23 10:47:08 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:47:08 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:47:08 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:47:08 AM] Test run for D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\bin\Debug\net9.0\GaussJordanEliminationTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:47:07 AM]   GaussJordanEliminationTest -> D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\bin\Debug\net9.0\GaussJordanEliminationTest.dll
+[OUTPUT 2025-02-23 10:47:07 AM]   GaussJordanElimination -> D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanElimination\bin\Debug\net9.0\GaussJordanElimination.dll
+[OUTPUT 2025-02-23 10:47:07 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:47:06 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 10:47:09 AM] All tests passed successfully.
+[INFO 2025-02-23 10:47:09 AM] Test process completed. Duration: 3.23 seconds.
+[INFO 2025-02-23 10:47:09 AM] Process exited with code 0.
+[INFO 2025-02-23 10:47:05 AM] Command: dotnet test "D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanEliminationTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:47:05 AM] Starting test for project: D:\Code2025\RavenWork\GaussJordanElimination\GaussJordanEliminationTest\GaussJordanEliminationTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
