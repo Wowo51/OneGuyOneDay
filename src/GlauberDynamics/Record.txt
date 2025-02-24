@@ -1,0 +1,153 @@
+<ActRecord>
+  <ProjectName>GlauberDynamics</ProjectName>
+  <ProjectDescription>Glauber dynamics: A method for simulating the Ising model on a computer</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Glauber dynamics: A method for simulating the Ising model on a computer</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\GlauberDynamics</SolutionFolderPath>
+  <ProjectFolderName>GlauberDynamics</ProjectFolderName>
+  <ProjectName>GlauberDynamics</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:03:45 PM
+GlauberDynamics</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:04:23 PM
+GlauberDynamics</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GlauberDynamics -> D:\Code2025\RavenWork\GlauberDynamics\GlauberDynamics\bin\Debug\net9.0\GlauberDynamics.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+]]></string>
+    <string>WritePatch: Code is Complete.
+GlauberDynamics</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:05:08 PM
+GlauberDynamicsTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:05:57 PM
+GlauberDynamicsTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\GlauberDynamics\GlauberDynamicsTest\GlauberDynamicsTest.csproj (in 240 ms).
+  1 of 2 projects are up-to-date for restore.
+  GlauberDynamics -> D:\Code2025\RavenWork\GlauberDynamics\GlauberDynamics\bin\Debug\net9.0\GlauberDynamics.dll
+  GlauberDynamicsTest -> D:\Code2025\RavenWork\GlauberDynamics\GlauberDynamicsTest\bin\Debug\net9.0\GlauberDynamicsTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.62
+]]></string>
+    <string>WritePatch: Code is Complete.
+GlauberDynamicsTest</string>
+    <string>[INFO 2025-02-23 12:06:29 PM] Starting test for project: D:\Code2025\RavenWork\GlauberDynamics\GlauberDynamicsTest\GlauberDynamicsTest.csproj</string>
+    <string>[INFO 2025-02-23 12:06:29 PM] Starting test for project: D:\Code2025\RavenWork\GlauberDynamics\GlauberDynamicsTest\GlauberDynamicsTest.csproj</string>
+    <string>[INFO 2025-02-23 12:06:29 PM] Starting test for project: D:\Code2025\RavenWork\GlauberDynamics\GlauberDynamicsTest\GlauberDynamicsTest.csproj</string>
+    <string>[INFO 2025-02-23 12:06:29 PM] Starting test for project: D:\Code2025\RavenWork\GlauberDynamics\GlauberDynamicsTest\GlauberDynamicsTest.csproj</string>
+    <string>[INFO 2025-02-23 12:06:29 PM] Starting test for project: D:\Code2025\RavenWork\GlauberDynamics\GlauberDynamicsTest\GlauberDynamicsTest.csproj</string>
+    <string>[INFO 2025-02-23 12:06:29 PM] Starting test for project: D:\Code2025\RavenWork\GlauberDynamics\GlauberDynamicsTest\GlauberDynamicsTest.csproj</string>
+    <string>[INFO 2025-02-23 12:06:29 PM] Starting test for project: D:\Code2025\RavenWork\GlauberDynamics\GlauberDynamicsTest\GlauberDynamicsTest.csproj</string>
+    <string>[INFO 2025-02-23 12:06:29 PM] Starting test for project: D:\Code2025\RavenWork\GlauberDynamics\GlauberDynamicsTest\GlauberDynamicsTest.csproj</string>
+    <string>[INFO 2025-02-23 12:06:29 PM] Starting test for project: D:\Code2025\RavenWork\GlauberDynamics\GlauberDynamicsTest\GlauberDynamicsTest.csproj</string>
+    <string>[INFO 2025-02-23 12:06:29 PM] Starting test for project: D:\Code2025\RavenWork\GlauberDynamics\GlauberDynamicsTest\GlauberDynamicsTest.csproj</string>
+    <string>[INFO 2025-02-23 12:06:29 PM] Starting test for project: D:\Code2025\RavenWork\GlauberDynamics\GlauberDynamicsTest\GlauberDynamicsTest.csproj</string>
+    <string>[INFO 2025-02-23 12:06:29 PM] Starting test for project: D:\Code2025\RavenWork\GlauberDynamics\GlauberDynamicsTest\GlauberDynamicsTest.csproj</string>
+    <string>[INFO 2025-02-23 12:06:29 PM] Starting test for project: D:\Code2025\RavenWork\GlauberDynamics\GlauberDynamicsTest\GlauberDynamicsTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 12:06:32 PM]   Passed TestSimulatorStep [5 ms]
+[OUTPUT 2025-02-23 12:06:32 PM] Test Parallelization enabled for D:\Code2025\RavenWork\GlauberDynamics\GlauberDynamicsTest\bin\Debug\net9.0\GlauberDynamicsTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 12:06:32 PM] D:\Code2025\RavenWork\GlauberDynamics\GlauberDynamicsTest\bin\Debug\net9.0\GlauberDynamicsTest.dll
+[OUTPUT 2025-02-23 12:06:31 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 12:06:31 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 12:06:31 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 12:06:31 PM] Test run for D:\Code2025\RavenWork\GlauberDynamics\GlauberDynamicsTest\bin\Debug\net9.0\GlauberDynamicsTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 12:06:30 PM]   GlauberDynamicsTest -> D:\Code2025\RavenWork\GlauberDynamics\GlauberDynamicsTest\bin\Debug\net9.0\GlauberDynamicsTest.dll
+[OUTPUT 2025-02-23 12:06:30 PM]   GlauberDynamics -> D:\Code2025\RavenWork\GlauberDynamics\GlauberDynamics\bin\Debug\net9.0\GlauberDynamics.dll
+[OUTPUT 2025-02-23 12:06:30 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 12:06:29 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 12:06:32 PM] All tests passed successfully.
+[INFO 2025-02-23 12:06:32 PM] Test process completed. Duration: 3.44 seconds.
+[INFO 2025-02-23 12:06:32 PM] Process exited with code 0.
+[INFO 2025-02-23 12:06:29 PM] Command: dotnet test "D:\Code2025\RavenWork\GlauberDynamics\GlauberDynamicsTest\GlauberDynamicsTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 12:06:29 PM] Starting test for project: D:\Code2025\RavenWork\GlauberDynamics\GlauberDynamicsTest\GlauberDynamicsTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 12:03:45 PM
+GlauberDynamics
+
+WritePatch ran compiler. 2025-02-23 12:04:23 PM
+GlauberDynamics
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GlauberDynamics -> D:\Code2025\RavenWork\GlauberDynamics\GlauberDynamics\bin\Debug\net9.0\GlauberDynamics.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+
+
+WritePatch: Code is Complete.
+GlauberDynamics
+
+WritePatch Started CycleStep. 2025-02-23 12:05:08 PM
+GlauberDynamicsTest
+
+WritePatch ran compiler. 2025-02-23 12:05:57 PM
+GlauberDynamicsTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\GlauberDynamics\GlauberDynamicsTest\GlauberDynamicsTest.csproj (in 240 ms).
+  1 of 2 projects are up-to-date for restore.
+  GlauberDynamics -> D:\Code2025\RavenWork\GlauberDynamics\GlauberDynamics\bin\Debug\net9.0\GlauberDynamics.dll
+  GlauberDynamicsTest -> D:\Code2025\RavenWork\GlauberDynamics\GlauberDynamicsTest\bin\Debug\net9.0\GlauberDynamicsTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.62
+
+
+WritePatch: Code is Complete.
+GlauberDynamicsTest
+
+TestResult:
+[OUTPUT 2025-02-23 12:06:32 PM]   Passed TestSimulatorStep [5 ms]
+[OUTPUT 2025-02-23 12:06:32 PM] Test Parallelization enabled for D:\Code2025\RavenWork\GlauberDynamics\GlauberDynamicsTest\bin\Debug\net9.0\GlauberDynamicsTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 12:06:32 PM] D:\Code2025\RavenWork\GlauberDynamics\GlauberDynamicsTest\bin\Debug\net9.0\GlauberDynamicsTest.dll
+[OUTPUT 2025-02-23 12:06:31 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 12:06:31 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 12:06:31 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 12:06:31 PM] Test run for D:\Code2025\RavenWork\GlauberDynamics\GlauberDynamicsTest\bin\Debug\net9.0\GlauberDynamicsTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 12:06:30 PM]   GlauberDynamicsTest -> D:\Code2025\RavenWork\GlauberDynamics\GlauberDynamicsTest\bin\Debug\net9.0\GlauberDynamicsTest.dll
+[OUTPUT 2025-02-23 12:06:30 PM]   GlauberDynamics -> D:\Code2025\RavenWork\GlauberDynamics\GlauberDynamics\bin\Debug\net9.0\GlauberDynamics.dll
+[OUTPUT 2025-02-23 12:06:30 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 12:06:29 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 12:06:32 PM] All tests passed successfully.
+[INFO 2025-02-23 12:06:32 PM] Test process completed. Duration: 3.44 seconds.
+[INFO 2025-02-23 12:06:32 PM] Process exited with code 0.
+[INFO 2025-02-23 12:06:29 PM] Command: dotnet test "D:\Code2025\RavenWork\GlauberDynamics\GlauberDynamicsTest\GlauberDynamicsTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 12:06:29 PM] Starting test for project: D:\Code2025\RavenWork\GlauberDynamics\GlauberDynamicsTest\GlauberDynamicsTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
