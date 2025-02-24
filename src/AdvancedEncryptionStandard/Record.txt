@@ -1,0 +1,394 @@
+<ActRecord>
+  <ProjectName>AdvancedEncryptionStandard</ProjectName>
+  <ProjectDescription>Advanced Encryption Standard (AES) (Rijndael)</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Advanced Encryption Standard (AES) (Rijndael)</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\AdvancedEncryptionStandard</SolutionFolderPath>
+  <ProjectFolderName>AdvancedEncryptionStandard</ProjectFolderName>
+  <ProjectName>AdvancedEncryptionStandard</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:16:28 AM
+AdvancedEncryptionStandard</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:18:31 AM
+AdvancedEncryptionStandard</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AdvancedEncryptionStandard -> D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandard\bin\Debug\net9.0\AdvancedEncryptionStandard.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.56
+]]></string>
+    <string>WritePatch: Code is Complete.
+AdvancedEncryptionStandard</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:18:51 AM
+AdvancedEncryptionStandardTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:19:53 AM
+AdvancedEncryptionStandardTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj (in 259 ms).
+  1 of 2 projects are up-to-date for restore.
+  AdvancedEncryptionStandard -> D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandard\bin\Debug\net9.0\AdvancedEncryptionStandard.dll
+D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AesEncryptionProviderTests.cs(45,46): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AesEncryptionProviderTests.cs(56,46): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj]
+  AdvancedEncryptionStandardTest -> D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\bin\Debug\net9.0\AdvancedEncryptionStandardTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AesEncryptionProviderTests.cs(45,46): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AesEncryptionProviderTests.cs(56,46): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.07
+]]></string>
+    <string>WritePatch: Compile failed.
+AdvancedEncryptionStandardTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:19:54 AM
+AdvancedEncryptionStandardTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:19:54 AM
+AdvancedEncryptionStandardTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:20:21 AM
+AdvancedEncryptionStandardTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AdvancedEncryptionStandard -> D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandard\bin\Debug\net9.0\AdvancedEncryptionStandard.dll
+  AdvancedEncryptionStandardTest -> D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\bin\Debug\net9.0\AdvancedEncryptionStandardTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.27
+]]></string>
+    <string>WritePatch: Code is not Complete.
+AdvancedEncryptionStandardTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:20:51 AM
+AdvancedEncryptionStandardTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:20:52 AM
+AdvancedEncryptionStandardTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:21:35 AM
+AdvancedEncryptionStandardTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AdvancedEncryptionStandard -> D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandard\bin\Debug\net9.0\AdvancedEncryptionStandard.dll
+D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AesEncryptionProviderTests.cs(46,46): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AesEncryptionProviderTests.cs(57,46): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj]
+  AdvancedEncryptionStandardTest -> D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\bin\Debug\net9.0\AdvancedEncryptionStandardTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AesEncryptionProviderTests.cs(46,46): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AesEncryptionProviderTests.cs(57,46): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.37
+]]></string>
+    <string>WritePatch: Compile failed.
+AdvancedEncryptionStandardTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:21:36 AM
+AdvancedEncryptionStandardTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AdvancedEncryptionStandard -> D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandard\bin\Debug\net9.0\AdvancedEncryptionStandard.dll
+D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AesEncryptionProviderTests.cs(46,46): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AesEncryptionProviderTests.cs(57,46): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj]
+  AdvancedEncryptionStandardTest -> D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\bin\Debug\net9.0\AdvancedEncryptionStandardTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AesEncryptionProviderTests.cs(46,46): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AesEncryptionProviderTests.cs(57,46): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.37
+
+</CompilerResponse>
+2025-02-23 9:21:36 AM
+AdvancedEncryptionStandardTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 9:21:38 AM
+AdvancedEncryptionStandard</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AdvancedEncryptionStandard -> D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandard\bin\Debug\net9.0\AdvancedEncryptionStandard.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.84
+]]></string>
+    <string>WritePatch: Code is Complete.
+AdvancedEncryptionStandard</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:21:54 AM
+AdvancedEncryptionStandardTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AdvancedEncryptionStandard -> D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandard\bin\Debug\net9.0\AdvancedEncryptionStandard.dll
+  AdvancedEncryptionStandardTest -> D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\bin\Debug\net9.0\AdvancedEncryptionStandardTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.28
+]]></string>
+    <string>WritePatch: Code is Complete.
+AdvancedEncryptionStandardTest</string>
+    <string>[INFO 2025-02-23 9:22:14 AM] Starting test for project: D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj</string>
+    <string>[INFO 2025-02-23 9:22:14 AM] Starting test for project: D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj</string>
+    <string>[INFO 2025-02-23 9:22:14 AM] Starting test for project: D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj</string>
+    <string>[INFO 2025-02-23 9:22:14 AM] Starting test for project: D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj</string>
+    <string>[INFO 2025-02-23 9:22:14 AM] Starting test for project: D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj</string>
+    <string>[INFO 2025-02-23 9:22:14 AM] Starting test for project: D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj</string>
+    <string>[INFO 2025-02-23 9:22:14 AM] Starting test for project: D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj</string>
+    <string>[INFO 2025-02-23 9:22:14 AM] Starting test for project: D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj</string>
+    <string>[INFO 2025-02-23 9:22:14 AM] Starting test for project: D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj</string>
+    <string>[INFO 2025-02-23 9:22:14 AM] Starting test for project: D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 9:22:16 AM]   AdvancedEncryptionStandard -> D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandard\bin\Debug\net9.0\AdvancedEncryptionStandard.dll
+[OUTPUT 2025-02-23 9:22:20 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 9:22:19 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 9:22:19 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 9:22:18 AM] Test run for D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\bin\Debug\net9.0\AdvancedEncryptionStandardTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 9:22:17 AM]   AdvancedEncryptionStandardTest -> D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\bin\Debug\net9.0\AdvancedEncryptionStandardTest.dll
+[OUTPUT 2025-02-23 9:22:15 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 9:22:15 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 9:22:19 AM] All tests passed successfully.
+[INFO 2025-02-23 9:22:19 AM] Test process completed. Duration: 5.66 seconds.
+[INFO 2025-02-23 9:22:19 AM] Process exited with code 0.
+[INFO 2025-02-23 9:22:14 AM] Command: dotnet test "D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 9:22:14 AM] Starting test for project: D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 9:16:28 AM
+AdvancedEncryptionStandard
+
+WritePatch ran compiler. 2025-02-23 9:18:31 AM
+AdvancedEncryptionStandard
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AdvancedEncryptionStandard -> D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandard\bin\Debug\net9.0\AdvancedEncryptionStandard.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.56
+
+
+WritePatch: Code is Complete.
+AdvancedEncryptionStandard
+
+WritePatch Started CycleStep. 2025-02-23 9:18:51 AM
+AdvancedEncryptionStandardTest
+
+WritePatch ran compiler. 2025-02-23 9:19:53 AM
+AdvancedEncryptionStandardTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj (in 259 ms).
+  1 of 2 projects are up-to-date for restore.
+  AdvancedEncryptionStandard -> D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandard\bin\Debug\net9.0\AdvancedEncryptionStandard.dll
+D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AesEncryptionProviderTests.cs(45,46): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AesEncryptionProviderTests.cs(56,46): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj]
+  AdvancedEncryptionStandardTest -> D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\bin\Debug\net9.0\AdvancedEncryptionStandardTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AesEncryptionProviderTests.cs(45,46): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AesEncryptionProviderTests.cs(56,46): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.07
+
+
+WritePatch: Compile failed.
+AdvancedEncryptionStandardTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:19:54 AM
+AdvancedEncryptionStandardTest
+
+WritePatch Started CycleStep. 2025-02-23 9:19:54 AM
+AdvancedEncryptionStandardTest
+
+WritePatch ran compiler. 2025-02-23 9:20:21 AM
+AdvancedEncryptionStandardTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AdvancedEncryptionStandard -> D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandard\bin\Debug\net9.0\AdvancedEncryptionStandard.dll
+  AdvancedEncryptionStandardTest -> D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\bin\Debug\net9.0\AdvancedEncryptionStandardTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.27
+
+
+WritePatch: Code is not Complete.
+AdvancedEncryptionStandardTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:20:51 AM
+AdvancedEncryptionStandardTest
+
+WritePatch Started CycleStep. 2025-02-23 9:20:52 AM
+AdvancedEncryptionStandardTest
+
+WritePatch ran compiler. 2025-02-23 9:21:35 AM
+AdvancedEncryptionStandardTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AdvancedEncryptionStandard -> D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandard\bin\Debug\net9.0\AdvancedEncryptionStandard.dll
+D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AesEncryptionProviderTests.cs(46,46): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AesEncryptionProviderTests.cs(57,46): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj]
+  AdvancedEncryptionStandardTest -> D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\bin\Debug\net9.0\AdvancedEncryptionStandardTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AesEncryptionProviderTests.cs(46,46): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AesEncryptionProviderTests.cs(57,46): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.37
+
+
+WritePatch: Compile failed.
+AdvancedEncryptionStandardTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:21:36 AM
+AdvancedEncryptionStandardTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AdvancedEncryptionStandard -> D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandard\bin\Debug\net9.0\AdvancedEncryptionStandard.dll
+D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AesEncryptionProviderTests.cs(46,46): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AesEncryptionProviderTests.cs(57,46): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj]
+  AdvancedEncryptionStandardTest -> D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\bin\Debug\net9.0\AdvancedEncryptionStandardTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AesEncryptionProviderTests.cs(46,46): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AesEncryptionProviderTests.cs(57,46): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.37
+
+</CompilerResponse>
+2025-02-23 9:21:36 AM
+AdvancedEncryptionStandardTest
+
+WritePatch ran compiler. 2025-02-23 9:21:38 AM
+AdvancedEncryptionStandard
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AdvancedEncryptionStandard -> D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandard\bin\Debug\net9.0\AdvancedEncryptionStandard.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.84
+
+
+WritePatch: Code is Complete.
+AdvancedEncryptionStandard
+
+WritePatch ran compiler. 2025-02-23 9:21:54 AM
+AdvancedEncryptionStandardTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AdvancedEncryptionStandard -> D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandard\bin\Debug\net9.0\AdvancedEncryptionStandard.dll
+  AdvancedEncryptionStandardTest -> D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\bin\Debug\net9.0\AdvancedEncryptionStandardTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.28
+
+
+WritePatch: Code is Complete.
+AdvancedEncryptionStandardTest
+
+TestResult:
+[OUTPUT 2025-02-23 9:22:16 AM]   AdvancedEncryptionStandard -> D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandard\bin\Debug\net9.0\AdvancedEncryptionStandard.dll
+[OUTPUT 2025-02-23 9:22:20 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 9:22:19 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 9:22:19 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 9:22:18 AM] Test run for D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\bin\Debug\net9.0\AdvancedEncryptionStandardTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 9:22:17 AM]   AdvancedEncryptionStandardTest -> D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\bin\Debug\net9.0\AdvancedEncryptionStandardTest.dll
+[OUTPUT 2025-02-23 9:22:15 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 9:22:15 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 9:22:19 AM] All tests passed successfully.
+[INFO 2025-02-23 9:22:19 AM] Test process completed. Duration: 5.66 seconds.
+[INFO 2025-02-23 9:22:19 AM] Process exited with code 0.
+[INFO 2025-02-23 9:22:14 AM] Command: dotnet test "D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 9:22:14 AM] Starting test for project: D:\Code2025\RavenWork\AdvancedEncryptionStandard\AdvancedEncryptionStandardTest\AdvancedEncryptionStandardTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
