@@ -1,0 +1,504 @@
+<ActRecord>
+  <ProjectName>InverseIteration</ProjectName>
+  <ProjectDescription>Inverse iteration – An algorithm for approximating an eigenvector corresponding to a given eigenvalue.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Inverse iteration – An algorithm for approximating an eigenvector corresponding to a given eigenvalue.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\InverseIteration</SolutionFolderPath>
+  <ProjectFolderName>InverseIteration</ProjectFolderName>
+  <ProjectName>InverseIteration</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:45:58 AM
+InverseIteration</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:46:39 AM
+InverseIteration</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\InverseIteration\InverseIteration\MatrixHelper.cs(11,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\InverseIteration\InverseIteration\InverseIteration.csproj]
+  InverseIteration -> D:\Code2025\RavenWork\InverseIteration\InverseIteration\bin\Debug\net9.0\InverseIteration.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\InverseIteration\InverseIteration\MatrixHelper.cs(11,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\InverseIteration\InverseIteration\InverseIteration.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.08
+]]></string>
+    <string>WritePatch: Compile failed.
+InverseIteration</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:46:40 AM
+InverseIteration</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:46:40 AM
+InverseIteration</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:47:12 AM
+InverseIteration</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  InverseIteration -> D:\Code2025\RavenWork\InverseIteration\InverseIteration\bin\Debug\net9.0\InverseIteration.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.54
+]]></string>
+    <string>WritePatch: Code is not Complete.
+InverseIteration</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:47:30 AM
+InverseIteration</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:47:30 AM
+InverseIteration</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:48:10 AM
+InverseIteration</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  InverseIteration -> D:\Code2025\RavenWork\InverseIteration\InverseIteration\bin\Debug\net9.0\InverseIteration.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.56
+]]></string>
+    <string>WritePatch: Code is Complete.
+InverseIteration</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:48:22 AM
+InverseIterationTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:49:14 AM
+InverseIterationTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj (in 375 ms).
+  1 of 2 projects are up-to-date for restore.
+  InverseIteration -> D:\Code2025\RavenWork\InverseIteration\InverseIteration\bin\Debug\net9.0\InverseIteration.dll
+D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTests.cs(88,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj]
+D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTests.cs(89,73): warning CS8604: Possible null reference argument for parameter 'A' in 'double[] InverseIterationSolver.ComputeEigenvector(double[,] A, double eigenvalue, double[] initialVector, int maxIterations, double tolerance)'. [D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj]
+D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTests.cs(108,38): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj]
+D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTests.cs(111,88): warning CS8604: Possible null reference argument for parameter 'initialVector' in 'double[] InverseIterationSolver.ComputeEigenvector(double[,] A, double eigenvalue, double[] initialVector, int maxIterations, double tolerance)'. [D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj]
+  InverseIterationTest -> D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\bin\Debug\net9.0\InverseIterationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTests.cs(88,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj]
+D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTests.cs(89,73): warning CS8604: Possible null reference argument for parameter 'A' in 'double[] InverseIterationSolver.ComputeEigenvector(double[,] A, double eigenvalue, double[] initialVector, int maxIterations, double tolerance)'. [D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj]
+D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTests.cs(108,38): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj]
+D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTests.cs(111,88): warning CS8604: Possible null reference argument for parameter 'initialVector' in 'double[] InverseIterationSolver.ComputeEigenvector(double[,] A, double eigenvalue, double[] initialVector, int maxIterations, double tolerance)'. [D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.74
+]]></string>
+    <string>WritePatch: Compile failed.
+InverseIterationTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:49:15 AM
+InverseIterationTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:49:16 AM
+InverseIterationTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:50:20 AM
+InverseIterationTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  InverseIteration -> D:\Code2025\RavenWork\InverseIteration\InverseIteration\bin\Debug\net9.0\InverseIteration.dll
+D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTests.cs(89,73): warning CS8604: Possible null reference argument for parameter 'A' in 'double[] InverseIterationSolver.ComputeEigenvector(double[,] A, double eigenvalue, double[] initialVector, int maxIterations, double tolerance)'. [D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj]
+D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTests.cs(111,88): warning CS8604: Possible null reference argument for parameter 'initialVector' in 'double[] InverseIterationSolver.ComputeEigenvector(double[,] A, double eigenvalue, double[] initialVector, int maxIterations, double tolerance)'. [D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj]
+  InverseIterationTest -> D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\bin\Debug\net9.0\InverseIterationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTests.cs(89,73): warning CS8604: Possible null reference argument for parameter 'A' in 'double[] InverseIterationSolver.ComputeEigenvector(double[,] A, double eigenvalue, double[] initialVector, int maxIterations, double tolerance)'. [D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj]
+D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTests.cs(111,88): warning CS8604: Possible null reference argument for parameter 'initialVector' in 'double[] InverseIterationSolver.ComputeEigenvector(double[,] A, double eigenvalue, double[] initialVector, int maxIterations, double tolerance)'. [D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.40
+]]></string>
+    <string>WritePatch: Compile failed.
+InverseIterationTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:50:21 AM
+InverseIterationTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:50:22 AM
+InverseIterationTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:52:20 AM
+InverseIterationTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  InverseIteration -> D:\Code2025\RavenWork\InverseIteration\InverseIteration\bin\Debug\net9.0\InverseIteration.dll
+  InverseIterationTest -> D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\bin\Debug\net9.0\InverseIterationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.64
+]]></string>
+    <string>WritePatch: Code is not Complete.
+InverseIterationTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:52:47 AM
+InverseIterationTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\InverseIteration\InverseIterationTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  InverseIteration -> D:\Code2025\RavenWork\InverseIteration\InverseIteration\bin\Debug\net9.0\InverseIteration.dll
+  InverseIterationTest -> D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\bin\Debug\net9.0\InverseIterationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.64
+
+</CompilerResponse>
+2025-02-23 9:52:48 AM
+InverseIterationTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 9:52:49 AM
+InverseIteration</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  InverseIteration -> D:\Code2025\RavenWork\InverseIteration\InverseIteration\bin\Debug\net9.0\InverseIteration.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.02
+]]></string>
+    <string>WritePatch: Code is Complete.
+InverseIteration</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:53:14 AM
+InverseIterationTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  InverseIteration -> D:\Code2025\RavenWork\InverseIteration\InverseIteration\bin\Debug\net9.0\InverseIteration.dll
+  InverseIterationTest -> D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\bin\Debug\net9.0\InverseIterationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.79
+]]></string>
+    <string>WritePatch: Code is Complete.
+InverseIterationTest</string>
+    <string>[INFO 2025-02-23 9:53:43 AM] Starting test for project: D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj</string>
+    <string>[INFO 2025-02-23 9:53:43 AM] Starting test for project: D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj</string>
+    <string>[INFO 2025-02-23 9:53:43 AM] Starting test for project: D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj</string>
+    <string>[INFO 2025-02-23 9:53:43 AM] Starting test for project: D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj</string>
+    <string>[INFO 2025-02-23 9:53:43 AM] Starting test for project: D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj</string>
+    <string>[INFO 2025-02-23 9:53:43 AM] Starting test for project: D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj</string>
+    <string>[INFO 2025-02-23 9:53:43 AM] Starting test for project: D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj</string>
+    <string>[INFO 2025-02-23 9:53:43 AM] Starting test for project: D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj</string>
+    <string>[INFO 2025-02-23 9:53:43 AM] Starting test for project: D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj</string>
+    <string>[INFO 2025-02-23 9:53:43 AM] Starting test for project: D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj</string>
+    <string>[INFO 2025-02-23 9:53:43 AM] Starting test for project: D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj</string>
+    <string>[INFO 2025-02-23 9:53:43 AM] Starting test for project: D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj</string>
+    <string>[INFO 2025-02-23 9:53:43 AM] Starting test for project: D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj</string>
+    <string>[INFO 2025-02-23 9:53:43 AM] Starting test for project: D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 9:53:49 AM]   Passed TestComputeEigenvector_InvalidDimensions [8 ms]
+[OUTPUT 2025-02-23 9:53:48 AM]   Passed TestMatrixHelper_Distance [8 ms]
+[OUTPUT 2025-02-23 9:53:46 AM] D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\bin\Debug\net9.0\InverseIterationTest.dll
+[OUTPUT 2025-02-23 9:53:46 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 9:53:46 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 9:53:45 AM]   InverseIteration -> D:\Code2025\RavenWork\InverseIteration\InverseIteration\bin\Debug\net9.0\InverseIteration.dll
+[OUTPUT 2025-02-23 9:53:44 AM]   All projects are up-to-date for restore.
+[SUCCESS 2025-02-23 9:53:48 AM] All tests passed successfully.
+[INFO 2025-02-23 9:53:48 AM] Test process completed. Duration: 5.61 seconds.
+[INFO 2025-02-23 9:53:48 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 9:53:48 AM] Test Parallelization enabled for D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\bin\Debug\net9.0\InverseIterationTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 9:53:46 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 9:53:45 AM] Test run for D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\bin\Debug\net9.0\InverseIterationTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 9:53:45 AM]   InverseIterationTest -> D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\bin\Debug\net9.0\InverseIterationTest.dll
+[OUTPUT 2025-02-23 9:53:44 AM]   Determining projects to restore...
+[INFO 2025-02-23 9:53:43 AM] Command: dotnet test "D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 9:53:43 AM] Starting test for project: D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 9:45:58 AM
+InverseIteration
+
+WritePatch ran compiler. 2025-02-23 9:46:39 AM
+InverseIteration
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\InverseIteration\InverseIteration\MatrixHelper.cs(11,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\InverseIteration\InverseIteration\InverseIteration.csproj]
+  InverseIteration -> D:\Code2025\RavenWork\InverseIteration\InverseIteration\bin\Debug\net9.0\InverseIteration.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\InverseIteration\InverseIteration\MatrixHelper.cs(11,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\InverseIteration\InverseIteration\InverseIteration.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.08
+
+
+WritePatch: Compile failed.
+InverseIteration
+
+Finished WritePatch cycle step.
+2025-02-23 9:46:40 AM
+InverseIteration
+
+WritePatch Started CycleStep. 2025-02-23 9:46:40 AM
+InverseIteration
+
+WritePatch ran compiler. 2025-02-23 9:47:12 AM
+InverseIteration
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  InverseIteration -> D:\Code2025\RavenWork\InverseIteration\InverseIteration\bin\Debug\net9.0\InverseIteration.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.54
+
+
+WritePatch: Code is not Complete.
+InverseIteration
+
+Finished WritePatch cycle step.
+2025-02-23 9:47:30 AM
+InverseIteration
+
+WritePatch Started CycleStep. 2025-02-23 9:47:30 AM
+InverseIteration
+
+WritePatch ran compiler. 2025-02-23 9:48:10 AM
+InverseIteration
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  InverseIteration -> D:\Code2025\RavenWork\InverseIteration\InverseIteration\bin\Debug\net9.0\InverseIteration.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.56
+
+
+WritePatch: Code is Complete.
+InverseIteration
+
+WritePatch Started CycleStep. 2025-02-23 9:48:22 AM
+InverseIterationTest
+
+WritePatch ran compiler. 2025-02-23 9:49:14 AM
+InverseIterationTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj (in 375 ms).
+  1 of 2 projects are up-to-date for restore.
+  InverseIteration -> D:\Code2025\RavenWork\InverseIteration\InverseIteration\bin\Debug\net9.0\InverseIteration.dll
+D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTests.cs(88,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj]
+D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTests.cs(89,73): warning CS8604: Possible null reference argument for parameter 'A' in 'double[] InverseIterationSolver.ComputeEigenvector(double[,] A, double eigenvalue, double[] initialVector, int maxIterations, double tolerance)'. [D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj]
+D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTests.cs(108,38): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj]
+D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTests.cs(111,88): warning CS8604: Possible null reference argument for parameter 'initialVector' in 'double[] InverseIterationSolver.ComputeEigenvector(double[,] A, double eigenvalue, double[] initialVector, int maxIterations, double tolerance)'. [D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj]
+  InverseIterationTest -> D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\bin\Debug\net9.0\InverseIterationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTests.cs(88,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj]
+D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTests.cs(89,73): warning CS8604: Possible null reference argument for parameter 'A' in 'double[] InverseIterationSolver.ComputeEigenvector(double[,] A, double eigenvalue, double[] initialVector, int maxIterations, double tolerance)'. [D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj]
+D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTests.cs(108,38): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj]
+D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTests.cs(111,88): warning CS8604: Possible null reference argument for parameter 'initialVector' in 'double[] InverseIterationSolver.ComputeEigenvector(double[,] A, double eigenvalue, double[] initialVector, int maxIterations, double tolerance)'. [D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.74
+
+
+WritePatch: Compile failed.
+InverseIterationTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:49:15 AM
+InverseIterationTest
+
+WritePatch Started CycleStep. 2025-02-23 9:49:16 AM
+InverseIterationTest
+
+WritePatch ran compiler. 2025-02-23 9:50:20 AM
+InverseIterationTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  InverseIteration -> D:\Code2025\RavenWork\InverseIteration\InverseIteration\bin\Debug\net9.0\InverseIteration.dll
+D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTests.cs(89,73): warning CS8604: Possible null reference argument for parameter 'A' in 'double[] InverseIterationSolver.ComputeEigenvector(double[,] A, double eigenvalue, double[] initialVector, int maxIterations, double tolerance)'. [D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj]
+D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTests.cs(111,88): warning CS8604: Possible null reference argument for parameter 'initialVector' in 'double[] InverseIterationSolver.ComputeEigenvector(double[,] A, double eigenvalue, double[] initialVector, int maxIterations, double tolerance)'. [D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj]
+  InverseIterationTest -> D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\bin\Debug\net9.0\InverseIterationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTests.cs(89,73): warning CS8604: Possible null reference argument for parameter 'A' in 'double[] InverseIterationSolver.ComputeEigenvector(double[,] A, double eigenvalue, double[] initialVector, int maxIterations, double tolerance)'. [D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj]
+D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTests.cs(111,88): warning CS8604: Possible null reference argument for parameter 'initialVector' in 'double[] InverseIterationSolver.ComputeEigenvector(double[,] A, double eigenvalue, double[] initialVector, int maxIterations, double tolerance)'. [D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.40
+
+
+WritePatch: Compile failed.
+InverseIterationTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:50:21 AM
+InverseIterationTest
+
+WritePatch Started CycleStep. 2025-02-23 9:50:22 AM
+InverseIterationTest
+
+WritePatch ran compiler. 2025-02-23 9:52:20 AM
+InverseIterationTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  InverseIteration -> D:\Code2025\RavenWork\InverseIteration\InverseIteration\bin\Debug\net9.0\InverseIteration.dll
+  InverseIterationTest -> D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\bin\Debug\net9.0\InverseIterationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.64
+
+
+WritePatch: Code is not Complete.
+InverseIterationTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:52:47 AM
+InverseIterationTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\InverseIteration\InverseIterationTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  InverseIteration -> D:\Code2025\RavenWork\InverseIteration\InverseIteration\bin\Debug\net9.0\InverseIteration.dll
+  InverseIterationTest -> D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\bin\Debug\net9.0\InverseIterationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.64
+
+</CompilerResponse>
+2025-02-23 9:52:48 AM
+InverseIterationTest
+
+WritePatch ran compiler. 2025-02-23 9:52:49 AM
+InverseIteration
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  InverseIteration -> D:\Code2025\RavenWork\InverseIteration\InverseIteration\bin\Debug\net9.0\InverseIteration.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.02
+
+
+WritePatch: Code is Complete.
+InverseIteration
+
+WritePatch ran compiler. 2025-02-23 9:53:14 AM
+InverseIterationTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  InverseIteration -> D:\Code2025\RavenWork\InverseIteration\InverseIteration\bin\Debug\net9.0\InverseIteration.dll
+  InverseIterationTest -> D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\bin\Debug\net9.0\InverseIterationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.79
+
+
+WritePatch: Code is Complete.
+InverseIterationTest
+
+TestResult:
+[OUTPUT 2025-02-23 9:53:49 AM]   Passed TestComputeEigenvector_InvalidDimensions [8 ms]
+[OUTPUT 2025-02-23 9:53:48 AM]   Passed TestMatrixHelper_Distance [8 ms]
+[OUTPUT 2025-02-23 9:53:46 AM] D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\bin\Debug\net9.0\InverseIterationTest.dll
+[OUTPUT 2025-02-23 9:53:46 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 9:53:46 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 9:53:45 AM]   InverseIteration -> D:\Code2025\RavenWork\InverseIteration\InverseIteration\bin\Debug\net9.0\InverseIteration.dll
+[OUTPUT 2025-02-23 9:53:44 AM]   All projects are up-to-date for restore.
+[SUCCESS 2025-02-23 9:53:48 AM] All tests passed successfully.
+[INFO 2025-02-23 9:53:48 AM] Test process completed. Duration: 5.61 seconds.
+[INFO 2025-02-23 9:53:48 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 9:53:48 AM] Test Parallelization enabled for D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\bin\Debug\net9.0\InverseIterationTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 9:53:46 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 9:53:45 AM] Test run for D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\bin\Debug\net9.0\InverseIterationTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 9:53:45 AM]   InverseIterationTest -> D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\bin\Debug\net9.0\InverseIterationTest.dll
+[OUTPUT 2025-02-23 9:53:44 AM]   Determining projects to restore...
+[INFO 2025-02-23 9:53:43 AM] Command: dotnet test "D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 9:53:43 AM] Starting test for project: D:\Code2025\RavenWork\InverseIteration\InverseIterationTest\InverseIterationTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
