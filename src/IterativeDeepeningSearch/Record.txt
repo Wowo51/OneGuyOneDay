@@ -1,0 +1,150 @@
+<ActRecord>
+  <ProjectName>IterativeDeepeningSearch</ProjectName>
+  <ProjectDescription>Iterative Deepening Depth-First Search (IDDFS): Combines the space efficiency of depth-first search with the optimality of breadth-first search by progressively increasing the search depth.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Iterative Deepening Depth-First Search (IDDFS): Combines the space efficiency of depth-first search with the optimality of breadth-first search by progressively increasing the search depth.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\IterativeDeepeningSearch</SolutionFolderPath>
+  <ProjectFolderName>IterativeDeepeningSearch</ProjectFolderName>
+  <ProjectName>IterativeDeepeningSearch</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:58:36 AM
+IterativeDeepeningSearch</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:58:56 AM
+IterativeDeepeningSearch</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  IterativeDeepeningSearch -> D:\Code2025\RavenWork\IterativeDeepeningSearch\IterativeDeepeningSearch\bin\Debug\net9.0\IterativeDeepeningSearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.16
+]]></string>
+    <string>WritePatch: Code is Complete.
+IterativeDeepeningSearch</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:59:10 AM
+IterativeDeepeningSearchTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:59:56 AM
+IterativeDeepeningSearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\IterativeDeepeningSearch\IterativeDeepeningSearchTest\IterativeDeepeningSearchTest.csproj (in 187 ms).
+  1 of 2 projects are up-to-date for restore.
+  IterativeDeepeningSearch -> D:\Code2025\RavenWork\IterativeDeepeningSearch\IterativeDeepeningSearch\bin\Debug\net9.0\IterativeDeepeningSearch.dll
+  IterativeDeepeningSearchTest -> D:\Code2025\RavenWork\IterativeDeepeningSearch\IterativeDeepeningSearchTest\bin\Debug\net9.0\IterativeDeepeningSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.33
+]]></string>
+    <string>WritePatch: Code is Complete.
+IterativeDeepeningSearchTest</string>
+    <string>[INFO 2025-02-23 8:00:17 AM] Starting test for project: D:\Code2025\RavenWork\IterativeDeepeningSearch\IterativeDeepeningSearchTest\IterativeDeepeningSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 8:00:17 AM] Starting test for project: D:\Code2025\RavenWork\IterativeDeepeningSearch\IterativeDeepeningSearchTest\IterativeDeepeningSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 8:00:17 AM] Starting test for project: D:\Code2025\RavenWork\IterativeDeepeningSearch\IterativeDeepeningSearchTest\IterativeDeepeningSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 8:00:17 AM] Starting test for project: D:\Code2025\RavenWork\IterativeDeepeningSearch\IterativeDeepeningSearchTest\IterativeDeepeningSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 8:00:17 AM] Starting test for project: D:\Code2025\RavenWork\IterativeDeepeningSearch\IterativeDeepeningSearchTest\IterativeDeepeningSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 8:00:17 AM] Starting test for project: D:\Code2025\RavenWork\IterativeDeepeningSearch\IterativeDeepeningSearchTest\IterativeDeepeningSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 8:00:17 AM] Starting test for project: D:\Code2025\RavenWork\IterativeDeepeningSearch\IterativeDeepeningSearchTest\IterativeDeepeningSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 8:00:17 AM] Starting test for project: D:\Code2025\RavenWork\IterativeDeepeningSearch\IterativeDeepeningSearchTest\IterativeDeepeningSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 8:00:17 AM] Starting test for project: D:\Code2025\RavenWork\IterativeDeepeningSearch\IterativeDeepeningSearchTest\IterativeDeepeningSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 8:00:17 AM] Starting test for project: D:\Code2025\RavenWork\IterativeDeepeningSearch\IterativeDeepeningSearchTest\IterativeDeepeningSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 8:00:17 AM] Starting test for project: D:\Code2025\RavenWork\IterativeDeepeningSearch\IterativeDeepeningSearchTest\IterativeDeepeningSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 8:00:17 AM] Starting test for project: D:\Code2025\RavenWork\IterativeDeepeningSearch\IterativeDeepeningSearchTest\IterativeDeepeningSearchTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 8:00:20 AM] Test Parallelization enabled for D:\Code2025\RavenWork\IterativeDeepeningSearch\IterativeDeepeningSearchTest\bin\Debug\net9.0\IterativeDeepeningSearchTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 8:00:20 AM] D:\Code2025\RavenWork\IterativeDeepeningSearch\IterativeDeepeningSearchTest\bin\Debug\net9.0\IterativeDeepeningSearchTest.dll
+[OUTPUT 2025-02-23 8:00:19 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 8:00:19 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:00:19 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:00:19 AM] Test run for D:\Code2025\RavenWork\IterativeDeepeningSearch\IterativeDeepeningSearchTest\bin\Debug\net9.0\IterativeDeepeningSearchTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:00:18 AM]   IterativeDeepeningSearchTest -> D:\Code2025\RavenWork\IterativeDeepeningSearch\IterativeDeepeningSearchTest\bin\Debug\net9.0\IterativeDeepeningSearchTest.dll
+[OUTPUT 2025-02-23 8:00:18 AM]   IterativeDeepeningSearch -> D:\Code2025\RavenWork\IterativeDeepeningSearch\IterativeDeepeningSearch\bin\Debug\net9.0\IterativeDeepeningSearch.dll
+[OUTPUT 2025-02-23 8:00:18 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:00:17 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 8:00:20 AM] All tests passed successfully.
+[INFO 2025-02-23 8:00:20 AM] Test process completed. Duration: 3.25 seconds.
+[INFO 2025-02-23 8:00:20 AM] Process exited with code 0.
+[INFO 2025-02-23 8:00:17 AM] Command: dotnet test "D:\Code2025\RavenWork\IterativeDeepeningSearch\IterativeDeepeningSearchTest\IterativeDeepeningSearchTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:00:17 AM] Starting test for project: D:\Code2025\RavenWork\IterativeDeepeningSearch\IterativeDeepeningSearchTest\IterativeDeepeningSearchTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 7:58:36 AM
+IterativeDeepeningSearch
+
+WritePatch ran compiler. 2025-02-23 7:58:56 AM
+IterativeDeepeningSearch
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  IterativeDeepeningSearch -> D:\Code2025\RavenWork\IterativeDeepeningSearch\IterativeDeepeningSearch\bin\Debug\net9.0\IterativeDeepeningSearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.16
+
+
+WritePatch: Code is Complete.
+IterativeDeepeningSearch
+
+WritePatch Started CycleStep. 2025-02-23 7:59:10 AM
+IterativeDeepeningSearchTest
+
+WritePatch ran compiler. 2025-02-23 7:59:56 AM
+IterativeDeepeningSearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\IterativeDeepeningSearch\IterativeDeepeningSearchTest\IterativeDeepeningSearchTest.csproj (in 187 ms).
+  1 of 2 projects are up-to-date for restore.
+  IterativeDeepeningSearch -> D:\Code2025\RavenWork\IterativeDeepeningSearch\IterativeDeepeningSearch\bin\Debug\net9.0\IterativeDeepeningSearch.dll
+  IterativeDeepeningSearchTest -> D:\Code2025\RavenWork\IterativeDeepeningSearch\IterativeDeepeningSearchTest\bin\Debug\net9.0\IterativeDeepeningSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.33
+
+
+WritePatch: Code is Complete.
+IterativeDeepeningSearchTest
+
+TestResult:
+[OUTPUT 2025-02-23 8:00:20 AM] Test Parallelization enabled for D:\Code2025\RavenWork\IterativeDeepeningSearch\IterativeDeepeningSearchTest\bin\Debug\net9.0\IterativeDeepeningSearchTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 8:00:20 AM] D:\Code2025\RavenWork\IterativeDeepeningSearch\IterativeDeepeningSearchTest\bin\Debug\net9.0\IterativeDeepeningSearchTest.dll
+[OUTPUT 2025-02-23 8:00:19 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 8:00:19 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:00:19 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:00:19 AM] Test run for D:\Code2025\RavenWork\IterativeDeepeningSearch\IterativeDeepeningSearchTest\bin\Debug\net9.0\IterativeDeepeningSearchTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:00:18 AM]   IterativeDeepeningSearchTest -> D:\Code2025\RavenWork\IterativeDeepeningSearch\IterativeDeepeningSearchTest\bin\Debug\net9.0\IterativeDeepeningSearchTest.dll
+[OUTPUT 2025-02-23 8:00:18 AM]   IterativeDeepeningSearch -> D:\Code2025\RavenWork\IterativeDeepeningSearch\IterativeDeepeningSearch\bin\Debug\net9.0\IterativeDeepeningSearch.dll
+[OUTPUT 2025-02-23 8:00:18 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:00:17 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 8:00:20 AM] All tests passed successfully.
+[INFO 2025-02-23 8:00:20 AM] Test process completed. Duration: 3.25 seconds.
+[INFO 2025-02-23 8:00:20 AM] Process exited with code 0.
+[INFO 2025-02-23 8:00:17 AM] Command: dotnet test "D:\Code2025\RavenWork\IterativeDeepeningSearch\IterativeDeepeningSearchTest\IterativeDeepeningSearchTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:00:17 AM] Starting test for project: D:\Code2025\RavenWork\IterativeDeepeningSearch\IterativeDeepeningSearchTest\IterativeDeepeningSearchTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
