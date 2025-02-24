@@ -1,0 +1,199 @@
+<ActRecord>
+  <ProjectName>LinearFeedbackRegister</ProjectName>
+  <ProjectDescription>Linear‑feedback shift register</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Linear‑feedback shift register</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\LinearFeedbackRegister</SolutionFolderPath>
+  <ProjectFolderName>LinearFeedbackRegister</ProjectFolderName>
+  <ProjectName>LinearFeedbackRegister</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:21:09 AM
+LinearFeedbackRegister</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:21:46 AM
+LinearFeedbackRegister</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LinearFeedbackRegister -> D:\Code2025\RavenWork\LinearFeedbackRegister\LinearFeedbackRegister\bin\Debug\net9.0\LinearFeedbackRegister.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+]]></string>
+    <string>WritePatch: Code is Complete.
+LinearFeedbackRegister</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:21:59 AM
+LinearFeedbackRegisterTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:23:51 AM
+LinearFeedbackRegisterTest</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LinearFeedbackRegister\LinearFeedbackRegisterTest\LinearFeedbackRegisterTest.csproj (in 180 ms).
+  1 of 2 projects are up-to-date for restore.
+  LinearFeedbackRegister -> D:\Code2025\RavenWork\LinearFeedbackRegister\LinearFeedbackRegister\bin\Debug\net9.0\LinearFeedbackRegister.dll
+D:\Code2025\RavenWork\LinearFeedbackRegister\LinearFeedbackRegisterTest\LfsrTests.cs(31,53): error CS1503: Argument 3: cannot convert from 'string' to 'float' [D:\Code2025\RavenWork\LinearFeedbackRegister\LinearFeedbackRegisterTest\LinearFeedbackRegisterTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\LinearFeedbackRegister\LinearFeedbackRegisterTest\LfsrTests.cs(31,53): error CS1503: Argument 3: cannot convert from 'string' to 'float' [D:\Code2025\RavenWork\LinearFeedbackRegister\LinearFeedbackRegisterTest\LinearFeedbackRegisterTest.csproj]
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.15
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+LinearFeedbackRegisterTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:23:51 AM
+LinearFeedbackRegisterTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:23:52 AM
+LinearFeedbackRegisterTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:27:12 AM
+LinearFeedbackRegisterTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LinearFeedbackRegister -> D:\Code2025\RavenWork\LinearFeedbackRegister\LinearFeedbackRegister\bin\Debug\net9.0\LinearFeedbackRegister.dll
+  LinearFeedbackRegisterTest -> D:\Code2025\RavenWork\LinearFeedbackRegister\LinearFeedbackRegisterTest\bin\Debug\net9.0\LinearFeedbackRegisterTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.08
+]]></string>
+    <string>WritePatch: Code is Complete.
+LinearFeedbackRegisterTest</string>
+    <string>[INFO 2025-02-23 8:27:28 AM] Starting test for project: D:\Code2025\RavenWork\LinearFeedbackRegister\LinearFeedbackRegisterTest\LinearFeedbackRegisterTest.csproj</string>
+    <string>[INFO 2025-02-23 8:27:28 AM] Starting test for project: D:\Code2025\RavenWork\LinearFeedbackRegister\LinearFeedbackRegisterTest\LinearFeedbackRegisterTest.csproj</string>
+    <string>[INFO 2025-02-23 8:27:28 AM] Starting test for project: D:\Code2025\RavenWork\LinearFeedbackRegister\LinearFeedbackRegisterTest\LinearFeedbackRegisterTest.csproj</string>
+    <string>[INFO 2025-02-23 8:27:28 AM] Starting test for project: D:\Code2025\RavenWork\LinearFeedbackRegister\LinearFeedbackRegisterTest\LinearFeedbackRegisterTest.csproj</string>
+    <string>[INFO 2025-02-23 8:27:28 AM] Starting test for project: D:\Code2025\RavenWork\LinearFeedbackRegister\LinearFeedbackRegisterTest\LinearFeedbackRegisterTest.csproj</string>
+    <string>[INFO 2025-02-23 8:27:28 AM] Starting test for project: D:\Code2025\RavenWork\LinearFeedbackRegister\LinearFeedbackRegisterTest\LinearFeedbackRegisterTest.csproj</string>
+    <string>[INFO 2025-02-23 8:27:28 AM] Starting test for project: D:\Code2025\RavenWork\LinearFeedbackRegister\LinearFeedbackRegisterTest\LinearFeedbackRegisterTest.csproj</string>
+    <string>[INFO 2025-02-23 8:27:28 AM] Starting test for project: D:\Code2025\RavenWork\LinearFeedbackRegister\LinearFeedbackRegisterTest\LinearFeedbackRegisterTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 8:27:31 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:27:30 AM] Test run for D:\Code2025\RavenWork\LinearFeedbackRegister\LinearFeedbackRegisterTest\bin\Debug\net9.0\LinearFeedbackRegisterTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:27:30 AM]   LinearFeedbackRegisterTest -> D:\Code2025\RavenWork\LinearFeedbackRegister\LinearFeedbackRegisterTest\bin\Debug\net9.0\LinearFeedbackRegisterTest.dll
+[OUTPUT 2025-02-23 8:27:30 AM]   LinearFeedbackRegister -> D:\Code2025\RavenWork\LinearFeedbackRegister\LinearFeedbackRegister\bin\Debug\net9.0\LinearFeedbackRegister.dll
+[OUTPUT 2025-02-23 8:27:29 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:27:28 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 8:27:31 AM] All tests passed successfully.
+[INFO 2025-02-23 8:27:31 AM] Test process completed. Duration: 3.31 seconds.
+[INFO 2025-02-23 8:27:31 AM] Process exited with code 0.
+[INFO 2025-02-23 8:27:28 AM] Command: dotnet test "D:\Code2025\RavenWork\LinearFeedbackRegister\LinearFeedbackRegisterTest\LinearFeedbackRegisterTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:27:28 AM] Starting test for project: D:\Code2025\RavenWork\LinearFeedbackRegister\LinearFeedbackRegisterTest\LinearFeedbackRegisterTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 8:21:09 AM
+LinearFeedbackRegister
+
+WritePatch ran compiler. 2025-02-23 8:21:46 AM
+LinearFeedbackRegister
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LinearFeedbackRegister -> D:\Code2025\RavenWork\LinearFeedbackRegister\LinearFeedbackRegister\bin\Debug\net9.0\LinearFeedbackRegister.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+
+
+WritePatch: Code is Complete.
+LinearFeedbackRegister
+
+WritePatch Started CycleStep. 2025-02-23 8:21:59 AM
+LinearFeedbackRegisterTest
+
+WritePatch ran compiler. 2025-02-23 8:23:51 AM
+LinearFeedbackRegisterTest
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LinearFeedbackRegister\LinearFeedbackRegisterTest\LinearFeedbackRegisterTest.csproj (in 180 ms).
+  1 of 2 projects are up-to-date for restore.
+  LinearFeedbackRegister -> D:\Code2025\RavenWork\LinearFeedbackRegister\LinearFeedbackRegister\bin\Debug\net9.0\LinearFeedbackRegister.dll
+D:\Code2025\RavenWork\LinearFeedbackRegister\LinearFeedbackRegisterTest\LfsrTests.cs(31,53): error CS1503: Argument 3: cannot convert from 'string' to 'float' [D:\Code2025\RavenWork\LinearFeedbackRegister\LinearFeedbackRegisterTest\LinearFeedbackRegisterTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\LinearFeedbackRegister\LinearFeedbackRegisterTest\LfsrTests.cs(31,53): error CS1503: Argument 3: cannot convert from 'string' to 'float' [D:\Code2025\RavenWork\LinearFeedbackRegister\LinearFeedbackRegisterTest\LinearFeedbackRegisterTest.csproj]
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.15
+
+
+Errors:
+
+WritePatch: Compile failed.
+LinearFeedbackRegisterTest
+
+Finished WritePatch cycle step.
+2025-02-23 8:23:51 AM
+LinearFeedbackRegisterTest
+
+WritePatch Started CycleStep. 2025-02-23 8:23:52 AM
+LinearFeedbackRegisterTest
+
+WritePatch ran compiler. 2025-02-23 8:27:12 AM
+LinearFeedbackRegisterTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LinearFeedbackRegister -> D:\Code2025\RavenWork\LinearFeedbackRegister\LinearFeedbackRegister\bin\Debug\net9.0\LinearFeedbackRegister.dll
+  LinearFeedbackRegisterTest -> D:\Code2025\RavenWork\LinearFeedbackRegister\LinearFeedbackRegisterTest\bin\Debug\net9.0\LinearFeedbackRegisterTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.08
+
+
+WritePatch: Code is Complete.
+LinearFeedbackRegisterTest
+
+TestResult:
+[OUTPUT 2025-02-23 8:27:31 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:27:30 AM] Test run for D:\Code2025\RavenWork\LinearFeedbackRegister\LinearFeedbackRegisterTest\bin\Debug\net9.0\LinearFeedbackRegisterTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:27:30 AM]   LinearFeedbackRegisterTest -> D:\Code2025\RavenWork\LinearFeedbackRegister\LinearFeedbackRegisterTest\bin\Debug\net9.0\LinearFeedbackRegisterTest.dll
+[OUTPUT 2025-02-23 8:27:30 AM]   LinearFeedbackRegister -> D:\Code2025\RavenWork\LinearFeedbackRegister\LinearFeedbackRegister\bin\Debug\net9.0\LinearFeedbackRegister.dll
+[OUTPUT 2025-02-23 8:27:29 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:27:28 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 8:27:31 AM] All tests passed successfully.
+[INFO 2025-02-23 8:27:31 AM] Test process completed. Duration: 3.31 seconds.
+[INFO 2025-02-23 8:27:31 AM] Process exited with code 0.
+[INFO 2025-02-23 8:27:28 AM] Command: dotnet test "D:\Code2025\RavenWork\LinearFeedbackRegister\LinearFeedbackRegisterTest\LinearFeedbackRegisterTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:27:28 AM] Starting test for project: D:\Code2025\RavenWork\LinearFeedbackRegister\LinearFeedbackRegisterTest\LinearFeedbackRegisterTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
