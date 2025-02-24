@@ -14,9 +14,9 @@ Total solve time was under 15.5 hours. Human labor cost would be about a day's w
 
 At $50/hr total cost with me and Raven: $568.
 
-According to ChatGPT when asked for a quote:
-Hand-Written Code: Approximately $110,000–$130,000
-ChatGPT-Assisted Development: Approximately $55,000–$65,000 (Copying and pasting from ChatGPT).
+According to ChatGPT when asked for a quote:<br>
+Hand-Written Code: Approximately $110,000–$130,000.<br>
+ChatGPT-Assisted Development: Approximately $55,000–$65,000 (Copying and pasting from ChatGPT).<br>
 
 So can I actually write code 100 times cheaper than someone copying and pasting from ChatGPT? No actually. Raven can solve these types of simple algorithms very efficiently. Writing a complex integrated app is not the same thing and costs will be higher. I can no doubt write code cheaper than someone copying and pasting from ChatGPT in many cases.
 
