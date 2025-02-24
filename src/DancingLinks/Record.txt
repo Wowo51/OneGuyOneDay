@@ -1,0 +1,398 @@
+<ActRecord>
+  <ProjectName>DancingLinks</ProjectName>
+  <ProjectDescription>Dancing Links – An efficient implementation technique for Algorithm X that uses a circular, doubly linked list structure.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Dancing Links – An efficient implementation technique for Algorithm X that uses a circular, doubly linked list structure.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\DancingLinks</SolutionFolderPath>
+  <ProjectFolderName>DancingLinks</ProjectFolderName>
+  <ProjectName>DancingLinks</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:27:45 AM
+DancingLinks</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:29:12 AM
+DancingLinks</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingNode.cs(10,16): warning CS8618: Non-nullable field 'Column' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksSolver.cs(30,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(25,46): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(26,45): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(46,44): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(47,29): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(55,43): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(56,21): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+  DancingLinks -> D:\Code2025\RavenWork\DancingLinks\DancingLinks\bin\Debug\net9.0\DancingLinks.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingNode.cs(10,16): warning CS8618: Non-nullable field 'Column' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksSolver.cs(30,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(25,46): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(26,45): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(46,44): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(47,29): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(55,43): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(56,21): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+    8 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.80
+]]></string>
+    <string>WritePatch: Compile failed.
+DancingLinks</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:29:13 AM
+DancingLinks</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:29:13 AM
+DancingLinks</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:30:33 AM
+DancingLinks</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksSolver.cs(30,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(25,46): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(26,45): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+  DancingLinks -> D:\Code2025\RavenWork\DancingLinks\DancingLinks\bin\Debug\net9.0\DancingLinks.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksSolver.cs(30,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(25,46): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(26,45): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.76
+]]></string>
+    <string>WritePatch: Compile failed.
+DancingLinks</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:30:34 AM
+DancingLinks</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:30:34 AM
+DancingLinks</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:32:01 AM
+DancingLinks</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(46,44): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(47,29): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+  DancingLinks -> D:\Code2025\RavenWork\DancingLinks\DancingLinks\bin\Debug\net9.0\DancingLinks.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(46,44): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(47,29): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.76
+]]></string>
+    <string>WritePatch: Compile failed.
+DancingLinks</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:32:02 AM
+DancingLinks</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\DancingLinks\DancingLinks
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(46,44): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(47,29): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+  DancingLinks -> D:\Code2025\RavenWork\DancingLinks\DancingLinks\bin\Debug\net9.0\DancingLinks.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(46,44): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(47,29): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.76
+
+</CompilerResponse>
+2025-02-23 8:32:02 AM
+DancingLinks]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 8:32:03 AM
+DancingLinks</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DancingLinks -> D:\Code2025\RavenWork\DancingLinks\DancingLinks\bin\Debug\net9.0\DancingLinks.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.72
+]]></string>
+    <string>WritePatch: Code is Complete.
+DancingLinks</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:32:48 AM
+DancingLinksTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:34:05 AM
+DancingLinksTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\DancingLinks\DancingLinksTest\DancingLinksTest.csproj (in 278 ms).
+  1 of 2 projects are up-to-date for restore.
+  DancingLinks -> D:\Code2025\RavenWork\DancingLinks\DancingLinks\bin\Debug\net9.0\DancingLinks.dll
+  DancingLinksTest -> D:\Code2025\RavenWork\DancingLinks\DancingLinksTest\bin\Debug\net9.0\DancingLinksTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.71
+]]></string>
+    <string>WritePatch: Code is Complete.
+DancingLinksTest</string>
+    <string>[INFO 2025-02-23 8:34:35 AM] Starting test for project: D:\Code2025\RavenWork\DancingLinks\DancingLinksTest\DancingLinksTest.csproj</string>
+    <string>[INFO 2025-02-23 8:34:35 AM] Starting test for project: D:\Code2025\RavenWork\DancingLinks\DancingLinksTest\DancingLinksTest.csproj</string>
+    <string>[INFO 2025-02-23 8:34:35 AM] Starting test for project: D:\Code2025\RavenWork\DancingLinks\DancingLinksTest\DancingLinksTest.csproj</string>
+    <string>[INFO 2025-02-23 8:34:35 AM] Starting test for project: D:\Code2025\RavenWork\DancingLinks\DancingLinksTest\DancingLinksTest.csproj</string>
+    <string>[INFO 2025-02-23 8:34:35 AM] Starting test for project: D:\Code2025\RavenWork\DancingLinks\DancingLinksTest\DancingLinksTest.csproj</string>
+    <string>[INFO 2025-02-23 8:34:35 AM] Starting test for project: D:\Code2025\RavenWork\DancingLinks\DancingLinksTest\DancingLinksTest.csproj</string>
+    <string>[INFO 2025-02-23 8:34:35 AM] Starting test for project: D:\Code2025\RavenWork\DancingLinks\DancingLinksTest\DancingLinksTest.csproj</string>
+    <string>[INFO 2025-02-23 8:34:35 AM] Starting test for project: D:\Code2025\RavenWork\DancingLinks\DancingLinksTest\DancingLinksTest.csproj</string>
+    <string>[INFO 2025-02-23 8:34:35 AM] Starting test for project: D:\Code2025\RavenWork\DancingLinks\DancingLinksTest\DancingLinksTest.csproj</string>
+    <string>[INFO 2025-02-23 8:34:35 AM] Starting test for project: D:\Code2025\RavenWork\DancingLinks\DancingLinksTest\DancingLinksTest.csproj</string>
+    <string>[INFO 2025-02-23 8:34:35 AM] Starting test for project: D:\Code2025\RavenWork\DancingLinks\DancingLinksTest\DancingLinksTest.csproj</string>
+    <string>[INFO 2025-02-23 8:34:35 AM] Starting test for project: D:\Code2025\RavenWork\DancingLinks\DancingLinksTest\DancingLinksTest.csproj</string>
+    <string>[INFO 2025-02-23 8:34:35 AM] Starting test for project: D:\Code2025\RavenWork\DancingLinks\DancingLinksTest\DancingLinksTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 8:34:38 AM] All tests passed successfully.
+[INFO 2025-02-23 8:34:38 AM] Test process completed. Duration: 3.02 seconds.
+[INFO 2025-02-23 8:34:38 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 8:34:38 AM]   Passed TestNoSolution [4 ms]
+[OUTPUT 2025-02-23 8:34:38 AM] Test Parallelization enabled for D:\Code2025\RavenWork\DancingLinks\DancingLinksTest\bin\Debug\net9.0\DancingLinksTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 8:34:37 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:34:36 AM] Test run for D:\Code2025\RavenWork\DancingLinks\DancingLinksTest\bin\Debug\net9.0\DancingLinksTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:34:36 AM]   DancingLinksTest -> D:\Code2025\RavenWork\DancingLinks\DancingLinksTest\bin\Debug\net9.0\DancingLinksTest.dll
+[OUTPUT 2025-02-23 8:34:36 AM]   DancingLinks -> D:\Code2025\RavenWork\DancingLinks\DancingLinks\bin\Debug\net9.0\DancingLinks.dll
+[OUTPUT 2025-02-23 8:34:36 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:34:37 AM] D:\Code2025\RavenWork\DancingLinks\DancingLinksTest\bin\Debug\net9.0\DancingLinksTest.dll
+[OUTPUT 2025-02-23 8:34:37 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 8:34:37 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:34:35 AM]   Determining projects to restore...
+[INFO 2025-02-23 8:34:35 AM] Command: dotnet test "D:\Code2025\RavenWork\DancingLinks\DancingLinksTest\DancingLinksTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:34:35 AM] Starting test for project: D:\Code2025\RavenWork\DancingLinks\DancingLinksTest\DancingLinksTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 8:27:45 AM
+DancingLinks
+
+WritePatch ran compiler. 2025-02-23 8:29:12 AM
+DancingLinks
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingNode.cs(10,16): warning CS8618: Non-nullable field 'Column' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksSolver.cs(30,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(25,46): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(26,45): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(46,44): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(47,29): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(55,43): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(56,21): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+  DancingLinks -> D:\Code2025\RavenWork\DancingLinks\DancingLinks\bin\Debug\net9.0\DancingLinks.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingNode.cs(10,16): warning CS8618: Non-nullable field 'Column' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksSolver.cs(30,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(25,46): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(26,45): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(46,44): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(47,29): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(55,43): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(56,21): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+    8 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.80
+
+
+WritePatch: Compile failed.
+DancingLinks
+
+Finished WritePatch cycle step.
+2025-02-23 8:29:13 AM
+DancingLinks
+
+WritePatch Started CycleStep. 2025-02-23 8:29:13 AM
+DancingLinks
+
+WritePatch ran compiler. 2025-02-23 8:30:33 AM
+DancingLinks
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksSolver.cs(30,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(25,46): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(26,45): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+  DancingLinks -> D:\Code2025\RavenWork\DancingLinks\DancingLinks\bin\Debug\net9.0\DancingLinks.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksSolver.cs(30,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(25,46): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(26,45): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.76
+
+
+WritePatch: Compile failed.
+DancingLinks
+
+Finished WritePatch cycle step.
+2025-02-23 8:30:34 AM
+DancingLinks
+
+WritePatch Started CycleStep. 2025-02-23 8:30:34 AM
+DancingLinks
+
+WritePatch ran compiler. 2025-02-23 8:32:01 AM
+DancingLinks
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(46,44): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(47,29): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+  DancingLinks -> D:\Code2025\RavenWork\DancingLinks\DancingLinks\bin\Debug\net9.0\DancingLinks.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(46,44): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(47,29): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.76
+
+
+WritePatch: Compile failed.
+DancingLinks
+
+Finished WritePatch cycle step.
+2025-02-23 8:32:02 AM
+DancingLinks
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\DancingLinks\DancingLinks
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(46,44): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(47,29): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+  DancingLinks -> D:\Code2025\RavenWork\DancingLinks\DancingLinks\bin\Debug\net9.0\DancingLinks.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(46,44): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinksBuilder.cs(47,29): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\DancingLinks\DancingLinks\DancingLinks.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.76
+
+</CompilerResponse>
+2025-02-23 8:32:02 AM
+DancingLinks
+
+WritePatch ran compiler. 2025-02-23 8:32:03 AM
+DancingLinks
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DancingLinks -> D:\Code2025\RavenWork\DancingLinks\DancingLinks\bin\Debug\net9.0\DancingLinks.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.72
+
+
+WritePatch: Code is Complete.
+DancingLinks
+
+WritePatch Started CycleStep. 2025-02-23 8:32:48 AM
+DancingLinksTest
+
+WritePatch ran compiler. 2025-02-23 8:34:05 AM
+DancingLinksTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\DancingLinks\DancingLinksTest\DancingLinksTest.csproj (in 278 ms).
+  1 of 2 projects are up-to-date for restore.
+  DancingLinks -> D:\Code2025\RavenWork\DancingLinks\DancingLinks\bin\Debug\net9.0\DancingLinks.dll
+  DancingLinksTest -> D:\Code2025\RavenWork\DancingLinks\DancingLinksTest\bin\Debug\net9.0\DancingLinksTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.71
+
+
+WritePatch: Code is Complete.
+DancingLinksTest
+
+TestResult:
+[SUCCESS 2025-02-23 8:34:38 AM] All tests passed successfully.
+[INFO 2025-02-23 8:34:38 AM] Test process completed. Duration: 3.02 seconds.
+[INFO 2025-02-23 8:34:38 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 8:34:38 AM]   Passed TestNoSolution [4 ms]
+[OUTPUT 2025-02-23 8:34:38 AM] Test Parallelization enabled for D:\Code2025\RavenWork\DancingLinks\DancingLinksTest\bin\Debug\net9.0\DancingLinksTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 8:34:37 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:34:36 AM] Test run for D:\Code2025\RavenWork\DancingLinks\DancingLinksTest\bin\Debug\net9.0\DancingLinksTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:34:36 AM]   DancingLinksTest -> D:\Code2025\RavenWork\DancingLinks\DancingLinksTest\bin\Debug\net9.0\DancingLinksTest.dll
+[OUTPUT 2025-02-23 8:34:36 AM]   DancingLinks -> D:\Code2025\RavenWork\DancingLinks\DancingLinks\bin\Debug\net9.0\DancingLinks.dll
+[OUTPUT 2025-02-23 8:34:36 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:34:37 AM] D:\Code2025\RavenWork\DancingLinks\DancingLinksTest\bin\Debug\net9.0\DancingLinksTest.dll
+[OUTPUT 2025-02-23 8:34:37 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 8:34:37 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:34:35 AM]   Determining projects to restore...
+[INFO 2025-02-23 8:34:35 AM] Command: dotnet test "D:\Code2025\RavenWork\DancingLinks\DancingLinksTest\DancingLinksTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:34:35 AM] Starting test for project: D:\Code2025\RavenWork\DancingLinks\DancingLinksTest\DancingLinksTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
