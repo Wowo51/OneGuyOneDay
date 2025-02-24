@@ -1,0 +1,286 @@
+<ActRecord>
+  <ProjectName>EarleyParserAlgorithm</ProjectName>
+  <ProjectDescription>Earley parser: An O(n³) algorithm for parsing any context‑free grammar</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Earley parser: An O(n³) algorithm for parsing any context‑free grammar</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\EarleyParserAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>EarleyParserAlgorithm</ProjectFolderName>
+  <ProjectName>EarleyParserAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:50:31 PM
+EarleyParserAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:51:56 PM
+EarleyParserAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\Rule.cs(14,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParserAlgorithm.csproj]
+D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyState.cs(32,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParserAlgorithm.csproj]
+D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyState.cs(28,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParserAlgorithm.csproj]
+D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\Rule.cs(16,26): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParserAlgorithm.csproj]
+  EarleyParserAlgorithm -> D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\bin\Debug\net9.0\EarleyParserAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\Rule.cs(14,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParserAlgorithm.csproj]
+D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyState.cs(32,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParserAlgorithm.csproj]
+D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyState.cs(28,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParserAlgorithm.csproj]
+D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\Rule.cs(16,26): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParserAlgorithm.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.45
+]]></string>
+    <string>WritePatch: Compile failed.
+EarleyParserAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:51:57 PM
+EarleyParserAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:51:57 PM
+EarleyParserAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:52:44 PM
+EarleyParserAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParser.cs(37,46): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParserAlgorithm.csproj]
+D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParser.cs(38,47): warning CS8604: Possible null reference argument for parameter 'symbol' in 'bool EarleyParser.IsNonTerminal(string symbol)'. [D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParserAlgorithm.csproj]
+D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParser.cs(78,46): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParserAlgorithm.csproj]
+D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParser.cs(79,48): warning CS8604: Possible null reference argument for parameter 'symbol' in 'bool EarleyParser.IsNonTerminal(string symbol)'. [D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParserAlgorithm.csproj]
+  EarleyParserAlgorithm -> D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\bin\Debug\net9.0\EarleyParserAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParser.cs(37,46): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParserAlgorithm.csproj]
+D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParser.cs(38,47): warning CS8604: Possible null reference argument for parameter 'symbol' in 'bool EarleyParser.IsNonTerminal(string symbol)'. [D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParserAlgorithm.csproj]
+D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParser.cs(78,46): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParserAlgorithm.csproj]
+D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParser.cs(79,48): warning CS8604: Possible null reference argument for parameter 'symbol' in 'bool EarleyParser.IsNonTerminal(string symbol)'. [D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParserAlgorithm.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.14
+]]></string>
+    <string>WritePatch: Compile failed.
+EarleyParserAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:52:45 PM
+EarleyParserAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:52:45 PM
+EarleyParserAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:53:43 PM
+EarleyParserAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EarleyParserAlgorithm -> D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\bin\Debug\net9.0\EarleyParserAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.20
+]]></string>
+    <string>WritePatch: Code is Complete.
+EarleyParserAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:54:04 PM
+EarleyParserAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:54:52 PM
+EarleyParserAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithmTest\EarleyParserAlgorithmTest.csproj (in 331 ms).
+  1 of 2 projects are up-to-date for restore.
+  EarleyParserAlgorithm -> D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\bin\Debug\net9.0\EarleyParserAlgorithm.dll
+  EarleyParserAlgorithmTest -> D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithmTest\bin\Debug\net9.0\EarleyParserAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.38
+]]></string>
+    <string>WritePatch: Code is Complete.
+EarleyParserAlgorithmTest</string>
+    <string>[INFO 2025-02-23 2:55:17 PM] Starting test for project: D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithmTest\EarleyParserAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:55:17 PM] Starting test for project: D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithmTest\EarleyParserAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:55:17 PM] Starting test for project: D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithmTest\EarleyParserAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:55:17 PM] Starting test for project: D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithmTest\EarleyParserAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:55:17 PM] Starting test for project: D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithmTest\EarleyParserAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:55:17 PM] Starting test for project: D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithmTest\EarleyParserAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:55:17 PM] Starting test for project: D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithmTest\EarleyParserAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:55:17 PM] Starting test for project: D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithmTest\EarleyParserAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:55:17 PM] Starting test for project: D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithmTest\EarleyParserAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:55:17 PM] Starting test for project: D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithmTest\EarleyParserAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:55:17 PM] Starting test for project: D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithmTest\EarleyParserAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:55:17 PM] Starting test for project: D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithmTest\EarleyParserAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:55:17 PM] Starting test for project: D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithmTest\EarleyParserAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:55:17 PM] Starting test for project: D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithmTest\EarleyParserAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 2:55:23 PM]   Passed Test_SingleTerminalAccepted [44 ms]
+[SUCCESS 2025-02-23 2:55:23 PM] All tests passed successfully.
+[INFO 2025-02-23 2:55:23 PM] Test process completed. Duration: 6.31 seconds.
+[INFO 2025-02-23 2:55:23 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 2:55:22 PM] Test Parallelization enabled for D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithmTest\bin\Debug\net9.0\EarleyParserAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 2:55:19 PM]   EarleyParserAlgorithm -> D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\bin\Debug\net9.0\EarleyParserAlgorithm.dll
+[OUTPUT 2025-02-23 2:55:18 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 2:55:23 PM]   Passed Test_EpsilonProduction [44 ms]
+[OUTPUT 2025-02-23 2:55:21 PM] D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithmTest\bin\Debug\net9.0\EarleyParserAlgorithmTest.dll
+[OUTPUT 2025-02-23 2:55:20 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 2:55:20 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 2:55:20 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 2:55:19 PM] Test run for D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithmTest\bin\Debug\net9.0\EarleyParserAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 2:55:19 PM]   EarleyParserAlgorithmTest -> D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithmTest\bin\Debug\net9.0\EarleyParserAlgorithmTest.dll
+[OUTPUT 2025-02-23 2:55:18 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 2:55:17 PM] Command: dotnet test "D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithmTest\EarleyParserAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 2:55:17 PM] Starting test for project: D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithmTest\EarleyParserAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 2:50:31 PM
+EarleyParserAlgorithm
+
+WritePatch ran compiler. 2025-02-23 2:51:56 PM
+EarleyParserAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\Rule.cs(14,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParserAlgorithm.csproj]
+D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyState.cs(32,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParserAlgorithm.csproj]
+D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyState.cs(28,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParserAlgorithm.csproj]
+D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\Rule.cs(16,26): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParserAlgorithm.csproj]
+  EarleyParserAlgorithm -> D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\bin\Debug\net9.0\EarleyParserAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\Rule.cs(14,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParserAlgorithm.csproj]
+D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyState.cs(32,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParserAlgorithm.csproj]
+D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyState.cs(28,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParserAlgorithm.csproj]
+D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\Rule.cs(16,26): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParserAlgorithm.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.45
+
+
+WritePatch: Compile failed.
+EarleyParserAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 2:51:57 PM
+EarleyParserAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 2:51:57 PM
+EarleyParserAlgorithm
+
+WritePatch ran compiler. 2025-02-23 2:52:44 PM
+EarleyParserAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParser.cs(37,46): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParserAlgorithm.csproj]
+D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParser.cs(38,47): warning CS8604: Possible null reference argument for parameter 'symbol' in 'bool EarleyParser.IsNonTerminal(string symbol)'. [D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParserAlgorithm.csproj]
+D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParser.cs(78,46): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParserAlgorithm.csproj]
+D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParser.cs(79,48): warning CS8604: Possible null reference argument for parameter 'symbol' in 'bool EarleyParser.IsNonTerminal(string symbol)'. [D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParserAlgorithm.csproj]
+  EarleyParserAlgorithm -> D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\bin\Debug\net9.0\EarleyParserAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParser.cs(37,46): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParserAlgorithm.csproj]
+D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParser.cs(38,47): warning CS8604: Possible null reference argument for parameter 'symbol' in 'bool EarleyParser.IsNonTerminal(string symbol)'. [D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParserAlgorithm.csproj]
+D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParser.cs(78,46): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParserAlgorithm.csproj]
+D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParser.cs(79,48): warning CS8604: Possible null reference argument for parameter 'symbol' in 'bool EarleyParser.IsNonTerminal(string symbol)'. [D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\EarleyParserAlgorithm.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.14
+
+
+WritePatch: Compile failed.
+EarleyParserAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 2:52:45 PM
+EarleyParserAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 2:52:45 PM
+EarleyParserAlgorithm
+
+WritePatch ran compiler. 2025-02-23 2:53:43 PM
+EarleyParserAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EarleyParserAlgorithm -> D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\bin\Debug\net9.0\EarleyParserAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.20
+
+
+WritePatch: Code is Complete.
+EarleyParserAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 2:54:04 PM
+EarleyParserAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 2:54:52 PM
+EarleyParserAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithmTest\EarleyParserAlgorithmTest.csproj (in 331 ms).
+  1 of 2 projects are up-to-date for restore.
+  EarleyParserAlgorithm -> D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\bin\Debug\net9.0\EarleyParserAlgorithm.dll
+  EarleyParserAlgorithmTest -> D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithmTest\bin\Debug\net9.0\EarleyParserAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.38
+
+
+WritePatch: Code is Complete.
+EarleyParserAlgorithmTest
+
+TestResult:
+[OUTPUT 2025-02-23 2:55:23 PM]   Passed Test_SingleTerminalAccepted [44 ms]
+[SUCCESS 2025-02-23 2:55:23 PM] All tests passed successfully.
+[INFO 2025-02-23 2:55:23 PM] Test process completed. Duration: 6.31 seconds.
+[INFO 2025-02-23 2:55:23 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 2:55:22 PM] Test Parallelization enabled for D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithmTest\bin\Debug\net9.0\EarleyParserAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 2:55:19 PM]   EarleyParserAlgorithm -> D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithm\bin\Debug\net9.0\EarleyParserAlgorithm.dll
+[OUTPUT 2025-02-23 2:55:18 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 2:55:23 PM]   Passed Test_EpsilonProduction [44 ms]
+[OUTPUT 2025-02-23 2:55:21 PM] D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithmTest\bin\Debug\net9.0\EarleyParserAlgorithmTest.dll
+[OUTPUT 2025-02-23 2:55:20 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 2:55:20 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 2:55:20 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 2:55:19 PM] Test run for D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithmTest\bin\Debug\net9.0\EarleyParserAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 2:55:19 PM]   EarleyParserAlgorithmTest -> D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithmTest\bin\Debug\net9.0\EarleyParserAlgorithmTest.dll
+[OUTPUT 2025-02-23 2:55:18 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 2:55:17 PM] Command: dotnet test "D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithmTest\EarleyParserAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 2:55:17 PM] Starting test for project: D:\Code2025\RavenWork\EarleyParserAlgorithm\EarleyParserAlgorithmTest\EarleyParserAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
