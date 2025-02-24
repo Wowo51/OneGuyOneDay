@@ -1,0 +1,400 @@
+<ActRecord>
+  <ProjectName>CannonsAlgorithm</ProjectName>
+  <ProjectDescription><![CDATA[Cannon's algorithm – A distributed matrix multiplication algorithm optimized for processors arranged in an N×N mesh.]]></ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification><![CDATA[Cannon's algorithm – A distributed matrix multiplication algorithm optimized for processors arranged in an N×N mesh.]]]]><![CDATA[></WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\CannonsAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>CannonsAlgorithm</ProjectFolderName>
+  <ProjectName>CannonsAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:43:15 AM
+CannonsAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:44:51 AM
+CannonsAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CannonsAlgorithm -> D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithm\bin\Debug\net9.0\CannonsAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+]]></string>
+    <string>WritePatch: Code is Complete.
+CannonsAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:45:15 AM
+CannonsAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:46:44 AM
+CannonsAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj (in 213 ms).
+  1 of 2 projects are up-to-date for restore.
+  CannonsAlgorithm -> D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithm\bin\Debug\net9.0\CannonsAlgorithm.dll
+D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonAlgorithmTests.cs(64,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonAlgorithmTests.cs(64,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj]
+  CannonsAlgorithmTest -> D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\bin\Debug\net9.0\CannonsAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonAlgorithmTests.cs(64,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonAlgorithmTests.cs(64,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.46
+]]></string>
+    <string>WritePatch: Compile failed.
+CannonsAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:46:45 AM
+CannonsAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:46:46 AM
+CannonsAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:47:40 AM
+CannonsAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CannonsAlgorithm -> D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithm\bin\Debug\net9.0\CannonsAlgorithm.dll
+  CannonsAlgorithmTest -> D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\bin\Debug\net9.0\CannonsAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+]]></string>
+    <string>WritePatch: Code is not Complete.
+CannonsAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:47:53 AM
+CannonsAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:47:54 AM
+CannonsAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:48:57 AM
+CannonsAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CannonsAlgorithm -> D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithm\bin\Debug\net9.0\CannonsAlgorithm.dll
+D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonAlgorithmTests.cs(64,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonAlgorithmTests.cs(64,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj]
+  CannonsAlgorithmTest -> D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\bin\Debug\net9.0\CannonsAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonAlgorithmTests.cs(64,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonAlgorithmTests.cs(64,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.05
+]]></string>
+    <string>WritePatch: Compile failed.
+CannonsAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:48:57 AM
+CannonsAlgorithmTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CannonsAlgorithm -> D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithm\bin\Debug\net9.0\CannonsAlgorithm.dll
+D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonAlgorithmTests.cs(64,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonAlgorithmTests.cs(64,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj]
+  CannonsAlgorithmTest -> D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\bin\Debug\net9.0\CannonsAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonAlgorithmTests.cs(64,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonAlgorithmTests.cs(64,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.05
+
+</CompilerResponse>
+2025-02-23 10:48:58 AM
+CannonsAlgorithmTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 10:48:59 AM
+CannonsAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CannonsAlgorithm -> D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithm\bin\Debug\net9.0\CannonsAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+]]></string>
+    <string>WritePatch: Code is Complete.
+CannonsAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:49:18 AM
+CannonsAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CannonsAlgorithm -> D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithm\bin\Debug\net9.0\CannonsAlgorithm.dll
+  CannonsAlgorithmTest -> D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\bin\Debug\net9.0\CannonsAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+]]></string>
+    <string>WritePatch: Code is Complete.
+CannonsAlgorithmTest</string>
+    <string>[INFO 2025-02-23 10:49:26 AM] Starting test for project: D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:49:26 AM] Starting test for project: D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:49:26 AM] Starting test for project: D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:49:26 AM] Starting test for project: D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:49:26 AM] Starting test for project: D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:49:26 AM] Starting test for project: D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:49:26 AM] Starting test for project: D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:49:26 AM] Starting test for project: D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:49:26 AM] Starting test for project: D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:49:26 AM] Starting test for project: D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:49:26 AM] Starting test for project: D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:49:26 AM] Starting test for project: D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 10:49:29 AM] Test Parallelization enabled for D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\bin\Debug\net9.0\CannonsAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:49:27 AM]   CannonsAlgorithm -> D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithm\bin\Debug\net9.0\CannonsAlgorithm.dll
+[OUTPUT 2025-02-23 10:49:27 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:49:29 AM] D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\bin\Debug\net9.0\CannonsAlgorithmTest.dll
+[OUTPUT 2025-02-23 10:49:29 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:49:28 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:49:28 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:49:28 AM] Test run for D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\bin\Debug\net9.0\CannonsAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:49:28 AM]   CannonsAlgorithmTest -> D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\bin\Debug\net9.0\CannonsAlgorithmTest.dll
+[OUTPUT 2025-02-23 10:49:27 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 10:49:29 AM] All tests passed successfully.
+[INFO 2025-02-23 10:49:29 AM] Test process completed. Duration: 3.05 seconds.
+[INFO 2025-02-23 10:49:29 AM] Process exited with code 0.
+[INFO 2025-02-23 10:49:26 AM] Command: dotnet test "D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:49:26 AM] Starting test for project: D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 10:43:15 AM
+CannonsAlgorithm
+
+WritePatch ran compiler. 2025-02-23 10:44:51 AM
+CannonsAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CannonsAlgorithm -> D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithm\bin\Debug\net9.0\CannonsAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+
+
+WritePatch: Code is Complete.
+CannonsAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 10:45:15 AM
+CannonsAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 10:46:44 AM
+CannonsAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj (in 213 ms).
+  1 of 2 projects are up-to-date for restore.
+  CannonsAlgorithm -> D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithm\bin\Debug\net9.0\CannonsAlgorithm.dll
+D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonAlgorithmTests.cs(64,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonAlgorithmTests.cs(64,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj]
+  CannonsAlgorithmTest -> D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\bin\Debug\net9.0\CannonsAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonAlgorithmTests.cs(64,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonAlgorithmTests.cs(64,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.46
+
+
+WritePatch: Compile failed.
+CannonsAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:46:45 AM
+CannonsAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 10:46:46 AM
+CannonsAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 10:47:40 AM
+CannonsAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CannonsAlgorithm -> D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithm\bin\Debug\net9.0\CannonsAlgorithm.dll
+  CannonsAlgorithmTest -> D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\bin\Debug\net9.0\CannonsAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+
+
+WritePatch: Code is not Complete.
+CannonsAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:47:53 AM
+CannonsAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 10:47:54 AM
+CannonsAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 10:48:57 AM
+CannonsAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CannonsAlgorithm -> D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithm\bin\Debug\net9.0\CannonsAlgorithm.dll
+D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonAlgorithmTests.cs(64,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonAlgorithmTests.cs(64,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj]
+  CannonsAlgorithmTest -> D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\bin\Debug\net9.0\CannonsAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonAlgorithmTests.cs(64,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonAlgorithmTests.cs(64,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.05
+
+
+WritePatch: Compile failed.
+CannonsAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:48:57 AM
+CannonsAlgorithmTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CannonsAlgorithm -> D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithm\bin\Debug\net9.0\CannonsAlgorithm.dll
+D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonAlgorithmTests.cs(64,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonAlgorithmTests.cs(64,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj]
+  CannonsAlgorithmTest -> D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\bin\Debug\net9.0\CannonsAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonAlgorithmTests.cs(64,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonAlgorithmTests.cs(64,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.05
+
+</CompilerResponse>
+2025-02-23 10:48:58 AM
+CannonsAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 10:48:59 AM
+CannonsAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CannonsAlgorithm -> D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithm\bin\Debug\net9.0\CannonsAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+
+
+WritePatch: Code is Complete.
+CannonsAlgorithm
+
+WritePatch ran compiler. 2025-02-23 10:49:18 AM
+CannonsAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CannonsAlgorithm -> D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithm\bin\Debug\net9.0\CannonsAlgorithm.dll
+  CannonsAlgorithmTest -> D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\bin\Debug\net9.0\CannonsAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+
+
+WritePatch: Code is Complete.
+CannonsAlgorithmTest
+
+TestResult:
+[OUTPUT 2025-02-23 10:49:29 AM] Test Parallelization enabled for D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\bin\Debug\net9.0\CannonsAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:49:27 AM]   CannonsAlgorithm -> D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithm\bin\Debug\net9.0\CannonsAlgorithm.dll
+[OUTPUT 2025-02-23 10:49:27 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:49:29 AM] D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\bin\Debug\net9.0\CannonsAlgorithmTest.dll
+[OUTPUT 2025-02-23 10:49:29 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:49:28 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:49:28 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:49:28 AM] Test run for D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\bin\Debug\net9.0\CannonsAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:49:28 AM]   CannonsAlgorithmTest -> D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\bin\Debug\net9.0\CannonsAlgorithmTest.dll
+[OUTPUT 2025-02-23 10:49:27 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 10:49:29 AM] All tests passed successfully.
+[INFO 2025-02-23 10:49:29 AM] Test process completed. Duration: 3.05 seconds.
+[INFO 2025-02-23 10:49:29 AM] Process exited with code 0.
+[INFO 2025-02-23 10:49:26 AM] Command: dotnet test "D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:49:26 AM] Starting test for project: D:\Code2025\RavenWork\CannonsAlgorithm\CannonsAlgorithmTest\CannonsAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
