@@ -1,0 +1,156 @@
+<ActRecord>
+  <ProjectName>LeastSlackTime</ProjectName>
+  <ProjectDescription>Least slack time scheduling</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Least slack time scheduling</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\LeastSlackTime</SolutionFolderPath>
+  <ProjectFolderName>LeastSlackTime</ProjectFolderName>
+  <ProjectName>LeastSlackTime</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:36:13 PM
+LeastSlackTime</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:36:55 PM
+LeastSlackTime</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LeastSlackTime -> D:\Code2025\RavenWork\LeastSlackTime\LeastSlackTime\bin\Debug\net9.0\LeastSlackTime.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.62
+]]></string>
+    <string>WritePatch: Code is Complete.
+LeastSlackTime</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:37:15 PM
+LeastSlackTimeTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:37:53 PM
+LeastSlackTimeTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LeastSlackTime\LeastSlackTimeTest\LeastSlackTimeTest.csproj (in 292 ms).
+  1 of 2 projects are up-to-date for restore.
+  LeastSlackTime -> D:\Code2025\RavenWork\LeastSlackTime\LeastSlackTime\bin\Debug\net9.0\LeastSlackTime.dll
+  LeastSlackTimeTest -> D:\Code2025\RavenWork\LeastSlackTime\LeastSlackTimeTest\bin\Debug\net9.0\LeastSlackTimeTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.40
+]]></string>
+    <string>WritePatch: Code is Complete.
+LeastSlackTimeTest</string>
+    <string>[INFO 2025-02-23 1:38:10 PM] Starting test for project: D:\Code2025\RavenWork\LeastSlackTime\LeastSlackTimeTest\LeastSlackTimeTest.csproj</string>
+    <string>[INFO 2025-02-23 1:38:10 PM] Starting test for project: D:\Code2025\RavenWork\LeastSlackTime\LeastSlackTimeTest\LeastSlackTimeTest.csproj</string>
+    <string>[INFO 2025-02-23 1:38:10 PM] Starting test for project: D:\Code2025\RavenWork\LeastSlackTime\LeastSlackTimeTest\LeastSlackTimeTest.csproj</string>
+    <string>[INFO 2025-02-23 1:38:10 PM] Starting test for project: D:\Code2025\RavenWork\LeastSlackTime\LeastSlackTimeTest\LeastSlackTimeTest.csproj</string>
+    <string>[INFO 2025-02-23 1:38:10 PM] Starting test for project: D:\Code2025\RavenWork\LeastSlackTime\LeastSlackTimeTest\LeastSlackTimeTest.csproj</string>
+    <string>[INFO 2025-02-23 1:38:10 PM] Starting test for project: D:\Code2025\RavenWork\LeastSlackTime\LeastSlackTimeTest\LeastSlackTimeTest.csproj</string>
+    <string>[INFO 2025-02-23 1:38:10 PM] Starting test for project: D:\Code2025\RavenWork\LeastSlackTime\LeastSlackTimeTest\LeastSlackTimeTest.csproj</string>
+    <string>[INFO 2025-02-23 1:38:10 PM] Starting test for project: D:\Code2025\RavenWork\LeastSlackTime\LeastSlackTimeTest\LeastSlackTimeTest.csproj</string>
+    <string>[INFO 2025-02-23 1:38:10 PM] Starting test for project: D:\Code2025\RavenWork\LeastSlackTime\LeastSlackTimeTest\LeastSlackTimeTest.csproj</string>
+    <string>[INFO 2025-02-23 1:38:10 PM] Starting test for project: D:\Code2025\RavenWork\LeastSlackTime\LeastSlackTimeTest\LeastSlackTimeTest.csproj</string>
+    <string>[INFO 2025-02-23 1:38:10 PM] Starting test for project: D:\Code2025\RavenWork\LeastSlackTime\LeastSlackTimeTest\LeastSlackTimeTest.csproj</string>
+    <string>[INFO 2025-02-23 1:38:10 PM] Starting test for project: D:\Code2025\RavenWork\LeastSlackTime\LeastSlackTimeTest\LeastSlackTimeTest.csproj</string>
+    <string>[INFO 2025-02-23 1:38:10 PM] Starting test for project: D:\Code2025\RavenWork\LeastSlackTime\LeastSlackTimeTest\LeastSlackTimeTest.csproj</string>
+    <string>[INFO 2025-02-23 1:38:10 PM] Starting test for project: D:\Code2025\RavenWork\LeastSlackTime\LeastSlackTimeTest\LeastSlackTimeTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 1:38:16 PM] All tests passed successfully.
+[INFO 2025-02-23 1:38:16 PM] Test process completed. Duration: 6.39 seconds.
+[INFO 2025-02-23 1:38:16 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 1:38:16 PM]   Passed TestSchedule_SingleTask_CorrectTimes [6 ms]
+[OUTPUT 2025-02-23 1:38:16 PM]   Passed TestSchedule_EmptyList_ReturnsEmptyList [6 ms]
+[OUTPUT 2025-02-23 1:38:16 PM] Test Parallelization enabled for D:\Code2025\RavenWork\LeastSlackTime\LeastSlackTimeTest\bin\Debug\net9.0\LeastSlackTimeTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 1:38:14 PM] D:\Code2025\RavenWork\LeastSlackTime\LeastSlackTimeTest\bin\Debug\net9.0\LeastSlackTimeTest.dll
+[OUTPUT 2025-02-23 1:38:14 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 1:38:14 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 1:38:12 PM]   LeastSlackTime -> D:\Code2025\RavenWork\LeastSlackTime\LeastSlackTime\bin\Debug\net9.0\LeastSlackTime.dll
+[OUTPUT 2025-02-23 1:38:12 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:38:11 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 1:38:13 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 1:38:13 PM] Test run for D:\Code2025\RavenWork\LeastSlackTime\LeastSlackTimeTest\bin\Debug\net9.0\LeastSlackTimeTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 1:38:12 PM]   LeastSlackTimeTest -> D:\Code2025\RavenWork\LeastSlackTime\LeastSlackTimeTest\bin\Debug\net9.0\LeastSlackTimeTest.dll
+[INFO 2025-02-23 1:38:10 PM] Command: dotnet test "D:\Code2025\RavenWork\LeastSlackTime\LeastSlackTimeTest\LeastSlackTimeTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:38:10 PM] Starting test for project: D:\Code2025\RavenWork\LeastSlackTime\LeastSlackTimeTest\LeastSlackTimeTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 1:36:13 PM
+LeastSlackTime
+
+WritePatch ran compiler. 2025-02-23 1:36:55 PM
+LeastSlackTime
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LeastSlackTime -> D:\Code2025\RavenWork\LeastSlackTime\LeastSlackTime\bin\Debug\net9.0\LeastSlackTime.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.62
+
+
+WritePatch: Code is Complete.
+LeastSlackTime
+
+WritePatch Started CycleStep. 2025-02-23 1:37:15 PM
+LeastSlackTimeTest
+
+WritePatch ran compiler. 2025-02-23 1:37:53 PM
+LeastSlackTimeTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LeastSlackTime\LeastSlackTimeTest\LeastSlackTimeTest.csproj (in 292 ms).
+  1 of 2 projects are up-to-date for restore.
+  LeastSlackTime -> D:\Code2025\RavenWork\LeastSlackTime\LeastSlackTime\bin\Debug\net9.0\LeastSlackTime.dll
+  LeastSlackTimeTest -> D:\Code2025\RavenWork\LeastSlackTime\LeastSlackTimeTest\bin\Debug\net9.0\LeastSlackTimeTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.40
+
+
+WritePatch: Code is Complete.
+LeastSlackTimeTest
+
+TestResult:
+[SUCCESS 2025-02-23 1:38:16 PM] All tests passed successfully.
+[INFO 2025-02-23 1:38:16 PM] Test process completed. Duration: 6.39 seconds.
+[INFO 2025-02-23 1:38:16 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 1:38:16 PM]   Passed TestSchedule_SingleTask_CorrectTimes [6 ms]
+[OUTPUT 2025-02-23 1:38:16 PM]   Passed TestSchedule_EmptyList_ReturnsEmptyList [6 ms]
+[OUTPUT 2025-02-23 1:38:16 PM] Test Parallelization enabled for D:\Code2025\RavenWork\LeastSlackTime\LeastSlackTimeTest\bin\Debug\net9.0\LeastSlackTimeTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 1:38:14 PM] D:\Code2025\RavenWork\LeastSlackTime\LeastSlackTimeTest\bin\Debug\net9.0\LeastSlackTimeTest.dll
+[OUTPUT 2025-02-23 1:38:14 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 1:38:14 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 1:38:12 PM]   LeastSlackTime -> D:\Code2025\RavenWork\LeastSlackTime\LeastSlackTime\bin\Debug\net9.0\LeastSlackTime.dll
+[OUTPUT 2025-02-23 1:38:12 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:38:11 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 1:38:13 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 1:38:13 PM] Test run for D:\Code2025\RavenWork\LeastSlackTime\LeastSlackTimeTest\bin\Debug\net9.0\LeastSlackTimeTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 1:38:12 PM]   LeastSlackTimeTest -> D:\Code2025\RavenWork\LeastSlackTime\LeastSlackTimeTest\bin\Debug\net9.0\LeastSlackTimeTest.dll
+[INFO 2025-02-23 1:38:10 PM] Command: dotnet test "D:\Code2025\RavenWork\LeastSlackTime\LeastSlackTimeTest\LeastSlackTimeTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:38:10 PM] Starting test for project: D:\Code2025\RavenWork\LeastSlackTime\LeastSlackTimeTest\LeastSlackTimeTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
