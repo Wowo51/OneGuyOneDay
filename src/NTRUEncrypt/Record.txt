@@ -1,0 +1,386 @@
+<ActRecord>
+  <ProjectName>NTRUEncrypt</ProjectName>
+  <ProjectDescription>NTRUEncrypt</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>NTRUEncrypt</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\NTRUEncrypt</SolutionFolderPath>
+  <ProjectFolderName>NTRUEncrypt</ProjectFolderName>
+  <ProjectName>NTRUEncrypt</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:29:32 AM
+NTRUEncrypt</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:32:06 AM
+NTRUEncrypt</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  NTRUEncrypt -> D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncrypt\bin\Debug\net9.0\NTRUEncrypt.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.90
+]]></string>
+    <string>WritePatch: Code is not Complete.
+NTRUEncrypt</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:32:53 AM
+NTRUEncrypt</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:32:53 AM
+NTRUEncrypt</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:33:51 AM
+NTRUEncrypt</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  NTRUEncrypt -> D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncrypt\bin\Debug\net9.0\NTRUEncrypt.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.88
+]]></string>
+    <string>WritePatch: Code is not Complete.
+NTRUEncrypt</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:34:12 AM
+NTRUEncrypt</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:34:12 AM
+NTRUEncrypt</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:35:30 AM
+NTRUEncrypt</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  NTRUEncrypt -> D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncrypt\bin\Debug\net9.0\NTRUEncrypt.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.91
+]]></string>
+    <string>WritePatch: Code is Complete.
+NTRUEncrypt</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:35:43 AM
+NTRUEncryptTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:36:22 AM
+NTRUEncryptTest</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj (in 206 ms).
+  1 of 2 projects are up-to-date for restore.
+  NTRUEncrypt -> D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncrypt\bin\Debug\net9.0\NTRUEncrypt.dll
+D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptorTests.cs(2,7): error CS0138: A 'using namespace' directive can only be applied to namespaces; 'Random' is a type not a namespace. Consider a 'using static' directive instead [D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptorTests.cs(2,7): error CS0138: A 'using namespace' directive can only be applied to namespaces; 'Random' is a type not a namespace. Consider a 'using static' directive instead [D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj]
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.31
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+NTRUEncryptTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:36:22 AM
+NTRUEncryptTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:36:23 AM
+NTRUEncryptTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:37:21 AM
+NTRUEncryptTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  NTRUEncrypt -> D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncrypt\bin\Debug\net9.0\NTRUEncrypt.dll
+D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptorTests.cs(31,48): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj]
+D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptorTests.cs(39,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj]
+D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptorTests.cs(41,76): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj]
+D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptorTests.cs(51,48): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj]
+D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptorTests.cs(59,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj]
+D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptorTests.cs(61,80): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj]
+  NTRUEncryptTest -> D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\bin\Debug\net9.0\NTRUEncryptTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptorTests.cs(31,48): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj]
+D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptorTests.cs(39,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj]
+D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptorTests.cs(41,76): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj]
+D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptorTests.cs(51,48): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj]
+D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptorTests.cs(59,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj]
+D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptorTests.cs(61,80): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj]
+    6 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.33
+]]></string>
+    <string>WritePatch: Compile failed.
+NTRUEncryptTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:37:21 AM
+NTRUEncryptTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:37:21 AM
+NTRUEncryptTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:38:17 AM
+NTRUEncryptTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  NTRUEncrypt -> D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncrypt\bin\Debug\net9.0\NTRUEncrypt.dll
+  NTRUEncryptTest -> D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\bin\Debug\net9.0\NTRUEncryptTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.09
+]]></string>
+    <string>WritePatch: Code is Complete.
+NTRUEncryptTest</string>
+    <string>[INFO 2025-02-23 10:38:33 AM] Starting test for project: D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj</string>
+    <string>[INFO 2025-02-23 10:38:33 AM] Starting test for project: D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj</string>
+    <string>[INFO 2025-02-23 10:38:33 AM] Starting test for project: D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj</string>
+    <string>[INFO 2025-02-23 10:38:33 AM] Starting test for project: D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj</string>
+    <string>[INFO 2025-02-23 10:38:33 AM] Starting test for project: D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj</string>
+    <string>[INFO 2025-02-23 10:38:33 AM] Starting test for project: D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj</string>
+    <string>[INFO 2025-02-23 10:38:33 AM] Starting test for project: D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj</string>
+    <string>[INFO 2025-02-23 10:38:33 AM] Starting test for project: D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj</string>
+    <string>[INFO 2025-02-23 10:38:33 AM] Starting test for project: D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj</string>
+    <string>[INFO 2025-02-23 10:38:33 AM] Starting test for project: D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj</string>
+    <string>[INFO 2025-02-23 10:38:33 AM] Starting test for project: D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj</string>
+    <string>[INFO 2025-02-23 10:38:33 AM] Starting test for project: D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj</string>
+    <string>[INFO 2025-02-23 10:38:33 AM] Starting test for project: D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj</string>
+    <string>[INFO 2025-02-23 10:38:33 AM] Starting test for project: D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 10:38:36 AM]   Passed Test_Polynomial_Addition_Subtraction [5 ms]
+[OUTPUT 2025-02-23 10:38:34 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:38:36 AM]   Passed Test_EncryptEmptyMessage [5 ms]
+[OUTPUT 2025-02-23 10:38:36 AM] Test Parallelization enabled for D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\bin\Debug\net9.0\NTRUEncryptTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:38:35 AM] D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\bin\Debug\net9.0\NTRUEncryptTest.dll
+[OUTPUT 2025-02-23 10:38:35 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:38:35 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:38:35 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:38:34 AM] Test run for D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\bin\Debug\net9.0\NTRUEncryptTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:38:34 AM]   NTRUEncryptTest -> D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\bin\Debug\net9.0\NTRUEncryptTest.dll
+[OUTPUT 2025-02-23 10:38:34 AM]   NTRUEncrypt -> D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncrypt\bin\Debug\net9.0\NTRUEncrypt.dll
+[OUTPUT 2025-02-23 10:38:33 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 10:38:36 AM] All tests passed successfully.
+[INFO 2025-02-23 10:38:36 AM] Test process completed. Duration: 3.09 seconds.
+[INFO 2025-02-23 10:38:36 AM] Process exited with code 0.
+[INFO 2025-02-23 10:38:33 AM] Command: dotnet test "D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:38:33 AM] Starting test for project: D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 10:29:32 AM
+NTRUEncrypt
+
+WritePatch ran compiler. 2025-02-23 10:32:06 AM
+NTRUEncrypt
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  NTRUEncrypt -> D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncrypt\bin\Debug\net9.0\NTRUEncrypt.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.90
+
+
+WritePatch: Code is not Complete.
+NTRUEncrypt
+
+Finished WritePatch cycle step.
+2025-02-23 10:32:53 AM
+NTRUEncrypt
+
+WritePatch Started CycleStep. 2025-02-23 10:32:53 AM
+NTRUEncrypt
+
+WritePatch ran compiler. 2025-02-23 10:33:51 AM
+NTRUEncrypt
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  NTRUEncrypt -> D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncrypt\bin\Debug\net9.0\NTRUEncrypt.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.88
+
+
+WritePatch: Code is not Complete.
+NTRUEncrypt
+
+Finished WritePatch cycle step.
+2025-02-23 10:34:12 AM
+NTRUEncrypt
+
+WritePatch Started CycleStep. 2025-02-23 10:34:12 AM
+NTRUEncrypt
+
+WritePatch ran compiler. 2025-02-23 10:35:30 AM
+NTRUEncrypt
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  NTRUEncrypt -> D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncrypt\bin\Debug\net9.0\NTRUEncrypt.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.91
+
+
+WritePatch: Code is Complete.
+NTRUEncrypt
+
+WritePatch Started CycleStep. 2025-02-23 10:35:43 AM
+NTRUEncryptTest
+
+WritePatch ran compiler. 2025-02-23 10:36:22 AM
+NTRUEncryptTest
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj (in 206 ms).
+  1 of 2 projects are up-to-date for restore.
+  NTRUEncrypt -> D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncrypt\bin\Debug\net9.0\NTRUEncrypt.dll
+D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptorTests.cs(2,7): error CS0138: A 'using namespace' directive can only be applied to namespaces; 'Random' is a type not a namespace. Consider a 'using static' directive instead [D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptorTests.cs(2,7): error CS0138: A 'using namespace' directive can only be applied to namespaces; 'Random' is a type not a namespace. Consider a 'using static' directive instead [D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj]
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.31
+
+
+Errors:
+
+WritePatch: Compile failed.
+NTRUEncryptTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:36:22 AM
+NTRUEncryptTest
+
+WritePatch Started CycleStep. 2025-02-23 10:36:23 AM
+NTRUEncryptTest
+
+WritePatch ran compiler. 2025-02-23 10:37:21 AM
+NTRUEncryptTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  NTRUEncrypt -> D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncrypt\bin\Debug\net9.0\NTRUEncrypt.dll
+D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptorTests.cs(31,48): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj]
+D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptorTests.cs(39,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj]
+D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptorTests.cs(41,76): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj]
+D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptorTests.cs(51,48): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj]
+D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptorTests.cs(59,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj]
+D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptorTests.cs(61,80): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj]
+  NTRUEncryptTest -> D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\bin\Debug\net9.0\NTRUEncryptTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptorTests.cs(31,48): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj]
+D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptorTests.cs(39,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj]
+D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptorTests.cs(41,76): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj]
+D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptorTests.cs(51,48): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj]
+D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptorTests.cs(59,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj]
+D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptorTests.cs(61,80): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj]
+    6 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.33
+
+
+WritePatch: Compile failed.
+NTRUEncryptTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:37:21 AM
+NTRUEncryptTest
+
+WritePatch Started CycleStep. 2025-02-23 10:37:21 AM
+NTRUEncryptTest
+
+WritePatch ran compiler. 2025-02-23 10:38:17 AM
+NTRUEncryptTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  NTRUEncrypt -> D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncrypt\bin\Debug\net9.0\NTRUEncrypt.dll
+  NTRUEncryptTest -> D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\bin\Debug\net9.0\NTRUEncryptTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.09
+
+
+WritePatch: Code is Complete.
+NTRUEncryptTest
+
+TestResult:
+[OUTPUT 2025-02-23 10:38:36 AM]   Passed Test_Polynomial_Addition_Subtraction [5 ms]
+[OUTPUT 2025-02-23 10:38:34 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:38:36 AM]   Passed Test_EncryptEmptyMessage [5 ms]
+[OUTPUT 2025-02-23 10:38:36 AM] Test Parallelization enabled for D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\bin\Debug\net9.0\NTRUEncryptTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:38:35 AM] D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\bin\Debug\net9.0\NTRUEncryptTest.dll
+[OUTPUT 2025-02-23 10:38:35 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:38:35 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:38:35 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:38:34 AM] Test run for D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\bin\Debug\net9.0\NTRUEncryptTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:38:34 AM]   NTRUEncryptTest -> D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\bin\Debug\net9.0\NTRUEncryptTest.dll
+[OUTPUT 2025-02-23 10:38:34 AM]   NTRUEncrypt -> D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncrypt\bin\Debug\net9.0\NTRUEncrypt.dll
+[OUTPUT 2025-02-23 10:38:33 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 10:38:36 AM] All tests passed successfully.
+[INFO 2025-02-23 10:38:36 AM] Test process completed. Duration: 3.09 seconds.
+[INFO 2025-02-23 10:38:36 AM] Process exited with code 0.
+[INFO 2025-02-23 10:38:33 AM] Command: dotnet test "D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:38:33 AM] Starting test for project: D:\Code2025\RavenWork\NTRUEncrypt\NTRUEncryptTest\NTRUEncryptTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
