@@ -1,0 +1,378 @@
+<ActRecord>
+  <ProjectName>PredictiveSearch</ProjectName>
+  <ProjectDescription>Predictive search: binary‑like search which factors in magnitude of search term versus the high and low values in the search. Sometimes called dictionary search or interpolated search.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Predictive search: binary‑like search which factors in magnitude of search term versus the high and low values in the search. Sometimes called dictionary search or interpolated search.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\PredictiveSearch</SolutionFolderPath>
+  <ProjectFolderName>PredictiveSearch</ProjectFolderName>
+  <ProjectName>PredictiveSearch</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:06:54 PM
+PredictiveSearch</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 1:07:23 PM
+PredictiveSearch</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:07:24 PM
+PredictiveSearch</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:08:09 PM
+PredictiveSearch</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PredictiveSearch -> D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearch\bin\Debug\net9.0\PredictiveSearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+]]></string>
+    <string>WritePatch: Code is Complete.
+PredictiveSearch</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:08:28 PM
+PredictiveSearchTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:09:05 PM
+PredictiveSearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\PredictiveSearchTest.csproj (in 227 ms).
+  1 of 2 projects are up-to-date for restore.
+  PredictiveSearch -> D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearch\bin\Debug\net9.0\PredictiveSearch.dll
+D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\PredictiveSearchEngineTests.cs(12,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\PredictiveSearchTest.csproj]
+D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\PredictiveSearchEngineTests.cs(13,68): warning CS8604: Possible null reference argument for parameter 'sortedArray' in 'int PredictiveSearchEngine.InterpolatedSearch(int[] sortedArray, int target)'. [D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\PredictiveSearchTest.csproj]
+  PredictiveSearchTest -> D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\bin\Debug\net9.0\PredictiveSearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\PredictiveSearchEngineTests.cs(12,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\PredictiveSearchTest.csproj]
+D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\PredictiveSearchEngineTests.cs(13,68): warning CS8604: Possible null reference argument for parameter 'sortedArray' in 'int PredictiveSearchEngine.InterpolatedSearch(int[] sortedArray, int target)'. [D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\PredictiveSearchTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.78
+]]></string>
+    <string>WritePatch: Compile failed.
+PredictiveSearchTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:09:10 PM
+PredictiveSearchTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:09:11 PM
+PredictiveSearchTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:12:17 PM
+PredictiveSearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PredictiveSearch -> D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearch\bin\Debug\net9.0\PredictiveSearch.dll
+D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\PredictiveSearchEngineTests.cs(13,68): warning CS8604: Possible null reference argument for parameter 'sortedArray' in 'int PredictiveSearchEngine.InterpolatedSearch(int[] sortedArray, int target)'. [D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\PredictiveSearchTest.csproj]
+  PredictiveSearchTest -> D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\bin\Debug\net9.0\PredictiveSearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\PredictiveSearchEngineTests.cs(13,68): warning CS8604: Possible null reference argument for parameter 'sortedArray' in 'int PredictiveSearchEngine.InterpolatedSearch(int[] sortedArray, int target)'. [D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\PredictiveSearchTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.19
+]]></string>
+    <string>WritePatch: Compile failed.
+PredictiveSearchTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:12:19 PM
+PredictiveSearchTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:12:20 PM
+PredictiveSearchTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:12:39 PM
+PredictiveSearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PredictiveSearch -> D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearch\bin\Debug\net9.0\PredictiveSearch.dll
+  PredictiveSearchTest -> D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\bin\Debug\net9.0\PredictiveSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.09
+]]></string>
+    <string>WritePatch: Code is not Complete.
+PredictiveSearchTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:12:57 PM
+PredictiveSearchTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PredictiveSearch -> D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearch\bin\Debug\net9.0\PredictiveSearch.dll
+  PredictiveSearchTest -> D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\bin\Debug\net9.0\PredictiveSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.09
+
+</CompilerResponse>
+2025-02-23 1:12:59 PM
+PredictiveSearchTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 1:13:02 PM
+PredictiveSearch</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PredictiveSearch -> D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearch\bin\Debug\net9.0\PredictiveSearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87
+]]></string>
+    <string>WritePatch: Code is Complete.
+PredictiveSearch</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:13:15 PM
+PredictiveSearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PredictiveSearch -> D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearch\bin\Debug\net9.0\PredictiveSearch.dll
+  PredictiveSearchTest -> D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\bin\Debug\net9.0\PredictiveSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.18
+]]></string>
+    <string>WritePatch: Code is Complete.
+PredictiveSearchTest</string>
+    <string>[INFO 2025-02-23 1:13:34 PM] Starting test for project: D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\PredictiveSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:13:34 PM] Starting test for project: D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\PredictiveSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:13:34 PM] Starting test for project: D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\PredictiveSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:13:34 PM] Starting test for project: D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\PredictiveSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:13:34 PM] Starting test for project: D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\PredictiveSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:13:34 PM] Starting test for project: D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\PredictiveSearchTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 1:13:41 PM]   PredictiveSearchTest -> D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\bin\Debug\net9.0\PredictiveSearchTest.dll
+[OUTPUT 2025-02-23 1:13:39 PM]   PredictiveSearch -> D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearch\bin\Debug\net9.0\PredictiveSearch.dll
+[OUTPUT 2025-02-23 1:13:38 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:13:37 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 1:13:40 PM] All tests passed successfully.
+[INFO 2025-02-23 1:13:40 PM] Test process completed. Duration: 5.24 seconds.
+[INFO 2025-02-23 1:13:40 PM] Process exited with code 0.
+[INFO 2025-02-23 1:13:34 PM] Command: dotnet test "D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\PredictiveSearchTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:13:34 PM] Starting test for project: D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\PredictiveSearchTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 1:06:54 PM
+PredictiveSearch
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 1:07:23 PM
+PredictiveSearch
+
+WritePatch Started CycleStep. 2025-02-23 1:07:24 PM
+PredictiveSearch
+
+WritePatch ran compiler. 2025-02-23 1:08:09 PM
+PredictiveSearch
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PredictiveSearch -> D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearch\bin\Debug\net9.0\PredictiveSearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+
+
+WritePatch: Code is Complete.
+PredictiveSearch
+
+WritePatch Started CycleStep. 2025-02-23 1:08:28 PM
+PredictiveSearchTest
+
+WritePatch ran compiler. 2025-02-23 1:09:05 PM
+PredictiveSearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\PredictiveSearchTest.csproj (in 227 ms).
+  1 of 2 projects are up-to-date for restore.
+  PredictiveSearch -> D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearch\bin\Debug\net9.0\PredictiveSearch.dll
+D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\PredictiveSearchEngineTests.cs(12,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\PredictiveSearchTest.csproj]
+D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\PredictiveSearchEngineTests.cs(13,68): warning CS8604: Possible null reference argument for parameter 'sortedArray' in 'int PredictiveSearchEngine.InterpolatedSearch(int[] sortedArray, int target)'. [D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\PredictiveSearchTest.csproj]
+  PredictiveSearchTest -> D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\bin\Debug\net9.0\PredictiveSearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\PredictiveSearchEngineTests.cs(12,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\PredictiveSearchTest.csproj]
+D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\PredictiveSearchEngineTests.cs(13,68): warning CS8604: Possible null reference argument for parameter 'sortedArray' in 'int PredictiveSearchEngine.InterpolatedSearch(int[] sortedArray, int target)'. [D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\PredictiveSearchTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.78
+
+
+WritePatch: Compile failed.
+PredictiveSearchTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:09:10 PM
+PredictiveSearchTest
+
+WritePatch Started CycleStep. 2025-02-23 1:09:11 PM
+PredictiveSearchTest
+
+WritePatch ran compiler. 2025-02-23 1:12:17 PM
+PredictiveSearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PredictiveSearch -> D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearch\bin\Debug\net9.0\PredictiveSearch.dll
+D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\PredictiveSearchEngineTests.cs(13,68): warning CS8604: Possible null reference argument for parameter 'sortedArray' in 'int PredictiveSearchEngine.InterpolatedSearch(int[] sortedArray, int target)'. [D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\PredictiveSearchTest.csproj]
+  PredictiveSearchTest -> D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\bin\Debug\net9.0\PredictiveSearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\PredictiveSearchEngineTests.cs(13,68): warning CS8604: Possible null reference argument for parameter 'sortedArray' in 'int PredictiveSearchEngine.InterpolatedSearch(int[] sortedArray, int target)'. [D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\PredictiveSearchTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.19
+
+
+WritePatch: Compile failed.
+PredictiveSearchTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:12:19 PM
+PredictiveSearchTest
+
+WritePatch Started CycleStep. 2025-02-23 1:12:20 PM
+PredictiveSearchTest
+
+WritePatch ran compiler. 2025-02-23 1:12:39 PM
+PredictiveSearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PredictiveSearch -> D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearch\bin\Debug\net9.0\PredictiveSearch.dll
+  PredictiveSearchTest -> D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\bin\Debug\net9.0\PredictiveSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.09
+
+
+WritePatch: Code is not Complete.
+PredictiveSearchTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:12:57 PM
+PredictiveSearchTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PredictiveSearch -> D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearch\bin\Debug\net9.0\PredictiveSearch.dll
+  PredictiveSearchTest -> D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\bin\Debug\net9.0\PredictiveSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.09
+
+</CompilerResponse>
+2025-02-23 1:12:59 PM
+PredictiveSearchTest
+
+WritePatch ran compiler. 2025-02-23 1:13:02 PM
+PredictiveSearch
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PredictiveSearch -> D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearch\bin\Debug\net9.0\PredictiveSearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87
+
+
+WritePatch: Code is Complete.
+PredictiveSearch
+
+WritePatch ran compiler. 2025-02-23 1:13:15 PM
+PredictiveSearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PredictiveSearch -> D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearch\bin\Debug\net9.0\PredictiveSearch.dll
+  PredictiveSearchTest -> D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\bin\Debug\net9.0\PredictiveSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.18
+
+
+WritePatch: Code is Complete.
+PredictiveSearchTest
+
+TestResult:
+[OUTPUT 2025-02-23 1:13:41 PM]   PredictiveSearchTest -> D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\bin\Debug\net9.0\PredictiveSearchTest.dll
+[OUTPUT 2025-02-23 1:13:39 PM]   PredictiveSearch -> D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearch\bin\Debug\net9.0\PredictiveSearch.dll
+[OUTPUT 2025-02-23 1:13:38 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:13:37 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 1:13:40 PM] All tests passed successfully.
+[INFO 2025-02-23 1:13:40 PM] Test process completed. Duration: 5.24 seconds.
+[INFO 2025-02-23 1:13:40 PM] Process exited with code 0.
+[INFO 2025-02-23 1:13:34 PM] Command: dotnet test "D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\PredictiveSearchTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:13:34 PM] Starting test for project: D:\Code2025\RavenWork\PredictiveSearch\PredictiveSearchTest\PredictiveSearchTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
