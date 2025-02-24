@@ -1,0 +1,462 @@
+<ActRecord>
+  <ProjectName>Perceptron</ProjectName>
+  <ProjectDescription>Perceptron: The simplest feedforward neural network (a linear classifier)</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Perceptron: The simplest feedforward neural network (a linear classifier)</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\Perceptron</SolutionFolderPath>
+  <ProjectFolderName>Perceptron</ProjectFolderName>
+  <ProjectName>Perceptron</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:45:39 PM
+Perceptron</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:46:24 PM
+Perceptron</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Perceptron -> D:\Code2025\RavenWork\Perceptron\Perceptron\bin\Debug\net9.0\Perceptron.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.70
+]]></string>
+    <string>WritePatch: Code is Complete.
+Perceptron</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:46:38 PM
+PerceptronTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:47:40 PM
+PerceptronTest</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj (in 325 ms).
+  1 of 2 projects are up-to-date for restore.
+  Perceptron -> D:\Code2025\RavenWork\Perceptron\Perceptron\bin\Debug\net9.0\Perceptron.dll
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(13,13): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(13,41): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(21,13): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(21,41): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(33,13): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(33,41): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(47,13): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(47,41): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(86,13): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(86,41): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(131,13): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(131,41): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(177,13): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(177,41): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(179,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(179,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(13,13): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(13,41): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(21,13): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(21,41): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(33,13): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(33,41): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(47,13): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(47,41): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(86,13): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(86,41): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(131,13): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(131,41): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(177,13): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(177,41): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+    1 Warning(s)
+    14 Error(s)
+
+Time Elapsed 00:00:03.70
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+PerceptronTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:47:41 PM
+PerceptronTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:47:41 PM
+PerceptronTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:49:16 PM
+PerceptronTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Perceptron -> D:\Code2025\RavenWork\Perceptron\Perceptron\bin\Debug\net9.0\Perceptron.dll
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(15,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(172,30): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(172,36): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(173,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+  PerceptronTest -> D:\Code2025\RavenWork\Perceptron\PerceptronTest\bin\Debug\net9.0\PerceptronTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(15,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(172,30): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(172,36): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(173,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.17
+]]></string>
+    <string>WritePatch: Compile failed.
+PerceptronTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:49:17 PM
+PerceptronTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:49:17 PM
+PerceptronTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:50:01 PM
+PerceptronTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Perceptron -> D:\Code2025\RavenWork\Perceptron\Perceptron\bin\Debug\net9.0\Perceptron.dll
+  PerceptronTest -> D:\Code2025\RavenWork\Perceptron\PerceptronTest\bin\Debug\net9.0\PerceptronTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.44
+]]></string>
+    <string>WritePatch: Code is not Complete.
+PerceptronTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:50:16 PM
+PerceptronTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\Perceptron\PerceptronTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Perceptron -> D:\Code2025\RavenWork\Perceptron\Perceptron\bin\Debug\net9.0\Perceptron.dll
+  PerceptronTest -> D:\Code2025\RavenWork\Perceptron\PerceptronTest\bin\Debug\net9.0\PerceptronTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.44
+
+</CompilerResponse>
+2025-02-23 2:50:16 PM
+PerceptronTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 2:50:18 PM
+Perceptron</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Perceptron -> D:\Code2025\RavenWork\Perceptron\Perceptron\bin\Debug\net9.0\Perceptron.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.35
+]]></string>
+    <string>WritePatch: Code is Complete.
+Perceptron</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:50:35 PM
+PerceptronTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Perceptron -> D:\Code2025\RavenWork\Perceptron\Perceptron\bin\Debug\net9.0\Perceptron.dll
+  PerceptronTest -> D:\Code2025\RavenWork\Perceptron\PerceptronTest\bin\Debug\net9.0\PerceptronTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.27
+]]></string>
+    <string>WritePatch: Code is Complete.
+PerceptronTest</string>
+    <string>[INFO 2025-02-23 2:50:49 PM] Starting test for project: D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj</string>
+    <string>[INFO 2025-02-23 2:50:49 PM] Starting test for project: D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj</string>
+    <string>[INFO 2025-02-23 2:50:49 PM] Starting test for project: D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj</string>
+    <string>[INFO 2025-02-23 2:50:49 PM] Starting test for project: D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj</string>
+    <string>[INFO 2025-02-23 2:50:49 PM] Starting test for project: D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj</string>
+    <string>[INFO 2025-02-23 2:50:49 PM] Starting test for project: D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj</string>
+    <string>[INFO 2025-02-23 2:50:49 PM] Starting test for project: D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj</string>
+    <string>[INFO 2025-02-23 2:50:49 PM] Starting test for project: D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj</string>
+    <string>[INFO 2025-02-23 2:50:49 PM] Starting test for project: D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj</string>
+    <string>[INFO 2025-02-23 2:50:49 PM] Starting test for project: D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj</string>
+    <string>[INFO 2025-02-23 2:50:49 PM] Starting test for project: D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj</string>
+    <string>[INFO 2025-02-23 2:50:49 PM] Starting test for project: D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj</string>
+    <string>[INFO 2025-02-23 2:50:49 PM] Starting test for project: D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj</string>
+    <string>[INFO 2025-02-23 2:50:49 PM] Starting test for project: D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 2:50:54 PM] All tests passed successfully.
+[INFO 2025-02-23 2:50:54 PM] Test process completed. Duration: 4.98 seconds.
+[INFO 2025-02-23 2:50:54 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 2:50:53 PM] Test Parallelization enabled for D:\Code2025\RavenWork\Perceptron\PerceptronTest\bin\Debug\net9.0\PerceptronTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 2:50:51 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 2:50:51 PM] Test run for D:\Code2025\RavenWork\Perceptron\PerceptronTest\bin\Debug\net9.0\PerceptronTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 2:50:51 PM]   PerceptronTest -> D:\Code2025\RavenWork\Perceptron\PerceptronTest\bin\Debug\net9.0\PerceptronTest.dll
+[OUTPUT 2025-02-23 2:50:50 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 2:50:50 PM]   Perceptron -> D:\Code2025\RavenWork\Perceptron\Perceptron\bin\Debug\net9.0\Perceptron.dll
+[OUTPUT 2025-02-23 2:50:50 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 2:50:54 PM]   Passed TestPredict_BasicThreshold [6 ms]
+[OUTPUT 2025-02-23 2:50:54 PM]   Passed TestTrain_CorrectsPredictions [6 ms]
+[OUTPUT 2025-02-23 2:50:52 PM] D:\Code2025\RavenWork\Perceptron\PerceptronTest\bin\Debug\net9.0\PerceptronTest.dll
+[OUTPUT 2025-02-23 2:50:52 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 2:50:52 PM] Starting test execution, please wait...
+[INFO 2025-02-23 2:50:49 PM] Command: dotnet test "D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 2:50:49 PM] Starting test for project: D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 2:45:39 PM
+Perceptron
+
+WritePatch ran compiler. 2025-02-23 2:46:24 PM
+Perceptron
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Perceptron -> D:\Code2025\RavenWork\Perceptron\Perceptron\bin\Debug\net9.0\Perceptron.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.70
+
+
+WritePatch: Code is Complete.
+Perceptron
+
+WritePatch Started CycleStep. 2025-02-23 2:46:38 PM
+PerceptronTest
+
+WritePatch ran compiler. 2025-02-23 2:47:40 PM
+PerceptronTest
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj (in 325 ms).
+  1 of 2 projects are up-to-date for restore.
+  Perceptron -> D:\Code2025\RavenWork\Perceptron\Perceptron\bin\Debug\net9.0\Perceptron.dll
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(13,13): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(13,41): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(21,13): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(21,41): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(33,13): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(33,41): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(47,13): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(47,41): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(86,13): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(86,41): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(131,13): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(131,41): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(177,13): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(177,41): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(179,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(179,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(13,13): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(13,41): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(21,13): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(21,41): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(33,13): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(33,41): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(47,13): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(47,41): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(86,13): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(86,41): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(131,13): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(131,41): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(177,13): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(177,41): error CS0118: 'Perceptron' is a namespace but is used like a type [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+    1 Warning(s)
+    14 Error(s)
+
+Time Elapsed 00:00:03.70
+
+
+Errors:
+
+WritePatch: Compile failed.
+PerceptronTest
+
+Finished WritePatch cycle step.
+2025-02-23 2:47:41 PM
+PerceptronTest
+
+WritePatch Started CycleStep. 2025-02-23 2:47:41 PM
+PerceptronTest
+
+WritePatch ran compiler. 2025-02-23 2:49:16 PM
+PerceptronTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Perceptron -> D:\Code2025\RavenWork\Perceptron\Perceptron\bin\Debug\net9.0\Perceptron.dll
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(15,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(172,30): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(172,36): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(173,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+  PerceptronTest -> D:\Code2025\RavenWork\Perceptron\PerceptronTest\bin\Debug\net9.0\PerceptronTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(15,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(172,30): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(172,36): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTests.cs(173,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.17
+
+
+WritePatch: Compile failed.
+PerceptronTest
+
+Finished WritePatch cycle step.
+2025-02-23 2:49:17 PM
+PerceptronTest
+
+WritePatch Started CycleStep. 2025-02-23 2:49:17 PM
+PerceptronTest
+
+WritePatch ran compiler. 2025-02-23 2:50:01 PM
+PerceptronTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Perceptron -> D:\Code2025\RavenWork\Perceptron\Perceptron\bin\Debug\net9.0\Perceptron.dll
+  PerceptronTest -> D:\Code2025\RavenWork\Perceptron\PerceptronTest\bin\Debug\net9.0\PerceptronTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.44
+
+
+WritePatch: Code is not Complete.
+PerceptronTest
+
+Finished WritePatch cycle step.
+2025-02-23 2:50:16 PM
+PerceptronTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\Perceptron\PerceptronTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Perceptron -> D:\Code2025\RavenWork\Perceptron\Perceptron\bin\Debug\net9.0\Perceptron.dll
+  PerceptronTest -> D:\Code2025\RavenWork\Perceptron\PerceptronTest\bin\Debug\net9.0\PerceptronTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.44
+
+</CompilerResponse>
+2025-02-23 2:50:16 PM
+PerceptronTest
+
+WritePatch ran compiler. 2025-02-23 2:50:18 PM
+Perceptron
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Perceptron -> D:\Code2025\RavenWork\Perceptron\Perceptron\bin\Debug\net9.0\Perceptron.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.35
+
+
+WritePatch: Code is Complete.
+Perceptron
+
+WritePatch ran compiler. 2025-02-23 2:50:35 PM
+PerceptronTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Perceptron -> D:\Code2025\RavenWork\Perceptron\Perceptron\bin\Debug\net9.0\Perceptron.dll
+  PerceptronTest -> D:\Code2025\RavenWork\Perceptron\PerceptronTest\bin\Debug\net9.0\PerceptronTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.27
+
+
+WritePatch: Code is Complete.
+PerceptronTest
+
+TestResult:
+[SUCCESS 2025-02-23 2:50:54 PM] All tests passed successfully.
+[INFO 2025-02-23 2:50:54 PM] Test process completed. Duration: 4.98 seconds.
+[INFO 2025-02-23 2:50:54 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 2:50:53 PM] Test Parallelization enabled for D:\Code2025\RavenWork\Perceptron\PerceptronTest\bin\Debug\net9.0\PerceptronTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 2:50:51 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 2:50:51 PM] Test run for D:\Code2025\RavenWork\Perceptron\PerceptronTest\bin\Debug\net9.0\PerceptronTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 2:50:51 PM]   PerceptronTest -> D:\Code2025\RavenWork\Perceptron\PerceptronTest\bin\Debug\net9.0\PerceptronTest.dll
+[OUTPUT 2025-02-23 2:50:50 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 2:50:50 PM]   Perceptron -> D:\Code2025\RavenWork\Perceptron\Perceptron\bin\Debug\net9.0\Perceptron.dll
+[OUTPUT 2025-02-23 2:50:50 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 2:50:54 PM]   Passed TestPredict_BasicThreshold [6 ms]
+[OUTPUT 2025-02-23 2:50:54 PM]   Passed TestTrain_CorrectsPredictions [6 ms]
+[OUTPUT 2025-02-23 2:50:52 PM] D:\Code2025\RavenWork\Perceptron\PerceptronTest\bin\Debug\net9.0\PerceptronTest.dll
+[OUTPUT 2025-02-23 2:50:52 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 2:50:52 PM] Starting test execution, please wait...
+[INFO 2025-02-23 2:50:49 PM] Command: dotnet test "D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 2:50:49 PM] Starting test for project: D:\Code2025\RavenWork\Perceptron\PerceptronTest\PerceptronTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
