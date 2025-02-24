@@ -1,0 +1,391 @@
+<ActRecord>
+  <ProjectName>StructuredSvmPredictor</ProjectName>
+  <ProjectDescription>Structured SVM: Extends SVM to predict structured outputs</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Structured SVM: Extends SVM to predict structured outputs</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\StructuredSvmPredictor</SolutionFolderPath>
+  <ProjectFolderName>StructuredSvmPredictor</ProjectFolderName>
+  <ProjectName>StructuredSvmPredictor</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:34:48 AM
+StructuredSvmPredictor</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:35:10 AM
+StructuredSvmPredictor</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StructuredSvmPredictor -> D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictor\bin\Debug\net9.0\StructuredSvmPredictor.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.02
+]]></string>
+    <string>WritePatch: Code is Complete.
+StructuredSvmPredictor</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:35:28 AM
+StructuredSvmPredictorTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:38:12 AM
+StructuredSvmPredictorTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj (in 227 ms).
+  1 of 2 projects are up-to-date for restore.
+  StructuredSvmPredictor -> D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictor\bin\Debug\net9.0\StructuredSvmPredictor.dll
+D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorUnitTests.cs(15,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj]
+D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorUnitTests.cs(23,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj]
+D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorUnitTests.cs(66,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj]
+  StructuredSvmPredictorTest -> D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\bin\Debug\net9.0\StructuredSvmPredictorTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorUnitTests.cs(15,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj]
+D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorUnitTests.cs(23,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj]
+D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorUnitTests.cs(66,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.64
+]]></string>
+    <string>WritePatch: Compile failed.
+StructuredSvmPredictorTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:38:15 AM
+StructuredSvmPredictorTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:38:16 AM
+StructuredSvmPredictorTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:38:51 AM
+StructuredSvmPredictorTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StructuredSvmPredictor -> D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictor\bin\Debug\net9.0\StructuredSvmPredictor.dll
+  StructuredSvmPredictorTest -> D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\bin\Debug\net9.0\StructuredSvmPredictorTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+]]></string>
+    <string>WritePatch: Code is not Complete.
+StructuredSvmPredictorTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:39:35 AM
+StructuredSvmPredictorTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:39:36 AM
+StructuredSvmPredictorTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:40:11 AM
+StructuredSvmPredictorTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StructuredSvmPredictor -> D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictor\bin\Debug\net9.0\StructuredSvmPredictor.dll
+D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorUnitTests.cs(15,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj]
+D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorUnitTests.cs(23,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj]
+D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorUnitTests.cs(66,53): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj]
+  StructuredSvmPredictorTest -> D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\bin\Debug\net9.0\StructuredSvmPredictorTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorUnitTests.cs(15,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj]
+D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorUnitTests.cs(23,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj]
+D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorUnitTests.cs(66,53): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.28
+]]></string>
+    <string>WritePatch: Compile failed.
+StructuredSvmPredictorTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:40:15 AM
+StructuredSvmPredictorTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StructuredSvmPredictor -> D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictor\bin\Debug\net9.0\StructuredSvmPredictor.dll
+D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorUnitTests.cs(15,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj]
+D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorUnitTests.cs(23,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj]
+D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorUnitTests.cs(66,53): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj]
+  StructuredSvmPredictorTest -> D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\bin\Debug\net9.0\StructuredSvmPredictorTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorUnitTests.cs(15,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj]
+D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorUnitTests.cs(23,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj]
+D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorUnitTests.cs(66,53): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.28
+
+</CompilerResponse>
+2025-02-23 11:40:16 AM
+StructuredSvmPredictorTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 11:40:19 AM
+StructuredSvmPredictor</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StructuredSvmPredictor -> D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictor\bin\Debug\net9.0\StructuredSvmPredictor.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.90
+]]></string>
+    <string>WritePatch: Code is Complete.
+StructuredSvmPredictor</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:40:44 AM
+StructuredSvmPredictorTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StructuredSvmPredictor -> D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictor\bin\Debug\net9.0\StructuredSvmPredictor.dll
+  StructuredSvmPredictorTest -> D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\bin\Debug\net9.0\StructuredSvmPredictorTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.20
+]]></string>
+    <string>WritePatch: Code is Complete.
+StructuredSvmPredictorTest</string>
+    <string>[INFO 2025-02-23 11:41:32 AM] Starting test for project: D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj</string>
+    <string>[INFO 2025-02-23 11:41:32 AM] Starting test for project: D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj</string>
+    <string>[INFO 2025-02-23 11:41:32 AM] Starting test for project: D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj</string>
+    <string>[INFO 2025-02-23 11:41:32 AM] Starting test for project: D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj</string>
+    <string>[INFO 2025-02-23 11:41:32 AM] Starting test for project: D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 11:41:35 AM]   StructuredSvmPredictor -> D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictor\bin\Debug\net9.0\StructuredSvmPredictor.dll
+[OUTPUT 2025-02-23 11:41:34 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:41:33 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 11:41:36 AM] All tests passed successfully.
+[INFO 2025-02-23 11:41:36 AM] Test process completed. Duration: 4.07 seconds.
+[INFO 2025-02-23 11:41:36 AM] Process exited with code 0.
+[INFO 2025-02-23 11:41:32 AM] Command: dotnet test "D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:41:32 AM] Starting test for project: D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 11:34:48 AM
+StructuredSvmPredictor
+
+WritePatch ran compiler. 2025-02-23 11:35:10 AM
+StructuredSvmPredictor
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StructuredSvmPredictor -> D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictor\bin\Debug\net9.0\StructuredSvmPredictor.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.02
+
+
+WritePatch: Code is Complete.
+StructuredSvmPredictor
+
+WritePatch Started CycleStep. 2025-02-23 11:35:28 AM
+StructuredSvmPredictorTest
+
+WritePatch ran compiler. 2025-02-23 11:38:12 AM
+StructuredSvmPredictorTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj (in 227 ms).
+  1 of 2 projects are up-to-date for restore.
+  StructuredSvmPredictor -> D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictor\bin\Debug\net9.0\StructuredSvmPredictor.dll
+D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorUnitTests.cs(15,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj]
+D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorUnitTests.cs(23,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj]
+D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorUnitTests.cs(66,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj]
+  StructuredSvmPredictorTest -> D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\bin\Debug\net9.0\StructuredSvmPredictorTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorUnitTests.cs(15,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj]
+D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorUnitTests.cs(23,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj]
+D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorUnitTests.cs(66,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.64
+
+
+WritePatch: Compile failed.
+StructuredSvmPredictorTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:38:15 AM
+StructuredSvmPredictorTest
+
+WritePatch Started CycleStep. 2025-02-23 11:38:16 AM
+StructuredSvmPredictorTest
+
+WritePatch ran compiler. 2025-02-23 11:38:51 AM
+StructuredSvmPredictorTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StructuredSvmPredictor -> D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictor\bin\Debug\net9.0\StructuredSvmPredictor.dll
+  StructuredSvmPredictorTest -> D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\bin\Debug\net9.0\StructuredSvmPredictorTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+
+
+WritePatch: Code is not Complete.
+StructuredSvmPredictorTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:39:35 AM
+StructuredSvmPredictorTest
+
+WritePatch Started CycleStep. 2025-02-23 11:39:36 AM
+StructuredSvmPredictorTest
+
+WritePatch ran compiler. 2025-02-23 11:40:11 AM
+StructuredSvmPredictorTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StructuredSvmPredictor -> D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictor\bin\Debug\net9.0\StructuredSvmPredictor.dll
+D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorUnitTests.cs(15,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj]
+D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorUnitTests.cs(23,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj]
+D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorUnitTests.cs(66,53): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj]
+  StructuredSvmPredictorTest -> D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\bin\Debug\net9.0\StructuredSvmPredictorTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorUnitTests.cs(15,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj]
+D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorUnitTests.cs(23,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj]
+D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorUnitTests.cs(66,53): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.28
+
+
+WritePatch: Compile failed.
+StructuredSvmPredictorTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:40:15 AM
+StructuredSvmPredictorTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StructuredSvmPredictor -> D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictor\bin\Debug\net9.0\StructuredSvmPredictor.dll
+D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorUnitTests.cs(15,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj]
+D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorUnitTests.cs(23,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj]
+D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorUnitTests.cs(66,53): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj]
+  StructuredSvmPredictorTest -> D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\bin\Debug\net9.0\StructuredSvmPredictorTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorUnitTests.cs(15,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj]
+D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorUnitTests.cs(23,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj]
+D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorUnitTests.cs(66,53): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.28
+
+</CompilerResponse>
+2025-02-23 11:40:16 AM
+StructuredSvmPredictorTest
+
+WritePatch ran compiler. 2025-02-23 11:40:19 AM
+StructuredSvmPredictor
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StructuredSvmPredictor -> D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictor\bin\Debug\net9.0\StructuredSvmPredictor.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.90
+
+
+WritePatch: Code is Complete.
+StructuredSvmPredictor
+
+WritePatch ran compiler. 2025-02-23 11:40:44 AM
+StructuredSvmPredictorTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StructuredSvmPredictor -> D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictor\bin\Debug\net9.0\StructuredSvmPredictor.dll
+  StructuredSvmPredictorTest -> D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\bin\Debug\net9.0\StructuredSvmPredictorTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.20
+
+
+WritePatch: Code is Complete.
+StructuredSvmPredictorTest
+
+TestResult:
+[OUTPUT 2025-02-23 11:41:35 AM]   StructuredSvmPredictor -> D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictor\bin\Debug\net9.0\StructuredSvmPredictor.dll
+[OUTPUT 2025-02-23 11:41:34 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:41:33 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 11:41:36 AM] All tests passed successfully.
+[INFO 2025-02-23 11:41:36 AM] Test process completed. Duration: 4.07 seconds.
+[INFO 2025-02-23 11:41:36 AM] Process exited with code 0.
+[INFO 2025-02-23 11:41:32 AM] Command: dotnet test "D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:41:32 AM] Starting test for project: D:\Code2025\RavenWork\StructuredSvmPredictor\StructuredSvmPredictorTest\StructuredSvmPredictorTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
