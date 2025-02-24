@@ -1,0 +1,307 @@
+<ActRecord>
+  <ProjectName>HistogramEqualization</ProjectName>
+  <ProjectDescription>Histogram equalization: Uses a histogram to improve image contrast</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Histogram equalization: Uses a histogram to improve image contrast</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\HistogramEqualization</SolutionFolderPath>
+  <ProjectFolderName>HistogramEqualization</ProjectFolderName>
+  <ProjectName>HistogramEqualization</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:51:04 AM
+HistogramEqualization</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:51:41 AM
+HistogramEqualization</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualizer.cs(7,32): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualizer.cs(7,16): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualizer.cs(7,32): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualizer.cs(7,16): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.07
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+HistogramEqualization</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:51:42 AM
+HistogramEqualization</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:51:42 AM
+HistogramEqualization</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:52:43 AM
+HistogramEqualization</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs(100,23): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs(45,16): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs(55,44): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs(5,17): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs(102,24): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs(12,27): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs(19,27): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs(49,28): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualizer.cs(22,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualizer.cs(73,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualizer.cs(76,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualizer.cs(76,38): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+  HistogramEqualization -> D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\bin\Debug\net9.0\HistogramEqualization.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs(100,23): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs(45,16): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs(55,44): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs(5,17): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs(102,24): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs(12,27): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs(19,27): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs(49,28): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualizer.cs(22,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualizer.cs(73,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualizer.cs(76,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualizer.cs(76,38): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+    12 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.12
+]]></string>
+    <string>WritePatch: Compile failed.
+HistogramEqualization</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:52:44 AM
+HistogramEqualization</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:52:44 AM
+HistogramEqualization</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:53:47 AM
+HistogramEqualization</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HistogramEqualization -> D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\bin\Debug\net9.0\HistogramEqualization.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.11
+]]></string>
+    <string>WritePatch: Code is Complete.
+HistogramEqualization</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:54:09 AM
+HistogramEqualizationTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:55:57 AM
+HistogramEqualizationTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualizationTest\HistogramEqualizationTest.csproj (in 337 ms).
+  1 of 2 projects are up-to-date for restore.
+  HistogramEqualization -> D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\bin\Debug\net9.0\HistogramEqualization.dll
+  HistogramEqualizationTest -> D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualizationTest\bin\Debug\net9.0\HistogramEqualizationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.90
+]]></string>
+    <string>WritePatch: Code is Complete.
+HistogramEqualizationTest</string>
+    <string>[INFO 2025-02-23 8:56:19 AM] Starting test for project: D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualizationTest\HistogramEqualizationTest.csproj</string>
+    <string>[INFO 2025-02-23 8:56:19 AM] Starting test for project: D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualizationTest\HistogramEqualizationTest.csproj</string>
+    <string>[INFO 2025-02-23 8:56:19 AM] Starting test for project: D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualizationTest\HistogramEqualizationTest.csproj</string>
+    <string>[INFO 2025-02-23 8:56:19 AM] Starting test for project: D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualizationTest\HistogramEqualizationTest.csproj</string>
+    <string>[INFO 2025-02-23 8:56:19 AM] Starting test for project: D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualizationTest\HistogramEqualizationTest.csproj</string>
+    <string>[INFO 2025-02-23 8:56:19 AM] Starting test for project: D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualizationTest\HistogramEqualizationTest.csproj</string>
+    <string>[INFO 2025-02-23 8:56:19 AM] Starting test for project: D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualizationTest\HistogramEqualizationTest.csproj</string>
+    <string>[INFO 2025-02-23 8:56:19 AM] Starting test for project: D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualizationTest\HistogramEqualizationTest.csproj</string>
+    <string>[INFO 2025-02-23 8:56:19 AM] Starting test for project: D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualizationTest\HistogramEqualizationTest.csproj</string>
+    <string>[INFO 2025-02-23 8:56:19 AM] Starting test for project: D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualizationTest\HistogramEqualizationTest.csproj</string>
+    <string>[INFO 2025-02-23 8:56:19 AM] Starting test for project: D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualizationTest\HistogramEqualizationTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 8:56:25 AM] D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualizationTest\bin\Debug\net9.0\HistogramEqualizationTest.dll
+[OUTPUT 2025-02-23 8:56:24 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 8:56:21 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:56:24 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:56:23 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:56:22 AM] Test run for D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualizationTest\bin\Debug\net9.0\HistogramEqualizationTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:56:22 AM]   HistogramEqualizationTest -> D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualizationTest\bin\Debug\net9.0\HistogramEqualizationTest.dll
+[OUTPUT 2025-02-23 8:56:21 AM]   HistogramEqualization -> D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\bin\Debug\net9.0\HistogramEqualization.dll
+[OUTPUT 2025-02-23 8:56:20 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 8:56:24 AM] All tests passed successfully.
+[INFO 2025-02-23 8:56:24 AM] Test process completed. Duration: 5.38 seconds.
+[INFO 2025-02-23 8:56:24 AM] Process exited with code 0.
+[INFO 2025-02-23 8:56:19 AM] Command: dotnet test "D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualizationTest\HistogramEqualizationTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:56:19 AM] Starting test for project: D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualizationTest\HistogramEqualizationTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 8:51:04 AM
+HistogramEqualization
+
+WritePatch ran compiler. 2025-02-23 8:51:41 AM
+HistogramEqualization
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualizer.cs(7,32): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualizer.cs(7,16): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualizer.cs(7,32): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualizer.cs(7,16): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.07
+
+
+Errors:
+
+WritePatch: Compile failed.
+HistogramEqualization
+
+Finished WritePatch cycle step.
+2025-02-23 8:51:42 AM
+HistogramEqualization
+
+WritePatch Started CycleStep. 2025-02-23 8:51:42 AM
+HistogramEqualization
+
+WritePatch ran compiler. 2025-02-23 8:52:43 AM
+HistogramEqualization
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs(100,23): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs(45,16): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs(55,44): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs(5,17): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs(102,24): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs(12,27): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs(19,27): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs(49,28): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualizer.cs(22,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualizer.cs(73,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualizer.cs(76,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualizer.cs(76,38): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+  HistogramEqualization -> D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\bin\Debug\net9.0\HistogramEqualization.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs(100,23): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs(45,16): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs(55,44): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs(5,17): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs(102,24): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs(12,27): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs(19,27): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs(49,28): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualizer.cs(22,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualizer.cs(73,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualizer.cs(76,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualizer.cs(76,38): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\HistogramEqualization.csproj]
+    12 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.12
+
+
+WritePatch: Compile failed.
+HistogramEqualization
+
+Finished WritePatch cycle step.
+2025-02-23 8:52:44 AM
+HistogramEqualization
+
+WritePatch Started CycleStep. 2025-02-23 8:52:44 AM
+HistogramEqualization
+
+WritePatch ran compiler. 2025-02-23 8:53:47 AM
+HistogramEqualization
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HistogramEqualization -> D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\bin\Debug\net9.0\HistogramEqualization.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.11
+
+
+WritePatch: Code is Complete.
+HistogramEqualization
+
+WritePatch Started CycleStep. 2025-02-23 8:54:09 AM
+HistogramEqualizationTest
+
+WritePatch ran compiler. 2025-02-23 8:55:57 AM
+HistogramEqualizationTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualizationTest\HistogramEqualizationTest.csproj (in 337 ms).
+  1 of 2 projects are up-to-date for restore.
+  HistogramEqualization -> D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\bin\Debug\net9.0\HistogramEqualization.dll
+  HistogramEqualizationTest -> D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualizationTest\bin\Debug\net9.0\HistogramEqualizationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.90
+
+
+WritePatch: Code is Complete.
+HistogramEqualizationTest
+
+TestResult:
+[OUTPUT 2025-02-23 8:56:25 AM] D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualizationTest\bin\Debug\net9.0\HistogramEqualizationTest.dll
+[OUTPUT 2025-02-23 8:56:24 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 8:56:21 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:56:24 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:56:23 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:56:22 AM] Test run for D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualizationTest\bin\Debug\net9.0\HistogramEqualizationTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:56:22 AM]   HistogramEqualizationTest -> D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualizationTest\bin\Debug\net9.0\HistogramEqualizationTest.dll
+[OUTPUT 2025-02-23 8:56:21 AM]   HistogramEqualization -> D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualization\bin\Debug\net9.0\HistogramEqualization.dll
+[OUTPUT 2025-02-23 8:56:20 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 8:56:24 AM] All tests passed successfully.
+[INFO 2025-02-23 8:56:24 AM] Test process completed. Duration: 5.38 seconds.
+[INFO 2025-02-23 8:56:24 AM] Process exited with code 0.
+[INFO 2025-02-23 8:56:19 AM] Command: dotnet test "D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualizationTest\HistogramEqualizationTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:56:19 AM] Starting test for project: D:\Code2025\RavenWork\HistogramEqualization\HistogramEqualizationTest\HistogramEqualizationTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
