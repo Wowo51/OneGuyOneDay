@@ -1,0 +1,389 @@
+<ActRecord>
+  <ProjectName>CanopyClusteringAlgorithm</ProjectName>
+  <ProjectDescription>Canopy clustering algorithm: An unsupervised pre‑clustering method related to k‑means</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Canopy clustering algorithm: An unsupervised pre‑clustering method related to k‑means</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\CanopyClusteringAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>CanopyClusteringAlgorithm</ProjectFolderName>
+  <ProjectName>CanopyClusteringAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:29:26 AM
+CanopyClusteringAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:30:08 AM
+CanopyClusteringAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CanopyClusteringAlgorithm -> D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithm\bin\Debug\net9.0\CanopyClusteringAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+]]></string>
+    <string>WritePatch: Code is Complete.
+CanopyClusteringAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:30:22 AM
+CanopyClusteringAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:31:28 AM
+CanopyClusteringAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTest.csproj (in 257 ms).
+  1 of 2 projects are up-to-date for restore.
+  CanopyClusteringAlgorithm -> D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithm\bin\Debug\net9.0\CanopyClusteringAlgorithm.dll
+D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTests.cs(49,42): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTest.csproj]
+D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTests.cs(50,61): warning CS8604: Possible null reference argument for parameter 'dataPoints' in 'List<Canopy> CanopyClusterer.Cluster(List<DataPoint> dataPoints, double thresholdLoose, double thresholdTight)'. [D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTest.csproj]
+  CanopyClusteringAlgorithmTest -> D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\bin\Debug\net9.0\CanopyClusteringAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTests.cs(49,42): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTest.csproj]
+D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTests.cs(50,61): warning CS8604: Possible null reference argument for parameter 'dataPoints' in 'List<Canopy> CanopyClusterer.Cluster(List<DataPoint> dataPoints, double thresholdLoose, double thresholdTight)'. [D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.90
+]]></string>
+    <string>WritePatch: Compile failed.
+CanopyClusteringAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:31:29 AM
+CanopyClusteringAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:31:29 AM
+CanopyClusteringAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:32:15 AM
+CanopyClusteringAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CanopyClusteringAlgorithm -> D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithm\bin\Debug\net9.0\CanopyClusteringAlgorithm.dll
+D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTests.cs(50,61): warning CS8604: Possible null reference argument for parameter 'dataPoints' in 'List<Canopy> CanopyClusterer.Cluster(List<DataPoint> dataPoints, double thresholdLoose, double thresholdTight)'. [D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTest.csproj]
+  CanopyClusteringAlgorithmTest -> D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\bin\Debug\net9.0\CanopyClusteringAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTests.cs(50,61): warning CS8604: Possible null reference argument for parameter 'dataPoints' in 'List<Canopy> CanopyClusterer.Cluster(List<DataPoint> dataPoints, double thresholdLoose, double thresholdTight)'. [D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.86
+]]></string>
+    <string>WritePatch: Compile failed.
+CanopyClusteringAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:32:15 AM
+CanopyClusteringAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:32:16 AM
+CanopyClusteringAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:32:45 AM
+CanopyClusteringAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CanopyClusteringAlgorithm -> D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithm\bin\Debug\net9.0\CanopyClusteringAlgorithm.dll
+  CanopyClusteringAlgorithmTest -> D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\bin\Debug\net9.0\CanopyClusteringAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.28
+]]></string>
+    <string>WritePatch: Code is not Complete.
+CanopyClusteringAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:32:59 AM
+CanopyClusteringAlgorithmTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CanopyClusteringAlgorithm -> D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithm\bin\Debug\net9.0\CanopyClusteringAlgorithm.dll
+  CanopyClusteringAlgorithmTest -> D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\bin\Debug\net9.0\CanopyClusteringAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.28
+
+</CompilerResponse>
+2025-02-23 9:33:00 AM
+CanopyClusteringAlgorithmTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 9:33:02 AM
+CanopyClusteringAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CanopyClusteringAlgorithm -> D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithm\bin\Debug\net9.0\CanopyClusteringAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.14
+]]></string>
+    <string>WritePatch: Code is Complete.
+CanopyClusteringAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:33:13 AM
+CanopyClusteringAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CanopyClusteringAlgorithm -> D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithm\bin\Debug\net9.0\CanopyClusteringAlgorithm.dll
+  CanopyClusteringAlgorithmTest -> D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\bin\Debug\net9.0\CanopyClusteringAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.62
+]]></string>
+    <string>WritePatch: Code is Complete.
+CanopyClusteringAlgorithmTest</string>
+    <string>[INFO 2025-02-23 9:33:24 AM] Starting test for project: D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:33:24 AM] Starting test for project: D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:33:24 AM] Starting test for project: D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:33:24 AM] Starting test for project: D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:33:24 AM] Starting test for project: D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:33:24 AM] Starting test for project: D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:33:24 AM] Starting test for project: D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:33:24 AM] Starting test for project: D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:33:24 AM] Starting test for project: D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:33:24 AM] Starting test for project: D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:33:24 AM] Starting test for project: D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:33:24 AM] Starting test for project: D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:33:24 AM] Starting test for project: D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 9:33:27 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 9:33:27 AM] Test run for D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\bin\Debug\net9.0\CanopyClusteringAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 9:33:26 AM]   CanopyClusteringAlgorithmTest -> D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\bin\Debug\net9.0\CanopyClusteringAlgorithmTest.dll
+[OUTPUT 2025-02-23 9:33:26 AM]   CanopyClusteringAlgorithm -> D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithm\bin\Debug\net9.0\CanopyClusteringAlgorithm.dll
+[OUTPUT 2025-02-23 9:33:28 AM]   Passed TestCluster_SyntheticLargeDataset [6 ms]
+[OUTPUT 2025-02-23 9:33:28 AM] Test Parallelization enabled for D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\bin\Debug\net9.0\CanopyClusteringAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 9:33:28 AM] D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\bin\Debug\net9.0\CanopyClusteringAlgorithmTest.dll
+[OUTPUT 2025-02-23 9:33:27 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 9:33:27 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 9:33:25 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 9:33:25 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 9:33:28 AM] All tests passed successfully.
+[INFO 2025-02-23 9:33:28 AM] Test process completed. Duration: 4.55 seconds.
+[INFO 2025-02-23 9:33:28 AM] Process exited with code 0.
+[INFO 2025-02-23 9:33:24 AM] Command: dotnet test "D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 9:33:24 AM] Starting test for project: D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 9:29:26 AM
+CanopyClusteringAlgorithm
+
+WritePatch ran compiler. 2025-02-23 9:30:08 AM
+CanopyClusteringAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CanopyClusteringAlgorithm -> D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithm\bin\Debug\net9.0\CanopyClusteringAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+
+
+WritePatch: Code is Complete.
+CanopyClusteringAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 9:30:22 AM
+CanopyClusteringAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 9:31:28 AM
+CanopyClusteringAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTest.csproj (in 257 ms).
+  1 of 2 projects are up-to-date for restore.
+  CanopyClusteringAlgorithm -> D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithm\bin\Debug\net9.0\CanopyClusteringAlgorithm.dll
+D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTests.cs(49,42): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTest.csproj]
+D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTests.cs(50,61): warning CS8604: Possible null reference argument for parameter 'dataPoints' in 'List<Canopy> CanopyClusterer.Cluster(List<DataPoint> dataPoints, double thresholdLoose, double thresholdTight)'. [D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTest.csproj]
+  CanopyClusteringAlgorithmTest -> D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\bin\Debug\net9.0\CanopyClusteringAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTests.cs(49,42): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTest.csproj]
+D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTests.cs(50,61): warning CS8604: Possible null reference argument for parameter 'dataPoints' in 'List<Canopy> CanopyClusterer.Cluster(List<DataPoint> dataPoints, double thresholdLoose, double thresholdTight)'. [D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.90
+
+
+WritePatch: Compile failed.
+CanopyClusteringAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:31:29 AM
+CanopyClusteringAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 9:31:29 AM
+CanopyClusteringAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 9:32:15 AM
+CanopyClusteringAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CanopyClusteringAlgorithm -> D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithm\bin\Debug\net9.0\CanopyClusteringAlgorithm.dll
+D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTests.cs(50,61): warning CS8604: Possible null reference argument for parameter 'dataPoints' in 'List<Canopy> CanopyClusterer.Cluster(List<DataPoint> dataPoints, double thresholdLoose, double thresholdTight)'. [D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTest.csproj]
+  CanopyClusteringAlgorithmTest -> D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\bin\Debug\net9.0\CanopyClusteringAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTests.cs(50,61): warning CS8604: Possible null reference argument for parameter 'dataPoints' in 'List<Canopy> CanopyClusterer.Cluster(List<DataPoint> dataPoints, double thresholdLoose, double thresholdTight)'. [D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.86
+
+
+WritePatch: Compile failed.
+CanopyClusteringAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:32:15 AM
+CanopyClusteringAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 9:32:16 AM
+CanopyClusteringAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 9:32:45 AM
+CanopyClusteringAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CanopyClusteringAlgorithm -> D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithm\bin\Debug\net9.0\CanopyClusteringAlgorithm.dll
+  CanopyClusteringAlgorithmTest -> D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\bin\Debug\net9.0\CanopyClusteringAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.28
+
+
+WritePatch: Code is not Complete.
+CanopyClusteringAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:32:59 AM
+CanopyClusteringAlgorithmTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CanopyClusteringAlgorithm -> D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithm\bin\Debug\net9.0\CanopyClusteringAlgorithm.dll
+  CanopyClusteringAlgorithmTest -> D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\bin\Debug\net9.0\CanopyClusteringAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.28
+
+</CompilerResponse>
+2025-02-23 9:33:00 AM
+CanopyClusteringAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 9:33:02 AM
+CanopyClusteringAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CanopyClusteringAlgorithm -> D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithm\bin\Debug\net9.0\CanopyClusteringAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.14
+
+
+WritePatch: Code is Complete.
+CanopyClusteringAlgorithm
+
+WritePatch ran compiler. 2025-02-23 9:33:13 AM
+CanopyClusteringAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CanopyClusteringAlgorithm -> D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithm\bin\Debug\net9.0\CanopyClusteringAlgorithm.dll
+  CanopyClusteringAlgorithmTest -> D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\bin\Debug\net9.0\CanopyClusteringAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.62
+
+
+WritePatch: Code is Complete.
+CanopyClusteringAlgorithmTest
+
+TestResult:
+[OUTPUT 2025-02-23 9:33:27 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 9:33:27 AM] Test run for D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\bin\Debug\net9.0\CanopyClusteringAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 9:33:26 AM]   CanopyClusteringAlgorithmTest -> D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\bin\Debug\net9.0\CanopyClusteringAlgorithmTest.dll
+[OUTPUT 2025-02-23 9:33:26 AM]   CanopyClusteringAlgorithm -> D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithm\bin\Debug\net9.0\CanopyClusteringAlgorithm.dll
+[OUTPUT 2025-02-23 9:33:28 AM]   Passed TestCluster_SyntheticLargeDataset [6 ms]
+[OUTPUT 2025-02-23 9:33:28 AM] Test Parallelization enabled for D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\bin\Debug\net9.0\CanopyClusteringAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 9:33:28 AM] D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\bin\Debug\net9.0\CanopyClusteringAlgorithmTest.dll
+[OUTPUT 2025-02-23 9:33:27 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 9:33:27 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 9:33:25 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 9:33:25 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 9:33:28 AM] All tests passed successfully.
+[INFO 2025-02-23 9:33:28 AM] Test process completed. Duration: 4.55 seconds.
+[INFO 2025-02-23 9:33:28 AM] Process exited with code 0.
+[INFO 2025-02-23 9:33:24 AM] Command: dotnet test "D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 9:33:24 AM] Starting test for project: D:\Code2025\RavenWork\CanopyClusteringAlgorithm\CanopyClusteringAlgorithmTest\CanopyClusteringAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
