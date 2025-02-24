@@ -1,0 +1,803 @@
+<ActRecord>
+  <ProjectName>OrderedDithering</ProjectName>
+  <ProjectDescription>Ordered dithering</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Ordered dithering</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\OrderedDithering</SolutionFolderPath>
+  <ProjectFolderName>OrderedDithering</ProjectFolderName>
+  <ProjectName>OrderedDithering</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:51:39 AM
+OrderedDithering</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:52:29 AM
+OrderedDithering</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,45): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,16): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,45): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,16): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.42
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+OrderedDithering</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:52:31 AM
+OrderedDithering</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:52:31 AM
+OrderedDithering</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:53:41 AM
+OrderedDithering</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(102,16): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(20,23): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(112,44): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(25,23): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(33,23): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(46,17): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(22,24): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(29,28): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(67,27): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(72,37): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(37,28): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(84,31): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(89,41): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(97,31): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(98,33): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(106,24): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(51,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(58,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(58,57): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(58,71): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+  OrderedDithering -> D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\bin\Debug\net9.0\OrderedDithering.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(102,16): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(20,23): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(112,44): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(25,23): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(33,23): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(46,17): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(22,24): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(29,28): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(67,27): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(72,37): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(37,28): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(84,31): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(89,41): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(97,31): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(98,33): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(106,24): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(51,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(58,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(58,57): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(58,71): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+    20 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.21
+]]></string>
+    <string>WritePatch: Compile failed.
+OrderedDithering</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:53:42 AM
+OrderedDithering</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:53:42 AM
+OrderedDithering</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:54:31 AM
+OrderedDithering</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,45): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,16): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,45): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,16): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.05
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+OrderedDithering</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:54:33 AM
+OrderedDithering</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,45): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,16): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,45): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,16): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.05
+
+
+Errors:
+</CompilerResponse>
+2025-02-23 8:54:34 AM
+OrderedDithering]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 8:54:35 AM
+OrderedDithering</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,45): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,16): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,45): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,16): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.99
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+OrderedDithering</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:54:37 AM
+OrderedDithering</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:55:23 AM
+OrderedDithering</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,45): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,16): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,45): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,16): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.04
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+OrderedDithering</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:55:24 AM
+OrderedDithering</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:55:24 AM
+OrderedDithering</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:56:53 AM
+OrderedDithering</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(68,16): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(73,44): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(29,17): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(22,32): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(23,32): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(22,50): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(23,50): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(43,27): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(48,37): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(58,27): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(63,41): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(70,68): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(51,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(58,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(58,57): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(58,71): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+  OrderedDithering -> D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\bin\Debug\net9.0\OrderedDithering.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(68,16): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(73,44): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(29,17): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(22,32): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(23,32): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(22,50): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(23,50): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(43,27): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(48,37): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(58,27): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(63,41): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(70,68): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(51,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(58,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(58,57): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(58,71): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+    16 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+]]></string>
+    <string>WritePatch: Compile failed.
+OrderedDithering</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:56:54 AM
+OrderedDithering</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:56:55 AM
+OrderedDithering</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:59:28 AM
+OrderedDithering</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OrderedDithering -> D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\bin\Debug\net9.0\OrderedDithering.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.38
+]]></string>
+    <string>WritePatch: Code is not Complete.
+OrderedDithering</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:00:59 AM
+OrderedDithering</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OrderedDithering -> D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\bin\Debug\net9.0\OrderedDithering.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.38
+
+</CompilerResponse>
+2025-02-23 9:01:00 AM
+OrderedDithering]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 9:01:03 AM
+OrderedDithering</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OrderedDithering -> D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\bin\Debug\net9.0\OrderedDithering.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+]]></string>
+    <string>WritePatch: Code is not Complete.
+OrderedDithering</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:01:39 AM
+OrderedDithering</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:03:23 AM
+OrderedDithering</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OrderedDithering -> D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\bin\Debug\net9.0\OrderedDithering.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.17
+]]></string>
+    <string>WritePatch: Code is Complete.
+OrderedDithering</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:03:39 AM
+OrderedDitheringTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:05:53 AM
+OrderedDitheringTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\OrderedDithering\OrderedDitheringTest\OrderedDitheringTest.csproj (in 289 ms).
+  1 of 2 projects are up-to-date for restore.
+  OrderedDithering -> D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\bin\Debug\net9.0\OrderedDithering.dll
+  OrderedDitheringTest -> D:\Code2025\RavenWork\OrderedDithering\OrderedDitheringTest\bin\Debug\net9.0\OrderedDitheringTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.11
+]]></string>
+    <string>WritePatch: Code is Complete.
+OrderedDitheringTest</string>
+    <string>[INFO 2025-02-23 9:06:15 AM] Starting test for project: D:\Code2025\RavenWork\OrderedDithering\OrderedDitheringTest\OrderedDitheringTest.csproj</string>
+    <string>[INFO 2025-02-23 9:06:15 AM] Starting test for project: D:\Code2025\RavenWork\OrderedDithering\OrderedDitheringTest\OrderedDitheringTest.csproj</string>
+    <string>[INFO 2025-02-23 9:06:15 AM] Starting test for project: D:\Code2025\RavenWork\OrderedDithering\OrderedDitheringTest\OrderedDitheringTest.csproj</string>
+    <string>[INFO 2025-02-23 9:06:15 AM] Starting test for project: D:\Code2025\RavenWork\OrderedDithering\OrderedDitheringTest\OrderedDitheringTest.csproj</string>
+    <string>[INFO 2025-02-23 9:06:15 AM] Starting test for project: D:\Code2025\RavenWork\OrderedDithering\OrderedDitheringTest\OrderedDitheringTest.csproj</string>
+    <string>[INFO 2025-02-23 9:06:15 AM] Starting test for project: D:\Code2025\RavenWork\OrderedDithering\OrderedDitheringTest\OrderedDitheringTest.csproj</string>
+    <string>[INFO 2025-02-23 9:06:15 AM] Starting test for project: D:\Code2025\RavenWork\OrderedDithering\OrderedDitheringTest\OrderedDitheringTest.csproj</string>
+    <string>[INFO 2025-02-23 9:06:15 AM] Starting test for project: D:\Code2025\RavenWork\OrderedDithering\OrderedDitheringTest\OrderedDitheringTest.csproj</string>
+    <string>[INFO 2025-02-23 9:06:15 AM] Starting test for project: D:\Code2025\RavenWork\OrderedDithering\OrderedDitheringTest\OrderedDitheringTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 9:06:20 AM] All tests passed successfully.
+[INFO 2025-02-23 9:06:20 AM] Test process completed. Duration: 5.19 seconds.
+[INFO 2025-02-23 9:06:20 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 9:06:17 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 9:06:19 AM] Test run for D:\Code2025\RavenWork\OrderedDithering\OrderedDitheringTest\bin\Debug\net9.0\OrderedDitheringTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 9:06:19 AM]   OrderedDitheringTest -> D:\Code2025\RavenWork\OrderedDithering\OrderedDitheringTest\bin\Debug\net9.0\OrderedDitheringTest.dll
+[OUTPUT 2025-02-23 9:06:18 AM]   OrderedDithering -> D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\bin\Debug\net9.0\OrderedDithering.dll
+[OUTPUT 2025-02-23 9:06:16 AM]   Determining projects to restore...
+[OUTPUT 2025-02-23 9:06:21 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 9:06:20 AM] VSTest version 17.12.0 (x64)
+[INFO 2025-02-23 9:06:15 AM] Command: dotnet test "D:\Code2025\RavenWork\OrderedDithering\OrderedDitheringTest\OrderedDitheringTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 9:06:15 AM] Starting test for project: D:\Code2025\RavenWork\OrderedDithering\OrderedDitheringTest\OrderedDitheringTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 8:51:39 AM
+OrderedDithering
+
+WritePatch ran compiler. 2025-02-23 8:52:29 AM
+OrderedDithering
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,45): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,16): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,45): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,16): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.42
+
+
+Errors:
+
+WritePatch: Compile failed.
+OrderedDithering
+
+Finished WritePatch cycle step.
+2025-02-23 8:52:31 AM
+OrderedDithering
+
+WritePatch Started CycleStep. 2025-02-23 8:52:31 AM
+OrderedDithering
+
+WritePatch ran compiler. 2025-02-23 8:53:41 AM
+OrderedDithering
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(102,16): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(20,23): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(112,44): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(25,23): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(33,23): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(46,17): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(22,24): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(29,28): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(67,27): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(72,37): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(37,28): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(84,31): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(89,41): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(97,31): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(98,33): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(106,24): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(51,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(58,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(58,57): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(58,71): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+  OrderedDithering -> D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\bin\Debug\net9.0\OrderedDithering.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(102,16): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(20,23): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(112,44): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(25,23): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(33,23): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(46,17): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(22,24): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(29,28): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(67,27): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(72,37): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(37,28): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(84,31): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(89,41): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(97,31): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(98,33): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs(106,24): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(51,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(58,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(58,57): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(58,71): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+    20 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.21
+
+
+WritePatch: Compile failed.
+OrderedDithering
+
+Finished WritePatch cycle step.
+2025-02-23 8:53:42 AM
+OrderedDithering
+
+WritePatch Started CycleStep. 2025-02-23 8:53:42 AM
+OrderedDithering
+
+WritePatch ran compiler. 2025-02-23 8:54:31 AM
+OrderedDithering
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,45): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,16): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,45): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,16): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.05
+
+
+Errors:
+
+WritePatch: Compile failed.
+OrderedDithering
+
+Finished WritePatch cycle step.
+2025-02-23 8:54:33 AM
+OrderedDithering
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,45): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,16): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,45): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,16): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.05
+
+
+Errors:
+</CompilerResponse>
+2025-02-23 8:54:34 AM
+OrderedDithering
+
+WritePatch ran compiler. 2025-02-23 8:54:35 AM
+OrderedDithering
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,45): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,16): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,45): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,16): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.99
+
+
+Errors:
+
+WritePatch: Compile failed.
+OrderedDithering
+
+WritePatch Started CycleStep. 2025-02-23 8:54:37 AM
+OrderedDithering
+
+WritePatch ran compiler. 2025-02-23 8:55:23 AM
+OrderedDithering
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,45): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,16): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,45): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(35,16): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.04
+
+
+Errors:
+
+WritePatch: Compile failed.
+OrderedDithering
+
+Finished WritePatch cycle step.
+2025-02-23 8:55:24 AM
+OrderedDithering
+
+WritePatch Started CycleStep. 2025-02-23 8:55:24 AM
+OrderedDithering
+
+WritePatch ran compiler. 2025-02-23 8:56:53 AM
+OrderedDithering
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(68,16): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(73,44): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(29,17): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(22,32): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(23,32): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(22,50): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(23,50): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(43,27): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(48,37): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(58,27): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(63,41): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(70,68): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(51,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(58,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(58,57): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(58,71): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+  OrderedDithering -> D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\bin\Debug\net9.0\OrderedDithering.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(68,16): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(73,44): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(29,17): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(22,32): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(23,32): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(22,50): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(23,50): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(43,27): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(48,37): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(58,27): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(63,41): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs(70,68): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(51,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(58,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(58,57): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\DitheringProcessor.cs(58,71): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\FakeDrawing.cs'. [D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\OrderedDithering.csproj]
+    16 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+
+
+WritePatch: Compile failed.
+OrderedDithering
+
+Finished WritePatch cycle step.
+2025-02-23 8:56:54 AM
+OrderedDithering
+
+WritePatch Started CycleStep. 2025-02-23 8:56:55 AM
+OrderedDithering
+
+WritePatch ran compiler. 2025-02-23 8:59:28 AM
+OrderedDithering
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OrderedDithering -> D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\bin\Debug\net9.0\OrderedDithering.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.38
+
+
+WritePatch: Code is not Complete.
+OrderedDithering
+
+Finished WritePatch cycle step.
+2025-02-23 9:00:59 AM
+OrderedDithering
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\OrderedDithering\OrderedDithering
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OrderedDithering -> D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\bin\Debug\net9.0\OrderedDithering.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.38
+
+</CompilerResponse>
+2025-02-23 9:01:00 AM
+OrderedDithering
+
+WritePatch ran compiler. 2025-02-23 9:01:03 AM
+OrderedDithering
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OrderedDithering -> D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\bin\Debug\net9.0\OrderedDithering.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+
+
+WritePatch: Code is not Complete.
+OrderedDithering
+
+WritePatch Started CycleStep. 2025-02-23 9:01:39 AM
+OrderedDithering
+
+WritePatch ran compiler. 2025-02-23 9:03:23 AM
+OrderedDithering
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OrderedDithering -> D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\bin\Debug\net9.0\OrderedDithering.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.17
+
+
+WritePatch: Code is Complete.
+OrderedDithering
+
+WritePatch Started CycleStep. 2025-02-23 9:03:39 AM
+OrderedDitheringTest
+
+WritePatch ran compiler. 2025-02-23 9:05:53 AM
+OrderedDitheringTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\OrderedDithering\OrderedDitheringTest\OrderedDitheringTest.csproj (in 289 ms).
+  1 of 2 projects are up-to-date for restore.
+  OrderedDithering -> D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\bin\Debug\net9.0\OrderedDithering.dll
+  OrderedDitheringTest -> D:\Code2025\RavenWork\OrderedDithering\OrderedDitheringTest\bin\Debug\net9.0\OrderedDitheringTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.11
+
+
+WritePatch: Code is Complete.
+OrderedDitheringTest
+
+TestResult:
+[SUCCESS 2025-02-23 9:06:20 AM] All tests passed successfully.
+[INFO 2025-02-23 9:06:20 AM] Test process completed. Duration: 5.19 seconds.
+[INFO 2025-02-23 9:06:20 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 9:06:17 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 9:06:19 AM] Test run for D:\Code2025\RavenWork\OrderedDithering\OrderedDitheringTest\bin\Debug\net9.0\OrderedDitheringTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 9:06:19 AM]   OrderedDitheringTest -> D:\Code2025\RavenWork\OrderedDithering\OrderedDitheringTest\bin\Debug\net9.0\OrderedDitheringTest.dll
+[OUTPUT 2025-02-23 9:06:18 AM]   OrderedDithering -> D:\Code2025\RavenWork\OrderedDithering\OrderedDithering\bin\Debug\net9.0\OrderedDithering.dll
+[OUTPUT 2025-02-23 9:06:16 AM]   Determining projects to restore...
+[OUTPUT 2025-02-23 9:06:21 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 9:06:20 AM] VSTest version 17.12.0 (x64)
+[INFO 2025-02-23 9:06:15 AM] Command: dotnet test "D:\Code2025\RavenWork\OrderedDithering\OrderedDitheringTest\OrderedDitheringTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 9:06:15 AM] Starting test for project: D:\Code2025\RavenWork\OrderedDithering\OrderedDitheringTest\OrderedDitheringTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
