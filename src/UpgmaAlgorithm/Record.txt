@@ -1,0 +1,408 @@
+<ActRecord>
+  <ProjectName>UpgmaAlgorithm</ProjectName>
+  <ProjectDescription>UPGMA – A distance-based algorithm for constructing phylogenetic trees by assuming a constant rate of evolution.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>UPGMA – A distance-based algorithm for constructing phylogenetic trees by assuming a constant rate of evolution.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\UpgmaAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>UpgmaAlgorithm</ProjectFolderName>
+  <ProjectName>UpgmaAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:50:34 AM
+UpgmaAlgorithm</string>
+    <string>Exception: The request was canceled due to the configured HttpClient.Timeout of 200 seconds elapsing.</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:53:55 AM
+UpgmaAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:55:22 AM
+UpgmaAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithm\Upgma.cs(160,20): error CS0111: Type 'Upgma.ClusterPair' already defines a member called 'ClusterPair' with the same parameter types [D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithm\UpgmaAlgorithm.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithm\Upgma.cs(160,20): error CS0111: Type 'Upgma.ClusterPair' already defines a member called 'ClusterPair' with the same parameter types [D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithm\UpgmaAlgorithm.csproj]
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.76
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+UpgmaAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:55:23 AM
+UpgmaAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:55:23 AM
+UpgmaAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:57:22 AM
+UpgmaAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  UpgmaAlgorithm -> D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithm\bin\Debug\net9.0\UpgmaAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.99
+]]></string>
+    <string>WritePatch: Code is Complete.
+UpgmaAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:58:49 AM
+UpgmaAlgorithmTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 6:59:36 AM
+UpgmaAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:59:36 AM
+UpgmaAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:00:21 AM
+UpgmaAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\UpgmaAlgorithmTest.csproj (in 172 ms).
+  1 of 2 projects are up-to-date for restore.
+  UpgmaAlgorithm -> D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithm\bin\Debug\net9.0\UpgmaAlgorithm.dll
+D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\UpgmaAlgorithmTests.cs(13,46): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\UpgmaAlgorithmTest.csproj]
+D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\UpgmaAlgorithmTests.cs(13,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\UpgmaAlgorithmTest.csproj]
+  UpgmaAlgorithmTest -> D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\bin\Debug\net9.0\UpgmaAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\UpgmaAlgorithmTests.cs(13,46): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\UpgmaAlgorithmTest.csproj]
+D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\UpgmaAlgorithmTests.cs(13,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\UpgmaAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.24
+]]></string>
+    <string>WritePatch: Compile failed.
+UpgmaAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:00:22 AM
+UpgmaAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:00:22 AM
+UpgmaAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:01:15 AM
+UpgmaAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  UpgmaAlgorithm -> D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithm\bin\Debug\net9.0\UpgmaAlgorithm.dll
+  UpgmaAlgorithmTest -> D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\bin\Debug\net9.0\UpgmaAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+]]></string>
+    <string>WritePatch: Code is not Complete.
+UpgmaAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:01:30 AM
+UpgmaAlgorithmTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  UpgmaAlgorithm -> D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithm\bin\Debug\net9.0\UpgmaAlgorithm.dll
+  UpgmaAlgorithmTest -> D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\bin\Debug\net9.0\UpgmaAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+
+</CompilerResponse>
+2025-02-23 7:01:31 AM
+UpgmaAlgorithmTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 7:01:32 AM
+UpgmaAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  UpgmaAlgorithm -> D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithm\bin\Debug\net9.0\UpgmaAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.83
+]]></string>
+    <string>WritePatch: Code is Complete.
+UpgmaAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:01:52 AM
+UpgmaAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  UpgmaAlgorithm -> D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithm\bin\Debug\net9.0\UpgmaAlgorithm.dll
+  UpgmaAlgorithmTest -> D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\bin\Debug\net9.0\UpgmaAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.82
+]]></string>
+    <string>WritePatch: Code is Complete.
+UpgmaAlgorithmTest</string>
+    <string>[INFO 2025-02-23 7:02:07 AM] Starting test for project: D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\UpgmaAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:02:07 AM] Starting test for project: D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\UpgmaAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:02:07 AM] Starting test for project: D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\UpgmaAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:02:07 AM] Starting test for project: D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\UpgmaAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:02:07 AM] Starting test for project: D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\UpgmaAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:02:07 AM] Starting test for project: D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\UpgmaAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:02:07 AM] Starting test for project: D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\UpgmaAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:02:07 AM] Starting test for project: D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\UpgmaAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:02:07 AM] Starting test for project: D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\UpgmaAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:02:07 AM] Starting test for project: D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\UpgmaAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:02:07 AM] Starting test for project: D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\UpgmaAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:02:07 AM] Starting test for project: D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\UpgmaAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 7:02:09 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:02:09 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:02:08 AM] Test run for D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\bin\Debug\net9.0\UpgmaAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:02:08 AM]   UpgmaAlgorithmTest -> D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\bin\Debug\net9.0\UpgmaAlgorithmTest.dll
+[OUTPUT 2025-02-23 7:02:10 AM] Test Parallelization enabled for D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\bin\Debug\net9.0\UpgmaAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:02:09 AM] D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\bin\Debug\net9.0\UpgmaAlgorithmTest.dll
+[OUTPUT 2025-02-23 7:02:09 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:02:08 AM]   UpgmaAlgorithm -> D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithm\bin\Debug\net9.0\UpgmaAlgorithm.dll
+[OUTPUT 2025-02-23 7:02:08 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:02:07 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 7:02:10 AM] All tests passed successfully.
+[INFO 2025-02-23 7:02:10 AM] Test process completed. Duration: 3.08 seconds.
+[INFO 2025-02-23 7:02:10 AM] Process exited with code 0.
+[INFO 2025-02-23 7:02:07 AM] Command: dotnet test "D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\UpgmaAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:02:07 AM] Starting test for project: D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\UpgmaAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 6:50:34 AM
+UpgmaAlgorithm
+
+Exception: The request was canceled due to the configured HttpClient.Timeout of 200 seconds elapsing.
+
+WritePatch Started CycleStep. 2025-02-23 6:53:55 AM
+UpgmaAlgorithm
+
+WritePatch ran compiler. 2025-02-23 6:55:22 AM
+UpgmaAlgorithm
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithm\Upgma.cs(160,20): error CS0111: Type 'Upgma.ClusterPair' already defines a member called 'ClusterPair' with the same parameter types [D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithm\UpgmaAlgorithm.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithm\Upgma.cs(160,20): error CS0111: Type 'Upgma.ClusterPair' already defines a member called 'ClusterPair' with the same parameter types [D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithm\UpgmaAlgorithm.csproj]
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.76
+
+
+Errors:
+
+WritePatch: Compile failed.
+UpgmaAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 6:55:23 AM
+UpgmaAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 6:55:23 AM
+UpgmaAlgorithm
+
+WritePatch ran compiler. 2025-02-23 6:57:22 AM
+UpgmaAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  UpgmaAlgorithm -> D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithm\bin\Debug\net9.0\UpgmaAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.99
+
+
+WritePatch: Code is Complete.
+UpgmaAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 6:58:49 AM
+UpgmaAlgorithmTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 6:59:36 AM
+UpgmaAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 6:59:36 AM
+UpgmaAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 7:00:21 AM
+UpgmaAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\UpgmaAlgorithmTest.csproj (in 172 ms).
+  1 of 2 projects are up-to-date for restore.
+  UpgmaAlgorithm -> D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithm\bin\Debug\net9.0\UpgmaAlgorithm.dll
+D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\UpgmaAlgorithmTests.cs(13,46): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\UpgmaAlgorithmTest.csproj]
+D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\UpgmaAlgorithmTests.cs(13,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\UpgmaAlgorithmTest.csproj]
+  UpgmaAlgorithmTest -> D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\bin\Debug\net9.0\UpgmaAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\UpgmaAlgorithmTests.cs(13,46): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\UpgmaAlgorithmTest.csproj]
+D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\UpgmaAlgorithmTests.cs(13,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\UpgmaAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.24
+
+
+WritePatch: Compile failed.
+UpgmaAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:00:22 AM
+UpgmaAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 7:00:22 AM
+UpgmaAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 7:01:15 AM
+UpgmaAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  UpgmaAlgorithm -> D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithm\bin\Debug\net9.0\UpgmaAlgorithm.dll
+  UpgmaAlgorithmTest -> D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\bin\Debug\net9.0\UpgmaAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+
+
+WritePatch: Code is not Complete.
+UpgmaAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:01:30 AM
+UpgmaAlgorithmTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  UpgmaAlgorithm -> D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithm\bin\Debug\net9.0\UpgmaAlgorithm.dll
+  UpgmaAlgorithmTest -> D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\bin\Debug\net9.0\UpgmaAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+
+</CompilerResponse>
+2025-02-23 7:01:31 AM
+UpgmaAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 7:01:32 AM
+UpgmaAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  UpgmaAlgorithm -> D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithm\bin\Debug\net9.0\UpgmaAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.83
+
+
+WritePatch: Code is Complete.
+UpgmaAlgorithm
+
+WritePatch ran compiler. 2025-02-23 7:01:52 AM
+UpgmaAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  UpgmaAlgorithm -> D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithm\bin\Debug\net9.0\UpgmaAlgorithm.dll
+  UpgmaAlgorithmTest -> D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\bin\Debug\net9.0\UpgmaAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.82
+
+
+WritePatch: Code is Complete.
+UpgmaAlgorithmTest
+
+TestResult:
+[OUTPUT 2025-02-23 7:02:09 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:02:09 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:02:08 AM] Test run for D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\bin\Debug\net9.0\UpgmaAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:02:08 AM]   UpgmaAlgorithmTest -> D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\bin\Debug\net9.0\UpgmaAlgorithmTest.dll
+[OUTPUT 2025-02-23 7:02:10 AM] Test Parallelization enabled for D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\bin\Debug\net9.0\UpgmaAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:02:09 AM] D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\bin\Debug\net9.0\UpgmaAlgorithmTest.dll
+[OUTPUT 2025-02-23 7:02:09 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:02:08 AM]   UpgmaAlgorithm -> D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithm\bin\Debug\net9.0\UpgmaAlgorithm.dll
+[OUTPUT 2025-02-23 7:02:08 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:02:07 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 7:02:10 AM] All tests passed successfully.
+[INFO 2025-02-23 7:02:10 AM] Test process completed. Duration: 3.08 seconds.
+[INFO 2025-02-23 7:02:10 AM] Process exited with code 0.
+[INFO 2025-02-23 7:02:07 AM] Command: dotnet test "D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\UpgmaAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:02:07 AM] Starting test for project: D:\Code2025\RavenWork\UpgmaAlgorithm\UpgmaAlgorithmTest\UpgmaAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
