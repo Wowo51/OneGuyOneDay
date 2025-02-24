@@ -1,0 +1,404 @@
+<ActRecord>
+  <ProjectName>KMeansPlusPlus</ProjectName>
+  <ProjectDescription>k‑means++: A variation of k‑means that uses modified random seeds</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>k‑means++: A variation of k‑means that uses modified random seeds</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\KMeansPlusPlus</SolutionFolderPath>
+  <ProjectFolderName>KMeansPlusPlus</ProjectFolderName>
+  <ProjectName>KMeansPlusPlus</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:21:13 AM
+KMeansPlusPlus</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 9:21:59 AM
+KMeansPlusPlus</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:22:00 AM
+KMeansPlusPlus</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:22:37 AM
+KMeansPlusPlus</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KMeansPlusPlus -> D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlus\bin\Debug\net9.0\KMeansPlusPlus.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.99
+]]></string>
+    <string>WritePatch: Code is Complete.
+KMeansPlusPlus</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:23:07 AM
+KMeansPlusPlusTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:24:01 AM
+KMeansPlusPlusTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusTest.csproj (in 312 ms).
+  1 of 2 projects are up-to-date for restore.
+  KMeansPlusPlus -> D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlus\bin\Debug\net9.0\KMeansPlusPlus.dll
+D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusAlgorithmTests.cs(15,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusTest.csproj]
+  KMeansPlusPlusTest -> D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\bin\Debug\net9.0\KMeansPlusPlusTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusAlgorithmTests.cs(15,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.41
+]]></string>
+    <string>WritePatch: Compile failed.
+KMeansPlusPlusTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:24:02 AM
+KMeansPlusPlusTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:24:02 AM
+KMeansPlusPlusTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:25:09 AM
+KMeansPlusPlusTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KMeansPlusPlus -> D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlus\bin\Debug\net9.0\KMeansPlusPlus.dll
+  KMeansPlusPlusTest -> D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\bin\Debug\net9.0\KMeansPlusPlusTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.27
+]]></string>
+    <string>WritePatch: Code is not Complete.
+KMeansPlusPlusTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:25:36 AM
+KMeansPlusPlusTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:25:37 AM
+KMeansPlusPlusTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:26:22 AM
+KMeansPlusPlusTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KMeansPlusPlus -> D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlus\bin\Debug\net9.0\KMeansPlusPlus.dll
+D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusAlgorithmTests.cs(15,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusTest.csproj]
+  KMeansPlusPlusTest -> D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\bin\Debug\net9.0\KMeansPlusPlusTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusAlgorithmTests.cs(15,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.52
+]]></string>
+    <string>WritePatch: Compile failed.
+KMeansPlusPlusTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:26:23 AM
+KMeansPlusPlusTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KMeansPlusPlus -> D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlus\bin\Debug\net9.0\KMeansPlusPlus.dll
+D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusAlgorithmTests.cs(15,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusTest.csproj]
+  KMeansPlusPlusTest -> D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\bin\Debug\net9.0\KMeansPlusPlusTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusAlgorithmTests.cs(15,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.52
+
+</CompilerResponse>
+2025-02-23 9:26:23 AM
+KMeansPlusPlusTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 9:26:24 AM
+KMeansPlusPlus</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KMeansPlusPlus -> D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlus\bin\Debug\net9.0\KMeansPlusPlus.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.96
+]]></string>
+    <string>WritePatch: Code is Complete.
+KMeansPlusPlus</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:27:24 AM
+KMeansPlusPlusTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KMeansPlusPlus -> D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlus\bin\Debug\net9.0\KMeansPlusPlus.dll
+  KMeansPlusPlusTest -> D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\bin\Debug\net9.0\KMeansPlusPlusTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.30
+]]></string>
+    <string>WritePatch: Code is Complete.
+KMeansPlusPlusTest</string>
+    <string>[INFO 2025-02-23 9:28:01 AM] Starting test for project: D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusTest.csproj</string>
+    <string>[INFO 2025-02-23 9:28:01 AM] Starting test for project: D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusTest.csproj</string>
+    <string>[INFO 2025-02-23 9:28:01 AM] Starting test for project: D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusTest.csproj</string>
+    <string>[INFO 2025-02-23 9:28:01 AM] Starting test for project: D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusTest.csproj</string>
+    <string>[INFO 2025-02-23 9:28:01 AM] Starting test for project: D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusTest.csproj</string>
+    <string>[INFO 2025-02-23 9:28:01 AM] Starting test for project: D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusTest.csproj</string>
+    <string>[INFO 2025-02-23 9:28:01 AM] Starting test for project: D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusTest.csproj</string>
+    <string>[INFO 2025-02-23 9:28:01 AM] Starting test for project: D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusTest.csproj</string>
+    <string>[INFO 2025-02-23 9:28:01 AM] Starting test for project: D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusTest.csproj</string>
+    <string>[INFO 2025-02-23 9:28:01 AM] Starting test for project: D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusTest.csproj</string>
+    <string>[INFO 2025-02-23 9:28:01 AM] Starting test for project: D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusTest.csproj</string>
+    <string>[INFO 2025-02-23 9:28:01 AM] Starting test for project: D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusTest.csproj</string>
+    <string>[INFO 2025-02-23 9:28:01 AM] Starting test for project: D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusTest.csproj</string>
+    <string>[INFO 2025-02-23 9:28:01 AM] Starting test for project: D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 9:28:06 AM] All tests passed successfully.
+[INFO 2025-02-23 9:28:06 AM] Test process completed. Duration: 4.97 seconds.
+[INFO 2025-02-23 9:28:06 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 9:28:05 AM] Test Parallelization enabled for D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\bin\Debug\net9.0\KMeansPlusPlusTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 9:28:02 AM]   KMeansPlusPlus -> D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlus\bin\Debug\net9.0\KMeansPlusPlus.dll
+[OUTPUT 2025-02-23 9:28:04 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 9:28:03 AM] Test run for D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\bin\Debug\net9.0\KMeansPlusPlusTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 9:28:03 AM]   KMeansPlusPlusTest -> D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\bin\Debug\net9.0\KMeansPlusPlusTest.dll
+[OUTPUT 2025-02-23 9:28:02 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 9:28:02 AM]   Determining projects to restore...
+[OUTPUT 2025-02-23 9:28:06 AM]   Passed Fit_IdenticalPoints_K2_AllAssignedToFirstCluster [7 ms]
+[OUTPUT 2025-02-23 9:28:06 AM]   Passed Fit_TwoClusters_CreatesDistinctClusters [7 ms]
+[OUTPUT 2025-02-23 9:28:04 AM] D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\bin\Debug\net9.0\KMeansPlusPlusTest.dll
+[OUTPUT 2025-02-23 9:28:04 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 9:28:04 AM] Starting test execution, please wait...
+[INFO 2025-02-23 9:28:01 AM] Command: dotnet test "D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 9:28:01 AM] Starting test for project: D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 9:21:13 AM
+KMeansPlusPlus
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 9:21:59 AM
+KMeansPlusPlus
+
+WritePatch Started CycleStep. 2025-02-23 9:22:00 AM
+KMeansPlusPlus
+
+WritePatch ran compiler. 2025-02-23 9:22:37 AM
+KMeansPlusPlus
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KMeansPlusPlus -> D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlus\bin\Debug\net9.0\KMeansPlusPlus.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.99
+
+
+WritePatch: Code is Complete.
+KMeansPlusPlus
+
+WritePatch Started CycleStep. 2025-02-23 9:23:07 AM
+KMeansPlusPlusTest
+
+WritePatch ran compiler. 2025-02-23 9:24:01 AM
+KMeansPlusPlusTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusTest.csproj (in 312 ms).
+  1 of 2 projects are up-to-date for restore.
+  KMeansPlusPlus -> D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlus\bin\Debug\net9.0\KMeansPlusPlus.dll
+D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusAlgorithmTests.cs(15,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusTest.csproj]
+  KMeansPlusPlusTest -> D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\bin\Debug\net9.0\KMeansPlusPlusTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusAlgorithmTests.cs(15,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.41
+
+
+WritePatch: Compile failed.
+KMeansPlusPlusTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:24:02 AM
+KMeansPlusPlusTest
+
+WritePatch Started CycleStep. 2025-02-23 9:24:02 AM
+KMeansPlusPlusTest
+
+WritePatch ran compiler. 2025-02-23 9:25:09 AM
+KMeansPlusPlusTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KMeansPlusPlus -> D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlus\bin\Debug\net9.0\KMeansPlusPlus.dll
+  KMeansPlusPlusTest -> D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\bin\Debug\net9.0\KMeansPlusPlusTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.27
+
+
+WritePatch: Code is not Complete.
+KMeansPlusPlusTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:25:36 AM
+KMeansPlusPlusTest
+
+WritePatch Started CycleStep. 2025-02-23 9:25:37 AM
+KMeansPlusPlusTest
+
+WritePatch ran compiler. 2025-02-23 9:26:22 AM
+KMeansPlusPlusTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KMeansPlusPlus -> D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlus\bin\Debug\net9.0\KMeansPlusPlus.dll
+D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusAlgorithmTests.cs(15,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusTest.csproj]
+  KMeansPlusPlusTest -> D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\bin\Debug\net9.0\KMeansPlusPlusTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusAlgorithmTests.cs(15,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.52
+
+
+WritePatch: Compile failed.
+KMeansPlusPlusTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:26:23 AM
+KMeansPlusPlusTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KMeansPlusPlus -> D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlus\bin\Debug\net9.0\KMeansPlusPlus.dll
+D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusAlgorithmTests.cs(15,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusTest.csproj]
+  KMeansPlusPlusTest -> D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\bin\Debug\net9.0\KMeansPlusPlusTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusAlgorithmTests.cs(15,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.52
+
+</CompilerResponse>
+2025-02-23 9:26:23 AM
+KMeansPlusPlusTest
+
+WritePatch ran compiler. 2025-02-23 9:26:24 AM
+KMeansPlusPlus
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KMeansPlusPlus -> D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlus\bin\Debug\net9.0\KMeansPlusPlus.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.96
+
+
+WritePatch: Code is Complete.
+KMeansPlusPlus
+
+WritePatch ran compiler. 2025-02-23 9:27:24 AM
+KMeansPlusPlusTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KMeansPlusPlus -> D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlus\bin\Debug\net9.0\KMeansPlusPlus.dll
+  KMeansPlusPlusTest -> D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\bin\Debug\net9.0\KMeansPlusPlusTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.30
+
+
+WritePatch: Code is Complete.
+KMeansPlusPlusTest
+
+TestResult:
+[SUCCESS 2025-02-23 9:28:06 AM] All tests passed successfully.
+[INFO 2025-02-23 9:28:06 AM] Test process completed. Duration: 4.97 seconds.
+[INFO 2025-02-23 9:28:06 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 9:28:05 AM] Test Parallelization enabled for D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\bin\Debug\net9.0\KMeansPlusPlusTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 9:28:02 AM]   KMeansPlusPlus -> D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlus\bin\Debug\net9.0\KMeansPlusPlus.dll
+[OUTPUT 2025-02-23 9:28:04 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 9:28:03 AM] Test run for D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\bin\Debug\net9.0\KMeansPlusPlusTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 9:28:03 AM]   KMeansPlusPlusTest -> D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\bin\Debug\net9.0\KMeansPlusPlusTest.dll
+[OUTPUT 2025-02-23 9:28:02 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 9:28:02 AM]   Determining projects to restore...
+[OUTPUT 2025-02-23 9:28:06 AM]   Passed Fit_IdenticalPoints_K2_AllAssignedToFirstCluster [7 ms]
+[OUTPUT 2025-02-23 9:28:06 AM]   Passed Fit_TwoClusters_CreatesDistinctClusters [7 ms]
+[OUTPUT 2025-02-23 9:28:04 AM] D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\bin\Debug\net9.0\KMeansPlusPlusTest.dll
+[OUTPUT 2025-02-23 9:28:04 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 9:28:04 AM] Starting test execution, please wait...
+[INFO 2025-02-23 9:28:01 AM] Command: dotnet test "D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 9:28:01 AM] Starting test for project: D:\Code2025\RavenWork\KMeansPlusPlus\KMeansPlusPlusTest\KMeansPlusPlusTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
