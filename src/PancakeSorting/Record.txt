@@ -1,0 +1,388 @@
+<ActRecord>
+  <ProjectName>PancakeSorting</ProjectName>
+  <ProjectDescription>Pancake sorting</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Pancake sorting</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\PancakeSorting</SolutionFolderPath>
+  <ProjectFolderName>PancakeSorting</ProjectFolderName>
+  <ProjectName>PancakeSorting</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:55:09 PM
+PancakeSorting</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:55:35 PM
+PancakeSorting</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PancakeSorting -> D:\Code2025\RavenWork\PancakeSorting\PancakeSorting\bin\Debug\net9.0\PancakeSorting.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.77
+]]></string>
+    <string>WritePatch: Code is Complete.
+PancakeSorting</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:55:49 PM
+PancakeSortingTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:56:29 PM
+PancakeSortingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSortingTest.csproj (in 419 ms).
+  1 of 2 projects are up-to-date for restore.
+  PancakeSorting -> D:\Code2025\RavenWork\PancakeSorting\PancakeSorting\bin\Debug\net9.0\PancakeSorting.dll
+D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSorterTests.cs(13,25): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSortingTest.csproj]
+  PancakeSortingTest -> D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\bin\Debug\net9.0\PancakeSortingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSorterTests.cs(13,25): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSortingTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.90
+]]></string>
+    <string>WritePatch: Compile failed.
+PancakeSortingTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:56:31 PM
+PancakeSortingTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:56:31 PM
+PancakeSortingTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:57:04 PM
+PancakeSortingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PancakeSorting -> D:\Code2025\RavenWork\PancakeSorting\PancakeSorting\bin\Debug\net9.0\PancakeSorting.dll
+  PancakeSortingTest -> D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\bin\Debug\net9.0\PancakeSortingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.01
+]]></string>
+    <string>WritePatch: Code is not Complete.
+PancakeSortingTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:57:20 PM
+PancakeSortingTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:57:21 PM
+PancakeSortingTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:58:11 PM
+PancakeSortingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PancakeSorting -> D:\Code2025\RavenWork\PancakeSorting\PancakeSorting\bin\Debug\net9.0\PancakeSorting.dll
+D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSorterTests.cs(13,25): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSortingTest.csproj]
+  PancakeSortingTest -> D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\bin\Debug\net9.0\PancakeSortingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSorterTests.cs(13,25): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSortingTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.11
+]]></string>
+    <string>WritePatch: Compile failed.
+PancakeSortingTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:58:12 PM
+PancakeSortingTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PancakeSorting -> D:\Code2025\RavenWork\PancakeSorting\PancakeSorting\bin\Debug\net9.0\PancakeSorting.dll
+D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSorterTests.cs(13,25): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSortingTest.csproj]
+  PancakeSortingTest -> D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\bin\Debug\net9.0\PancakeSortingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSorterTests.cs(13,25): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSortingTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.11
+
+</CompilerResponse>
+2025-02-23 6:58:13 PM
+PancakeSortingTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 6:58:15 PM
+PancakeSorting</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PancakeSorting -> D:\Code2025\RavenWork\PancakeSorting\PancakeSorting\bin\Debug\net9.0\PancakeSorting.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.59
+]]></string>
+    <string>WritePatch: Code is Complete.
+PancakeSorting</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:58:27 PM
+PancakeSortingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PancakeSorting -> D:\Code2025\RavenWork\PancakeSorting\PancakeSorting\bin\Debug\net9.0\PancakeSorting.dll
+  PancakeSortingTest -> D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\bin\Debug\net9.0\PancakeSortingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.47
+]]></string>
+    <string>WritePatch: Code is Complete.
+PancakeSortingTest</string>
+    <string>[INFO 2025-02-23 6:58:42 PM] Starting test for project: D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSortingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:58:42 PM] Starting test for project: D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSortingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:58:42 PM] Starting test for project: D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSortingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:58:42 PM] Starting test for project: D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSortingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:58:42 PM] Starting test for project: D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSortingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:58:42 PM] Starting test for project: D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSortingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:58:42 PM] Starting test for project: D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSortingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:58:42 PM] Starting test for project: D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSortingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:58:42 PM] Starting test for project: D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSortingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:58:42 PM] Starting test for project: D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSortingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:58:42 PM] Starting test for project: D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSortingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:58:42 PM] Starting test for project: D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSortingTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 6:58:49 PM] Test Parallelization enabled for D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\bin\Debug\net9.0\PancakeSortingTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 6:58:44 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 6:58:48 PM] D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\bin\Debug\net9.0\PancakeSortingTest.dll
+[OUTPUT 2025-02-23 6:58:47 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:58:47 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:58:46 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:58:45 PM] Test run for D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\bin\Debug\net9.0\PancakeSortingTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:58:45 PM]   PancakeSortingTest -> D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\bin\Debug\net9.0\PancakeSortingTest.dll
+[OUTPUT 2025-02-23 6:58:44 PM]   PancakeSorting -> D:\Code2025\RavenWork\PancakeSorting\PancakeSorting\bin\Debug\net9.0\PancakeSorting.dll
+[OUTPUT 2025-02-23 6:58:43 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 6:58:48 PM] All tests passed successfully.
+[INFO 2025-02-23 6:58:48 PM] Test process completed. Duration: 6.23 seconds.
+[INFO 2025-02-23 6:58:48 PM] Process exited with code 0.
+[INFO 2025-02-23 6:58:42 PM] Command: dotnet test "D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSortingTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:58:42 PM] Starting test for project: D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSortingTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 6:55:09 PM
+PancakeSorting
+
+WritePatch ran compiler. 2025-02-23 6:55:35 PM
+PancakeSorting
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PancakeSorting -> D:\Code2025\RavenWork\PancakeSorting\PancakeSorting\bin\Debug\net9.0\PancakeSorting.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.77
+
+
+WritePatch: Code is Complete.
+PancakeSorting
+
+WritePatch Started CycleStep. 2025-02-23 6:55:49 PM
+PancakeSortingTest
+
+WritePatch ran compiler. 2025-02-23 6:56:29 PM
+PancakeSortingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSortingTest.csproj (in 419 ms).
+  1 of 2 projects are up-to-date for restore.
+  PancakeSorting -> D:\Code2025\RavenWork\PancakeSorting\PancakeSorting\bin\Debug\net9.0\PancakeSorting.dll
+D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSorterTests.cs(13,25): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSortingTest.csproj]
+  PancakeSortingTest -> D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\bin\Debug\net9.0\PancakeSortingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSorterTests.cs(13,25): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSortingTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.90
+
+
+WritePatch: Compile failed.
+PancakeSortingTest
+
+Finished WritePatch cycle step.
+2025-02-23 6:56:31 PM
+PancakeSortingTest
+
+WritePatch Started CycleStep. 2025-02-23 6:56:31 PM
+PancakeSortingTest
+
+WritePatch ran compiler. 2025-02-23 6:57:04 PM
+PancakeSortingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PancakeSorting -> D:\Code2025\RavenWork\PancakeSorting\PancakeSorting\bin\Debug\net9.0\PancakeSorting.dll
+  PancakeSortingTest -> D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\bin\Debug\net9.0\PancakeSortingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.01
+
+
+WritePatch: Code is not Complete.
+PancakeSortingTest
+
+Finished WritePatch cycle step.
+2025-02-23 6:57:20 PM
+PancakeSortingTest
+
+WritePatch Started CycleStep. 2025-02-23 6:57:21 PM
+PancakeSortingTest
+
+WritePatch ran compiler. 2025-02-23 6:58:11 PM
+PancakeSortingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PancakeSorting -> D:\Code2025\RavenWork\PancakeSorting\PancakeSorting\bin\Debug\net9.0\PancakeSorting.dll
+D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSorterTests.cs(13,25): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSortingTest.csproj]
+  PancakeSortingTest -> D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\bin\Debug\net9.0\PancakeSortingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSorterTests.cs(13,25): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSortingTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.11
+
+
+WritePatch: Compile failed.
+PancakeSortingTest
+
+Finished WritePatch cycle step.
+2025-02-23 6:58:12 PM
+PancakeSortingTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PancakeSorting -> D:\Code2025\RavenWork\PancakeSorting\PancakeSorting\bin\Debug\net9.0\PancakeSorting.dll
+D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSorterTests.cs(13,25): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSortingTest.csproj]
+  PancakeSortingTest -> D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\bin\Debug\net9.0\PancakeSortingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSorterTests.cs(13,25): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSortingTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.11
+
+</CompilerResponse>
+2025-02-23 6:58:13 PM
+PancakeSortingTest
+
+WritePatch ran compiler. 2025-02-23 6:58:15 PM
+PancakeSorting
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PancakeSorting -> D:\Code2025\RavenWork\PancakeSorting\PancakeSorting\bin\Debug\net9.0\PancakeSorting.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.59
+
+
+WritePatch: Code is Complete.
+PancakeSorting
+
+WritePatch ran compiler. 2025-02-23 6:58:27 PM
+PancakeSortingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PancakeSorting -> D:\Code2025\RavenWork\PancakeSorting\PancakeSorting\bin\Debug\net9.0\PancakeSorting.dll
+  PancakeSortingTest -> D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\bin\Debug\net9.0\PancakeSortingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.47
+
+
+WritePatch: Code is Complete.
+PancakeSortingTest
+
+TestResult:
+[OUTPUT 2025-02-23 6:58:49 PM] Test Parallelization enabled for D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\bin\Debug\net9.0\PancakeSortingTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 6:58:44 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 6:58:48 PM] D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\bin\Debug\net9.0\PancakeSortingTest.dll
+[OUTPUT 2025-02-23 6:58:47 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:58:47 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:58:46 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:58:45 PM] Test run for D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\bin\Debug\net9.0\PancakeSortingTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:58:45 PM]   PancakeSortingTest -> D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\bin\Debug\net9.0\PancakeSortingTest.dll
+[OUTPUT 2025-02-23 6:58:44 PM]   PancakeSorting -> D:\Code2025\RavenWork\PancakeSorting\PancakeSorting\bin\Debug\net9.0\PancakeSorting.dll
+[OUTPUT 2025-02-23 6:58:43 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 6:58:48 PM] All tests passed successfully.
+[INFO 2025-02-23 6:58:48 PM] Test process completed. Duration: 6.23 seconds.
+[INFO 2025-02-23 6:58:48 PM] Process exited with code 0.
+[INFO 2025-02-23 6:58:42 PM] Command: dotnet test "D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSortingTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:58:42 PM] Starting test for project: D:\Code2025\RavenWork\PancakeSorting\PancakeSortingTest\PancakeSortingTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
