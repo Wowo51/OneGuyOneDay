@@ -1,0 +1,388 @@
+<ActRecord>
+  <ProjectName>FastFourierTransform</ProjectName>
+  <ProjectDescription>Fast Fourier transform (FFT)</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Fast Fourier transform (FFT)</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\FastFourierTransform</SolutionFolderPath>
+  <ProjectFolderName>FastFourierTransform</ProjectFolderName>
+  <ProjectName>FastFourierTransform</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:03:43 PM
+FastFourierTransform</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:05:14 PM
+FastFourierTransform</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FastFourierTransform -> D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransform\bin\Debug\net9.0\FastFourierTransform.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.18
+]]></string>
+    <string>WritePatch: Code is Complete.
+FastFourierTransform</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:05:31 PM
+FastFourierTransformTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:07:07 PM
+FastFourierTransformTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FastFourierTransformTest.csproj (in 269 ms).
+  1 of 2 projects are up-to-date for restore.
+  FastFourierTransform -> D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransform\bin\Debug\net9.0\FastFourierTransform.dll
+D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FFTTests.cs(15,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FastFourierTransformTest.csproj]
+  FastFourierTransformTest -> D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\bin\Debug\net9.0\FastFourierTransformTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FFTTests.cs(15,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FastFourierTransformTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.45
+]]></string>
+    <string>WritePatch: Compile failed.
+FastFourierTransformTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:07:08 PM
+FastFourierTransformTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:07:08 PM
+FastFourierTransformTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:07:34 PM
+FastFourierTransformTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FastFourierTransform -> D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransform\bin\Debug\net9.0\FastFourierTransform.dll
+  FastFourierTransformTest -> D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\bin\Debug\net9.0\FastFourierTransformTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.71
+]]></string>
+    <string>WritePatch: Code is not Complete.
+FastFourierTransformTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:07:54 PM
+FastFourierTransformTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:07:55 PM
+FastFourierTransformTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:08:51 PM
+FastFourierTransformTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FastFourierTransform -> D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransform\bin\Debug\net9.0\FastFourierTransform.dll
+D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FFTTests.cs(15,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FastFourierTransformTest.csproj]
+  FastFourierTransformTest -> D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\bin\Debug\net9.0\FastFourierTransformTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FFTTests.cs(15,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FastFourierTransformTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.81
+]]></string>
+    <string>WritePatch: Compile failed.
+FastFourierTransformTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:08:52 PM
+FastFourierTransformTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FastFourierTransform -> D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransform\bin\Debug\net9.0\FastFourierTransform.dll
+D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FFTTests.cs(15,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FastFourierTransformTest.csproj]
+  FastFourierTransformTest -> D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\bin\Debug\net9.0\FastFourierTransformTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FFTTests.cs(15,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FastFourierTransformTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.81
+
+</CompilerResponse>
+2025-02-23 2:08:53 PM
+FastFourierTransformTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 2:08:55 PM
+FastFourierTransform</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FastFourierTransform -> D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransform\bin\Debug\net9.0\FastFourierTransform.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.30
+]]></string>
+    <string>WritePatch: Code is Complete.
+FastFourierTransform</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:09:39 PM
+FastFourierTransformTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FastFourierTransform -> D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransform\bin\Debug\net9.0\FastFourierTransform.dll
+  FastFourierTransformTest -> D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\bin\Debug\net9.0\FastFourierTransformTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.40
+]]></string>
+    <string>WritePatch: Code is Complete.
+FastFourierTransformTest</string>
+    <string>[INFO 2025-02-23 2:10:04 PM] Starting test for project: D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FastFourierTransformTest.csproj</string>
+    <string>[INFO 2025-02-23 2:10:04 PM] Starting test for project: D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FastFourierTransformTest.csproj</string>
+    <string>[INFO 2025-02-23 2:10:04 PM] Starting test for project: D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FastFourierTransformTest.csproj</string>
+    <string>[INFO 2025-02-23 2:10:04 PM] Starting test for project: D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FastFourierTransformTest.csproj</string>
+    <string>[INFO 2025-02-23 2:10:04 PM] Starting test for project: D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FastFourierTransformTest.csproj</string>
+    <string>[INFO 2025-02-23 2:10:04 PM] Starting test for project: D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FastFourierTransformTest.csproj</string>
+    <string>[INFO 2025-02-23 2:10:04 PM] Starting test for project: D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FastFourierTransformTest.csproj</string>
+    <string>[INFO 2025-02-23 2:10:04 PM] Starting test for project: D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FastFourierTransformTest.csproj</string>
+    <string>[INFO 2025-02-23 2:10:04 PM] Starting test for project: D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FastFourierTransformTest.csproj</string>
+    <string>[INFO 2025-02-23 2:10:04 PM] Starting test for project: D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FastFourierTransformTest.csproj</string>
+    <string>[INFO 2025-02-23 2:10:04 PM] Starting test for project: D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FastFourierTransformTest.csproj</string>
+    <string>[INFO 2025-02-23 2:10:04 PM] Starting test for project: D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FastFourierTransformTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 2:10:09 PM] All tests passed successfully.
+[INFO 2025-02-23 2:10:09 PM] Test process completed. Duration: 5.06 seconds.
+[INFO 2025-02-23 2:10:09 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 2:10:06 PM]   FastFourierTransform -> D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransform\bin\Debug\net9.0\FastFourierTransform.dll
+[OUTPUT 2025-02-23 2:10:05 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 2:10:10 PM] Test Parallelization enabled for D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\bin\Debug\net9.0\FastFourierTransformTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 2:10:09 PM] D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\bin\Debug\net9.0\FastFourierTransformTest.dll
+[OUTPUT 2025-02-23 2:10:08 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 2:10:08 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 2:10:07 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 2:10:07 PM] Test run for D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\bin\Debug\net9.0\FastFourierTransformTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 2:10:06 PM]   FastFourierTransformTest -> D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\bin\Debug\net9.0\FastFourierTransformTest.dll
+[OUTPUT 2025-02-23 2:10:05 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 2:10:04 PM] Command: dotnet test "D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FastFourierTransformTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 2:10:04 PM] Starting test for project: D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FastFourierTransformTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 2:03:43 PM
+FastFourierTransform
+
+WritePatch ran compiler. 2025-02-23 2:05:14 PM
+FastFourierTransform
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FastFourierTransform -> D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransform\bin\Debug\net9.0\FastFourierTransform.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.18
+
+
+WritePatch: Code is Complete.
+FastFourierTransform
+
+WritePatch Started CycleStep. 2025-02-23 2:05:31 PM
+FastFourierTransformTest
+
+WritePatch ran compiler. 2025-02-23 2:07:07 PM
+FastFourierTransformTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FastFourierTransformTest.csproj (in 269 ms).
+  1 of 2 projects are up-to-date for restore.
+  FastFourierTransform -> D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransform\bin\Debug\net9.0\FastFourierTransform.dll
+D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FFTTests.cs(15,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FastFourierTransformTest.csproj]
+  FastFourierTransformTest -> D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\bin\Debug\net9.0\FastFourierTransformTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FFTTests.cs(15,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FastFourierTransformTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.45
+
+
+WritePatch: Compile failed.
+FastFourierTransformTest
+
+Finished WritePatch cycle step.
+2025-02-23 2:07:08 PM
+FastFourierTransformTest
+
+WritePatch Started CycleStep. 2025-02-23 2:07:08 PM
+FastFourierTransformTest
+
+WritePatch ran compiler. 2025-02-23 2:07:34 PM
+FastFourierTransformTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FastFourierTransform -> D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransform\bin\Debug\net9.0\FastFourierTransform.dll
+  FastFourierTransformTest -> D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\bin\Debug\net9.0\FastFourierTransformTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.71
+
+
+WritePatch: Code is not Complete.
+FastFourierTransformTest
+
+Finished WritePatch cycle step.
+2025-02-23 2:07:54 PM
+FastFourierTransformTest
+
+WritePatch Started CycleStep. 2025-02-23 2:07:55 PM
+FastFourierTransformTest
+
+WritePatch ran compiler. 2025-02-23 2:08:51 PM
+FastFourierTransformTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FastFourierTransform -> D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransform\bin\Debug\net9.0\FastFourierTransform.dll
+D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FFTTests.cs(15,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FastFourierTransformTest.csproj]
+  FastFourierTransformTest -> D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\bin\Debug\net9.0\FastFourierTransformTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FFTTests.cs(15,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FastFourierTransformTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.81
+
+
+WritePatch: Compile failed.
+FastFourierTransformTest
+
+Finished WritePatch cycle step.
+2025-02-23 2:08:52 PM
+FastFourierTransformTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FastFourierTransform -> D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransform\bin\Debug\net9.0\FastFourierTransform.dll
+D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FFTTests.cs(15,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FastFourierTransformTest.csproj]
+  FastFourierTransformTest -> D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\bin\Debug\net9.0\FastFourierTransformTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FFTTests.cs(15,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FastFourierTransformTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.81
+
+</CompilerResponse>
+2025-02-23 2:08:53 PM
+FastFourierTransformTest
+
+WritePatch ran compiler. 2025-02-23 2:08:55 PM
+FastFourierTransform
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FastFourierTransform -> D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransform\bin\Debug\net9.0\FastFourierTransform.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.30
+
+
+WritePatch: Code is Complete.
+FastFourierTransform
+
+WritePatch ran compiler. 2025-02-23 2:09:39 PM
+FastFourierTransformTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FastFourierTransform -> D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransform\bin\Debug\net9.0\FastFourierTransform.dll
+  FastFourierTransformTest -> D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\bin\Debug\net9.0\FastFourierTransformTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.40
+
+
+WritePatch: Code is Complete.
+FastFourierTransformTest
+
+TestResult:
+[SUCCESS 2025-02-23 2:10:09 PM] All tests passed successfully.
+[INFO 2025-02-23 2:10:09 PM] Test process completed. Duration: 5.06 seconds.
+[INFO 2025-02-23 2:10:09 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 2:10:06 PM]   FastFourierTransform -> D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransform\bin\Debug\net9.0\FastFourierTransform.dll
+[OUTPUT 2025-02-23 2:10:05 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 2:10:10 PM] Test Parallelization enabled for D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\bin\Debug\net9.0\FastFourierTransformTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 2:10:09 PM] D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\bin\Debug\net9.0\FastFourierTransformTest.dll
+[OUTPUT 2025-02-23 2:10:08 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 2:10:08 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 2:10:07 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 2:10:07 PM] Test run for D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\bin\Debug\net9.0\FastFourierTransformTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 2:10:06 PM]   FastFourierTransformTest -> D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\bin\Debug\net9.0\FastFourierTransformTest.dll
+[OUTPUT 2025-02-23 2:10:05 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 2:10:04 PM] Command: dotnet test "D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FastFourierTransformTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 2:10:04 PM] Starting test for project: D:\Code2025\RavenWork\FastFourierTransform\FastFourierTransformTest\FastFourierTransformTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
