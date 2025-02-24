@@ -1,0 +1,427 @@
+<ActRecord>
+  <ProjectName>StoogeSort</ProjectName>
+  <ProjectDescription>Stooge sort</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Stooge sort</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\StoogeSort</SolutionFolderPath>
+  <ProjectFolderName>StoogeSort</ProjectFolderName>
+  <ProjectName>StoogeSort</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:06:08 PM
+StoogeSort</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:07:07 PM
+StoogeSort</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StoogeSort -> D:\Code2025\RavenWork\StoogeSort\StoogeSort\bin\Debug\net9.0\StoogeSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+]]></string>
+    <string>WritePatch: Code is Complete.
+StoogeSort</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:07:25 PM
+StoogeSortTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:08:25 PM
+StoogeSortTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj (in 271 ms).
+  1 of 2 projects are up-to-date for restore.
+  StoogeSort -> D:\Code2025\RavenWork\StoogeSort\StoogeSort\bin\Debug\net9.0\StoogeSort.dll
+D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSorterTests.cs(13,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj]
+D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSorterTests.cs(14,31): warning CS8604: Possible null reference argument for parameter 'array' in 'void StoogeSorter.Sort<int>(int[] array)'. [D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj]
+  StoogeSortTest -> D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\bin\Debug\net9.0\StoogeSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSorterTests.cs(13,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj]
+D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSorterTests.cs(14,31): warning CS8604: Possible null reference argument for parameter 'array' in 'void StoogeSorter.Sort<int>(int[] array)'. [D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.74
+]]></string>
+    <string>WritePatch: Compile failed.
+StoogeSortTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:08:30 PM
+StoogeSortTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:08:32 PM
+StoogeSortTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:09:06 PM
+StoogeSortTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StoogeSort -> D:\Code2025\RavenWork\StoogeSort\StoogeSort\bin\Debug\net9.0\StoogeSort.dll
+  StoogeSortTest -> D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\bin\Debug\net9.0\StoogeSortTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.46
+]]></string>
+    <string>WritePatch: Code is not Complete.
+StoogeSortTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:09:50 PM
+StoogeSortTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:09:51 PM
+StoogeSortTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:10:43 PM
+StoogeSortTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StoogeSort -> D:\Code2025\RavenWork\StoogeSort\StoogeSort\bin\Debug\net9.0\StoogeSort.dll
+D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSorterTests.cs(172,24): warning CS8767: Nullability of reference types in type of parameter 'other' of 'int ComparableWrapper.CompareTo(ComparableWrapper other)' doesn't match implicitly implemented member 'int IComparable<ComparableWrapper>.CompareTo(ComparableWrapper? other)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj]
+D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSorterTests.cs(13,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj]
+D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSorterTests.cs(14,31): warning CS8604: Possible null reference argument for parameter 'array' in 'void StoogeSorter.Sort<int>(int[] array)'. [D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj]
+  StoogeSortTest -> D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\bin\Debug\net9.0\StoogeSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSorterTests.cs(172,24): warning CS8767: Nullability of reference types in type of parameter 'other' of 'int ComparableWrapper.CompareTo(ComparableWrapper other)' doesn't match implicitly implemented member 'int IComparable<ComparableWrapper>.CompareTo(ComparableWrapper? other)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj]
+D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSorterTests.cs(13,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj]
+D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSorterTests.cs(14,31): warning CS8604: Possible null reference argument for parameter 'array' in 'void StoogeSorter.Sort<int>(int[] array)'. [D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.26
+]]></string>
+    <string>WritePatch: Compile failed.
+StoogeSortTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:10:45 PM
+StoogeSortTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\StoogeSort\StoogeSortTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StoogeSort -> D:\Code2025\RavenWork\StoogeSort\StoogeSort\bin\Debug\net9.0\StoogeSort.dll
+D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSorterTests.cs(172,24): warning CS8767: Nullability of reference types in type of parameter 'other' of 'int ComparableWrapper.CompareTo(ComparableWrapper other)' doesn't match implicitly implemented member 'int IComparable<ComparableWrapper>.CompareTo(ComparableWrapper? other)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj]
+D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSorterTests.cs(13,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj]
+D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSorterTests.cs(14,31): warning CS8604: Possible null reference argument for parameter 'array' in 'void StoogeSorter.Sort<int>(int[] array)'. [D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj]
+  StoogeSortTest -> D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\bin\Debug\net9.0\StoogeSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSorterTests.cs(172,24): warning CS8767: Nullability of reference types in type of parameter 'other' of 'int ComparableWrapper.CompareTo(ComparableWrapper other)' doesn't match implicitly implemented member 'int IComparable<ComparableWrapper>.CompareTo(ComparableWrapper? other)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj]
+D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSorterTests.cs(13,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj]
+D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSorterTests.cs(14,31): warning CS8604: Possible null reference argument for parameter 'array' in 'void StoogeSorter.Sort<int>(int[] array)'. [D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.26
+
+</CompilerResponse>
+2025-02-23 1:10:45 PM
+StoogeSortTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 1:10:47 PM
+StoogeSort</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StoogeSort -> D:\Code2025\RavenWork\StoogeSort\StoogeSort\bin\Debug\net9.0\StoogeSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.83
+]]></string>
+    <string>WritePatch: Code is not Complete.
+StoogeSort</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:11:43 PM
+StoogeSort</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:12:22 PM
+StoogeSort</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StoogeSort -> D:\Code2025\RavenWork\StoogeSort\StoogeSort\bin\Debug\net9.0\StoogeSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.90
+]]></string>
+    <string>WritePatch: Code is Complete.
+StoogeSort</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:12:40 PM
+StoogeSortTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StoogeSort -> D:\Code2025\RavenWork\StoogeSort\StoogeSort\bin\Debug\net9.0\StoogeSort.dll
+  StoogeSortTest -> D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\bin\Debug\net9.0\StoogeSortTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.14
+]]></string>
+    <string>WritePatch: Code is Complete.
+StoogeSortTest</string>
+    <string>[INFO 2025-02-23 1:12:55 PM] Starting test for project: D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj</string>
+    <string>[INFO 2025-02-23 1:12:55 PM] Starting test for project: D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj</string>
+    <string>[INFO 2025-02-23 1:12:55 PM] Starting test for project: D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj</string>
+    <string>[INFO 2025-02-23 1:12:55 PM] Starting test for project: D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj</string>
+    <string>[INFO 2025-02-23 1:12:55 PM] Starting test for project: D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 1:13:01 PM]   StoogeSort -> D:\Code2025\RavenWork\StoogeSort\StoogeSort\bin\Debug\net9.0\StoogeSort.dll
+[OUTPUT 2025-02-23 1:12:59 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:12:57 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 1:13:00 PM] All tests passed successfully.
+[INFO 2025-02-23 1:13:00 PM] Test process completed. Duration: 4.41 seconds.
+[INFO 2025-02-23 1:13:00 PM] Process exited with code 0.
+[INFO 2025-02-23 1:12:55 PM] Command: dotnet test "D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:12:55 PM] Starting test for project: D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 1:06:08 PM
+StoogeSort
+
+WritePatch ran compiler. 2025-02-23 1:07:07 PM
+StoogeSort
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StoogeSort -> D:\Code2025\RavenWork\StoogeSort\StoogeSort\bin\Debug\net9.0\StoogeSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+
+
+WritePatch: Code is Complete.
+StoogeSort
+
+WritePatch Started CycleStep. 2025-02-23 1:07:25 PM
+StoogeSortTest
+
+WritePatch ran compiler. 2025-02-23 1:08:25 PM
+StoogeSortTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj (in 271 ms).
+  1 of 2 projects are up-to-date for restore.
+  StoogeSort -> D:\Code2025\RavenWork\StoogeSort\StoogeSort\bin\Debug\net9.0\StoogeSort.dll
+D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSorterTests.cs(13,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj]
+D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSorterTests.cs(14,31): warning CS8604: Possible null reference argument for parameter 'array' in 'void StoogeSorter.Sort<int>(int[] array)'. [D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj]
+  StoogeSortTest -> D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\bin\Debug\net9.0\StoogeSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSorterTests.cs(13,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj]
+D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSorterTests.cs(14,31): warning CS8604: Possible null reference argument for parameter 'array' in 'void StoogeSorter.Sort<int>(int[] array)'. [D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.74
+
+
+WritePatch: Compile failed.
+StoogeSortTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:08:30 PM
+StoogeSortTest
+
+WritePatch Started CycleStep. 2025-02-23 1:08:32 PM
+StoogeSortTest
+
+WritePatch ran compiler. 2025-02-23 1:09:06 PM
+StoogeSortTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StoogeSort -> D:\Code2025\RavenWork\StoogeSort\StoogeSort\bin\Debug\net9.0\StoogeSort.dll
+  StoogeSortTest -> D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\bin\Debug\net9.0\StoogeSortTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.46
+
+
+WritePatch: Code is not Complete.
+StoogeSortTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:09:50 PM
+StoogeSortTest
+
+WritePatch Started CycleStep. 2025-02-23 1:09:51 PM
+StoogeSortTest
+
+WritePatch ran compiler. 2025-02-23 1:10:43 PM
+StoogeSortTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StoogeSort -> D:\Code2025\RavenWork\StoogeSort\StoogeSort\bin\Debug\net9.0\StoogeSort.dll
+D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSorterTests.cs(172,24): warning CS8767: Nullability of reference types in type of parameter 'other' of 'int ComparableWrapper.CompareTo(ComparableWrapper other)' doesn't match implicitly implemented member 'int IComparable<ComparableWrapper>.CompareTo(ComparableWrapper? other)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj]
+D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSorterTests.cs(13,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj]
+D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSorterTests.cs(14,31): warning CS8604: Possible null reference argument for parameter 'array' in 'void StoogeSorter.Sort<int>(int[] array)'. [D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj]
+  StoogeSortTest -> D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\bin\Debug\net9.0\StoogeSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSorterTests.cs(172,24): warning CS8767: Nullability of reference types in type of parameter 'other' of 'int ComparableWrapper.CompareTo(ComparableWrapper other)' doesn't match implicitly implemented member 'int IComparable<ComparableWrapper>.CompareTo(ComparableWrapper? other)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj]
+D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSorterTests.cs(13,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj]
+D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSorterTests.cs(14,31): warning CS8604: Possible null reference argument for parameter 'array' in 'void StoogeSorter.Sort<int>(int[] array)'. [D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.26
+
+
+WritePatch: Compile failed.
+StoogeSortTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:10:45 PM
+StoogeSortTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\StoogeSort\StoogeSortTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StoogeSort -> D:\Code2025\RavenWork\StoogeSort\StoogeSort\bin\Debug\net9.0\StoogeSort.dll
+D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSorterTests.cs(172,24): warning CS8767: Nullability of reference types in type of parameter 'other' of 'int ComparableWrapper.CompareTo(ComparableWrapper other)' doesn't match implicitly implemented member 'int IComparable<ComparableWrapper>.CompareTo(ComparableWrapper? other)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj]
+D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSorterTests.cs(13,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj]
+D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSorterTests.cs(14,31): warning CS8604: Possible null reference argument for parameter 'array' in 'void StoogeSorter.Sort<int>(int[] array)'. [D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj]
+  StoogeSortTest -> D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\bin\Debug\net9.0\StoogeSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSorterTests.cs(172,24): warning CS8767: Nullability of reference types in type of parameter 'other' of 'int ComparableWrapper.CompareTo(ComparableWrapper other)' doesn't match implicitly implemented member 'int IComparable<ComparableWrapper>.CompareTo(ComparableWrapper? other)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj]
+D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSorterTests.cs(13,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj]
+D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSorterTests.cs(14,31): warning CS8604: Possible null reference argument for parameter 'array' in 'void StoogeSorter.Sort<int>(int[] array)'. [D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.26
+
+</CompilerResponse>
+2025-02-23 1:10:45 PM
+StoogeSortTest
+
+WritePatch ran compiler. 2025-02-23 1:10:47 PM
+StoogeSort
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StoogeSort -> D:\Code2025\RavenWork\StoogeSort\StoogeSort\bin\Debug\net9.0\StoogeSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.83
+
+
+WritePatch: Code is not Complete.
+StoogeSort
+
+WritePatch Started CycleStep. 2025-02-23 1:11:43 PM
+StoogeSort
+
+WritePatch ran compiler. 2025-02-23 1:12:22 PM
+StoogeSort
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StoogeSort -> D:\Code2025\RavenWork\StoogeSort\StoogeSort\bin\Debug\net9.0\StoogeSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.90
+
+
+WritePatch: Code is Complete.
+StoogeSort
+
+WritePatch ran compiler. 2025-02-23 1:12:40 PM
+StoogeSortTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StoogeSort -> D:\Code2025\RavenWork\StoogeSort\StoogeSort\bin\Debug\net9.0\StoogeSort.dll
+  StoogeSortTest -> D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\bin\Debug\net9.0\StoogeSortTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.14
+
+
+WritePatch: Code is Complete.
+StoogeSortTest
+
+TestResult:
+[OUTPUT 2025-02-23 1:13:01 PM]   StoogeSort -> D:\Code2025\RavenWork\StoogeSort\StoogeSort\bin\Debug\net9.0\StoogeSort.dll
+[OUTPUT 2025-02-23 1:12:59 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:12:57 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 1:13:00 PM] All tests passed successfully.
+[INFO 2025-02-23 1:13:00 PM] Test process completed. Duration: 4.41 seconds.
+[INFO 2025-02-23 1:13:00 PM] Process exited with code 0.
+[INFO 2025-02-23 1:12:55 PM] Command: dotnet test "D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:12:55 PM] Starting test for project: D:\Code2025\RavenWork\StoogeSort\StoogeSortTest\StoogeSortTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
