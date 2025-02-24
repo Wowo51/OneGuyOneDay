@@ -1,0 +1,309 @@
+<ActRecord>
+  <ProjectName>SampleSort</ProjectName>
+  <ProjectDescription>Samplesort</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Samplesort</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\SampleSort</SolutionFolderPath>
+  <ProjectFolderName>SampleSort</ProjectFolderName>
+  <ProjectName>SampleSort</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:24:40 PM
+SampleSort</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:25:17 PM
+SampleSort</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SampleSort -> D:\Code2025\RavenWork\SampleSort\SampleSort\bin\Debug\net9.0\SampleSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.54
+]]></string>
+    <string>WritePatch: Code is Complete.
+SampleSort</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:25:32 PM
+SampleSortTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:26:07 PM
+SampleSortTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\SampleSort\SampleSortTest\SampleSortTest.csproj (in 457 ms).
+  1 of 2 projects are up-to-date for restore.
+  SampleSort -> D:\Code2025\RavenWork\SampleSort\SampleSort\bin\Debug\net9.0\SampleSort.dll
+D:\Code2025\RavenWork\SampleSort\SampleSortTest\SampleSorterTests.cs(14,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SampleSort\SampleSortTest\SampleSortTest.csproj]
+  SampleSortTest -> D:\Code2025\RavenWork\SampleSort\SampleSortTest\bin\Debug\net9.0\SampleSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SampleSort\SampleSortTest\SampleSorterTests.cs(14,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SampleSort\SampleSortTest\SampleSortTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.72
+]]></string>
+    <string>WritePatch: Compile failed.
+SampleSortTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:26:08 PM
+SampleSortTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:26:09 PM
+SampleSortTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 6:26:43 PM
+SampleSortTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:26:44 PM
+SampleSortTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 6:27:14 PM
+SampleSortTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\SampleSort\SampleSortTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\SampleSort\SampleSortTest\SampleSortTest.csproj (in 457 ms).
+  1 of 2 projects are up-to-date for restore.
+  SampleSort -> D:\Code2025\RavenWork\SampleSort\SampleSort\bin\Debug\net9.0\SampleSort.dll
+D:\Code2025\RavenWork\SampleSort\SampleSortTest\SampleSorterTests.cs(14,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SampleSort\SampleSortTest\SampleSortTest.csproj]
+  SampleSortTest -> D:\Code2025\RavenWork\SampleSort\SampleSortTest\bin\Debug\net9.0\SampleSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SampleSort\SampleSortTest\SampleSorterTests.cs(14,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SampleSort\SampleSortTest\SampleSortTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.72
+
+</CompilerResponse>
+2025-02-23 6:27:15 PM
+SampleSortTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 6:27:18 PM
+SampleSort</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SampleSort -> D:\Code2025\RavenWork\SampleSort\SampleSort\bin\Debug\net9.0\SampleSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.52
+]]></string>
+    <string>WritePatch: Code is Complete.
+SampleSort</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:27:39 PM
+SampleSortTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SampleSort -> D:\Code2025\RavenWork\SampleSort\SampleSort\bin\Debug\net9.0\SampleSort.dll
+  SampleSortTest -> D:\Code2025\RavenWork\SampleSort\SampleSortTest\bin\Debug\net9.0\SampleSortTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.10
+]]></string>
+    <string>WritePatch: Code is Complete.
+SampleSortTest</string>
+    <string>[INFO 2025-02-23 6:27:51 PM] Starting test for project: D:\Code2025\RavenWork\SampleSort\SampleSortTest\SampleSortTest.csproj</string>
+    <string>[INFO 2025-02-23 6:27:51 PM] Starting test for project: D:\Code2025\RavenWork\SampleSort\SampleSortTest\SampleSortTest.csproj</string>
+    <string>[INFO 2025-02-23 6:27:51 PM] Starting test for project: D:\Code2025\RavenWork\SampleSort\SampleSortTest\SampleSortTest.csproj</string>
+    <string>[INFO 2025-02-23 6:27:51 PM] Starting test for project: D:\Code2025\RavenWork\SampleSort\SampleSortTest\SampleSortTest.csproj</string>
+    <string>[INFO 2025-02-23 6:27:51 PM] Starting test for project: D:\Code2025\RavenWork\SampleSort\SampleSortTest\SampleSortTest.csproj</string>
+    <string>[INFO 2025-02-23 6:27:51 PM] Starting test for project: D:\Code2025\RavenWork\SampleSort\SampleSortTest\SampleSortTest.csproj</string>
+    <string>[INFO 2025-02-23 6:27:51 PM] Starting test for project: D:\Code2025\RavenWork\SampleSort\SampleSortTest\SampleSortTest.csproj</string>
+    <string>[INFO 2025-02-23 6:27:51 PM] Starting test for project: D:\Code2025\RavenWork\SampleSort\SampleSortTest\SampleSortTest.csproj</string>
+    <string>[INFO 2025-02-23 6:27:51 PM] Starting test for project: D:\Code2025\RavenWork\SampleSort\SampleSortTest\SampleSortTest.csproj</string>
+    <string>[INFO 2025-02-23 6:27:51 PM] Starting test for project: D:\Code2025\RavenWork\SampleSort\SampleSortTest\SampleSortTest.csproj</string>
+    <string>[INFO 2025-02-23 6:27:51 PM] Starting test for project: D:\Code2025\RavenWork\SampleSort\SampleSortTest\SampleSortTest.csproj</string>
+    <string>[INFO 2025-02-23 6:27:51 PM] Starting test for project: D:\Code2025\RavenWork\SampleSort\SampleSortTest\SampleSortTest.csproj</string>
+    <string>[INFO 2025-02-23 6:27:51 PM] Starting test for project: D:\Code2025\RavenWork\SampleSort\SampleSortTest\SampleSortTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 6:28:02 PM]   Passed TestLargeRandomList [8 ms]
+[OUTPUT 2025-02-23 6:28:01 PM] Test Parallelization enabled for D:\Code2025\RavenWork\SampleSort\SampleSortTest\bin\Debug\net9.0\SampleSortTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 6:27:59 PM] D:\Code2025\RavenWork\SampleSort\SampleSortTest\bin\Debug\net9.0\SampleSortTest.dll
+[OUTPUT 2025-02-23 6:27:58 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:27:58 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:27:57 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:27:57 PM] Test run for D:\Code2025\RavenWork\SampleSort\SampleSortTest\bin\Debug\net9.0\SampleSortTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:27:56 PM]   SampleSortTest -> D:\Code2025\RavenWork\SampleSort\SampleSortTest\bin\Debug\net9.0\SampleSortTest.dll
+[OUTPUT 2025-02-23 6:27:55 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 6:27:56 PM]   SampleSort -> D:\Code2025\RavenWork\SampleSort\SampleSort\bin\Debug\net9.0\SampleSort.dll
+[OUTPUT 2025-02-23 6:27:54 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 6:28:01 PM] All tests passed successfully.
+[INFO 2025-02-23 6:28:01 PM] Test process completed. Duration: 9.96 seconds.
+[INFO 2025-02-23 6:28:01 PM] Process exited with code 0.
+[INFO 2025-02-23 6:27:51 PM] Command: dotnet test "D:\Code2025\RavenWork\SampleSort\SampleSortTest\SampleSortTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:27:51 PM] Starting test for project: D:\Code2025\RavenWork\SampleSort\SampleSortTest\SampleSortTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 6:24:40 PM
+SampleSort
+
+WritePatch ran compiler. 2025-02-23 6:25:17 PM
+SampleSort
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SampleSort -> D:\Code2025\RavenWork\SampleSort\SampleSort\bin\Debug\net9.0\SampleSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.54
+
+
+WritePatch: Code is Complete.
+SampleSort
+
+WritePatch Started CycleStep. 2025-02-23 6:25:32 PM
+SampleSortTest
+
+WritePatch ran compiler. 2025-02-23 6:26:07 PM
+SampleSortTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\SampleSort\SampleSortTest\SampleSortTest.csproj (in 457 ms).
+  1 of 2 projects are up-to-date for restore.
+  SampleSort -> D:\Code2025\RavenWork\SampleSort\SampleSort\bin\Debug\net9.0\SampleSort.dll
+D:\Code2025\RavenWork\SampleSort\SampleSortTest\SampleSorterTests.cs(14,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SampleSort\SampleSortTest\SampleSortTest.csproj]
+  SampleSortTest -> D:\Code2025\RavenWork\SampleSort\SampleSortTest\bin\Debug\net9.0\SampleSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SampleSort\SampleSortTest\SampleSorterTests.cs(14,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SampleSort\SampleSortTest\SampleSortTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.72
+
+
+WritePatch: Compile failed.
+SampleSortTest
+
+Finished WritePatch cycle step.
+2025-02-23 6:26:08 PM
+SampleSortTest
+
+WritePatch Started CycleStep. 2025-02-23 6:26:09 PM
+SampleSortTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 6:26:43 PM
+SampleSortTest
+
+WritePatch Started CycleStep. 2025-02-23 6:26:44 PM
+SampleSortTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 6:27:14 PM
+SampleSortTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\SampleSort\SampleSortTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\SampleSort\SampleSortTest\SampleSortTest.csproj (in 457 ms).
+  1 of 2 projects are up-to-date for restore.
+  SampleSort -> D:\Code2025\RavenWork\SampleSort\SampleSort\bin\Debug\net9.0\SampleSort.dll
+D:\Code2025\RavenWork\SampleSort\SampleSortTest\SampleSorterTests.cs(14,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SampleSort\SampleSortTest\SampleSortTest.csproj]
+  SampleSortTest -> D:\Code2025\RavenWork\SampleSort\SampleSortTest\bin\Debug\net9.0\SampleSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SampleSort\SampleSortTest\SampleSorterTests.cs(14,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SampleSort\SampleSortTest\SampleSortTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.72
+
+</CompilerResponse>
+2025-02-23 6:27:15 PM
+SampleSortTest
+
+WritePatch ran compiler. 2025-02-23 6:27:18 PM
+SampleSort
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SampleSort -> D:\Code2025\RavenWork\SampleSort\SampleSort\bin\Debug\net9.0\SampleSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.52
+
+
+WritePatch: Code is Complete.
+SampleSort
+
+WritePatch ran compiler. 2025-02-23 6:27:39 PM
+SampleSortTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SampleSort -> D:\Code2025\RavenWork\SampleSort\SampleSort\bin\Debug\net9.0\SampleSort.dll
+  SampleSortTest -> D:\Code2025\RavenWork\SampleSort\SampleSortTest\bin\Debug\net9.0\SampleSortTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.10
+
+
+WritePatch: Code is Complete.
+SampleSortTest
+
+TestResult:
+[OUTPUT 2025-02-23 6:28:02 PM]   Passed TestLargeRandomList [8 ms]
+[OUTPUT 2025-02-23 6:28:01 PM] Test Parallelization enabled for D:\Code2025\RavenWork\SampleSort\SampleSortTest\bin\Debug\net9.0\SampleSortTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 6:27:59 PM] D:\Code2025\RavenWork\SampleSort\SampleSortTest\bin\Debug\net9.0\SampleSortTest.dll
+[OUTPUT 2025-02-23 6:27:58 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:27:58 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:27:57 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:27:57 PM] Test run for D:\Code2025\RavenWork\SampleSort\SampleSortTest\bin\Debug\net9.0\SampleSortTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:27:56 PM]   SampleSortTest -> D:\Code2025\RavenWork\SampleSort\SampleSortTest\bin\Debug\net9.0\SampleSortTest.dll
+[OUTPUT 2025-02-23 6:27:55 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 6:27:56 PM]   SampleSort -> D:\Code2025\RavenWork\SampleSort\SampleSort\bin\Debug\net9.0\SampleSort.dll
+[OUTPUT 2025-02-23 6:27:54 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 6:28:01 PM] All tests passed successfully.
+[INFO 2025-02-23 6:28:01 PM] Test process completed. Duration: 9.96 seconds.
+[INFO 2025-02-23 6:28:01 PM] Process exited with code 0.
+[INFO 2025-02-23 6:27:51 PM] Command: dotnet test "D:\Code2025\RavenWork\SampleSort\SampleSortTest\SampleSortTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:27:51 PM] Starting test for project: D:\Code2025\RavenWork\SampleSort\SampleSortTest\SampleSortTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
