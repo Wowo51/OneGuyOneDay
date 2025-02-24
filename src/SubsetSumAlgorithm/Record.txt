@@ -1,0 +1,377 @@
+<ActRecord>
+  <ProjectName>SubsetSumAlgorithm</ProjectName>
+  <ProjectDescription>Subset sum algorithm – A procedure to determine whether a subset of numbers exists that sums to a given value.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Subset sum algorithm – A procedure to determine whether a subset of numbers exists that sums to a given value.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\SubsetSumAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>SubsetSumAlgorithm</ProjectFolderName>
+  <ProjectName>SubsetSumAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:46:07 AM
+SubsetSumAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:46:38 AM
+SubsetSumAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SubsetSumAlgorithm -> D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithm\bin\Debug\net9.0\SubsetSumAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.75
+]]></string>
+    <string>WritePatch: Code is Complete.
+SubsetSumAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:46:57 AM
+SubsetSumAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:47:37 AM
+SubsetSumAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumAlgorithmTest.csproj (in 188 ms).
+  1 of 2 projects are up-to-date for restore.
+  SubsetSumAlgorithm -> D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithm\bin\Debug\net9.0\SubsetSumAlgorithm.dll
+D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumSolverTests.cs(12,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumSolverTests.cs(13,56): warning CS8604: Possible null reference argument for parameter 'numbers' in 'bool SubsetSumSolver.HasSubsetSum(int[] numbers, int target)'. [D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumAlgorithmTest.csproj]
+  SubsetSumAlgorithmTest -> D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\bin\Debug\net9.0\SubsetSumAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumSolverTests.cs(12,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumSolverTests.cs(13,56): warning CS8604: Possible null reference argument for parameter 'numbers' in 'bool SubsetSumSolver.HasSubsetSum(int[] numbers, int target)'. [D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.34
+]]></string>
+    <string>WritePatch: Compile failed.
+SubsetSumAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:47:38 AM
+SubsetSumAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:47:38 AM
+SubsetSumAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:48:29 AM
+SubsetSumAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SubsetSumAlgorithm -> D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithm\bin\Debug\net9.0\SubsetSumAlgorithm.dll
+D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumSolverTests.cs(13,56): warning CS8604: Possible null reference argument for parameter 'numbers' in 'bool SubsetSumSolver.HasSubsetSum(int[] numbers, int target)'. [D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumAlgorithmTest.csproj]
+  SubsetSumAlgorithmTest -> D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\bin\Debug\net9.0\SubsetSumAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumSolverTests.cs(13,56): warning CS8604: Possible null reference argument for parameter 'numbers' in 'bool SubsetSumSolver.HasSubsetSum(int[] numbers, int target)'. [D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+]]></string>
+    <string>WritePatch: Compile failed.
+SubsetSumAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:48:30 AM
+SubsetSumAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:48:30 AM
+SubsetSumAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:49:23 AM
+SubsetSumAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SubsetSumAlgorithm -> D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithm\bin\Debug\net9.0\SubsetSumAlgorithm.dll
+  SubsetSumAlgorithmTest -> D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\bin\Debug\net9.0\SubsetSumAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.86
+]]></string>
+    <string>WritePatch: Code is not Complete.
+SubsetSumAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:50:03 AM
+SubsetSumAlgorithmTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SubsetSumAlgorithm -> D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithm\bin\Debug\net9.0\SubsetSumAlgorithm.dll
+  SubsetSumAlgorithmTest -> D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\bin\Debug\net9.0\SubsetSumAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.86
+
+</CompilerResponse>
+2025-02-23 7:50:04 AM
+SubsetSumAlgorithmTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 7:50:05 AM
+SubsetSumAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SubsetSumAlgorithm -> D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithm\bin\Debug\net9.0\SubsetSumAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+]]></string>
+    <string>WritePatch: Code is Complete.
+SubsetSumAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:51:25 AM
+SubsetSumAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SubsetSumAlgorithm -> D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithm\bin\Debug\net9.0\SubsetSumAlgorithm.dll
+  SubsetSumAlgorithmTest -> D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\bin\Debug\net9.0\SubsetSumAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.88
+]]></string>
+    <string>WritePatch: Code is Complete.
+SubsetSumAlgorithmTest</string>
+    <string>[INFO 2025-02-23 7:52:44 AM] Starting test for project: D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:52:44 AM] Starting test for project: D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:52:44 AM] Starting test for project: D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:52:44 AM] Starting test for project: D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:52:44 AM] Starting test for project: D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:52:44 AM] Starting test for project: D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:52:44 AM] Starting test for project: D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:52:44 AM] Starting test for project: D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:52:44 AM] Starting test for project: D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 7:52:48 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:52:47 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:52:47 AM] Test run for D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\bin\Debug\net9.0\SubsetSumAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:52:46 AM]   SubsetSumAlgorithmTest -> D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\bin\Debug\net9.0\SubsetSumAlgorithmTest.dll
+[OUTPUT 2025-02-23 7:52:46 AM]   SubsetSumAlgorithm -> D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithm\bin\Debug\net9.0\SubsetSumAlgorithm.dll
+[OUTPUT 2025-02-23 7:52:46 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:52:45 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 7:52:47 AM] All tests passed successfully.
+[INFO 2025-02-23 7:52:47 AM] Test process completed. Duration: 3.28 seconds.
+[INFO 2025-02-23 7:52:47 AM] Process exited with code 0.
+[INFO 2025-02-23 7:52:44 AM] Command: dotnet test "D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:52:44 AM] Starting test for project: D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 7:46:07 AM
+SubsetSumAlgorithm
+
+WritePatch ran compiler. 2025-02-23 7:46:38 AM
+SubsetSumAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SubsetSumAlgorithm -> D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithm\bin\Debug\net9.0\SubsetSumAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.75
+
+
+WritePatch: Code is Complete.
+SubsetSumAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 7:46:57 AM
+SubsetSumAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 7:47:37 AM
+SubsetSumAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumAlgorithmTest.csproj (in 188 ms).
+  1 of 2 projects are up-to-date for restore.
+  SubsetSumAlgorithm -> D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithm\bin\Debug\net9.0\SubsetSumAlgorithm.dll
+D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumSolverTests.cs(12,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumSolverTests.cs(13,56): warning CS8604: Possible null reference argument for parameter 'numbers' in 'bool SubsetSumSolver.HasSubsetSum(int[] numbers, int target)'. [D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumAlgorithmTest.csproj]
+  SubsetSumAlgorithmTest -> D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\bin\Debug\net9.0\SubsetSumAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumSolverTests.cs(12,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumSolverTests.cs(13,56): warning CS8604: Possible null reference argument for parameter 'numbers' in 'bool SubsetSumSolver.HasSubsetSum(int[] numbers, int target)'. [D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.34
+
+
+WritePatch: Compile failed.
+SubsetSumAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:47:38 AM
+SubsetSumAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 7:47:38 AM
+SubsetSumAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 7:48:29 AM
+SubsetSumAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SubsetSumAlgorithm -> D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithm\bin\Debug\net9.0\SubsetSumAlgorithm.dll
+D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumSolverTests.cs(13,56): warning CS8604: Possible null reference argument for parameter 'numbers' in 'bool SubsetSumSolver.HasSubsetSum(int[] numbers, int target)'. [D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumAlgorithmTest.csproj]
+  SubsetSumAlgorithmTest -> D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\bin\Debug\net9.0\SubsetSumAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumSolverTests.cs(13,56): warning CS8604: Possible null reference argument for parameter 'numbers' in 'bool SubsetSumSolver.HasSubsetSum(int[] numbers, int target)'. [D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+
+
+WritePatch: Compile failed.
+SubsetSumAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:48:30 AM
+SubsetSumAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 7:48:30 AM
+SubsetSumAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 7:49:23 AM
+SubsetSumAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SubsetSumAlgorithm -> D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithm\bin\Debug\net9.0\SubsetSumAlgorithm.dll
+  SubsetSumAlgorithmTest -> D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\bin\Debug\net9.0\SubsetSumAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.86
+
+
+WritePatch: Code is not Complete.
+SubsetSumAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:50:03 AM
+SubsetSumAlgorithmTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SubsetSumAlgorithm -> D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithm\bin\Debug\net9.0\SubsetSumAlgorithm.dll
+  SubsetSumAlgorithmTest -> D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\bin\Debug\net9.0\SubsetSumAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.86
+
+</CompilerResponse>
+2025-02-23 7:50:04 AM
+SubsetSumAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 7:50:05 AM
+SubsetSumAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SubsetSumAlgorithm -> D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithm\bin\Debug\net9.0\SubsetSumAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+
+
+WritePatch: Code is Complete.
+SubsetSumAlgorithm
+
+WritePatch ran compiler. 2025-02-23 7:51:25 AM
+SubsetSumAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SubsetSumAlgorithm -> D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithm\bin\Debug\net9.0\SubsetSumAlgorithm.dll
+  SubsetSumAlgorithmTest -> D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\bin\Debug\net9.0\SubsetSumAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.88
+
+
+WritePatch: Code is Complete.
+SubsetSumAlgorithmTest
+
+TestResult:
+[OUTPUT 2025-02-23 7:52:48 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:52:47 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:52:47 AM] Test run for D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\bin\Debug\net9.0\SubsetSumAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:52:46 AM]   SubsetSumAlgorithmTest -> D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\bin\Debug\net9.0\SubsetSumAlgorithmTest.dll
+[OUTPUT 2025-02-23 7:52:46 AM]   SubsetSumAlgorithm -> D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithm\bin\Debug\net9.0\SubsetSumAlgorithm.dll
+[OUTPUT 2025-02-23 7:52:46 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:52:45 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 7:52:47 AM] All tests passed successfully.
+[INFO 2025-02-23 7:52:47 AM] Test process completed. Duration: 3.28 seconds.
+[INFO 2025-02-23 7:52:47 AM] Process exited with code 0.
+[INFO 2025-02-23 7:52:44 AM] Command: dotnet test "D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:52:44 AM] Starting test for project: D:\Code2025\RavenWork\SubsetSumAlgorithm\SubsetSumAlgorithmTest\SubsetSumAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
