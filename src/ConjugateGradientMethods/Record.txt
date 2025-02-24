@@ -1,0 +1,413 @@
+<ActRecord>
+  <ProjectName>ConjugateGradientMethods</ProjectName>
+  <ProjectDescription>Conjugate gradient methods – A family of algorithms that solve systems of linear equations and optimization problems by generating conjugate directions.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Conjugate gradient methods – A family of algorithms that solve systems of linear equations and optimization problems by generating conjugate directions.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\ConjugateGradientMethods</SolutionFolderPath>
+  <ProjectFolderName>ConjugateGradientMethods</ProjectFolderName>
+  <ProjectName>ConjugateGradientMethods</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:43:03 PM
+ConjugateGradientMethods</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:43:45 PM
+ConjugateGradientMethods</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ConjugateGradientMethods -> D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethods\bin\Debug\net9.0\ConjugateGradientMethods.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.72
+]]></string>
+    <string>WritePatch: Code is Complete.
+ConjugateGradientMethods</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:44:08 PM
+ConjugateGradientMethodsTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:45:01 PM
+ConjugateGradientMethodsTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj (in 390 ms).
+  1 of 2 projects are up-to-date for restore.
+  ConjugateGradientMethods -> D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethods\bin\Debug\net9.0\ConjugateGradientMethods.dll
+D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientSolverTests.cs(135,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientSolverTests.cs(148,63): warning CS8604: Possible null reference argument for parameter 'A' in 'double[] ConjugateGradientSolver.Solve(double[,] A, double[] b, double[] x, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientSolverTests.cs(161,17): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientSolverTests.cs(162,57): warning CS8604: Possible null reference argument for parameter 'b' in 'double[] ConjugateGradientSolver.Solve(double[,] A, double[] b, double[] x, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientSolverTests.cs(169,18): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientSolverTests.cs(170,60): warning CS8604: Possible null reference argument for parameter 'x' in 'double[] ConjugateGradientSolver.Solve(double[,] A, double[] b, double[] x, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj]
+  ConjugateGradientMethodsTest -> D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\bin\Debug\net9.0\ConjugateGradientMethodsTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientSolverTests.cs(135,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientSolverTests.cs(148,63): warning CS8604: Possible null reference argument for parameter 'A' in 'double[] ConjugateGradientSolver.Solve(double[,] A, double[] b, double[] x, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientSolverTests.cs(161,17): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientSolverTests.cs(162,57): warning CS8604: Possible null reference argument for parameter 'b' in 'double[] ConjugateGradientSolver.Solve(double[,] A, double[] b, double[] x, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientSolverTests.cs(169,18): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientSolverTests.cs(170,60): warning CS8604: Possible null reference argument for parameter 'x' in 'double[] ConjugateGradientSolver.Solve(double[,] A, double[] b, double[] x, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj]
+    6 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.19
+]]></string>
+    <string>WritePatch: Compile failed.
+ConjugateGradientMethodsTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 4:45:03 PM
+ConjugateGradientMethodsTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:45:03 PM
+ConjugateGradientMethodsTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:46:11 PM
+ConjugateGradientMethodsTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ConjugateGradientMethods -> D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethods\bin\Debug\net9.0\ConjugateGradientMethods.dll
+D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientSolverTests.cs(148,63): warning CS8604: Possible null reference argument for parameter 'A' in 'double[] ConjugateGradientSolver.Solve(double[,] A, double[] b, double[] x, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientSolverTests.cs(162,57): warning CS8604: Possible null reference argument for parameter 'b' in 'double[] ConjugateGradientSolver.Solve(double[,] A, double[] b, double[] x, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientSolverTests.cs(170,60): warning CS8604: Possible null reference argument for parameter 'x' in 'double[] ConjugateGradientSolver.Solve(double[,] A, double[] b, double[] x, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj]
+  ConjugateGradientMethodsTest -> D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\bin\Debug\net9.0\ConjugateGradientMethodsTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientSolverTests.cs(148,63): warning CS8604: Possible null reference argument for parameter 'A' in 'double[] ConjugateGradientSolver.Solve(double[,] A, double[] b, double[] x, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientSolverTests.cs(162,57): warning CS8604: Possible null reference argument for parameter 'b' in 'double[] ConjugateGradientSolver.Solve(double[,] A, double[] b, double[] x, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientSolverTests.cs(170,60): warning CS8604: Possible null reference argument for parameter 'x' in 'double[] ConjugateGradientSolver.Solve(double[,] A, double[] b, double[] x, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.40
+]]></string>
+    <string>WritePatch: Compile failed.
+ConjugateGradientMethodsTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 4:46:12 PM
+ConjugateGradientMethodsTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:46:13 PM
+ConjugateGradientMethodsTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:46:45 PM
+ConjugateGradientMethodsTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ConjugateGradientMethods -> D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethods\bin\Debug\net9.0\ConjugateGradientMethods.dll
+  ConjugateGradientMethodsTest -> D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\bin\Debug\net9.0\ConjugateGradientMethodsTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.89
+]]></string>
+    <string>WritePatch: Code is not Complete.
+ConjugateGradientMethodsTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 4:47:04 PM
+ConjugateGradientMethodsTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ConjugateGradientMethods -> D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethods\bin\Debug\net9.0\ConjugateGradientMethods.dll
+  ConjugateGradientMethodsTest -> D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\bin\Debug\net9.0\ConjugateGradientMethodsTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.89
+
+</CompilerResponse>
+2025-02-23 4:47:05 PM
+ConjugateGradientMethodsTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 4:47:07 PM
+ConjugateGradientMethods</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ConjugateGradientMethods -> D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethods\bin\Debug\net9.0\ConjugateGradientMethods.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.45
+]]></string>
+    <string>WritePatch: Code is Complete.
+ConjugateGradientMethods</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:47:37 PM
+ConjugateGradientMethodsTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ConjugateGradientMethods -> D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethods\bin\Debug\net9.0\ConjugateGradientMethods.dll
+  ConjugateGradientMethodsTest -> D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\bin\Debug\net9.0\ConjugateGradientMethodsTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.99
+]]></string>
+    <string>WritePatch: Code is Complete.
+ConjugateGradientMethodsTest</string>
+    <string>[INFO 2025-02-23 4:47:52 PM] Starting test for project: D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj</string>
+    <string>[INFO 2025-02-23 4:47:52 PM] Starting test for project: D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj</string>
+    <string>[INFO 2025-02-23 4:47:52 PM] Starting test for project: D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj</string>
+    <string>[INFO 2025-02-23 4:47:52 PM] Starting test for project: D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj</string>
+    <string>[INFO 2025-02-23 4:47:52 PM] Starting test for project: D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj</string>
+    <string>[INFO 2025-02-23 4:47:52 PM] Starting test for project: D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj</string>
+    <string>[INFO 2025-02-23 4:47:52 PM] Starting test for project: D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj</string>
+    <string>[INFO 2025-02-23 4:47:52 PM] Starting test for project: D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj</string>
+    <string>[INFO 2025-02-23 4:47:52 PM] Starting test for project: D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj</string>
+    <string>[INFO 2025-02-23 4:47:52 PM] Starting test for project: D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj</string>
+    <string>[INFO 2025-02-23 4:47:52 PM] Starting test for project: D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj</string>
+    <string>[INFO 2025-02-23 4:47:52 PM] Starting test for project: D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj</string>
+    <string>[INFO 2025-02-23 4:47:52 PM] Starting test for project: D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 4:47:58 PM] All tests passed successfully.
+[INFO 2025-02-23 4:47:58 PM] Test process completed. Duration: 6.46 seconds.
+[INFO 2025-02-23 4:47:58 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 4:47:59 PM]   Passed TestDimensionMismatch [8 ms]
+[OUTPUT 2025-02-23 4:47:57 PM] D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\bin\Debug\net9.0\ConjugateGradientMethodsTest.dll
+[OUTPUT 2025-02-23 4:47:57 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 4:47:56 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 4:47:56 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 4:47:55 PM] Test run for D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\bin\Debug\net9.0\ConjugateGradientMethodsTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 4:47:54 PM]   ConjugateGradientMethodsTest -> D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\bin\Debug\net9.0\ConjugateGradientMethodsTest.dll
+[OUTPUT 2025-02-23 4:47:53 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 4:47:58 PM] Test Parallelization enabled for D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\bin\Debug\net9.0\ConjugateGradientMethodsTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 4:47:54 PM]   ConjugateGradientMethods -> D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethods\bin\Debug\net9.0\ConjugateGradientMethods.dll
+[OUTPUT 2025-02-23 4:47:53 PM]   Determining projects to restore...
+[INFO 2025-02-23 4:47:52 PM] Command: dotnet test "D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 4:47:52 PM] Starting test for project: D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 4:43:03 PM
+ConjugateGradientMethods
+
+WritePatch ran compiler. 2025-02-23 4:43:45 PM
+ConjugateGradientMethods
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ConjugateGradientMethods -> D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethods\bin\Debug\net9.0\ConjugateGradientMethods.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.72
+
+
+WritePatch: Code is Complete.
+ConjugateGradientMethods
+
+WritePatch Started CycleStep. 2025-02-23 4:44:08 PM
+ConjugateGradientMethodsTest
+
+WritePatch ran compiler. 2025-02-23 4:45:01 PM
+ConjugateGradientMethodsTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj (in 390 ms).
+  1 of 2 projects are up-to-date for restore.
+  ConjugateGradientMethods -> D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethods\bin\Debug\net9.0\ConjugateGradientMethods.dll
+D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientSolverTests.cs(135,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientSolverTests.cs(148,63): warning CS8604: Possible null reference argument for parameter 'A' in 'double[] ConjugateGradientSolver.Solve(double[,] A, double[] b, double[] x, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientSolverTests.cs(161,17): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientSolverTests.cs(162,57): warning CS8604: Possible null reference argument for parameter 'b' in 'double[] ConjugateGradientSolver.Solve(double[,] A, double[] b, double[] x, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientSolverTests.cs(169,18): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientSolverTests.cs(170,60): warning CS8604: Possible null reference argument for parameter 'x' in 'double[] ConjugateGradientSolver.Solve(double[,] A, double[] b, double[] x, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj]
+  ConjugateGradientMethodsTest -> D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\bin\Debug\net9.0\ConjugateGradientMethodsTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientSolverTests.cs(135,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientSolverTests.cs(148,63): warning CS8604: Possible null reference argument for parameter 'A' in 'double[] ConjugateGradientSolver.Solve(double[,] A, double[] b, double[] x, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientSolverTests.cs(161,17): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientSolverTests.cs(162,57): warning CS8604: Possible null reference argument for parameter 'b' in 'double[] ConjugateGradientSolver.Solve(double[,] A, double[] b, double[] x, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientSolverTests.cs(169,18): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientSolverTests.cs(170,60): warning CS8604: Possible null reference argument for parameter 'x' in 'double[] ConjugateGradientSolver.Solve(double[,] A, double[] b, double[] x, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj]
+    6 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.19
+
+
+WritePatch: Compile failed.
+ConjugateGradientMethodsTest
+
+Finished WritePatch cycle step.
+2025-02-23 4:45:03 PM
+ConjugateGradientMethodsTest
+
+WritePatch Started CycleStep. 2025-02-23 4:45:03 PM
+ConjugateGradientMethodsTest
+
+WritePatch ran compiler. 2025-02-23 4:46:11 PM
+ConjugateGradientMethodsTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ConjugateGradientMethods -> D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethods\bin\Debug\net9.0\ConjugateGradientMethods.dll
+D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientSolverTests.cs(148,63): warning CS8604: Possible null reference argument for parameter 'A' in 'double[] ConjugateGradientSolver.Solve(double[,] A, double[] b, double[] x, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientSolverTests.cs(162,57): warning CS8604: Possible null reference argument for parameter 'b' in 'double[] ConjugateGradientSolver.Solve(double[,] A, double[] b, double[] x, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientSolverTests.cs(170,60): warning CS8604: Possible null reference argument for parameter 'x' in 'double[] ConjugateGradientSolver.Solve(double[,] A, double[] b, double[] x, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj]
+  ConjugateGradientMethodsTest -> D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\bin\Debug\net9.0\ConjugateGradientMethodsTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientSolverTests.cs(148,63): warning CS8604: Possible null reference argument for parameter 'A' in 'double[] ConjugateGradientSolver.Solve(double[,] A, double[] b, double[] x, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientSolverTests.cs(162,57): warning CS8604: Possible null reference argument for parameter 'b' in 'double[] ConjugateGradientSolver.Solve(double[,] A, double[] b, double[] x, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj]
+D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientSolverTests.cs(170,60): warning CS8604: Possible null reference argument for parameter 'x' in 'double[] ConjugateGradientSolver.Solve(double[,] A, double[] b, double[] x, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.40
+
+
+WritePatch: Compile failed.
+ConjugateGradientMethodsTest
+
+Finished WritePatch cycle step.
+2025-02-23 4:46:12 PM
+ConjugateGradientMethodsTest
+
+WritePatch Started CycleStep. 2025-02-23 4:46:13 PM
+ConjugateGradientMethodsTest
+
+WritePatch ran compiler. 2025-02-23 4:46:45 PM
+ConjugateGradientMethodsTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ConjugateGradientMethods -> D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethods\bin\Debug\net9.0\ConjugateGradientMethods.dll
+  ConjugateGradientMethodsTest -> D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\bin\Debug\net9.0\ConjugateGradientMethodsTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.89
+
+
+WritePatch: Code is not Complete.
+ConjugateGradientMethodsTest
+
+Finished WritePatch cycle step.
+2025-02-23 4:47:04 PM
+ConjugateGradientMethodsTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ConjugateGradientMethods -> D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethods\bin\Debug\net9.0\ConjugateGradientMethods.dll
+  ConjugateGradientMethodsTest -> D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\bin\Debug\net9.0\ConjugateGradientMethodsTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.89
+
+</CompilerResponse>
+2025-02-23 4:47:05 PM
+ConjugateGradientMethodsTest
+
+WritePatch ran compiler. 2025-02-23 4:47:07 PM
+ConjugateGradientMethods
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ConjugateGradientMethods -> D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethods\bin\Debug\net9.0\ConjugateGradientMethods.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.45
+
+
+WritePatch: Code is Complete.
+ConjugateGradientMethods
+
+WritePatch ran compiler. 2025-02-23 4:47:37 PM
+ConjugateGradientMethodsTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ConjugateGradientMethods -> D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethods\bin\Debug\net9.0\ConjugateGradientMethods.dll
+  ConjugateGradientMethodsTest -> D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\bin\Debug\net9.0\ConjugateGradientMethodsTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.99
+
+
+WritePatch: Code is Complete.
+ConjugateGradientMethodsTest
+
+TestResult:
+[SUCCESS 2025-02-23 4:47:58 PM] All tests passed successfully.
+[INFO 2025-02-23 4:47:58 PM] Test process completed. Duration: 6.46 seconds.
+[INFO 2025-02-23 4:47:58 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 4:47:59 PM]   Passed TestDimensionMismatch [8 ms]
+[OUTPUT 2025-02-23 4:47:57 PM] D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\bin\Debug\net9.0\ConjugateGradientMethodsTest.dll
+[OUTPUT 2025-02-23 4:47:57 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 4:47:56 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 4:47:56 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 4:47:55 PM] Test run for D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\bin\Debug\net9.0\ConjugateGradientMethodsTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 4:47:54 PM]   ConjugateGradientMethodsTest -> D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\bin\Debug\net9.0\ConjugateGradientMethodsTest.dll
+[OUTPUT 2025-02-23 4:47:53 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 4:47:58 PM] Test Parallelization enabled for D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\bin\Debug\net9.0\ConjugateGradientMethodsTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 4:47:54 PM]   ConjugateGradientMethods -> D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethods\bin\Debug\net9.0\ConjugateGradientMethods.dll
+[OUTPUT 2025-02-23 4:47:53 PM]   Determining projects to restore...
+[INFO 2025-02-23 4:47:52 PM] Command: dotnet test "D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 4:47:52 PM] Starting test for project: D:\Code2025\RavenWork\ConjugateGradientMethods\ConjugateGradientMethodsTest\ConjugateGradientMethodsTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
