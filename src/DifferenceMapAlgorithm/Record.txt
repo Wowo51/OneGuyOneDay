@@ -1,0 +1,526 @@
+<ActRecord>
+  <ProjectName>DifferenceMapAlgorithm</ProjectName>
+  <ProjectDescription>Difference map algorithm – An iterative method used to solve certain constraint satisfaction and phase retrieval problems.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Difference map algorithm – An iterative method used to solve certain constraint satisfaction and phase retrieval problems.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\DifferenceMapAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>DifferenceMapAlgorithm</ProjectFolderName>
+  <ProjectName>DifferenceMapAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 5:09:36 PM
+DifferenceMapAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:10:33 PM
+DifferenceMapAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DifferenceMapAlgorithm -> D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithm\bin\Debug\net9.0\DifferenceMapAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.03
+]]></string>
+    <string>WritePatch: Code is Complete.
+DifferenceMapAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 5:10:51 PM
+DifferenceMapAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:11:57 PM
+DifferenceMapAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj (in 384 ms).
+  1 of 2 projects are up-to-date for restore.
+  DifferenceMapAlgorithm -> D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithm\bin\Debug\net9.0\DifferenceMapAlgorithm.dll
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(38,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(38,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(39,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(53,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(53,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(68,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(87,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(105,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(125,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(125,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+  DifferenceMapAlgorithmTest -> D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\bin\Debug\net9.0\DifferenceMapAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(38,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(38,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(39,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(53,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(53,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(68,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(87,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(105,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(125,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(125,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+    10 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.80
+]]></string>
+    <string>WritePatch: Compile failed.
+DifferenceMapAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 5:12:00 PM
+DifferenceMapAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 5:12:01 PM
+DifferenceMapAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:12:33 PM
+DifferenceMapAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DifferenceMapAlgorithm -> D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithm\bin\Debug\net9.0\DifferenceMapAlgorithm.dll
+  DifferenceMapAlgorithmTest -> D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\bin\Debug\net9.0\DifferenceMapAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.14
+]]></string>
+    <string>WritePatch: Code is not Complete.
+DifferenceMapAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 5:12:47 PM
+DifferenceMapAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 5:12:48 PM
+DifferenceMapAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:13:37 PM
+DifferenceMapAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DifferenceMapAlgorithm -> D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithm\bin\Debug\net9.0\DifferenceMapAlgorithm.dll
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(63,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(63,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(64,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(78,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(78,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(93,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(112,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(130,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(149,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(149,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(164,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(185,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(185,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+  DifferenceMapAlgorithmTest -> D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\bin\Debug\net9.0\DifferenceMapAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(63,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(63,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(64,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(78,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(78,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(93,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(112,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(130,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(149,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(149,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(164,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(185,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(185,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+    13 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.37
+]]></string>
+    <string>WritePatch: Compile failed.
+DifferenceMapAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 5:13:38 PM
+DifferenceMapAlgorithmTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DifferenceMapAlgorithm -> D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithm\bin\Debug\net9.0\DifferenceMapAlgorithm.dll
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(63,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(63,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(64,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(78,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(78,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(93,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(112,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(130,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(149,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(149,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(164,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(185,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(185,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+  DifferenceMapAlgorithmTest -> D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\bin\Debug\net9.0\DifferenceMapAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(63,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(63,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(64,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(78,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(78,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(93,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(112,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(130,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(149,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(149,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(164,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(185,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(185,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+    13 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.37
+
+</CompilerResponse>
+2025-02-23 5:13:39 PM
+DifferenceMapAlgorithmTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 5:13:42 PM
+DifferenceMapAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DifferenceMapAlgorithm -> D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithm\bin\Debug\net9.0\DifferenceMapAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.98
+]]></string>
+    <string>WritePatch: Code is Complete.
+DifferenceMapAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:14:00 PM
+DifferenceMapAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DifferenceMapAlgorithm -> D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithm\bin\Debug\net9.0\DifferenceMapAlgorithm.dll
+  DifferenceMapAlgorithmTest -> D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\bin\Debug\net9.0\DifferenceMapAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.82
+]]></string>
+    <string>WritePatch: Code is Complete.
+DifferenceMapAlgorithmTest</string>
+    <string>[INFO 2025-02-23 5:14:16 PM] Starting test for project: D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 5:14:16 PM] Starting test for project: D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 5:14:16 PM] Starting test for project: D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 5:14:16 PM] Starting test for project: D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 5:14:16 PM] Starting test for project: D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 5:14:16 PM] Starting test for project: D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 5:14:16 PM] Starting test for project: D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 5:14:16 PM] Starting test for project: D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 5:14:16 PM] Starting test for project: D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 5:14:16 PM] Starting test for project: D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 5:14:16 PM] Starting test for project: D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 5:14:16 PM] Starting test for project: D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 5:14:16 PM] Starting test for project: D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 5:14:16 PM] Starting test for project: D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 5:14:23 PM] All tests passed successfully.
+[INFO 2025-02-23 5:14:23 PM] Test process completed. Duration: 7.64 seconds.
+[INFO 2025-02-23 5:14:23 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 5:14:24 PM]   Passed TestSolveMaxIterations [6 ms]
+[OUTPUT 2025-02-23 5:14:23 PM]   Passed TestSolveNegativeBeta [6 ms]
+[OUTPUT 2025-02-23 5:14:19 PM] Test run for D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\bin\Debug\net9.0\DifferenceMapAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 5:14:19 PM]   DifferenceMapAlgorithmTest -> D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\bin\Debug\net9.0\DifferenceMapAlgorithmTest.dll
+[OUTPUT 2025-02-23 5:14:18 PM]   DifferenceMapAlgorithm -> D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithm\bin\Debug\net9.0\DifferenceMapAlgorithm.dll
+[OUTPUT 2025-02-23 5:14:17 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 5:14:23 PM] Test Parallelization enabled for D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\bin\Debug\net9.0\DifferenceMapAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 5:14:21 PM] D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\bin\Debug\net9.0\DifferenceMapAlgorithmTest.dll
+[OUTPUT 2025-02-23 5:14:21 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 5:14:20 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 5:14:20 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 5:14:17 PM]   Determining projects to restore...
+[INFO 2025-02-23 5:14:16 PM] Command: dotnet test "D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 5:14:16 PM] Starting test for project: D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 5:09:36 PM
+DifferenceMapAlgorithm
+
+WritePatch ran compiler. 2025-02-23 5:10:33 PM
+DifferenceMapAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DifferenceMapAlgorithm -> D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithm\bin\Debug\net9.0\DifferenceMapAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.03
+
+
+WritePatch: Code is Complete.
+DifferenceMapAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 5:10:51 PM
+DifferenceMapAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 5:11:57 PM
+DifferenceMapAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj (in 384 ms).
+  1 of 2 projects are up-to-date for restore.
+  DifferenceMapAlgorithm -> D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithm\bin\Debug\net9.0\DifferenceMapAlgorithm.dll
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(38,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(38,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(39,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(53,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(53,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(68,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(87,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(105,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(125,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(125,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+  DifferenceMapAlgorithmTest -> D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\bin\Debug\net9.0\DifferenceMapAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(38,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(38,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(39,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(53,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(53,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(68,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(87,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(105,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(125,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(125,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+    10 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.80
+
+
+WritePatch: Compile failed.
+DifferenceMapAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 5:12:00 PM
+DifferenceMapAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 5:12:01 PM
+DifferenceMapAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 5:12:33 PM
+DifferenceMapAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DifferenceMapAlgorithm -> D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithm\bin\Debug\net9.0\DifferenceMapAlgorithm.dll
+  DifferenceMapAlgorithmTest -> D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\bin\Debug\net9.0\DifferenceMapAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.14
+
+
+WritePatch: Code is not Complete.
+DifferenceMapAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 5:12:47 PM
+DifferenceMapAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 5:12:48 PM
+DifferenceMapAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 5:13:37 PM
+DifferenceMapAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DifferenceMapAlgorithm -> D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithm\bin\Debug\net9.0\DifferenceMapAlgorithm.dll
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(63,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(63,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(64,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(78,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(78,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(93,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(112,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(130,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(149,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(149,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(164,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(185,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(185,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+  DifferenceMapAlgorithmTest -> D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\bin\Debug\net9.0\DifferenceMapAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(63,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(63,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(64,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(78,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(78,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(93,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(112,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(130,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(149,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(149,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(164,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(185,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(185,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+    13 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.37
+
+
+WritePatch: Compile failed.
+DifferenceMapAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 5:13:38 PM
+DifferenceMapAlgorithmTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DifferenceMapAlgorithm -> D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithm\bin\Debug\net9.0\DifferenceMapAlgorithm.dll
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(63,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(63,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(64,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(78,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(78,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(93,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(112,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(130,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(149,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(149,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(164,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(185,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(185,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+  DifferenceMapAlgorithmTest -> D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\bin\Debug\net9.0\DifferenceMapAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(63,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(63,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(64,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(78,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(78,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(93,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(112,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(130,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(149,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(149,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(164,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(185,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTests.cs(185,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj]
+    13 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.37
+
+</CompilerResponse>
+2025-02-23 5:13:39 PM
+DifferenceMapAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 5:13:42 PM
+DifferenceMapAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DifferenceMapAlgorithm -> D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithm\bin\Debug\net9.0\DifferenceMapAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.98
+
+
+WritePatch: Code is Complete.
+DifferenceMapAlgorithm
+
+WritePatch ran compiler. 2025-02-23 5:14:00 PM
+DifferenceMapAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DifferenceMapAlgorithm -> D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithm\bin\Debug\net9.0\DifferenceMapAlgorithm.dll
+  DifferenceMapAlgorithmTest -> D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\bin\Debug\net9.0\DifferenceMapAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.82
+
+
+WritePatch: Code is Complete.
+DifferenceMapAlgorithmTest
+
+TestResult:
+[SUCCESS 2025-02-23 5:14:23 PM] All tests passed successfully.
+[INFO 2025-02-23 5:14:23 PM] Test process completed. Duration: 7.64 seconds.
+[INFO 2025-02-23 5:14:23 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 5:14:24 PM]   Passed TestSolveMaxIterations [6 ms]
+[OUTPUT 2025-02-23 5:14:23 PM]   Passed TestSolveNegativeBeta [6 ms]
+[OUTPUT 2025-02-23 5:14:19 PM] Test run for D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\bin\Debug\net9.0\DifferenceMapAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 5:14:19 PM]   DifferenceMapAlgorithmTest -> D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\bin\Debug\net9.0\DifferenceMapAlgorithmTest.dll
+[OUTPUT 2025-02-23 5:14:18 PM]   DifferenceMapAlgorithm -> D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithm\bin\Debug\net9.0\DifferenceMapAlgorithm.dll
+[OUTPUT 2025-02-23 5:14:17 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 5:14:23 PM] Test Parallelization enabled for D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\bin\Debug\net9.0\DifferenceMapAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 5:14:21 PM] D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\bin\Debug\net9.0\DifferenceMapAlgorithmTest.dll
+[OUTPUT 2025-02-23 5:14:21 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 5:14:20 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 5:14:20 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 5:14:17 PM]   Determining projects to restore...
+[INFO 2025-02-23 5:14:16 PM] Command: dotnet test "D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 5:14:16 PM] Starting test for project: D:\Code2025\RavenWork\DifferenceMapAlgorithm\DifferenceMapAlgorithmTest\DifferenceMapAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
