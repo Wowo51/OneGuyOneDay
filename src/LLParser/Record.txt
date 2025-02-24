@@ -1,0 +1,209 @@
+<ActRecord>
+  <ProjectName>LLParser</ProjectName>
+  <ProjectDescription>LL parser: A simple linear‑time parser for a limited class of grammars</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>LL parser: A simple linear‑time parser for a limited class of grammars</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\LLParser</SolutionFolderPath>
+  <ProjectFolderName>LLParser</ProjectFolderName>
+  <ProjectName>LLParser</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:51:04 PM
+LLParser</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:51:44 PM
+LLParser</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\LLParser\LLParser\Parser.cs(19,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LLParser\LLParser\LLParser.csproj]
+  LLParser -> D:\Code2025\RavenWork\LLParser\LLParser\bin\Debug\net9.0\LLParser.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LLParser\LLParser\Parser.cs(19,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LLParser\LLParser\LLParser.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.66
+]]></string>
+    <string>WritePatch: Compile failed.
+LLParser</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:51:45 PM
+LLParser</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:51:45 PM
+LLParser</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:52:37 PM
+LLParser</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LLParser -> D:\Code2025\RavenWork\LLParser\LLParser\bin\Debug\net9.0\LLParser.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.71
+]]></string>
+    <string>WritePatch: Code is Complete.
+LLParser</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:52:52 PM
+LLParserTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:54:00 PM
+LLParserTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LLParser\LLParserTest\LLParserTest.csproj (in 388 ms).
+  1 of 2 projects are up-to-date for restore.
+  LLParser -> D:\Code2025\RavenWork\LLParser\LLParser\bin\Debug\net9.0\LLParser.dll
+  LLParserTest -> D:\Code2025\RavenWork\LLParser\LLParserTest\bin\Debug\net9.0\LLParserTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.01
+]]></string>
+    <string>WritePatch: Code is Complete.
+LLParserTest</string>
+    <string>[INFO 2025-02-23 2:54:10 PM] Starting test for project: D:\Code2025\RavenWork\LLParser\LLParserTest\LLParserTest.csproj</string>
+    <string>[INFO 2025-02-23 2:54:10 PM] Starting test for project: D:\Code2025\RavenWork\LLParser\LLParserTest\LLParserTest.csproj</string>
+    <string>[INFO 2025-02-23 2:54:10 PM] Starting test for project: D:\Code2025\RavenWork\LLParser\LLParserTest\LLParserTest.csproj</string>
+    <string>[INFO 2025-02-23 2:54:10 PM] Starting test for project: D:\Code2025\RavenWork\LLParser\LLParserTest\LLParserTest.csproj</string>
+    <string>[INFO 2025-02-23 2:54:10 PM] Starting test for project: D:\Code2025\RavenWork\LLParser\LLParserTest\LLParserTest.csproj</string>
+    <string>[INFO 2025-02-23 2:54:10 PM] Starting test for project: D:\Code2025\RavenWork\LLParser\LLParserTest\LLParserTest.csproj</string>
+    <string>[INFO 2025-02-23 2:54:10 PM] Starting test for project: D:\Code2025\RavenWork\LLParser\LLParserTest\LLParserTest.csproj</string>
+    <string>[INFO 2025-02-23 2:54:10 PM] Starting test for project: D:\Code2025\RavenWork\LLParser\LLParserTest\LLParserTest.csproj</string>
+    <string>[INFO 2025-02-23 2:54:10 PM] Starting test for project: D:\Code2025\RavenWork\LLParser\LLParserTest\LLParserTest.csproj</string>
+    <string>[INFO 2025-02-23 2:54:10 PM] Starting test for project: D:\Code2025\RavenWork\LLParser\LLParserTest\LLParserTest.csproj</string>
+    <string>[INFO 2025-02-23 2:54:10 PM] Starting test for project: D:\Code2025\RavenWork\LLParser\LLParserTest\LLParserTest.csproj</string>
+    <string>[INFO 2025-02-23 2:54:10 PM] Starting test for project: D:\Code2025\RavenWork\LLParser\LLParserTest\LLParserTest.csproj</string>
+    <string>[INFO 2025-02-23 2:54:10 PM] Starting test for project: D:\Code2025\RavenWork\LLParser\LLParserTest\LLParserTest.csproj</string>
+    <string>[INFO 2025-02-23 2:54:10 PM] Starting test for project: D:\Code2025\RavenWork\LLParser\LLParserTest\LLParserTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 2:54:16 PM]   Passed TestEmptyInput [7 ms]
+[OUTPUT 2025-02-23 2:54:15 PM]   Passed TestValidNumber [7 ms]
+[SUCCESS 2025-02-23 2:54:15 PM] All tests passed successfully.
+[INFO 2025-02-23 2:54:15 PM] Test process completed. Duration: 5.04 seconds.
+[INFO 2025-02-23 2:54:15 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 2:54:15 PM] Test Parallelization enabled for D:\Code2025\RavenWork\LLParser\LLParserTest\bin\Debug\net9.0\LLParserTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 2:54:14 PM] D:\Code2025\RavenWork\LLParser\LLParserTest\bin\Debug\net9.0\LLParserTest.dll
+[OUTPUT 2025-02-23 2:54:13 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 2:54:13 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 2:54:13 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 2:54:12 PM]   LLParser -> D:\Code2025\RavenWork\LLParser\LLParser\bin\Debug\net9.0\LLParser.dll
+[OUTPUT 2025-02-23 2:54:11 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 2:54:12 PM] Test run for D:\Code2025\RavenWork\LLParser\LLParserTest\bin\Debug\net9.0\LLParserTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 2:54:12 PM]   LLParserTest -> D:\Code2025\RavenWork\LLParser\LLParserTest\bin\Debug\net9.0\LLParserTest.dll
+[OUTPUT 2025-02-23 2:54:11 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 2:54:10 PM] Command: dotnet test "D:\Code2025\RavenWork\LLParser\LLParserTest\LLParserTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 2:54:10 PM] Starting test for project: D:\Code2025\RavenWork\LLParser\LLParserTest\LLParserTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 2:51:04 PM
+LLParser
+
+WritePatch ran compiler. 2025-02-23 2:51:44 PM
+LLParser
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\LLParser\LLParser\Parser.cs(19,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LLParser\LLParser\LLParser.csproj]
+  LLParser -> D:\Code2025\RavenWork\LLParser\LLParser\bin\Debug\net9.0\LLParser.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LLParser\LLParser\Parser.cs(19,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LLParser\LLParser\LLParser.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.66
+
+
+WritePatch: Compile failed.
+LLParser
+
+Finished WritePatch cycle step.
+2025-02-23 2:51:45 PM
+LLParser
+
+WritePatch Started CycleStep. 2025-02-23 2:51:45 PM
+LLParser
+
+WritePatch ran compiler. 2025-02-23 2:52:37 PM
+LLParser
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LLParser -> D:\Code2025\RavenWork\LLParser\LLParser\bin\Debug\net9.0\LLParser.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.71
+
+
+WritePatch: Code is Complete.
+LLParser
+
+WritePatch Started CycleStep. 2025-02-23 2:52:52 PM
+LLParserTest
+
+WritePatch ran compiler. 2025-02-23 2:54:00 PM
+LLParserTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LLParser\LLParserTest\LLParserTest.csproj (in 388 ms).
+  1 of 2 projects are up-to-date for restore.
+  LLParser -> D:\Code2025\RavenWork\LLParser\LLParser\bin\Debug\net9.0\LLParser.dll
+  LLParserTest -> D:\Code2025\RavenWork\LLParser\LLParserTest\bin\Debug\net9.0\LLParserTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.01
+
+
+WritePatch: Code is Complete.
+LLParserTest
+
+TestResult:
+[OUTPUT 2025-02-23 2:54:16 PM]   Passed TestEmptyInput [7 ms]
+[OUTPUT 2025-02-23 2:54:15 PM]   Passed TestValidNumber [7 ms]
+[SUCCESS 2025-02-23 2:54:15 PM] All tests passed successfully.
+[INFO 2025-02-23 2:54:15 PM] Test process completed. Duration: 5.04 seconds.
+[INFO 2025-02-23 2:54:15 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 2:54:15 PM] Test Parallelization enabled for D:\Code2025\RavenWork\LLParser\LLParserTest\bin\Debug\net9.0\LLParserTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 2:54:14 PM] D:\Code2025\RavenWork\LLParser\LLParserTest\bin\Debug\net9.0\LLParserTest.dll
+[OUTPUT 2025-02-23 2:54:13 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 2:54:13 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 2:54:13 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 2:54:12 PM]   LLParser -> D:\Code2025\RavenWork\LLParser\LLParser\bin\Debug\net9.0\LLParser.dll
+[OUTPUT 2025-02-23 2:54:11 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 2:54:12 PM] Test run for D:\Code2025\RavenWork\LLParser\LLParserTest\bin\Debug\net9.0\LLParserTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 2:54:12 PM]   LLParserTest -> D:\Code2025\RavenWork\LLParser\LLParserTest\bin\Debug\net9.0\LLParserTest.dll
+[OUTPUT 2025-02-23 2:54:11 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 2:54:10 PM] Command: dotnet test "D:\Code2025\RavenWork\LLParser\LLParserTest\LLParserTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 2:54:10 PM] Starting test for project: D:\Code2025\RavenWork\LLParser\LLParserTest\LLParserTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
