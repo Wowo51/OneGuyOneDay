@@ -1,0 +1,394 @@
+<ActRecord>
+  <ProjectName>JumpSearch</ProjectName>
+  <ProjectDescription>Jump search (or block search): linear search on a smaller subset of the sequence</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Jump search (or block search): linear search on a smaller subset of the sequence</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\JumpSearch</SolutionFolderPath>
+  <ProjectFolderName>JumpSearch</ProjectFolderName>
+  <ProjectName>JumpSearch</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:51:14 AM
+JumpSearch</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:51:37 AM
+JumpSearch</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  JumpSearch -> D:\Code2025\RavenWork\JumpSearch\JumpSearch\bin\Debug\net9.0\JumpSearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.55
+]]></string>
+    <string>WritePatch: Code is Complete.
+JumpSearch</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:52:06 AM
+JumpSearchTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:52:38 AM
+JumpSearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchTest.csproj (in 361 ms).
+  1 of 2 projects are up-to-date for restore.
+  JumpSearch -> D:\Code2025\RavenWork\JumpSearch\JumpSearch\bin\Debug\net9.0\JumpSearch.dll
+D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchAlgorithmTests.cs(13,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchTest.csproj]
+  JumpSearchTest -> D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\bin\Debug\net9.0\JumpSearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchAlgorithmTests.cs(13,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.94
+]]></string>
+    <string>WritePatch: Compile failed.
+JumpSearchTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:52:39 AM
+JumpSearchTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:52:39 AM
+JumpSearchTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:53:01 AM
+JumpSearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  JumpSearch -> D:\Code2025\RavenWork\JumpSearch\JumpSearch\bin\Debug\net9.0\JumpSearch.dll
+  JumpSearchTest -> D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\bin\Debug\net9.0\JumpSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.94
+]]></string>
+    <string>WritePatch: Code is not Complete.
+JumpSearchTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:53:24 AM
+JumpSearchTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:53:24 AM
+JumpSearchTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:54:09 AM
+JumpSearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  JumpSearch -> D:\Code2025\RavenWork\JumpSearch\JumpSearch\bin\Debug\net9.0\JumpSearch.dll
+D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchAlgorithmTests.cs(13,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchTest.csproj]
+  JumpSearchTest -> D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\bin\Debug\net9.0\JumpSearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchAlgorithmTests.cs(13,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.53
+]]></string>
+    <string>WritePatch: Compile failed.
+JumpSearchTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:54:10 AM
+JumpSearchTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\JumpSearch\JumpSearchTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  JumpSearch -> D:\Code2025\RavenWork\JumpSearch\JumpSearch\bin\Debug\net9.0\JumpSearch.dll
+D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchAlgorithmTests.cs(13,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchTest.csproj]
+  JumpSearchTest -> D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\bin\Debug\net9.0\JumpSearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchAlgorithmTests.cs(13,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.53
+
+</CompilerResponse>
+2025-02-23 9:54:10 AM
+JumpSearchTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 9:54:12 AM
+JumpSearch</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  JumpSearch -> D:\Code2025\RavenWork\JumpSearch\JumpSearch\bin\Debug\net9.0\JumpSearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+]]></string>
+    <string>WritePatch: Code is Complete.
+JumpSearch</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:54:41 AM
+JumpSearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  JumpSearch -> D:\Code2025\RavenWork\JumpSearch\JumpSearch\bin\Debug\net9.0\JumpSearch.dll
+  JumpSearchTest -> D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\bin\Debug\net9.0\JumpSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.33
+]]></string>
+    <string>WritePatch: Code is Complete.
+JumpSearchTest</string>
+    <string>[INFO 2025-02-23 9:55:03 AM] Starting test for project: D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 9:55:03 AM] Starting test for project: D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 9:55:03 AM] Starting test for project: D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 9:55:03 AM] Starting test for project: D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 9:55:03 AM] Starting test for project: D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 9:55:03 AM] Starting test for project: D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 9:55:03 AM] Starting test for project: D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 9:55:03 AM] Starting test for project: D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 9:55:03 AM] Starting test for project: D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 9:55:03 AM] Starting test for project: D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 9:55:03 AM] Starting test for project: D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 9:55:03 AM] Starting test for project: D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 9:55:03 AM] Starting test for project: D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 9:55:03 AM] Starting test for project: D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 9:55:09 AM] All tests passed successfully.
+[INFO 2025-02-23 9:55:09 AM] Test process completed. Duration: 5.15 seconds.
+[INFO 2025-02-23 9:55:09 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 9:55:08 AM] Test Parallelization enabled for D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\bin\Debug\net9.0\JumpSearchTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 9:55:07 AM] D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\bin\Debug\net9.0\JumpSearchTest.dll
+[OUTPUT 2025-02-23 9:55:07 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 9:55:06 AM]   JumpSearch -> D:\Code2025\RavenWork\JumpSearch\JumpSearch\bin\Debug\net9.0\JumpSearch.dll
+[OUTPUT 2025-02-23 9:55:05 AM]   Determining projects to restore...
+[OUTPUT 2025-02-23 9:55:09 AM]   Passed Test_TargetNotFound_ReturnsMinusOne [5 ms]
+[OUTPUT 2025-02-23 9:55:09 AM]   Passed Test_NullArray_ReturnsMinusOne [5 ms]
+[OUTPUT 2025-02-23 9:55:06 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 9:55:06 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 9:55:06 AM] Test run for D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\bin\Debug\net9.0\JumpSearchTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 9:55:06 AM]   JumpSearchTest -> D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\bin\Debug\net9.0\JumpSearchTest.dll
+[OUTPUT 2025-02-23 9:55:05 AM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 9:55:03 AM] Command: dotnet test "D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 9:55:03 AM] Starting test for project: D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 9:51:14 AM
+JumpSearch
+
+WritePatch ran compiler. 2025-02-23 9:51:37 AM
+JumpSearch
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  JumpSearch -> D:\Code2025\RavenWork\JumpSearch\JumpSearch\bin\Debug\net9.0\JumpSearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.55
+
+
+WritePatch: Code is Complete.
+JumpSearch
+
+WritePatch Started CycleStep. 2025-02-23 9:52:06 AM
+JumpSearchTest
+
+WritePatch ran compiler. 2025-02-23 9:52:38 AM
+JumpSearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchTest.csproj (in 361 ms).
+  1 of 2 projects are up-to-date for restore.
+  JumpSearch -> D:\Code2025\RavenWork\JumpSearch\JumpSearch\bin\Debug\net9.0\JumpSearch.dll
+D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchAlgorithmTests.cs(13,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchTest.csproj]
+  JumpSearchTest -> D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\bin\Debug\net9.0\JumpSearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchAlgorithmTests.cs(13,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.94
+
+
+WritePatch: Compile failed.
+JumpSearchTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:52:39 AM
+JumpSearchTest
+
+WritePatch Started CycleStep. 2025-02-23 9:52:39 AM
+JumpSearchTest
+
+WritePatch ran compiler. 2025-02-23 9:53:01 AM
+JumpSearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  JumpSearch -> D:\Code2025\RavenWork\JumpSearch\JumpSearch\bin\Debug\net9.0\JumpSearch.dll
+  JumpSearchTest -> D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\bin\Debug\net9.0\JumpSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.94
+
+
+WritePatch: Code is not Complete.
+JumpSearchTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:53:24 AM
+JumpSearchTest
+
+WritePatch Started CycleStep. 2025-02-23 9:53:24 AM
+JumpSearchTest
+
+WritePatch ran compiler. 2025-02-23 9:54:09 AM
+JumpSearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  JumpSearch -> D:\Code2025\RavenWork\JumpSearch\JumpSearch\bin\Debug\net9.0\JumpSearch.dll
+D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchAlgorithmTests.cs(13,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchTest.csproj]
+  JumpSearchTest -> D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\bin\Debug\net9.0\JumpSearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchAlgorithmTests.cs(13,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.53
+
+
+WritePatch: Compile failed.
+JumpSearchTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:54:10 AM
+JumpSearchTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\JumpSearch\JumpSearchTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  JumpSearch -> D:\Code2025\RavenWork\JumpSearch\JumpSearch\bin\Debug\net9.0\JumpSearch.dll
+D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchAlgorithmTests.cs(13,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchTest.csproj]
+  JumpSearchTest -> D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\bin\Debug\net9.0\JumpSearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchAlgorithmTests.cs(13,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.53
+
+</CompilerResponse>
+2025-02-23 9:54:10 AM
+JumpSearchTest
+
+WritePatch ran compiler. 2025-02-23 9:54:12 AM
+JumpSearch
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  JumpSearch -> D:\Code2025\RavenWork\JumpSearch\JumpSearch\bin\Debug\net9.0\JumpSearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+
+
+WritePatch: Code is Complete.
+JumpSearch
+
+WritePatch ran compiler. 2025-02-23 9:54:41 AM
+JumpSearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  JumpSearch -> D:\Code2025\RavenWork\JumpSearch\JumpSearch\bin\Debug\net9.0\JumpSearch.dll
+  JumpSearchTest -> D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\bin\Debug\net9.0\JumpSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.33
+
+
+WritePatch: Code is Complete.
+JumpSearchTest
+
+TestResult:
+[SUCCESS 2025-02-23 9:55:09 AM] All tests passed successfully.
+[INFO 2025-02-23 9:55:09 AM] Test process completed. Duration: 5.15 seconds.
+[INFO 2025-02-23 9:55:09 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 9:55:08 AM] Test Parallelization enabled for D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\bin\Debug\net9.0\JumpSearchTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 9:55:07 AM] D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\bin\Debug\net9.0\JumpSearchTest.dll
+[OUTPUT 2025-02-23 9:55:07 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 9:55:06 AM]   JumpSearch -> D:\Code2025\RavenWork\JumpSearch\JumpSearch\bin\Debug\net9.0\JumpSearch.dll
+[OUTPUT 2025-02-23 9:55:05 AM]   Determining projects to restore...
+[OUTPUT 2025-02-23 9:55:09 AM]   Passed Test_TargetNotFound_ReturnsMinusOne [5 ms]
+[OUTPUT 2025-02-23 9:55:09 AM]   Passed Test_NullArray_ReturnsMinusOne [5 ms]
+[OUTPUT 2025-02-23 9:55:06 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 9:55:06 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 9:55:06 AM] Test run for D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\bin\Debug\net9.0\JumpSearchTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 9:55:06 AM]   JumpSearchTest -> D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\bin\Debug\net9.0\JumpSearchTest.dll
+[OUTPUT 2025-02-23 9:55:05 AM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 9:55:03 AM] Command: dotnet test "D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 9:55:03 AM] Starting test for project: D:\Code2025\RavenWork\JumpSearch\JumpSearchTest\JumpSearchTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
