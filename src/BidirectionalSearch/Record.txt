@@ -1,0 +1,490 @@
+<ActRecord>
+  <ProjectName>BidirectionalSearch</ProjectName>
+  <ProjectDescription>Bidirectional Search: Finds the shortest path between two nodes by simultaneously searching forward from the start and backward from the goal.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Bidirectional Search: Finds the shortest path between two nodes by simultaneously searching forward from the start and backward from the goal.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\BidirectionalSearch</SolutionFolderPath>
+  <ProjectFolderName>BidirectionalSearch</ProjectFolderName>
+  <ProjectName>BidirectionalSearch</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:18:08 PM
+BidirectionalSearch</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:19:04 PM
+BidirectionalSearch</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\BidirectionalSearchAlgorithm.cs(28,30): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\BidirectionalSearch.csproj]
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\BidirectionalSearchAlgorithm.cs(30,29): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\BidirectionalSearch.csproj]
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\BidirectionalSearchAlgorithm.cs(31,34): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\BidirectionalSearch.csproj]
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\BidirectionalSearchAlgorithm.cs(72,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\BidirectionalSearch.csproj]
+  BidirectionalSearch -> D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\bin\Debug\net9.0\BidirectionalSearch.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\BidirectionalSearchAlgorithm.cs(28,30): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\BidirectionalSearch.csproj]
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\BidirectionalSearchAlgorithm.cs(30,29): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\BidirectionalSearch.csproj]
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\BidirectionalSearchAlgorithm.cs(31,34): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\BidirectionalSearch.csproj]
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\BidirectionalSearchAlgorithm.cs(72,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\BidirectionalSearch.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.01
+]]></string>
+    <string>WritePatch: Compile failed.
+BidirectionalSearch</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:19:05 PM
+BidirectionalSearch</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:19:06 PM
+BidirectionalSearch</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 8:19:38 PM
+BidirectionalSearch</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:19:39 PM
+BidirectionalSearch</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:20:20 PM
+BidirectionalSearch</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BidirectionalSearch -> D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\bin\Debug\net9.0\BidirectionalSearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.04
+]]></string>
+    <string>WritePatch: Code is Complete.
+BidirectionalSearch</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:20:47 PM
+BidirectionalSearchTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:21:51 PM
+BidirectionalSearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj (in 452 ms).
+  1 of 2 projects are up-to-date for restore.
+  BidirectionalSearch -> D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\bin\Debug\net9.0\BidirectionalSearch.dll
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTests.cs(13,81): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj]
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTests.cs(22,88): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj]
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTests.cs(31,93): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj]
+  BidirectionalSearchTest -> D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\bin\Debug\net9.0\BidirectionalSearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTests.cs(13,81): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj]
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTests.cs(22,88): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj]
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTests.cs(31,93): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.37
+]]></string>
+    <string>WritePatch: Compile failed.
+BidirectionalSearchTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:21:53 PM
+BidirectionalSearchTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:21:53 PM
+BidirectionalSearchTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:22:55 PM
+BidirectionalSearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BidirectionalSearch -> D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\bin\Debug\net9.0\BidirectionalSearch.dll
+  BidirectionalSearchTest -> D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\bin\Debug\net9.0\BidirectionalSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.16
+]]></string>
+    <string>WritePatch: Code is not Complete.
+BidirectionalSearchTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:23:17 PM
+BidirectionalSearchTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:23:18 PM
+BidirectionalSearchTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:25:01 PM
+BidirectionalSearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BidirectionalSearch -> D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\bin\Debug\net9.0\BidirectionalSearch.dll
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTests.cs(13,81): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj]
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTests.cs(22,88): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj]
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTests.cs(31,93): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj]
+  BidirectionalSearchTest -> D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\bin\Debug\net9.0\BidirectionalSearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTests.cs(13,81): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj]
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTests.cs(22,88): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj]
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTests.cs(31,93): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.41
+]]></string>
+    <string>WritePatch: Compile failed.
+BidirectionalSearchTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:25:02 PM
+BidirectionalSearchTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BidirectionalSearch -> D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\bin\Debug\net9.0\BidirectionalSearch.dll
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTests.cs(13,81): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj]
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTests.cs(22,88): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj]
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTests.cs(31,93): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj]
+  BidirectionalSearchTest -> D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\bin\Debug\net9.0\BidirectionalSearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTests.cs(13,81): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj]
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTests.cs(22,88): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj]
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTests.cs(31,93): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.41
+
+</CompilerResponse>
+2025-02-23 8:25:02 PM
+BidirectionalSearchTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 8:25:05 PM
+BidirectionalSearch</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BidirectionalSearch -> D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\bin\Debug\net9.0\BidirectionalSearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.62
+]]></string>
+    <string>WritePatch: Code is Complete.
+BidirectionalSearch</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:25:40 PM
+BidirectionalSearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BidirectionalSearch -> D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\bin\Debug\net9.0\BidirectionalSearch.dll
+  BidirectionalSearchTest -> D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\bin\Debug\net9.0\BidirectionalSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.95
+]]></string>
+    <string>WritePatch: Code is Complete.
+BidirectionalSearchTest</string>
+    <string>[INFO 2025-02-23 8:26:09 PM] Starting test for project: D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 8:26:09 PM] Starting test for project: D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 8:26:09 PM] Starting test for project: D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 8:26:09 PM] Starting test for project: D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 8:26:09 PM] Starting test for project: D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 8:26:09 PM] Starting test for project: D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 8:26:09 PM] Starting test for project: D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 8:26:09 PM] Starting test for project: D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 8:26:09 PM] Starting test for project: D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 8:26:09 PM] Starting test for project: D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 8:26:09 PM] Starting test for project: D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 8:26:09 PM] Starting test for project: D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 8:26:09 PM] Starting test for project: D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 8:26:15 PM] Test Parallelization enabled for D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\bin\Debug\net9.0\BidirectionalSearchTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 8:26:14 PM] D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\bin\Debug\net9.0\BidirectionalSearchTest.dll
+[OUTPUT 2025-02-23 8:26:13 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 8:26:13 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:26:10 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:26:16 PM]   Passed TestCycleGraph [8 ms]
+[OUTPUT 2025-02-23 8:26:12 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:26:12 PM] Test run for D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\bin\Debug\net9.0\BidirectionalSearchTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:26:12 PM]   BidirectionalSearchTest -> D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\bin\Debug\net9.0\BidirectionalSearchTest.dll
+[OUTPUT 2025-02-23 8:26:11 PM]   BidirectionalSearch -> D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\bin\Debug\net9.0\BidirectionalSearch.dll
+[OUTPUT 2025-02-23 8:26:10 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 8:26:15 PM] All tests passed successfully.
+[INFO 2025-02-23 8:26:15 PM] Test process completed. Duration: 6.88 seconds.
+[INFO 2025-02-23 8:26:15 PM] Process exited with code 0.
+[INFO 2025-02-23 8:26:09 PM] Command: dotnet test "D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:26:09 PM] Starting test for project: D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 8:18:08 PM
+BidirectionalSearch
+
+WritePatch ran compiler. 2025-02-23 8:19:04 PM
+BidirectionalSearch
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\BidirectionalSearchAlgorithm.cs(28,30): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\BidirectionalSearch.csproj]
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\BidirectionalSearchAlgorithm.cs(30,29): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\BidirectionalSearch.csproj]
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\BidirectionalSearchAlgorithm.cs(31,34): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\BidirectionalSearch.csproj]
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\BidirectionalSearchAlgorithm.cs(72,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\BidirectionalSearch.csproj]
+  BidirectionalSearch -> D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\bin\Debug\net9.0\BidirectionalSearch.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\BidirectionalSearchAlgorithm.cs(28,30): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\BidirectionalSearch.csproj]
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\BidirectionalSearchAlgorithm.cs(30,29): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\BidirectionalSearch.csproj]
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\BidirectionalSearchAlgorithm.cs(31,34): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\BidirectionalSearch.csproj]
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\BidirectionalSearchAlgorithm.cs(72,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\BidirectionalSearch.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.01
+
+
+WritePatch: Compile failed.
+BidirectionalSearch
+
+Finished WritePatch cycle step.
+2025-02-23 8:19:05 PM
+BidirectionalSearch
+
+WritePatch Started CycleStep. 2025-02-23 8:19:06 PM
+BidirectionalSearch
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 8:19:38 PM
+BidirectionalSearch
+
+WritePatch Started CycleStep. 2025-02-23 8:19:39 PM
+BidirectionalSearch
+
+WritePatch ran compiler. 2025-02-23 8:20:20 PM
+BidirectionalSearch
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BidirectionalSearch -> D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\bin\Debug\net9.0\BidirectionalSearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.04
+
+
+WritePatch: Code is Complete.
+BidirectionalSearch
+
+WritePatch Started CycleStep. 2025-02-23 8:20:47 PM
+BidirectionalSearchTest
+
+WritePatch ran compiler. 2025-02-23 8:21:51 PM
+BidirectionalSearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj (in 452 ms).
+  1 of 2 projects are up-to-date for restore.
+  BidirectionalSearch -> D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\bin\Debug\net9.0\BidirectionalSearch.dll
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTests.cs(13,81): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj]
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTests.cs(22,88): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj]
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTests.cs(31,93): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj]
+  BidirectionalSearchTest -> D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\bin\Debug\net9.0\BidirectionalSearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTests.cs(13,81): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj]
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTests.cs(22,88): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj]
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTests.cs(31,93): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.37
+
+
+WritePatch: Compile failed.
+BidirectionalSearchTest
+
+Finished WritePatch cycle step.
+2025-02-23 8:21:53 PM
+BidirectionalSearchTest
+
+WritePatch Started CycleStep. 2025-02-23 8:21:53 PM
+BidirectionalSearchTest
+
+WritePatch ran compiler. 2025-02-23 8:22:55 PM
+BidirectionalSearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BidirectionalSearch -> D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\bin\Debug\net9.0\BidirectionalSearch.dll
+  BidirectionalSearchTest -> D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\bin\Debug\net9.0\BidirectionalSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.16
+
+
+WritePatch: Code is not Complete.
+BidirectionalSearchTest
+
+Finished WritePatch cycle step.
+2025-02-23 8:23:17 PM
+BidirectionalSearchTest
+
+WritePatch Started CycleStep. 2025-02-23 8:23:18 PM
+BidirectionalSearchTest
+
+WritePatch ran compiler. 2025-02-23 8:25:01 PM
+BidirectionalSearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BidirectionalSearch -> D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\bin\Debug\net9.0\BidirectionalSearch.dll
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTests.cs(13,81): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj]
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTests.cs(22,88): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj]
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTests.cs(31,93): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj]
+  BidirectionalSearchTest -> D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\bin\Debug\net9.0\BidirectionalSearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTests.cs(13,81): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj]
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTests.cs(22,88): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj]
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTests.cs(31,93): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.41
+
+
+WritePatch: Compile failed.
+BidirectionalSearchTest
+
+Finished WritePatch cycle step.
+2025-02-23 8:25:02 PM
+BidirectionalSearchTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BidirectionalSearch -> D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\bin\Debug\net9.0\BidirectionalSearch.dll
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTests.cs(13,81): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj]
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTests.cs(22,88): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj]
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTests.cs(31,93): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj]
+  BidirectionalSearchTest -> D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\bin\Debug\net9.0\BidirectionalSearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTests.cs(13,81): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj]
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTests.cs(22,88): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj]
+D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTests.cs(31,93): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.41
+
+</CompilerResponse>
+2025-02-23 8:25:02 PM
+BidirectionalSearchTest
+
+WritePatch ran compiler. 2025-02-23 8:25:05 PM
+BidirectionalSearch
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BidirectionalSearch -> D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\bin\Debug\net9.0\BidirectionalSearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.62
+
+
+WritePatch: Code is Complete.
+BidirectionalSearch
+
+WritePatch ran compiler. 2025-02-23 8:25:40 PM
+BidirectionalSearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BidirectionalSearch -> D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\bin\Debug\net9.0\BidirectionalSearch.dll
+  BidirectionalSearchTest -> D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\bin\Debug\net9.0\BidirectionalSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.95
+
+
+WritePatch: Code is Complete.
+BidirectionalSearchTest
+
+TestResult:
+[OUTPUT 2025-02-23 8:26:15 PM] Test Parallelization enabled for D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\bin\Debug\net9.0\BidirectionalSearchTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 8:26:14 PM] D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\bin\Debug\net9.0\BidirectionalSearchTest.dll
+[OUTPUT 2025-02-23 8:26:13 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 8:26:13 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:26:10 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:26:16 PM]   Passed TestCycleGraph [8 ms]
+[OUTPUT 2025-02-23 8:26:12 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:26:12 PM] Test run for D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\bin\Debug\net9.0\BidirectionalSearchTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:26:12 PM]   BidirectionalSearchTest -> D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\bin\Debug\net9.0\BidirectionalSearchTest.dll
+[OUTPUT 2025-02-23 8:26:11 PM]   BidirectionalSearch -> D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearch\bin\Debug\net9.0\BidirectionalSearch.dll
+[OUTPUT 2025-02-23 8:26:10 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 8:26:15 PM] All tests passed successfully.
+[INFO 2025-02-23 8:26:15 PM] Test process completed. Duration: 6.88 seconds.
+[INFO 2025-02-23 8:26:15 PM] Process exited with code 0.
+[INFO 2025-02-23 8:26:09 PM] Command: dotnet test "D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:26:09 PM] Starting test for project: D:\Code2025\RavenWork\BidirectionalSearch\BidirectionalSearchTest\BidirectionalSearchTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
