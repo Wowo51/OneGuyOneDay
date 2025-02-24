@@ -1,0 +1,386 @@
+<ActRecord>
+  <ProjectName>SubcluAlgorithm</ProjectName>
+  <ProjectDescription>SUBCLU: A subspace clustering algorithm</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>SUBCLU: A subspace clustering algorithm</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\SubcluAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>SubcluAlgorithm</ProjectFolderName>
+  <ProjectName>SubcluAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:46:28 AM
+SubcluAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:47:24 AM
+SubcluAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SubcluAlgorithm -> D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithm\bin\Debug\net9.0\SubcluAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.86
+]]></string>
+    <string>WritePatch: Code is Complete.
+SubcluAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:47:45 AM
+SubcluAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:48:44 AM
+SubcluAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTest.csproj (in 194 ms).
+  1 of 2 projects are up-to-date for restore.
+  SubcluAlgorithm -> D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithm\bin\Debug\net9.0\SubcluAlgorithm.dll
+D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTests.cs(26,38): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTests.cs(29,66): warning CS8604: Possible null reference argument for parameter 'points' in 'List<SubspaceCluster> Subclu.FindClusters(List<DataPoint> points, double epsilon, int minPoints)'. [D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTest.csproj]
+  SubcluAlgorithmTest -> D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\bin\Debug\net9.0\SubcluAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTests.cs(26,38): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTests.cs(29,66): warning CS8604: Possible null reference argument for parameter 'points' in 'List<SubspaceCluster> Subclu.FindClusters(List<DataPoint> points, double epsilon, int minPoints)'. [D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.30
+]]></string>
+    <string>WritePatch: Compile failed.
+SubcluAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:48:45 AM
+SubcluAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:48:45 AM
+SubcluAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:50:16 AM
+SubcluAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SubcluAlgorithm -> D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithm\bin\Debug\net9.0\SubcluAlgorithm.dll
+D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTests.cs(29,66): warning CS8604: Possible null reference argument for parameter 'points' in 'List<SubspaceCluster> Subclu.FindClusters(List<DataPoint> points, double epsilon, int minPoints)'. [D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTest.csproj]
+  SubcluAlgorithmTest -> D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\bin\Debug\net9.0\SubcluAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTests.cs(29,66): warning CS8604: Possible null reference argument for parameter 'points' in 'List<SubspaceCluster> Subclu.FindClusters(List<DataPoint> points, double epsilon, int minPoints)'. [D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.88
+]]></string>
+    <string>WritePatch: Compile failed.
+SubcluAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:50:17 AM
+SubcluAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:50:17 AM
+SubcluAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:52:04 AM
+SubcluAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SubcluAlgorithm -> D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithm\bin\Debug\net9.0\SubcluAlgorithm.dll
+  SubcluAlgorithmTest -> D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\bin\Debug\net9.0\SubcluAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+]]></string>
+    <string>WritePatch: Code is not Complete.
+SubcluAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:52:45 AM
+SubcluAlgorithmTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SubcluAlgorithm -> D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithm\bin\Debug\net9.0\SubcluAlgorithm.dll
+  SubcluAlgorithmTest -> D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\bin\Debug\net9.0\SubcluAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+
+</CompilerResponse>
+2025-02-23 6:52:46 AM
+SubcluAlgorithmTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 6:52:47 AM
+SubcluAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SubcluAlgorithm -> D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithm\bin\Debug\net9.0\SubcluAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.64
+]]></string>
+    <string>WritePatch: Code is Complete.
+SubcluAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:53:41 AM
+SubcluAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SubcluAlgorithm -> D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithm\bin\Debug\net9.0\SubcluAlgorithm.dll
+  SubcluAlgorithmTest -> D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\bin\Debug\net9.0\SubcluAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.84
+]]></string>
+    <string>WritePatch: Code is Complete.
+SubcluAlgorithmTest</string>
+    <string>[INFO 2025-02-23 6:54:21 AM] Starting test for project: D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:54:21 AM] Starting test for project: D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:54:21 AM] Starting test for project: D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:54:21 AM] Starting test for project: D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:54:21 AM] Starting test for project: D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:54:21 AM] Starting test for project: D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:54:21 AM] Starting test for project: D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:54:21 AM] Starting test for project: D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:54:21 AM] Starting test for project: D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:54:21 AM] Starting test for project: D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:54:21 AM] Starting test for project: D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:54:21 AM] Starting test for project: D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 6:54:24 AM] Test Parallelization enabled for D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\bin\Debug\net9.0\SubcluAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 6:54:23 AM] D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\bin\Debug\net9.0\SubcluAlgorithmTest.dll
+[OUTPUT 2025-02-23 6:54:23 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:54:23 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:54:23 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:54:23 AM] Test run for D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\bin\Debug\net9.0\SubcluAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:54:22 AM]   SubcluAlgorithmTest -> D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\bin\Debug\net9.0\SubcluAlgorithmTest.dll
+[OUTPUT 2025-02-23 6:54:22 AM]   SubcluAlgorithm -> D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithm\bin\Debug\net9.0\SubcluAlgorithm.dll
+[OUTPUT 2025-02-23 6:54:22 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 6:54:22 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 6:54:24 AM] All tests passed successfully.
+[INFO 2025-02-23 6:54:24 AM] Test process completed. Duration: 2.64 seconds.
+[INFO 2025-02-23 6:54:24 AM] Process exited with code 0.
+[INFO 2025-02-23 6:54:21 AM] Command: dotnet test "D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:54:21 AM] Starting test for project: D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 6:46:28 AM
+SubcluAlgorithm
+
+WritePatch ran compiler. 2025-02-23 6:47:24 AM
+SubcluAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SubcluAlgorithm -> D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithm\bin\Debug\net9.0\SubcluAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.86
+
+
+WritePatch: Code is Complete.
+SubcluAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 6:47:45 AM
+SubcluAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 6:48:44 AM
+SubcluAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTest.csproj (in 194 ms).
+  1 of 2 projects are up-to-date for restore.
+  SubcluAlgorithm -> D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithm\bin\Debug\net9.0\SubcluAlgorithm.dll
+D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTests.cs(26,38): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTests.cs(29,66): warning CS8604: Possible null reference argument for parameter 'points' in 'List<SubspaceCluster> Subclu.FindClusters(List<DataPoint> points, double epsilon, int minPoints)'. [D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTest.csproj]
+  SubcluAlgorithmTest -> D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\bin\Debug\net9.0\SubcluAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTests.cs(26,38): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTests.cs(29,66): warning CS8604: Possible null reference argument for parameter 'points' in 'List<SubspaceCluster> Subclu.FindClusters(List<DataPoint> points, double epsilon, int minPoints)'. [D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.30
+
+
+WritePatch: Compile failed.
+SubcluAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 6:48:45 AM
+SubcluAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 6:48:45 AM
+SubcluAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 6:50:16 AM
+SubcluAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SubcluAlgorithm -> D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithm\bin\Debug\net9.0\SubcluAlgorithm.dll
+D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTests.cs(29,66): warning CS8604: Possible null reference argument for parameter 'points' in 'List<SubspaceCluster> Subclu.FindClusters(List<DataPoint> points, double epsilon, int minPoints)'. [D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTest.csproj]
+  SubcluAlgorithmTest -> D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\bin\Debug\net9.0\SubcluAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTests.cs(29,66): warning CS8604: Possible null reference argument for parameter 'points' in 'List<SubspaceCluster> Subclu.FindClusters(List<DataPoint> points, double epsilon, int minPoints)'. [D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.88
+
+
+WritePatch: Compile failed.
+SubcluAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 6:50:17 AM
+SubcluAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 6:50:17 AM
+SubcluAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 6:52:04 AM
+SubcluAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SubcluAlgorithm -> D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithm\bin\Debug\net9.0\SubcluAlgorithm.dll
+  SubcluAlgorithmTest -> D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\bin\Debug\net9.0\SubcluAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+
+
+WritePatch: Code is not Complete.
+SubcluAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 6:52:45 AM
+SubcluAlgorithmTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SubcluAlgorithm -> D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithm\bin\Debug\net9.0\SubcluAlgorithm.dll
+  SubcluAlgorithmTest -> D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\bin\Debug\net9.0\SubcluAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+
+</CompilerResponse>
+2025-02-23 6:52:46 AM
+SubcluAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 6:52:47 AM
+SubcluAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SubcluAlgorithm -> D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithm\bin\Debug\net9.0\SubcluAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.64
+
+
+WritePatch: Code is Complete.
+SubcluAlgorithm
+
+WritePatch ran compiler. 2025-02-23 6:53:41 AM
+SubcluAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SubcluAlgorithm -> D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithm\bin\Debug\net9.0\SubcluAlgorithm.dll
+  SubcluAlgorithmTest -> D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\bin\Debug\net9.0\SubcluAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.84
+
+
+WritePatch: Code is Complete.
+SubcluAlgorithmTest
+
+TestResult:
+[OUTPUT 2025-02-23 6:54:24 AM] Test Parallelization enabled for D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\bin\Debug\net9.0\SubcluAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 6:54:23 AM] D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\bin\Debug\net9.0\SubcluAlgorithmTest.dll
+[OUTPUT 2025-02-23 6:54:23 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:54:23 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:54:23 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:54:23 AM] Test run for D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\bin\Debug\net9.0\SubcluAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:54:22 AM]   SubcluAlgorithmTest -> D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\bin\Debug\net9.0\SubcluAlgorithmTest.dll
+[OUTPUT 2025-02-23 6:54:22 AM]   SubcluAlgorithm -> D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithm\bin\Debug\net9.0\SubcluAlgorithm.dll
+[OUTPUT 2025-02-23 6:54:22 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 6:54:22 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 6:54:24 AM] All tests passed successfully.
+[INFO 2025-02-23 6:54:24 AM] Test process completed. Duration: 2.64 seconds.
+[INFO 2025-02-23 6:54:24 AM] Process exited with code 0.
+[INFO 2025-02-23 6:54:21 AM] Command: dotnet test "D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:54:21 AM] Starting test for project: D:\Code2025\RavenWork\SubcluAlgorithm\SubcluAlgorithmTest\SubcluAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
