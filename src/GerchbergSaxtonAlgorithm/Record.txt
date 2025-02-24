@@ -1,0 +1,219 @@
+<ActRecord>
+  <ProjectName>GerchbergSaxtonAlgorithm</ProjectName>
+  <ProjectDescription>Gerchberg–Saxton algorithm: A phase retrieval algorithm for optical planes</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Gerchberg–Saxton algorithm: A phase retrieval algorithm for optical planes</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>GerchbergSaxtonAlgorithm</ProjectFolderName>
+  <ProjectName>GerchbergSaxtonAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:50:49 AM
+GerchbergSaxtonAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:51:53 AM
+GerchbergSaxtonAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GerchbergSaxtonAlgorithm -> D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithm\bin\Debug\net9.0\GerchbergSaxtonAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.21
+]]></string>
+    <string>WritePatch: Code is Complete.
+GerchbergSaxtonAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:52:16 AM
+GerchbergSaxtonAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:53:23 AM
+GerchbergSaxtonAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithmTest\GerchbergSaxtonAlgorithmTest.csproj (in 299 ms).
+  1 of 2 projects are up-to-date for restore.
+  GerchbergSaxtonAlgorithm -> D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithm\bin\Debug\net9.0\GerchbergSaxtonAlgorithm.dll
+D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithmTest\GerchbergSaxtonTests.cs(96,53): error CS0150: A constant value is expected [D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithmTest\GerchbergSaxtonAlgorithmTest.csproj]
+D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithmTest\GerchbergSaxtonTests.cs(96,59): error CS0150: A constant value is expected [D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithmTest\GerchbergSaxtonAlgorithmTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithmTest\GerchbergSaxtonTests.cs(96,53): error CS0150: A constant value is expected [D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithmTest\GerchbergSaxtonAlgorithmTest.csproj]
+D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithmTest\GerchbergSaxtonTests.cs(96,59): error CS0150: A constant value is expected [D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithmTest\GerchbergSaxtonAlgorithmTest.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.89
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+GerchbergSaxtonAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:53:24 AM
+GerchbergSaxtonAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:53:25 AM
+GerchbergSaxtonAlgorithmTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 8:55:02 AM
+GerchbergSaxtonAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:55:03 AM
+GerchbergSaxtonAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:56:36 AM
+GerchbergSaxtonAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GerchbergSaxtonAlgorithm -> D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithm\bin\Debug\net9.0\GerchbergSaxtonAlgorithm.dll
+  GerchbergSaxtonAlgorithmTest -> D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithmTest\bin\Debug\net9.0\GerchbergSaxtonAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.75
+]]></string>
+    <string>WritePatch: Code is Complete.
+GerchbergSaxtonAlgorithmTest</string>
+    <string>[INFO 2025-02-23 8:57:13 AM] Starting test for project: D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithmTest\GerchbergSaxtonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:57:13 AM] Starting test for project: D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithmTest\GerchbergSaxtonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:57:13 AM] Starting test for project: D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithmTest\GerchbergSaxtonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:57:13 AM] Starting test for project: D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithmTest\GerchbergSaxtonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:57:13 AM] Starting test for project: D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithmTest\GerchbergSaxtonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:57:13 AM] Starting test for project: D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithmTest\GerchbergSaxtonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:57:13 AM] Starting test for project: D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithmTest\GerchbergSaxtonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:57:13 AM] Starting test for project: D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithmTest\GerchbergSaxtonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:57:13 AM] Starting test for project: D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithmTest\GerchbergSaxtonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:57:13 AM] Starting test for project: D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithmTest\GerchbergSaxtonAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 8:57:18 AM] All tests passed successfully.
+[INFO 2025-02-23 8:57:18 AM] Test process completed. Duration: 5.10 seconds.
+[INFO 2025-02-23 8:57:18 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 8:57:19 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 8:57:18 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:57:17 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:57:16 AM] Test run for D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithmTest\bin\Debug\net9.0\GerchbergSaxtonAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:57:16 AM]   GerchbergSaxtonAlgorithmTest -> D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithmTest\bin\Debug\net9.0\GerchbergSaxtonAlgorithmTest.dll
+[OUTPUT 2025-02-23 8:57:15 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:57:14 AM]   Determining projects to restore...
+[OUTPUT 2025-02-23 8:57:15 AM]   GerchbergSaxtonAlgorithm -> D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithm\bin\Debug\net9.0\GerchbergSaxtonAlgorithm.dll
+[INFO 2025-02-23 8:57:13 AM] Command: dotnet test "D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithmTest\GerchbergSaxtonAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:57:13 AM] Starting test for project: D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithmTest\GerchbergSaxtonAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 8:50:49 AM
+GerchbergSaxtonAlgorithm
+
+WritePatch ran compiler. 2025-02-23 8:51:53 AM
+GerchbergSaxtonAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GerchbergSaxtonAlgorithm -> D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithm\bin\Debug\net9.0\GerchbergSaxtonAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.21
+
+
+WritePatch: Code is Complete.
+GerchbergSaxtonAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 8:52:16 AM
+GerchbergSaxtonAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 8:53:23 AM
+GerchbergSaxtonAlgorithmTest
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithmTest\GerchbergSaxtonAlgorithmTest.csproj (in 299 ms).
+  1 of 2 projects are up-to-date for restore.
+  GerchbergSaxtonAlgorithm -> D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithm\bin\Debug\net9.0\GerchbergSaxtonAlgorithm.dll
+D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithmTest\GerchbergSaxtonTests.cs(96,53): error CS0150: A constant value is expected [D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithmTest\GerchbergSaxtonAlgorithmTest.csproj]
+D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithmTest\GerchbergSaxtonTests.cs(96,59): error CS0150: A constant value is expected [D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithmTest\GerchbergSaxtonAlgorithmTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithmTest\GerchbergSaxtonTests.cs(96,53): error CS0150: A constant value is expected [D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithmTest\GerchbergSaxtonAlgorithmTest.csproj]
+D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithmTest\GerchbergSaxtonTests.cs(96,59): error CS0150: A constant value is expected [D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithmTest\GerchbergSaxtonAlgorithmTest.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.89
+
+
+Errors:
+
+WritePatch: Compile failed.
+GerchbergSaxtonAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 8:53:24 AM
+GerchbergSaxtonAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 8:53:25 AM
+GerchbergSaxtonAlgorithmTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 8:55:02 AM
+GerchbergSaxtonAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 8:55:03 AM
+GerchbergSaxtonAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 8:56:36 AM
+GerchbergSaxtonAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GerchbergSaxtonAlgorithm -> D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithm\bin\Debug\net9.0\GerchbergSaxtonAlgorithm.dll
+  GerchbergSaxtonAlgorithmTest -> D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithmTest\bin\Debug\net9.0\GerchbergSaxtonAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.75
+
+
+WritePatch: Code is Complete.
+GerchbergSaxtonAlgorithmTest
+
+TestResult:
+[SUCCESS 2025-02-23 8:57:18 AM] All tests passed successfully.
+[INFO 2025-02-23 8:57:18 AM] Test process completed. Duration: 5.10 seconds.
+[INFO 2025-02-23 8:57:18 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 8:57:19 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 8:57:18 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:57:17 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:57:16 AM] Test run for D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithmTest\bin\Debug\net9.0\GerchbergSaxtonAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:57:16 AM]   GerchbergSaxtonAlgorithmTest -> D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithmTest\bin\Debug\net9.0\GerchbergSaxtonAlgorithmTest.dll
+[OUTPUT 2025-02-23 8:57:15 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:57:14 AM]   Determining projects to restore...
+[OUTPUT 2025-02-23 8:57:15 AM]   GerchbergSaxtonAlgorithm -> D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithm\bin\Debug\net9.0\GerchbergSaxtonAlgorithm.dll
+[INFO 2025-02-23 8:57:13 AM] Command: dotnet test "D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithmTest\GerchbergSaxtonAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:57:13 AM] Starting test for project: D:\Code2025\RavenWork\GerchbergSaxtonAlgorithm\GerchbergSaxtonAlgorithmTest\GerchbergSaxtonAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
