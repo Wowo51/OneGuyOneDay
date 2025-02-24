@@ -1,0 +1,426 @@
+<ActRecord>
+  <ProjectName>SimpleLrParser</ProjectName>
+  <ProjectDescription>  – SLR (Simple LR) parser</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>  – SLR (Simple LR) parser</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\SimpleLrParser</SolutionFolderPath>
+  <ProjectFolderName>SimpleLrParser</ProjectFolderName>
+  <ProjectName>SimpleLrParser</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:11:59 AM
+SimpleLrParser</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:13:25 AM
+SimpleLrParser</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(133,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\Grammar.cs(22,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(186,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(13,16): warning CS8618: Non-nullable field '_actionTable' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(13,16): warning CS8618: Non-nullable field '_gotoTable' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(13,16): warning CS8618: Non-nullable field '_states' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(188,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(135,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\Grammar.cs(24,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+  SimpleLrParser -> D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\bin\Debug\net9.0\SimpleLrParser.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(133,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\Grammar.cs(22,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(186,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(13,16): warning CS8618: Non-nullable field '_actionTable' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(13,16): warning CS8618: Non-nullable field '_gotoTable' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(13,16): warning CS8618: Non-nullable field '_states' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(188,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(135,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\Grammar.cs(24,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+    9 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+]]></string>
+    <string>WritePatch: Compile failed.
+SimpleLrParser</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:13:26 AM
+SimpleLrParser</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:13:26 AM
+SimpleLrParser</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:14:11 AM
+SimpleLrParser</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SimpleLrParser -> D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\bin\Debug\net9.0\SimpleLrParser.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+]]></string>
+    <string>WritePatch: Code is not Complete.
+SimpleLrParser</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:15:09 AM
+SimpleLrParser</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:15:10 AM
+SimpleLrParser</string>
+    <string>Exception: The request was canceled due to the configured HttpClient.Timeout of 200 seconds elapsing.</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SimpleLrParser -> D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\bin\Debug\net9.0\SimpleLrParser.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+
+</CompilerResponse>
+2025-02-23 8:18:30 AM
+SimpleLrParser]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 8:18:31 AM
+SimpleLrParser</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SimpleLrParser -> D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\bin\Debug\net9.0\SimpleLrParser.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.69
+]]></string>
+    <string>WritePatch: Code is not Complete.
+SimpleLrParser</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:19:07 AM
+SimpleLrParser</string>
+    <string>Exception: The request was canceled due to the configured HttpClient.Timeout of 200 seconds elapsing.</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:22:28 AM
+SimpleLrParser</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:24:37 AM
+SimpleLrParser</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(14,16): warning CS8618: Non-nullable field '_actionTable' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(14,16): warning CS8618: Non-nullable field '_gotoTable' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(14,16): warning CS8618: Non-nullable field '_states' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+  SimpleLrParser -> D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\bin\Debug\net9.0\SimpleLrParser.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(14,16): warning CS8618: Non-nullable field '_actionTable' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(14,16): warning CS8618: Non-nullable field '_gotoTable' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(14,16): warning CS8618: Non-nullable field '_states' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.73
+]]></string>
+    <string>WritePatch: Compile failed.
+SimpleLrParser</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:24:38 AM
+SimpleLrParser</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:24:38 AM
+SimpleLrParser</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:27:15 AM
+SimpleLrParser</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SimpleLrParser -> D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\bin\Debug\net9.0\SimpleLrParser.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+]]></string>
+    <string>WritePatch: Code is Complete.
+SimpleLrParser</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:27:31 AM
+SimpleLrParserTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:28:29 AM
+SimpleLrParserTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParserTest\SimpleLrParserTest.csproj (in 193 ms).
+  1 of 2 projects are up-to-date for restore.
+  SimpleLrParser -> D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\bin\Debug\net9.0\SimpleLrParser.dll
+  SimpleLrParserTest -> D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParserTest\bin\Debug\net9.0\SimpleLrParserTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.30
+]]></string>
+    <string>WritePatch: Code is Complete.
+SimpleLrParserTest</string>
+    <string>[INFO 2025-02-23 8:28:45 AM] Starting test for project: D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParserTest\SimpleLrParserTest.csproj</string>
+    <string>[INFO 2025-02-23 8:28:45 AM] Starting test for project: D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParserTest\SimpleLrParserTest.csproj</string>
+    <string>[INFO 2025-02-23 8:28:45 AM] Starting test for project: D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParserTest\SimpleLrParserTest.csproj</string>
+    <string>[INFO 2025-02-23 8:28:45 AM] Starting test for project: D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParserTest\SimpleLrParserTest.csproj</string>
+    <string>[INFO 2025-02-23 8:28:45 AM] Starting test for project: D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParserTest\SimpleLrParserTest.csproj</string>
+    <string>[INFO 2025-02-23 8:28:45 AM] Starting test for project: D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParserTest\SimpleLrParserTest.csproj</string>
+    <string>[INFO 2025-02-23 8:28:45 AM] Starting test for project: D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParserTest\SimpleLrParserTest.csproj</string>
+    <string>[INFO 2025-02-23 8:28:45 AM] Starting test for project: D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParserTest\SimpleLrParserTest.csproj</string>
+    <string>[INFO 2025-02-23 8:28:45 AM] Starting test for project: D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParserTest\SimpleLrParserTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 8:28:49 AM] All tests passed successfully.
+[INFO 2025-02-23 8:28:49 AM] Test process completed. Duration: 3.54 seconds.
+[INFO 2025-02-23 8:28:49 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 8:28:49 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:28:48 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:28:48 AM] Test run for D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParserTest\bin\Debug\net9.0\SimpleLrParserTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:28:48 AM]   SimpleLrParserTest -> D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParserTest\bin\Debug\net9.0\SimpleLrParserTest.dll
+[OUTPUT 2025-02-23 8:28:47 AM]   SimpleLrParser -> D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\bin\Debug\net9.0\SimpleLrParser.dll
+[OUTPUT 2025-02-23 8:28:47 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:28:46 AM]   Determining projects to restore...
+[INFO 2025-02-23 8:28:45 AM] Command: dotnet test "D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParserTest\SimpleLrParserTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:28:45 AM] Starting test for project: D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParserTest\SimpleLrParserTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 8:11:59 AM
+SimpleLrParser
+
+WritePatch ran compiler. 2025-02-23 8:13:25 AM
+SimpleLrParser
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(133,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\Grammar.cs(22,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(186,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(13,16): warning CS8618: Non-nullable field '_actionTable' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(13,16): warning CS8618: Non-nullable field '_gotoTable' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(13,16): warning CS8618: Non-nullable field '_states' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(188,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(135,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\Grammar.cs(24,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+  SimpleLrParser -> D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\bin\Debug\net9.0\SimpleLrParser.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(133,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\Grammar.cs(22,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(186,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(13,16): warning CS8618: Non-nullable field '_actionTable' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(13,16): warning CS8618: Non-nullable field '_gotoTable' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(13,16): warning CS8618: Non-nullable field '_states' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(188,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(135,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\Grammar.cs(24,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+    9 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+
+
+WritePatch: Compile failed.
+SimpleLrParser
+
+Finished WritePatch cycle step.
+2025-02-23 8:13:26 AM
+SimpleLrParser
+
+WritePatch Started CycleStep. 2025-02-23 8:13:26 AM
+SimpleLrParser
+
+WritePatch ran compiler. 2025-02-23 8:14:11 AM
+SimpleLrParser
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SimpleLrParser -> D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\bin\Debug\net9.0\SimpleLrParser.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+
+
+WritePatch: Code is not Complete.
+SimpleLrParser
+
+Finished WritePatch cycle step.
+2025-02-23 8:15:09 AM
+SimpleLrParser
+
+WritePatch Started CycleStep. 2025-02-23 8:15:10 AM
+SimpleLrParser
+
+Exception: The request was canceled due to the configured HttpClient.Timeout of 200 seconds elapsing.
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SimpleLrParser -> D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\bin\Debug\net9.0\SimpleLrParser.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+
+</CompilerResponse>
+2025-02-23 8:18:30 AM
+SimpleLrParser
+
+WritePatch ran compiler. 2025-02-23 8:18:31 AM
+SimpleLrParser
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SimpleLrParser -> D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\bin\Debug\net9.0\SimpleLrParser.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.69
+
+
+WritePatch: Code is not Complete.
+SimpleLrParser
+
+WritePatch Started CycleStep. 2025-02-23 8:19:07 AM
+SimpleLrParser
+
+Exception: The request was canceled due to the configured HttpClient.Timeout of 200 seconds elapsing.
+
+WritePatch Started CycleStep. 2025-02-23 8:22:28 AM
+SimpleLrParser
+
+WritePatch ran compiler. 2025-02-23 8:24:37 AM
+SimpleLrParser
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(14,16): warning CS8618: Non-nullable field '_actionTable' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(14,16): warning CS8618: Non-nullable field '_gotoTable' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(14,16): warning CS8618: Non-nullable field '_states' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+  SimpleLrParser -> D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\bin\Debug\net9.0\SimpleLrParser.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(14,16): warning CS8618: Non-nullable field '_actionTable' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(14,16): warning CS8618: Non-nullable field '_gotoTable' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser\SLRParser.cs(14,16): warning CS8618: Non-nullable field '_states' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\SimpleLrParser.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.73
+
+
+WritePatch: Compile failed.
+SimpleLrParser
+
+Finished WritePatch cycle step.
+2025-02-23 8:24:38 AM
+SimpleLrParser
+
+WritePatch Started CycleStep. 2025-02-23 8:24:38 AM
+SimpleLrParser
+
+WritePatch ran compiler. 2025-02-23 8:27:15 AM
+SimpleLrParser
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SimpleLrParser -> D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\bin\Debug\net9.0\SimpleLrParser.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+
+
+WritePatch: Code is Complete.
+SimpleLrParser
+
+WritePatch Started CycleStep. 2025-02-23 8:27:31 AM
+SimpleLrParserTest
+
+WritePatch ran compiler. 2025-02-23 8:28:29 AM
+SimpleLrParserTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParserTest\SimpleLrParserTest.csproj (in 193 ms).
+  1 of 2 projects are up-to-date for restore.
+  SimpleLrParser -> D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\bin\Debug\net9.0\SimpleLrParser.dll
+  SimpleLrParserTest -> D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParserTest\bin\Debug\net9.0\SimpleLrParserTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.30
+
+
+WritePatch: Code is Complete.
+SimpleLrParserTest
+
+TestResult:
+[SUCCESS 2025-02-23 8:28:49 AM] All tests passed successfully.
+[INFO 2025-02-23 8:28:49 AM] Test process completed. Duration: 3.54 seconds.
+[INFO 2025-02-23 8:28:49 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 8:28:49 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:28:48 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:28:48 AM] Test run for D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParserTest\bin\Debug\net9.0\SimpleLrParserTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:28:48 AM]   SimpleLrParserTest -> D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParserTest\bin\Debug\net9.0\SimpleLrParserTest.dll
+[OUTPUT 2025-02-23 8:28:47 AM]   SimpleLrParser -> D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParser\bin\Debug\net9.0\SimpleLrParser.dll
+[OUTPUT 2025-02-23 8:28:47 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:28:46 AM]   Determining projects to restore...
+[INFO 2025-02-23 8:28:45 AM] Command: dotnet test "D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParserTest\SimpleLrParserTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:28:45 AM] Starting test for project: D:\Code2025\RavenWork\SimpleLrParser\SimpleLrParserTest\SimpleLrParserTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
