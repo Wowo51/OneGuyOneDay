@@ -1,0 +1,415 @@
+<ActRecord>
+  <ProjectName>JacobiMethod</ProjectName>
+  <ProjectDescription>Jacobi method – An iterative algorithm used both for solving linear systems and for computing eigenvalues.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Jacobi method – An iterative algorithm used both for solving linear systems and for computing eigenvalues.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\JacobiMethod</SolutionFolderPath>
+  <ProjectFolderName>JacobiMethod</ProjectFolderName>
+  <ProjectName>JacobiMethod</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:50:03 AM
+JacobiMethod</string>
+    <string>Exception: The request was canceled due to the configured HttpClient.Timeout of 200 seconds elapsing.</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:53:24 AM
+JacobiMethod</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:54:34 AM
+JacobiMethod</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  JacobiMethod -> D:\Code2025\RavenWork\JacobiMethod\JacobiMethod\bin\Debug\net9.0\JacobiMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.88
+]]></string>
+    <string>WritePatch: Code is Complete.
+JacobiMethod</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:54:54 AM
+JacobiMethodTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:56:22 AM
+JacobiMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj (in 183 ms).
+  1 of 2 projects are up-to-date for restore.
+  JacobiMethod -> D:\Code2025\RavenWork\JacobiMethod\JacobiMethod\bin\Debug\net9.0\JacobiMethod.dll
+D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiTests.cs(14,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj]
+D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiTests.cs(15,66): warning CS8604: Possible null reference argument for parameter 'A' in 'double[] JacobiEigenvalue.ComputeEigenvalues(double[,] A, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj]
+D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiTests.cs(84,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj]
+D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiTests.cs(91,52): warning CS8604: Possible null reference argument for parameter 'A' in 'double[] JacobiSolver.Solve(double[,] A, double[] b, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj]
+D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiTests.cs(94,22): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj]
+D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiTests.cs(95,51): warning CS8604: Possible null reference argument for parameter 'b' in 'double[] JacobiSolver.Solve(double[,] A, double[] b, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj]
+  JacobiMethodTest -> D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\bin\Debug\net9.0\JacobiMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiTests.cs(14,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj]
+D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiTests.cs(15,66): warning CS8604: Possible null reference argument for parameter 'A' in 'double[] JacobiEigenvalue.ComputeEigenvalues(double[,] A, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj]
+D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiTests.cs(84,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj]
+D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiTests.cs(91,52): warning CS8604: Possible null reference argument for parameter 'A' in 'double[] JacobiSolver.Solve(double[,] A, double[] b, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj]
+D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiTests.cs(94,22): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj]
+D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiTests.cs(95,51): warning CS8604: Possible null reference argument for parameter 'b' in 'double[] JacobiSolver.Solve(double[,] A, double[] b, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj]
+    6 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.31
+]]></string>
+    <string>WritePatch: Compile failed.
+JacobiMethodTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:56:23 AM
+JacobiMethodTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:56:23 AM
+JacobiMethodTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:59:16 AM
+JacobiMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  JacobiMethod -> D:\Code2025\RavenWork\JacobiMethod\JacobiMethod\bin\Debug\net9.0\JacobiMethod.dll
+D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiTests.cs(15,66): warning CS8604: Possible null reference argument for parameter 'A' in 'double[] JacobiEigenvalue.ComputeEigenvalues(double[,] A, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj]
+D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiTests.cs(91,52): warning CS8604: Possible null reference argument for parameter 'A' in 'double[] JacobiSolver.Solve(double[,] A, double[] b, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj]
+D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiTests.cs(95,51): warning CS8604: Possible null reference argument for parameter 'b' in 'double[] JacobiSolver.Solve(double[,] A, double[] b, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj]
+  JacobiMethodTest -> D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\bin\Debug\net9.0\JacobiMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiTests.cs(15,66): warning CS8604: Possible null reference argument for parameter 'A' in 'double[] JacobiEigenvalue.ComputeEigenvalues(double[,] A, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj]
+D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiTests.cs(91,52): warning CS8604: Possible null reference argument for parameter 'A' in 'double[] JacobiSolver.Solve(double[,] A, double[] b, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj]
+D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiTests.cs(95,51): warning CS8604: Possible null reference argument for parameter 'b' in 'double[] JacobiSolver.Solve(double[,] A, double[] b, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.06
+]]></string>
+    <string>WritePatch: Compile failed.
+JacobiMethodTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:59:17 AM
+JacobiMethodTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:59:17 AM
+JacobiMethodTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:00:00 AM
+JacobiMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  JacobiMethod -> D:\Code2025\RavenWork\JacobiMethod\JacobiMethod\bin\Debug\net9.0\JacobiMethod.dll
+  JacobiMethodTest -> D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\bin\Debug\net9.0\JacobiMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.25
+]]></string>
+    <string>WritePatch: Code is not Complete.
+JacobiMethodTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:00:21 AM
+JacobiMethodTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  JacobiMethod -> D:\Code2025\RavenWork\JacobiMethod\JacobiMethod\bin\Debug\net9.0\JacobiMethod.dll
+  JacobiMethodTest -> D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\bin\Debug\net9.0\JacobiMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.25
+
+</CompilerResponse>
+2025-02-23 8:00:21 AM
+JacobiMethodTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 8:00:22 AM
+JacobiMethod</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  JacobiMethod -> D:\Code2025\RavenWork\JacobiMethod\JacobiMethod\bin\Debug\net9.0\JacobiMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.74
+]]></string>
+    <string>WritePatch: Code is Complete.
+JacobiMethod</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:00:38 AM
+JacobiMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  JacobiMethod -> D:\Code2025\RavenWork\JacobiMethod\JacobiMethod\bin\Debug\net9.0\JacobiMethod.dll
+  JacobiMethodTest -> D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\bin\Debug\net9.0\JacobiMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.99
+]]></string>
+    <string>WritePatch: Code is Complete.
+JacobiMethodTest</string>
+    <string>[INFO 2025-02-23 8:00:51 AM] Starting test for project: D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 8:00:51 AM] Starting test for project: D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 8:00:51 AM] Starting test for project: D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 8:00:51 AM] Starting test for project: D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 8:00:51 AM] Starting test for project: D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 8:00:51 AM] Starting test for project: D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 8:00:51 AM] Starting test for project: D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 8:00:51 AM] Starting test for project: D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 8:00:51 AM] Starting test for project: D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 8:00:51 AM] Starting test for project: D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 8:00:51 AM] Starting test for project: D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 8:00:53 AM]   JacobiMethod -> D:\Code2025\RavenWork\JacobiMethod\JacobiMethod\bin\Debug\net9.0\JacobiMethod.dll
+[OUTPUT 2025-02-23 8:00:55 AM] D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\bin\Debug\net9.0\JacobiMethodTest.dll
+[OUTPUT 2025-02-23 8:00:54 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 8:00:54 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:00:54 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:00:53 AM] Test run for D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\bin\Debug\net9.0\JacobiMethodTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:00:53 AM]   JacobiMethodTest -> D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\bin\Debug\net9.0\JacobiMethodTest.dll
+[OUTPUT 2025-02-23 8:00:52 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:00:52 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 8:00:54 AM] All tests passed successfully.
+[INFO 2025-02-23 8:00:54 AM] Test process completed. Duration: 3.45 seconds.
+[INFO 2025-02-23 8:00:54 AM] Process exited with code 0.
+[INFO 2025-02-23 8:00:51 AM] Command: dotnet test "D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:00:51 AM] Starting test for project: D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 7:50:03 AM
+JacobiMethod
+
+Exception: The request was canceled due to the configured HttpClient.Timeout of 200 seconds elapsing.
+
+WritePatch Started CycleStep. 2025-02-23 7:53:24 AM
+JacobiMethod
+
+WritePatch ran compiler. 2025-02-23 7:54:34 AM
+JacobiMethod
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  JacobiMethod -> D:\Code2025\RavenWork\JacobiMethod\JacobiMethod\bin\Debug\net9.0\JacobiMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.88
+
+
+WritePatch: Code is Complete.
+JacobiMethod
+
+WritePatch Started CycleStep. 2025-02-23 7:54:54 AM
+JacobiMethodTest
+
+WritePatch ran compiler. 2025-02-23 7:56:22 AM
+JacobiMethodTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj (in 183 ms).
+  1 of 2 projects are up-to-date for restore.
+  JacobiMethod -> D:\Code2025\RavenWork\JacobiMethod\JacobiMethod\bin\Debug\net9.0\JacobiMethod.dll
+D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiTests.cs(14,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj]
+D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiTests.cs(15,66): warning CS8604: Possible null reference argument for parameter 'A' in 'double[] JacobiEigenvalue.ComputeEigenvalues(double[,] A, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj]
+D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiTests.cs(84,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj]
+D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiTests.cs(91,52): warning CS8604: Possible null reference argument for parameter 'A' in 'double[] JacobiSolver.Solve(double[,] A, double[] b, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj]
+D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiTests.cs(94,22): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj]
+D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiTests.cs(95,51): warning CS8604: Possible null reference argument for parameter 'b' in 'double[] JacobiSolver.Solve(double[,] A, double[] b, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj]
+  JacobiMethodTest -> D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\bin\Debug\net9.0\JacobiMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiTests.cs(14,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj]
+D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiTests.cs(15,66): warning CS8604: Possible null reference argument for parameter 'A' in 'double[] JacobiEigenvalue.ComputeEigenvalues(double[,] A, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj]
+D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiTests.cs(84,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj]
+D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiTests.cs(91,52): warning CS8604: Possible null reference argument for parameter 'A' in 'double[] JacobiSolver.Solve(double[,] A, double[] b, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj]
+D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiTests.cs(94,22): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj]
+D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiTests.cs(95,51): warning CS8604: Possible null reference argument for parameter 'b' in 'double[] JacobiSolver.Solve(double[,] A, double[] b, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj]
+    6 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.31
+
+
+WritePatch: Compile failed.
+JacobiMethodTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:56:23 AM
+JacobiMethodTest
+
+WritePatch Started CycleStep. 2025-02-23 7:56:23 AM
+JacobiMethodTest
+
+WritePatch ran compiler. 2025-02-23 7:59:16 AM
+JacobiMethodTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  JacobiMethod -> D:\Code2025\RavenWork\JacobiMethod\JacobiMethod\bin\Debug\net9.0\JacobiMethod.dll
+D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiTests.cs(15,66): warning CS8604: Possible null reference argument for parameter 'A' in 'double[] JacobiEigenvalue.ComputeEigenvalues(double[,] A, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj]
+D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiTests.cs(91,52): warning CS8604: Possible null reference argument for parameter 'A' in 'double[] JacobiSolver.Solve(double[,] A, double[] b, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj]
+D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiTests.cs(95,51): warning CS8604: Possible null reference argument for parameter 'b' in 'double[] JacobiSolver.Solve(double[,] A, double[] b, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj]
+  JacobiMethodTest -> D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\bin\Debug\net9.0\JacobiMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiTests.cs(15,66): warning CS8604: Possible null reference argument for parameter 'A' in 'double[] JacobiEigenvalue.ComputeEigenvalues(double[,] A, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj]
+D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiTests.cs(91,52): warning CS8604: Possible null reference argument for parameter 'A' in 'double[] JacobiSolver.Solve(double[,] A, double[] b, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj]
+D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiTests.cs(95,51): warning CS8604: Possible null reference argument for parameter 'b' in 'double[] JacobiSolver.Solve(double[,] A, double[] b, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.06
+
+
+WritePatch: Compile failed.
+JacobiMethodTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:59:17 AM
+JacobiMethodTest
+
+WritePatch Started CycleStep. 2025-02-23 7:59:17 AM
+JacobiMethodTest
+
+WritePatch ran compiler. 2025-02-23 8:00:00 AM
+JacobiMethodTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  JacobiMethod -> D:\Code2025\RavenWork\JacobiMethod\JacobiMethod\bin\Debug\net9.0\JacobiMethod.dll
+  JacobiMethodTest -> D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\bin\Debug\net9.0\JacobiMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.25
+
+
+WritePatch: Code is not Complete.
+JacobiMethodTest
+
+Finished WritePatch cycle step.
+2025-02-23 8:00:21 AM
+JacobiMethodTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  JacobiMethod -> D:\Code2025\RavenWork\JacobiMethod\JacobiMethod\bin\Debug\net9.0\JacobiMethod.dll
+  JacobiMethodTest -> D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\bin\Debug\net9.0\JacobiMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.25
+
+</CompilerResponse>
+2025-02-23 8:00:21 AM
+JacobiMethodTest
+
+WritePatch ran compiler. 2025-02-23 8:00:22 AM
+JacobiMethod
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  JacobiMethod -> D:\Code2025\RavenWork\JacobiMethod\JacobiMethod\bin\Debug\net9.0\JacobiMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.74
+
+
+WritePatch: Code is Complete.
+JacobiMethod
+
+WritePatch ran compiler. 2025-02-23 8:00:38 AM
+JacobiMethodTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  JacobiMethod -> D:\Code2025\RavenWork\JacobiMethod\JacobiMethod\bin\Debug\net9.0\JacobiMethod.dll
+  JacobiMethodTest -> D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\bin\Debug\net9.0\JacobiMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.99
+
+
+WritePatch: Code is Complete.
+JacobiMethodTest
+
+TestResult:
+[OUTPUT 2025-02-23 8:00:53 AM]   JacobiMethod -> D:\Code2025\RavenWork\JacobiMethod\JacobiMethod\bin\Debug\net9.0\JacobiMethod.dll
+[OUTPUT 2025-02-23 8:00:55 AM] D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\bin\Debug\net9.0\JacobiMethodTest.dll
+[OUTPUT 2025-02-23 8:00:54 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 8:00:54 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:00:54 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:00:53 AM] Test run for D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\bin\Debug\net9.0\JacobiMethodTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:00:53 AM]   JacobiMethodTest -> D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\bin\Debug\net9.0\JacobiMethodTest.dll
+[OUTPUT 2025-02-23 8:00:52 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:00:52 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 8:00:54 AM] All tests passed successfully.
+[INFO 2025-02-23 8:00:54 AM] Test process completed. Duration: 3.45 seconds.
+[INFO 2025-02-23 8:00:54 AM] Process exited with code 0.
+[INFO 2025-02-23 8:00:51 AM] Command: dotnet test "D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:00:51 AM] Starting test for project: D:\Code2025\RavenWork\JacobiMethod\JacobiMethodTest\JacobiMethodTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
