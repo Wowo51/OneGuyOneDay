@@ -1,0 +1,406 @@
+<ActRecord>
+  <ProjectName>TernarySearch</ProjectName>
+  <ProjectDescription>Ternary search: a technique for finding the minimum or maximum of a function that is either strictly increasing and then strictly decreasing or vice versa</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Ternary search: a technique for finding the minimum or maximum of a function that is either strictly increasing and then strictly decreasing or vice versa</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\TernarySearch</SolutionFolderPath>
+  <ProjectFolderName>TernarySearch</ProjectFolderName>
+  <ProjectName>TernarySearch</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:14:32 PM
+TernarySearch</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:14:58 PM
+TernarySearch</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TernarySearch -> D:\Code2025\RavenWork\TernarySearch\TernarySearch\bin\Debug\net9.0\TernarySearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.05
+]]></string>
+    <string>WritePatch: Code is Complete.
+TernarySearch</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:15:16 PM
+TernarySearchTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:15:56 PM
+TernarySearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj (in 228 ms).
+  1 of 2 projects are up-to-date for restore.
+  TernarySearch -> D:\Code2025\RavenWork\TernarySearch\TernarySearch\bin\Debug\net9.0\TernarySearch.dll
+D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearcherTests.cs(42,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj]
+D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearcherTests.cs(51,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj]
+  TernarySearchTest -> D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\bin\Debug\net9.0\TernarySearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearcherTests.cs(42,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj]
+D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearcherTests.cs(51,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.65
+]]></string>
+    <string>WritePatch: Compile failed.
+TernarySearchTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:15:57 PM
+TernarySearchTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:15:57 PM
+TernarySearchTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:16:38 PM
+TernarySearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TernarySearch -> D:\Code2025\RavenWork\TernarySearch\TernarySearch\bin\Debug\net9.0\TernarySearch.dll
+  TernarySearchTest -> D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\bin\Debug\net9.0\TernarySearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.12
+]]></string>
+    <string>WritePatch: Code is not Complete.
+TernarySearchTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:16:53 PM
+TernarySearchTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:16:53 PM
+TernarySearchTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:17:47 PM
+TernarySearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TernarySearch -> D:\Code2025\RavenWork\TernarySearch\TernarySearch\bin\Debug\net9.0\TernarySearch.dll
+D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearcherTests.cs(42,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj]
+D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearcherTests.cs(51,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj]
+  TernarySearchTest -> D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\bin\Debug\net9.0\TernarySearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearcherTests.cs(42,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj]
+D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearcherTests.cs(51,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.46
+]]></string>
+    <string>WritePatch: Compile failed.
+TernarySearchTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:17:48 PM
+TernarySearchTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\TernarySearch\TernarySearchTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TernarySearch -> D:\Code2025\RavenWork\TernarySearch\TernarySearch\bin\Debug\net9.0\TernarySearch.dll
+D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearcherTests.cs(42,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj]
+D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearcherTests.cs(51,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj]
+  TernarySearchTest -> D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\bin\Debug\net9.0\TernarySearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearcherTests.cs(42,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj]
+D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearcherTests.cs(51,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.46
+
+</CompilerResponse>
+2025-02-23 1:17:48 PM
+TernarySearchTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 1:17:49 PM
+TernarySearch</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TernarySearch -> D:\Code2025\RavenWork\TernarySearch\TernarySearch\bin\Debug\net9.0\TernarySearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.99
+]]></string>
+    <string>WritePatch: Code is Complete.
+TernarySearch</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:18:07 PM
+TernarySearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TernarySearch -> D:\Code2025\RavenWork\TernarySearch\TernarySearch\bin\Debug\net9.0\TernarySearch.dll
+  TernarySearchTest -> D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\bin\Debug\net9.0\TernarySearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.17
+]]></string>
+    <string>WritePatch: Code is Complete.
+TernarySearchTest</string>
+    <string>[INFO 2025-02-23 1:18:22 PM] Starting test for project: D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:18:22 PM] Starting test for project: D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:18:22 PM] Starting test for project: D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:18:22 PM] Starting test for project: D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:18:22 PM] Starting test for project: D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:18:22 PM] Starting test for project: D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:18:22 PM] Starting test for project: D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:18:22 PM] Starting test for project: D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:18:22 PM] Starting test for project: D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:18:22 PM] Starting test for project: D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:18:22 PM] Starting test for project: D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:18:22 PM] Starting test for project: D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:18:22 PM] Starting test for project: D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:18:22 PM] Starting test for project: D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 1:18:25 PM] All tests passed successfully.
+[INFO 2025-02-23 1:18:25 PM] Test process completed. Duration: 3.31 seconds.
+[INFO 2025-02-23 1:18:25 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 1:18:25 PM]   Passed Test_FindMinimum_ConstantFunction [< 1 ms]
+[OUTPUT 2025-02-23 1:18:25 PM]   Passed Test_FindMaximum_ConstantFunction [4 ms]
+[OUTPUT 2025-02-23 1:18:24 PM] D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\bin\Debug\net9.0\TernarySearchTest.dll
+[OUTPUT 2025-02-23 1:18:24 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 1:18:23 PM] Test run for D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\bin\Debug\net9.0\TernarySearchTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 1:18:23 PM]   TernarySearchTest -> D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\bin\Debug\net9.0\TernarySearchTest.dll
+[OUTPUT 2025-02-23 1:18:23 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:18:25 PM] Test Parallelization enabled for D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\bin\Debug\net9.0\TernarySearchTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 1:18:24 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 1:18:23 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 1:18:23 PM]   TernarySearch -> D:\Code2025\RavenWork\TernarySearch\TernarySearch\bin\Debug\net9.0\TernarySearch.dll
+[OUTPUT 2025-02-23 1:18:23 PM]   Determining projects to restore...
+[INFO 2025-02-23 1:18:22 PM] Command: dotnet test "D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:18:22 PM] Starting test for project: D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 1:14:32 PM
+TernarySearch
+
+WritePatch ran compiler. 2025-02-23 1:14:58 PM
+TernarySearch
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TernarySearch -> D:\Code2025\RavenWork\TernarySearch\TernarySearch\bin\Debug\net9.0\TernarySearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.05
+
+
+WritePatch: Code is Complete.
+TernarySearch
+
+WritePatch Started CycleStep. 2025-02-23 1:15:16 PM
+TernarySearchTest
+
+WritePatch ran compiler. 2025-02-23 1:15:56 PM
+TernarySearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj (in 228 ms).
+  1 of 2 projects are up-to-date for restore.
+  TernarySearch -> D:\Code2025\RavenWork\TernarySearch\TernarySearch\bin\Debug\net9.0\TernarySearch.dll
+D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearcherTests.cs(42,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj]
+D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearcherTests.cs(51,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj]
+  TernarySearchTest -> D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\bin\Debug\net9.0\TernarySearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearcherTests.cs(42,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj]
+D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearcherTests.cs(51,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.65
+
+
+WritePatch: Compile failed.
+TernarySearchTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:15:57 PM
+TernarySearchTest
+
+WritePatch Started CycleStep. 2025-02-23 1:15:57 PM
+TernarySearchTest
+
+WritePatch ran compiler. 2025-02-23 1:16:38 PM
+TernarySearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TernarySearch -> D:\Code2025\RavenWork\TernarySearch\TernarySearch\bin\Debug\net9.0\TernarySearch.dll
+  TernarySearchTest -> D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\bin\Debug\net9.0\TernarySearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.12
+
+
+WritePatch: Code is not Complete.
+TernarySearchTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:16:53 PM
+TernarySearchTest
+
+WritePatch Started CycleStep. 2025-02-23 1:16:53 PM
+TernarySearchTest
+
+WritePatch ran compiler. 2025-02-23 1:17:47 PM
+TernarySearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TernarySearch -> D:\Code2025\RavenWork\TernarySearch\TernarySearch\bin\Debug\net9.0\TernarySearch.dll
+D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearcherTests.cs(42,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj]
+D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearcherTests.cs(51,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj]
+  TernarySearchTest -> D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\bin\Debug\net9.0\TernarySearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearcherTests.cs(42,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj]
+D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearcherTests.cs(51,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.46
+
+
+WritePatch: Compile failed.
+TernarySearchTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:17:48 PM
+TernarySearchTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\TernarySearch\TernarySearchTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TernarySearch -> D:\Code2025\RavenWork\TernarySearch\TernarySearch\bin\Debug\net9.0\TernarySearch.dll
+D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearcherTests.cs(42,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj]
+D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearcherTests.cs(51,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj]
+  TernarySearchTest -> D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\bin\Debug\net9.0\TernarySearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearcherTests.cs(42,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj]
+D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearcherTests.cs(51,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.46
+
+</CompilerResponse>
+2025-02-23 1:17:48 PM
+TernarySearchTest
+
+WritePatch ran compiler. 2025-02-23 1:17:49 PM
+TernarySearch
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TernarySearch -> D:\Code2025\RavenWork\TernarySearch\TernarySearch\bin\Debug\net9.0\TernarySearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.99
+
+
+WritePatch: Code is Complete.
+TernarySearch
+
+WritePatch ran compiler. 2025-02-23 1:18:07 PM
+TernarySearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TernarySearch -> D:\Code2025\RavenWork\TernarySearch\TernarySearch\bin\Debug\net9.0\TernarySearch.dll
+  TernarySearchTest -> D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\bin\Debug\net9.0\TernarySearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.17
+
+
+WritePatch: Code is Complete.
+TernarySearchTest
+
+TestResult:
+[SUCCESS 2025-02-23 1:18:25 PM] All tests passed successfully.
+[INFO 2025-02-23 1:18:25 PM] Test process completed. Duration: 3.31 seconds.
+[INFO 2025-02-23 1:18:25 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 1:18:25 PM]   Passed Test_FindMinimum_ConstantFunction [< 1 ms]
+[OUTPUT 2025-02-23 1:18:25 PM]   Passed Test_FindMaximum_ConstantFunction [4 ms]
+[OUTPUT 2025-02-23 1:18:24 PM] D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\bin\Debug\net9.0\TernarySearchTest.dll
+[OUTPUT 2025-02-23 1:18:24 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 1:18:23 PM] Test run for D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\bin\Debug\net9.0\TernarySearchTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 1:18:23 PM]   TernarySearchTest -> D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\bin\Debug\net9.0\TernarySearchTest.dll
+[OUTPUT 2025-02-23 1:18:23 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:18:25 PM] Test Parallelization enabled for D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\bin\Debug\net9.0\TernarySearchTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 1:18:24 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 1:18:23 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 1:18:23 PM]   TernarySearch -> D:\Code2025\RavenWork\TernarySearch\TernarySearch\bin\Debug\net9.0\TernarySearch.dll
+[OUTPUT 2025-02-23 1:18:23 PM]   Determining projects to restore...
+[INFO 2025-02-23 1:18:22 PM] Command: dotnet test "D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:18:22 PM] Starting test for project: D:\Code2025\RavenWork\TernarySearch\TernarySearchTest\TernarySearchTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
