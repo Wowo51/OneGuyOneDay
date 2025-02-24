@@ -1,0 +1,224 @@
+<ActRecord>
+  <ProjectName>StoneMethodSIP</ProjectName>
+  <ProjectDescription><![CDATA[Stone's method (SIP) – A procedure for solving sparse linear systems, known as the strongly implicit procedure.]]></ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification><![CDATA[Stone's method (SIP) – A procedure for solving sparse linear systems, known as the strongly implicit procedure.]]]]><![CDATA[></WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\StoneMethodSIP</SolutionFolderPath>
+  <ProjectFolderName>StoneMethodSIP</ProjectFolderName>
+  <ProjectName>StoneMethodSIP</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 5:15:47 PM
+StoneMethodSIP</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:16:59 PM
+StoneMethodSIP</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIP\Vector.cs(42,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIP\StoneMethodSIP.csproj]
+D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIP\Vector.cs(58,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIP\StoneMethodSIP.csproj]
+D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIP\StoneSIPSolver.cs(11,22): error CS0136: A local or parameter named 'i' cannot be declared in this scope because that name is used in an enclosing local scope to define a local or parameter [D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIP\StoneMethodSIP.csproj]
+D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIP\StoneSIPSolver.cs(13,26): error CS0136: A local or parameter named 'j' cannot be declared in this scope because that name is used in an enclosing local scope to define a local or parameter [D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIP\StoneMethodSIP.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIP\Vector.cs(42,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIP\StoneMethodSIP.csproj]
+D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIP\Vector.cs(58,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIP\StoneMethodSIP.csproj]
+D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIP\StoneSIPSolver.cs(11,22): error CS0136: A local or parameter named 'i' cannot be declared in this scope because that name is used in an enclosing local scope to define a local or parameter [D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIP\StoneMethodSIP.csproj]
+D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIP\StoneSIPSolver.cs(13,26): error CS0136: A local or parameter named 'j' cannot be declared in this scope because that name is used in an enclosing local scope to define a local or parameter [D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIP\StoneMethodSIP.csproj]
+    2 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.70
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+StoneMethodSIP</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 5:17:01 PM
+StoneMethodSIP</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 5:17:01 PM
+StoneMethodSIP</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:18:17 PM
+StoneMethodSIP</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StoneMethodSIP -> D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIP\bin\Debug\net9.0\StoneMethodSIP.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.90
+]]></string>
+    <string>WritePatch: Code is Complete.
+StoneMethodSIP</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 5:18:49 PM
+StoneMethodSIPTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:19:55 PM
+StoneMethodSIPTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIPTest\StoneMethodSIPTest.csproj (in 438 ms).
+  1 of 2 projects are up-to-date for restore.
+  StoneMethodSIP -> D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIP\bin\Debug\net9.0\StoneMethodSIP.dll
+  StoneMethodSIPTest -> D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIPTest\bin\Debug\net9.0\StoneMethodSIPTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.56
+]]></string>
+    <string>WritePatch: Code is Complete.
+StoneMethodSIPTest</string>
+    <string>[INFO 2025-02-23 5:20:15 PM] Starting test for project: D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIPTest\StoneMethodSIPTest.csproj</string>
+    <string>[INFO 2025-02-23 5:20:15 PM] Starting test for project: D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIPTest\StoneMethodSIPTest.csproj</string>
+    <string>[INFO 2025-02-23 5:20:15 PM] Starting test for project: D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIPTest\StoneMethodSIPTest.csproj</string>
+    <string>[INFO 2025-02-23 5:20:15 PM] Starting test for project: D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIPTest\StoneMethodSIPTest.csproj</string>
+    <string>[INFO 2025-02-23 5:20:15 PM] Starting test for project: D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIPTest\StoneMethodSIPTest.csproj</string>
+    <string>[INFO 2025-02-23 5:20:15 PM] Starting test for project: D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIPTest\StoneMethodSIPTest.csproj</string>
+    <string>[INFO 2025-02-23 5:20:15 PM] Starting test for project: D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIPTest\StoneMethodSIPTest.csproj</string>
+    <string>[INFO 2025-02-23 5:20:15 PM] Starting test for project: D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIPTest\StoneMethodSIPTest.csproj</string>
+    <string>[INFO 2025-02-23 5:20:15 PM] Starting test for project: D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIPTest\StoneMethodSIPTest.csproj</string>
+    <string>[INFO 2025-02-23 5:20:15 PM] Starting test for project: D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIPTest\StoneMethodSIPTest.csproj</string>
+    <string>[INFO 2025-02-23 5:20:15 PM] Starting test for project: D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIPTest\StoneMethodSIPTest.csproj</string>
+    <string>[INFO 2025-02-23 5:20:15 PM] Starting test for project: D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIPTest\StoneMethodSIPTest.csproj</string>
+    <string>[INFO 2025-02-23 5:20:15 PM] Starting test for project: D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIPTest\StoneMethodSIPTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 5:20:22 PM] All tests passed successfully.
+[INFO 2025-02-23 5:20:22 PM] Test process completed. Duration: 6.84 seconds.
+[INFO 2025-02-23 5:20:22 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 5:20:22 PM] Test Parallelization enabled for D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIPTest\bin\Debug\net9.0\StoneMethodSIPTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 5:20:20 PM] D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIPTest\bin\Debug\net9.0\StoneMethodSIPTest.dll
+[OUTPUT 2025-02-23 5:20:20 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 5:20:19 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 5:20:19 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 5:20:17 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 5:20:16 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 5:20:22 PM]   Passed SetGetTest [8 ms]
+[OUTPUT 2025-02-23 5:20:19 PM] Test run for D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIPTest\bin\Debug\net9.0\StoneMethodSIPTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 5:20:18 PM]   StoneMethodSIPTest -> D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIPTest\bin\Debug\net9.0\StoneMethodSIPTest.dll
+[OUTPUT 2025-02-23 5:20:18 PM]   StoneMethodSIP -> D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIP\bin\Debug\net9.0\StoneMethodSIP.dll
+[INFO 2025-02-23 5:20:15 PM] Command: dotnet test "D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIPTest\StoneMethodSIPTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 5:20:15 PM] Starting test for project: D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIPTest\StoneMethodSIPTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 5:15:47 PM
+StoneMethodSIP
+
+WritePatch ran compiler. 2025-02-23 5:16:59 PM
+StoneMethodSIP
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIP\Vector.cs(42,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIP\StoneMethodSIP.csproj]
+D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIP\Vector.cs(58,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIP\StoneMethodSIP.csproj]
+D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIP\StoneSIPSolver.cs(11,22): error CS0136: A local or parameter named 'i' cannot be declared in this scope because that name is used in an enclosing local scope to define a local or parameter [D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIP\StoneMethodSIP.csproj]
+D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIP\StoneSIPSolver.cs(13,26): error CS0136: A local or parameter named 'j' cannot be declared in this scope because that name is used in an enclosing local scope to define a local or parameter [D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIP\StoneMethodSIP.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIP\Vector.cs(42,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIP\StoneMethodSIP.csproj]
+D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIP\Vector.cs(58,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIP\StoneMethodSIP.csproj]
+D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIP\StoneSIPSolver.cs(11,22): error CS0136: A local or parameter named 'i' cannot be declared in this scope because that name is used in an enclosing local scope to define a local or parameter [D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIP\StoneMethodSIP.csproj]
+D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIP\StoneSIPSolver.cs(13,26): error CS0136: A local or parameter named 'j' cannot be declared in this scope because that name is used in an enclosing local scope to define a local or parameter [D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIP\StoneMethodSIP.csproj]
+    2 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.70
+
+
+Errors:
+
+WritePatch: Compile failed.
+StoneMethodSIP
+
+Finished WritePatch cycle step.
+2025-02-23 5:17:01 PM
+StoneMethodSIP
+
+WritePatch Started CycleStep. 2025-02-23 5:17:01 PM
+StoneMethodSIP
+
+WritePatch ran compiler. 2025-02-23 5:18:17 PM
+StoneMethodSIP
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StoneMethodSIP -> D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIP\bin\Debug\net9.0\StoneMethodSIP.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.90
+
+
+WritePatch: Code is Complete.
+StoneMethodSIP
+
+WritePatch Started CycleStep. 2025-02-23 5:18:49 PM
+StoneMethodSIPTest
+
+WritePatch ran compiler. 2025-02-23 5:19:55 PM
+StoneMethodSIPTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIPTest\StoneMethodSIPTest.csproj (in 438 ms).
+  1 of 2 projects are up-to-date for restore.
+  StoneMethodSIP -> D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIP\bin\Debug\net9.0\StoneMethodSIP.dll
+  StoneMethodSIPTest -> D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIPTest\bin\Debug\net9.0\StoneMethodSIPTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.56
+
+
+WritePatch: Code is Complete.
+StoneMethodSIPTest
+
+TestResult:
+[SUCCESS 2025-02-23 5:20:22 PM] All tests passed successfully.
+[INFO 2025-02-23 5:20:22 PM] Test process completed. Duration: 6.84 seconds.
+[INFO 2025-02-23 5:20:22 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 5:20:22 PM] Test Parallelization enabled for D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIPTest\bin\Debug\net9.0\StoneMethodSIPTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 5:20:20 PM] D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIPTest\bin\Debug\net9.0\StoneMethodSIPTest.dll
+[OUTPUT 2025-02-23 5:20:20 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 5:20:19 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 5:20:19 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 5:20:17 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 5:20:16 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 5:20:22 PM]   Passed SetGetTest [8 ms]
+[OUTPUT 2025-02-23 5:20:19 PM] Test run for D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIPTest\bin\Debug\net9.0\StoneMethodSIPTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 5:20:18 PM]   StoneMethodSIPTest -> D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIPTest\bin\Debug\net9.0\StoneMethodSIPTest.dll
+[OUTPUT 2025-02-23 5:20:18 PM]   StoneMethodSIP -> D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIP\bin\Debug\net9.0\StoneMethodSIP.dll
+[INFO 2025-02-23 5:20:15 PM] Command: dotnet test "D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIPTest\StoneMethodSIPTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 5:20:15 PM] Starting test for project: D:\Code2025\RavenWork\StoneMethodSIP\StoneMethodSIPTest\StoneMethodSIPTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
