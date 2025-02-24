@@ -1,0 +1,531 @@
+<ActRecord>
+  <ProjectName>TridiagonalMatrixAlgorithm</ProjectName>
+  <ProjectDescription>Tridiagonal matrix algorithm (Thomas algorithm) – A specialized algorithm for solving systems with tridiagonal coefficient matrices.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Tridiagonal matrix algorithm (Thomas algorithm) – A specialized algorithm for solving systems with tridiagonal coefficient matrices.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>TridiagonalMatrixAlgorithm</ProjectFolderName>
+  <ProjectName>TridiagonalMatrixAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 5:19:29 PM
+TridiagonalMatrixAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:20:01 PM
+TridiagonalMatrixAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TridiagonalMatrixAlgorithm -> D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithm\bin\Debug\net9.0\TridiagonalMatrixAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.66
+]]></string>
+    <string>WritePatch: Code is Complete.
+TridiagonalMatrixAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 5:20:15 PM
+TridiagonalMatrixAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:21:05 PM
+TridiagonalMatrixAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj (in 397 ms).
+  1 of 2 projects are up-to-date for restore.
+  TridiagonalMatrixAlgorithm -> D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithm\bin\Debug\net9.0\TridiagonalMatrixAlgorithm.dll
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(31,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(64,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(90,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(115,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(115,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(116,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(116,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(117,83): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(117,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(118,95): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(118,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(169,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+  TridiagonalMatrixAlgorithmTest -> D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\bin\Debug\net9.0\TridiagonalMatrixAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(31,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(64,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(90,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(115,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(115,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(116,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(116,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(117,83): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(117,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(118,95): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(118,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(169,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+    12 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.70
+]]></string>
+    <string>WritePatch: Compile failed.
+TridiagonalMatrixAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 5:21:06 PM
+TridiagonalMatrixAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 5:21:07 PM
+TridiagonalMatrixAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:21:35 PM
+TridiagonalMatrixAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TridiagonalMatrixAlgorithm -> D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithm\bin\Debug\net9.0\TridiagonalMatrixAlgorithm.dll
+  TridiagonalMatrixAlgorithmTest -> D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\bin\Debug\net9.0\TridiagonalMatrixAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.15
+]]></string>
+    <string>WritePatch: Code is not Complete.
+TridiagonalMatrixAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 5:21:46 PM
+TridiagonalMatrixAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 5:21:47 PM
+TridiagonalMatrixAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:22:25 PM
+TridiagonalMatrixAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TridiagonalMatrixAlgorithm -> D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithm\bin\Debug\net9.0\TridiagonalMatrixAlgorithm.dll
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(31,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(64,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(90,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(115,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(115,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(116,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(116,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(117,83): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(117,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(118,95): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(118,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(169,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(191,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+  TridiagonalMatrixAlgorithmTest -> D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\bin\Debug\net9.0\TridiagonalMatrixAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(31,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(64,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(90,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(115,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(115,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(116,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(116,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(117,83): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(117,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(118,95): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(118,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(169,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(191,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+    13 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.37
+]]></string>
+    <string>WritePatch: Compile failed.
+TridiagonalMatrixAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 5:22:27 PM
+TridiagonalMatrixAlgorithmTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TridiagonalMatrixAlgorithm -> D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithm\bin\Debug\net9.0\TridiagonalMatrixAlgorithm.dll
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(31,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(64,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(90,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(115,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(115,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(116,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(116,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(117,83): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(117,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(118,95): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(118,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(169,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(191,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+  TridiagonalMatrixAlgorithmTest -> D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\bin\Debug\net9.0\TridiagonalMatrixAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(31,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(64,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(90,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(115,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(115,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(116,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(116,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(117,83): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(117,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(118,95): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(118,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(169,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(191,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+    13 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.37
+
+</CompilerResponse>
+2025-02-23 5:22:28 PM
+TridiagonalMatrixAlgorithmTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 5:22:31 PM
+TridiagonalMatrixAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TridiagonalMatrixAlgorithm -> D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithm\bin\Debug\net9.0\TridiagonalMatrixAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.84
+]]></string>
+    <string>WritePatch: Code is Complete.
+TridiagonalMatrixAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:22:46 PM
+TridiagonalMatrixAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TridiagonalMatrixAlgorithm -> D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithm\bin\Debug\net9.0\TridiagonalMatrixAlgorithm.dll
+  TridiagonalMatrixAlgorithmTest -> D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\bin\Debug\net9.0\TridiagonalMatrixAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.03
+]]></string>
+    <string>WritePatch: Code is Complete.
+TridiagonalMatrixAlgorithmTest</string>
+    <string>[INFO 2025-02-23 5:22:58 PM] Starting test for project: D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 5:22:58 PM] Starting test for project: D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 5:22:58 PM] Starting test for project: D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 5:22:58 PM] Starting test for project: D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 5:22:58 PM] Starting test for project: D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 5:22:58 PM] Starting test for project: D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 5:22:58 PM] Starting test for project: D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 5:22:58 PM] Starting test for project: D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 5:22:58 PM] Starting test for project: D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 5:22:58 PM] Starting test for project: D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 5:22:58 PM] Starting test for project: D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 5:22:58 PM] Starting test for project: D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 5:22:58 PM] Starting test for project: D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 5:23:04 PM] Test Parallelization enabled for D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\bin\Debug\net9.0\TridiagonalMatrixAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 5:23:02 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 5:23:01 PM] Test run for D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\bin\Debug\net9.0\TridiagonalMatrixAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 5:23:01 PM]   TridiagonalMatrixAlgorithmTest -> D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\bin\Debug\net9.0\TridiagonalMatrixAlgorithmTest.dll
+[OUTPUT 2025-02-23 5:23:00 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 5:23:05 PM]   Passed Solve_ValidSmallSystem_ReturnsCorrectSolution [9 ms]
+[OUTPUT 2025-02-23 5:23:03 PM] D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\bin\Debug\net9.0\TridiagonalMatrixAlgorithmTest.dll
+[OUTPUT 2025-02-23 5:23:02 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 5:23:02 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 5:23:00 PM]   TridiagonalMatrixAlgorithm -> D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithm\bin\Debug\net9.0\TridiagonalMatrixAlgorithm.dll
+[OUTPUT 2025-02-23 5:22:59 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 5:23:04 PM] All tests passed successfully.
+[INFO 2025-02-23 5:23:04 PM] Test process completed. Duration: 6.49 seconds.
+[INFO 2025-02-23 5:23:04 PM] Process exited with code 0.
+[INFO 2025-02-23 5:22:58 PM] Command: dotnet test "D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 5:22:58 PM] Starting test for project: D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 5:19:29 PM
+TridiagonalMatrixAlgorithm
+
+WritePatch ran compiler. 2025-02-23 5:20:01 PM
+TridiagonalMatrixAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TridiagonalMatrixAlgorithm -> D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithm\bin\Debug\net9.0\TridiagonalMatrixAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.66
+
+
+WritePatch: Code is Complete.
+TridiagonalMatrixAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 5:20:15 PM
+TridiagonalMatrixAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 5:21:05 PM
+TridiagonalMatrixAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj (in 397 ms).
+  1 of 2 projects are up-to-date for restore.
+  TridiagonalMatrixAlgorithm -> D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithm\bin\Debug\net9.0\TridiagonalMatrixAlgorithm.dll
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(31,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(64,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(90,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(115,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(115,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(116,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(116,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(117,83): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(117,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(118,95): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(118,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(169,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+  TridiagonalMatrixAlgorithmTest -> D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\bin\Debug\net9.0\TridiagonalMatrixAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(31,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(64,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(90,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(115,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(115,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(116,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(116,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(117,83): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(117,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(118,95): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(118,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(169,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+    12 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.70
+
+
+WritePatch: Compile failed.
+TridiagonalMatrixAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 5:21:06 PM
+TridiagonalMatrixAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 5:21:07 PM
+TridiagonalMatrixAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 5:21:35 PM
+TridiagonalMatrixAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TridiagonalMatrixAlgorithm -> D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithm\bin\Debug\net9.0\TridiagonalMatrixAlgorithm.dll
+  TridiagonalMatrixAlgorithmTest -> D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\bin\Debug\net9.0\TridiagonalMatrixAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.15
+
+
+WritePatch: Code is not Complete.
+TridiagonalMatrixAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 5:21:46 PM
+TridiagonalMatrixAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 5:21:47 PM
+TridiagonalMatrixAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 5:22:25 PM
+TridiagonalMatrixAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TridiagonalMatrixAlgorithm -> D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithm\bin\Debug\net9.0\TridiagonalMatrixAlgorithm.dll
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(31,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(64,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(90,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(115,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(115,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(116,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(116,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(117,83): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(117,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(118,95): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(118,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(169,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(191,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+  TridiagonalMatrixAlgorithmTest -> D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\bin\Debug\net9.0\TridiagonalMatrixAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(31,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(64,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(90,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(115,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(115,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(116,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(116,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(117,83): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(117,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(118,95): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(118,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(169,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(191,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+    13 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.37
+
+
+WritePatch: Compile failed.
+TridiagonalMatrixAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 5:22:27 PM
+TridiagonalMatrixAlgorithmTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TridiagonalMatrixAlgorithm -> D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithm\bin\Debug\net9.0\TridiagonalMatrixAlgorithm.dll
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(31,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(64,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(90,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(115,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(115,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(116,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(116,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(117,83): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(117,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(118,95): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(118,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(169,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(191,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+  TridiagonalMatrixAlgorithmTest -> D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\bin\Debug\net9.0\TridiagonalMatrixAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(31,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(64,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(90,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(115,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(115,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(116,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(116,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(117,83): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(117,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(118,95): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(118,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(169,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\ThomasAlgorithmSolverTests.cs(191,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj]
+    13 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.37
+
+</CompilerResponse>
+2025-02-23 5:22:28 PM
+TridiagonalMatrixAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 5:22:31 PM
+TridiagonalMatrixAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TridiagonalMatrixAlgorithm -> D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithm\bin\Debug\net9.0\TridiagonalMatrixAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.84
+
+
+WritePatch: Code is Complete.
+TridiagonalMatrixAlgorithm
+
+WritePatch ran compiler. 2025-02-23 5:22:46 PM
+TridiagonalMatrixAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TridiagonalMatrixAlgorithm -> D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithm\bin\Debug\net9.0\TridiagonalMatrixAlgorithm.dll
+  TridiagonalMatrixAlgorithmTest -> D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\bin\Debug\net9.0\TridiagonalMatrixAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.03
+
+
+WritePatch: Code is Complete.
+TridiagonalMatrixAlgorithmTest
+
+TestResult:
+[OUTPUT 2025-02-23 5:23:04 PM] Test Parallelization enabled for D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\bin\Debug\net9.0\TridiagonalMatrixAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 5:23:02 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 5:23:01 PM] Test run for D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\bin\Debug\net9.0\TridiagonalMatrixAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 5:23:01 PM]   TridiagonalMatrixAlgorithmTest -> D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\bin\Debug\net9.0\TridiagonalMatrixAlgorithmTest.dll
+[OUTPUT 2025-02-23 5:23:00 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 5:23:05 PM]   Passed Solve_ValidSmallSystem_ReturnsCorrectSolution [9 ms]
+[OUTPUT 2025-02-23 5:23:03 PM] D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\bin\Debug\net9.0\TridiagonalMatrixAlgorithmTest.dll
+[OUTPUT 2025-02-23 5:23:02 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 5:23:02 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 5:23:00 PM]   TridiagonalMatrixAlgorithm -> D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithm\bin\Debug\net9.0\TridiagonalMatrixAlgorithm.dll
+[OUTPUT 2025-02-23 5:22:59 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 5:23:04 PM] All tests passed successfully.
+[INFO 2025-02-23 5:23:04 PM] Test process completed. Duration: 6.49 seconds.
+[INFO 2025-02-23 5:23:04 PM] Process exited with code 0.
+[INFO 2025-02-23 5:22:58 PM] Command: dotnet test "D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 5:22:58 PM] Starting test for project: D:\Code2025\RavenWork\TridiagonalMatrixAlgorithm\TridiagonalMatrixAlgorithmTest\TridiagonalMatrixAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
