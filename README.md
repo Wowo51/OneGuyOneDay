@@ -8,7 +8,7 @@ This code is free to use under the MIT.
 
 Raven can go from a prompt to a unit test report stating that the app has passed testing in one click. As LLM's typically make a few mistakes when writing code, working out all of the bugs and unit testing the code is crucial. It can write algorithms in parallel. This run used a setting of writing 10 algorithms simultaneously. An 8-core pc was used. My tier 5 OpenAI account could handle many more simultaneous API calls than my 8 core.
 
-Raven does not always complete an algorithm with a single pass of the code generation too. Only a single pass was used. 433 out of 609 of the algorithms were solved.
+Raven does not always complete an algorithm with a single pass of the code generation tool. Only a single pass was used. 433 out of 609 of the algorithms were solved.
 
 Total solve time was under 15.5 hours. Human labor cost would be about a day's work as Raven ran unattended for part of the day. The OpenAI API was used by Raven. API cost was less than $168.
 
