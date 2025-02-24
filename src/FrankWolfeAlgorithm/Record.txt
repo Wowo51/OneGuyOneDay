@@ -1,0 +1,489 @@
+<ActRecord>
+  <ProjectName>FrankWolfeAlgorithm</ProjectName>
+  <ProjectDescription>Frank-Wolfe algorithm – An iterative first-order method for solving constrained convex optimization problems.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Frank-Wolfe algorithm – An iterative first-order method for solving constrained convex optimization problems.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\FrankWolfeAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>FrankWolfeAlgorithm</ProjectFolderName>
+  <ProjectName>FrankWolfeAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:58:28 AM
+FrankWolfeAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:59:14 AM
+FrankWolfeAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FrankWolfeAlgorithm -> D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithm\bin\Debug\net9.0\FrankWolfeAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.73
+]]></string>
+    <string>WritePatch: Code is Complete.
+FrankWolfeAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:59:48 AM
+FrankWolfeAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:01:33 AM
+FrankWolfeAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj (in 243 ms).
+  1 of 2 projects are up-to-date for restore.
+  FrankWolfeAlgorithm -> D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithm\bin\Debug\net9.0\FrankWolfeAlgorithm.dll
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(41,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(41,73): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(134,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(134,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(134,68): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+  FrankWolfeAlgorithmTest -> D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\bin\Debug\net9.0\FrankWolfeAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(41,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(41,73): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(134,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(134,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(134,68): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+    9 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.43
+]]></string>
+    <string>WritePatch: Compile failed.
+FrankWolfeAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:01:34 AM
+FrankWolfeAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:01:34 AM
+FrankWolfeAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:02:25 AM
+FrankWolfeAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FrankWolfeAlgorithm -> D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithm\bin\Debug\net9.0\FrankWolfeAlgorithm.dll
+  FrankWolfeAlgorithmTest -> D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\bin\Debug\net9.0\FrankWolfeAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.84
+]]></string>
+    <string>WritePatch: Code is not Complete.
+FrankWolfeAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:02:44 AM
+FrankWolfeAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:02:44 AM
+FrankWolfeAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:03:32 AM
+FrankWolfeAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FrankWolfeAlgorithm -> D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithm\bin\Debug\net9.0\FrankWolfeAlgorithm.dll
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\VectorTests.cs(13,40): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(41,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(41,73): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(134,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(134,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(134,68): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+  FrankWolfeAlgorithmTest -> D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\bin\Debug\net9.0\FrankWolfeAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\VectorTests.cs(13,40): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(41,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(41,73): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(134,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(134,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(134,68): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+    10 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.90
+]]></string>
+    <string>WritePatch: Compile failed.
+FrankWolfeAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:03:33 AM
+FrankWolfeAlgorithmTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FrankWolfeAlgorithm -> D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithm\bin\Debug\net9.0\FrankWolfeAlgorithm.dll
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\VectorTests.cs(13,40): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(41,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(41,73): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(134,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(134,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(134,68): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+  FrankWolfeAlgorithmTest -> D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\bin\Debug\net9.0\FrankWolfeAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\VectorTests.cs(13,40): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(41,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(41,73): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(134,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(134,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(134,68): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+    10 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.90
+
+</CompilerResponse>
+2025-02-23 7:03:33 AM
+FrankWolfeAlgorithmTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 7:03:34 AM
+FrankWolfeAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FrankWolfeAlgorithm -> D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithm\bin\Debug\net9.0\FrankWolfeAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.64
+]]></string>
+    <string>WritePatch: Code is Complete.
+FrankWolfeAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:04:11 AM
+FrankWolfeAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FrankWolfeAlgorithm -> D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithm\bin\Debug\net9.0\FrankWolfeAlgorithm.dll
+  FrankWolfeAlgorithmTest -> D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\bin\Debug\net9.0\FrankWolfeAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+]]></string>
+    <string>WritePatch: Code is Complete.
+FrankWolfeAlgorithmTest</string>
+    <string>[INFO 2025-02-23 7:05:04 AM] Starting test for project: D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:05:04 AM] Starting test for project: D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:05:04 AM] Starting test for project: D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:05:04 AM] Starting test for project: D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:05:04 AM] Starting test for project: D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:05:04 AM] Starting test for project: D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:05:04 AM] Starting test for project: D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:05:04 AM] Starting test for project: D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:05:04 AM] Starting test for project: D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:05:04 AM] Starting test for project: D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:05:04 AM] Starting test for project: D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 7:05:06 AM] D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\bin\Debug\net9.0\FrankWolfeAlgorithmTest.dll
+[OUTPUT 2025-02-23 7:05:06 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:05:06 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:05:06 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:05:05 AM] Test run for D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\bin\Debug\net9.0\FrankWolfeAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:05:05 AM]   FrankWolfeAlgorithmTest -> D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\bin\Debug\net9.0\FrankWolfeAlgorithmTest.dll
+[OUTPUT 2025-02-23 7:05:05 AM]   FrankWolfeAlgorithm -> D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithm\bin\Debug\net9.0\FrankWolfeAlgorithm.dll
+[OUTPUT 2025-02-23 7:05:05 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:05:05 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 7:05:07 AM] All tests passed successfully.
+[INFO 2025-02-23 7:05:07 AM] Test process completed. Duration: 2.88 seconds.
+[INFO 2025-02-23 7:05:07 AM] Process exited with code 0.
+[INFO 2025-02-23 7:05:04 AM] Command: dotnet test "D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:05:04 AM] Starting test for project: D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 6:58:28 AM
+FrankWolfeAlgorithm
+
+WritePatch ran compiler. 2025-02-23 6:59:14 AM
+FrankWolfeAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FrankWolfeAlgorithm -> D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithm\bin\Debug\net9.0\FrankWolfeAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.73
+
+
+WritePatch: Code is Complete.
+FrankWolfeAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 6:59:48 AM
+FrankWolfeAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 7:01:33 AM
+FrankWolfeAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj (in 243 ms).
+  1 of 2 projects are up-to-date for restore.
+  FrankWolfeAlgorithm -> D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithm\bin\Debug\net9.0\FrankWolfeAlgorithm.dll
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(41,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(41,73): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(134,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(134,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(134,68): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+  FrankWolfeAlgorithmTest -> D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\bin\Debug\net9.0\FrankWolfeAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(41,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(41,73): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(134,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(134,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(134,68): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+    9 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.43
+
+
+WritePatch: Compile failed.
+FrankWolfeAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:01:34 AM
+FrankWolfeAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 7:01:34 AM
+FrankWolfeAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 7:02:25 AM
+FrankWolfeAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FrankWolfeAlgorithm -> D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithm\bin\Debug\net9.0\FrankWolfeAlgorithm.dll
+  FrankWolfeAlgorithmTest -> D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\bin\Debug\net9.0\FrankWolfeAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.84
+
+
+WritePatch: Code is not Complete.
+FrankWolfeAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:02:44 AM
+FrankWolfeAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 7:02:44 AM
+FrankWolfeAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 7:03:32 AM
+FrankWolfeAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FrankWolfeAlgorithm -> D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithm\bin\Debug\net9.0\FrankWolfeAlgorithm.dll
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\VectorTests.cs(13,40): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(41,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(41,73): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(134,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(134,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(134,68): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+  FrankWolfeAlgorithmTest -> D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\bin\Debug\net9.0\FrankWolfeAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\VectorTests.cs(13,40): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(41,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(41,73): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(134,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(134,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(134,68): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+    10 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.90
+
+
+WritePatch: Compile failed.
+FrankWolfeAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:03:33 AM
+FrankWolfeAlgorithmTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FrankWolfeAlgorithm -> D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithm\bin\Debug\net9.0\FrankWolfeAlgorithm.dll
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\VectorTests.cs(13,40): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(41,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(41,73): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(134,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(134,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(134,68): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+  FrankWolfeAlgorithmTest -> D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\bin\Debug\net9.0\FrankWolfeAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\VectorTests.cs(13,40): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(23,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(41,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(41,73): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(134,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(134,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeSolverTests.cs(134,68): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj]
+    10 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.90
+
+</CompilerResponse>
+2025-02-23 7:03:33 AM
+FrankWolfeAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 7:03:34 AM
+FrankWolfeAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FrankWolfeAlgorithm -> D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithm\bin\Debug\net9.0\FrankWolfeAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.64
+
+
+WritePatch: Code is Complete.
+FrankWolfeAlgorithm
+
+WritePatch ran compiler. 2025-02-23 7:04:11 AM
+FrankWolfeAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FrankWolfeAlgorithm -> D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithm\bin\Debug\net9.0\FrankWolfeAlgorithm.dll
+  FrankWolfeAlgorithmTest -> D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\bin\Debug\net9.0\FrankWolfeAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+
+
+WritePatch: Code is Complete.
+FrankWolfeAlgorithmTest
+
+TestResult:
+[OUTPUT 2025-02-23 7:05:06 AM] D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\bin\Debug\net9.0\FrankWolfeAlgorithmTest.dll
+[OUTPUT 2025-02-23 7:05:06 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:05:06 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:05:06 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:05:05 AM] Test run for D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\bin\Debug\net9.0\FrankWolfeAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:05:05 AM]   FrankWolfeAlgorithmTest -> D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\bin\Debug\net9.0\FrankWolfeAlgorithmTest.dll
+[OUTPUT 2025-02-23 7:05:05 AM]   FrankWolfeAlgorithm -> D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithm\bin\Debug\net9.0\FrankWolfeAlgorithm.dll
+[OUTPUT 2025-02-23 7:05:05 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:05:05 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 7:05:07 AM] All tests passed successfully.
+[INFO 2025-02-23 7:05:07 AM] Test process completed. Duration: 2.88 seconds.
+[INFO 2025-02-23 7:05:07 AM] Process exited with code 0.
+[INFO 2025-02-23 7:05:04 AM] Command: dotnet test "D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:05:04 AM] Starting test for project: D:\Code2025\RavenWork\FrankWolfeAlgorithm\FrankWolfeAlgorithmTest\FrankWolfeAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
