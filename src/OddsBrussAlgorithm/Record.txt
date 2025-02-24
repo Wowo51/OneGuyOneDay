@@ -1,0 +1,399 @@
+<ActRecord>
+  <ProjectName>OddsBrussAlgorithm</ProjectName>
+  <ProjectDescription>Odds algorithm (Bruss algorithm): An optimal online search algorithm for a distinguished value in a sequential random input</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Odds algorithm (Bruss algorithm): An optimal online search algorithm for a distinguished value in a sequential random input</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\OddsBrussAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>OddsBrussAlgorithm</ProjectFolderName>
+  <ProjectName>OddsBrussAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:33:24 AM
+OddsBrussAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:34:30 AM
+OddsBrussAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OddsBrussAlgorithm -> D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithm\bin\Debug\net9.0\OddsBrussAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+]]></string>
+    <string>WritePatch: Code is Complete.
+OddsBrussAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:34:48 AM
+OddsBrussAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:35:44 AM
+OddsBrussAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj (in 243 ms).
+  1 of 2 projects are up-to-date for restore.
+  OddsBrussAlgorithm -> D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithm\bin\Debug\net9.0\OddsBrussAlgorithm.dll
+D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsAlgorithmTests.cs(19,40): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj]
+  OddsBrussAlgorithmTest -> D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\bin\Debug\net9.0\OddsBrussAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsAlgorithmTests.cs(19,40): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.63
+]]></string>
+    <string>WritePatch: Compile failed.
+OddsBrussAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:35:45 AM
+OddsBrussAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:35:45 AM
+OddsBrussAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:36:09 AM
+OddsBrussAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OddsBrussAlgorithm -> D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithm\bin\Debug\net9.0\OddsBrussAlgorithm.dll
+  OddsBrussAlgorithmTest -> D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\bin\Debug\net9.0\OddsBrussAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+]]></string>
+    <string>WritePatch: Code is not Complete.
+OddsBrussAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:36:40 AM
+OddsBrussAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:36:40 AM
+OddsBrussAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:37:51 AM
+OddsBrussAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OddsBrussAlgorithm -> D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithm\bin\Debug\net9.0\OddsBrussAlgorithm.dll
+D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsAlgorithmTests.cs(19,40): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj]
+D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsAlgorithmTests.cs(191,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj]
+  OddsBrussAlgorithmTest -> D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\bin\Debug\net9.0\OddsBrussAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsAlgorithmTests.cs(19,40): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj]
+D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsAlgorithmTests.cs(191,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.26
+]]></string>
+    <string>WritePatch: Compile failed.
+OddsBrussAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:37:51 AM
+OddsBrussAlgorithmTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OddsBrussAlgorithm -> D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithm\bin\Debug\net9.0\OddsBrussAlgorithm.dll
+D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsAlgorithmTests.cs(19,40): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj]
+D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsAlgorithmTests.cs(191,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj]
+  OddsBrussAlgorithmTest -> D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\bin\Debug\net9.0\OddsBrussAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsAlgorithmTests.cs(19,40): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj]
+D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsAlgorithmTests.cs(191,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.26
+
+</CompilerResponse>
+2025-02-23 10:37:52 AM
+OddsBrussAlgorithmTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 10:37:53 AM
+OddsBrussAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OddsBrussAlgorithm -> D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithm\bin\Debug\net9.0\OddsBrussAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.79
+]]></string>
+    <string>WritePatch: Code is Complete.
+OddsBrussAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:38:23 AM
+OddsBrussAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OddsBrussAlgorithm -> D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithm\bin\Debug\net9.0\OddsBrussAlgorithm.dll
+  OddsBrussAlgorithmTest -> D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\bin\Debug\net9.0\OddsBrussAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.08
+]]></string>
+    <string>WritePatch: Code is Complete.
+OddsBrussAlgorithmTest</string>
+    <string>[INFO 2025-02-23 10:38:37 AM] Starting test for project: D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:38:37 AM] Starting test for project: D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:38:37 AM] Starting test for project: D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:38:37 AM] Starting test for project: D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:38:37 AM] Starting test for project: D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:38:37 AM] Starting test for project: D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:38:37 AM] Starting test for project: D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:38:37 AM] Starting test for project: D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:38:37 AM] Starting test for project: D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:38:37 AM] Starting test for project: D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:38:37 AM] Starting test for project: D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:38:37 AM] Starting test for project: D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:38:37 AM] Starting test for project: D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 10:38:40 AM] All tests passed successfully.
+[INFO 2025-02-23 10:38:40 AM] Test process completed. Duration: 3.08 seconds.
+[INFO 2025-02-23 10:38:40 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 10:38:40 AM]   Passed TestRun_ShortOutcomes [4 ms]
+[OUTPUT 2025-02-23 10:38:40 AM] Test Parallelization enabled for D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\bin\Debug\net9.0\OddsBrussAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:38:39 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:38:39 AM] Test run for D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\bin\Debug\net9.0\OddsBrussAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:38:38 AM]   OddsBrussAlgorithmTest -> D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\bin\Debug\net9.0\OddsBrussAlgorithmTest.dll
+[OUTPUT 2025-02-23 10:38:38 AM]   OddsBrussAlgorithm -> D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithm\bin\Debug\net9.0\OddsBrussAlgorithm.dll
+[OUTPUT 2025-02-23 10:38:38 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:38:39 AM] D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\bin\Debug\net9.0\OddsBrussAlgorithmTest.dll
+[OUTPUT 2025-02-23 10:38:39 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:38:39 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:38:38 AM]   Determining projects to restore...
+[INFO 2025-02-23 10:38:37 AM] Command: dotnet test "D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:38:37 AM] Starting test for project: D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 10:33:24 AM
+OddsBrussAlgorithm
+
+WritePatch ran compiler. 2025-02-23 10:34:30 AM
+OddsBrussAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OddsBrussAlgorithm -> D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithm\bin\Debug\net9.0\OddsBrussAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+
+
+WritePatch: Code is Complete.
+OddsBrussAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 10:34:48 AM
+OddsBrussAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 10:35:44 AM
+OddsBrussAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj (in 243 ms).
+  1 of 2 projects are up-to-date for restore.
+  OddsBrussAlgorithm -> D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithm\bin\Debug\net9.0\OddsBrussAlgorithm.dll
+D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsAlgorithmTests.cs(19,40): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj]
+  OddsBrussAlgorithmTest -> D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\bin\Debug\net9.0\OddsBrussAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsAlgorithmTests.cs(19,40): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.63
+
+
+WritePatch: Compile failed.
+OddsBrussAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:35:45 AM
+OddsBrussAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 10:35:45 AM
+OddsBrussAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 10:36:09 AM
+OddsBrussAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OddsBrussAlgorithm -> D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithm\bin\Debug\net9.0\OddsBrussAlgorithm.dll
+  OddsBrussAlgorithmTest -> D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\bin\Debug\net9.0\OddsBrussAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+
+
+WritePatch: Code is not Complete.
+OddsBrussAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:36:40 AM
+OddsBrussAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 10:36:40 AM
+OddsBrussAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 10:37:51 AM
+OddsBrussAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OddsBrussAlgorithm -> D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithm\bin\Debug\net9.0\OddsBrussAlgorithm.dll
+D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsAlgorithmTests.cs(19,40): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj]
+D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsAlgorithmTests.cs(191,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj]
+  OddsBrussAlgorithmTest -> D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\bin\Debug\net9.0\OddsBrussAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsAlgorithmTests.cs(19,40): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj]
+D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsAlgorithmTests.cs(191,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.26
+
+
+WritePatch: Compile failed.
+OddsBrussAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:37:51 AM
+OddsBrussAlgorithmTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OddsBrussAlgorithm -> D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithm\bin\Debug\net9.0\OddsBrussAlgorithm.dll
+D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsAlgorithmTests.cs(19,40): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj]
+D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsAlgorithmTests.cs(191,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj]
+  OddsBrussAlgorithmTest -> D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\bin\Debug\net9.0\OddsBrussAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsAlgorithmTests.cs(19,40): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj]
+D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsAlgorithmTests.cs(191,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.26
+
+</CompilerResponse>
+2025-02-23 10:37:52 AM
+OddsBrussAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 10:37:53 AM
+OddsBrussAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OddsBrussAlgorithm -> D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithm\bin\Debug\net9.0\OddsBrussAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.79
+
+
+WritePatch: Code is Complete.
+OddsBrussAlgorithm
+
+WritePatch ran compiler. 2025-02-23 10:38:23 AM
+OddsBrussAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OddsBrussAlgorithm -> D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithm\bin\Debug\net9.0\OddsBrussAlgorithm.dll
+  OddsBrussAlgorithmTest -> D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\bin\Debug\net9.0\OddsBrussAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.08
+
+
+WritePatch: Code is Complete.
+OddsBrussAlgorithmTest
+
+TestResult:
+[SUCCESS 2025-02-23 10:38:40 AM] All tests passed successfully.
+[INFO 2025-02-23 10:38:40 AM] Test process completed. Duration: 3.08 seconds.
+[INFO 2025-02-23 10:38:40 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 10:38:40 AM]   Passed TestRun_ShortOutcomes [4 ms]
+[OUTPUT 2025-02-23 10:38:40 AM] Test Parallelization enabled for D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\bin\Debug\net9.0\OddsBrussAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:38:39 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:38:39 AM] Test run for D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\bin\Debug\net9.0\OddsBrussAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:38:38 AM]   OddsBrussAlgorithmTest -> D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\bin\Debug\net9.0\OddsBrussAlgorithmTest.dll
+[OUTPUT 2025-02-23 10:38:38 AM]   OddsBrussAlgorithm -> D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithm\bin\Debug\net9.0\OddsBrussAlgorithm.dll
+[OUTPUT 2025-02-23 10:38:38 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:38:39 AM] D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\bin\Debug\net9.0\OddsBrussAlgorithmTest.dll
+[OUTPUT 2025-02-23 10:38:39 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:38:39 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:38:38 AM]   Determining projects to restore...
+[INFO 2025-02-23 10:38:37 AM] Command: dotnet test "D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:38:37 AM] Starting test for project: D:\Code2025\RavenWork\OddsBrussAlgorithm\OddsBrussAlgorithmTest\OddsBrussAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
