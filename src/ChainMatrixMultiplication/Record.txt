@@ -1,0 +1,389 @@
+<ActRecord>
+  <ProjectName>ChainMatrixMultiplication</ProjectName>
+  <ProjectDescription>Chain matrix multiplication – An algorithm for determining the optimal order of multiplying a sequence of matrices.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Chain matrix multiplication – An algorithm for determining the optimal order of multiplying a sequence of matrices.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\ChainMatrixMultiplication</SolutionFolderPath>
+  <ProjectFolderName>ChainMatrixMultiplication</ProjectFolderName>
+  <ProjectName>ChainMatrixMultiplication</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 5:09:37 PM
+ChainMatrixMultiplication</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:10:19 PM
+ChainMatrixMultiplication</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ChainMatrixMultiplication -> D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplication\bin\Debug\net9.0\ChainMatrixMultiplication.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.87
+]]></string>
+    <string>WritePatch: Code is Complete.
+ChainMatrixMultiplication</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 5:10:47 PM
+ChainMatrixMultiplicationTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:11:52 PM
+ChainMatrixMultiplicationTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\ChainMatrixMultiplicationTest.csproj (in 959 ms).
+  1 of 2 projects are up-to-date for restore.
+  ChainMatrixMultiplication -> D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplication\bin\Debug\net9.0\ChainMatrixMultiplication.dll
+D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\MatrixChainMultiplicationSolverTests.cs(13,26): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\ChainMatrixMultiplicationTest.csproj]
+D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\MatrixChainMultiplicationSolverTests.cs(14,99): warning CS8604: Possible null reference argument for parameter 'p' in '(int cost, string order) MatrixChainMultiplicationSolver.ComputeOptimalOrder(int[] p)'. [D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\ChainMatrixMultiplicationTest.csproj]
+  ChainMatrixMultiplicationTest -> D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\bin\Debug\net9.0\ChainMatrixMultiplicationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\MatrixChainMultiplicationSolverTests.cs(13,26): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\ChainMatrixMultiplicationTest.csproj]
+D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\MatrixChainMultiplicationSolverTests.cs(14,99): warning CS8604: Possible null reference argument for parameter 'p' in '(int cost, string order) MatrixChainMultiplicationSolver.ComputeOptimalOrder(int[] p)'. [D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\ChainMatrixMultiplicationTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.84
+]]></string>
+    <string>WritePatch: Compile failed.
+ChainMatrixMultiplicationTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 5:11:53 PM
+ChainMatrixMultiplicationTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 5:11:54 PM
+ChainMatrixMultiplicationTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:13:44 PM
+ChainMatrixMultiplicationTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ChainMatrixMultiplication -> D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplication\bin\Debug\net9.0\ChainMatrixMultiplication.dll
+D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\MatrixChainMultiplicationSolverTests.cs(14,99): warning CS8604: Possible null reference argument for parameter 'p' in '(int cost, string order) MatrixChainMultiplicationSolver.ComputeOptimalOrder(int[] p)'. [D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\ChainMatrixMultiplicationTest.csproj]
+  ChainMatrixMultiplicationTest -> D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\bin\Debug\net9.0\ChainMatrixMultiplicationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\MatrixChainMultiplicationSolverTests.cs(14,99): warning CS8604: Possible null reference argument for parameter 'p' in '(int cost, string order) MatrixChainMultiplicationSolver.ComputeOptimalOrder(int[] p)'. [D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\ChainMatrixMultiplicationTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.25
+]]></string>
+    <string>WritePatch: Compile failed.
+ChainMatrixMultiplicationTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 5:13:45 PM
+ChainMatrixMultiplicationTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 5:13:46 PM
+ChainMatrixMultiplicationTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:14:27 PM
+ChainMatrixMultiplicationTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ChainMatrixMultiplication -> D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplication\bin\Debug\net9.0\ChainMatrixMultiplication.dll
+  ChainMatrixMultiplicationTest -> D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\bin\Debug\net9.0\ChainMatrixMultiplicationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.85
+]]></string>
+    <string>WritePatch: Code is not Complete.
+ChainMatrixMultiplicationTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 5:14:38 PM
+ChainMatrixMultiplicationTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ChainMatrixMultiplication -> D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplication\bin\Debug\net9.0\ChainMatrixMultiplication.dll
+  ChainMatrixMultiplicationTest -> D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\bin\Debug\net9.0\ChainMatrixMultiplicationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.85
+
+</CompilerResponse>
+2025-02-23 5:14:39 PM
+ChainMatrixMultiplicationTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 5:14:41 PM
+ChainMatrixMultiplication</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ChainMatrixMultiplication -> D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplication\bin\Debug\net9.0\ChainMatrixMultiplication.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.38
+]]></string>
+    <string>WritePatch: Code is Complete.
+ChainMatrixMultiplication</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:14:59 PM
+ChainMatrixMultiplicationTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ChainMatrixMultiplication -> D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplication\bin\Debug\net9.0\ChainMatrixMultiplication.dll
+  ChainMatrixMultiplicationTest -> D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\bin\Debug\net9.0\ChainMatrixMultiplicationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.83
+]]></string>
+    <string>WritePatch: Code is Complete.
+ChainMatrixMultiplicationTest</string>
+    <string>[INFO 2025-02-23 5:15:08 PM] Starting test for project: D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\ChainMatrixMultiplicationTest.csproj</string>
+    <string>[INFO 2025-02-23 5:15:08 PM] Starting test for project: D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\ChainMatrixMultiplicationTest.csproj</string>
+    <string>[INFO 2025-02-23 5:15:08 PM] Starting test for project: D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\ChainMatrixMultiplicationTest.csproj</string>
+    <string>[INFO 2025-02-23 5:15:08 PM] Starting test for project: D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\ChainMatrixMultiplicationTest.csproj</string>
+    <string>[INFO 2025-02-23 5:15:08 PM] Starting test for project: D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\ChainMatrixMultiplicationTest.csproj</string>
+    <string>[INFO 2025-02-23 5:15:08 PM] Starting test for project: D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\ChainMatrixMultiplicationTest.csproj</string>
+    <string>[INFO 2025-02-23 5:15:08 PM] Starting test for project: D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\ChainMatrixMultiplicationTest.csproj</string>
+    <string>[INFO 2025-02-23 5:15:08 PM] Starting test for project: D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\ChainMatrixMultiplicationTest.csproj</string>
+    <string>[INFO 2025-02-23 5:15:08 PM] Starting test for project: D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\ChainMatrixMultiplicationTest.csproj</string>
+    <string>[INFO 2025-02-23 5:15:08 PM] Starting test for project: D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\ChainMatrixMultiplicationTest.csproj</string>
+    <string>[INFO 2025-02-23 5:15:08 PM] Starting test for project: D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\ChainMatrixMultiplicationTest.csproj</string>
+    <string>[INFO 2025-02-23 5:15:08 PM] Starting test for project: D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\ChainMatrixMultiplicationTest.csproj</string>
+    <string>[INFO 2025-02-23 5:15:08 PM] Starting test for project: D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\ChainMatrixMultiplicationTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 5:15:15 PM] All tests passed successfully.
+[INFO 2025-02-23 5:15:15 PM] Test process completed. Duration: 7.08 seconds.
+[INFO 2025-02-23 5:15:15 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 5:15:13 PM] D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\bin\Debug\net9.0\ChainMatrixMultiplicationTest.dll
+[OUTPUT 2025-02-23 5:15:12 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 5:15:12 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 5:15:10 PM]   ChainMatrixMultiplication -> D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplication\bin\Debug\net9.0\ChainMatrixMultiplication.dll
+[OUTPUT 2025-02-23 5:15:09 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 5:15:15 PM]   Passed Test_SyntheticLargeInput [8 ms]
+[OUTPUT 2025-02-23 5:15:14 PM] Test Parallelization enabled for D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\bin\Debug\net9.0\ChainMatrixMultiplicationTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 5:15:12 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 5:15:11 PM] Test run for D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\bin\Debug\net9.0\ChainMatrixMultiplicationTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 5:15:11 PM]   ChainMatrixMultiplicationTest -> D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\bin\Debug\net9.0\ChainMatrixMultiplicationTest.dll
+[OUTPUT 2025-02-23 5:15:10 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 5:15:08 PM] Command: dotnet test "D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\ChainMatrixMultiplicationTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 5:15:08 PM] Starting test for project: D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\ChainMatrixMultiplicationTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 5:09:37 PM
+ChainMatrixMultiplication
+
+WritePatch ran compiler. 2025-02-23 5:10:19 PM
+ChainMatrixMultiplication
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ChainMatrixMultiplication -> D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplication\bin\Debug\net9.0\ChainMatrixMultiplication.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.87
+
+
+WritePatch: Code is Complete.
+ChainMatrixMultiplication
+
+WritePatch Started CycleStep. 2025-02-23 5:10:47 PM
+ChainMatrixMultiplicationTest
+
+WritePatch ran compiler. 2025-02-23 5:11:52 PM
+ChainMatrixMultiplicationTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\ChainMatrixMultiplicationTest.csproj (in 959 ms).
+  1 of 2 projects are up-to-date for restore.
+  ChainMatrixMultiplication -> D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplication\bin\Debug\net9.0\ChainMatrixMultiplication.dll
+D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\MatrixChainMultiplicationSolverTests.cs(13,26): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\ChainMatrixMultiplicationTest.csproj]
+D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\MatrixChainMultiplicationSolverTests.cs(14,99): warning CS8604: Possible null reference argument for parameter 'p' in '(int cost, string order) MatrixChainMultiplicationSolver.ComputeOptimalOrder(int[] p)'. [D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\ChainMatrixMultiplicationTest.csproj]
+  ChainMatrixMultiplicationTest -> D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\bin\Debug\net9.0\ChainMatrixMultiplicationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\MatrixChainMultiplicationSolverTests.cs(13,26): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\ChainMatrixMultiplicationTest.csproj]
+D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\MatrixChainMultiplicationSolverTests.cs(14,99): warning CS8604: Possible null reference argument for parameter 'p' in '(int cost, string order) MatrixChainMultiplicationSolver.ComputeOptimalOrder(int[] p)'. [D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\ChainMatrixMultiplicationTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.84
+
+
+WritePatch: Compile failed.
+ChainMatrixMultiplicationTest
+
+Finished WritePatch cycle step.
+2025-02-23 5:11:53 PM
+ChainMatrixMultiplicationTest
+
+WritePatch Started CycleStep. 2025-02-23 5:11:54 PM
+ChainMatrixMultiplicationTest
+
+WritePatch ran compiler. 2025-02-23 5:13:44 PM
+ChainMatrixMultiplicationTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ChainMatrixMultiplication -> D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplication\bin\Debug\net9.0\ChainMatrixMultiplication.dll
+D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\MatrixChainMultiplicationSolverTests.cs(14,99): warning CS8604: Possible null reference argument for parameter 'p' in '(int cost, string order) MatrixChainMultiplicationSolver.ComputeOptimalOrder(int[] p)'. [D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\ChainMatrixMultiplicationTest.csproj]
+  ChainMatrixMultiplicationTest -> D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\bin\Debug\net9.0\ChainMatrixMultiplicationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\MatrixChainMultiplicationSolverTests.cs(14,99): warning CS8604: Possible null reference argument for parameter 'p' in '(int cost, string order) MatrixChainMultiplicationSolver.ComputeOptimalOrder(int[] p)'. [D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\ChainMatrixMultiplicationTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.25
+
+
+WritePatch: Compile failed.
+ChainMatrixMultiplicationTest
+
+Finished WritePatch cycle step.
+2025-02-23 5:13:45 PM
+ChainMatrixMultiplicationTest
+
+WritePatch Started CycleStep. 2025-02-23 5:13:46 PM
+ChainMatrixMultiplicationTest
+
+WritePatch ran compiler. 2025-02-23 5:14:27 PM
+ChainMatrixMultiplicationTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ChainMatrixMultiplication -> D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplication\bin\Debug\net9.0\ChainMatrixMultiplication.dll
+  ChainMatrixMultiplicationTest -> D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\bin\Debug\net9.0\ChainMatrixMultiplicationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.85
+
+
+WritePatch: Code is not Complete.
+ChainMatrixMultiplicationTest
+
+Finished WritePatch cycle step.
+2025-02-23 5:14:38 PM
+ChainMatrixMultiplicationTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ChainMatrixMultiplication -> D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplication\bin\Debug\net9.0\ChainMatrixMultiplication.dll
+  ChainMatrixMultiplicationTest -> D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\bin\Debug\net9.0\ChainMatrixMultiplicationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.85
+
+</CompilerResponse>
+2025-02-23 5:14:39 PM
+ChainMatrixMultiplicationTest
+
+WritePatch ran compiler. 2025-02-23 5:14:41 PM
+ChainMatrixMultiplication
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ChainMatrixMultiplication -> D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplication\bin\Debug\net9.0\ChainMatrixMultiplication.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.38
+
+
+WritePatch: Code is Complete.
+ChainMatrixMultiplication
+
+WritePatch ran compiler. 2025-02-23 5:14:59 PM
+ChainMatrixMultiplicationTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ChainMatrixMultiplication -> D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplication\bin\Debug\net9.0\ChainMatrixMultiplication.dll
+  ChainMatrixMultiplicationTest -> D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\bin\Debug\net9.0\ChainMatrixMultiplicationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.83
+
+
+WritePatch: Code is Complete.
+ChainMatrixMultiplicationTest
+
+TestResult:
+[SUCCESS 2025-02-23 5:15:15 PM] All tests passed successfully.
+[INFO 2025-02-23 5:15:15 PM] Test process completed. Duration: 7.08 seconds.
+[INFO 2025-02-23 5:15:15 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 5:15:13 PM] D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\bin\Debug\net9.0\ChainMatrixMultiplicationTest.dll
+[OUTPUT 2025-02-23 5:15:12 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 5:15:12 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 5:15:10 PM]   ChainMatrixMultiplication -> D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplication\bin\Debug\net9.0\ChainMatrixMultiplication.dll
+[OUTPUT 2025-02-23 5:15:09 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 5:15:15 PM]   Passed Test_SyntheticLargeInput [8 ms]
+[OUTPUT 2025-02-23 5:15:14 PM] Test Parallelization enabled for D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\bin\Debug\net9.0\ChainMatrixMultiplicationTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 5:15:12 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 5:15:11 PM] Test run for D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\bin\Debug\net9.0\ChainMatrixMultiplicationTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 5:15:11 PM]   ChainMatrixMultiplicationTest -> D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\bin\Debug\net9.0\ChainMatrixMultiplicationTest.dll
+[OUTPUT 2025-02-23 5:15:10 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 5:15:08 PM] Command: dotnet test "D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\ChainMatrixMultiplicationTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 5:15:08 PM] Starting test for project: D:\Code2025\RavenWork\ChainMatrixMultiplication\ChainMatrixMultiplicationTest\ChainMatrixMultiplicationTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
