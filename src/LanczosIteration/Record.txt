@@ -1,0 +1,355 @@
+<ActRecord>
+  <ProjectName>LanczosIteration</ProjectName>
+  <ProjectDescription>Lanczos iteration – An algorithm that reduces a symmetric matrix to tridiagonal form for eigenvalue analysis.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Lanczos iteration – An algorithm that reduces a symmetric matrix to tridiagonal form for eigenvalue analysis.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\LanczosIteration</SolutionFolderPath>
+  <ProjectFolderName>LanczosIteration</ProjectFolderName>
+  <ProjectName>LanczosIteration</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:43:56 AM
+LanczosIteration</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:45:47 AM
+LanczosIteration</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LanczosIteration -> D:\Code2025\RavenWork\LanczosIteration\LanczosIteration\bin\Debug\net9.0\LanczosIteration.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.41
+]]></string>
+    <string>WritePatch: Code is Complete.
+LanczosIteration</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:46:03 AM
+LanczosIterationTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 9:47:00 AM
+LanczosIterationTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:47:00 AM
+LanczosIterationTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:47:45 AM
+LanczosIterationTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosIterationTest.csproj (in 348 ms).
+  1 of 2 projects are up-to-date for restore.
+  LanczosIteration -> D:\Code2025\RavenWork\LanczosIteration\LanczosIteration\bin\Debug\net9.0\LanczosIteration.dll
+D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosAlgorithmTests.cs(13,73): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosIterationTest.csproj]
+  LanczosIterationTest -> D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\bin\Debug\net9.0\LanczosIterationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosAlgorithmTests.cs(13,73): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosIterationTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.61
+]]></string>
+    <string>WritePatch: Compile failed.
+LanczosIterationTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:47:46 AM
+LanczosIterationTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:47:46 AM
+LanczosIterationTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:48:42 AM
+LanczosIterationTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LanczosIteration -> D:\Code2025\RavenWork\LanczosIteration\LanczosIteration\bin\Debug\net9.0\LanczosIteration.dll
+D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosAlgorithmTests.cs(13,73): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosIterationTest.csproj]
+  LanczosIterationTest -> D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\bin\Debug\net9.0\LanczosIterationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosAlgorithmTests.cs(13,73): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosIterationTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.62
+]]></string>
+    <string>WritePatch: Compile failed.
+LanczosIterationTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:48:43 AM
+LanczosIterationTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LanczosIteration -> D:\Code2025\RavenWork\LanczosIteration\LanczosIteration\bin\Debug\net9.0\LanczosIteration.dll
+D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosAlgorithmTests.cs(13,73): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosIterationTest.csproj]
+  LanczosIterationTest -> D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\bin\Debug\net9.0\LanczosIterationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosAlgorithmTests.cs(13,73): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosIterationTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.62
+
+</CompilerResponse>
+2025-02-23 9:48:43 AM
+LanczosIterationTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 9:48:45 AM
+LanczosIteration</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LanczosIteration -> D:\Code2025\RavenWork\LanczosIteration\LanczosIteration\bin\Debug\net9.0\LanczosIteration.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.04
+]]></string>
+    <string>WritePatch: Code is Complete.
+LanczosIteration</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:49:02 AM
+LanczosIterationTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LanczosIteration -> D:\Code2025\RavenWork\LanczosIteration\LanczosIteration\bin\Debug\net9.0\LanczosIteration.dll
+  LanczosIterationTest -> D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\bin\Debug\net9.0\LanczosIterationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.60
+]]></string>
+    <string>WritePatch: Code is Complete.
+LanczosIterationTest</string>
+    <string>[INFO 2025-02-23 9:49:13 AM] Starting test for project: D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosIterationTest.csproj</string>
+    <string>[INFO 2025-02-23 9:49:13 AM] Starting test for project: D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosIterationTest.csproj</string>
+    <string>[INFO 2025-02-23 9:49:13 AM] Starting test for project: D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosIterationTest.csproj</string>
+    <string>[INFO 2025-02-23 9:49:13 AM] Starting test for project: D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosIterationTest.csproj</string>
+    <string>[INFO 2025-02-23 9:49:13 AM] Starting test for project: D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosIterationTest.csproj</string>
+    <string>[INFO 2025-02-23 9:49:13 AM] Starting test for project: D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosIterationTest.csproj</string>
+    <string>[INFO 2025-02-23 9:49:13 AM] Starting test for project: D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosIterationTest.csproj</string>
+    <string>[INFO 2025-02-23 9:49:13 AM] Starting test for project: D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosIterationTest.csproj</string>
+    <string>[INFO 2025-02-23 9:49:13 AM] Starting test for project: D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosIterationTest.csproj</string>
+    <string>[INFO 2025-02-23 9:49:13 AM] Starting test for project: D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosIterationTest.csproj</string>
+    <string>[INFO 2025-02-23 9:49:13 AM] Starting test for project: D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosIterationTest.csproj</string>
+    <string>[INFO 2025-02-23 9:49:13 AM] Starting test for project: D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosIterationTest.csproj</string>
+    <string>[INFO 2025-02-23 9:49:13 AM] Starting test for project: D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosIterationTest.csproj</string>
+    <string>[INFO 2025-02-23 9:49:13 AM] Starting test for project: D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosIterationTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 9:49:19 AM]   Passed TestSingleElementMatrix [7 ms]
+[OUTPUT 2025-02-23 9:49:19 AM]   Passed TestNullMatrix_ReturnsEmptyResult [7 ms]
+[OUTPUT 2025-02-23 9:49:18 AM] Test Parallelization enabled for D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\bin\Debug\net9.0\LanczosIterationTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 9:49:16 AM] D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\bin\Debug\net9.0\LanczosIterationTest.dll
+[OUTPUT 2025-02-23 9:49:16 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 9:49:16 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 9:49:16 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 9:49:16 AM] Test run for D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\bin\Debug\net9.0\LanczosIterationTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 9:49:16 AM]   LanczosIterationTest -> D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\bin\Debug\net9.0\LanczosIterationTest.dll
+[OUTPUT 2025-02-23 9:49:15 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 9:49:15 AM]   LanczosIteration -> D:\Code2025\RavenWork\LanczosIteration\LanczosIteration\bin\Debug\net9.0\LanczosIteration.dll
+[OUTPUT 2025-02-23 9:49:14 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 9:49:19 AM] All tests passed successfully.
+[INFO 2025-02-23 9:49:19 AM] Test process completed. Duration: 5.32 seconds.
+[INFO 2025-02-23 9:49:19 AM] Process exited with code 0.
+[INFO 2025-02-23 9:49:13 AM] Command: dotnet test "D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosIterationTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 9:49:13 AM] Starting test for project: D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosIterationTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 9:43:56 AM
+LanczosIteration
+
+WritePatch ran compiler. 2025-02-23 9:45:47 AM
+LanczosIteration
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LanczosIteration -> D:\Code2025\RavenWork\LanczosIteration\LanczosIteration\bin\Debug\net9.0\LanczosIteration.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.41
+
+
+WritePatch: Code is Complete.
+LanczosIteration
+
+WritePatch Started CycleStep. 2025-02-23 9:46:03 AM
+LanczosIterationTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 9:47:00 AM
+LanczosIterationTest
+
+WritePatch Started CycleStep. 2025-02-23 9:47:00 AM
+LanczosIterationTest
+
+WritePatch ran compiler. 2025-02-23 9:47:45 AM
+LanczosIterationTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosIterationTest.csproj (in 348 ms).
+  1 of 2 projects are up-to-date for restore.
+  LanczosIteration -> D:\Code2025\RavenWork\LanczosIteration\LanczosIteration\bin\Debug\net9.0\LanczosIteration.dll
+D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosAlgorithmTests.cs(13,73): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosIterationTest.csproj]
+  LanczosIterationTest -> D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\bin\Debug\net9.0\LanczosIterationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosAlgorithmTests.cs(13,73): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosIterationTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.61
+
+
+WritePatch: Compile failed.
+LanczosIterationTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:47:46 AM
+LanczosIterationTest
+
+WritePatch Started CycleStep. 2025-02-23 9:47:46 AM
+LanczosIterationTest
+
+WritePatch ran compiler. 2025-02-23 9:48:42 AM
+LanczosIterationTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LanczosIteration -> D:\Code2025\RavenWork\LanczosIteration\LanczosIteration\bin\Debug\net9.0\LanczosIteration.dll
+D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosAlgorithmTests.cs(13,73): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosIterationTest.csproj]
+  LanczosIterationTest -> D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\bin\Debug\net9.0\LanczosIterationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosAlgorithmTests.cs(13,73): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosIterationTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.62
+
+
+WritePatch: Compile failed.
+LanczosIterationTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:48:43 AM
+LanczosIterationTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LanczosIteration -> D:\Code2025\RavenWork\LanczosIteration\LanczosIteration\bin\Debug\net9.0\LanczosIteration.dll
+D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosAlgorithmTests.cs(13,73): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosIterationTest.csproj]
+  LanczosIterationTest -> D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\bin\Debug\net9.0\LanczosIterationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosAlgorithmTests.cs(13,73): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosIterationTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.62
+
+</CompilerResponse>
+2025-02-23 9:48:43 AM
+LanczosIterationTest
+
+WritePatch ran compiler. 2025-02-23 9:48:45 AM
+LanczosIteration
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LanczosIteration -> D:\Code2025\RavenWork\LanczosIteration\LanczosIteration\bin\Debug\net9.0\LanczosIteration.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.04
+
+
+WritePatch: Code is Complete.
+LanczosIteration
+
+WritePatch ran compiler. 2025-02-23 9:49:02 AM
+LanczosIterationTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LanczosIteration -> D:\Code2025\RavenWork\LanczosIteration\LanczosIteration\bin\Debug\net9.0\LanczosIteration.dll
+  LanczosIterationTest -> D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\bin\Debug\net9.0\LanczosIterationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.60
+
+
+WritePatch: Code is Complete.
+LanczosIterationTest
+
+TestResult:
+[OUTPUT 2025-02-23 9:49:19 AM]   Passed TestSingleElementMatrix [7 ms]
+[OUTPUT 2025-02-23 9:49:19 AM]   Passed TestNullMatrix_ReturnsEmptyResult [7 ms]
+[OUTPUT 2025-02-23 9:49:18 AM] Test Parallelization enabled for D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\bin\Debug\net9.0\LanczosIterationTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 9:49:16 AM] D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\bin\Debug\net9.0\LanczosIterationTest.dll
+[OUTPUT 2025-02-23 9:49:16 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 9:49:16 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 9:49:16 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 9:49:16 AM] Test run for D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\bin\Debug\net9.0\LanczosIterationTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 9:49:16 AM]   LanczosIterationTest -> D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\bin\Debug\net9.0\LanczosIterationTest.dll
+[OUTPUT 2025-02-23 9:49:15 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 9:49:15 AM]   LanczosIteration -> D:\Code2025\RavenWork\LanczosIteration\LanczosIteration\bin\Debug\net9.0\LanczosIteration.dll
+[OUTPUT 2025-02-23 9:49:14 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 9:49:19 AM] All tests passed successfully.
+[INFO 2025-02-23 9:49:19 AM] Test process completed. Duration: 5.32 seconds.
+[INFO 2025-02-23 9:49:19 AM] Process exited with code 0.
+[INFO 2025-02-23 9:49:13 AM] Command: dotnet test "D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosIterationTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 9:49:13 AM] Starting test for project: D:\Code2025\RavenWork\LanczosIteration\LanczosIterationTest\LanczosIterationTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
