@@ -1,0 +1,413 @@
+<ActRecord>
+  <ProjectName>EarliestDeadlineFirst</ProjectName>
+  <ProjectDescription>Earliest deadline first scheduling</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Earliest deadline first scheduling</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\EarliestDeadlineFirst</SolutionFolderPath>
+  <ProjectFolderName>EarliestDeadlineFirst</ProjectFolderName>
+  <ProjectName>EarliestDeadlineFirst</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:07:12 AM
+EarliestDeadlineFirst</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:07:49 AM
+EarliestDeadlineFirst</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EarliestDeadlineFirst -> D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirst\bin\Debug\net9.0\EarliestDeadlineFirst.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.06
+]]></string>
+    <string>WritePatch: Code is Complete.
+EarliestDeadlineFirst</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:08:01 AM
+EarliestDeadlineFirstTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:08:46 AM
+EarliestDeadlineFirstTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj (in 251 ms).
+  1 of 2 projects are up-to-date for restore.
+  EarliestDeadlineFirst -> D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirst\bin\Debug\net9.0\EarliestDeadlineFirst.dll
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(127,31): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(137,34): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+  EarliestDeadlineFirstTest -> D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\bin\Debug\net9.0\EarliestDeadlineFirstTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(127,31): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(137,34): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.81
+]]></string>
+    <string>WritePatch: Compile failed.
+EarliestDeadlineFirstTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:08:47 AM
+EarliestDeadlineFirstTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:08:48 AM
+EarliestDeadlineFirstTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:09:14 AM
+EarliestDeadlineFirstTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EarliestDeadlineFirst -> D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirst\bin\Debug\net9.0\EarliestDeadlineFirst.dll
+  EarliestDeadlineFirstTest -> D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\bin\Debug\net9.0\EarliestDeadlineFirstTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.23
+]]></string>
+    <string>WritePatch: Code is not Complete.
+EarliestDeadlineFirstTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:09:51 AM
+EarliestDeadlineFirstTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:09:52 AM
+EarliestDeadlineFirstTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:11:08 AM
+EarliestDeadlineFirstTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EarliestDeadlineFirst -> D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirst\bin\Debug\net9.0\EarliestDeadlineFirst.dll
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(127,31): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(137,34): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(146,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(156,102): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+  EarliestDeadlineFirstTest -> D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\bin\Debug\net9.0\EarliestDeadlineFirstTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(127,31): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(137,34): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(146,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(156,102): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.26
+]]></string>
+    <string>WritePatch: Compile failed.
+EarliestDeadlineFirstTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:11:09 AM
+EarliestDeadlineFirstTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EarliestDeadlineFirst -> D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirst\bin\Debug\net9.0\EarliestDeadlineFirst.dll
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(127,31): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(137,34): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(146,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(156,102): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+  EarliestDeadlineFirstTest -> D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\bin\Debug\net9.0\EarliestDeadlineFirstTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(127,31): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(137,34): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(146,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(156,102): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.26
+
+</CompilerResponse>
+2025-02-23 11:11:09 AM
+EarliestDeadlineFirstTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 11:11:11 AM
+EarliestDeadlineFirst</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EarliestDeadlineFirst -> D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirst\bin\Debug\net9.0\EarliestDeadlineFirst.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+]]></string>
+    <string>WritePatch: Code is Complete.
+EarliestDeadlineFirst</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:11:19 AM
+EarliestDeadlineFirstTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EarliestDeadlineFirst -> D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirst\bin\Debug\net9.0\EarliestDeadlineFirst.dll
+  EarliestDeadlineFirstTest -> D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\bin\Debug\net9.0\EarliestDeadlineFirstTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.08
+]]></string>
+    <string>WritePatch: Code is Complete.
+EarliestDeadlineFirstTest</string>
+    <string>[INFO 2025-02-23 11:11:38 AM] Starting test for project: D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj</string>
+    <string>[INFO 2025-02-23 11:11:38 AM] Starting test for project: D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj</string>
+    <string>[INFO 2025-02-23 11:11:38 AM] Starting test for project: D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj</string>
+    <string>[INFO 2025-02-23 11:11:38 AM] Starting test for project: D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj</string>
+    <string>[INFO 2025-02-23 11:11:38 AM] Starting test for project: D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj</string>
+    <string>[INFO 2025-02-23 11:11:38 AM] Starting test for project: D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj</string>
+    <string>[INFO 2025-02-23 11:11:38 AM] Starting test for project: D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj</string>
+    <string>[INFO 2025-02-23 11:11:38 AM] Starting test for project: D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj</string>
+    <string>[INFO 2025-02-23 11:11:38 AM] Starting test for project: D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj</string>
+    <string>[INFO 2025-02-23 11:11:38 AM] Starting test for project: D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj</string>
+    <string>[INFO 2025-02-23 11:11:38 AM] Starting test for project: D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 11:11:41 AM] All tests passed successfully.
+[INFO 2025-02-23 11:11:41 AM] Test process completed. Duration: 3.41 seconds.
+[INFO 2025-02-23 11:11:41 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 11:11:41 AM] D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\bin\Debug\net9.0\EarliestDeadlineFirstTest.dll
+[OUTPUT 2025-02-23 11:11:41 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:11:40 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:11:40 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:11:40 AM] Test run for D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\bin\Debug\net9.0\EarliestDeadlineFirstTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:11:39 AM]   EarliestDeadlineFirstTest -> D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\bin\Debug\net9.0\EarliestDeadlineFirstTest.dll
+[OUTPUT 2025-02-23 11:11:39 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:11:39 AM]   EarliestDeadlineFirst -> D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirst\bin\Debug\net9.0\EarliestDeadlineFirst.dll
+[OUTPUT 2025-02-23 11:11:38 AM]   Determining projects to restore...
+[INFO 2025-02-23 11:11:38 AM] Command: dotnet test "D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:11:38 AM] Starting test for project: D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 11:07:12 AM
+EarliestDeadlineFirst
+
+WritePatch ran compiler. 2025-02-23 11:07:49 AM
+EarliestDeadlineFirst
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EarliestDeadlineFirst -> D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirst\bin\Debug\net9.0\EarliestDeadlineFirst.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.06
+
+
+WritePatch: Code is Complete.
+EarliestDeadlineFirst
+
+WritePatch Started CycleStep. 2025-02-23 11:08:01 AM
+EarliestDeadlineFirstTest
+
+WritePatch ran compiler. 2025-02-23 11:08:46 AM
+EarliestDeadlineFirstTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj (in 251 ms).
+  1 of 2 projects are up-to-date for restore.
+  EarliestDeadlineFirst -> D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirst\bin\Debug\net9.0\EarliestDeadlineFirst.dll
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(127,31): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(137,34): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+  EarliestDeadlineFirstTest -> D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\bin\Debug\net9.0\EarliestDeadlineFirstTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(127,31): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(137,34): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.81
+
+
+WritePatch: Compile failed.
+EarliestDeadlineFirstTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:08:47 AM
+EarliestDeadlineFirstTest
+
+WritePatch Started CycleStep. 2025-02-23 11:08:48 AM
+EarliestDeadlineFirstTest
+
+WritePatch ran compiler. 2025-02-23 11:09:14 AM
+EarliestDeadlineFirstTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EarliestDeadlineFirst -> D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirst\bin\Debug\net9.0\EarliestDeadlineFirst.dll
+  EarliestDeadlineFirstTest -> D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\bin\Debug\net9.0\EarliestDeadlineFirstTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.23
+
+
+WritePatch: Code is not Complete.
+EarliestDeadlineFirstTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:09:51 AM
+EarliestDeadlineFirstTest
+
+WritePatch Started CycleStep. 2025-02-23 11:09:52 AM
+EarliestDeadlineFirstTest
+
+WritePatch ran compiler. 2025-02-23 11:11:08 AM
+EarliestDeadlineFirstTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EarliestDeadlineFirst -> D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirst\bin\Debug\net9.0\EarliestDeadlineFirst.dll
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(127,31): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(137,34): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(146,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(156,102): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+  EarliestDeadlineFirstTest -> D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\bin\Debug\net9.0\EarliestDeadlineFirstTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(127,31): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(137,34): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(146,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(156,102): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.26
+
+
+WritePatch: Compile failed.
+EarliestDeadlineFirstTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:11:09 AM
+EarliestDeadlineFirstTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EarliestDeadlineFirst -> D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirst\bin\Debug\net9.0\EarliestDeadlineFirst.dll
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(127,31): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(137,34): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(146,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(156,102): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+  EarliestDeadlineFirstTest -> D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\bin\Debug\net9.0\EarliestDeadlineFirstTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(127,31): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(137,34): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(146,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EdfSchedulerTests.cs(156,102): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.26
+
+</CompilerResponse>
+2025-02-23 11:11:09 AM
+EarliestDeadlineFirstTest
+
+WritePatch ran compiler. 2025-02-23 11:11:11 AM
+EarliestDeadlineFirst
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EarliestDeadlineFirst -> D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirst\bin\Debug\net9.0\EarliestDeadlineFirst.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+
+
+WritePatch: Code is Complete.
+EarliestDeadlineFirst
+
+WritePatch ran compiler. 2025-02-23 11:11:19 AM
+EarliestDeadlineFirstTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EarliestDeadlineFirst -> D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirst\bin\Debug\net9.0\EarliestDeadlineFirst.dll
+  EarliestDeadlineFirstTest -> D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\bin\Debug\net9.0\EarliestDeadlineFirstTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.08
+
+
+WritePatch: Code is Complete.
+EarliestDeadlineFirstTest
+
+TestResult:
+[SUCCESS 2025-02-23 11:11:41 AM] All tests passed successfully.
+[INFO 2025-02-23 11:11:41 AM] Test process completed. Duration: 3.41 seconds.
+[INFO 2025-02-23 11:11:41 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 11:11:41 AM] D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\bin\Debug\net9.0\EarliestDeadlineFirstTest.dll
+[OUTPUT 2025-02-23 11:11:41 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:11:40 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:11:40 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:11:40 AM] Test run for D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\bin\Debug\net9.0\EarliestDeadlineFirstTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:11:39 AM]   EarliestDeadlineFirstTest -> D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\bin\Debug\net9.0\EarliestDeadlineFirstTest.dll
+[OUTPUT 2025-02-23 11:11:39 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:11:39 AM]   EarliestDeadlineFirst -> D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirst\bin\Debug\net9.0\EarliestDeadlineFirst.dll
+[OUTPUT 2025-02-23 11:11:38 AM]   Determining projects to restore...
+[INFO 2025-02-23 11:11:38 AM] Command: dotnet test "D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:11:38 AM] Starting test for project: D:\Code2025\RavenWork\EarliestDeadlineFirst\EarliestDeadlineFirstTest\EarliestDeadlineFirstTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
