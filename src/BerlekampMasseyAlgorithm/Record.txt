@@ -1,0 +1,388 @@
+<ActRecord>
+  <ProjectName>BerlekampMasseyAlgorithm</ProjectName>
+  <ProjectDescription>Berlekamp–Massey algorithm</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Berlekamp–Massey algorithm</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\BerlekampMasseyAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>BerlekampMasseyAlgorithm</ProjectFolderName>
+  <ProjectName>BerlekampMasseyAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:35:53 AM
+BerlekampMasseyAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:37:32 AM
+BerlekampMasseyAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BerlekampMasseyAlgorithm -> D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithm\bin\Debug\net9.0\BerlekampMasseyAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.75
+]]></string>
+    <string>WritePatch: Code is Complete.
+BerlekampMasseyAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:37:54 AM
+BerlekampMasseyAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:39:39 AM
+BerlekampMasseyAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyAlgorithmTest.csproj (in 226 ms).
+  1 of 2 projects are up-to-date for restore.
+  BerlekampMasseyAlgorithm -> D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithm\bin\Debug\net9.0\BerlekampMasseyAlgorithm.dll
+D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyTests.cs(24,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyAlgorithmTest.csproj]
+  BerlekampMasseyAlgorithmTest -> D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\bin\Debug\net9.0\BerlekampMasseyAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyTests.cs(24,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.62
+]]></string>
+    <string>WritePatch: Compile failed.
+BerlekampMasseyAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:39:40 AM
+BerlekampMasseyAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:39:40 AM
+BerlekampMasseyAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:40:23 AM
+BerlekampMasseyAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BerlekampMasseyAlgorithm -> D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithm\bin\Debug\net9.0\BerlekampMasseyAlgorithm.dll
+  BerlekampMasseyAlgorithmTest -> D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\bin\Debug\net9.0\BerlekampMasseyAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.05
+]]></string>
+    <string>WritePatch: Code is not Complete.
+BerlekampMasseyAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:40:37 AM
+BerlekampMasseyAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:40:37 AM
+BerlekampMasseyAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:41:40 AM
+BerlekampMasseyAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BerlekampMasseyAlgorithm -> D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithm\bin\Debug\net9.0\BerlekampMasseyAlgorithm.dll
+D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyTests.cs(24,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyAlgorithmTest.csproj]
+  BerlekampMasseyAlgorithmTest -> D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\bin\Debug\net9.0\BerlekampMasseyAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyTests.cs(24,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.09
+]]></string>
+    <string>WritePatch: Compile failed.
+BerlekampMasseyAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:41:41 AM
+BerlekampMasseyAlgorithmTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BerlekampMasseyAlgorithm -> D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithm\bin\Debug\net9.0\BerlekampMasseyAlgorithm.dll
+D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyTests.cs(24,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyAlgorithmTest.csproj]
+  BerlekampMasseyAlgorithmTest -> D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\bin\Debug\net9.0\BerlekampMasseyAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyTests.cs(24,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.09
+
+</CompilerResponse>
+2025-02-23 7:41:42 AM
+BerlekampMasseyAlgorithmTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 7:41:43 AM
+BerlekampMasseyAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BerlekampMasseyAlgorithm -> D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithm\bin\Debug\net9.0\BerlekampMasseyAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+]]></string>
+    <string>WritePatch: Code is Complete.
+BerlekampMasseyAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:42:00 AM
+BerlekampMasseyAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BerlekampMasseyAlgorithm -> D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithm\bin\Debug\net9.0\BerlekampMasseyAlgorithm.dll
+  BerlekampMasseyAlgorithmTest -> D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\bin\Debug\net9.0\BerlekampMasseyAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.04
+]]></string>
+    <string>WritePatch: Code is Complete.
+BerlekampMasseyAlgorithmTest</string>
+    <string>[INFO 2025-02-23 7:42:12 AM] Starting test for project: D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:12 AM] Starting test for project: D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:12 AM] Starting test for project: D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:12 AM] Starting test for project: D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:12 AM] Starting test for project: D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:12 AM] Starting test for project: D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:12 AM] Starting test for project: D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:12 AM] Starting test for project: D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:12 AM] Starting test for project: D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:12 AM] Starting test for project: D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:12 AM] Starting test for project: D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:12 AM] Starting test for project: D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 7:42:16 AM] All tests passed successfully.
+[INFO 2025-02-23 7:42:16 AM] Test process completed. Duration: 3.31 seconds.
+[INFO 2025-02-23 7:42:16 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 7:42:16 AM] Test Parallelization enabled for D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\bin\Debug\net9.0\BerlekampMasseyAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:42:16 AM] D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\bin\Debug\net9.0\BerlekampMasseyAlgorithmTest.dll
+[OUTPUT 2025-02-23 7:42:15 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:42:15 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:42:15 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:42:14 AM] Test run for D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\bin\Debug\net9.0\BerlekampMasseyAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:42:14 AM]   BerlekampMasseyAlgorithmTest -> D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\bin\Debug\net9.0\BerlekampMasseyAlgorithmTest.dll
+[OUTPUT 2025-02-23 7:42:14 AM]   BerlekampMasseyAlgorithm -> D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithm\bin\Debug\net9.0\BerlekampMasseyAlgorithm.dll
+[OUTPUT 2025-02-23 7:42:14 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:42:13 AM]   Determining projects to restore...
+[INFO 2025-02-23 7:42:12 AM] Command: dotnet test "D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:42:12 AM] Starting test for project: D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 7:35:53 AM
+BerlekampMasseyAlgorithm
+
+WritePatch ran compiler. 2025-02-23 7:37:32 AM
+BerlekampMasseyAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BerlekampMasseyAlgorithm -> D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithm\bin\Debug\net9.0\BerlekampMasseyAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.75
+
+
+WritePatch: Code is Complete.
+BerlekampMasseyAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 7:37:54 AM
+BerlekampMasseyAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 7:39:39 AM
+BerlekampMasseyAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyAlgorithmTest.csproj (in 226 ms).
+  1 of 2 projects are up-to-date for restore.
+  BerlekampMasseyAlgorithm -> D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithm\bin\Debug\net9.0\BerlekampMasseyAlgorithm.dll
+D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyTests.cs(24,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyAlgorithmTest.csproj]
+  BerlekampMasseyAlgorithmTest -> D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\bin\Debug\net9.0\BerlekampMasseyAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyTests.cs(24,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.62
+
+
+WritePatch: Compile failed.
+BerlekampMasseyAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:39:40 AM
+BerlekampMasseyAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 7:39:40 AM
+BerlekampMasseyAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 7:40:23 AM
+BerlekampMasseyAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BerlekampMasseyAlgorithm -> D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithm\bin\Debug\net9.0\BerlekampMasseyAlgorithm.dll
+  BerlekampMasseyAlgorithmTest -> D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\bin\Debug\net9.0\BerlekampMasseyAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.05
+
+
+WritePatch: Code is not Complete.
+BerlekampMasseyAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:40:37 AM
+BerlekampMasseyAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 7:40:37 AM
+BerlekampMasseyAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 7:41:40 AM
+BerlekampMasseyAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BerlekampMasseyAlgorithm -> D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithm\bin\Debug\net9.0\BerlekampMasseyAlgorithm.dll
+D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyTests.cs(24,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyAlgorithmTest.csproj]
+  BerlekampMasseyAlgorithmTest -> D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\bin\Debug\net9.0\BerlekampMasseyAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyTests.cs(24,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.09
+
+
+WritePatch: Compile failed.
+BerlekampMasseyAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:41:41 AM
+BerlekampMasseyAlgorithmTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BerlekampMasseyAlgorithm -> D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithm\bin\Debug\net9.0\BerlekampMasseyAlgorithm.dll
+D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyTests.cs(24,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyAlgorithmTest.csproj]
+  BerlekampMasseyAlgorithmTest -> D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\bin\Debug\net9.0\BerlekampMasseyAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyTests.cs(24,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.09
+
+</CompilerResponse>
+2025-02-23 7:41:42 AM
+BerlekampMasseyAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 7:41:43 AM
+BerlekampMasseyAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BerlekampMasseyAlgorithm -> D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithm\bin\Debug\net9.0\BerlekampMasseyAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+
+
+WritePatch: Code is Complete.
+BerlekampMasseyAlgorithm
+
+WritePatch ran compiler. 2025-02-23 7:42:00 AM
+BerlekampMasseyAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BerlekampMasseyAlgorithm -> D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithm\bin\Debug\net9.0\BerlekampMasseyAlgorithm.dll
+  BerlekampMasseyAlgorithmTest -> D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\bin\Debug\net9.0\BerlekampMasseyAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.04
+
+
+WritePatch: Code is Complete.
+BerlekampMasseyAlgorithmTest
+
+TestResult:
+[SUCCESS 2025-02-23 7:42:16 AM] All tests passed successfully.
+[INFO 2025-02-23 7:42:16 AM] Test process completed. Duration: 3.31 seconds.
+[INFO 2025-02-23 7:42:16 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 7:42:16 AM] Test Parallelization enabled for D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\bin\Debug\net9.0\BerlekampMasseyAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:42:16 AM] D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\bin\Debug\net9.0\BerlekampMasseyAlgorithmTest.dll
+[OUTPUT 2025-02-23 7:42:15 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:42:15 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:42:15 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:42:14 AM] Test run for D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\bin\Debug\net9.0\BerlekampMasseyAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:42:14 AM]   BerlekampMasseyAlgorithmTest -> D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\bin\Debug\net9.0\BerlekampMasseyAlgorithmTest.dll
+[OUTPUT 2025-02-23 7:42:14 AM]   BerlekampMasseyAlgorithm -> D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithm\bin\Debug\net9.0\BerlekampMasseyAlgorithm.dll
+[OUTPUT 2025-02-23 7:42:14 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:42:13 AM]   Determining projects to restore...
+[INFO 2025-02-23 7:42:12 AM] Command: dotnet test "D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:42:12 AM] Starting test for project: D:\Code2025\RavenWork\BerlekampMasseyAlgorithm\BerlekampMasseyAlgorithmTest\BerlekampMasseyAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
