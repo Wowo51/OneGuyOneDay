@@ -1,0 +1,339 @@
+<ActRecord>
+  <ProjectName>PowersetConstruction</ProjectName>
+  <ProjectDescription>Powerset construction: Converts a nondeterministic automaton to a deterministic one</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Powerset construction: Converts a nondeterministic automaton to a deterministic one</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\PowersetConstruction</SolutionFolderPath>
+  <ProjectFolderName>PowersetConstruction</ProjectFolderName>
+  <ProjectName>PowersetConstruction</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:40:09 PM
+PowersetConstruction</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:42:04 PM
+PowersetConstruction</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\PowersetConstruction\PowersetConstruction\DFA.cs(13,16): warning CS8618: Non-nullable property 'StartState' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\PowersetConstruction\PowersetConstruction\PowersetConstruction.csproj]
+  PowersetConstruction -> D:\Code2025\RavenWork\PowersetConstruction\PowersetConstruction\bin\Debug\net9.0\PowersetConstruction.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PowersetConstruction\PowersetConstruction\DFA.cs(13,16): warning CS8618: Non-nullable property 'StartState' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\PowersetConstruction\PowersetConstruction\PowersetConstruction.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.36
+]]></string>
+    <string>WritePatch: Compile failed.
+PowersetConstruction</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:42:05 PM
+PowersetConstruction</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:42:05 PM
+PowersetConstruction</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:42:44 PM
+PowersetConstruction</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PowersetConstruction -> D:\Code2025\RavenWork\PowersetConstruction\PowersetConstruction\bin\Debug\net9.0\PowersetConstruction.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.43
+]]></string>
+    <string>WritePatch: Code is not Complete.
+PowersetConstruction</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:43:04 PM
+PowersetConstruction</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:43:05 PM
+PowersetConstruction</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:43:35 PM
+PowersetConstruction</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PowersetConstruction -> D:\Code2025\RavenWork\PowersetConstruction\PowersetConstruction\bin\Debug\net9.0\PowersetConstruction.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.31
+]]></string>
+    <string>WritePatch: Code is not Complete.
+PowersetConstruction</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:43:44 PM
+PowersetConstruction</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\PowersetConstruction\PowersetConstruction
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PowersetConstruction -> D:\Code2025\RavenWork\PowersetConstruction\PowersetConstruction\bin\Debug\net9.0\PowersetConstruction.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.31
+
+</CompilerResponse>
+2025-02-23 2:43:44 PM
+PowersetConstruction]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 2:43:46 PM
+PowersetConstruction</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PowersetConstruction -> D:\Code2025\RavenWork\PowersetConstruction\PowersetConstruction\bin\Debug\net9.0\PowersetConstruction.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.11
+]]></string>
+    <string>WritePatch: Code is Complete.
+PowersetConstruction</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:44:02 PM
+PowersetConstructionTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:45:03 PM
+PowersetConstructionTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\PowersetConstruction\PowersetConstructionTest\PowersetConstructionTest.csproj (in 363 ms).
+  1 of 2 projects are up-to-date for restore.
+  PowersetConstruction -> D:\Code2025\RavenWork\PowersetConstruction\PowersetConstruction\bin\Debug\net9.0\PowersetConstruction.dll
+  PowersetConstructionTest -> D:\Code2025\RavenWork\PowersetConstruction\PowersetConstructionTest\bin\Debug\net9.0\PowersetConstructionTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.63
+]]></string>
+    <string>WritePatch: Code is Complete.
+PowersetConstructionTest</string>
+    <string>[INFO 2025-02-23 2:45:24 PM] Starting test for project: D:\Code2025\RavenWork\PowersetConstruction\PowersetConstructionTest\PowersetConstructionTest.csproj</string>
+    <string>[INFO 2025-02-23 2:45:24 PM] Starting test for project: D:\Code2025\RavenWork\PowersetConstruction\PowersetConstructionTest\PowersetConstructionTest.csproj</string>
+    <string>[INFO 2025-02-23 2:45:24 PM] Starting test for project: D:\Code2025\RavenWork\PowersetConstruction\PowersetConstructionTest\PowersetConstructionTest.csproj</string>
+    <string>[INFO 2025-02-23 2:45:24 PM] Starting test for project: D:\Code2025\RavenWork\PowersetConstruction\PowersetConstructionTest\PowersetConstructionTest.csproj</string>
+    <string>[INFO 2025-02-23 2:45:24 PM] Starting test for project: D:\Code2025\RavenWork\PowersetConstruction\PowersetConstructionTest\PowersetConstructionTest.csproj</string>
+    <string>[INFO 2025-02-23 2:45:24 PM] Starting test for project: D:\Code2025\RavenWork\PowersetConstruction\PowersetConstructionTest\PowersetConstructionTest.csproj</string>
+    <string>[INFO 2025-02-23 2:45:24 PM] Starting test for project: D:\Code2025\RavenWork\PowersetConstruction\PowersetConstructionTest\PowersetConstructionTest.csproj</string>
+    <string>[INFO 2025-02-23 2:45:24 PM] Starting test for project: D:\Code2025\RavenWork\PowersetConstruction\PowersetConstructionTest\PowersetConstructionTest.csproj</string>
+    <string>[INFO 2025-02-23 2:45:24 PM] Starting test for project: D:\Code2025\RavenWork\PowersetConstruction\PowersetConstructionTest\PowersetConstructionTest.csproj</string>
+    <string>[INFO 2025-02-23 2:45:24 PM] Starting test for project: D:\Code2025\RavenWork\PowersetConstruction\PowersetConstructionTest\PowersetConstructionTest.csproj</string>
+    <string>[INFO 2025-02-23 2:45:24 PM] Starting test for project: D:\Code2025\RavenWork\PowersetConstruction\PowersetConstructionTest\PowersetConstructionTest.csproj</string>
+    <string>[INFO 2025-02-23 2:45:24 PM] Starting test for project: D:\Code2025\RavenWork\PowersetConstruction\PowersetConstructionTest\PowersetConstructionTest.csproj</string>
+    <string>[INFO 2025-02-23 2:45:24 PM] Starting test for project: D:\Code2025\RavenWork\PowersetConstruction\PowersetConstructionTest\PowersetConstructionTest.csproj</string>
+    <string>[INFO 2025-02-23 2:45:24 PM] Starting test for project: D:\Code2025\RavenWork\PowersetConstruction\PowersetConstructionTest\PowersetConstructionTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 2:45:30 PM]   Passed TestMultipleTransitionsNFAConversion [37 ms]
+[OUTPUT 2025-02-23 2:45:29 PM]   Passed TestLargeSyntheticNFAConversion [36 ms]
+[OUTPUT 2025-02-23 2:45:27 PM] Test run for D:\Code2025\RavenWork\PowersetConstruction\PowersetConstructionTest\bin\Debug\net9.0\PowersetConstructionTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 2:45:26 PM]   PowersetConstructionTest -> D:\Code2025\RavenWork\PowersetConstruction\PowersetConstructionTest\bin\Debug\net9.0\PowersetConstructionTest.dll
+[OUTPUT 2025-02-23 2:45:25 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 2:45:29 PM] Test Parallelization enabled for D:\Code2025\RavenWork\PowersetConstruction\PowersetConstructionTest\bin\Debug\net9.0\PowersetConstructionTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 2:45:28 PM] D:\Code2025\RavenWork\PowersetConstruction\PowersetConstructionTest\bin\Debug\net9.0\PowersetConstructionTest.dll
+[OUTPUT 2025-02-23 2:45:28 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 2:45:27 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 2:45:27 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 2:45:26 PM]   PowersetConstruction -> D:\Code2025\RavenWork\PowersetConstruction\PowersetConstruction\bin\Debug\net9.0\PowersetConstruction.dll
+[OUTPUT 2025-02-23 2:45:25 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 2:45:29 PM] All tests passed successfully.
+[INFO 2025-02-23 2:45:29 PM] Test process completed. Duration: 5.28 seconds.
+[INFO 2025-02-23 2:45:29 PM] Process exited with code 0.
+[INFO 2025-02-23 2:45:24 PM] Command: dotnet test "D:\Code2025\RavenWork\PowersetConstruction\PowersetConstructionTest\PowersetConstructionTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 2:45:24 PM] Starting test for project: D:\Code2025\RavenWork\PowersetConstruction\PowersetConstructionTest\PowersetConstructionTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 2:40:09 PM
+PowersetConstruction
+
+WritePatch ran compiler. 2025-02-23 2:42:04 PM
+PowersetConstruction
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\PowersetConstruction\PowersetConstruction\DFA.cs(13,16): warning CS8618: Non-nullable property 'StartState' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\PowersetConstruction\PowersetConstruction\PowersetConstruction.csproj]
+  PowersetConstruction -> D:\Code2025\RavenWork\PowersetConstruction\PowersetConstruction\bin\Debug\net9.0\PowersetConstruction.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PowersetConstruction\PowersetConstruction\DFA.cs(13,16): warning CS8618: Non-nullable property 'StartState' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\PowersetConstruction\PowersetConstruction\PowersetConstruction.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.36
+
+
+WritePatch: Compile failed.
+PowersetConstruction
+
+Finished WritePatch cycle step.
+2025-02-23 2:42:05 PM
+PowersetConstruction
+
+WritePatch Started CycleStep. 2025-02-23 2:42:05 PM
+PowersetConstruction
+
+WritePatch ran compiler. 2025-02-23 2:42:44 PM
+PowersetConstruction
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PowersetConstruction -> D:\Code2025\RavenWork\PowersetConstruction\PowersetConstruction\bin\Debug\net9.0\PowersetConstruction.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.43
+
+
+WritePatch: Code is not Complete.
+PowersetConstruction
+
+Finished WritePatch cycle step.
+2025-02-23 2:43:04 PM
+PowersetConstruction
+
+WritePatch Started CycleStep. 2025-02-23 2:43:05 PM
+PowersetConstruction
+
+WritePatch ran compiler. 2025-02-23 2:43:35 PM
+PowersetConstruction
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PowersetConstruction -> D:\Code2025\RavenWork\PowersetConstruction\PowersetConstruction\bin\Debug\net9.0\PowersetConstruction.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.31
+
+
+WritePatch: Code is not Complete.
+PowersetConstruction
+
+Finished WritePatch cycle step.
+2025-02-23 2:43:44 PM
+PowersetConstruction
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\PowersetConstruction\PowersetConstruction
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PowersetConstruction -> D:\Code2025\RavenWork\PowersetConstruction\PowersetConstruction\bin\Debug\net9.0\PowersetConstruction.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.31
+
+</CompilerResponse>
+2025-02-23 2:43:44 PM
+PowersetConstruction
+
+WritePatch ran compiler. 2025-02-23 2:43:46 PM
+PowersetConstruction
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PowersetConstruction -> D:\Code2025\RavenWork\PowersetConstruction\PowersetConstruction\bin\Debug\net9.0\PowersetConstruction.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.11
+
+
+WritePatch: Code is Complete.
+PowersetConstruction
+
+WritePatch Started CycleStep. 2025-02-23 2:44:02 PM
+PowersetConstructionTest
+
+WritePatch ran compiler. 2025-02-23 2:45:03 PM
+PowersetConstructionTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\PowersetConstruction\PowersetConstructionTest\PowersetConstructionTest.csproj (in 363 ms).
+  1 of 2 projects are up-to-date for restore.
+  PowersetConstruction -> D:\Code2025\RavenWork\PowersetConstruction\PowersetConstruction\bin\Debug\net9.0\PowersetConstruction.dll
+  PowersetConstructionTest -> D:\Code2025\RavenWork\PowersetConstruction\PowersetConstructionTest\bin\Debug\net9.0\PowersetConstructionTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.63
+
+
+WritePatch: Code is Complete.
+PowersetConstructionTest
+
+TestResult:
+[OUTPUT 2025-02-23 2:45:30 PM]   Passed TestMultipleTransitionsNFAConversion [37 ms]
+[OUTPUT 2025-02-23 2:45:29 PM]   Passed TestLargeSyntheticNFAConversion [36 ms]
+[OUTPUT 2025-02-23 2:45:27 PM] Test run for D:\Code2025\RavenWork\PowersetConstruction\PowersetConstructionTest\bin\Debug\net9.0\PowersetConstructionTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 2:45:26 PM]   PowersetConstructionTest -> D:\Code2025\RavenWork\PowersetConstruction\PowersetConstructionTest\bin\Debug\net9.0\PowersetConstructionTest.dll
+[OUTPUT 2025-02-23 2:45:25 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 2:45:29 PM] Test Parallelization enabled for D:\Code2025\RavenWork\PowersetConstruction\PowersetConstructionTest\bin\Debug\net9.0\PowersetConstructionTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 2:45:28 PM] D:\Code2025\RavenWork\PowersetConstruction\PowersetConstructionTest\bin\Debug\net9.0\PowersetConstructionTest.dll
+[OUTPUT 2025-02-23 2:45:28 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 2:45:27 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 2:45:27 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 2:45:26 PM]   PowersetConstruction -> D:\Code2025\RavenWork\PowersetConstruction\PowersetConstruction\bin\Debug\net9.0\PowersetConstruction.dll
+[OUTPUT 2025-02-23 2:45:25 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 2:45:29 PM] All tests passed successfully.
+[INFO 2025-02-23 2:45:29 PM] Test process completed. Duration: 5.28 seconds.
+[INFO 2025-02-23 2:45:29 PM] Process exited with code 0.
+[INFO 2025-02-23 2:45:24 PM] Command: dotnet test "D:\Code2025\RavenWork\PowersetConstruction\PowersetConstructionTest\PowersetConstructionTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 2:45:24 PM] Starting test for project: D:\Code2025\RavenWork\PowersetConstruction\PowersetConstructionTest\PowersetConstructionTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
