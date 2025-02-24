@@ -1,0 +1,401 @@
+<ActRecord>
+  <ProjectName>DifferentialEvolution</ProjectName>
+  <ProjectDescription>Differential evolution – A population-based stochastic optimization algorithm for continuous parameter spaces.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Differential evolution – A population-based stochastic optimization algorithm for continuous parameter spaces.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\DifferentialEvolution</SolutionFolderPath>
+  <ProjectFolderName>DifferentialEvolution</ProjectFolderName>
+  <ProjectName>DifferentialEvolution</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 5:01:05 PM
+DifferentialEvolution</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:02:02 PM
+DifferentialEvolution</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DifferentialEvolution -> D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolution\bin\Debug\net9.0\DifferentialEvolution.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.84
+]]></string>
+    <string>WritePatch: Code is Complete.
+DifferentialEvolution</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 5:02:19 PM
+DifferentialEvolutionTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:03:17 PM
+DifferentialEvolutionTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj (in 420 ms).
+  1 of 2 projects are up-to-date for restore.
+  DifferentialEvolution -> D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolution\bin\Debug\net9.0\DifferentialEvolution.dll
+D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionAlgorithmTests.cs(53,119): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj]
+D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionAlgorithmTests.cs(53,125): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj]
+D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionAlgorithmTests.cs(53,157): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj]
+  DifferentialEvolutionTest -> D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\bin\Debug\net9.0\DifferentialEvolutionTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionAlgorithmTests.cs(53,119): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj]
+D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionAlgorithmTests.cs(53,125): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj]
+D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionAlgorithmTests.cs(53,157): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.39
+]]></string>
+    <string>WritePatch: Compile failed.
+DifferentialEvolutionTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 5:03:19 PM
+DifferentialEvolutionTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 5:03:19 PM
+DifferentialEvolutionTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:04:37 PM
+DifferentialEvolutionTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DifferentialEvolution -> D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolution\bin\Debug\net9.0\DifferentialEvolution.dll
+D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionAlgorithmTests.cs(53,119): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj]
+D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionAlgorithmTests.cs(53,125): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj]
+D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionAlgorithmTests.cs(53,157): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj]
+  DifferentialEvolutionTest -> D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\bin\Debug\net9.0\DifferentialEvolutionTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionAlgorithmTests.cs(53,119): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj]
+D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionAlgorithmTests.cs(53,125): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj]
+D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionAlgorithmTests.cs(53,157): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.72
+]]></string>
+    <string>WritePatch: Compile failed.
+DifferentialEvolutionTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 5:04:39 PM
+DifferentialEvolutionTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 5:04:39 PM
+DifferentialEvolutionTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:05:42 PM
+DifferentialEvolutionTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DifferentialEvolution -> D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolution\bin\Debug\net9.0\DifferentialEvolution.dll
+  DifferentialEvolutionTest -> D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\bin\Debug\net9.0\DifferentialEvolutionTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.46
+]]></string>
+    <string>WritePatch: Code is not Complete.
+DifferentialEvolutionTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 5:06:03 PM
+DifferentialEvolutionTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DifferentialEvolution -> D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolution\bin\Debug\net9.0\DifferentialEvolution.dll
+  DifferentialEvolutionTest -> D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\bin\Debug\net9.0\DifferentialEvolutionTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.46
+
+</CompilerResponse>
+2025-02-23 5:06:04 PM
+DifferentialEvolutionTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 5:06:07 PM
+DifferentialEvolution</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DifferentialEvolution -> D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolution\bin\Debug\net9.0\DifferentialEvolution.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.83
+]]></string>
+    <string>WritePatch: Code is Complete.
+DifferentialEvolution</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:06:23 PM
+DifferentialEvolutionTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DifferentialEvolution -> D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolution\bin\Debug\net9.0\DifferentialEvolution.dll
+  DifferentialEvolutionTest -> D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\bin\Debug\net9.0\DifferentialEvolutionTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.18
+]]></string>
+    <string>WritePatch: Code is Complete.
+DifferentialEvolutionTest</string>
+    <string>[INFO 2025-02-23 5:06:40 PM] Starting test for project: D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj</string>
+    <string>[INFO 2025-02-23 5:06:40 PM] Starting test for project: D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj</string>
+    <string>[INFO 2025-02-23 5:06:40 PM] Starting test for project: D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj</string>
+    <string>[INFO 2025-02-23 5:06:40 PM] Starting test for project: D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj</string>
+    <string>[INFO 2025-02-23 5:06:40 PM] Starting test for project: D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj</string>
+    <string>[INFO 2025-02-23 5:06:40 PM] Starting test for project: D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj</string>
+    <string>[INFO 2025-02-23 5:06:40 PM] Starting test for project: D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj</string>
+    <string>[INFO 2025-02-23 5:06:40 PM] Starting test for project: D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj</string>
+    <string>[INFO 2025-02-23 5:06:40 PM] Starting test for project: D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj</string>
+    <string>[INFO 2025-02-23 5:06:40 PM] Starting test for project: D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj</string>
+    <string>[INFO 2025-02-23 5:06:40 PM] Starting test for project: D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj</string>
+    <string>[INFO 2025-02-23 5:06:40 PM] Starting test for project: D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 5:06:48 PM]   Passed TestOptimizeFindsApproximateOptimum [16 ms]
+[OUTPUT 2025-02-23 5:06:47 PM] Test Parallelization enabled for D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\bin\Debug\net9.0\DifferentialEvolutionTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 5:06:45 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 5:06:44 PM] Test run for D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\bin\Debug\net9.0\DifferentialEvolutionTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 5:06:43 PM]   DifferentialEvolutionTest -> D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\bin\Debug\net9.0\DifferentialEvolutionTest.dll
+[OUTPUT 2025-02-23 5:06:43 PM]   DifferentialEvolution -> D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolution\bin\Debug\net9.0\DifferentialEvolution.dll
+[OUTPUT 2025-02-23 5:06:42 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 5:06:46 PM] D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\bin\Debug\net9.0\DifferentialEvolutionTest.dll
+[OUTPUT 2025-02-23 5:06:46 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 5:06:45 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 5:06:42 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 5:06:47 PM] All tests passed successfully.
+[INFO 2025-02-23 5:06:47 PM] Test process completed. Duration: 6.37 seconds.
+[INFO 2025-02-23 5:06:47 PM] Process exited with code 0.
+[INFO 2025-02-23 5:06:40 PM] Command: dotnet test "D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 5:06:40 PM] Starting test for project: D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj]]></string>
+    <string>[INFO 2025-02-23 5:06:40 PM] Starting test for project: D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj</string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 5:01:05 PM
+DifferentialEvolution
+
+WritePatch ran compiler. 2025-02-23 5:02:02 PM
+DifferentialEvolution
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DifferentialEvolution -> D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolution\bin\Debug\net9.0\DifferentialEvolution.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.84
+
+
+WritePatch: Code is Complete.
+DifferentialEvolution
+
+WritePatch Started CycleStep. 2025-02-23 5:02:19 PM
+DifferentialEvolutionTest
+
+WritePatch ran compiler. 2025-02-23 5:03:17 PM
+DifferentialEvolutionTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj (in 420 ms).
+  1 of 2 projects are up-to-date for restore.
+  DifferentialEvolution -> D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolution\bin\Debug\net9.0\DifferentialEvolution.dll
+D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionAlgorithmTests.cs(53,119): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj]
+D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionAlgorithmTests.cs(53,125): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj]
+D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionAlgorithmTests.cs(53,157): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj]
+  DifferentialEvolutionTest -> D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\bin\Debug\net9.0\DifferentialEvolutionTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionAlgorithmTests.cs(53,119): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj]
+D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionAlgorithmTests.cs(53,125): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj]
+D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionAlgorithmTests.cs(53,157): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.39
+
+
+WritePatch: Compile failed.
+DifferentialEvolutionTest
+
+Finished WritePatch cycle step.
+2025-02-23 5:03:19 PM
+DifferentialEvolutionTest
+
+WritePatch Started CycleStep. 2025-02-23 5:03:19 PM
+DifferentialEvolutionTest
+
+WritePatch ran compiler. 2025-02-23 5:04:37 PM
+DifferentialEvolutionTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DifferentialEvolution -> D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolution\bin\Debug\net9.0\DifferentialEvolution.dll
+D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionAlgorithmTests.cs(53,119): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj]
+D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionAlgorithmTests.cs(53,125): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj]
+D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionAlgorithmTests.cs(53,157): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj]
+  DifferentialEvolutionTest -> D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\bin\Debug\net9.0\DifferentialEvolutionTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionAlgorithmTests.cs(53,119): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj]
+D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionAlgorithmTests.cs(53,125): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj]
+D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionAlgorithmTests.cs(53,157): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.72
+
+
+WritePatch: Compile failed.
+DifferentialEvolutionTest
+
+Finished WritePatch cycle step.
+2025-02-23 5:04:39 PM
+DifferentialEvolutionTest
+
+WritePatch Started CycleStep. 2025-02-23 5:04:39 PM
+DifferentialEvolutionTest
+
+WritePatch ran compiler. 2025-02-23 5:05:42 PM
+DifferentialEvolutionTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DifferentialEvolution -> D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolution\bin\Debug\net9.0\DifferentialEvolution.dll
+  DifferentialEvolutionTest -> D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\bin\Debug\net9.0\DifferentialEvolutionTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.46
+
+
+WritePatch: Code is not Complete.
+DifferentialEvolutionTest
+
+Finished WritePatch cycle step.
+2025-02-23 5:06:03 PM
+DifferentialEvolutionTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DifferentialEvolution -> D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolution\bin\Debug\net9.0\DifferentialEvolution.dll
+  DifferentialEvolutionTest -> D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\bin\Debug\net9.0\DifferentialEvolutionTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.46
+
+</CompilerResponse>
+2025-02-23 5:06:04 PM
+DifferentialEvolutionTest
+
+WritePatch ran compiler. 2025-02-23 5:06:07 PM
+DifferentialEvolution
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DifferentialEvolution -> D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolution\bin\Debug\net9.0\DifferentialEvolution.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.83
+
+
+WritePatch: Code is Complete.
+DifferentialEvolution
+
+WritePatch ran compiler. 2025-02-23 5:06:23 PM
+DifferentialEvolutionTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DifferentialEvolution -> D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolution\bin\Debug\net9.0\DifferentialEvolution.dll
+  DifferentialEvolutionTest -> D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\bin\Debug\net9.0\DifferentialEvolutionTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.18
+
+
+WritePatch: Code is Complete.
+DifferentialEvolutionTest
+
+TestResult:
+[OUTPUT 2025-02-23 5:06:48 PM]   Passed TestOptimizeFindsApproximateOptimum [16 ms]
+[OUTPUT 2025-02-23 5:06:47 PM] Test Parallelization enabled for D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\bin\Debug\net9.0\DifferentialEvolutionTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 5:06:45 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 5:06:44 PM] Test run for D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\bin\Debug\net9.0\DifferentialEvolutionTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 5:06:43 PM]   DifferentialEvolutionTest -> D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\bin\Debug\net9.0\DifferentialEvolutionTest.dll
+[OUTPUT 2025-02-23 5:06:43 PM]   DifferentialEvolution -> D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolution\bin\Debug\net9.0\DifferentialEvolution.dll
+[OUTPUT 2025-02-23 5:06:42 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 5:06:46 PM] D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\bin\Debug\net9.0\DifferentialEvolutionTest.dll
+[OUTPUT 2025-02-23 5:06:46 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 5:06:45 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 5:06:42 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 5:06:47 PM] All tests passed successfully.
+[INFO 2025-02-23 5:06:47 PM] Test process completed. Duration: 6.37 seconds.
+[INFO 2025-02-23 5:06:47 PM] Process exited with code 0.
+[INFO 2025-02-23 5:06:40 PM] Command: dotnet test "D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 5:06:40 PM] Starting test for project: D:\Code2025\RavenWork\DifferentialEvolution\DifferentialEvolutionTest\DifferentialEvolutionTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
