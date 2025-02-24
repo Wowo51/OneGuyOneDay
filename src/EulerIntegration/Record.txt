@@ -1,0 +1,146 @@
+<ActRecord>
+  <ProjectName>EulerIntegration</ProjectName>
+  <ProjectDescription>Euler integration – A straightforward method for numerically integrating ordinary differential equations.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Euler integration – A straightforward method for numerically integrating ordinary differential equations.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\EulerIntegration</SolutionFolderPath>
+  <ProjectFolderName>EulerIntegration</ProjectFolderName>
+  <ProjectName>EulerIntegration</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:42:58 PM
+EulerIntegration</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 12:43:38 PM
+EulerIntegration</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:44:06 PM
+EulerIntegration</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 12:44:48 PM
+EulerIntegration</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:44:58 PM
+EulerIntegration</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:45:37 PM
+EulerIntegration</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EulerIntegration -> D:\Code2025\RavenWork\EulerIntegration\EulerIntegration\bin\Debug\net9.0\EulerIntegration.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.99
+]]></string>
+    <string>WritePatch: Code is Complete.
+EulerIntegration</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:46:33 PM
+EulerIntegrationTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:47:26 PM
+EulerIntegrationTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\EulerIntegration\EulerIntegrationTest\EulerIntegrationTest.csproj (in 232 ms).
+  1 of 2 projects are up-to-date for restore.
+  EulerIntegration -> D:\Code2025\RavenWork\EulerIntegration\EulerIntegration\bin\Debug\net9.0\EulerIntegration.dll
+  EulerIntegrationTest -> D:\Code2025\RavenWork\EulerIntegration\EulerIntegrationTest\bin\Debug\net9.0\EulerIntegrationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.70
+]]></string>
+    <string>WritePatch: Code is Complete.
+EulerIntegrationTest</string>
+    <string>[INFO 2025-02-23 12:48:01 PM] Starting test for project: D:\Code2025\RavenWork\EulerIntegration\EulerIntegrationTest\EulerIntegrationTest.csproj</string>
+    <string>[INFO 2025-02-23 12:48:01 PM] Starting test for project: D:\Code2025\RavenWork\EulerIntegration\EulerIntegrationTest\EulerIntegrationTest.csproj</string>
+    <string>[INFO 2025-02-23 12:48:01 PM] Starting test for project: D:\Code2025\RavenWork\EulerIntegration\EulerIntegrationTest\EulerIntegrationTest.csproj</string>
+    <string>[INFO 2025-02-23 12:48:01 PM] Starting test for project: D:\Code2025\RavenWork\EulerIntegration\EulerIntegrationTest\EulerIntegrationTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 12:48:20 PM]   All projects are up-to-date for restore.
+[SUCCESS 2025-02-23 12:48:14 PM] All tests passed successfully.
+[INFO 2025-02-23 12:48:14 PM] Test process completed. Duration: 12.42 seconds.
+[INFO 2025-02-23 12:48:14 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 12:48:11 PM]   Determining projects to restore...
+[INFO 2025-02-23 12:48:01 PM] Command: dotnet test "D:\Code2025\RavenWork\EulerIntegration\EulerIntegrationTest\EulerIntegrationTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 12:48:01 PM] Starting test for project: D:\Code2025\RavenWork\EulerIntegration\EulerIntegrationTest\EulerIntegrationTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 12:42:58 PM
+EulerIntegration
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 12:43:38 PM
+EulerIntegration
+
+WritePatch Started CycleStep. 2025-02-23 12:44:06 PM
+EulerIntegration
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 12:44:48 PM
+EulerIntegration
+
+WritePatch Started CycleStep. 2025-02-23 12:44:58 PM
+EulerIntegration
+
+WritePatch ran compiler. 2025-02-23 12:45:37 PM
+EulerIntegration
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EulerIntegration -> D:\Code2025\RavenWork\EulerIntegration\EulerIntegration\bin\Debug\net9.0\EulerIntegration.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.99
+
+
+WritePatch: Code is Complete.
+EulerIntegration
+
+WritePatch Started CycleStep. 2025-02-23 12:46:33 PM
+EulerIntegrationTest
+
+WritePatch ran compiler. 2025-02-23 12:47:26 PM
+EulerIntegrationTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\EulerIntegration\EulerIntegrationTest\EulerIntegrationTest.csproj (in 232 ms).
+  1 of 2 projects are up-to-date for restore.
+  EulerIntegration -> D:\Code2025\RavenWork\EulerIntegration\EulerIntegration\bin\Debug\net9.0\EulerIntegration.dll
+  EulerIntegrationTest -> D:\Code2025\RavenWork\EulerIntegration\EulerIntegrationTest\bin\Debug\net9.0\EulerIntegrationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.70
+
+
+WritePatch: Code is Complete.
+EulerIntegrationTest
+
+TestResult:
+[OUTPUT 2025-02-23 12:48:20 PM]   All projects are up-to-date for restore.
+[SUCCESS 2025-02-23 12:48:14 PM] All tests passed successfully.
+[INFO 2025-02-23 12:48:14 PM] Test process completed. Duration: 12.42 seconds.
+[INFO 2025-02-23 12:48:14 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 12:48:11 PM]   Determining projects to restore...
+[INFO 2025-02-23 12:48:01 PM] Command: dotnet test "D:\Code2025\RavenWork\EulerIntegration\EulerIntegrationTest\EulerIntegrationTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 12:48:01 PM] Starting test for project: D:\Code2025\RavenWork\EulerIntegration\EulerIntegrationTest\EulerIntegrationTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
