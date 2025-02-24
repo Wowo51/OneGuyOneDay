@@ -1,0 +1,528 @@
+<ActRecord>
+  <ProjectName>HashJoin</ProjectName>
+  <ProjectDescription>Hash join</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Hash join</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\HashJoin</SolutionFolderPath>
+  <ProjectFolderName>HashJoin</ProjectFolderName>
+  <ProjectName>HashJoin</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:06:56 AM
+HashJoin</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:08:26 AM
+HashJoin</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoinAlgorithm.cs(15,24): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoin.csproj]
+D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoinAlgorithm.cs(15,71): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoin.csproj]
+D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoinAlgorithm.cs(19,54): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoin.csproj]
+D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoinAlgorithm.cs(31,53): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoin.csproj]
+  HashJoin -> D:\Code2025\RavenWork\HashJoin\HashJoin\bin\Debug\net9.0\HashJoin.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoinAlgorithm.cs(15,24): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoin.csproj]
+D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoinAlgorithm.cs(15,71): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoin.csproj]
+D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoinAlgorithm.cs(19,54): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoin.csproj]
+D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoinAlgorithm.cs(31,53): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoin.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.03
+]]></string>
+    <string>WritePatch: Compile failed.
+HashJoin</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:08:27 AM
+HashJoin</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:08:27 AM
+HashJoin</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 8:09:57 AM
+HashJoin</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:09:58 AM
+HashJoin</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:11:16 AM
+HashJoin</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoinAlgorithm.cs(20,54): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoin.csproj]
+D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoinAlgorithm.cs(32,53): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoin.csproj]
+  HashJoin -> D:\Code2025\RavenWork\HashJoin\HashJoin\bin\Debug\net9.0\HashJoin.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoinAlgorithm.cs(20,54): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoin.csproj]
+D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoinAlgorithm.cs(32,53): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoin.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.76
+]]></string>
+    <string>WritePatch: Compile failed.
+HashJoin</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:11:16 AM
+HashJoin</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\HashJoin\HashJoin
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoinAlgorithm.cs(20,54): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoin.csproj]
+D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoinAlgorithm.cs(32,53): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoin.csproj]
+  HashJoin -> D:\Code2025\RavenWork\HashJoin\HashJoin\bin\Debug\net9.0\HashJoin.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoinAlgorithm.cs(20,54): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoin.csproj]
+D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoinAlgorithm.cs(32,53): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoin.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.76
+
+</CompilerResponse>
+2025-02-23 8:11:17 AM
+HashJoin]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 8:11:18 AM
+HashJoin</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HashJoin -> D:\Code2025\RavenWork\HashJoin\HashJoin\bin\Debug\net9.0\HashJoin.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.72
+]]></string>
+    <string>WritePatch: Code is Complete.
+HashJoin</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:11:32 AM
+HashJoinTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:13:18 AM
+HashJoinTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinTest.csproj (in 183 ms).
+  1 of 2 projects are up-to-date for restore.
+  HashJoin -> D:\Code2025\RavenWork\HashJoin\HashJoin\bin\Debug\net9.0\HashJoin.dll
+D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinAlgorithmTests.cs(110,124): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinTest.csproj]
+D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinAlgorithmTests.cs(112,131): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinTest.csproj]
+D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinAlgorithmTests.cs(114,140): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinTest.csproj]
+D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinAlgorithmTests.cs(116,155): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinTest.csproj]
+D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinAlgorithmTests.cs(118,167): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinTest.csproj]
+  HashJoinTest -> D:\Code2025\RavenWork\HashJoin\HashJoinTest\bin\Debug\net9.0\HashJoinTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinAlgorithmTests.cs(110,124): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinTest.csproj]
+D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinAlgorithmTests.cs(112,131): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinTest.csproj]
+D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinAlgorithmTests.cs(114,140): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinTest.csproj]
+D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinAlgorithmTests.cs(116,155): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinTest.csproj]
+D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinAlgorithmTests.cs(118,167): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinTest.csproj]
+    5 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.31
+]]></string>
+    <string>WritePatch: Compile failed.
+HashJoinTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:13:19 AM
+HashJoinTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:13:19 AM
+HashJoinTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 8:13:55 AM
+HashJoinTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:13:55 AM
+HashJoinTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:14:21 AM
+HashJoinTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HashJoin -> D:\Code2025\RavenWork\HashJoin\HashJoin\bin\Debug\net9.0\HashJoin.dll
+  HashJoinTest -> D:\Code2025\RavenWork\HashJoin\HashJoinTest\bin\Debug\net9.0\HashJoinTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.04
+]]></string>
+    <string>WritePatch: Code is not Complete.
+HashJoinTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:14:44 AM
+HashJoinTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\HashJoin\HashJoinTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HashJoin -> D:\Code2025\RavenWork\HashJoin\HashJoin\bin\Debug\net9.0\HashJoin.dll
+  HashJoinTest -> D:\Code2025\RavenWork\HashJoin\HashJoinTest\bin\Debug\net9.0\HashJoinTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.04
+
+</CompilerResponse>
+2025-02-23 8:14:44 AM
+HashJoinTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 8:14:45 AM
+HashJoin</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HashJoin -> D:\Code2025\RavenWork\HashJoin\HashJoin\bin\Debug\net9.0\HashJoin.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.68
+]]></string>
+    <string>WritePatch: Code is Complete.
+HashJoin</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:15:23 AM
+HashJoinTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HashJoin -> D:\Code2025\RavenWork\HashJoin\HashJoin\bin\Debug\net9.0\HashJoin.dll
+  HashJoinTest -> D:\Code2025\RavenWork\HashJoin\HashJoinTest\bin\Debug\net9.0\HashJoinTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.86
+]]></string>
+    <string>WritePatch: Code is Complete.
+HashJoinTest</string>
+    <string>[INFO 2025-02-23 8:16:24 AM] Starting test for project: D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinTest.csproj</string>
+    <string>[INFO 2025-02-23 8:16:24 AM] Starting test for project: D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinTest.csproj</string>
+    <string>[INFO 2025-02-23 8:16:24 AM] Starting test for project: D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinTest.csproj</string>
+    <string>[INFO 2025-02-23 8:16:24 AM] Starting test for project: D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinTest.csproj</string>
+    <string>[INFO 2025-02-23 8:16:24 AM] Starting test for project: D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinTest.csproj</string>
+    <string>[INFO 2025-02-23 8:16:24 AM] Starting test for project: D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinTest.csproj</string>
+    <string>[INFO 2025-02-23 8:16:24 AM] Starting test for project: D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinTest.csproj</string>
+    <string>[INFO 2025-02-23 8:16:24 AM] Starting test for project: D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinTest.csproj</string>
+    <string>[INFO 2025-02-23 8:16:24 AM] Starting test for project: D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinTest.csproj</string>
+    <string>[INFO 2025-02-23 8:16:24 AM] Starting test for project: D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinTest.csproj</string>
+    <string>[INFO 2025-02-23 8:16:24 AM] Starting test for project: D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 8:16:28 AM] All tests passed successfully.
+[INFO 2025-02-23 8:16:28 AM] Test process completed. Duration: 3.03 seconds.
+[INFO 2025-02-23 8:16:28 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 8:16:28 AM] D:\Code2025\RavenWork\HashJoin\HashJoinTest\bin\Debug\net9.0\HashJoinTest.dll
+[OUTPUT 2025-02-23 8:16:27 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 8:16:27 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:16:27 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:16:26 AM] Test run for D:\Code2025\RavenWork\HashJoin\HashJoinTest\bin\Debug\net9.0\HashJoinTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:16:26 AM]   HashJoinTest -> D:\Code2025\RavenWork\HashJoin\HashJoinTest\bin\Debug\net9.0\HashJoinTest.dll
+[OUTPUT 2025-02-23 8:16:26 AM]   HashJoin -> D:\Code2025\RavenWork\HashJoin\HashJoin\bin\Debug\net9.0\HashJoin.dll
+[OUTPUT 2025-02-23 8:16:26 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:16:25 AM]   Determining projects to restore...
+[INFO 2025-02-23 8:16:24 AM] Command: dotnet test "D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:16:24 AM] Starting test for project: D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 8:06:56 AM
+HashJoin
+
+WritePatch ran compiler. 2025-02-23 8:08:26 AM
+HashJoin
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoinAlgorithm.cs(15,24): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoin.csproj]
+D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoinAlgorithm.cs(15,71): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoin.csproj]
+D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoinAlgorithm.cs(19,54): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoin.csproj]
+D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoinAlgorithm.cs(31,53): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoin.csproj]
+  HashJoin -> D:\Code2025\RavenWork\HashJoin\HashJoin\bin\Debug\net9.0\HashJoin.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoinAlgorithm.cs(15,24): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoin.csproj]
+D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoinAlgorithm.cs(15,71): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoin.csproj]
+D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoinAlgorithm.cs(19,54): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoin.csproj]
+D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoinAlgorithm.cs(31,53): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoin.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.03
+
+
+WritePatch: Compile failed.
+HashJoin
+
+Finished WritePatch cycle step.
+2025-02-23 8:08:27 AM
+HashJoin
+
+WritePatch Started CycleStep. 2025-02-23 8:08:27 AM
+HashJoin
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 8:09:57 AM
+HashJoin
+
+WritePatch Started CycleStep. 2025-02-23 8:09:58 AM
+HashJoin
+
+WritePatch ran compiler. 2025-02-23 8:11:16 AM
+HashJoin
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoinAlgorithm.cs(20,54): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoin.csproj]
+D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoinAlgorithm.cs(32,53): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoin.csproj]
+  HashJoin -> D:\Code2025\RavenWork\HashJoin\HashJoin\bin\Debug\net9.0\HashJoin.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoinAlgorithm.cs(20,54): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoin.csproj]
+D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoinAlgorithm.cs(32,53): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoin.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.76
+
+
+WritePatch: Compile failed.
+HashJoin
+
+Finished WritePatch cycle step.
+2025-02-23 8:11:16 AM
+HashJoin
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\HashJoin\HashJoin
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoinAlgorithm.cs(20,54): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoin.csproj]
+D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoinAlgorithm.cs(32,53): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoin.csproj]
+  HashJoin -> D:\Code2025\RavenWork\HashJoin\HashJoin\bin\Debug\net9.0\HashJoin.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoinAlgorithm.cs(20,54): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoin.csproj]
+D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoinAlgorithm.cs(32,53): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashJoin\HashJoin\HashJoin.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.76
+
+</CompilerResponse>
+2025-02-23 8:11:17 AM
+HashJoin
+
+WritePatch ran compiler. 2025-02-23 8:11:18 AM
+HashJoin
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HashJoin -> D:\Code2025\RavenWork\HashJoin\HashJoin\bin\Debug\net9.0\HashJoin.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.72
+
+
+WritePatch: Code is Complete.
+HashJoin
+
+WritePatch Started CycleStep. 2025-02-23 8:11:32 AM
+HashJoinTest
+
+WritePatch ran compiler. 2025-02-23 8:13:18 AM
+HashJoinTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinTest.csproj (in 183 ms).
+  1 of 2 projects are up-to-date for restore.
+  HashJoin -> D:\Code2025\RavenWork\HashJoin\HashJoin\bin\Debug\net9.0\HashJoin.dll
+D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinAlgorithmTests.cs(110,124): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinTest.csproj]
+D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinAlgorithmTests.cs(112,131): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinTest.csproj]
+D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinAlgorithmTests.cs(114,140): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinTest.csproj]
+D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinAlgorithmTests.cs(116,155): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinTest.csproj]
+D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinAlgorithmTests.cs(118,167): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinTest.csproj]
+  HashJoinTest -> D:\Code2025\RavenWork\HashJoin\HashJoinTest\bin\Debug\net9.0\HashJoinTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinAlgorithmTests.cs(110,124): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinTest.csproj]
+D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinAlgorithmTests.cs(112,131): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinTest.csproj]
+D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinAlgorithmTests.cs(114,140): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinTest.csproj]
+D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinAlgorithmTests.cs(116,155): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinTest.csproj]
+D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinAlgorithmTests.cs(118,167): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinTest.csproj]
+    5 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.31
+
+
+WritePatch: Compile failed.
+HashJoinTest
+
+Finished WritePatch cycle step.
+2025-02-23 8:13:19 AM
+HashJoinTest
+
+WritePatch Started CycleStep. 2025-02-23 8:13:19 AM
+HashJoinTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 8:13:55 AM
+HashJoinTest
+
+WritePatch Started CycleStep. 2025-02-23 8:13:55 AM
+HashJoinTest
+
+WritePatch ran compiler. 2025-02-23 8:14:21 AM
+HashJoinTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HashJoin -> D:\Code2025\RavenWork\HashJoin\HashJoin\bin\Debug\net9.0\HashJoin.dll
+  HashJoinTest -> D:\Code2025\RavenWork\HashJoin\HashJoinTest\bin\Debug\net9.0\HashJoinTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.04
+
+
+WritePatch: Code is not Complete.
+HashJoinTest
+
+Finished WritePatch cycle step.
+2025-02-23 8:14:44 AM
+HashJoinTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\HashJoin\HashJoinTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HashJoin -> D:\Code2025\RavenWork\HashJoin\HashJoin\bin\Debug\net9.0\HashJoin.dll
+  HashJoinTest -> D:\Code2025\RavenWork\HashJoin\HashJoinTest\bin\Debug\net9.0\HashJoinTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.04
+
+</CompilerResponse>
+2025-02-23 8:14:44 AM
+HashJoinTest
+
+WritePatch ran compiler. 2025-02-23 8:14:45 AM
+HashJoin
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HashJoin -> D:\Code2025\RavenWork\HashJoin\HashJoin\bin\Debug\net9.0\HashJoin.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.68
+
+
+WritePatch: Code is Complete.
+HashJoin
+
+WritePatch ran compiler. 2025-02-23 8:15:23 AM
+HashJoinTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HashJoin -> D:\Code2025\RavenWork\HashJoin\HashJoin\bin\Debug\net9.0\HashJoin.dll
+  HashJoinTest -> D:\Code2025\RavenWork\HashJoin\HashJoinTest\bin\Debug\net9.0\HashJoinTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.86
+
+
+WritePatch: Code is Complete.
+HashJoinTest
+
+TestResult:
+[SUCCESS 2025-02-23 8:16:28 AM] All tests passed successfully.
+[INFO 2025-02-23 8:16:28 AM] Test process completed. Duration: 3.03 seconds.
+[INFO 2025-02-23 8:16:28 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 8:16:28 AM] D:\Code2025\RavenWork\HashJoin\HashJoinTest\bin\Debug\net9.0\HashJoinTest.dll
+[OUTPUT 2025-02-23 8:16:27 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 8:16:27 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:16:27 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:16:26 AM] Test run for D:\Code2025\RavenWork\HashJoin\HashJoinTest\bin\Debug\net9.0\HashJoinTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:16:26 AM]   HashJoinTest -> D:\Code2025\RavenWork\HashJoin\HashJoinTest\bin\Debug\net9.0\HashJoinTest.dll
+[OUTPUT 2025-02-23 8:16:26 AM]   HashJoin -> D:\Code2025\RavenWork\HashJoin\HashJoin\bin\Debug\net9.0\HashJoin.dll
+[OUTPUT 2025-02-23 8:16:26 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:16:25 AM]   Determining projects to restore...
+[INFO 2025-02-23 8:16:24 AM] Command: dotnet test "D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:16:24 AM] Starting test for project: D:\Code2025\RavenWork\HashJoin\HashJoinTest\HashJoinTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
