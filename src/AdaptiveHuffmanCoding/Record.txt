@@ -1,0 +1,340 @@
+<ActRecord>
+  <ProjectName>AdaptiveHuffmanCoding</ProjectName>
+  <ProjectDescription>Adaptive Huffman coding: An adaptive variant of Huffman coding</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Adaptive Huffman coding: An adaptive variant of Huffman coding</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\AdaptiveHuffmanCoding</SolutionFolderPath>
+  <ProjectFolderName>AdaptiveHuffmanCoding</ProjectFolderName>
+  <ProjectName>AdaptiveHuffmanCoding</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:26:44 AM
+AdaptiveHuffmanCoding</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:27:54 AM
+AdaptiveHuffmanCoding</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(12,36): warning CS8618: Non-nullable field 'Left' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(13,36): warning CS8618: Non-nullable field 'Right' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(14,36): warning CS8618: Non-nullable field 'Parent' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(48,52): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(82,52): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(132,45): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(146,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+  AdaptiveHuffmanCoding -> D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\bin\Debug\net9.0\AdaptiveHuffmanCoding.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(12,36): warning CS8618: Non-nullable field 'Left' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(13,36): warning CS8618: Non-nullable field 'Right' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(14,36): warning CS8618: Non-nullable field 'Parent' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(48,52): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(82,52): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(132,45): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(146,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+    7 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.96
+]]></string>
+    <string>WritePatch: Compile failed.
+AdaptiveHuffmanCoding</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:27:54 AM
+AdaptiveHuffmanCoding</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:27:54 AM
+AdaptiveHuffmanCoding</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 11:28:54 AM
+AdaptiveHuffmanCoding</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:28:55 AM
+AdaptiveHuffmanCoding</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:29:52 AM
+AdaptiveHuffmanCoding</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(48,52): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(82,52): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+  AdaptiveHuffmanCoding -> D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\bin\Debug\net9.0\AdaptiveHuffmanCoding.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(48,52): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(82,52): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+]]></string>
+    <string>WritePatch: Compile failed.
+AdaptiveHuffmanCoding</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:29:53 AM
+AdaptiveHuffmanCoding</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(48,52): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(82,52): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+  AdaptiveHuffmanCoding -> D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\bin\Debug\net9.0\AdaptiveHuffmanCoding.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(48,52): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(82,52): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+
+</CompilerResponse>
+2025-02-23 11:29:54 AM
+AdaptiveHuffmanCoding]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 11:29:55 AM
+AdaptiveHuffmanCoding</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AdaptiveHuffmanCoding -> D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\bin\Debug\net9.0\AdaptiveHuffmanCoding.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.86
+]]></string>
+    <string>WritePatch: Code is Complete.
+AdaptiveHuffmanCoding</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:30:47 AM
+AdaptiveHuffmanCodingTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:31:15 AM
+AdaptiveHuffmanCodingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCodingTest\AdaptiveHuffmanCodingTest.csproj (in 224 ms).
+  1 of 2 projects are up-to-date for restore.
+  AdaptiveHuffmanCoding -> D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\bin\Debug\net9.0\AdaptiveHuffmanCoding.dll
+  AdaptiveHuffmanCodingTest -> D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCodingTest\bin\Debug\net9.0\AdaptiveHuffmanCodingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.54
+]]></string>
+    <string>WritePatch: Code is Complete.
+AdaptiveHuffmanCodingTest</string>
+    <string>[INFO 2025-02-23 11:31:51 AM] Starting test for project: D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCodingTest\AdaptiveHuffmanCodingTest.csproj</string>
+    <string>[INFO 2025-02-23 11:31:51 AM] Starting test for project: D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCodingTest\AdaptiveHuffmanCodingTest.csproj</string>
+    <string>[INFO 2025-02-23 11:31:51 AM] Starting test for project: D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCodingTest\AdaptiveHuffmanCodingTest.csproj</string>
+    <string>[INFO 2025-02-23 11:31:51 AM] Starting test for project: D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCodingTest\AdaptiveHuffmanCodingTest.csproj</string>
+    <string>[INFO 2025-02-23 11:31:51 AM] Starting test for project: D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCodingTest\AdaptiveHuffmanCodingTest.csproj</string>
+    <string>[INFO 2025-02-23 11:31:51 AM] Starting test for project: D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCodingTest\AdaptiveHuffmanCodingTest.csproj</string>
+    <string>[INFO 2025-02-23 11:31:51 AM] Starting test for project: D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCodingTest\AdaptiveHuffmanCodingTest.csproj</string>
+    <string>[INFO 2025-02-23 11:31:51 AM] Starting test for project: D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCodingTest\AdaptiveHuffmanCodingTest.csproj</string>
+    <string>[INFO 2025-02-23 11:31:51 AM] Starting test for project: D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCodingTest\AdaptiveHuffmanCodingTest.csproj</string>
+    <string>[INFO 2025-02-23 11:31:51 AM] Starting test for project: D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCodingTest\AdaptiveHuffmanCodingTest.csproj</string>
+    <string>[INFO 2025-02-23 11:31:51 AM] Starting test for project: D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCodingTest\AdaptiveHuffmanCodingTest.csproj</string>
+    <string>[INFO 2025-02-23 11:31:51 AM] Starting test for project: D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCodingTest\AdaptiveHuffmanCodingTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 11:31:55 AM] All tests passed successfully.
+[INFO 2025-02-23 11:31:55 AM] Test process completed. Duration: 3.45 seconds.
+[INFO 2025-02-23 11:31:55 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 11:31:54 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:31:53 AM] Test run for D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCodingTest\bin\Debug\net9.0\AdaptiveHuffmanCodingTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:31:53 AM]   AdaptiveHuffmanCodingTest -> D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCodingTest\bin\Debug\net9.0\AdaptiveHuffmanCodingTest.dll
+[OUTPUT 2025-02-23 11:31:52 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:31:55 AM] Test Parallelization enabled for D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCodingTest\bin\Debug\net9.0\AdaptiveHuffmanCodingTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 11:31:55 AM] D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCodingTest\bin\Debug\net9.0\AdaptiveHuffmanCodingTest.dll
+[OUTPUT 2025-02-23 11:31:54 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:31:54 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:31:53 AM]   AdaptiveHuffmanCoding -> D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\bin\Debug\net9.0\AdaptiveHuffmanCoding.dll
+[OUTPUT 2025-02-23 11:31:52 AM]   Determining projects to restore...
+[INFO 2025-02-23 11:31:51 AM] Command: dotnet test "D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCodingTest\AdaptiveHuffmanCodingTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:31:51 AM] Starting test for project: D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCodingTest\AdaptiveHuffmanCodingTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 11:26:44 AM
+AdaptiveHuffmanCoding
+
+WritePatch ran compiler. 2025-02-23 11:27:54 AM
+AdaptiveHuffmanCoding
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(12,36): warning CS8618: Non-nullable field 'Left' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(13,36): warning CS8618: Non-nullable field 'Right' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(14,36): warning CS8618: Non-nullable field 'Parent' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(48,52): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(82,52): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(132,45): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(146,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+  AdaptiveHuffmanCoding -> D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\bin\Debug\net9.0\AdaptiveHuffmanCoding.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(12,36): warning CS8618: Non-nullable field 'Left' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(13,36): warning CS8618: Non-nullable field 'Right' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(14,36): warning CS8618: Non-nullable field 'Parent' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(48,52): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(82,52): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(132,45): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(146,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+    7 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.96
+
+
+WritePatch: Compile failed.
+AdaptiveHuffmanCoding
+
+Finished WritePatch cycle step.
+2025-02-23 11:27:54 AM
+AdaptiveHuffmanCoding
+
+WritePatch Started CycleStep. 2025-02-23 11:27:54 AM
+AdaptiveHuffmanCoding
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 11:28:54 AM
+AdaptiveHuffmanCoding
+
+WritePatch Started CycleStep. 2025-02-23 11:28:55 AM
+AdaptiveHuffmanCoding
+
+WritePatch ran compiler. 2025-02-23 11:29:52 AM
+AdaptiveHuffmanCoding
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(48,52): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(82,52): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+  AdaptiveHuffmanCoding -> D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\bin\Debug\net9.0\AdaptiveHuffmanCoding.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(48,52): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(82,52): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+
+
+WritePatch: Compile failed.
+AdaptiveHuffmanCoding
+
+Finished WritePatch cycle step.
+2025-02-23 11:29:53 AM
+AdaptiveHuffmanCoding
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(48,52): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(82,52): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+  AdaptiveHuffmanCoding -> D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\bin\Debug\net9.0\AdaptiveHuffmanCoding.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(48,52): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanTree.cs(82,52): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+
+</CompilerResponse>
+2025-02-23 11:29:54 AM
+AdaptiveHuffmanCoding
+
+WritePatch ran compiler. 2025-02-23 11:29:55 AM
+AdaptiveHuffmanCoding
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AdaptiveHuffmanCoding -> D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\bin\Debug\net9.0\AdaptiveHuffmanCoding.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.86
+
+
+WritePatch: Code is Complete.
+AdaptiveHuffmanCoding
+
+WritePatch Started CycleStep. 2025-02-23 11:30:47 AM
+AdaptiveHuffmanCodingTest
+
+WritePatch ran compiler. 2025-02-23 11:31:15 AM
+AdaptiveHuffmanCodingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCodingTest\AdaptiveHuffmanCodingTest.csproj (in 224 ms).
+  1 of 2 projects are up-to-date for restore.
+  AdaptiveHuffmanCoding -> D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\bin\Debug\net9.0\AdaptiveHuffmanCoding.dll
+  AdaptiveHuffmanCodingTest -> D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCodingTest\bin\Debug\net9.0\AdaptiveHuffmanCodingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.54
+
+
+WritePatch: Code is Complete.
+AdaptiveHuffmanCodingTest
+
+TestResult:
+[SUCCESS 2025-02-23 11:31:55 AM] All tests passed successfully.
+[INFO 2025-02-23 11:31:55 AM] Test process completed. Duration: 3.45 seconds.
+[INFO 2025-02-23 11:31:55 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 11:31:54 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:31:53 AM] Test run for D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCodingTest\bin\Debug\net9.0\AdaptiveHuffmanCodingTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:31:53 AM]   AdaptiveHuffmanCodingTest -> D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCodingTest\bin\Debug\net9.0\AdaptiveHuffmanCodingTest.dll
+[OUTPUT 2025-02-23 11:31:52 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:31:55 AM] Test Parallelization enabled for D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCodingTest\bin\Debug\net9.0\AdaptiveHuffmanCodingTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 11:31:55 AM] D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCodingTest\bin\Debug\net9.0\AdaptiveHuffmanCodingTest.dll
+[OUTPUT 2025-02-23 11:31:54 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:31:54 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:31:53 AM]   AdaptiveHuffmanCoding -> D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCoding\bin\Debug\net9.0\AdaptiveHuffmanCoding.dll
+[OUTPUT 2025-02-23 11:31:52 AM]   Determining projects to restore...
+[INFO 2025-02-23 11:31:51 AM] Command: dotnet test "D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCodingTest\AdaptiveHuffmanCodingTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:31:51 AM] Starting test for project: D:\Code2025\RavenWork\AdaptiveHuffmanCoding\AdaptiveHuffmanCodingTest\AdaptiveHuffmanCodingTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
