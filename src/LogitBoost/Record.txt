@@ -1,0 +1,406 @@
+<ActRecord>
+  <ProjectName>LogitBoost</ProjectName>
+  <ProjectDescription>LogitBoost: Logistic regression boosting</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>LogitBoost: Logistic regression boosting</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\LogitBoost</SolutionFolderPath>
+  <ProjectFolderName>LogitBoost</ProjectFolderName>
+  <ProjectName>LogitBoost</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:39:37 AM
+LogitBoost</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:40:56 AM
+LogitBoost</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LogitBoost -> D:\Code2025\RavenWork\LogitBoost\LogitBoost\bin\Debug\net9.0\LogitBoost.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.09
+]]></string>
+    <string>WritePatch: Code is Complete.
+LogitBoost</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:41:59 AM
+LogitBoostTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:42:33 AM
+LogitBoostTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj (in 275 ms).
+  1 of 2 projects are up-to-date for restore.
+  LogitBoost -> D:\Code2025\RavenWork\LogitBoost\LogitBoost\bin\Debug\net9.0\LogitBoost.dll
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(16,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(16,33): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(17,63): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(25,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+  LogitBoostTest -> D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\bin\Debug\net9.0\LogitBoostTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(16,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(16,33): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(17,63): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(25,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.89
+]]></string>
+    <string>WritePatch: Compile failed.
+LogitBoostTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:42:37 AM
+LogitBoostTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:42:39 AM
+LogitBoostTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:43:35 AM
+LogitBoostTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LogitBoost -> D:\Code2025\RavenWork\LogitBoost\LogitBoost\bin\Debug\net9.0\LogitBoost.dll
+  LogitBoostTest -> D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\bin\Debug\net9.0\LogitBoostTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.21
+]]></string>
+    <string>WritePatch: Code is not Complete.
+LogitBoostTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:43:58 AM
+LogitBoostTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:43:59 AM
+LogitBoostTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:44:47 AM
+LogitBoostTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LogitBoost -> D:\Code2025\RavenWork\LogitBoost\LogitBoost\bin\Debug\net9.0\LogitBoost.dll
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(16,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(16,33): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(17,63): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(25,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+  LogitBoostTest -> D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\bin\Debug\net9.0\LogitBoostTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(16,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(16,33): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(17,63): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(25,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.36
+]]></string>
+    <string>WritePatch: Compile failed.
+LogitBoostTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:44:52 AM
+LogitBoostTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LogitBoost -> D:\Code2025\RavenWork\LogitBoost\LogitBoost\bin\Debug\net9.0\LogitBoost.dll
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(16,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(16,33): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(17,63): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(25,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+  LogitBoostTest -> D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\bin\Debug\net9.0\LogitBoostTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(16,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(16,33): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(17,63): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(25,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.36
+
+</CompilerResponse>
+2025-02-23 11:44:53 AM
+LogitBoostTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 11:44:56 AM
+LogitBoost</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LogitBoost -> D:\Code2025\RavenWork\LogitBoost\LogitBoost\bin\Debug\net9.0\LogitBoost.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+]]></string>
+    <string>WritePatch: Code is Complete.
+LogitBoost</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:45:26 AM
+LogitBoostTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LogitBoost -> D:\Code2025\RavenWork\LogitBoost\LogitBoost\bin\Debug\net9.0\LogitBoost.dll
+  LogitBoostTest -> D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\bin\Debug\net9.0\LogitBoostTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.21
+]]></string>
+    <string>WritePatch: Code is Complete.
+LogitBoostTest</string>
+    <string>[INFO 2025-02-23 11:45:49 AM] Starting test for project: D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj</string>
+    <string>[INFO 2025-02-23 11:45:49 AM] Starting test for project: D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj</string>
+    <string>[INFO 2025-02-23 11:45:49 AM] Starting test for project: D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj</string>
+    <string>[INFO 2025-02-23 11:45:49 AM] Starting test for project: D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj</string>
+    <string>[INFO 2025-02-23 11:45:49 AM] Starting test for project: D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj</string>
+    <string>[INFO 2025-02-23 11:45:49 AM] Starting test for project: D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 11:45:54 AM] All tests passed successfully.
+[INFO 2025-02-23 11:45:54 AM] Test process completed. Duration: 4.72 seconds.
+[INFO 2025-02-23 11:45:54 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 11:45:55 AM]   LogitBoostTest -> D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\bin\Debug\net9.0\LogitBoostTest.dll
+[OUTPUT 2025-02-23 11:45:53 AM]   LogitBoost -> D:\Code2025\RavenWork\LogitBoost\LogitBoost\bin\Debug\net9.0\LogitBoost.dll
+[OUTPUT 2025-02-23 11:45:52 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:45:51 AM]   Determining projects to restore...
+[INFO 2025-02-23 11:45:49 AM] Command: dotnet test "D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:45:49 AM] Starting test for project: D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 11:39:37 AM
+LogitBoost
+
+WritePatch ran compiler. 2025-02-23 11:40:56 AM
+LogitBoost
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LogitBoost -> D:\Code2025\RavenWork\LogitBoost\LogitBoost\bin\Debug\net9.0\LogitBoost.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.09
+
+
+WritePatch: Code is Complete.
+LogitBoost
+
+WritePatch Started CycleStep. 2025-02-23 11:41:59 AM
+LogitBoostTest
+
+WritePatch ran compiler. 2025-02-23 11:42:33 AM
+LogitBoostTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj (in 275 ms).
+  1 of 2 projects are up-to-date for restore.
+  LogitBoost -> D:\Code2025\RavenWork\LogitBoost\LogitBoost\bin\Debug\net9.0\LogitBoost.dll
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(16,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(16,33): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(17,63): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(25,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+  LogitBoostTest -> D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\bin\Debug\net9.0\LogitBoostTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(16,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(16,33): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(17,63): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(25,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.89
+
+
+WritePatch: Compile failed.
+LogitBoostTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:42:37 AM
+LogitBoostTest
+
+WritePatch Started CycleStep. 2025-02-23 11:42:39 AM
+LogitBoostTest
+
+WritePatch ran compiler. 2025-02-23 11:43:35 AM
+LogitBoostTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LogitBoost -> D:\Code2025\RavenWork\LogitBoost\LogitBoost\bin\Debug\net9.0\LogitBoost.dll
+  LogitBoostTest -> D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\bin\Debug\net9.0\LogitBoostTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.21
+
+
+WritePatch: Code is not Complete.
+LogitBoostTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:43:58 AM
+LogitBoostTest
+
+WritePatch Started CycleStep. 2025-02-23 11:43:59 AM
+LogitBoostTest
+
+WritePatch ran compiler. 2025-02-23 11:44:47 AM
+LogitBoostTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LogitBoost -> D:\Code2025\RavenWork\LogitBoost\LogitBoost\bin\Debug\net9.0\LogitBoost.dll
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(16,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(16,33): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(17,63): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(25,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+  LogitBoostTest -> D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\bin\Debug\net9.0\LogitBoostTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(16,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(16,33): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(17,63): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(25,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.36
+
+
+WritePatch: Compile failed.
+LogitBoostTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:44:52 AM
+LogitBoostTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LogitBoost -> D:\Code2025\RavenWork\LogitBoost\LogitBoost\bin\Debug\net9.0\LogitBoost.dll
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(16,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(16,33): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(17,63): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(25,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+  LogitBoostTest -> D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\bin\Debug\net9.0\LogitBoostTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(16,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(16,33): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(17,63): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTests.cs(25,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.36
+
+</CompilerResponse>
+2025-02-23 11:44:53 AM
+LogitBoostTest
+
+WritePatch ran compiler. 2025-02-23 11:44:56 AM
+LogitBoost
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LogitBoost -> D:\Code2025\RavenWork\LogitBoost\LogitBoost\bin\Debug\net9.0\LogitBoost.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+
+
+WritePatch: Code is Complete.
+LogitBoost
+
+WritePatch ran compiler. 2025-02-23 11:45:26 AM
+LogitBoostTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LogitBoost -> D:\Code2025\RavenWork\LogitBoost\LogitBoost\bin\Debug\net9.0\LogitBoost.dll
+  LogitBoostTest -> D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\bin\Debug\net9.0\LogitBoostTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.21
+
+
+WritePatch: Code is Complete.
+LogitBoostTest
+
+TestResult:
+[SUCCESS 2025-02-23 11:45:54 AM] All tests passed successfully.
+[INFO 2025-02-23 11:45:54 AM] Test process completed. Duration: 4.72 seconds.
+[INFO 2025-02-23 11:45:54 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 11:45:55 AM]   LogitBoostTest -> D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\bin\Debug\net9.0\LogitBoostTest.dll
+[OUTPUT 2025-02-23 11:45:53 AM]   LogitBoost -> D:\Code2025\RavenWork\LogitBoost\LogitBoost\bin\Debug\net9.0\LogitBoost.dll
+[OUTPUT 2025-02-23 11:45:52 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:45:51 AM]   Determining projects to restore...
+[INFO 2025-02-23 11:45:49 AM] Command: dotnet test "D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:45:49 AM] Starting test for project: D:\Code2025\RavenWork\LogitBoost\LogitBoostTest\LogitBoostTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
