@@ -1,0 +1,180 @@
+<ActRecord>
+  <ProjectName>MultivariateDivisionAlgorithm</ProjectName>
+  <ProjectDescription>Multivariate division algorithm – Divides polynomials in several indeterminates.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Multivariate division algorithm – Divides polynomials in several indeterminates.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\MultivariateDivisionAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>MultivariateDivisionAlgorithm</ProjectFolderName>
+  <ProjectName>MultivariateDivisionAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:55:47 PM
+MultivariateDivisionAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:58:01 PM
+MultivariateDivisionAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithm\DivisionAlgorithm.cs(33,115): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithm.csproj]
+D:\Code2025\RavenWork\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithm\Polynomial.cs(228,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithm.csproj]
+  MultivariateDivisionAlgorithm -> D:\Code2025\RavenWork\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithm\bin\Debug\net9.0\MultivariateDivisionAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithm\DivisionAlgorithm.cs(33,115): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithm.csproj]
+D:\Code2025\RavenWork\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithm\Polynomial.cs(228,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithm.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.18
+]]></string>
+    <string>WritePatch: Compile failed.
+MultivariateDivisionAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 12:58:53 PM
+MultivariateDivisionAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:59:16 PM
+MultivariateDivisionAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:00:48 PM
+MultivariateDivisionAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  MultivariateDivisionAlgorithm -> D:\Code2025\RavenWork\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithm\bin\Debug\net9.0\MultivariateDivisionAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.96
+]]></string>
+    <string>WritePatch: Code is Complete.
+MultivariateDivisionAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:02:35 PM
+MultivariateDivisionAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:04:05 PM
+MultivariateDivisionAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithmTest\MultivariateDivisionAlgorithmTest.csproj (in 222 ms).
+  1 of 2 projects are up-to-date for restore.
+  MultivariateDivisionAlgorithm -> D:\Code2025\RavenWork\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithm\bin\Debug\net9.0\MultivariateDivisionAlgorithm.dll
+  MultivariateDivisionAlgorithmTest -> D:\Code2025\RavenWork\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithmTest\bin\Debug\net9.0\MultivariateDivisionAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.60
+]]></string>
+    <string>WritePatch: Code is Complete.
+MultivariateDivisionAlgorithmTest</string>
+    <string>[INFO 2025-02-23 1:05:25 PM] Starting test for project: D:\Code2025\RavenWork\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithmTest\MultivariateDivisionAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:05:25 PM] Starting test for project: D:\Code2025\RavenWork\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithmTest\MultivariateDivisionAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:05:25 PM] Starting test for project: D:\Code2025\RavenWork\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithmTest\MultivariateDivisionAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 1:05:38 PM] All tests passed successfully.
+[INFO 2025-02-23 1:05:38 PM] Test process completed. Duration: 12.34 seconds.
+[INFO 2025-02-23 1:05:38 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 1:05:35 PM]   Determining projects to restore...
+[INFO 2025-02-23 1:05:25 PM] Command: dotnet test "D:\Code2025\RavenWork\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithmTest\MultivariateDivisionAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:05:25 PM] Starting test for project: D:\Code2025\RavenWork\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithmTest\MultivariateDivisionAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 12:55:47 PM
+MultivariateDivisionAlgorithm
+
+WritePatch ran compiler. 2025-02-23 12:58:01 PM
+MultivariateDivisionAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithm\DivisionAlgorithm.cs(33,115): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithm.csproj]
+D:\Code2025\RavenWork\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithm\Polynomial.cs(228,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithm.csproj]
+  MultivariateDivisionAlgorithm -> D:\Code2025\RavenWork\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithm\bin\Debug\net9.0\MultivariateDivisionAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithm\DivisionAlgorithm.cs(33,115): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithm.csproj]
+D:\Code2025\RavenWork\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithm\Polynomial.cs(228,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithm.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.18
+
+
+WritePatch: Compile failed.
+MultivariateDivisionAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 12:58:53 PM
+MultivariateDivisionAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 12:59:16 PM
+MultivariateDivisionAlgorithm
+
+WritePatch ran compiler. 2025-02-23 1:00:48 PM
+MultivariateDivisionAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  MultivariateDivisionAlgorithm -> D:\Code2025\RavenWork\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithm\bin\Debug\net9.0\MultivariateDivisionAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.96
+
+
+WritePatch: Code is Complete.
+MultivariateDivisionAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 1:02:35 PM
+MultivariateDivisionAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 1:04:05 PM
+MultivariateDivisionAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithmTest\MultivariateDivisionAlgorithmTest.csproj (in 222 ms).
+  1 of 2 projects are up-to-date for restore.
+  MultivariateDivisionAlgorithm -> D:\Code2025\RavenWork\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithm\bin\Debug\net9.0\MultivariateDivisionAlgorithm.dll
+  MultivariateDivisionAlgorithmTest -> D:\Code2025\RavenWork\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithmTest\bin\Debug\net9.0\MultivariateDivisionAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.60
+
+
+WritePatch: Code is Complete.
+MultivariateDivisionAlgorithmTest
+
+TestResult:
+[SUCCESS 2025-02-23 1:05:38 PM] All tests passed successfully.
+[INFO 2025-02-23 1:05:38 PM] Test process completed. Duration: 12.34 seconds.
+[INFO 2025-02-23 1:05:38 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 1:05:35 PM]   Determining projects to restore...
+[INFO 2025-02-23 1:05:25 PM] Command: dotnet test "D:\Code2025\RavenWork\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithmTest\MultivariateDivisionAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:05:25 PM] Starting test for project: D:\Code2025\RavenWork\MultivariateDivisionAlgorithm\MultivariateDivisionAlgorithmTest\MultivariateDivisionAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
