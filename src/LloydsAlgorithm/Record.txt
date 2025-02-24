@@ -1,0 +1,392 @@
+<ActRecord>
+  <ProjectName>LloydsAlgorithm</ProjectName>
+  <ProjectDescription><![CDATA[Lloyd's algorithm (Voronoi iteration or relaxation): Groups data points into a given number of categories (a popular method for k‑means clustering)]]></ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification><![CDATA[Lloyd's algorithm (Voronoi iteration or relaxation): Groups data points into a given number of categories (a popular method for k‑means clustering)]]]]><![CDATA[></WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\LloydsAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>LloydsAlgorithm</ProjectFolderName>
+  <ProjectName>LloydsAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:24:20 AM
+LloydsAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:25:11 AM
+LloydsAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LloydsAlgorithm -> D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithm\bin\Debug\net9.0\LloydsAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.16
+]]></string>
+    <string>WritePatch: Code is Complete.
+LloydsAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:25:32 AM
+LloydsAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:26:07 AM
+LloydsAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\LloydsAlgorithmTest.csproj (in 297 ms).
+  1 of 2 projects are up-to-date for restore.
+  LloydsAlgorithm -> D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithm\bin\Debug\net9.0\LloydsAlgorithm.dll
+D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\KMeansTests.cs(14,37): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\LloydsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\KMeansTests.cs(15,50): warning CS8604: Possible null reference argument for parameter 'points' in 'KMeansResult KMeans.Cluster(List<double[]> points, int k, int maxIterations)'. [D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\LloydsAlgorithmTest.csproj]
+  LloydsAlgorithmTest -> D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\bin\Debug\net9.0\LloydsAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\KMeansTests.cs(14,37): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\LloydsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\KMeansTests.cs(15,50): warning CS8604: Possible null reference argument for parameter 'points' in 'KMeansResult KMeans.Cluster(List<double[]> points, int k, int maxIterations)'. [D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\LloydsAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.32
+]]></string>
+    <string>WritePatch: Compile failed.
+LloydsAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:26:08 AM
+LloydsAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:26:08 AM
+LloydsAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:27:12 AM
+LloydsAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LloydsAlgorithm -> D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithm\bin\Debug\net9.0\LloydsAlgorithm.dll
+D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\KMeansTests.cs(15,50): warning CS8604: Possible null reference argument for parameter 'points' in 'KMeansResult KMeans.Cluster(List<double[]> points, int k, int maxIterations)'. [D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\LloydsAlgorithmTest.csproj]
+  LloydsAlgorithmTest -> D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\bin\Debug\net9.0\LloydsAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\KMeansTests.cs(15,50): warning CS8604: Possible null reference argument for parameter 'points' in 'KMeansResult KMeans.Cluster(List<double[]> points, int k, int maxIterations)'. [D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\LloydsAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.62
+]]></string>
+    <string>WritePatch: Compile failed.
+LloydsAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:27:12 AM
+LloydsAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:27:13 AM
+LloydsAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:27:52 AM
+LloydsAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LloydsAlgorithm -> D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithm\bin\Debug\net9.0\LloydsAlgorithm.dll
+  LloydsAlgorithmTest -> D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\bin\Debug\net9.0\LloydsAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.15
+]]></string>
+    <string>WritePatch: Code is not Complete.
+LloydsAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:28:19 AM
+LloydsAlgorithmTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LloydsAlgorithm -> D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithm\bin\Debug\net9.0\LloydsAlgorithm.dll
+  LloydsAlgorithmTest -> D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\bin\Debug\net9.0\LloydsAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.15
+
+</CompilerResponse>
+2025-02-23 9:28:19 AM
+LloydsAlgorithmTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 9:28:21 AM
+LloydsAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LloydsAlgorithm -> D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithm\bin\Debug\net9.0\LloydsAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+]]></string>
+    <string>WritePatch: Code is Complete.
+LloydsAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:28:43 AM
+LloydsAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LloydsAlgorithm -> D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithm\bin\Debug\net9.0\LloydsAlgorithm.dll
+  LloydsAlgorithmTest -> D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\bin\Debug\net9.0\LloydsAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.22
+]]></string>
+    <string>WritePatch: Code is Complete.
+LloydsAlgorithmTest</string>
+    <string>[INFO 2025-02-23 9:29:06 AM] Starting test for project: D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\LloydsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:29:06 AM] Starting test for project: D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\LloydsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:29:06 AM] Starting test for project: D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\LloydsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:29:06 AM] Starting test for project: D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\LloydsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:29:06 AM] Starting test for project: D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\LloydsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:29:06 AM] Starting test for project: D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\LloydsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:29:06 AM] Starting test for project: D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\LloydsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:29:06 AM] Starting test for project: D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\LloydsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:29:06 AM] Starting test for project: D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\LloydsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:29:06 AM] Starting test for project: D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\LloydsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:29:06 AM] Starting test for project: D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\LloydsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:29:06 AM] Starting test for project: D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\LloydsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:29:06 AM] Starting test for project: D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\LloydsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 9:29:06 AM] Starting test for project: D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\LloydsAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 9:29:11 AM] All tests passed successfully.
+[INFO 2025-02-23 9:29:11 AM] Test process completed. Duration: 4.99 seconds.
+[INFO 2025-02-23 9:29:11 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 9:29:11 AM]   Passed TestLargeDatasetClustering [11 ms]
+[OUTPUT 2025-02-23 9:29:11 AM]   Passed TestSimpleClustering [8 ms]
+[OUTPUT 2025-02-23 9:29:10 AM] Test Parallelization enabled for D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\bin\Debug\net9.0\LloydsAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 9:29:08 AM]   LloydsAlgorithm -> D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithm\bin\Debug\net9.0\LloydsAlgorithm.dll
+[OUTPUT 2025-02-23 9:29:07 AM]   Determining projects to restore...
+[OUTPUT 2025-02-23 9:29:09 AM] D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\bin\Debug\net9.0\LloydsAlgorithmTest.dll
+[OUTPUT 2025-02-23 9:29:09 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 9:29:09 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 9:29:08 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 9:29:08 AM] Test run for D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\bin\Debug\net9.0\LloydsAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 9:29:08 AM]   LloydsAlgorithmTest -> D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\bin\Debug\net9.0\LloydsAlgorithmTest.dll
+[OUTPUT 2025-02-23 9:29:07 AM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 9:29:06 AM] Command: dotnet test "D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\LloydsAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 9:29:06 AM] Starting test for project: D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\LloydsAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 9:24:20 AM
+LloydsAlgorithm
+
+WritePatch ran compiler. 2025-02-23 9:25:11 AM
+LloydsAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LloydsAlgorithm -> D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithm\bin\Debug\net9.0\LloydsAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.16
+
+
+WritePatch: Code is Complete.
+LloydsAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 9:25:32 AM
+LloydsAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 9:26:07 AM
+LloydsAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\LloydsAlgorithmTest.csproj (in 297 ms).
+  1 of 2 projects are up-to-date for restore.
+  LloydsAlgorithm -> D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithm\bin\Debug\net9.0\LloydsAlgorithm.dll
+D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\KMeansTests.cs(14,37): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\LloydsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\KMeansTests.cs(15,50): warning CS8604: Possible null reference argument for parameter 'points' in 'KMeansResult KMeans.Cluster(List<double[]> points, int k, int maxIterations)'. [D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\LloydsAlgorithmTest.csproj]
+  LloydsAlgorithmTest -> D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\bin\Debug\net9.0\LloydsAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\KMeansTests.cs(14,37): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\LloydsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\KMeansTests.cs(15,50): warning CS8604: Possible null reference argument for parameter 'points' in 'KMeansResult KMeans.Cluster(List<double[]> points, int k, int maxIterations)'. [D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\LloydsAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.32
+
+
+WritePatch: Compile failed.
+LloydsAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:26:08 AM
+LloydsAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 9:26:08 AM
+LloydsAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 9:27:12 AM
+LloydsAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LloydsAlgorithm -> D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithm\bin\Debug\net9.0\LloydsAlgorithm.dll
+D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\KMeansTests.cs(15,50): warning CS8604: Possible null reference argument for parameter 'points' in 'KMeansResult KMeans.Cluster(List<double[]> points, int k, int maxIterations)'. [D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\LloydsAlgorithmTest.csproj]
+  LloydsAlgorithmTest -> D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\bin\Debug\net9.0\LloydsAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\KMeansTests.cs(15,50): warning CS8604: Possible null reference argument for parameter 'points' in 'KMeansResult KMeans.Cluster(List<double[]> points, int k, int maxIterations)'. [D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\LloydsAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.62
+
+
+WritePatch: Compile failed.
+LloydsAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:27:12 AM
+LloydsAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 9:27:13 AM
+LloydsAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 9:27:52 AM
+LloydsAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LloydsAlgorithm -> D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithm\bin\Debug\net9.0\LloydsAlgorithm.dll
+  LloydsAlgorithmTest -> D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\bin\Debug\net9.0\LloydsAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.15
+
+
+WritePatch: Code is not Complete.
+LloydsAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:28:19 AM
+LloydsAlgorithmTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LloydsAlgorithm -> D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithm\bin\Debug\net9.0\LloydsAlgorithm.dll
+  LloydsAlgorithmTest -> D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\bin\Debug\net9.0\LloydsAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.15
+
+</CompilerResponse>
+2025-02-23 9:28:19 AM
+LloydsAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 9:28:21 AM
+LloydsAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LloydsAlgorithm -> D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithm\bin\Debug\net9.0\LloydsAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+
+
+WritePatch: Code is Complete.
+LloydsAlgorithm
+
+WritePatch ran compiler. 2025-02-23 9:28:43 AM
+LloydsAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LloydsAlgorithm -> D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithm\bin\Debug\net9.0\LloydsAlgorithm.dll
+  LloydsAlgorithmTest -> D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\bin\Debug\net9.0\LloydsAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.22
+
+
+WritePatch: Code is Complete.
+LloydsAlgorithmTest
+
+TestResult:
+[SUCCESS 2025-02-23 9:29:11 AM] All tests passed successfully.
+[INFO 2025-02-23 9:29:11 AM] Test process completed. Duration: 4.99 seconds.
+[INFO 2025-02-23 9:29:11 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 9:29:11 AM]   Passed TestLargeDatasetClustering [11 ms]
+[OUTPUT 2025-02-23 9:29:11 AM]   Passed TestSimpleClustering [8 ms]
+[OUTPUT 2025-02-23 9:29:10 AM] Test Parallelization enabled for D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\bin\Debug\net9.0\LloydsAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 9:29:08 AM]   LloydsAlgorithm -> D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithm\bin\Debug\net9.0\LloydsAlgorithm.dll
+[OUTPUT 2025-02-23 9:29:07 AM]   Determining projects to restore...
+[OUTPUT 2025-02-23 9:29:09 AM] D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\bin\Debug\net9.0\LloydsAlgorithmTest.dll
+[OUTPUT 2025-02-23 9:29:09 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 9:29:09 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 9:29:08 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 9:29:08 AM] Test run for D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\bin\Debug\net9.0\LloydsAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 9:29:08 AM]   LloydsAlgorithmTest -> D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\bin\Debug\net9.0\LloydsAlgorithmTest.dll
+[OUTPUT 2025-02-23 9:29:07 AM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 9:29:06 AM] Command: dotnet test "D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\LloydsAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 9:29:06 AM] Starting test for project: D:\Code2025\RavenWork\LloydsAlgorithm\LloydsAlgorithmTest\LloydsAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
