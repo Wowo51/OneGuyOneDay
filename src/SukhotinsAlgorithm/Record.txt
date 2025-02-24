@@ -1,0 +1,519 @@
+<ActRecord>
+  <ProjectName>SukhotinsAlgorithm</ProjectName>
+  <ProjectDescription><![CDATA[Sukhotin's algorithm – A statistical algorithm for classifying characters in text as vowels or consonants.]]></ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification><![CDATA[Sukhotin's algorithm – A statistical algorithm for classifying characters in text as vowels or consonants.]]]]><![CDATA[></WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\SukhotinsAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>SukhotinsAlgorithm</ProjectFolderName>
+  <ProjectName>SukhotinsAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:28:55 PM
+SukhotinsAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:31:05 PM
+SukhotinsAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithm\Program.cs(11,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithm\SukhotinsAlgorithm.csproj]
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithm\Program.cs(12,71): warning CS8604: Possible null reference argument for parameter 'text' in 'ClassificationResult SukhotinsAlgorithm.Classify(string text)'. [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithm\SukhotinsAlgorithm.csproj]
+  SukhotinsAlgorithm -> D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithm\bin\Debug\net9.0\SukhotinsAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithm\Program.cs(11,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithm\SukhotinsAlgorithm.csproj]
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithm\Program.cs(12,71): warning CS8604: Possible null reference argument for parameter 'text' in 'ClassificationResult SukhotinsAlgorithm.Classify(string text)'. [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithm\SukhotinsAlgorithm.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.85
+]]></string>
+    <string>WritePatch: Compile failed.
+SukhotinsAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 4:31:06 PM
+SukhotinsAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:31:07 PM
+SukhotinsAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:32:10 PM
+SukhotinsAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SukhotinsAlgorithm -> D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithm\bin\Debug\net9.0\SukhotinsAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.89
+]]></string>
+    <string>WritePatch: Code is not Complete.
+SukhotinsAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 4:32:22 PM
+SukhotinsAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:32:22 PM
+SukhotinsAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:33:57 PM
+SukhotinsAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SukhotinsAlgorithm -> D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithm\bin\Debug\net9.0\SukhotinsAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.66
+]]></string>
+    <string>WritePatch: Code is Complete.
+SukhotinsAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:34:15 PM
+SukhotinsAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:35:36 PM
+SukhotinsAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj (in 549 ms).
+  1 of 2 projects are up-to-date for restore.
+  SukhotinsAlgorithm -> D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithm\bin\Debug\net9.0\SukhotinsAlgorithm.dll
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTests.cs(16,43): error CS0234: The type or namespace name 'Classify' does not exist in the namespace 'SukhotinsAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTests.cs(25,43): error CS0234: The type or namespace name 'Classify' does not exist in the namespace 'SukhotinsAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTests.cs(35,43): error CS0234: The type or namespace name 'Classify' does not exist in the namespace 'SukhotinsAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTests.cs(44,43): error CS0234: The type or namespace name 'Classify' does not exist in the namespace 'SukhotinsAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTests.cs(53,43): error CS0234: The type or namespace name 'Classify' does not exist in the namespace 'SukhotinsAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTests.cs(62,43): error CS0234: The type or namespace name 'Classify' does not exist in the namespace 'SukhotinsAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTests.cs(81,43): error CS0234: The type or namespace name 'Classify' does not exist in the namespace 'SukhotinsAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTests.cs(16,43): error CS0234: The type or namespace name 'Classify' does not exist in the namespace 'SukhotinsAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTests.cs(25,43): error CS0234: The type or namespace name 'Classify' does not exist in the namespace 'SukhotinsAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTests.cs(35,43): error CS0234: The type or namespace name 'Classify' does not exist in the namespace 'SukhotinsAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTests.cs(44,43): error CS0234: The type or namespace name 'Classify' does not exist in the namespace 'SukhotinsAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTests.cs(53,43): error CS0234: The type or namespace name 'Classify' does not exist in the namespace 'SukhotinsAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTests.cs(62,43): error CS0234: The type or namespace name 'Classify' does not exist in the namespace 'SukhotinsAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTests.cs(81,43): error CS0234: The type or namespace name 'Classify' does not exist in the namespace 'SukhotinsAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj]
+    0 Warning(s)
+    7 Error(s)
+
+Time Elapsed 00:00:03.44
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+SukhotinsAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 4:35:37 PM
+SukhotinsAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:35:37 PM
+SukhotinsAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:36:38 PM
+SukhotinsAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SukhotinsAlgorithm -> D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithm\bin\Debug\net9.0\SukhotinsAlgorithm.dll
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTests.cs(25,90): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj]
+  SukhotinsAlgorithmTest -> D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\bin\Debug\net9.0\SukhotinsAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTests.cs(25,90): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.56
+]]></string>
+    <string>WritePatch: Compile failed.
+SukhotinsAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 4:36:39 PM
+SukhotinsAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:36:39 PM
+SukhotinsAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:37:51 PM
+SukhotinsAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SukhotinsAlgorithm -> D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithm\bin\Debug\net9.0\SukhotinsAlgorithm.dll
+  SukhotinsAlgorithmTest -> D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\bin\Debug\net9.0\SukhotinsAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.45
+]]></string>
+    <string>WritePatch: Code is not Complete.
+SukhotinsAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 4:38:18 PM
+SukhotinsAlgorithmTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SukhotinsAlgorithm -> D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithm\bin\Debug\net9.0\SukhotinsAlgorithm.dll
+  SukhotinsAlgorithmTest -> D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\bin\Debug\net9.0\SukhotinsAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.45
+
+</CompilerResponse>
+2025-02-23 4:38:18 PM
+SukhotinsAlgorithmTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 4:38:21 PM
+SukhotinsAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SukhotinsAlgorithm -> D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithm\bin\Debug\net9.0\SukhotinsAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.92
+]]></string>
+    <string>WritePatch: Code is Complete.
+SukhotinsAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:38:39 PM
+SukhotinsAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SukhotinsAlgorithm -> D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithm\bin\Debug\net9.0\SukhotinsAlgorithm.dll
+  SukhotinsAlgorithmTest -> D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\bin\Debug\net9.0\SukhotinsAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.12
+]]></string>
+    <string>WritePatch: Code is Complete.
+SukhotinsAlgorithmTest</string>
+    <string>[INFO 2025-02-23 4:39:02 PM] Starting test for project: D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 4:39:02 PM] Starting test for project: D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 4:39:02 PM] Starting test for project: D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 4:39:02 PM] Starting test for project: D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 4:39:02 PM] Starting test for project: D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 4:39:02 PM] Starting test for project: D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 4:39:02 PM] Starting test for project: D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 4:39:02 PM] Starting test for project: D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 4:39:02 PM] Starting test for project: D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 4:39:02 PM] Starting test for project: D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 4:39:02 PM] Starting test for project: D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 4:39:02 PM] Starting test for project: D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 4:39:10 PM]   Passed TestEmptyInput [11 ms]
+[OUTPUT 2025-02-23 4:39:09 PM] Test Parallelization enabled for D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\bin\Debug\net9.0\SukhotinsAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 4:39:08 PM] D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\bin\Debug\net9.0\SukhotinsAlgorithmTest.dll
+[OUTPUT 2025-02-23 4:39:07 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 4:39:07 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 4:39:06 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 4:39:06 PM] Test run for D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\bin\Debug\net9.0\SukhotinsAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 4:39:05 PM]   SukhotinsAlgorithmTest -> D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\bin\Debug\net9.0\SukhotinsAlgorithmTest.dll
+[OUTPUT 2025-02-23 4:39:05 PM]   SukhotinsAlgorithm -> D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithm\bin\Debug\net9.0\SukhotinsAlgorithm.dll
+[OUTPUT 2025-02-23 4:39:04 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 4:39:03 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 4:39:09 PM] All tests passed successfully.
+[INFO 2025-02-23 4:39:09 PM] Test process completed. Duration: 7.82 seconds.
+[INFO 2025-02-23 4:39:09 PM] Process exited with code 0.
+[INFO 2025-02-23 4:39:02 PM] Command: dotnet test "D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 4:39:02 PM] Starting test for project: D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj]]></string>
+    <string>[INFO 2025-02-23 4:39:02 PM] Starting test for project: D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj</string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 4:28:55 PM
+SukhotinsAlgorithm
+
+WritePatch ran compiler. 2025-02-23 4:31:05 PM
+SukhotinsAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithm\Program.cs(11,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithm\SukhotinsAlgorithm.csproj]
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithm\Program.cs(12,71): warning CS8604: Possible null reference argument for parameter 'text' in 'ClassificationResult SukhotinsAlgorithm.Classify(string text)'. [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithm\SukhotinsAlgorithm.csproj]
+  SukhotinsAlgorithm -> D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithm\bin\Debug\net9.0\SukhotinsAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithm\Program.cs(11,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithm\SukhotinsAlgorithm.csproj]
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithm\Program.cs(12,71): warning CS8604: Possible null reference argument for parameter 'text' in 'ClassificationResult SukhotinsAlgorithm.Classify(string text)'. [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithm\SukhotinsAlgorithm.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.85
+
+
+WritePatch: Compile failed.
+SukhotinsAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 4:31:06 PM
+SukhotinsAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 4:31:07 PM
+SukhotinsAlgorithm
+
+WritePatch ran compiler. 2025-02-23 4:32:10 PM
+SukhotinsAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SukhotinsAlgorithm -> D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithm\bin\Debug\net9.0\SukhotinsAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.89
+
+
+WritePatch: Code is not Complete.
+SukhotinsAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 4:32:22 PM
+SukhotinsAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 4:32:22 PM
+SukhotinsAlgorithm
+
+WritePatch ran compiler. 2025-02-23 4:33:57 PM
+SukhotinsAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SukhotinsAlgorithm -> D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithm\bin\Debug\net9.0\SukhotinsAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.66
+
+
+WritePatch: Code is Complete.
+SukhotinsAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 4:34:15 PM
+SukhotinsAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 4:35:36 PM
+SukhotinsAlgorithmTest
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj (in 549 ms).
+  1 of 2 projects are up-to-date for restore.
+  SukhotinsAlgorithm -> D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithm\bin\Debug\net9.0\SukhotinsAlgorithm.dll
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTests.cs(16,43): error CS0234: The type or namespace name 'Classify' does not exist in the namespace 'SukhotinsAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTests.cs(25,43): error CS0234: The type or namespace name 'Classify' does not exist in the namespace 'SukhotinsAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTests.cs(35,43): error CS0234: The type or namespace name 'Classify' does not exist in the namespace 'SukhotinsAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTests.cs(44,43): error CS0234: The type or namespace name 'Classify' does not exist in the namespace 'SukhotinsAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTests.cs(53,43): error CS0234: The type or namespace name 'Classify' does not exist in the namespace 'SukhotinsAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTests.cs(62,43): error CS0234: The type or namespace name 'Classify' does not exist in the namespace 'SukhotinsAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTests.cs(81,43): error CS0234: The type or namespace name 'Classify' does not exist in the namespace 'SukhotinsAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTests.cs(16,43): error CS0234: The type or namespace name 'Classify' does not exist in the namespace 'SukhotinsAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTests.cs(25,43): error CS0234: The type or namespace name 'Classify' does not exist in the namespace 'SukhotinsAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTests.cs(35,43): error CS0234: The type or namespace name 'Classify' does not exist in the namespace 'SukhotinsAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTests.cs(44,43): error CS0234: The type or namespace name 'Classify' does not exist in the namespace 'SukhotinsAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTests.cs(53,43): error CS0234: The type or namespace name 'Classify' does not exist in the namespace 'SukhotinsAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTests.cs(62,43): error CS0234: The type or namespace name 'Classify' does not exist in the namespace 'SukhotinsAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTests.cs(81,43): error CS0234: The type or namespace name 'Classify' does not exist in the namespace 'SukhotinsAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj]
+    0 Warning(s)
+    7 Error(s)
+
+Time Elapsed 00:00:03.44
+
+
+Errors:
+
+WritePatch: Compile failed.
+SukhotinsAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 4:35:37 PM
+SukhotinsAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 4:35:37 PM
+SukhotinsAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 4:36:38 PM
+SukhotinsAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SukhotinsAlgorithm -> D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithm\bin\Debug\net9.0\SukhotinsAlgorithm.dll
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTests.cs(25,90): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj]
+  SukhotinsAlgorithmTest -> D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\bin\Debug\net9.0\SukhotinsAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTests.cs(25,90): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.56
+
+
+WritePatch: Compile failed.
+SukhotinsAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 4:36:39 PM
+SukhotinsAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 4:36:39 PM
+SukhotinsAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 4:37:51 PM
+SukhotinsAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SukhotinsAlgorithm -> D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithm\bin\Debug\net9.0\SukhotinsAlgorithm.dll
+  SukhotinsAlgorithmTest -> D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\bin\Debug\net9.0\SukhotinsAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.45
+
+
+WritePatch: Code is not Complete.
+SukhotinsAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 4:38:18 PM
+SukhotinsAlgorithmTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SukhotinsAlgorithm -> D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithm\bin\Debug\net9.0\SukhotinsAlgorithm.dll
+  SukhotinsAlgorithmTest -> D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\bin\Debug\net9.0\SukhotinsAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.45
+
+</CompilerResponse>
+2025-02-23 4:38:18 PM
+SukhotinsAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 4:38:21 PM
+SukhotinsAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SukhotinsAlgorithm -> D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithm\bin\Debug\net9.0\SukhotinsAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.92
+
+
+WritePatch: Code is Complete.
+SukhotinsAlgorithm
+
+WritePatch ran compiler. 2025-02-23 4:38:39 PM
+SukhotinsAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SukhotinsAlgorithm -> D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithm\bin\Debug\net9.0\SukhotinsAlgorithm.dll
+  SukhotinsAlgorithmTest -> D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\bin\Debug\net9.0\SukhotinsAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.12
+
+
+WritePatch: Code is Complete.
+SukhotinsAlgorithmTest
+
+TestResult:
+[OUTPUT 2025-02-23 4:39:10 PM]   Passed TestEmptyInput [11 ms]
+[OUTPUT 2025-02-23 4:39:09 PM] Test Parallelization enabled for D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\bin\Debug\net9.0\SukhotinsAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 4:39:08 PM] D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\bin\Debug\net9.0\SukhotinsAlgorithmTest.dll
+[OUTPUT 2025-02-23 4:39:07 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 4:39:07 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 4:39:06 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 4:39:06 PM] Test run for D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\bin\Debug\net9.0\SukhotinsAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 4:39:05 PM]   SukhotinsAlgorithmTest -> D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\bin\Debug\net9.0\SukhotinsAlgorithmTest.dll
+[OUTPUT 2025-02-23 4:39:05 PM]   SukhotinsAlgorithm -> D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithm\bin\Debug\net9.0\SukhotinsAlgorithm.dll
+[OUTPUT 2025-02-23 4:39:04 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 4:39:03 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 4:39:09 PM] All tests passed successfully.
+[INFO 2025-02-23 4:39:09 PM] Test process completed. Duration: 7.82 seconds.
+[INFO 2025-02-23 4:39:09 PM] Process exited with code 0.
+[INFO 2025-02-23 4:39:02 PM] Command: dotnet test "D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 4:39:02 PM] Starting test for project: D:\Code2025\RavenWork\SukhotinsAlgorithm\SukhotinsAlgorithmTest\SukhotinsAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
