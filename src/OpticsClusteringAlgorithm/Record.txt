@@ -1,0 +1,706 @@
+<ActRecord>
+  <ProjectName>OpticsClusteringAlgorithm</ProjectName>
+  <ProjectDescription>OPTICS: A density‑based clustering algorithm with a visual evaluation method</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>OPTICS: A density‑based clustering algorithm with a visual evaluation method</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\OpticsClusteringAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>OpticsClusteringAlgorithm</ProjectFolderName>
+  <ProjectName>OpticsClusteringAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:15:11 PM
+OpticsClusteringAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:17:02 PM
+OpticsClusteringAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(32,83): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+  OpticsClusteringAlgorithm -> D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\bin\Debug\net9.0\OpticsClusteringAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(32,83): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.17
+]]></string>
+    <string>WritePatch: Compile failed.
+OpticsClusteringAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 4:17:04 PM
+OpticsClusteringAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:17:04 PM
+OpticsClusteringAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:18:02 PM
+OpticsClusteringAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(29,42): error CS1026: ) expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(29,42): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(30,22): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(33,23): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(35,23): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(38,23): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(45,49): error CS1026: ) expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(45,49): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(46,26): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(49,26): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(51,26): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(54,31): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(54,33): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(54,43): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(56,34): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(59,30): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(59,35): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(59,41): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(59,41): error CS1513: } expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(64,23): error CS1519: Invalid token '(' in class, record, struct, or interface member declaration [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(64,25): error CS1031: Type expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(64,25): error CS8124: Tuple must contain at least two elements. [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(64,25): error CS1026: ) expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(64,25): error CS1519: Invalid token '"</svg>"' in class, record, struct, or interface member declaration [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(64,58): error CS1519: Invalid token '(' in class, record, struct, or interface member declaration [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(64,59): error CS8124: Tuple must contain at least two elements. [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(64,61): error CS1519: Invalid token ';' in class, record, struct, or interface member declaration [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(65,3): error CS1022: Type or namespace definition, or end-of-file expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(29,42): error CS1026: ) expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(29,42): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(30,22): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(33,23): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(35,23): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(38,23): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(45,49): error CS1026: ) expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(45,49): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(46,26): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(49,26): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(51,26): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(54,31): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(54,33): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(54,43): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(56,34): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(59,30): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(59,35): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(59,41): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(59,41): error CS1513: } expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(64,23): error CS1519: Invalid token '(' in class, record, struct, or interface member declaration [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(64,25): error CS1031: Type expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(64,25): error CS8124: Tuple must contain at least two elements. [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(64,25): error CS1026: ) expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(64,25): error CS1519: Invalid token '"</svg>"' in class, record, struct, or interface member declaration [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(64,58): error CS1519: Invalid token '(' in class, record, struct, or interface member declaration [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(64,59): error CS8124: Tuple must contain at least two elements. [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(64,61): error CS1519: Invalid token ';' in class, record, struct, or interface member declaration [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(65,3): error CS1022: Type or namespace definition, or end-of-file expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+    0 Warning(s)
+    28 Error(s)
+
+Time Elapsed 00:00:01.79
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+OpticsClusteringAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 4:18:04 PM
+OpticsClusteringAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:18:04 PM
+OpticsClusteringAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:18:34 PM
+OpticsClusteringAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OpticsClusteringAlgorithm -> D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\bin\Debug\net9.0\OpticsClusteringAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.90
+]]></string>
+    <string>WritePatch: Code is not Complete.
+OpticsClusteringAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 4:18:49 PM
+OpticsClusteringAlgorithm</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OpticsClusteringAlgorithm -> D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\bin\Debug\net9.0\OpticsClusteringAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.90
+
+</CompilerResponse>
+2025-02-23 4:18:50 PM
+OpticsClusteringAlgorithm]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 4:18:52 PM
+OpticsClusteringAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OpticsClusteringAlgorithm -> D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\bin\Debug\net9.0\OpticsClusteringAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.50
+]]></string>
+    <string>WritePatch: Code is Complete.
+OpticsClusteringAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:19:12 PM
+OpticsClusteringAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:19:52 PM
+OpticsClusteringAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj (in 493 ms).
+  1 of 2 projects are up-to-date for restore.
+  OpticsClusteringAlgorithm -> D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\bin\Debug\net9.0\OpticsClusteringAlgorithm.dll
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTests.cs(51,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTests.cs(15,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj]
+  OpticsClusteringAlgorithmTest -> D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\bin\Debug\net9.0\OpticsClusteringAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTests.cs(51,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTests.cs(15,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.99
+]]></string>
+    <string>WritePatch: Compile failed.
+OpticsClusteringAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 4:19:54 PM
+OpticsClusteringAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:19:55 PM
+OpticsClusteringAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:20:44 PM
+OpticsClusteringAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OpticsClusteringAlgorithm -> D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\bin\Debug\net9.0\OpticsClusteringAlgorithm.dll
+  OpticsClusteringAlgorithmTest -> D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\bin\Debug\net9.0\OpticsClusteringAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.79
+]]></string>
+    <string>WritePatch: Code is not Complete.
+OpticsClusteringAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 4:21:00 PM
+OpticsClusteringAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:21:01 PM
+OpticsClusteringAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:21:38 PM
+OpticsClusteringAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OpticsClusteringAlgorithm -> D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\bin\Debug\net9.0\OpticsClusteringAlgorithm.dll
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTests.cs(51,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTests.cs(15,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj]
+  OpticsClusteringAlgorithmTest -> D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\bin\Debug\net9.0\OpticsClusteringAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTests.cs(51,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTests.cs(15,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.15
+]]></string>
+    <string>WritePatch: Compile failed.
+OpticsClusteringAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 4:21:40 PM
+OpticsClusteringAlgorithmTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OpticsClusteringAlgorithm -> D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\bin\Debug\net9.0\OpticsClusteringAlgorithm.dll
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTests.cs(51,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTests.cs(15,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj]
+  OpticsClusteringAlgorithmTest -> D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\bin\Debug\net9.0\OpticsClusteringAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTests.cs(51,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTests.cs(15,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.15
+
+</CompilerResponse>
+2025-02-23 4:21:40 PM
+OpticsClusteringAlgorithmTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 4:21:43 PM
+OpticsClusteringAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OpticsClusteringAlgorithm -> D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\bin\Debug\net9.0\OpticsClusteringAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.54
+]]></string>
+    <string>WritePatch: Code is Complete.
+OpticsClusteringAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:21:57 PM
+OpticsClusteringAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OpticsClusteringAlgorithm -> D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\bin\Debug\net9.0\OpticsClusteringAlgorithm.dll
+  OpticsClusteringAlgorithmTest -> D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\bin\Debug\net9.0\OpticsClusteringAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.98
+]]></string>
+    <string>WritePatch: Code is Complete.
+OpticsClusteringAlgorithmTest</string>
+    <string>[INFO 2025-02-23 4:22:11 PM] Starting test for project: D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 4:22:11 PM] Starting test for project: D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 4:22:11 PM] Starting test for project: D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 4:22:11 PM] Starting test for project: D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 4:22:11 PM] Starting test for project: D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 4:22:11 PM] Starting test for project: D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 4:22:11 PM] Starting test for project: D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 4:22:11 PM] Starting test for project: D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 4:22:11 PM] Starting test for project: D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 4:22:11 PM] Starting test for project: D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 4:22:11 PM] Starting test for project: D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 4:22:11 PM] Starting test for project: D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 4:22:11 PM] Starting test for project: D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 4:22:19 PM]   Passed GenerateReachabilityPlotSvg_NullOrEmpty_ReturnsEmpty [68 ms]
+[SUCCESS 2025-02-23 4:22:19 PM] All tests passed successfully.
+[INFO 2025-02-23 4:22:19 PM] Test process completed. Duration: 8.15 seconds.
+[INFO 2025-02-23 4:22:19 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 4:22:18 PM] Test Parallelization enabled for D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\bin\Debug\net9.0\OpticsClusteringAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 4:22:16 PM] D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\bin\Debug\net9.0\OpticsClusteringAlgorithmTest.dll
+[OUTPUT 2025-02-23 4:22:16 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 4:22:15 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 4:22:13 PM]   OpticsClusteringAlgorithm -> D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\bin\Debug\net9.0\OpticsClusteringAlgorithm.dll
+[OUTPUT 2025-02-23 4:22:12 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 4:22:15 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 4:22:14 PM] Test run for D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\bin\Debug\net9.0\OpticsClusteringAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 4:22:14 PM]   OpticsClusteringAlgorithmTest -> D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\bin\Debug\net9.0\OpticsClusteringAlgorithmTest.dll
+[OUTPUT 2025-02-23 4:22:13 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 4:22:11 PM] Command: dotnet test "D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 4:22:11 PM] Starting test for project: D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 4:15:11 PM
+OpticsClusteringAlgorithm
+
+WritePatch ran compiler. 2025-02-23 4:17:02 PM
+OpticsClusteringAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(32,83): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+  OpticsClusteringAlgorithm -> D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\bin\Debug\net9.0\OpticsClusteringAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(32,83): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.17
+
+
+WritePatch: Compile failed.
+OpticsClusteringAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 4:17:04 PM
+OpticsClusteringAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 4:17:04 PM
+OpticsClusteringAlgorithm
+
+WritePatch ran compiler. 2025-02-23 4:18:02 PM
+OpticsClusteringAlgorithm
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(29,42): error CS1026: ) expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(29,42): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(30,22): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(33,23): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(35,23): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(38,23): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(45,49): error CS1026: ) expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(45,49): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(46,26): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(49,26): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(51,26): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(54,31): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(54,33): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(54,43): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(56,34): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(59,30): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(59,35): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(59,41): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(59,41): error CS1513: } expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(64,23): error CS1519: Invalid token '(' in class, record, struct, or interface member declaration [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(64,25): error CS1031: Type expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(64,25): error CS8124: Tuple must contain at least two elements. [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(64,25): error CS1026: ) expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(64,25): error CS1519: Invalid token '"</svg>"' in class, record, struct, or interface member declaration [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(64,58): error CS1519: Invalid token '(' in class, record, struct, or interface member declaration [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(64,59): error CS8124: Tuple must contain at least two elements. [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(64,61): error CS1519: Invalid token ';' in class, record, struct, or interface member declaration [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(65,3): error CS1022: Type or namespace definition, or end-of-file expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(29,42): error CS1026: ) expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(29,42): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(30,22): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(33,23): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(35,23): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(38,23): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(45,49): error CS1026: ) expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(45,49): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(46,26): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(49,26): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(51,26): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(54,31): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(54,33): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(54,43): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(56,34): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(59,30): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(59,35): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(59,41): error CS1002: ; expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(59,41): error CS1513: } expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(64,23): error CS1519: Invalid token '(' in class, record, struct, or interface member declaration [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(64,25): error CS1031: Type expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(64,25): error CS8124: Tuple must contain at least two elements. [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(64,25): error CS1026: ) expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(64,25): error CS1519: Invalid token '"</svg>"' in class, record, struct, or interface member declaration [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(64,58): error CS1519: Invalid token '(' in class, record, struct, or interface member declaration [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(64,59): error CS8124: Tuple must contain at least two elements. [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(64,61): error CS1519: Invalid token ';' in class, record, struct, or interface member declaration [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\ClusterVisualizer.cs(65,3): error CS1022: Type or namespace definition, or end-of-file expected [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm.csproj]
+    0 Warning(s)
+    28 Error(s)
+
+Time Elapsed 00:00:01.79
+
+
+Errors:
+
+WritePatch: Compile failed.
+OpticsClusteringAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 4:18:04 PM
+OpticsClusteringAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 4:18:04 PM
+OpticsClusteringAlgorithm
+
+WritePatch ran compiler. 2025-02-23 4:18:34 PM
+OpticsClusteringAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OpticsClusteringAlgorithm -> D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\bin\Debug\net9.0\OpticsClusteringAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.90
+
+
+WritePatch: Code is not Complete.
+OpticsClusteringAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 4:18:49 PM
+OpticsClusteringAlgorithm
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OpticsClusteringAlgorithm -> D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\bin\Debug\net9.0\OpticsClusteringAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.90
+
+</CompilerResponse>
+2025-02-23 4:18:50 PM
+OpticsClusteringAlgorithm
+
+WritePatch ran compiler. 2025-02-23 4:18:52 PM
+OpticsClusteringAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OpticsClusteringAlgorithm -> D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\bin\Debug\net9.0\OpticsClusteringAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.50
+
+
+WritePatch: Code is Complete.
+OpticsClusteringAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 4:19:12 PM
+OpticsClusteringAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 4:19:52 PM
+OpticsClusteringAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj (in 493 ms).
+  1 of 2 projects are up-to-date for restore.
+  OpticsClusteringAlgorithm -> D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\bin\Debug\net9.0\OpticsClusteringAlgorithm.dll
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTests.cs(51,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTests.cs(15,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj]
+  OpticsClusteringAlgorithmTest -> D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\bin\Debug\net9.0\OpticsClusteringAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTests.cs(51,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTests.cs(15,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.99
+
+
+WritePatch: Compile failed.
+OpticsClusteringAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 4:19:54 PM
+OpticsClusteringAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 4:19:55 PM
+OpticsClusteringAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 4:20:44 PM
+OpticsClusteringAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OpticsClusteringAlgorithm -> D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\bin\Debug\net9.0\OpticsClusteringAlgorithm.dll
+  OpticsClusteringAlgorithmTest -> D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\bin\Debug\net9.0\OpticsClusteringAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.79
+
+
+WritePatch: Code is not Complete.
+OpticsClusteringAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 4:21:00 PM
+OpticsClusteringAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 4:21:01 PM
+OpticsClusteringAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 4:21:38 PM
+OpticsClusteringAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OpticsClusteringAlgorithm -> D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\bin\Debug\net9.0\OpticsClusteringAlgorithm.dll
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTests.cs(51,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTests.cs(15,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj]
+  OpticsClusteringAlgorithmTest -> D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\bin\Debug\net9.0\OpticsClusteringAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTests.cs(51,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTests.cs(15,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.15
+
+
+WritePatch: Compile failed.
+OpticsClusteringAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 4:21:40 PM
+OpticsClusteringAlgorithmTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OpticsClusteringAlgorithm -> D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\bin\Debug\net9.0\OpticsClusteringAlgorithm.dll
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTests.cs(51,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTests.cs(15,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj]
+  OpticsClusteringAlgorithmTest -> D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\bin\Debug\net9.0\OpticsClusteringAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTests.cs(51,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj]
+D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTests.cs(15,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.15
+
+</CompilerResponse>
+2025-02-23 4:21:40 PM
+OpticsClusteringAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 4:21:43 PM
+OpticsClusteringAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OpticsClusteringAlgorithm -> D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\bin\Debug\net9.0\OpticsClusteringAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.54
+
+
+WritePatch: Code is Complete.
+OpticsClusteringAlgorithm
+
+WritePatch ran compiler. 2025-02-23 4:21:57 PM
+OpticsClusteringAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OpticsClusteringAlgorithm -> D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\bin\Debug\net9.0\OpticsClusteringAlgorithm.dll
+  OpticsClusteringAlgorithmTest -> D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\bin\Debug\net9.0\OpticsClusteringAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.98
+
+
+WritePatch: Code is Complete.
+OpticsClusteringAlgorithmTest
+
+TestResult:
+[OUTPUT 2025-02-23 4:22:19 PM]   Passed GenerateReachabilityPlotSvg_NullOrEmpty_ReturnsEmpty [68 ms]
+[SUCCESS 2025-02-23 4:22:19 PM] All tests passed successfully.
+[INFO 2025-02-23 4:22:19 PM] Test process completed. Duration: 8.15 seconds.
+[INFO 2025-02-23 4:22:19 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 4:22:18 PM] Test Parallelization enabled for D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\bin\Debug\net9.0\OpticsClusteringAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 4:22:16 PM] D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\bin\Debug\net9.0\OpticsClusteringAlgorithmTest.dll
+[OUTPUT 2025-02-23 4:22:16 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 4:22:15 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 4:22:13 PM]   OpticsClusteringAlgorithm -> D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithm\bin\Debug\net9.0\OpticsClusteringAlgorithm.dll
+[OUTPUT 2025-02-23 4:22:12 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 4:22:15 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 4:22:14 PM] Test run for D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\bin\Debug\net9.0\OpticsClusteringAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 4:22:14 PM]   OpticsClusteringAlgorithmTest -> D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\bin\Debug\net9.0\OpticsClusteringAlgorithmTest.dll
+[OUTPUT 2025-02-23 4:22:13 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 4:22:11 PM] Command: dotnet test "D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 4:22:11 PM] Starting test for project: D:\Code2025\RavenWork\OpticsClusteringAlgorithm\OpticsClusteringAlgorithmTest\OpticsClusteringAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
