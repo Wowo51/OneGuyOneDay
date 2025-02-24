@@ -1,0 +1,320 @@
+<ActRecord>
+  <ProjectName>PetersonAlgorithm</ProjectName>
+  <ProjectDescription><![CDATA[Peterson's algorithm: For process synchronization]]></ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification><![CDATA[Peterson's algorithm: For process synchronization]]]]><![CDATA[></WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\PetersonAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>PetersonAlgorithm</ProjectFolderName>
+  <ProjectName>PetersonAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:29:29 PM
+PetersonAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:30:32 PM
+PetersonAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PetersonAlgorithm -> D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithm\bin\Debug\net9.0\PetersonAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+]]></string>
+    <string>WritePatch: Code is Complete.
+PetersonAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:30:42 PM
+PetersonAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:32:10 PM
+PetersonAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\PetersonAlgorithmTest.csproj (in 210 ms).
+  1 of 2 projects are up-to-date for restore.
+  PetersonAlgorithm -> D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithm\bin\Debug\net9.0\PetersonAlgorithm.dll
+  PetersonAlgorithmTest -> D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\bin\Debug\net9.0\PetersonAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.49
+]]></string>
+    <string>WritePatch: Code is Complete.
+PetersonAlgorithmTest</string>
+    <string>[INFO 2025-02-23 1:32:31 PM] Starting test for project: D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\PetersonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:32:31 PM] Starting test for project: D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\PetersonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:32:31 PM] Starting test for project: D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\PetersonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:32:31 PM] Starting test for project: D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\PetersonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:32:31 PM] Starting test for project: D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\PetersonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:32:31 PM] Starting test for project: D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\PetersonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:32:31 PM] Starting test for project: D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\PetersonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:32:31 PM] Starting test for project: D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\PetersonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:32:31 PM] Starting test for project: D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\PetersonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:32:31 PM] Starting test for project: D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\PetersonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:32:31 PM] Starting test for project: D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\PetersonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:32:31 PM] Starting test for project: D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\PetersonAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 1:32:35 PM] D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\bin\Debug\net9.0\PetersonAlgorithmTest.dll
+[OUTPUT 2025-02-23 1:32:34 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 1:32:34 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 1:32:34 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 1:32:34 PM] Test run for D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\bin\Debug\net9.0\PetersonAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 1:32:33 PM]   PetersonAlgorithmTest -> D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\bin\Debug\net9.0\PetersonAlgorithmTest.dll
+[OUTPUT 2025-02-23 1:32:33 PM]   PetersonAlgorithm -> D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithm\bin\Debug\net9.0\PetersonAlgorithm.dll
+[OUTPUT 2025-02-23 1:32:33 PM]   All projects are up-to-date for restore.
+[INFO] Check 'TestResults' folder for more details.
+[LAST OUTPUT] Test Run Failed.
+[LAST OUTPUT] A total of 1 test files matched the specified pattern.
+[LAST OUTPUT] Starting test execution, please wait...
+[LAST OUTPUT] VSTest version 17.12.0 (x64)
+[LAST OUTPUT] Test run for D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\bin\Debug\net9.0\PetersonAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[LAST OUTPUT]   PetersonAlgorithmTest -> D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\bin\Debug\net9.0\PetersonAlgorithmTest.dll
+[LAST OUTPUT]   PetersonAlgorithm -> D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithm\bin\Debug\net9.0\PetersonAlgorithm.dll
+[LAST OUTPUT]   All projects are up-to-date for restore.
+[LAST OUTPUT]   Determining projects to restore...
+[ERROR 2025-02-23 1:32:35 PM] Process exited with code 1. Possible causes:
+[INFO 2025-02-23 1:32:35 PM] Test process completed. Duration: 3.80 seconds.
+[INFO 2025-02-23 1:32:35 PM] Process exited with code 1.
+[OUTPUT 2025-02-23 1:32:32 PM]   Determining projects to restore...
+[ERROR 2025-02-23 1:32:35 PM] Test Run Failed.
+[INFO 2025-02-23 1:32:31 PM] Command: dotnet test "D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\PetersonAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:32:31 PM] Starting test for project: D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\PetersonAlgorithmTest.csproj]]></string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:33:14 PM
+PetersonAlgorithm</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 1:33:53 PM
+PetersonAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:33:53 PM
+PetersonAlgorithm</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 1:34:39 PM
+PetersonAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:34:41 PM
+PetersonAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:35:29 PM
+PetersonAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PetersonAlgorithm -> D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithm\bin\Debug\net9.0\PetersonAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.66
+]]></string>
+    <string>WritePatch: Code is Complete.
+PetersonAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:35:48 PM
+PetersonAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:36:25 PM
+PetersonAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PetersonAlgorithm -> D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithm\bin\Debug\net9.0\PetersonAlgorithm.dll
+  PetersonAlgorithmTest -> D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\bin\Debug\net9.0\PetersonAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.69
+]]></string>
+    <string>WritePatch: Code is Complete.
+PetersonAlgorithmTest</string>
+    <string>[INFO 2025-02-23 1:36:52 PM] Starting test for project: D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\PetersonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:36:52 PM] Starting test for project: D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\PetersonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:36:52 PM] Starting test for project: D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\PetersonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:36:52 PM] Starting test for project: D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\PetersonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:36:52 PM] Starting test for project: D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\PetersonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:36:52 PM] Starting test for project: D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\PetersonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:36:52 PM] Starting test for project: D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\PetersonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:36:52 PM] Starting test for project: D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\PetersonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:36:52 PM] Starting test for project: D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\PetersonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:36:52 PM] Starting test for project: D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\PetersonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:36:52 PM] Starting test for project: D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\PetersonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:36:52 PM] Starting test for project: D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\PetersonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:36:52 PM] Starting test for project: D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\PetersonAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 1:36:56 PM] All tests passed successfully.
+[INFO 2025-02-23 1:36:56 PM] Test process completed. Duration: 3.63 seconds.
+[INFO 2025-02-23 1:36:56 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 1:36:56 PM] D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\bin\Debug\net9.0\PetersonAlgorithmTest.dll
+[OUTPUT 2025-02-23 1:36:55 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 1:36:55 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 1:36:55 PM]   PetersonAlgorithmTest -> D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\bin\Debug\net9.0\PetersonAlgorithmTest.dll
+[OUTPUT 2025-02-23 1:36:54 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:36:56 PM]   Passed TestPetersonLockConcurrency [6 ms]
+[OUTPUT 2025-02-23 1:36:56 PM] Test Parallelization enabled for D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\bin\Debug\net9.0\PetersonAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 1:36:55 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 1:36:55 PM] Test run for D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\bin\Debug\net9.0\PetersonAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 1:36:54 PM]   PetersonAlgorithm -> D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithm\bin\Debug\net9.0\PetersonAlgorithm.dll
+[OUTPUT 2025-02-23 1:36:53 PM]   Determining projects to restore...
+[INFO 2025-02-23 1:36:52 PM] Command: dotnet test "D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\PetersonAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:36:52 PM] Starting test for project: D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\PetersonAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 1:29:29 PM
+PetersonAlgorithm
+
+WritePatch ran compiler. 2025-02-23 1:30:32 PM
+PetersonAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PetersonAlgorithm -> D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithm\bin\Debug\net9.0\PetersonAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+
+
+WritePatch: Code is Complete.
+PetersonAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 1:30:42 PM
+PetersonAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 1:32:10 PM
+PetersonAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\PetersonAlgorithmTest.csproj (in 210 ms).
+  1 of 2 projects are up-to-date for restore.
+  PetersonAlgorithm -> D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithm\bin\Debug\net9.0\PetersonAlgorithm.dll
+  PetersonAlgorithmTest -> D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\bin\Debug\net9.0\PetersonAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.49
+
+
+WritePatch: Code is Complete.
+PetersonAlgorithmTest
+
+TestResult:
+[OUTPUT 2025-02-23 1:32:35 PM] D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\bin\Debug\net9.0\PetersonAlgorithmTest.dll
+[OUTPUT 2025-02-23 1:32:34 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 1:32:34 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 1:32:34 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 1:32:34 PM] Test run for D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\bin\Debug\net9.0\PetersonAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 1:32:33 PM]   PetersonAlgorithmTest -> D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\bin\Debug\net9.0\PetersonAlgorithmTest.dll
+[OUTPUT 2025-02-23 1:32:33 PM]   PetersonAlgorithm -> D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithm\bin\Debug\net9.0\PetersonAlgorithm.dll
+[OUTPUT 2025-02-23 1:32:33 PM]   All projects are up-to-date for restore.
+[INFO] Check 'TestResults' folder for more details.
+[LAST OUTPUT] Test Run Failed.
+[LAST OUTPUT] A total of 1 test files matched the specified pattern.
+[LAST OUTPUT] Starting test execution, please wait...
+[LAST OUTPUT] VSTest version 17.12.0 (x64)
+[LAST OUTPUT] Test run for D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\bin\Debug\net9.0\PetersonAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[LAST OUTPUT]   PetersonAlgorithmTest -> D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\bin\Debug\net9.0\PetersonAlgorithmTest.dll
+[LAST OUTPUT]   PetersonAlgorithm -> D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithm\bin\Debug\net9.0\PetersonAlgorithm.dll
+[LAST OUTPUT]   All projects are up-to-date for restore.
+[LAST OUTPUT]   Determining projects to restore...
+[ERROR 2025-02-23 1:32:35 PM] Process exited with code 1. Possible causes:
+[INFO 2025-02-23 1:32:35 PM] Test process completed. Duration: 3.80 seconds.
+[INFO 2025-02-23 1:32:35 PM] Process exited with code 1.
+[OUTPUT 2025-02-23 1:32:32 PM]   Determining projects to restore...
+[ERROR 2025-02-23 1:32:35 PM] Test Run Failed.
+[INFO 2025-02-23 1:32:31 PM] Command: dotnet test "D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\PetersonAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:32:31 PM] Starting test for project: D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\PetersonAlgorithmTest.csproj
+
+WritePatch Started CycleStep. 2025-02-23 1:33:14 PM
+PetersonAlgorithm
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 1:33:53 PM
+PetersonAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 1:33:53 PM
+PetersonAlgorithm
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 1:34:39 PM
+PetersonAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 1:34:41 PM
+PetersonAlgorithm
+
+WritePatch ran compiler. 2025-02-23 1:35:29 PM
+PetersonAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PetersonAlgorithm -> D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithm\bin\Debug\net9.0\PetersonAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.66
+
+
+WritePatch: Code is Complete.
+PetersonAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 1:35:48 PM
+PetersonAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 1:36:25 PM
+PetersonAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PetersonAlgorithm -> D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithm\bin\Debug\net9.0\PetersonAlgorithm.dll
+  PetersonAlgorithmTest -> D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\bin\Debug\net9.0\PetersonAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.69
+
+
+WritePatch: Code is Complete.
+PetersonAlgorithmTest
+
+TestResult:
+[SUCCESS 2025-02-23 1:36:56 PM] All tests passed successfully.
+[INFO 2025-02-23 1:36:56 PM] Test process completed. Duration: 3.63 seconds.
+[INFO 2025-02-23 1:36:56 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 1:36:56 PM] D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\bin\Debug\net9.0\PetersonAlgorithmTest.dll
+[OUTPUT 2025-02-23 1:36:55 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 1:36:55 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 1:36:55 PM]   PetersonAlgorithmTest -> D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\bin\Debug\net9.0\PetersonAlgorithmTest.dll
+[OUTPUT 2025-02-23 1:36:54 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:36:56 PM]   Passed TestPetersonLockConcurrency [6 ms]
+[OUTPUT 2025-02-23 1:36:56 PM] Test Parallelization enabled for D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\bin\Debug\net9.0\PetersonAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 1:36:55 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 1:36:55 PM] Test run for D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\bin\Debug\net9.0\PetersonAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 1:36:54 PM]   PetersonAlgorithm -> D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithm\bin\Debug\net9.0\PetersonAlgorithm.dll
+[OUTPUT 2025-02-23 1:36:53 PM]   Determining projects to restore...
+[INFO 2025-02-23 1:36:52 PM] Command: dotnet test "D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\PetersonAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:36:52 PM] Starting test for project: D:\Code2025\RavenWork\PetersonAlgorithm\PetersonAlgorithmTest\PetersonAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
