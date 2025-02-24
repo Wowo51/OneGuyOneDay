@@ -1,0 +1,424 @@
+<ActRecord>
+  <ProjectName>HybridGradientAlgorithm</ProjectName>
+  <ProjectDescription>A hybrid HS-LS conjugate gradient algorithm – A combined algorithm that integrates harmony search, line search, and conjugate gradient techniques.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>A hybrid HS-LS conjugate gradient algorithm – A combined algorithm that integrates harmony search, line search, and conjugate gradient techniques.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\HybridGradientAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>HybridGradientAlgorithm</ProjectFolderName>
+  <ProjectName>HybridGradientAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:07:06 PM
+HybridGradientAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:07:44 PM
+HybridGradientAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HybridGradientAlgorithm -> D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithm\bin\Debug\net9.0\HybridGradientAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+]]></string>
+    <string>WritePatch: Code is Complete.
+HybridGradientAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:09:22 PM
+HybridGradientAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:10:11 PM
+HybridGradientAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj (in 248 ms).
+  1 of 2 projects are up-to-date for restore.
+  HybridGradientAlgorithm -> D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithm\bin\Debug\net9.0\HybridGradientAlgorithm.dll
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(80,43): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(27,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(130,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(187,40): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+  HybridGradientAlgorithmTest -> D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\bin\Debug\net9.0\HybridGradientAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(80,43): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(27,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(130,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(187,40): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.68
+]]></string>
+    <string>WritePatch: Compile failed.
+HybridGradientAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 12:10:12 PM
+HybridGradientAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:10:12 PM
+HybridGradientAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:10:42 PM
+HybridGradientAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HybridGradientAlgorithm -> D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithm\bin\Debug\net9.0\HybridGradientAlgorithm.dll
+  HybridGradientAlgorithmTest -> D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\bin\Debug\net9.0\HybridGradientAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.14
+]]></string>
+    <string>WritePatch: Code is not Complete.
+HybridGradientAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 12:11:00 PM
+HybridGradientAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:11:00 PM
+HybridGradientAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:11:44 PM
+HybridGradientAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HybridGradientAlgorithm -> D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithm\bin\Debug\net9.0\HybridGradientAlgorithm.dll
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(27,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(150,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(90,43): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(207,40): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+  HybridGradientAlgorithmTest -> D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\bin\Debug\net9.0\HybridGradientAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(27,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(150,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(90,43): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(207,40): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.42
+]]></string>
+    <string>WritePatch: Compile failed.
+HybridGradientAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 12:11:45 PM
+HybridGradientAlgorithmTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HybridGradientAlgorithm -> D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithm\bin\Debug\net9.0\HybridGradientAlgorithm.dll
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(27,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(150,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(90,43): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(207,40): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+  HybridGradientAlgorithmTest -> D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\bin\Debug\net9.0\HybridGradientAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(27,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(150,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(90,43): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(207,40): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.42
+
+</CompilerResponse>
+2025-02-23 12:11:45 PM
+HybridGradientAlgorithmTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 12:11:47 PM
+HybridGradientAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HybridGradientAlgorithm -> D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithm\bin\Debug\net9.0\HybridGradientAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87
+]]></string>
+    <string>WritePatch: Code is Complete.
+HybridGradientAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:12:03 PM
+HybridGradientAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HybridGradientAlgorithm -> D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithm\bin\Debug\net9.0\HybridGradientAlgorithm.dll
+  HybridGradientAlgorithmTest -> D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\bin\Debug\net9.0\HybridGradientAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.09
+]]></string>
+    <string>WritePatch: Code is Complete.
+HybridGradientAlgorithmTest</string>
+    <string>[INFO 2025-02-23 12:12:17 PM] Starting test for project: D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 12:12:17 PM] Starting test for project: D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 12:12:17 PM] Starting test for project: D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 12:12:17 PM] Starting test for project: D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 12:12:17 PM] Starting test for project: D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 12:12:17 PM] Starting test for project: D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 12:12:17 PM] Starting test for project: D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 12:12:17 PM] Starting test for project: D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 12:12:17 PM] Starting test for project: D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 12:12:17 PM] Starting test for project: D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 12:12:17 PM] Starting test for project: D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 12:12:17 PM] Starting test for project: D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 12:12:21 PM] All tests passed successfully.
+[INFO 2025-02-23 12:12:21 PM] Test process completed. Duration: 3.52 seconds.
+[INFO 2025-02-23 12:12:21 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 12:12:21 PM] Test Parallelization enabled for D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\bin\Debug\net9.0\HybridGradientAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 12:12:21 PM] D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\bin\Debug\net9.0\HybridGradientAlgorithmTest.dll
+[OUTPUT 2025-02-23 12:12:20 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 12:12:19 PM]   HybridGradientAlgorithm -> D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithm\bin\Debug\net9.0\HybridGradientAlgorithm.dll
+[OUTPUT 2025-02-23 12:12:20 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 12:12:20 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 12:12:19 PM] Test run for D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\bin\Debug\net9.0\HybridGradientAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 12:12:19 PM]   HybridGradientAlgorithmTest -> D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\bin\Debug\net9.0\HybridGradientAlgorithmTest.dll
+[OUTPUT 2025-02-23 12:12:18 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 12:12:18 PM]   Determining projects to restore...
+[INFO 2025-02-23 12:12:17 PM] Command: dotnet test "D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 12:12:17 PM] Starting test for project: D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 12:07:06 PM
+HybridGradientAlgorithm
+
+WritePatch ran compiler. 2025-02-23 12:07:44 PM
+HybridGradientAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HybridGradientAlgorithm -> D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithm\bin\Debug\net9.0\HybridGradientAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+
+
+WritePatch: Code is Complete.
+HybridGradientAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 12:09:22 PM
+HybridGradientAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 12:10:11 PM
+HybridGradientAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj (in 248 ms).
+  1 of 2 projects are up-to-date for restore.
+  HybridGradientAlgorithm -> D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithm\bin\Debug\net9.0\HybridGradientAlgorithm.dll
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(80,43): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(27,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(130,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(187,40): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+  HybridGradientAlgorithmTest -> D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\bin\Debug\net9.0\HybridGradientAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(80,43): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(27,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(130,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(187,40): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.68
+
+
+WritePatch: Compile failed.
+HybridGradientAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 12:10:12 PM
+HybridGradientAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 12:10:12 PM
+HybridGradientAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 12:10:42 PM
+HybridGradientAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HybridGradientAlgorithm -> D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithm\bin\Debug\net9.0\HybridGradientAlgorithm.dll
+  HybridGradientAlgorithmTest -> D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\bin\Debug\net9.0\HybridGradientAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.14
+
+
+WritePatch: Code is not Complete.
+HybridGradientAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 12:11:00 PM
+HybridGradientAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 12:11:00 PM
+HybridGradientAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 12:11:44 PM
+HybridGradientAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HybridGradientAlgorithm -> D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithm\bin\Debug\net9.0\HybridGradientAlgorithm.dll
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(27,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(150,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(90,43): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(207,40): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+  HybridGradientAlgorithmTest -> D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\bin\Debug\net9.0\HybridGradientAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(27,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(150,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(90,43): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(207,40): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.42
+
+
+WritePatch: Compile failed.
+HybridGradientAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 12:11:45 PM
+HybridGradientAlgorithmTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HybridGradientAlgorithm -> D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithm\bin\Debug\net9.0\HybridGradientAlgorithm.dll
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(27,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(150,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(90,43): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(207,40): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+  HybridGradientAlgorithmTest -> D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\bin\Debug\net9.0\HybridGradientAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(27,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(150,41): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(90,43): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\AlgorithmTests.cs(207,40): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.42
+
+</CompilerResponse>
+2025-02-23 12:11:45 PM
+HybridGradientAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 12:11:47 PM
+HybridGradientAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HybridGradientAlgorithm -> D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithm\bin\Debug\net9.0\HybridGradientAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87
+
+
+WritePatch: Code is Complete.
+HybridGradientAlgorithm
+
+WritePatch ran compiler. 2025-02-23 12:12:03 PM
+HybridGradientAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HybridGradientAlgorithm -> D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithm\bin\Debug\net9.0\HybridGradientAlgorithm.dll
+  HybridGradientAlgorithmTest -> D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\bin\Debug\net9.0\HybridGradientAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.09
+
+
+WritePatch: Code is Complete.
+HybridGradientAlgorithmTest
+
+TestResult:
+[SUCCESS 2025-02-23 12:12:21 PM] All tests passed successfully.
+[INFO 2025-02-23 12:12:21 PM] Test process completed. Duration: 3.52 seconds.
+[INFO 2025-02-23 12:12:21 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 12:12:21 PM] Test Parallelization enabled for D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\bin\Debug\net9.0\HybridGradientAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 12:12:21 PM] D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\bin\Debug\net9.0\HybridGradientAlgorithmTest.dll
+[OUTPUT 2025-02-23 12:12:20 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 12:12:19 PM]   HybridGradientAlgorithm -> D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithm\bin\Debug\net9.0\HybridGradientAlgorithm.dll
+[OUTPUT 2025-02-23 12:12:20 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 12:12:20 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 12:12:19 PM] Test run for D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\bin\Debug\net9.0\HybridGradientAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 12:12:19 PM]   HybridGradientAlgorithmTest -> D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\bin\Debug\net9.0\HybridGradientAlgorithmTest.dll
+[OUTPUT 2025-02-23 12:12:18 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 12:12:18 PM]   Determining projects to restore...
+[INFO 2025-02-23 12:12:17 PM] Command: dotnet test "D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 12:12:17 PM] Starting test for project: D:\Code2025\RavenWork\HybridGradientAlgorithm\HybridGradientAlgorithmTest\HybridGradientAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
