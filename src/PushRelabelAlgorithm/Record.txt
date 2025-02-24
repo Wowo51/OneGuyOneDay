@@ -1,0 +1,210 @@
+<ActRecord>
+  <ProjectName>PushRelabelAlgorithm</ProjectName>
+  <ProjectDescription>Push–Relabel Algorithm: Computes the maximum flow by locally “pushing” flow through the network and “relabeling” vertices to reflect remaining capacity.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Push–Relabel Algorithm: Computes the maximum flow by locally “pushing” flow through the network and “relabeling” vertices to reflect remaining capacity.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\PushRelabelAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>PushRelabelAlgorithm</ProjectFolderName>
+  <ProjectName>PushRelabelAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:16:49 PM
+PushRelabelAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:17:33 PM
+PushRelabelAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithm\Graph.cs(19,28): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithm\PushRelabelAlgorithm.csproj]
+D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithm\Graph.cs(13,16): warning CS8618: Non-nullable property 'Reverse' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithm\PushRelabelAlgorithm.csproj]
+  PushRelabelAlgorithm -> D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithm\bin\Debug\net9.0\PushRelabelAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithm\Graph.cs(19,28): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithm\PushRelabelAlgorithm.csproj]
+D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithm\Graph.cs(13,16): warning CS8618: Non-nullable property 'Reverse' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithm\PushRelabelAlgorithm.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.74
+]]></string>
+    <string>WritePatch: Compile failed.
+PushRelabelAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:17:34 PM
+PushRelabelAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:17:34 PM
+PushRelabelAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:18:18 PM
+PushRelabelAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PushRelabelAlgorithm -> D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithm\bin\Debug\net9.0\PushRelabelAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.09
+]]></string>
+    <string>WritePatch: Code is Complete.
+PushRelabelAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:18:41 PM
+PushRelabelAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:19:39 PM
+PushRelabelAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithmTest\PushRelabelAlgorithmTest.csproj (in 436 ms).
+  1 of 2 projects are up-to-date for restore.
+  PushRelabelAlgorithm -> D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithm\bin\Debug\net9.0\PushRelabelAlgorithm.dll
+  PushRelabelAlgorithmTest -> D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithmTest\bin\Debug\net9.0\PushRelabelAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.39
+]]></string>
+    <string>WritePatch: Code is Complete.
+PushRelabelAlgorithmTest</string>
+    <string>[INFO 2025-02-23 8:20:05 PM] Starting test for project: D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithmTest\PushRelabelAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:20:05 PM] Starting test for project: D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithmTest\PushRelabelAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:20:05 PM] Starting test for project: D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithmTest\PushRelabelAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:20:05 PM] Starting test for project: D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithmTest\PushRelabelAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:20:05 PM] Starting test for project: D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithmTest\PushRelabelAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:20:05 PM] Starting test for project: D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithmTest\PushRelabelAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:20:05 PM] Starting test for project: D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithmTest\PushRelabelAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:20:05 PM] Starting test for project: D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithmTest\PushRelabelAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:20:05 PM] Starting test for project: D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithmTest\PushRelabelAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:20:05 PM] Starting test for project: D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithmTest\PushRelabelAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:20:05 PM] Starting test for project: D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithmTest\PushRelabelAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:20:05 PM] Starting test for project: D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithmTest\PushRelabelAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:20:05 PM] Starting test for project: D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithmTest\PushRelabelAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 8:20:09 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:20:08 PM] Test run for D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithmTest\bin\Debug\net9.0\PushRelabelAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:20:08 PM]   PushRelabelAlgorithmTest -> D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithmTest\bin\Debug\net9.0\PushRelabelAlgorithmTest.dll
+[OUTPUT 2025-02-23 8:20:07 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:20:13 PM]   Passed TestNoFlow [11 ms]
+[OUTPUT 2025-02-23 8:20:12 PM] Test Parallelization enabled for D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithmTest\bin\Debug\net9.0\PushRelabelAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 8:20:10 PM] D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithmTest\bin\Debug\net9.0\PushRelabelAlgorithmTest.dll
+[OUTPUT 2025-02-23 8:20:10 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 8:20:09 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:20:07 PM]   PushRelabelAlgorithm -> D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithm\bin\Debug\net9.0\PushRelabelAlgorithm.dll
+[OUTPUT 2025-02-23 8:20:06 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 8:20:12 PM] All tests passed successfully.
+[INFO 2025-02-23 8:20:12 PM] Test process completed. Duration: 7.54 seconds.
+[INFO 2025-02-23 8:20:12 PM] Process exited with code 0.
+[INFO 2025-02-23 8:20:05 PM] Command: dotnet test "D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithmTest\PushRelabelAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:20:05 PM] Starting test for project: D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithmTest\PushRelabelAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 8:16:49 PM
+PushRelabelAlgorithm
+
+WritePatch ran compiler. 2025-02-23 8:17:33 PM
+PushRelabelAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithm\Graph.cs(19,28): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithm\PushRelabelAlgorithm.csproj]
+D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithm\Graph.cs(13,16): warning CS8618: Non-nullable property 'Reverse' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithm\PushRelabelAlgorithm.csproj]
+  PushRelabelAlgorithm -> D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithm\bin\Debug\net9.0\PushRelabelAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithm\Graph.cs(19,28): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithm\PushRelabelAlgorithm.csproj]
+D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithm\Graph.cs(13,16): warning CS8618: Non-nullable property 'Reverse' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithm\PushRelabelAlgorithm.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.74
+
+
+WritePatch: Compile failed.
+PushRelabelAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 8:17:34 PM
+PushRelabelAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 8:17:34 PM
+PushRelabelAlgorithm
+
+WritePatch ran compiler. 2025-02-23 8:18:18 PM
+PushRelabelAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PushRelabelAlgorithm -> D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithm\bin\Debug\net9.0\PushRelabelAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.09
+
+
+WritePatch: Code is Complete.
+PushRelabelAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 8:18:41 PM
+PushRelabelAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 8:19:39 PM
+PushRelabelAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithmTest\PushRelabelAlgorithmTest.csproj (in 436 ms).
+  1 of 2 projects are up-to-date for restore.
+  PushRelabelAlgorithm -> D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithm\bin\Debug\net9.0\PushRelabelAlgorithm.dll
+  PushRelabelAlgorithmTest -> D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithmTest\bin\Debug\net9.0\PushRelabelAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.39
+
+
+WritePatch: Code is Complete.
+PushRelabelAlgorithmTest
+
+TestResult:
+[OUTPUT 2025-02-23 8:20:09 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:20:08 PM] Test run for D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithmTest\bin\Debug\net9.0\PushRelabelAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:20:08 PM]   PushRelabelAlgorithmTest -> D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithmTest\bin\Debug\net9.0\PushRelabelAlgorithmTest.dll
+[OUTPUT 2025-02-23 8:20:07 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:20:13 PM]   Passed TestNoFlow [11 ms]
+[OUTPUT 2025-02-23 8:20:12 PM] Test Parallelization enabled for D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithmTest\bin\Debug\net9.0\PushRelabelAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 8:20:10 PM] D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithmTest\bin\Debug\net9.0\PushRelabelAlgorithmTest.dll
+[OUTPUT 2025-02-23 8:20:10 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 8:20:09 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:20:07 PM]   PushRelabelAlgorithm -> D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithm\bin\Debug\net9.0\PushRelabelAlgorithm.dll
+[OUTPUT 2025-02-23 8:20:06 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 8:20:12 PM] All tests passed successfully.
+[INFO 2025-02-23 8:20:12 PM] Test process completed. Duration: 7.54 seconds.
+[INFO 2025-02-23 8:20:12 PM] Process exited with code 0.
+[INFO 2025-02-23 8:20:05 PM] Command: dotnet test "D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithmTest\PushRelabelAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:20:05 PM] Starting test for project: D:\Code2025\RavenWork\PushRelabelAlgorithm\PushRelabelAlgorithmTest\PushRelabelAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
