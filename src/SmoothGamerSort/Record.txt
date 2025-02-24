@@ -1,0 +1,347 @@
+<ActRecord>
+  <ProjectName>SmoothGamerSort</ProjectName>
+  <ProjectDescription>Smoothgamersort</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Smoothgamersort</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\SmoothGamerSort</SolutionFolderPath>
+  <ProjectFolderName>SmoothGamerSort</ProjectFolderName>
+  <ProjectName>SmoothGamerSort</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:54:57 PM
+SmoothGamerSort</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:55:25 PM
+SmoothGamerSort</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SmoothGamerSort -> D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSort\bin\Debug\net9.0\SmoothGamerSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.38
+]]></string>
+    <string>WritePatch: Code is Complete.
+SmoothGamerSort</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:55:54 PM
+SmoothGamerSortTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:56:39 PM
+SmoothGamerSortTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothGamerSortTest.csproj (in 477 ms).
+  1 of 2 projects are up-to-date for restore.
+  SmoothGamerSort -> D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSort\bin\Debug\net9.0\SmoothGamerSort.dll
+D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothSorterTests.cs(12,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothGamerSortTest.csproj]
+D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothSorterTests.cs(13,42): warning CS8604: Possible null reference argument for parameter 'array' in 'void SmoothSorter.SmoothGamerSort<int>(int[] array)'. [D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothGamerSortTest.csproj]
+  SmoothGamerSortTest -> D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\bin\Debug\net9.0\SmoothGamerSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothSorterTests.cs(12,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothGamerSortTest.csproj]
+D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothSorterTests.cs(13,42): warning CS8604: Possible null reference argument for parameter 'array' in 'void SmoothSorter.SmoothGamerSort<int>(int[] array)'. [D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothGamerSortTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.46
+]]></string>
+    <string>WritePatch: Compile failed.
+SmoothGamerSortTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:56:42 PM
+SmoothGamerSortTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:56:43 PM
+SmoothGamerSortTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 6:57:04 PM
+SmoothGamerSortTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:57:04 PM
+SmoothGamerSortTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:57:43 PM
+SmoothGamerSortTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SmoothGamerSort -> D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSort\bin\Debug\net9.0\SmoothGamerSort.dll
+D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothSorterTests.cs(13,42): warning CS8604: Possible null reference argument for parameter 'array' in 'void SmoothSorter.SmoothGamerSort<int>(int[] array)'. [D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothGamerSortTest.csproj]
+  SmoothGamerSortTest -> D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\bin\Debug\net9.0\SmoothGamerSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothSorterTests.cs(13,42): warning CS8604: Possible null reference argument for parameter 'array' in 'void SmoothSorter.SmoothGamerSort<int>(int[] array)'. [D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothGamerSortTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.10
+]]></string>
+    <string>WritePatch: Compile failed.
+SmoothGamerSortTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:57:44 PM
+SmoothGamerSortTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SmoothGamerSort -> D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSort\bin\Debug\net9.0\SmoothGamerSort.dll
+D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothSorterTests.cs(13,42): warning CS8604: Possible null reference argument for parameter 'array' in 'void SmoothSorter.SmoothGamerSort<int>(int[] array)'. [D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothGamerSortTest.csproj]
+  SmoothGamerSortTest -> D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\bin\Debug\net9.0\SmoothGamerSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothSorterTests.cs(13,42): warning CS8604: Possible null reference argument for parameter 'array' in 'void SmoothSorter.SmoothGamerSort<int>(int[] array)'. [D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothGamerSortTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.10
+
+</CompilerResponse>
+2025-02-23 6:57:45 PM
+SmoothGamerSortTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 6:57:48 PM
+SmoothGamerSort</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SmoothGamerSort -> D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSort\bin\Debug\net9.0\SmoothGamerSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.81
+]]></string>
+    <string>WritePatch: Code is Complete.
+SmoothGamerSort</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:58:04 PM
+SmoothGamerSortTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SmoothGamerSort -> D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSort\bin\Debug\net9.0\SmoothGamerSort.dll
+  SmoothGamerSortTest -> D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\bin\Debug\net9.0\SmoothGamerSortTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.93
+]]></string>
+    <string>WritePatch: Code is Complete.
+SmoothGamerSortTest</string>
+    <string>[INFO 2025-02-23 6:58:31 PM] Starting test for project: D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothGamerSortTest.csproj</string>
+    <string>[INFO 2025-02-23 6:58:31 PM] Starting test for project: D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothGamerSortTest.csproj</string>
+    <string>[INFO 2025-02-23 6:58:31 PM] Starting test for project: D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothGamerSortTest.csproj</string>
+    <string>[INFO 2025-02-23 6:58:31 PM] Starting test for project: D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothGamerSortTest.csproj</string>
+    <string>[INFO 2025-02-23 6:58:31 PM] Starting test for project: D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothGamerSortTest.csproj</string>
+    <string>[INFO 2025-02-23 6:58:31 PM] Starting test for project: D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothGamerSortTest.csproj</string>
+    <string>[INFO 2025-02-23 6:58:31 PM] Starting test for project: D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothGamerSortTest.csproj</string>
+    <string>[INFO 2025-02-23 6:58:31 PM] Starting test for project: D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothGamerSortTest.csproj</string>
+    <string>[INFO 2025-02-23 6:58:31 PM] Starting test for project: D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothGamerSortTest.csproj</string>
+    <string>[INFO 2025-02-23 6:58:31 PM] Starting test for project: D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothGamerSortTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 6:58:39 PM] All tests passed successfully.
+[INFO 2025-02-23 6:58:39 PM] Test process completed. Duration: 7.51 seconds.
+[INFO 2025-02-23 6:58:39 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 6:58:39 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:58:38 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:58:37 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:58:36 PM] Test run for D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\bin\Debug\net9.0\SmoothGamerSortTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:58:35 PM]   SmoothGamerSortTest -> D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\bin\Debug\net9.0\SmoothGamerSortTest.dll
+[OUTPUT 2025-02-23 6:58:34 PM]   SmoothGamerSort -> D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSort\bin\Debug\net9.0\SmoothGamerSort.dll
+[OUTPUT 2025-02-23 6:58:33 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 6:58:33 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 6:58:31 PM] Command: dotnet test "D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothGamerSortTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:58:31 PM] Starting test for project: D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothGamerSortTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 6:54:57 PM
+SmoothGamerSort
+
+WritePatch ran compiler. 2025-02-23 6:55:25 PM
+SmoothGamerSort
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SmoothGamerSort -> D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSort\bin\Debug\net9.0\SmoothGamerSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.38
+
+
+WritePatch: Code is Complete.
+SmoothGamerSort
+
+WritePatch Started CycleStep. 2025-02-23 6:55:54 PM
+SmoothGamerSortTest
+
+WritePatch ran compiler. 2025-02-23 6:56:39 PM
+SmoothGamerSortTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothGamerSortTest.csproj (in 477 ms).
+  1 of 2 projects are up-to-date for restore.
+  SmoothGamerSort -> D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSort\bin\Debug\net9.0\SmoothGamerSort.dll
+D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothSorterTests.cs(12,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothGamerSortTest.csproj]
+D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothSorterTests.cs(13,42): warning CS8604: Possible null reference argument for parameter 'array' in 'void SmoothSorter.SmoothGamerSort<int>(int[] array)'. [D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothGamerSortTest.csproj]
+  SmoothGamerSortTest -> D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\bin\Debug\net9.0\SmoothGamerSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothSorterTests.cs(12,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothGamerSortTest.csproj]
+D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothSorterTests.cs(13,42): warning CS8604: Possible null reference argument for parameter 'array' in 'void SmoothSorter.SmoothGamerSort<int>(int[] array)'. [D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothGamerSortTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.46
+
+
+WritePatch: Compile failed.
+SmoothGamerSortTest
+
+Finished WritePatch cycle step.
+2025-02-23 6:56:42 PM
+SmoothGamerSortTest
+
+WritePatch Started CycleStep. 2025-02-23 6:56:43 PM
+SmoothGamerSortTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 6:57:04 PM
+SmoothGamerSortTest
+
+WritePatch Started CycleStep. 2025-02-23 6:57:04 PM
+SmoothGamerSortTest
+
+WritePatch ran compiler. 2025-02-23 6:57:43 PM
+SmoothGamerSortTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SmoothGamerSort -> D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSort\bin\Debug\net9.0\SmoothGamerSort.dll
+D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothSorterTests.cs(13,42): warning CS8604: Possible null reference argument for parameter 'array' in 'void SmoothSorter.SmoothGamerSort<int>(int[] array)'. [D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothGamerSortTest.csproj]
+  SmoothGamerSortTest -> D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\bin\Debug\net9.0\SmoothGamerSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothSorterTests.cs(13,42): warning CS8604: Possible null reference argument for parameter 'array' in 'void SmoothSorter.SmoothGamerSort<int>(int[] array)'. [D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothGamerSortTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.10
+
+
+WritePatch: Compile failed.
+SmoothGamerSortTest
+
+Finished WritePatch cycle step.
+2025-02-23 6:57:44 PM
+SmoothGamerSortTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SmoothGamerSort -> D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSort\bin\Debug\net9.0\SmoothGamerSort.dll
+D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothSorterTests.cs(13,42): warning CS8604: Possible null reference argument for parameter 'array' in 'void SmoothSorter.SmoothGamerSort<int>(int[] array)'. [D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothGamerSortTest.csproj]
+  SmoothGamerSortTest -> D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\bin\Debug\net9.0\SmoothGamerSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothSorterTests.cs(13,42): warning CS8604: Possible null reference argument for parameter 'array' in 'void SmoothSorter.SmoothGamerSort<int>(int[] array)'. [D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothGamerSortTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.10
+
+</CompilerResponse>
+2025-02-23 6:57:45 PM
+SmoothGamerSortTest
+
+WritePatch ran compiler. 2025-02-23 6:57:48 PM
+SmoothGamerSort
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SmoothGamerSort -> D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSort\bin\Debug\net9.0\SmoothGamerSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.81
+
+
+WritePatch: Code is Complete.
+SmoothGamerSort
+
+WritePatch ran compiler. 2025-02-23 6:58:04 PM
+SmoothGamerSortTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SmoothGamerSort -> D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSort\bin\Debug\net9.0\SmoothGamerSort.dll
+  SmoothGamerSortTest -> D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\bin\Debug\net9.0\SmoothGamerSortTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.93
+
+
+WritePatch: Code is Complete.
+SmoothGamerSortTest
+
+TestResult:
+[SUCCESS 2025-02-23 6:58:39 PM] All tests passed successfully.
+[INFO 2025-02-23 6:58:39 PM] Test process completed. Duration: 7.51 seconds.
+[INFO 2025-02-23 6:58:39 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 6:58:39 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:58:38 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:58:37 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:58:36 PM] Test run for D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\bin\Debug\net9.0\SmoothGamerSortTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:58:35 PM]   SmoothGamerSortTest -> D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\bin\Debug\net9.0\SmoothGamerSortTest.dll
+[OUTPUT 2025-02-23 6:58:34 PM]   SmoothGamerSort -> D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSort\bin\Debug\net9.0\SmoothGamerSort.dll
+[OUTPUT 2025-02-23 6:58:33 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 6:58:33 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 6:58:31 PM] Command: dotnet test "D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothGamerSortTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:58:31 PM] Starting test for project: D:\Code2025\RavenWork\SmoothGamerSort\SmoothGamerSortTest\SmoothGamerSortTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
