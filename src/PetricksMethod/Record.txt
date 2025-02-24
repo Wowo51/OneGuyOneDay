@@ -1,0 +1,736 @@
+<ActRecord>
+  <ProjectName>PetricksMethod</ProjectName>
+  <ProjectDescription><![CDATA[Petrick's method: Another method for Boolean simplification]]></ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification><![CDATA[Petrick's method: Another method for Boolean simplification]]]]><![CDATA[></WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\PetricksMethod</SolutionFolderPath>
+  <ProjectFolderName>PetricksMethod</ProjectFolderName>
+  <ProjectName>PetricksMethod</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 3:06:29 PM
+PetricksMethod</string>
+    <string>WritePatch ran compiler. 2025-02-23 3:07:06 PM
+PetricksMethod</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\PetricksMethod\Program.cs(28,73): error CS1503: Argument 1: cannot convert from 'System.Collections.Generic.List<System.Collections.Generic.List<string>>' to 'System.Collections.Generic.IList<System.Collections.Generic.IList<string>>' [D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\PetricksMethod.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\PetricksMethod\Program.cs(28,73): error CS1503: Argument 1: cannot convert from 'System.Collections.Generic.List<System.Collections.Generic.List<string>>' to 'System.Collections.Generic.IList<System.Collections.Generic.IList<string>>' [D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\PetricksMethod.csproj]
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.28
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+PetricksMethod</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 3:07:07 PM
+PetricksMethod</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 3:07:08 PM
+PetricksMethod</string>
+    <string>WritePatch ran compiler. 2025-02-23 3:07:29 PM
+PetricksMethod</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PetricksMethod -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\bin\Debug\net9.0\PetricksMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.45
+]]></string>
+    <string>WritePatch: Code is not Complete.
+PetricksMethod</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 3:07:46 PM
+PetricksMethod</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 3:07:47 PM
+PetricksMethod</string>
+    <string>WritePatch ran compiler. 2025-02-23 3:08:19 PM
+PetricksMethod</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PetricksMethod -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\bin\Debug\net9.0\PetricksMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.73
+]]></string>
+    <string>WritePatch: Code is Complete.
+PetricksMethod</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 3:08:45 PM
+PetricksMethodTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 3:10:00 PM
+PetricksMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj (in 338 ms).
+  1 of 2 projects are up-to-date for restore.
+  PetricksMethod -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\bin\Debug\net9.0\PetricksMethod.dll
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetrickSimplifierTests.cs(15,42): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj]
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetrickSimplifierTests.cs(16,70): warning CS8604: Possible null reference argument for parameter 'chart' in 'IList<IList<string>> PetrickSimplifier.Simplify(IList<IList<string>> chart)'. [D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj]
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetrickSimplifierTests.cs(59,21): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj]
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetrickSimplifierTests.cs(60,21): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj]
+  PetricksMethodTest -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\bin\Debug\net9.0\PetricksMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetrickSimplifierTests.cs(15,42): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj]
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetrickSimplifierTests.cs(16,70): warning CS8604: Possible null reference argument for parameter 'chart' in 'IList<IList<string>> PetrickSimplifier.Simplify(IList<IList<string>> chart)'. [D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj]
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetrickSimplifierTests.cs(59,21): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj]
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetrickSimplifierTests.cs(60,21): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.55
+]]></string>
+    <string>WritePatch: Compile failed.
+PetricksMethodTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 3:10:01 PM
+PetricksMethodTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 3:10:01 PM
+PetricksMethodTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 3:11:23 PM
+PetricksMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PetricksMethod -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\bin\Debug\net9.0\PetricksMethod.dll
+  PetricksMethodTest -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\bin\Debug\net9.0\PetricksMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.54
+]]></string>
+    <string>WritePatch: Code is Complete.
+PetricksMethodTest</string>
+    <string>[INFO 2025-02-23 3:11:44 PM] Starting test for project: D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 3:11:44 PM] Starting test for project: D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 3:11:44 PM] Starting test for project: D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 3:11:44 PM] Starting test for project: D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 3:11:44 PM] Starting test for project: D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 3:11:44 PM] Starting test for project: D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 3:11:44 PM] Starting test for project: D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 3:11:44 PM] Starting test for project: D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 3:11:44 PM] Starting test for project: D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 3:11:44 PM] Starting test for project: D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 3:11:44 PM] Starting test for project: D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 3:11:44 PM] Starting test for project: D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 3:11:44 PM] Starting test for project: D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 3:11:44 PM] Starting test for project: D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 3:11:44 PM] Starting test for project: D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 3:11:48 PM] D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\bin\Debug\net9.0\PetricksMethodTest.dll
+[OUTPUT 2025-02-23 3:11:48 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 3:11:48 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 3:11:47 PM]   PetricksMethod -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\bin\Debug\net9.0\PetricksMethod.dll
+[OUTPUT 2025-02-23 3:11:51 PM]   Passed TestSimpleChart [12 ms]
+[OUTPUT 2025-02-23 3:11:51 PM]   Passed TestSyntheticChartWithoutCommon [12 ms]
+[OUTPUT 2025-02-23 3:11:50 PM] Test Parallelization enabled for D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\bin\Debug\net9.0\PetricksMethodTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 3:11:48 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 3:11:47 PM] Test run for D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\bin\Debug\net9.0\PetricksMethodTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 3:11:47 PM]   PetricksMethodTest -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\bin\Debug\net9.0\PetricksMethodTest.dll
+[OUTPUT 2025-02-23 3:11:46 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 3:11:46 PM]   Determining projects to restore...
+[INFO] Check 'TestResults' folder for more details.
+[LAST OUTPUT]   Passed TestSyntheticChartWithoutCommon [12 ms]
+[LAST OUTPUT] Test Run Failed.
+[LAST OUTPUT] Test Parallelization enabled for D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\bin\Debug\net9.0\PetricksMethodTest.dll (Workers: 16, Scope: MethodLevel)
+[LAST OUTPUT] D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\bin\Debug\net9.0\PetricksMethodTest.dll
+[LAST OUTPUT] A total of 1 test files matched the specified pattern.
+[LAST OUTPUT] Starting test execution, please wait...
+[LAST OUTPUT] VSTest version 17.12.0 (x64)
+[LAST OUTPUT] Test run for D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\bin\Debug\net9.0\PetricksMethodTest.dll (.NETCoreApp,Version=v9.0)
+[LAST OUTPUT]   PetricksMethodTest -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\bin\Debug\net9.0\PetricksMethodTest.dll
+[LAST OUTPUT]   PetricksMethod -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\bin\Debug\net9.0\PetricksMethod.dll
+[ERROR 2025-02-23 3:11:51 PM] Process exited with code 1. Possible causes:
+[INFO 2025-02-23 3:11:51 PM] Test process completed. Duration: 6.57 seconds.
+[INFO 2025-02-23 3:11:51 PM] Process exited with code 1.
+[ERROR 2025-02-23 3:11:50 PM] Test Run Failed.
+[INFO 2025-02-23 3:11:44 PM] Command: dotnet test "D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 3:11:44 PM] Starting test for project: D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj]]></string>
+    <string>WritePatch Started CycleStep. 2025-02-23 3:12:47 PM
+PetricksMethod</string>
+    <string>WritePatch ran compiler. 2025-02-23 3:13:19 PM
+PetricksMethod</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PetricksMethod -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\bin\Debug\net9.0\PetricksMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.49
+]]></string>
+    <string>WritePatch: Code is not Complete.
+PetricksMethod</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 3:13:37 PM
+PetricksMethod</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 3:13:37 PM
+PetricksMethod</string>
+    <string>WritePatch ran compiler. 2025-02-23 3:14:22 PM
+PetricksMethod</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\Program.cs(6,18): error CS0101: The namespace 'PetricksMethod' already contains a definition for 'Program' [D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\PetricksMethod.csproj]
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\Program.cs(8,27): error CS0111: Type 'Program' already defines a member called 'Main' with the same parameter types [D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\PetricksMethod.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\Program.cs(6,18): error CS0101: The namespace 'PetricksMethod' already contains a definition for 'Program' [D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\PetricksMethod.csproj]
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\Program.cs(8,27): error CS0111: Type 'Program' already defines a member called 'Main' with the same parameter types [D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\PetricksMethod.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.32
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+PetricksMethod</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 3:14:23 PM
+PetricksMethod</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 3:14:23 PM
+PetricksMethod</string>
+    <string>WritePatch ran compiler. 2025-02-23 3:14:51 PM
+PetricksMethod</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PetricksMethod -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\bin\Debug\net9.0\PetricksMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.76
+]]></string>
+    <string>WritePatch: Code is not Complete.
+PetricksMethod</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 3:15:01 PM
+PetricksMethod</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethod
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PetricksMethod -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\bin\Debug\net9.0\PetricksMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.76
+
+</CompilerResponse>
+2025-02-23 3:15:02 PM
+PetricksMethod]]></string>
+    <string>WritePatch Started CycleStep. 2025-02-23 3:15:02 PM
+PetricksMethod</string>
+    <string>WritePatch ran compiler. 2025-02-23 3:16:24 PM
+PetricksMethod</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PetricksMethod -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\bin\Debug\net9.0\PetricksMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.62
+]]></string>
+    <string>WritePatch: Code is Complete.
+PetricksMethod</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 3:16:37 PM
+PetricksMethodTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 3:17:40 PM
+PetricksMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PetricksMethod -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\bin\Debug\net9.0\PetricksMethod.dll
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetrickSimplifierTests.cs(18,42): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj]
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetrickSimplifierTests.cs(65,21): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj]
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetrickSimplifierTests.cs(66,21): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj]
+  PetricksMethodTest -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\bin\Debug\net9.0\PetricksMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetrickSimplifierTests.cs(18,42): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj]
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetrickSimplifierTests.cs(65,21): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj]
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetrickSimplifierTests.cs(66,21): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.22
+]]></string>
+    <string>WritePatch: Compile failed.
+PetricksMethodTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 3:17:41 PM
+PetricksMethodTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 3:17:41 PM
+PetricksMethodTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 3:18:58 PM
+PetricksMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PetricksMethod -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\bin\Debug\net9.0\PetricksMethod.dll
+  PetricksMethodTest -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\bin\Debug\net9.0\PetricksMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.77
+]]></string>
+    <string>WritePatch: Code is Complete.
+PetricksMethodTest</string>
+    <string>[INFO 2025-02-23 3:19:16 PM] Starting test for project: D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 3:19:16 PM] Starting test for project: D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 3:19:16 PM] Starting test for project: D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 3:19:16 PM] Starting test for project: D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 3:19:16 PM] Starting test for project: D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 3:19:16 PM] Starting test for project: D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 3:19:16 PM] Starting test for project: D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 3:19:16 PM] Starting test for project: D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 3:19:16 PM] Starting test for project: D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 3:19:16 PM] Starting test for project: D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 3:19:19 PM] All tests passed successfully.
+[INFO 2025-02-23 3:19:19 PM] Test process completed. Duration: 3.54 seconds.
+[INFO 2025-02-23 3:19:19 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 3:19:20 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 3:19:19 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 3:19:19 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 3:19:18 PM]   PetricksMethod -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\bin\Debug\net9.0\PetricksMethod.dll
+[OUTPUT 2025-02-23 3:19:17 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 3:19:18 PM] Test run for D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\bin\Debug\net9.0\PetricksMethodTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 3:19:18 PM]   PetricksMethodTest -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\bin\Debug\net9.0\PetricksMethodTest.dll
+[OUTPUT 2025-02-23 3:19:17 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 3:19:16 PM] Command: dotnet test "D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 3:19:16 PM] Starting test for project: D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 3:06:29 PM
+PetricksMethod
+
+WritePatch ran compiler. 2025-02-23 3:07:06 PM
+PetricksMethod
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\PetricksMethod\Program.cs(28,73): error CS1503: Argument 1: cannot convert from 'System.Collections.Generic.List<System.Collections.Generic.List<string>>' to 'System.Collections.Generic.IList<System.Collections.Generic.IList<string>>' [D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\PetricksMethod.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\PetricksMethod\Program.cs(28,73): error CS1503: Argument 1: cannot convert from 'System.Collections.Generic.List<System.Collections.Generic.List<string>>' to 'System.Collections.Generic.IList<System.Collections.Generic.IList<string>>' [D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\PetricksMethod.csproj]
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.28
+
+
+Errors:
+
+WritePatch: Compile failed.
+PetricksMethod
+
+Finished WritePatch cycle step.
+2025-02-23 3:07:07 PM
+PetricksMethod
+
+WritePatch Started CycleStep. 2025-02-23 3:07:08 PM
+PetricksMethod
+
+WritePatch ran compiler. 2025-02-23 3:07:29 PM
+PetricksMethod
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PetricksMethod -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\bin\Debug\net9.0\PetricksMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.45
+
+
+WritePatch: Code is not Complete.
+PetricksMethod
+
+Finished WritePatch cycle step.
+2025-02-23 3:07:46 PM
+PetricksMethod
+
+WritePatch Started CycleStep. 2025-02-23 3:07:47 PM
+PetricksMethod
+
+WritePatch ran compiler. 2025-02-23 3:08:19 PM
+PetricksMethod
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PetricksMethod -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\bin\Debug\net9.0\PetricksMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.73
+
+
+WritePatch: Code is Complete.
+PetricksMethod
+
+WritePatch Started CycleStep. 2025-02-23 3:08:45 PM
+PetricksMethodTest
+
+WritePatch ran compiler. 2025-02-23 3:10:00 PM
+PetricksMethodTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj (in 338 ms).
+  1 of 2 projects are up-to-date for restore.
+  PetricksMethod -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\bin\Debug\net9.0\PetricksMethod.dll
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetrickSimplifierTests.cs(15,42): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj]
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetrickSimplifierTests.cs(16,70): warning CS8604: Possible null reference argument for parameter 'chart' in 'IList<IList<string>> PetrickSimplifier.Simplify(IList<IList<string>> chart)'. [D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj]
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetrickSimplifierTests.cs(59,21): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj]
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetrickSimplifierTests.cs(60,21): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj]
+  PetricksMethodTest -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\bin\Debug\net9.0\PetricksMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetrickSimplifierTests.cs(15,42): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj]
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetrickSimplifierTests.cs(16,70): warning CS8604: Possible null reference argument for parameter 'chart' in 'IList<IList<string>> PetrickSimplifier.Simplify(IList<IList<string>> chart)'. [D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj]
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetrickSimplifierTests.cs(59,21): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj]
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetrickSimplifierTests.cs(60,21): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.55
+
+
+WritePatch: Compile failed.
+PetricksMethodTest
+
+Finished WritePatch cycle step.
+2025-02-23 3:10:01 PM
+PetricksMethodTest
+
+WritePatch Started CycleStep. 2025-02-23 3:10:01 PM
+PetricksMethodTest
+
+WritePatch ran compiler. 2025-02-23 3:11:23 PM
+PetricksMethodTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PetricksMethod -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\bin\Debug\net9.0\PetricksMethod.dll
+  PetricksMethodTest -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\bin\Debug\net9.0\PetricksMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.54
+
+
+WritePatch: Code is Complete.
+PetricksMethodTest
+
+TestResult:
+[OUTPUT 2025-02-23 3:11:48 PM] D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\bin\Debug\net9.0\PetricksMethodTest.dll
+[OUTPUT 2025-02-23 3:11:48 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 3:11:48 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 3:11:47 PM]   PetricksMethod -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\bin\Debug\net9.0\PetricksMethod.dll
+[OUTPUT 2025-02-23 3:11:51 PM]   Passed TestSimpleChart [12 ms]
+[OUTPUT 2025-02-23 3:11:51 PM]   Passed TestSyntheticChartWithoutCommon [12 ms]
+[OUTPUT 2025-02-23 3:11:50 PM] Test Parallelization enabled for D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\bin\Debug\net9.0\PetricksMethodTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 3:11:48 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 3:11:47 PM] Test run for D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\bin\Debug\net9.0\PetricksMethodTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 3:11:47 PM]   PetricksMethodTest -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\bin\Debug\net9.0\PetricksMethodTest.dll
+[OUTPUT 2025-02-23 3:11:46 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 3:11:46 PM]   Determining projects to restore...
+[INFO] Check 'TestResults' folder for more details.
+[LAST OUTPUT]   Passed TestSyntheticChartWithoutCommon [12 ms]
+[LAST OUTPUT] Test Run Failed.
+[LAST OUTPUT] Test Parallelization enabled for D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\bin\Debug\net9.0\PetricksMethodTest.dll (Workers: 16, Scope: MethodLevel)
+[LAST OUTPUT] D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\bin\Debug\net9.0\PetricksMethodTest.dll
+[LAST OUTPUT] A total of 1 test files matched the specified pattern.
+[LAST OUTPUT] Starting test execution, please wait...
+[LAST OUTPUT] VSTest version 17.12.0 (x64)
+[LAST OUTPUT] Test run for D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\bin\Debug\net9.0\PetricksMethodTest.dll (.NETCoreApp,Version=v9.0)
+[LAST OUTPUT]   PetricksMethodTest -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\bin\Debug\net9.0\PetricksMethodTest.dll
+[LAST OUTPUT]   PetricksMethod -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\bin\Debug\net9.0\PetricksMethod.dll
+[ERROR 2025-02-23 3:11:51 PM] Process exited with code 1. Possible causes:
+[INFO 2025-02-23 3:11:51 PM] Test process completed. Duration: 6.57 seconds.
+[INFO 2025-02-23 3:11:51 PM] Process exited with code 1.
+[ERROR 2025-02-23 3:11:50 PM] Test Run Failed.
+[INFO 2025-02-23 3:11:44 PM] Command: dotnet test "D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 3:11:44 PM] Starting test for project: D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj
+
+WritePatch Started CycleStep. 2025-02-23 3:12:47 PM
+PetricksMethod
+
+WritePatch ran compiler. 2025-02-23 3:13:19 PM
+PetricksMethod
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PetricksMethod -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\bin\Debug\net9.0\PetricksMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.49
+
+
+WritePatch: Code is not Complete.
+PetricksMethod
+
+Finished WritePatch cycle step.
+2025-02-23 3:13:37 PM
+PetricksMethod
+
+WritePatch Started CycleStep. 2025-02-23 3:13:37 PM
+PetricksMethod
+
+WritePatch ran compiler. 2025-02-23 3:14:22 PM
+PetricksMethod
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\Program.cs(6,18): error CS0101: The namespace 'PetricksMethod' already contains a definition for 'Program' [D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\PetricksMethod.csproj]
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\Program.cs(8,27): error CS0111: Type 'Program' already defines a member called 'Main' with the same parameter types [D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\PetricksMethod.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\Program.cs(6,18): error CS0101: The namespace 'PetricksMethod' already contains a definition for 'Program' [D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\PetricksMethod.csproj]
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\Program.cs(8,27): error CS0111: Type 'Program' already defines a member called 'Main' with the same parameter types [D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\PetricksMethod.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.32
+
+
+Errors:
+
+WritePatch: Compile failed.
+PetricksMethod
+
+Finished WritePatch cycle step.
+2025-02-23 3:14:23 PM
+PetricksMethod
+
+WritePatch Started CycleStep. 2025-02-23 3:14:23 PM
+PetricksMethod
+
+WritePatch ran compiler. 2025-02-23 3:14:51 PM
+PetricksMethod
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PetricksMethod -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\bin\Debug\net9.0\PetricksMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.76
+
+
+WritePatch: Code is not Complete.
+PetricksMethod
+
+Finished WritePatch cycle step.
+2025-02-23 3:15:01 PM
+PetricksMethod
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethod
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PetricksMethod -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\bin\Debug\net9.0\PetricksMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.76
+
+</CompilerResponse>
+2025-02-23 3:15:02 PM
+PetricksMethod
+
+WritePatch Started CycleStep. 2025-02-23 3:15:02 PM
+PetricksMethod
+
+WritePatch ran compiler. 2025-02-23 3:16:24 PM
+PetricksMethod
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PetricksMethod -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\bin\Debug\net9.0\PetricksMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.62
+
+
+WritePatch: Code is Complete.
+PetricksMethod
+
+WritePatch Started CycleStep. 2025-02-23 3:16:37 PM
+PetricksMethodTest
+
+WritePatch ran compiler. 2025-02-23 3:17:40 PM
+PetricksMethodTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PetricksMethod -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\bin\Debug\net9.0\PetricksMethod.dll
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetrickSimplifierTests.cs(18,42): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj]
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetrickSimplifierTests.cs(65,21): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj]
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetrickSimplifierTests.cs(66,21): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj]
+  PetricksMethodTest -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\bin\Debug\net9.0\PetricksMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetrickSimplifierTests.cs(18,42): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj]
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetrickSimplifierTests.cs(65,21): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj]
+D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetrickSimplifierTests.cs(66,21): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.22
+
+
+WritePatch: Compile failed.
+PetricksMethodTest
+
+Finished WritePatch cycle step.
+2025-02-23 3:17:41 PM
+PetricksMethodTest
+
+WritePatch Started CycleStep. 2025-02-23 3:17:41 PM
+PetricksMethodTest
+
+WritePatch ran compiler. 2025-02-23 3:18:58 PM
+PetricksMethodTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PetricksMethod -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\bin\Debug\net9.0\PetricksMethod.dll
+  PetricksMethodTest -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\bin\Debug\net9.0\PetricksMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.77
+
+
+WritePatch: Code is Complete.
+PetricksMethodTest
+
+TestResult:
+[SUCCESS 2025-02-23 3:19:19 PM] All tests passed successfully.
+[INFO 2025-02-23 3:19:19 PM] Test process completed. Duration: 3.54 seconds.
+[INFO 2025-02-23 3:19:19 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 3:19:20 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 3:19:19 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 3:19:19 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 3:19:18 PM]   PetricksMethod -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethod\bin\Debug\net9.0\PetricksMethod.dll
+[OUTPUT 2025-02-23 3:19:17 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 3:19:18 PM] Test run for D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\bin\Debug\net9.0\PetricksMethodTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 3:19:18 PM]   PetricksMethodTest -> D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\bin\Debug\net9.0\PetricksMethodTest.dll
+[OUTPUT 2025-02-23 3:19:17 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 3:19:16 PM] Command: dotnet test "D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 3:19:16 PM] Starting test for project: D:\Code2025\RavenWork\PetricksMethod\PetricksMethodTest\PetricksMethodTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
