@@ -1,0 +1,396 @@
+<ActRecord>
+  <ProjectName>MinimumDegreeAlgorithm</ProjectName>
+  <ProjectDescription>Minimum degree algorithm – An algorithm for permuting a sparse matrix to minimize fill-in during Cholesky decomposition.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Minimum degree algorithm – An algorithm for permuting a sparse matrix to minimize fill-in during Cholesky decomposition.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\MinimumDegreeAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>MinimumDegreeAlgorithm</ProjectFolderName>
+  <ProjectName>MinimumDegreeAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:40:28 AM
+MinimumDegreeAlgorithm</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 10:41:06 AM
+MinimumDegreeAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:41:07 AM
+MinimumDegreeAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:42:23 AM
+MinimumDegreeAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  MinimumDegreeAlgorithm -> D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithm\bin\Debug\net9.0\MinimumDegreeAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.91
+]]></string>
+    <string>WritePatch: Code is Complete.
+MinimumDegreeAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:43:07 AM
+MinimumDegreeAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:43:53 AM
+MinimumDegreeAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeAlgorithmTest.csproj (in 207 ms).
+  1 of 2 projects are up-to-date for restore.
+  MinimumDegreeAlgorithm -> D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithm\bin\Debug\net9.0\MinimumDegreeAlgorithm.dll
+D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeOrdererTests.cs(14,40): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeOrdererTests.cs(15,67): warning CS8604: Possible null reference argument for parameter 'graph' in 'int[] MinimumDegreeOrderer.ComputeOrdering(List<HashSet<int>> graph)'. [D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeAlgorithmTest.csproj]
+  MinimumDegreeAlgorithmTest -> D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\bin\Debug\net9.0\MinimumDegreeAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeOrdererTests.cs(14,40): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeOrdererTests.cs(15,67): warning CS8604: Possible null reference argument for parameter 'graph' in 'int[] MinimumDegreeOrderer.ComputeOrdering(List<HashSet<int>> graph)'. [D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.48
+]]></string>
+    <string>WritePatch: Compile failed.
+MinimumDegreeAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:43:54 AM
+MinimumDegreeAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:43:54 AM
+MinimumDegreeAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:45:01 AM
+MinimumDegreeAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  MinimumDegreeAlgorithm -> D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithm\bin\Debug\net9.0\MinimumDegreeAlgorithm.dll
+D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeOrdererTests.cs(15,67): warning CS8604: Possible null reference argument for parameter 'graph' in 'int[] MinimumDegreeOrderer.ComputeOrdering(List<HashSet<int>> graph)'. [D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeAlgorithmTest.csproj]
+  MinimumDegreeAlgorithmTest -> D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\bin\Debug\net9.0\MinimumDegreeAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeOrdererTests.cs(15,67): warning CS8604: Possible null reference argument for parameter 'graph' in 'int[] MinimumDegreeOrderer.ComputeOrdering(List<HashSet<int>> graph)'. [D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.23
+]]></string>
+    <string>WritePatch: Compile failed.
+MinimumDegreeAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:45:02 AM
+MinimumDegreeAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:45:03 AM
+MinimumDegreeAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:45:28 AM
+MinimumDegreeAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  MinimumDegreeAlgorithm -> D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithm\bin\Debug\net9.0\MinimumDegreeAlgorithm.dll
+  MinimumDegreeAlgorithmTest -> D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\bin\Debug\net9.0\MinimumDegreeAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.23
+]]></string>
+    <string>WritePatch: Code is not Complete.
+MinimumDegreeAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:45:42 AM
+MinimumDegreeAlgorithmTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  MinimumDegreeAlgorithm -> D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithm\bin\Debug\net9.0\MinimumDegreeAlgorithm.dll
+  MinimumDegreeAlgorithmTest -> D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\bin\Debug\net9.0\MinimumDegreeAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.23
+
+</CompilerResponse>
+2025-02-23 10:45:42 AM
+MinimumDegreeAlgorithmTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 10:45:43 AM
+MinimumDegreeAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  MinimumDegreeAlgorithm -> D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithm\bin\Debug\net9.0\MinimumDegreeAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.74
+]]></string>
+    <string>WritePatch: Code is Complete.
+MinimumDegreeAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:46:00 AM
+MinimumDegreeAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  MinimumDegreeAlgorithm -> D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithm\bin\Debug\net9.0\MinimumDegreeAlgorithm.dll
+  MinimumDegreeAlgorithmTest -> D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\bin\Debug\net9.0\MinimumDegreeAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+]]></string>
+    <string>WritePatch: Code is Complete.
+MinimumDegreeAlgorithmTest</string>
+    <string>[INFO 2025-02-23 10:46:19 AM] Starting test for project: D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:46:19 AM] Starting test for project: D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:46:19 AM] Starting test for project: D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:46:19 AM] Starting test for project: D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:46:19 AM] Starting test for project: D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:46:19 AM] Starting test for project: D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:46:19 AM] Starting test for project: D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:46:19 AM] Starting test for project: D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:46:19 AM] Starting test for project: D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:46:19 AM] Starting test for project: D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:46:19 AM] Starting test for project: D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:46:19 AM] Starting test for project: D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 10:46:22 AM] Test Parallelization enabled for D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\bin\Debug\net9.0\MinimumDegreeAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:46:22 AM] D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\bin\Debug\net9.0\MinimumDegreeAlgorithmTest.dll
+[OUTPUT 2025-02-23 10:46:21 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:46:21 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:46:21 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:46:20 AM] Test run for D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\bin\Debug\net9.0\MinimumDegreeAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:46:20 AM]   MinimumDegreeAlgorithmTest -> D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\bin\Debug\net9.0\MinimumDegreeAlgorithmTest.dll
+[OUTPUT 2025-02-23 10:46:20 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:46:20 AM]   MinimumDegreeAlgorithm -> D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithm\bin\Debug\net9.0\MinimumDegreeAlgorithm.dll
+[OUTPUT 2025-02-23 10:46:19 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 10:46:22 AM] All tests passed successfully.
+[INFO 2025-02-23 10:46:22 AM] Test process completed. Duration: 3.30 seconds.
+[INFO 2025-02-23 10:46:22 AM] Process exited with code 0.
+[INFO 2025-02-23 10:46:19 AM] Command: dotnet test "D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:46:19 AM] Starting test for project: D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 10:40:28 AM
+MinimumDegreeAlgorithm
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 10:41:06 AM
+MinimumDegreeAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 10:41:07 AM
+MinimumDegreeAlgorithm
+
+WritePatch ran compiler. 2025-02-23 10:42:23 AM
+MinimumDegreeAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  MinimumDegreeAlgorithm -> D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithm\bin\Debug\net9.0\MinimumDegreeAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.91
+
+
+WritePatch: Code is Complete.
+MinimumDegreeAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 10:43:07 AM
+MinimumDegreeAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 10:43:53 AM
+MinimumDegreeAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeAlgorithmTest.csproj (in 207 ms).
+  1 of 2 projects are up-to-date for restore.
+  MinimumDegreeAlgorithm -> D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithm\bin\Debug\net9.0\MinimumDegreeAlgorithm.dll
+D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeOrdererTests.cs(14,40): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeOrdererTests.cs(15,67): warning CS8604: Possible null reference argument for parameter 'graph' in 'int[] MinimumDegreeOrderer.ComputeOrdering(List<HashSet<int>> graph)'. [D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeAlgorithmTest.csproj]
+  MinimumDegreeAlgorithmTest -> D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\bin\Debug\net9.0\MinimumDegreeAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeOrdererTests.cs(14,40): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeAlgorithmTest.csproj]
+D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeOrdererTests.cs(15,67): warning CS8604: Possible null reference argument for parameter 'graph' in 'int[] MinimumDegreeOrderer.ComputeOrdering(List<HashSet<int>> graph)'. [D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.48
+
+
+WritePatch: Compile failed.
+MinimumDegreeAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:43:54 AM
+MinimumDegreeAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 10:43:54 AM
+MinimumDegreeAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 10:45:01 AM
+MinimumDegreeAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  MinimumDegreeAlgorithm -> D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithm\bin\Debug\net9.0\MinimumDegreeAlgorithm.dll
+D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeOrdererTests.cs(15,67): warning CS8604: Possible null reference argument for parameter 'graph' in 'int[] MinimumDegreeOrderer.ComputeOrdering(List<HashSet<int>> graph)'. [D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeAlgorithmTest.csproj]
+  MinimumDegreeAlgorithmTest -> D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\bin\Debug\net9.0\MinimumDegreeAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeOrdererTests.cs(15,67): warning CS8604: Possible null reference argument for parameter 'graph' in 'int[] MinimumDegreeOrderer.ComputeOrdering(List<HashSet<int>> graph)'. [D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.23
+
+
+WritePatch: Compile failed.
+MinimumDegreeAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:45:02 AM
+MinimumDegreeAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 10:45:03 AM
+MinimumDegreeAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 10:45:28 AM
+MinimumDegreeAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  MinimumDegreeAlgorithm -> D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithm\bin\Debug\net9.0\MinimumDegreeAlgorithm.dll
+  MinimumDegreeAlgorithmTest -> D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\bin\Debug\net9.0\MinimumDegreeAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.23
+
+
+WritePatch: Code is not Complete.
+MinimumDegreeAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:45:42 AM
+MinimumDegreeAlgorithmTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  MinimumDegreeAlgorithm -> D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithm\bin\Debug\net9.0\MinimumDegreeAlgorithm.dll
+  MinimumDegreeAlgorithmTest -> D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\bin\Debug\net9.0\MinimumDegreeAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.23
+
+</CompilerResponse>
+2025-02-23 10:45:42 AM
+MinimumDegreeAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 10:45:43 AM
+MinimumDegreeAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  MinimumDegreeAlgorithm -> D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithm\bin\Debug\net9.0\MinimumDegreeAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.74
+
+
+WritePatch: Code is Complete.
+MinimumDegreeAlgorithm
+
+WritePatch ran compiler. 2025-02-23 10:46:00 AM
+MinimumDegreeAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  MinimumDegreeAlgorithm -> D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithm\bin\Debug\net9.0\MinimumDegreeAlgorithm.dll
+  MinimumDegreeAlgorithmTest -> D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\bin\Debug\net9.0\MinimumDegreeAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+
+
+WritePatch: Code is Complete.
+MinimumDegreeAlgorithmTest
+
+TestResult:
+[OUTPUT 2025-02-23 10:46:22 AM] Test Parallelization enabled for D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\bin\Debug\net9.0\MinimumDegreeAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:46:22 AM] D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\bin\Debug\net9.0\MinimumDegreeAlgorithmTest.dll
+[OUTPUT 2025-02-23 10:46:21 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:46:21 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:46:21 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:46:20 AM] Test run for D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\bin\Debug\net9.0\MinimumDegreeAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:46:20 AM]   MinimumDegreeAlgorithmTest -> D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\bin\Debug\net9.0\MinimumDegreeAlgorithmTest.dll
+[OUTPUT 2025-02-23 10:46:20 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:46:20 AM]   MinimumDegreeAlgorithm -> D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithm\bin\Debug\net9.0\MinimumDegreeAlgorithm.dll
+[OUTPUT 2025-02-23 10:46:19 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 10:46:22 AM] All tests passed successfully.
+[INFO 2025-02-23 10:46:22 AM] Test process completed. Duration: 3.30 seconds.
+[INFO 2025-02-23 10:46:22 AM] Process exited with code 0.
+[INFO 2025-02-23 10:46:19 AM] Command: dotnet test "D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:46:19 AM] Starting test for project: D:\Code2025\RavenWork\MinimumDegreeAlgorithm\MinimumDegreeAlgorithmTest\MinimumDegreeAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
