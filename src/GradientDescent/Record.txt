@@ -1,0 +1,454 @@
+<ActRecord>
+  <ProjectName>GradientDescent</ProjectName>
+  <ProjectDescription>Gradient descent – An iterative algorithm for finding a local minimum of a function by moving in the direction of steepest descent.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Gradient descent – An iterative algorithm for finding a local minimum of a function by moving in the direction of steepest descent.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\GradientDescent</SolutionFolderPath>
+  <ProjectFolderName>GradientDescent</ProjectFolderName>
+  <ProjectName>GradientDescent</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:53:36 PM
+GradientDescent</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:54:04 PM
+GradientDescent</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\GradientDescent\GradientDescent\GradientDescentSolver.cs(22,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\GradientDescent\GradientDescent\GradientDescent.csproj]
+  GradientDescent -> D:\Code2025\RavenWork\GradientDescent\GradientDescent\bin\Debug\net9.0\GradientDescent.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\GradientDescent\GradientDescent\GradientDescentSolver.cs(22,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\GradientDescent\GradientDescent\GradientDescent.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.84
+]]></string>
+    <string>WritePatch: Compile failed.
+GradientDescent</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 4:54:05 PM
+GradientDescent</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:54:06 PM
+GradientDescent</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:54:31 PM
+GradientDescent</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GradientDescent -> D:\Code2025\RavenWork\GradientDescent\GradientDescent\bin\Debug\net9.0\GradientDescent.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.08
+]]></string>
+    <string>WritePatch: Code is Complete.
+GradientDescent</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:54:46 PM
+GradientDescentTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:55:26 PM
+GradientDescentTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj (in 431 ms).
+  1 of 2 projects are up-to-date for restore.
+  GradientDescent -> D:\Code2025\RavenWork\GradientDescent\GradientDescent\bin\Debug\net9.0\GradientDescent.dll
+D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentSolverTests.cs(20,16): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj]
+D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentSolverTests.cs(33,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj]
+D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentSolverTests.cs(33,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj]
+  GradientDescentTest -> D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\bin\Debug\net9.0\GradientDescentTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentSolverTests.cs(20,16): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj]
+D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentSolverTests.cs(33,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj]
+D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentSolverTests.cs(33,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.27
+]]></string>
+    <string>WritePatch: Compile failed.
+GradientDescentTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 4:55:27 PM
+GradientDescentTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:55:28 PM
+GradientDescentTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:56:49 PM
+GradientDescentTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GradientDescent -> D:\Code2025\RavenWork\GradientDescent\GradientDescent\bin\Debug\net9.0\GradientDescent.dll
+D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentSolverTests.cs(20,16): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj]
+D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentSolverTests.cs(33,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj]
+D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentSolverTests.cs(33,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj]
+  GradientDescentTest -> D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\bin\Debug\net9.0\GradientDescentTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentSolverTests.cs(20,16): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj]
+D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentSolverTests.cs(33,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj]
+D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentSolverTests.cs(33,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.06
+]]></string>
+    <string>WritePatch: Compile failed.
+GradientDescentTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 4:56:50 PM
+GradientDescentTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:56:51 PM
+GradientDescentTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:57:15 PM
+GradientDescentTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GradientDescent -> D:\Code2025\RavenWork\GradientDescent\GradientDescent\bin\Debug\net9.0\GradientDescent.dll
+  GradientDescentTest -> D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\bin\Debug\net9.0\GradientDescentTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.83
+]]></string>
+    <string>WritePatch: Code is not Complete.
+GradientDescentTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 4:57:33 PM
+GradientDescentTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\GradientDescent\GradientDescentTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GradientDescent -> D:\Code2025\RavenWork\GradientDescent\GradientDescent\bin\Debug\net9.0\GradientDescent.dll
+  GradientDescentTest -> D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\bin\Debug\net9.0\GradientDescentTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.83
+
+</CompilerResponse>
+2025-02-23 4:57:34 PM
+GradientDescentTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 4:57:36 PM
+GradientDescent</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GradientDescent -> D:\Code2025\RavenWork\GradientDescent\GradientDescent\bin\Debug\net9.0\GradientDescent.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.46
+]]></string>
+    <string>WritePatch: Code is Complete.
+GradientDescent</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:57:50 PM
+GradientDescentTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GradientDescent -> D:\Code2025\RavenWork\GradientDescent\GradientDescent\bin\Debug\net9.0\GradientDescent.dll
+  GradientDescentTest -> D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\bin\Debug\net9.0\GradientDescentTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.97
+]]></string>
+    <string>WritePatch: Code is Complete.
+GradientDescentTest</string>
+    <string>[INFO 2025-02-23 4:58:12 PM] Starting test for project: D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj</string>
+    <string>[INFO 2025-02-23 4:58:12 PM] Starting test for project: D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj</string>
+    <string>[INFO 2025-02-23 4:58:12 PM] Starting test for project: D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj</string>
+    <string>[INFO 2025-02-23 4:58:12 PM] Starting test for project: D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj</string>
+    <string>[INFO 2025-02-23 4:58:12 PM] Starting test for project: D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj</string>
+    <string>[INFO 2025-02-23 4:58:12 PM] Starting test for project: D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj</string>
+    <string>[INFO 2025-02-23 4:58:12 PM] Starting test for project: D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj</string>
+    <string>[INFO 2025-02-23 4:58:12 PM] Starting test for project: D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj</string>
+    <string>[INFO 2025-02-23 4:58:12 PM] Starting test for project: D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj</string>
+    <string>[INFO 2025-02-23 4:58:12 PM] Starting test for project: D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj</string>
+    <string>[INFO 2025-02-23 4:58:12 PM] Starting test for project: D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj</string>
+    <string>[INFO 2025-02-23 4:58:12 PM] Starting test for project: D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj</string>
+    <string>[INFO 2025-02-23 4:58:12 PM] Starting test for project: D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 4:58:17 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 4:58:16 PM] Test run for D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\bin\Debug\net9.0\GradientDescentTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 4:58:16 PM]   GradientDescentTest -> D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\bin\Debug\net9.0\GradientDescentTest.dll
+[OUTPUT 2025-02-23 4:58:14 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 4:58:20 PM]   Passed TestQuadraticHighDimension [8 ms]
+[OUTPUT 2025-02-23 4:58:19 PM] Test Parallelization enabled for D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\bin\Debug\net9.0\GradientDescentTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 4:58:19 PM] D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\bin\Debug\net9.0\GradientDescentTest.dll
+[OUTPUT 2025-02-23 4:58:18 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 4:58:17 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 4:58:15 PM]   GradientDescent -> D:\Code2025\RavenWork\GradientDescent\GradientDescent\bin\Debug\net9.0\GradientDescent.dll
+[OUTPUT 2025-02-23 4:58:14 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 4:58:20 PM] All tests passed successfully.
+[INFO 2025-02-23 4:58:20 PM] Test process completed. Duration: 7.27 seconds.
+[INFO 2025-02-23 4:58:20 PM] Process exited with code 0.
+[INFO 2025-02-23 4:58:12 PM] Command: dotnet test "D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 4:58:12 PM] Starting test for project: D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 4:53:36 PM
+GradientDescent
+
+WritePatch ran compiler. 2025-02-23 4:54:04 PM
+GradientDescent
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\GradientDescent\GradientDescent\GradientDescentSolver.cs(22,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\GradientDescent\GradientDescent\GradientDescent.csproj]
+  GradientDescent -> D:\Code2025\RavenWork\GradientDescent\GradientDescent\bin\Debug\net9.0\GradientDescent.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\GradientDescent\GradientDescent\GradientDescentSolver.cs(22,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\GradientDescent\GradientDescent\GradientDescent.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.84
+
+
+WritePatch: Compile failed.
+GradientDescent
+
+Finished WritePatch cycle step.
+2025-02-23 4:54:05 PM
+GradientDescent
+
+WritePatch Started CycleStep. 2025-02-23 4:54:06 PM
+GradientDescent
+
+WritePatch ran compiler. 2025-02-23 4:54:31 PM
+GradientDescent
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GradientDescent -> D:\Code2025\RavenWork\GradientDescent\GradientDescent\bin\Debug\net9.0\GradientDescent.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.08
+
+
+WritePatch: Code is Complete.
+GradientDescent
+
+WritePatch Started CycleStep. 2025-02-23 4:54:46 PM
+GradientDescentTest
+
+WritePatch ran compiler. 2025-02-23 4:55:26 PM
+GradientDescentTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj (in 431 ms).
+  1 of 2 projects are up-to-date for restore.
+  GradientDescent -> D:\Code2025\RavenWork\GradientDescent\GradientDescent\bin\Debug\net9.0\GradientDescent.dll
+D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentSolverTests.cs(20,16): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj]
+D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentSolverTests.cs(33,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj]
+D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentSolverTests.cs(33,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj]
+  GradientDescentTest -> D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\bin\Debug\net9.0\GradientDescentTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentSolverTests.cs(20,16): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj]
+D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentSolverTests.cs(33,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj]
+D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentSolverTests.cs(33,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.27
+
+
+WritePatch: Compile failed.
+GradientDescentTest
+
+Finished WritePatch cycle step.
+2025-02-23 4:55:27 PM
+GradientDescentTest
+
+WritePatch Started CycleStep. 2025-02-23 4:55:28 PM
+GradientDescentTest
+
+WritePatch ran compiler. 2025-02-23 4:56:49 PM
+GradientDescentTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GradientDescent -> D:\Code2025\RavenWork\GradientDescent\GradientDescent\bin\Debug\net9.0\GradientDescent.dll
+D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentSolverTests.cs(20,16): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj]
+D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentSolverTests.cs(33,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj]
+D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentSolverTests.cs(33,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj]
+  GradientDescentTest -> D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\bin\Debug\net9.0\GradientDescentTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentSolverTests.cs(20,16): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj]
+D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentSolverTests.cs(33,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj]
+D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentSolverTests.cs(33,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.06
+
+
+WritePatch: Compile failed.
+GradientDescentTest
+
+Finished WritePatch cycle step.
+2025-02-23 4:56:50 PM
+GradientDescentTest
+
+WritePatch Started CycleStep. 2025-02-23 4:56:51 PM
+GradientDescentTest
+
+WritePatch ran compiler. 2025-02-23 4:57:15 PM
+GradientDescentTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GradientDescent -> D:\Code2025\RavenWork\GradientDescent\GradientDescent\bin\Debug\net9.0\GradientDescent.dll
+  GradientDescentTest -> D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\bin\Debug\net9.0\GradientDescentTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.83
+
+
+WritePatch: Code is not Complete.
+GradientDescentTest
+
+Finished WritePatch cycle step.
+2025-02-23 4:57:33 PM
+GradientDescentTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\GradientDescent\GradientDescentTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GradientDescent -> D:\Code2025\RavenWork\GradientDescent\GradientDescent\bin\Debug\net9.0\GradientDescent.dll
+  GradientDescentTest -> D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\bin\Debug\net9.0\GradientDescentTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.83
+
+</CompilerResponse>
+2025-02-23 4:57:34 PM
+GradientDescentTest
+
+WritePatch ran compiler. 2025-02-23 4:57:36 PM
+GradientDescent
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GradientDescent -> D:\Code2025\RavenWork\GradientDescent\GradientDescent\bin\Debug\net9.0\GradientDescent.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.46
+
+
+WritePatch: Code is Complete.
+GradientDescent
+
+WritePatch ran compiler. 2025-02-23 4:57:50 PM
+GradientDescentTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GradientDescent -> D:\Code2025\RavenWork\GradientDescent\GradientDescent\bin\Debug\net9.0\GradientDescent.dll
+  GradientDescentTest -> D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\bin\Debug\net9.0\GradientDescentTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.97
+
+
+WritePatch: Code is Complete.
+GradientDescentTest
+
+TestResult:
+[OUTPUT 2025-02-23 4:58:17 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 4:58:16 PM] Test run for D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\bin\Debug\net9.0\GradientDescentTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 4:58:16 PM]   GradientDescentTest -> D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\bin\Debug\net9.0\GradientDescentTest.dll
+[OUTPUT 2025-02-23 4:58:14 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 4:58:20 PM]   Passed TestQuadraticHighDimension [8 ms]
+[OUTPUT 2025-02-23 4:58:19 PM] Test Parallelization enabled for D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\bin\Debug\net9.0\GradientDescentTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 4:58:19 PM] D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\bin\Debug\net9.0\GradientDescentTest.dll
+[OUTPUT 2025-02-23 4:58:18 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 4:58:17 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 4:58:15 PM]   GradientDescent -> D:\Code2025\RavenWork\GradientDescent\GradientDescent\bin\Debug\net9.0\GradientDescent.dll
+[OUTPUT 2025-02-23 4:58:14 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 4:58:20 PM] All tests passed successfully.
+[INFO 2025-02-23 4:58:20 PM] Test process completed. Duration: 7.27 seconds.
+[INFO 2025-02-23 4:58:20 PM] Process exited with code 0.
+[INFO 2025-02-23 4:58:12 PM] Command: dotnet test "D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 4:58:12 PM] Starting test for project: D:\Code2025\RavenWork\GradientDescent\GradientDescentTest\GradientDescentTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
