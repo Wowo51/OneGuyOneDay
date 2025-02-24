@@ -1,0 +1,343 @@
+<ActRecord>
+  <ProjectName>ZeroAttributeRule</ProjectName>
+  <ProjectDescription>Zero‑attribute rule</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Zero‑attribute rule</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\ZeroAttributeRule</SolutionFolderPath>
+  <ProjectFolderName>ZeroAttributeRule</ProjectFolderName>
+  <ProjectName>ZeroAttributeRule</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:46:08 AM
+ZeroAttributeRule</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:46:40 AM
+ZeroAttributeRule</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ZeroAttributeRule -> D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRule\bin\Debug\net9.0\ZeroAttributeRule.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.04
+]]></string>
+    <string>WritePatch: Code is Complete.
+ZeroAttributeRule</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:47:11 AM
+ZeroAttributeRuleTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 11:47:38 AM
+ZeroAttributeRuleTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:47:39 AM
+ZeroAttributeRuleTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:48:11 AM
+ZeroAttributeRuleTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\ZeroAttributeRuleTest.csproj (in 247 ms).
+  1 of 2 projects are up-to-date for restore.
+  ZeroAttributeRule -> D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRule\bin\Debug\net9.0\ZeroAttributeRule.dll
+D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\ZeroAttributeCheckerTests.cs(14,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\ZeroAttributeRuleTest.csproj]
+  ZeroAttributeRuleTest -> D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\bin\Debug\net9.0\ZeroAttributeRuleTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\ZeroAttributeCheckerTests.cs(14,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\ZeroAttributeRuleTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.74
+]]></string>
+    <string>WritePatch: Compile failed.
+ZeroAttributeRuleTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:48:16 AM
+ZeroAttributeRuleTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:48:17 AM
+ZeroAttributeRuleTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:48:36 AM
+ZeroAttributeRuleTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ZeroAttributeRule -> D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRule\bin\Debug\net9.0\ZeroAttributeRule.dll
+  ZeroAttributeRuleTest -> D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\bin\Debug\net9.0\ZeroAttributeRuleTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.25
+]]></string>
+    <string>WritePatch: Code is not Complete.
+ZeroAttributeRuleTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:49:13 AM
+ZeroAttributeRuleTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ZeroAttributeRule -> D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRule\bin\Debug\net9.0\ZeroAttributeRule.dll
+  ZeroAttributeRuleTest -> D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\bin\Debug\net9.0\ZeroAttributeRuleTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.25
+
+</CompilerResponse>
+2025-02-23 11:49:14 AM
+ZeroAttributeRuleTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 11:49:15 AM
+ZeroAttributeRule</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ZeroAttributeRule -> D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRule\bin\Debug\net9.0\ZeroAttributeRule.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.03
+]]></string>
+    <string>WritePatch: Code is Complete.
+ZeroAttributeRule</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:50:05 AM
+ZeroAttributeRuleTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ZeroAttributeRule -> D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRule\bin\Debug\net9.0\ZeroAttributeRule.dll
+  ZeroAttributeRuleTest -> D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\bin\Debug\net9.0\ZeroAttributeRuleTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.20
+]]></string>
+    <string>WritePatch: Code is Complete.
+ZeroAttributeRuleTest</string>
+    <string>[INFO 2025-02-23 11:50:19 AM] Starting test for project: D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\ZeroAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 11:50:19 AM] Starting test for project: D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\ZeroAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 11:50:19 AM] Starting test for project: D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\ZeroAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 11:50:19 AM] Starting test for project: D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\ZeroAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 11:50:19 AM] Starting test for project: D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\ZeroAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 11:50:19 AM] Starting test for project: D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\ZeroAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 11:50:19 AM] Starting test for project: D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\ZeroAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 11:50:19 AM] Starting test for project: D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\ZeroAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 11:50:19 AM] Starting test for project: D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\ZeroAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 11:50:19 AM] Starting test for project: D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\ZeroAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 11:50:19 AM] Starting test for project: D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\ZeroAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 11:50:19 AM] Starting test for project: D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\ZeroAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 11:50:19 AM] Starting test for project: D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\ZeroAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 11:50:19 AM] Starting test for project: D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\ZeroAttributeRuleTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 11:50:23 AM] All tests passed successfully.
+[INFO 2025-02-23 11:50:23 AM] Test process completed. Duration: 3.82 seconds.
+[INFO 2025-02-23 11:50:23 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 11:50:23 AM] Test Parallelization enabled for D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\bin\Debug\net9.0\ZeroAttributeRuleTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 11:50:23 AM]   Passed Test_WithBothBracketsButNotAnAttribute_ReturnsTrue [6 ms]
+[OUTPUT 2025-02-23 11:50:23 AM]   Passed Test_WithMismatchedBrackets_ReturnsFalse [6 ms]
+[OUTPUT 2025-02-23 11:50:21 AM] Test run for D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\bin\Debug\net9.0\ZeroAttributeRuleTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:50:21 AM]   ZeroAttributeRuleTest -> D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\bin\Debug\net9.0\ZeroAttributeRuleTest.dll
+[OUTPUT 2025-02-23 11:50:21 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:50:22 AM] D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\bin\Debug\net9.0\ZeroAttributeRuleTest.dll
+[OUTPUT 2025-02-23 11:50:22 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:50:22 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:50:22 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:50:21 AM]   ZeroAttributeRule -> D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRule\bin\Debug\net9.0\ZeroAttributeRule.dll
+[OUTPUT 2025-02-23 11:50:20 AM]   Determining projects to restore...
+[INFO 2025-02-23 11:50:19 AM] Command: dotnet test "D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\ZeroAttributeRuleTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:50:19 AM] Starting test for project: D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\ZeroAttributeRuleTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 11:46:08 AM
+ZeroAttributeRule
+
+WritePatch ran compiler. 2025-02-23 11:46:40 AM
+ZeroAttributeRule
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ZeroAttributeRule -> D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRule\bin\Debug\net9.0\ZeroAttributeRule.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.04
+
+
+WritePatch: Code is Complete.
+ZeroAttributeRule
+
+WritePatch Started CycleStep. 2025-02-23 11:47:11 AM
+ZeroAttributeRuleTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 11:47:38 AM
+ZeroAttributeRuleTest
+
+WritePatch Started CycleStep. 2025-02-23 11:47:39 AM
+ZeroAttributeRuleTest
+
+WritePatch ran compiler. 2025-02-23 11:48:11 AM
+ZeroAttributeRuleTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\ZeroAttributeRuleTest.csproj (in 247 ms).
+  1 of 2 projects are up-to-date for restore.
+  ZeroAttributeRule -> D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRule\bin\Debug\net9.0\ZeroAttributeRule.dll
+D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\ZeroAttributeCheckerTests.cs(14,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\ZeroAttributeRuleTest.csproj]
+  ZeroAttributeRuleTest -> D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\bin\Debug\net9.0\ZeroAttributeRuleTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\ZeroAttributeCheckerTests.cs(14,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\ZeroAttributeRuleTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.74
+
+
+WritePatch: Compile failed.
+ZeroAttributeRuleTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:48:16 AM
+ZeroAttributeRuleTest
+
+WritePatch Started CycleStep. 2025-02-23 11:48:17 AM
+ZeroAttributeRuleTest
+
+WritePatch ran compiler. 2025-02-23 11:48:36 AM
+ZeroAttributeRuleTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ZeroAttributeRule -> D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRule\bin\Debug\net9.0\ZeroAttributeRule.dll
+  ZeroAttributeRuleTest -> D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\bin\Debug\net9.0\ZeroAttributeRuleTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.25
+
+
+WritePatch: Code is not Complete.
+ZeroAttributeRuleTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:49:13 AM
+ZeroAttributeRuleTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ZeroAttributeRule -> D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRule\bin\Debug\net9.0\ZeroAttributeRule.dll
+  ZeroAttributeRuleTest -> D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\bin\Debug\net9.0\ZeroAttributeRuleTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.25
+
+</CompilerResponse>
+2025-02-23 11:49:14 AM
+ZeroAttributeRuleTest
+
+WritePatch ran compiler. 2025-02-23 11:49:15 AM
+ZeroAttributeRule
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ZeroAttributeRule -> D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRule\bin\Debug\net9.0\ZeroAttributeRule.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.03
+
+
+WritePatch: Code is Complete.
+ZeroAttributeRule
+
+WritePatch ran compiler. 2025-02-23 11:50:05 AM
+ZeroAttributeRuleTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ZeroAttributeRule -> D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRule\bin\Debug\net9.0\ZeroAttributeRule.dll
+  ZeroAttributeRuleTest -> D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\bin\Debug\net9.0\ZeroAttributeRuleTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.20
+
+
+WritePatch: Code is Complete.
+ZeroAttributeRuleTest
+
+TestResult:
+[SUCCESS 2025-02-23 11:50:23 AM] All tests passed successfully.
+[INFO 2025-02-23 11:50:23 AM] Test process completed. Duration: 3.82 seconds.
+[INFO 2025-02-23 11:50:23 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 11:50:23 AM] Test Parallelization enabled for D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\bin\Debug\net9.0\ZeroAttributeRuleTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 11:50:23 AM]   Passed Test_WithBothBracketsButNotAnAttribute_ReturnsTrue [6 ms]
+[OUTPUT 2025-02-23 11:50:23 AM]   Passed Test_WithMismatchedBrackets_ReturnsFalse [6 ms]
+[OUTPUT 2025-02-23 11:50:21 AM] Test run for D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\bin\Debug\net9.0\ZeroAttributeRuleTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:50:21 AM]   ZeroAttributeRuleTest -> D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\bin\Debug\net9.0\ZeroAttributeRuleTest.dll
+[OUTPUT 2025-02-23 11:50:21 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:50:22 AM] D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\bin\Debug\net9.0\ZeroAttributeRuleTest.dll
+[OUTPUT 2025-02-23 11:50:22 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:50:22 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:50:22 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:50:21 AM]   ZeroAttributeRule -> D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRule\bin\Debug\net9.0\ZeroAttributeRule.dll
+[OUTPUT 2025-02-23 11:50:20 AM]   Determining projects to restore...
+[INFO 2025-02-23 11:50:19 AM] Command: dotnet test "D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\ZeroAttributeRuleTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:50:19 AM] Starting test for project: D:\Code2025\RavenWork\ZeroAttributeRule\ZeroAttributeRuleTest\ZeroAttributeRuleTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
