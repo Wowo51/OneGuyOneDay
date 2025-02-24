@@ -1,0 +1,388 @@
+<ActRecord>
+  <ProjectName>ShortestJobScheduling</ProjectName>
+  <ProjectDescription>Shortest job next scheduling</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Shortest job next scheduling</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\ShortestJobScheduling</SolutionFolderPath>
+  <ProjectFolderName>ShortestJobScheduling</ProjectFolderName>
+  <ProjectName>ShortestJobScheduling</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:25:09 PM
+ShortestJobScheduling</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:25:38 PM
+ShortestJobScheduling</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ShortestJobScheduling -> D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobScheduling\bin\Debug\net9.0\ShortestJobScheduling.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.92
+]]></string>
+    <string>WritePatch: Code is Complete.
+ShortestJobScheduling</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:25:48 PM
+ShortestJobSchedulingTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:26:58 PM
+ShortestJobSchedulingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobSchedulingTest.csproj (in 214 ms).
+  1 of 2 projects are up-to-date for restore.
+  ShortestJobScheduling -> D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobScheduling\bin\Debug\net9.0\ShortestJobScheduling.dll
+D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobNextSchedulerTests.cs(45,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobSchedulingTest.csproj]
+  ShortestJobSchedulingTest -> D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\bin\Debug\net9.0\ShortestJobSchedulingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobNextSchedulerTests.cs(45,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobSchedulingTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.52
+]]></string>
+    <string>WritePatch: Compile failed.
+ShortestJobSchedulingTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:26:59 PM
+ShortestJobSchedulingTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:26:59 PM
+ShortestJobSchedulingTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:27:18 PM
+ShortestJobSchedulingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ShortestJobScheduling -> D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobScheduling\bin\Debug\net9.0\ShortestJobScheduling.dll
+  ShortestJobSchedulingTest -> D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\bin\Debug\net9.0\ShortestJobSchedulingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.18
+]]></string>
+    <string>WritePatch: Code is not Complete.
+ShortestJobSchedulingTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:27:42 PM
+ShortestJobSchedulingTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:27:43 PM
+ShortestJobSchedulingTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:28:41 PM
+ShortestJobSchedulingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ShortestJobScheduling -> D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobScheduling\bin\Debug\net9.0\ShortestJobScheduling.dll
+D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobNextSchedulerTests.cs(45,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobSchedulingTest.csproj]
+  ShortestJobSchedulingTest -> D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\bin\Debug\net9.0\ShortestJobSchedulingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobNextSchedulerTests.cs(45,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobSchedulingTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.13
+]]></string>
+    <string>WritePatch: Compile failed.
+ShortestJobSchedulingTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:28:42 PM
+ShortestJobSchedulingTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ShortestJobScheduling -> D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobScheduling\bin\Debug\net9.0\ShortestJobScheduling.dll
+D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobNextSchedulerTests.cs(45,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobSchedulingTest.csproj]
+  ShortestJobSchedulingTest -> D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\bin\Debug\net9.0\ShortestJobSchedulingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobNextSchedulerTests.cs(45,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobSchedulingTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.13
+
+</CompilerResponse>
+2025-02-23 1:28:43 PM
+ShortestJobSchedulingTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 1:28:44 PM
+ShortestJobScheduling</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ShortestJobScheduling -> D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobScheduling\bin\Debug\net9.0\ShortestJobScheduling.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.79
+]]></string>
+    <string>WritePatch: Code is Complete.
+ShortestJobScheduling</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:28:53 PM
+ShortestJobSchedulingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ShortestJobScheduling -> D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobScheduling\bin\Debug\net9.0\ShortestJobScheduling.dll
+  ShortestJobSchedulingTest -> D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\bin\Debug\net9.0\ShortestJobSchedulingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.06
+]]></string>
+    <string>WritePatch: Code is Complete.
+ShortestJobSchedulingTest</string>
+    <string>[INFO 2025-02-23 1:29:07 PM] Starting test for project: D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobSchedulingTest.csproj</string>
+    <string>[INFO 2025-02-23 1:29:07 PM] Starting test for project: D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobSchedulingTest.csproj</string>
+    <string>[INFO 2025-02-23 1:29:07 PM] Starting test for project: D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobSchedulingTest.csproj</string>
+    <string>[INFO 2025-02-23 1:29:07 PM] Starting test for project: D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobSchedulingTest.csproj</string>
+    <string>[INFO 2025-02-23 1:29:07 PM] Starting test for project: D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobSchedulingTest.csproj</string>
+    <string>[INFO 2025-02-23 1:29:07 PM] Starting test for project: D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobSchedulingTest.csproj</string>
+    <string>[INFO 2025-02-23 1:29:07 PM] Starting test for project: D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobSchedulingTest.csproj</string>
+    <string>[INFO 2025-02-23 1:29:07 PM] Starting test for project: D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobSchedulingTest.csproj</string>
+    <string>[INFO 2025-02-23 1:29:07 PM] Starting test for project: D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobSchedulingTest.csproj</string>
+    <string>[INFO 2025-02-23 1:29:07 PM] Starting test for project: D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobSchedulingTest.csproj</string>
+    <string>[INFO 2025-02-23 1:29:07 PM] Starting test for project: D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobSchedulingTest.csproj</string>
+    <string>[INFO 2025-02-23 1:29:07 PM] Starting test for project: D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobSchedulingTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 1:29:11 PM] All tests passed successfully.
+[INFO 2025-02-23 1:29:11 PM] Test process completed. Duration: 3.75 seconds.
+[INFO 2025-02-23 1:29:11 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 1:29:11 PM] Test Parallelization enabled for D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\bin\Debug\net9.0\ShortestJobSchedulingTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 1:29:10 PM] D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\bin\Debug\net9.0\ShortestJobSchedulingTest.dll
+[OUTPUT 2025-02-23 1:29:10 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 1:29:10 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 1:29:10 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 1:29:09 PM] Test run for D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\bin\Debug\net9.0\ShortestJobSchedulingTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 1:29:09 PM]   ShortestJobSchedulingTest -> D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\bin\Debug\net9.0\ShortestJobSchedulingTest.dll
+[OUTPUT 2025-02-23 1:29:09 PM]   ShortestJobScheduling -> D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobScheduling\bin\Debug\net9.0\ShortestJobScheduling.dll
+[OUTPUT 2025-02-23 1:29:08 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:29:08 PM]   Determining projects to restore...
+[INFO 2025-02-23 1:29:07 PM] Command: dotnet test "D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobSchedulingTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:29:07 PM] Starting test for project: D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobSchedulingTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 1:25:09 PM
+ShortestJobScheduling
+
+WritePatch ran compiler. 2025-02-23 1:25:38 PM
+ShortestJobScheduling
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ShortestJobScheduling -> D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobScheduling\bin\Debug\net9.0\ShortestJobScheduling.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.92
+
+
+WritePatch: Code is Complete.
+ShortestJobScheduling
+
+WritePatch Started CycleStep. 2025-02-23 1:25:48 PM
+ShortestJobSchedulingTest
+
+WritePatch ran compiler. 2025-02-23 1:26:58 PM
+ShortestJobSchedulingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobSchedulingTest.csproj (in 214 ms).
+  1 of 2 projects are up-to-date for restore.
+  ShortestJobScheduling -> D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobScheduling\bin\Debug\net9.0\ShortestJobScheduling.dll
+D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobNextSchedulerTests.cs(45,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobSchedulingTest.csproj]
+  ShortestJobSchedulingTest -> D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\bin\Debug\net9.0\ShortestJobSchedulingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobNextSchedulerTests.cs(45,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobSchedulingTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.52
+
+
+WritePatch: Compile failed.
+ShortestJobSchedulingTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:26:59 PM
+ShortestJobSchedulingTest
+
+WritePatch Started CycleStep. 2025-02-23 1:26:59 PM
+ShortestJobSchedulingTest
+
+WritePatch ran compiler. 2025-02-23 1:27:18 PM
+ShortestJobSchedulingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ShortestJobScheduling -> D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobScheduling\bin\Debug\net9.0\ShortestJobScheduling.dll
+  ShortestJobSchedulingTest -> D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\bin\Debug\net9.0\ShortestJobSchedulingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.18
+
+
+WritePatch: Code is not Complete.
+ShortestJobSchedulingTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:27:42 PM
+ShortestJobSchedulingTest
+
+WritePatch Started CycleStep. 2025-02-23 1:27:43 PM
+ShortestJobSchedulingTest
+
+WritePatch ran compiler. 2025-02-23 1:28:41 PM
+ShortestJobSchedulingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ShortestJobScheduling -> D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobScheduling\bin\Debug\net9.0\ShortestJobScheduling.dll
+D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobNextSchedulerTests.cs(45,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobSchedulingTest.csproj]
+  ShortestJobSchedulingTest -> D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\bin\Debug\net9.0\ShortestJobSchedulingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobNextSchedulerTests.cs(45,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobSchedulingTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.13
+
+
+WritePatch: Compile failed.
+ShortestJobSchedulingTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:28:42 PM
+ShortestJobSchedulingTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ShortestJobScheduling -> D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobScheduling\bin\Debug\net9.0\ShortestJobScheduling.dll
+D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobNextSchedulerTests.cs(45,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobSchedulingTest.csproj]
+  ShortestJobSchedulingTest -> D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\bin\Debug\net9.0\ShortestJobSchedulingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobNextSchedulerTests.cs(45,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobSchedulingTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.13
+
+</CompilerResponse>
+2025-02-23 1:28:43 PM
+ShortestJobSchedulingTest
+
+WritePatch ran compiler. 2025-02-23 1:28:44 PM
+ShortestJobScheduling
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ShortestJobScheduling -> D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobScheduling\bin\Debug\net9.0\ShortestJobScheduling.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.79
+
+
+WritePatch: Code is Complete.
+ShortestJobScheduling
+
+WritePatch ran compiler. 2025-02-23 1:28:53 PM
+ShortestJobSchedulingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ShortestJobScheduling -> D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobScheduling\bin\Debug\net9.0\ShortestJobScheduling.dll
+  ShortestJobSchedulingTest -> D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\bin\Debug\net9.0\ShortestJobSchedulingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.06
+
+
+WritePatch: Code is Complete.
+ShortestJobSchedulingTest
+
+TestResult:
+[SUCCESS 2025-02-23 1:29:11 PM] All tests passed successfully.
+[INFO 2025-02-23 1:29:11 PM] Test process completed. Duration: 3.75 seconds.
+[INFO 2025-02-23 1:29:11 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 1:29:11 PM] Test Parallelization enabled for D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\bin\Debug\net9.0\ShortestJobSchedulingTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 1:29:10 PM] D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\bin\Debug\net9.0\ShortestJobSchedulingTest.dll
+[OUTPUT 2025-02-23 1:29:10 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 1:29:10 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 1:29:10 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 1:29:09 PM] Test run for D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\bin\Debug\net9.0\ShortestJobSchedulingTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 1:29:09 PM]   ShortestJobSchedulingTest -> D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\bin\Debug\net9.0\ShortestJobSchedulingTest.dll
+[OUTPUT 2025-02-23 1:29:09 PM]   ShortestJobScheduling -> D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobScheduling\bin\Debug\net9.0\ShortestJobScheduling.dll
+[OUTPUT 2025-02-23 1:29:08 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:29:08 PM]   Determining projects to restore...
+[INFO 2025-02-23 1:29:07 PM] Command: dotnet test "D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobSchedulingTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:29:07 PM] Starting test for project: D:\Code2025\RavenWork\ShortestJobScheduling\ShortestJobSchedulingTest\ShortestJobSchedulingTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
