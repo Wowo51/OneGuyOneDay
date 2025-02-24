@@ -1,0 +1,298 @@
+<ActRecord>
+  <ProjectName>CanonicalLRParser</ProjectName>
+  <ProjectDescription>  – Canonical LR parser</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>  – Canonical LR parser</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\CanonicalLRParser</SolutionFolderPath>
+  <ProjectFolderName>CanonicalLRParser</ProjectFolderName>
+  <ProjectName>CanonicalLRParser</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:55:33 PM
+CanonicalLRParser</string>
+    <string>Exception: The request was canceled due to the configured HttpClient.Timeout of 200 seconds elapsing.</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:58:54 PM
+CanonicalLRParser</string>
+    <string>WritePatch ran compiler. 2025-02-23 3:00:37 PM
+CanonicalLRParser</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\Grammar.cs(23,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\LRParser.cs(35,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\LRParser.cs(76,16): warning CS8618: Non-nullable property 'ActionTable' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\LRParser.cs(76,16): warning CS8618: Non-nullable property 'GotoTable' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\LRParser.cs(22,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+  CanonicalLRParser -> D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\bin\Debug\net9.0\CanonicalLRParser.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\Grammar.cs(23,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\LRParser.cs(35,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\LRParser.cs(76,16): warning CS8618: Non-nullable property 'ActionTable' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\LRParser.cs(76,16): warning CS8618: Non-nullable property 'GotoTable' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\LRParser.cs(22,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+    5 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.76
+]]></string>
+    <string>WritePatch: Compile failed.
+CanonicalLRParser</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 3:00:38 PM
+CanonicalLRParser</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 3:00:38 PM
+CanonicalLRParser</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 3:02:31 PM
+CanonicalLRParser</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\Grammar.cs(23,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\LRParser.cs(35,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\LRParser.cs(76,16): warning CS8618: Non-nullable property 'ActionTable' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\LRParser.cs(76,16): warning CS8618: Non-nullable property 'GotoTable' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\LRParser.cs(22,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+  CanonicalLRParser -> D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\bin\Debug\net9.0\CanonicalLRParser.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\Grammar.cs(23,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\LRParser.cs(35,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\LRParser.cs(76,16): warning CS8618: Non-nullable property 'ActionTable' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\LRParser.cs(76,16): warning CS8618: Non-nullable property 'GotoTable' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\LRParser.cs(22,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+    5 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.76
+
+</CompilerResponse>
+2025-02-23 3:02:31 PM
+CanonicalLRParser]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 3:02:33 PM
+CanonicalLRParser</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CanonicalLRParser -> D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\bin\Debug\net9.0\CanonicalLRParser.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+]]></string>
+    <string>WritePatch: Code is Complete.
+CanonicalLRParser</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 3:02:53 PM
+CanonicalLRParserTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 3:03:40 PM
+CanonicalLRParserTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParserTest\CanonicalLRParserTest.csproj (in 322 ms).
+  1 of 2 projects are up-to-date for restore.
+  CanonicalLRParser -> D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\bin\Debug\net9.0\CanonicalLRParser.dll
+  CanonicalLRParserTest -> D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParserTest\bin\Debug\net9.0\CanonicalLRParserTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.48
+]]></string>
+    <string>WritePatch: Code is Complete.
+CanonicalLRParserTest</string>
+    <string>[INFO 2025-02-23 3:03:56 PM] Starting test for project: D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParserTest\CanonicalLRParserTest.csproj</string>
+    <string>[INFO 2025-02-23 3:03:56 PM] Starting test for project: D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParserTest\CanonicalLRParserTest.csproj</string>
+    <string>[INFO 2025-02-23 3:03:56 PM] Starting test for project: D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParserTest\CanonicalLRParserTest.csproj</string>
+    <string>[INFO 2025-02-23 3:03:56 PM] Starting test for project: D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParserTest\CanonicalLRParserTest.csproj</string>
+    <string>[INFO 2025-02-23 3:03:56 PM] Starting test for project: D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParserTest\CanonicalLRParserTest.csproj</string>
+    <string>[INFO 2025-02-23 3:03:56 PM] Starting test for project: D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParserTest\CanonicalLRParserTest.csproj</string>
+    <string>[INFO 2025-02-23 3:03:56 PM] Starting test for project: D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParserTest\CanonicalLRParserTest.csproj</string>
+    <string>[INFO 2025-02-23 3:03:56 PM] Starting test for project: D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParserTest\CanonicalLRParserTest.csproj</string>
+    <string>[INFO 2025-02-23 3:03:56 PM] Starting test for project: D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParserTest\CanonicalLRParserTest.csproj</string>
+    <string>[INFO 2025-02-23 3:03:56 PM] Starting test for project: D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParserTest\CanonicalLRParserTest.csproj</string>
+    <string>[INFO 2025-02-23 3:03:56 PM] Starting test for project: D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParserTest\CanonicalLRParserTest.csproj</string>
+    <string>[INFO 2025-02-23 3:03:56 PM] Starting test for project: D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParserTest\CanonicalLRParserTest.csproj</string>
+    <string>[INFO 2025-02-23 3:03:56 PM] Starting test for project: D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParserTest\CanonicalLRParserTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 3:04:03 PM] All tests passed successfully.
+[INFO 2025-02-23 3:04:03 PM] Test process completed. Duration: 6.68 seconds.
+[INFO 2025-02-23 3:04:03 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 3:04:03 PM]   Passed TestGrammarAugmentation [58 ms]
+[OUTPUT 2025-02-23 3:04:02 PM] Test Parallelization enabled for D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParserTest\bin\Debug\net9.0\CanonicalLRParserTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 3:03:58 PM]   CanonicalLRParser -> D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\bin\Debug\net9.0\CanonicalLRParser.dll
+[OUTPUT 2025-02-23 3:03:57 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 3:04:00 PM] D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParserTest\bin\Debug\net9.0\CanonicalLRParserTest.dll
+[OUTPUT 2025-02-23 3:04:00 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 3:04:00 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 3:03:59 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 3:03:59 PM] Test run for D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParserTest\bin\Debug\net9.0\CanonicalLRParserTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 3:03:59 PM]   CanonicalLRParserTest -> D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParserTest\bin\Debug\net9.0\CanonicalLRParserTest.dll
+[OUTPUT 2025-02-23 3:03:58 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 3:03:56 PM] Command: dotnet test "D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParserTest\CanonicalLRParserTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 3:03:56 PM] Starting test for project: D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParserTest\CanonicalLRParserTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 2:55:33 PM
+CanonicalLRParser
+
+Exception: The request was canceled due to the configured HttpClient.Timeout of 200 seconds elapsing.
+
+WritePatch Started CycleStep. 2025-02-23 2:58:54 PM
+CanonicalLRParser
+
+WritePatch ran compiler. 2025-02-23 3:00:37 PM
+CanonicalLRParser
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\Grammar.cs(23,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\LRParser.cs(35,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\LRParser.cs(76,16): warning CS8618: Non-nullable property 'ActionTable' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\LRParser.cs(76,16): warning CS8618: Non-nullable property 'GotoTable' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\LRParser.cs(22,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+  CanonicalLRParser -> D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\bin\Debug\net9.0\CanonicalLRParser.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\Grammar.cs(23,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\LRParser.cs(35,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\LRParser.cs(76,16): warning CS8618: Non-nullable property 'ActionTable' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\LRParser.cs(76,16): warning CS8618: Non-nullable property 'GotoTable' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\LRParser.cs(22,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+    5 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.76
+
+
+WritePatch: Compile failed.
+CanonicalLRParser
+
+Finished WritePatch cycle step.
+2025-02-23 3:00:38 PM
+CanonicalLRParser
+
+WritePatch Started CycleStep. 2025-02-23 3:00:38 PM
+CanonicalLRParser
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 3:02:31 PM
+CanonicalLRParser
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\Grammar.cs(23,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\LRParser.cs(35,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\LRParser.cs(76,16): warning CS8618: Non-nullable property 'ActionTable' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\LRParser.cs(76,16): warning CS8618: Non-nullable property 'GotoTable' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\LRParser.cs(22,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+  CanonicalLRParser -> D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\bin\Debug\net9.0\CanonicalLRParser.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\Grammar.cs(23,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\LRParser.cs(35,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\LRParser.cs(76,16): warning CS8618: Non-nullable property 'ActionTable' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\LRParser.cs(76,16): warning CS8618: Non-nullable property 'GotoTable' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\LRParser.cs(22,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\CanonicalLRParser.csproj]
+    5 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.76
+
+</CompilerResponse>
+2025-02-23 3:02:31 PM
+CanonicalLRParser
+
+WritePatch ran compiler. 2025-02-23 3:02:33 PM
+CanonicalLRParser
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CanonicalLRParser -> D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\bin\Debug\net9.0\CanonicalLRParser.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+
+
+WritePatch: Code is Complete.
+CanonicalLRParser
+
+WritePatch Started CycleStep. 2025-02-23 3:02:53 PM
+CanonicalLRParserTest
+
+WritePatch ran compiler. 2025-02-23 3:03:40 PM
+CanonicalLRParserTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParserTest\CanonicalLRParserTest.csproj (in 322 ms).
+  1 of 2 projects are up-to-date for restore.
+  CanonicalLRParser -> D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\bin\Debug\net9.0\CanonicalLRParser.dll
+  CanonicalLRParserTest -> D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParserTest\bin\Debug\net9.0\CanonicalLRParserTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.48
+
+
+WritePatch: Code is Complete.
+CanonicalLRParserTest
+
+TestResult:
+[SUCCESS 2025-02-23 3:04:03 PM] All tests passed successfully.
+[INFO 2025-02-23 3:04:03 PM] Test process completed. Duration: 6.68 seconds.
+[INFO 2025-02-23 3:04:03 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 3:04:03 PM]   Passed TestGrammarAugmentation [58 ms]
+[OUTPUT 2025-02-23 3:04:02 PM] Test Parallelization enabled for D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParserTest\bin\Debug\net9.0\CanonicalLRParserTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 3:03:58 PM]   CanonicalLRParser -> D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParser\bin\Debug\net9.0\CanonicalLRParser.dll
+[OUTPUT 2025-02-23 3:03:57 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 3:04:00 PM] D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParserTest\bin\Debug\net9.0\CanonicalLRParserTest.dll
+[OUTPUT 2025-02-23 3:04:00 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 3:04:00 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 3:03:59 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 3:03:59 PM] Test run for D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParserTest\bin\Debug\net9.0\CanonicalLRParserTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 3:03:59 PM]   CanonicalLRParserTest -> D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParserTest\bin\Debug\net9.0\CanonicalLRParserTest.dll
+[OUTPUT 2025-02-23 3:03:58 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 3:03:56 PM] Command: dotnet test "D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParserTest\CanonicalLRParserTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 3:03:56 PM] Starting test for project: D:\Code2025\RavenWork\CanonicalLRParser\CanonicalLRParserTest\CanonicalLRParserTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
