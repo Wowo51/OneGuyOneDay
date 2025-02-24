@@ -1,0 +1,273 @@
+<ActRecord>
+  <ProjectName>NestedSamplingAlgorithm</ProjectName>
+  <ProjectDescription>Nested sampling algorithm: A computational approach for comparing models in Bayesian statistics</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Nested sampling algorithm: A computational approach for comparing models in Bayesian statistics</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\NestedSamplingAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>NestedSamplingAlgorithm</ProjectFolderName>
+  <ProjectName>NestedSamplingAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:34:34 AM
+NestedSamplingAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:35:15 AM
+NestedSamplingAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\NestedSampler.cs(54,38): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\NestedSamplingAlgorithm.csproj]
+D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\NestedSampler.cs(76,59): warning CS8604: Possible null reference argument for parameter 'parameters' in 'SamplePoint.SamplePoint(double[] parameters, double likelihood)'. [D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\NestedSamplingAlgorithm.csproj]
+  NestedSamplingAlgorithm -> D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\bin\Debug\net9.0\NestedSamplingAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\NestedSampler.cs(54,38): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\NestedSamplingAlgorithm.csproj]
+D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\NestedSampler.cs(76,59): warning CS8604: Possible null reference argument for parameter 'parameters' in 'SamplePoint.SamplePoint(double[] parameters, double likelihood)'. [D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\NestedSamplingAlgorithm.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+]]></string>
+    <string>WritePatch: Compile failed.
+NestedSamplingAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:35:16 AM
+NestedSamplingAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:35:16 AM
+NestedSamplingAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:36:03 AM
+NestedSamplingAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\NestedSampler.cs(79,59): error CS0165: Use of unassigned local variable 'newSample' [D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\NestedSamplingAlgorithm.csproj]
+D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\NestedSampler.cs(79,70): error CS0165: Use of unassigned local variable 'newLikelihood' [D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\NestedSamplingAlgorithm.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\NestedSampler.cs(79,59): error CS0165: Use of unassigned local variable 'newSample' [D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\NestedSamplingAlgorithm.csproj]
+D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\NestedSampler.cs(79,70): error CS0165: Use of unassigned local variable 'newLikelihood' [D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\NestedSamplingAlgorithm.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.82
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+NestedSamplingAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:36:04 AM
+NestedSamplingAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:36:04 AM
+NestedSamplingAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:36:37 AM
+NestedSamplingAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  NestedSamplingAlgorithm -> D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\bin\Debug\net9.0\NestedSamplingAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.83
+]]></string>
+    <string>WritePatch: Code is Complete.
+NestedSamplingAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:37:00 AM
+NestedSamplingAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:37:43 AM
+NestedSamplingAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithmTest\NestedSamplingAlgorithmTest.csproj (in 252 ms).
+  1 of 2 projects are up-to-date for restore.
+  NestedSamplingAlgorithm -> D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\bin\Debug\net9.0\NestedSamplingAlgorithm.dll
+  NestedSamplingAlgorithmTest -> D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithmTest\bin\Debug\net9.0\NestedSamplingAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.67
+]]></string>
+    <string>WritePatch: Code is Complete.
+NestedSamplingAlgorithmTest</string>
+    <string>[INFO 2025-02-23 10:38:17 AM] Starting test for project: D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithmTest\NestedSamplingAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:38:17 AM] Starting test for project: D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithmTest\NestedSamplingAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:38:17 AM] Starting test for project: D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithmTest\NestedSamplingAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:38:17 AM] Starting test for project: D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithmTest\NestedSamplingAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:38:17 AM] Starting test for project: D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithmTest\NestedSamplingAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:38:17 AM] Starting test for project: D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithmTest\NestedSamplingAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:38:17 AM] Starting test for project: D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithmTest\NestedSamplingAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:38:17 AM] Starting test for project: D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithmTest\NestedSamplingAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:38:17 AM] Starting test for project: D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithmTest\NestedSamplingAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:38:17 AM] Starting test for project: D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithmTest\NestedSamplingAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:38:17 AM] Starting test for project: D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithmTest\NestedSamplingAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:38:17 AM] Starting test for project: D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithmTest\NestedSamplingAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:38:17 AM] Starting test for project: D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithmTest\NestedSamplingAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 10:38:21 AM]   Passed Test_NestedSampler_Tolerance [4 ms]
+[OUTPUT 2025-02-23 10:38:20 AM] Test Parallelization enabled for D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithmTest\bin\Debug\net9.0\NestedSamplingAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:38:20 AM] D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithmTest\bin\Debug\net9.0\NestedSamplingAlgorithmTest.dll
+[OUTPUT 2025-02-23 10:38:20 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:38:18 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:38:20 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:38:19 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:38:19 AM] Test run for D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithmTest\bin\Debug\net9.0\NestedSamplingAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:38:19 AM]   NestedSamplingAlgorithmTest -> D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithmTest\bin\Debug\net9.0\NestedSamplingAlgorithmTest.dll
+[OUTPUT 2025-02-23 10:38:19 AM]   NestedSamplingAlgorithm -> D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\bin\Debug\net9.0\NestedSamplingAlgorithm.dll
+[OUTPUT 2025-02-23 10:38:18 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 10:38:21 AM] All tests passed successfully.
+[INFO 2025-02-23 10:38:21 AM] Test process completed. Duration: 3.70 seconds.
+[INFO 2025-02-23 10:38:21 AM] Process exited with code 0.
+[INFO 2025-02-23 10:38:17 AM] Command: dotnet test "D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithmTest\NestedSamplingAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:38:17 AM] Starting test for project: D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithmTest\NestedSamplingAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 10:34:34 AM
+NestedSamplingAlgorithm
+
+WritePatch ran compiler. 2025-02-23 10:35:15 AM
+NestedSamplingAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\NestedSampler.cs(54,38): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\NestedSamplingAlgorithm.csproj]
+D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\NestedSampler.cs(76,59): warning CS8604: Possible null reference argument for parameter 'parameters' in 'SamplePoint.SamplePoint(double[] parameters, double likelihood)'. [D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\NestedSamplingAlgorithm.csproj]
+  NestedSamplingAlgorithm -> D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\bin\Debug\net9.0\NestedSamplingAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\NestedSampler.cs(54,38): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\NestedSamplingAlgorithm.csproj]
+D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\NestedSampler.cs(76,59): warning CS8604: Possible null reference argument for parameter 'parameters' in 'SamplePoint.SamplePoint(double[] parameters, double likelihood)'. [D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\NestedSamplingAlgorithm.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+
+
+WritePatch: Compile failed.
+NestedSamplingAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 10:35:16 AM
+NestedSamplingAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 10:35:16 AM
+NestedSamplingAlgorithm
+
+WritePatch ran compiler. 2025-02-23 10:36:03 AM
+NestedSamplingAlgorithm
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\NestedSampler.cs(79,59): error CS0165: Use of unassigned local variable 'newSample' [D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\NestedSamplingAlgorithm.csproj]
+D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\NestedSampler.cs(79,70): error CS0165: Use of unassigned local variable 'newLikelihood' [D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\NestedSamplingAlgorithm.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\NestedSampler.cs(79,59): error CS0165: Use of unassigned local variable 'newSample' [D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\NestedSamplingAlgorithm.csproj]
+D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\NestedSampler.cs(79,70): error CS0165: Use of unassigned local variable 'newLikelihood' [D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\NestedSamplingAlgorithm.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.82
+
+
+Errors:
+
+WritePatch: Compile failed.
+NestedSamplingAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 10:36:04 AM
+NestedSamplingAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 10:36:04 AM
+NestedSamplingAlgorithm
+
+WritePatch ran compiler. 2025-02-23 10:36:37 AM
+NestedSamplingAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  NestedSamplingAlgorithm -> D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\bin\Debug\net9.0\NestedSamplingAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.83
+
+
+WritePatch: Code is Complete.
+NestedSamplingAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 10:37:00 AM
+NestedSamplingAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 10:37:43 AM
+NestedSamplingAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithmTest\NestedSamplingAlgorithmTest.csproj (in 252 ms).
+  1 of 2 projects are up-to-date for restore.
+  NestedSamplingAlgorithm -> D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\bin\Debug\net9.0\NestedSamplingAlgorithm.dll
+  NestedSamplingAlgorithmTest -> D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithmTest\bin\Debug\net9.0\NestedSamplingAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.67
+
+
+WritePatch: Code is Complete.
+NestedSamplingAlgorithmTest
+
+TestResult:
+[OUTPUT 2025-02-23 10:38:21 AM]   Passed Test_NestedSampler_Tolerance [4 ms]
+[OUTPUT 2025-02-23 10:38:20 AM] Test Parallelization enabled for D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithmTest\bin\Debug\net9.0\NestedSamplingAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:38:20 AM] D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithmTest\bin\Debug\net9.0\NestedSamplingAlgorithmTest.dll
+[OUTPUT 2025-02-23 10:38:20 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:38:18 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:38:20 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:38:19 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:38:19 AM] Test run for D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithmTest\bin\Debug\net9.0\NestedSamplingAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:38:19 AM]   NestedSamplingAlgorithmTest -> D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithmTest\bin\Debug\net9.0\NestedSamplingAlgorithmTest.dll
+[OUTPUT 2025-02-23 10:38:19 AM]   NestedSamplingAlgorithm -> D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithm\bin\Debug\net9.0\NestedSamplingAlgorithm.dll
+[OUTPUT 2025-02-23 10:38:18 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 10:38:21 AM] All tests passed successfully.
+[INFO 2025-02-23 10:38:21 AM] Test process completed. Duration: 3.70 seconds.
+[INFO 2025-02-23 10:38:21 AM] Process exited with code 0.
+[INFO 2025-02-23 10:38:17 AM] Command: dotnet test "D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithmTest\NestedSamplingAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:38:17 AM] Starting test for project: D:\Code2025\RavenWork\NestedSamplingAlgorithm\NestedSamplingAlgorithmTest\NestedSamplingAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
