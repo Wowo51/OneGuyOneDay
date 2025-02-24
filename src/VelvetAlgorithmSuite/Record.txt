@@ -1,0 +1,446 @@
+<ActRecord>
+  <ProjectName>VelvetAlgorithmSuite</ProjectName>
+  <ProjectDescription>Velvet – A suite of algorithms that use de Bruijn graphs for genomic sequence assembly.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Velvet – A suite of algorithms that use de Bruijn graphs for genomic sequence assembly.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\VelvetAlgorithmSuite</SolutionFolderPath>
+  <ProjectFolderName>VelvetAlgorithmSuite</ProjectFolderName>
+  <ProjectName>VelvetAlgorithmSuite</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:02:40 PM
+VelvetAlgorithmSuite</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:03:36 PM
+VelvetAlgorithmSuite</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuite\SequenceAssembler.cs(66,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuite\VelvetAlgorithmSuite.csproj]
+  VelvetAlgorithmSuite -> D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuite\bin\Debug\net9.0\VelvetAlgorithmSuite.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuite\SequenceAssembler.cs(66,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuite\VelvetAlgorithmSuite.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.99
+]]></string>
+    <string>WritePatch: Compile failed.
+VelvetAlgorithmSuite</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 12:03:37 PM
+VelvetAlgorithmSuite</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:03:37 PM
+VelvetAlgorithmSuite</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:04:08 PM
+VelvetAlgorithmSuite</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  VelvetAlgorithmSuite -> D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuite\bin\Debug\net9.0\VelvetAlgorithmSuite.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+]]></string>
+    <string>WritePatch: Code is Complete.
+VelvetAlgorithmSuite</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:04:54 PM
+VelvetAlgorithmSuiteTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:06:35 PM
+VelvetAlgorithmSuiteTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\VelvetAlgorithmSuiteTest.csproj (in 227 ms).
+  1 of 2 projects are up-to-date for restore.
+  VelvetAlgorithmSuite -> D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuite\bin\Debug\net9.0\VelvetAlgorithmSuite.dll
+D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\SequenceAssemblerTests.cs(15,48): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\VelvetAlgorithmSuiteTest.csproj]
+D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\DeBruijnGraphTests.cs(14,31): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\VelvetAlgorithmSuiteTest.csproj]
+  VelvetAlgorithmSuiteTest -> D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\bin\Debug\net9.0\VelvetAlgorithmSuiteTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\SequenceAssemblerTests.cs(15,48): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\VelvetAlgorithmSuiteTest.csproj]
+D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\DeBruijnGraphTests.cs(14,31): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\VelvetAlgorithmSuiteTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.60
+]]></string>
+    <string>WritePatch: Compile failed.
+VelvetAlgorithmSuiteTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 12:06:36 PM
+VelvetAlgorithmSuiteTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:06:36 PM
+VelvetAlgorithmSuiteTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:08:01 PM
+VelvetAlgorithmSuiteTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  VelvetAlgorithmSuite -> D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuite\bin\Debug\net9.0\VelvetAlgorithmSuite.dll
+D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\SequenceAssemblerTests.cs(15,48): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\VelvetAlgorithmSuiteTest.csproj]
+D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\DeBruijnGraphTests.cs(14,31): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\VelvetAlgorithmSuiteTest.csproj]
+  VelvetAlgorithmSuiteTest -> D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\bin\Debug\net9.0\VelvetAlgorithmSuiteTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\SequenceAssemblerTests.cs(15,48): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\VelvetAlgorithmSuiteTest.csproj]
+D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\DeBruijnGraphTests.cs(14,31): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\VelvetAlgorithmSuiteTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.17
+]]></string>
+    <string>WritePatch: Compile failed.
+VelvetAlgorithmSuiteTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 12:08:02 PM
+VelvetAlgorithmSuiteTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:08:02 PM
+VelvetAlgorithmSuiteTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:08:51 PM
+VelvetAlgorithmSuiteTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  VelvetAlgorithmSuite -> D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuite\bin\Debug\net9.0\VelvetAlgorithmSuite.dll
+  VelvetAlgorithmSuiteTest -> D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\bin\Debug\net9.0\VelvetAlgorithmSuiteTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.12
+]]></string>
+    <string>WritePatch: Code is not Complete.
+VelvetAlgorithmSuiteTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 12:09:18 PM
+VelvetAlgorithmSuiteTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  VelvetAlgorithmSuite -> D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuite\bin\Debug\net9.0\VelvetAlgorithmSuite.dll
+  VelvetAlgorithmSuiteTest -> D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\bin\Debug\net9.0\VelvetAlgorithmSuiteTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.12
+
+</CompilerResponse>
+2025-02-23 12:09:18 PM
+VelvetAlgorithmSuiteTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 12:09:20 PM
+VelvetAlgorithmSuite</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  VelvetAlgorithmSuite -> D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuite\bin\Debug\net9.0\VelvetAlgorithmSuite.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.96
+]]></string>
+    <string>WritePatch: Code is Complete.
+VelvetAlgorithmSuite</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:10:26 PM
+VelvetAlgorithmSuiteTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  VelvetAlgorithmSuite -> D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuite\bin\Debug\net9.0\VelvetAlgorithmSuite.dll
+  VelvetAlgorithmSuiteTest -> D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\bin\Debug\net9.0\VelvetAlgorithmSuiteTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.12
+]]></string>
+    <string>WritePatch: Code is Complete.
+VelvetAlgorithmSuiteTest</string>
+    <string>[INFO 2025-02-23 12:10:43 PM] Starting test for project: D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\VelvetAlgorithmSuiteTest.csproj</string>
+    <string>[INFO 2025-02-23 12:10:43 PM] Starting test for project: D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\VelvetAlgorithmSuiteTest.csproj</string>
+    <string>[INFO 2025-02-23 12:10:43 PM] Starting test for project: D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\VelvetAlgorithmSuiteTest.csproj</string>
+    <string>[INFO 2025-02-23 12:10:43 PM] Starting test for project: D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\VelvetAlgorithmSuiteTest.csproj</string>
+    <string>[INFO 2025-02-23 12:10:43 PM] Starting test for project: D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\VelvetAlgorithmSuiteTest.csproj</string>
+    <string>[INFO 2025-02-23 12:10:43 PM] Starting test for project: D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\VelvetAlgorithmSuiteTest.csproj</string>
+    <string>[INFO 2025-02-23 12:10:43 PM] Starting test for project: D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\VelvetAlgorithmSuiteTest.csproj</string>
+    <string>[INFO 2025-02-23 12:10:43 PM] Starting test for project: D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\VelvetAlgorithmSuiteTest.csproj</string>
+    <string>[INFO 2025-02-23 12:10:43 PM] Starting test for project: D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\VelvetAlgorithmSuiteTest.csproj</string>
+    <string>[INFO 2025-02-23 12:10:43 PM] Starting test for project: D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\VelvetAlgorithmSuiteTest.csproj</string>
+    <string>[INFO 2025-02-23 12:10:43 PM] Starting test for project: D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\VelvetAlgorithmSuiteTest.csproj</string>
+    <string>[INFO 2025-02-23 12:10:43 PM] Starting test for project: D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\VelvetAlgorithmSuiteTest.csproj</string>
+    <string>[INFO 2025-02-23 12:10:43 PM] Starting test for project: D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\VelvetAlgorithmSuiteTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 12:10:47 PM]   Passed AddSequence_ValidSequence_PopulatesGraphCorrectly [5 ms]
+[OUTPUT 2025-02-23 12:10:47 PM] Test Parallelization enabled for D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\bin\Debug\net9.0\VelvetAlgorithmSuiteTest.dll (Workers: 16, Scope: MethodLevel)
+[SUCCESS 2025-02-23 12:10:47 PM] All tests passed successfully.
+[INFO 2025-02-23 12:10:47 PM] Test process completed. Duration: 3.36 seconds.
+[INFO 2025-02-23 12:10:47 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 12:10:47 PM] D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\bin\Debug\net9.0\VelvetAlgorithmSuiteTest.dll
+[OUTPUT 2025-02-23 12:10:46 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 12:10:46 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 12:10:46 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 12:10:45 PM] Test run for D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\bin\Debug\net9.0\VelvetAlgorithmSuiteTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 12:10:45 PM]   VelvetAlgorithmSuiteTest -> D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\bin\Debug\net9.0\VelvetAlgorithmSuiteTest.dll
+[OUTPUT 2025-02-23 12:10:45 PM]   VelvetAlgorithmSuite -> D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuite\bin\Debug\net9.0\VelvetAlgorithmSuite.dll
+[OUTPUT 2025-02-23 12:10:44 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 12:10:44 PM]   Determining projects to restore...
+[INFO 2025-02-23 12:10:43 PM] Command: dotnet test "D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\VelvetAlgorithmSuiteTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 12:10:43 PM] Starting test for project: D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\VelvetAlgorithmSuiteTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 12:02:40 PM
+VelvetAlgorithmSuite
+
+WritePatch ran compiler. 2025-02-23 12:03:36 PM
+VelvetAlgorithmSuite
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuite\SequenceAssembler.cs(66,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuite\VelvetAlgorithmSuite.csproj]
+  VelvetAlgorithmSuite -> D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuite\bin\Debug\net9.0\VelvetAlgorithmSuite.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuite\SequenceAssembler.cs(66,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuite\VelvetAlgorithmSuite.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.99
+
+
+WritePatch: Compile failed.
+VelvetAlgorithmSuite
+
+Finished WritePatch cycle step.
+2025-02-23 12:03:37 PM
+VelvetAlgorithmSuite
+
+WritePatch Started CycleStep. 2025-02-23 12:03:37 PM
+VelvetAlgorithmSuite
+
+WritePatch ran compiler. 2025-02-23 12:04:08 PM
+VelvetAlgorithmSuite
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  VelvetAlgorithmSuite -> D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuite\bin\Debug\net9.0\VelvetAlgorithmSuite.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+
+
+WritePatch: Code is Complete.
+VelvetAlgorithmSuite
+
+WritePatch Started CycleStep. 2025-02-23 12:04:54 PM
+VelvetAlgorithmSuiteTest
+
+WritePatch ran compiler. 2025-02-23 12:06:35 PM
+VelvetAlgorithmSuiteTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\VelvetAlgorithmSuiteTest.csproj (in 227 ms).
+  1 of 2 projects are up-to-date for restore.
+  VelvetAlgorithmSuite -> D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuite\bin\Debug\net9.0\VelvetAlgorithmSuite.dll
+D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\SequenceAssemblerTests.cs(15,48): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\VelvetAlgorithmSuiteTest.csproj]
+D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\DeBruijnGraphTests.cs(14,31): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\VelvetAlgorithmSuiteTest.csproj]
+  VelvetAlgorithmSuiteTest -> D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\bin\Debug\net9.0\VelvetAlgorithmSuiteTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\SequenceAssemblerTests.cs(15,48): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\VelvetAlgorithmSuiteTest.csproj]
+D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\DeBruijnGraphTests.cs(14,31): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\VelvetAlgorithmSuiteTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.60
+
+
+WritePatch: Compile failed.
+VelvetAlgorithmSuiteTest
+
+Finished WritePatch cycle step.
+2025-02-23 12:06:36 PM
+VelvetAlgorithmSuiteTest
+
+WritePatch Started CycleStep. 2025-02-23 12:06:36 PM
+VelvetAlgorithmSuiteTest
+
+WritePatch ran compiler. 2025-02-23 12:08:01 PM
+VelvetAlgorithmSuiteTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  VelvetAlgorithmSuite -> D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuite\bin\Debug\net9.0\VelvetAlgorithmSuite.dll
+D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\SequenceAssemblerTests.cs(15,48): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\VelvetAlgorithmSuiteTest.csproj]
+D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\DeBruijnGraphTests.cs(14,31): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\VelvetAlgorithmSuiteTest.csproj]
+  VelvetAlgorithmSuiteTest -> D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\bin\Debug\net9.0\VelvetAlgorithmSuiteTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\SequenceAssemblerTests.cs(15,48): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\VelvetAlgorithmSuiteTest.csproj]
+D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\DeBruijnGraphTests.cs(14,31): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\VelvetAlgorithmSuiteTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.17
+
+
+WritePatch: Compile failed.
+VelvetAlgorithmSuiteTest
+
+Finished WritePatch cycle step.
+2025-02-23 12:08:02 PM
+VelvetAlgorithmSuiteTest
+
+WritePatch Started CycleStep. 2025-02-23 12:08:02 PM
+VelvetAlgorithmSuiteTest
+
+WritePatch ran compiler. 2025-02-23 12:08:51 PM
+VelvetAlgorithmSuiteTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  VelvetAlgorithmSuite -> D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuite\bin\Debug\net9.0\VelvetAlgorithmSuite.dll
+  VelvetAlgorithmSuiteTest -> D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\bin\Debug\net9.0\VelvetAlgorithmSuiteTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.12
+
+
+WritePatch: Code is not Complete.
+VelvetAlgorithmSuiteTest
+
+Finished WritePatch cycle step.
+2025-02-23 12:09:18 PM
+VelvetAlgorithmSuiteTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  VelvetAlgorithmSuite -> D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuite\bin\Debug\net9.0\VelvetAlgorithmSuite.dll
+  VelvetAlgorithmSuiteTest -> D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\bin\Debug\net9.0\VelvetAlgorithmSuiteTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.12
+
+</CompilerResponse>
+2025-02-23 12:09:18 PM
+VelvetAlgorithmSuiteTest
+
+WritePatch ran compiler. 2025-02-23 12:09:20 PM
+VelvetAlgorithmSuite
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  VelvetAlgorithmSuite -> D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuite\bin\Debug\net9.0\VelvetAlgorithmSuite.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.96
+
+
+WritePatch: Code is Complete.
+VelvetAlgorithmSuite
+
+WritePatch ran compiler. 2025-02-23 12:10:26 PM
+VelvetAlgorithmSuiteTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  VelvetAlgorithmSuite -> D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuite\bin\Debug\net9.0\VelvetAlgorithmSuite.dll
+  VelvetAlgorithmSuiteTest -> D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\bin\Debug\net9.0\VelvetAlgorithmSuiteTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.12
+
+
+WritePatch: Code is Complete.
+VelvetAlgorithmSuiteTest
+
+TestResult:
+[OUTPUT 2025-02-23 12:10:47 PM]   Passed AddSequence_ValidSequence_PopulatesGraphCorrectly [5 ms]
+[OUTPUT 2025-02-23 12:10:47 PM] Test Parallelization enabled for D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\bin\Debug\net9.0\VelvetAlgorithmSuiteTest.dll (Workers: 16, Scope: MethodLevel)
+[SUCCESS 2025-02-23 12:10:47 PM] All tests passed successfully.
+[INFO 2025-02-23 12:10:47 PM] Test process completed. Duration: 3.36 seconds.
+[INFO 2025-02-23 12:10:47 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 12:10:47 PM] D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\bin\Debug\net9.0\VelvetAlgorithmSuiteTest.dll
+[OUTPUT 2025-02-23 12:10:46 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 12:10:46 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 12:10:46 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 12:10:45 PM] Test run for D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\bin\Debug\net9.0\VelvetAlgorithmSuiteTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 12:10:45 PM]   VelvetAlgorithmSuiteTest -> D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\bin\Debug\net9.0\VelvetAlgorithmSuiteTest.dll
+[OUTPUT 2025-02-23 12:10:45 PM]   VelvetAlgorithmSuite -> D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuite\bin\Debug\net9.0\VelvetAlgorithmSuite.dll
+[OUTPUT 2025-02-23 12:10:44 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 12:10:44 PM]   Determining projects to restore...
+[INFO 2025-02-23 12:10:43 PM] Command: dotnet test "D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\VelvetAlgorithmSuiteTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 12:10:43 PM] Starting test for project: D:\Code2025\RavenWork\VelvetAlgorithmSuite\VelvetAlgorithmSuiteTest\VelvetAlgorithmSuiteTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
