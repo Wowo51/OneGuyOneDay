@@ -1,0 +1,397 @@
+<ActRecord>
+  <ProjectName>LocalSearch</ProjectName>
+  <ProjectDescription>Local search – A metaheuristic that iteratively moves to a neighboring solution in search of an improved objective value.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Local search – A metaheuristic that iteratively moves to a neighboring solution in search of an improved objective value.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\LocalSearch</SolutionFolderPath>
+  <ProjectFolderName>LocalSearch</ProjectFolderName>
+  <ProjectName>LocalSearch</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:48:05 PM
+LocalSearch</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:48:48 PM
+LocalSearch</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\LocalSearch\LocalSearch\LocalSearchAlgorithm.cs(8,157): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LocalSearch\LocalSearch\LocalSearch.csproj]
+  LocalSearch -> D:\Code2025\RavenWork\LocalSearch\LocalSearch\bin\Debug\net9.0\LocalSearch.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LocalSearch\LocalSearch\LocalSearchAlgorithm.cs(8,157): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LocalSearch\LocalSearch\LocalSearch.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.13
+]]></string>
+    <string>WritePatch: Compile failed.
+LocalSearch</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 4:48:49 PM
+LocalSearch</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:48:50 PM
+LocalSearch</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:49:24 PM
+LocalSearch</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LocalSearch -> D:\Code2025\RavenWork\LocalSearch\LocalSearch\bin\Debug\net9.0\LocalSearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.79
+]]></string>
+    <string>WritePatch: Code is Complete.
+LocalSearch</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:49:50 PM
+LocalSearchTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:50:49 PM
+LocalSearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\LocalSearchTest.csproj (in 447 ms).
+  1 of 2 projects are up-to-date for restore.
+  LocalSearch -> D:\Code2025\RavenWork\LocalSearch\LocalSearch\bin\Debug\net9.0\LocalSearch.dll
+D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\LocalSearchAlgorithmTests.cs(16,63): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\LocalSearchTest.csproj]
+D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\LocalSearchAlgorithmTests.cs(30,74): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\LocalSearchTest.csproj]
+  LocalSearchTest -> D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\bin\Debug\net9.0\LocalSearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\LocalSearchAlgorithmTests.cs(16,63): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\LocalSearchTest.csproj]
+D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\LocalSearchAlgorithmTests.cs(30,74): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\LocalSearchTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.49
+]]></string>
+    <string>WritePatch: Compile failed.
+LocalSearchTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 4:50:50 PM
+LocalSearchTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:50:50 PM
+LocalSearchTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:51:34 PM
+LocalSearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LocalSearch -> D:\Code2025\RavenWork\LocalSearch\LocalSearch\bin\Debug\net9.0\LocalSearch.dll
+  LocalSearchTest -> D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\bin\Debug\net9.0\LocalSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.02
+]]></string>
+    <string>WritePatch: Code is not Complete.
+LocalSearchTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 4:51:49 PM
+LocalSearchTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:51:49 PM
+LocalSearchTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 4:52:33 PM
+LocalSearchTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\LocalSearch\LocalSearchTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LocalSearch -> D:\Code2025\RavenWork\LocalSearch\LocalSearch\bin\Debug\net9.0\LocalSearch.dll
+  LocalSearchTest -> D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\bin\Debug\net9.0\LocalSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.02
+
+</CompilerResponse>
+2025-02-23 4:52:34 PM
+LocalSearchTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 4:52:36 PM
+LocalSearch</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LocalSearch -> D:\Code2025\RavenWork\LocalSearch\LocalSearch\bin\Debug\net9.0\LocalSearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.44
+]]></string>
+    <string>WritePatch: Code is Complete.
+LocalSearch</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:52:52 PM
+LocalSearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LocalSearch -> D:\Code2025\RavenWork\LocalSearch\LocalSearch\bin\Debug\net9.0\LocalSearch.dll
+  LocalSearchTest -> D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\bin\Debug\net9.0\LocalSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.87
+]]></string>
+    <string>WritePatch: Code is Complete.
+LocalSearchTest</string>
+    <string>[INFO 2025-02-23 4:53:04 PM] Starting test for project: D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\LocalSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 4:53:04 PM] Starting test for project: D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\LocalSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 4:53:04 PM] Starting test for project: D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\LocalSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 4:53:04 PM] Starting test for project: D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\LocalSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 4:53:04 PM] Starting test for project: D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\LocalSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 4:53:04 PM] Starting test for project: D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\LocalSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 4:53:04 PM] Starting test for project: D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\LocalSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 4:53:04 PM] Starting test for project: D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\LocalSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 4:53:04 PM] Starting test for project: D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\LocalSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 4:53:04 PM] Starting test for project: D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\LocalSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 4:53:04 PM] Starting test for project: D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\LocalSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 4:53:04 PM] Starting test for project: D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\LocalSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 4:53:04 PM] Starting test for project: D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\LocalSearchTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 4:53:11 PM] All tests passed successfully.
+[INFO 2025-02-23 4:53:11 PM] Test process completed. Duration: 7.15 seconds.
+[INFO 2025-02-23 4:53:11 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 4:53:11 PM] Test Parallelization enabled for D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\bin\Debug\net9.0\LocalSearchTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 4:53:12 PM]   Passed TestLargeNeighborGeneration [8 ms]
+[OUTPUT 2025-02-23 4:53:10 PM] D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\bin\Debug\net9.0\LocalSearchTest.dll
+[OUTPUT 2025-02-23 4:53:09 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 4:53:09 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 4:53:07 PM]   LocalSearch -> D:\Code2025\RavenWork\LocalSearch\LocalSearch\bin\Debug\net9.0\LocalSearch.dll
+[OUTPUT 2025-02-23 4:53:06 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 4:53:08 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 4:53:08 PM] Test run for D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\bin\Debug\net9.0\LocalSearchTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 4:53:07 PM]   LocalSearchTest -> D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\bin\Debug\net9.0\LocalSearchTest.dll
+[OUTPUT 2025-02-23 4:53:06 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 4:53:04 PM] Command: dotnet test "D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\LocalSearchTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 4:53:04 PM] Starting test for project: D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\LocalSearchTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 4:48:05 PM
+LocalSearch
+
+WritePatch ran compiler. 2025-02-23 4:48:48 PM
+LocalSearch
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\LocalSearch\LocalSearch\LocalSearchAlgorithm.cs(8,157): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LocalSearch\LocalSearch\LocalSearch.csproj]
+  LocalSearch -> D:\Code2025\RavenWork\LocalSearch\LocalSearch\bin\Debug\net9.0\LocalSearch.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LocalSearch\LocalSearch\LocalSearchAlgorithm.cs(8,157): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LocalSearch\LocalSearch\LocalSearch.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.13
+
+
+WritePatch: Compile failed.
+LocalSearch
+
+Finished WritePatch cycle step.
+2025-02-23 4:48:49 PM
+LocalSearch
+
+WritePatch Started CycleStep. 2025-02-23 4:48:50 PM
+LocalSearch
+
+WritePatch ran compiler. 2025-02-23 4:49:24 PM
+LocalSearch
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LocalSearch -> D:\Code2025\RavenWork\LocalSearch\LocalSearch\bin\Debug\net9.0\LocalSearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.79
+
+
+WritePatch: Code is Complete.
+LocalSearch
+
+WritePatch Started CycleStep. 2025-02-23 4:49:50 PM
+LocalSearchTest
+
+WritePatch ran compiler. 2025-02-23 4:50:49 PM
+LocalSearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\LocalSearchTest.csproj (in 447 ms).
+  1 of 2 projects are up-to-date for restore.
+  LocalSearch -> D:\Code2025\RavenWork\LocalSearch\LocalSearch\bin\Debug\net9.0\LocalSearch.dll
+D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\LocalSearchAlgorithmTests.cs(16,63): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\LocalSearchTest.csproj]
+D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\LocalSearchAlgorithmTests.cs(30,74): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\LocalSearchTest.csproj]
+  LocalSearchTest -> D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\bin\Debug\net9.0\LocalSearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\LocalSearchAlgorithmTests.cs(16,63): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\LocalSearchTest.csproj]
+D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\LocalSearchAlgorithmTests.cs(30,74): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\LocalSearchTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.49
+
+
+WritePatch: Compile failed.
+LocalSearchTest
+
+Finished WritePatch cycle step.
+2025-02-23 4:50:50 PM
+LocalSearchTest
+
+WritePatch Started CycleStep. 2025-02-23 4:50:50 PM
+LocalSearchTest
+
+WritePatch ran compiler. 2025-02-23 4:51:34 PM
+LocalSearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LocalSearch -> D:\Code2025\RavenWork\LocalSearch\LocalSearch\bin\Debug\net9.0\LocalSearch.dll
+  LocalSearchTest -> D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\bin\Debug\net9.0\LocalSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.02
+
+
+WritePatch: Code is not Complete.
+LocalSearchTest
+
+Finished WritePatch cycle step.
+2025-02-23 4:51:49 PM
+LocalSearchTest
+
+WritePatch Started CycleStep. 2025-02-23 4:51:49 PM
+LocalSearchTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 4:52:33 PM
+LocalSearchTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\LocalSearch\LocalSearchTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LocalSearch -> D:\Code2025\RavenWork\LocalSearch\LocalSearch\bin\Debug\net9.0\LocalSearch.dll
+  LocalSearchTest -> D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\bin\Debug\net9.0\LocalSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.02
+
+</CompilerResponse>
+2025-02-23 4:52:34 PM
+LocalSearchTest
+
+WritePatch ran compiler. 2025-02-23 4:52:36 PM
+LocalSearch
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LocalSearch -> D:\Code2025\RavenWork\LocalSearch\LocalSearch\bin\Debug\net9.0\LocalSearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.44
+
+
+WritePatch: Code is Complete.
+LocalSearch
+
+WritePatch ran compiler. 2025-02-23 4:52:52 PM
+LocalSearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LocalSearch -> D:\Code2025\RavenWork\LocalSearch\LocalSearch\bin\Debug\net9.0\LocalSearch.dll
+  LocalSearchTest -> D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\bin\Debug\net9.0\LocalSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.87
+
+
+WritePatch: Code is Complete.
+LocalSearchTest
+
+TestResult:
+[SUCCESS 2025-02-23 4:53:11 PM] All tests passed successfully.
+[INFO 2025-02-23 4:53:11 PM] Test process completed. Duration: 7.15 seconds.
+[INFO 2025-02-23 4:53:11 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 4:53:11 PM] Test Parallelization enabled for D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\bin\Debug\net9.0\LocalSearchTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 4:53:12 PM]   Passed TestLargeNeighborGeneration [8 ms]
+[OUTPUT 2025-02-23 4:53:10 PM] D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\bin\Debug\net9.0\LocalSearchTest.dll
+[OUTPUT 2025-02-23 4:53:09 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 4:53:09 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 4:53:07 PM]   LocalSearch -> D:\Code2025\RavenWork\LocalSearch\LocalSearch\bin\Debug\net9.0\LocalSearch.dll
+[OUTPUT 2025-02-23 4:53:06 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 4:53:08 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 4:53:08 PM] Test run for D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\bin\Debug\net9.0\LocalSearchTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 4:53:07 PM]   LocalSearchTest -> D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\bin\Debug\net9.0\LocalSearchTest.dll
+[OUTPUT 2025-02-23 4:53:06 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 4:53:04 PM] Command: dotnet test "D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\LocalSearchTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 4:53:04 PM] Starting test for project: D:\Code2025\RavenWork\LocalSearch\LocalSearchTest\LocalSearchTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
