@@ -1,0 +1,394 @@
+<ActRecord>
+  <ProjectName>FiniteDifferenceMethod</ProjectName>
+  <ProjectDescription>Finite difference method – Approximates derivatives to solve partial differential equations numerically.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Finite difference method – Approximates derivatives to solve partial differential equations numerically.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\FiniteDifferenceMethod</SolutionFolderPath>
+  <ProjectFolderName>FiniteDifferenceMethod</ProjectFolderName>
+  <ProjectName>FiniteDifferenceMethod</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:46:08 AM
+FiniteDifferenceMethod</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:46:32 AM
+FiniteDifferenceMethod</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FiniteDifferenceMethod -> D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethod\bin\Debug\net9.0\FiniteDifferenceMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.88
+]]></string>
+    <string>WritePatch: Code is Complete.
+FiniteDifferenceMethod</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:46:43 AM
+FiniteDifferenceMethodTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:47:54 AM
+FiniteDifferenceMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceMethodTest.csproj (in 222 ms).
+  1 of 2 projects are up-to-date for restore.
+  FiniteDifferenceMethod -> D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethod\bin\Debug\net9.0\FiniteDifferenceMethod.dll
+D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceSolverTests.cs(20,63): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceMethodTest.csproj]
+D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceSolverTests.cs(57,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceMethodTest.csproj]
+D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceSolverTests.cs(10,40): warning CS8618: Non-nullable field 'solver' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceMethodTest.csproj]
+  FiniteDifferenceMethodTest -> D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\bin\Debug\net9.0\FiniteDifferenceMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceSolverTests.cs(20,63): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceMethodTest.csproj]
+D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceSolverTests.cs(57,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceMethodTest.csproj]
+D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceSolverTests.cs(10,40): warning CS8618: Non-nullable field 'solver' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceMethodTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.48
+]]></string>
+    <string>WritePatch: Compile failed.
+FiniteDifferenceMethodTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:47:54 AM
+FiniteDifferenceMethodTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:47:55 AM
+FiniteDifferenceMethodTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:49:07 AM
+FiniteDifferenceMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FiniteDifferenceMethod -> D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethod\bin\Debug\net9.0\FiniteDifferenceMethod.dll
+D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceSolverTests.cs(20,63): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceMethodTest.csproj]
+D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceSolverTests.cs(57,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceMethodTest.csproj]
+  FiniteDifferenceMethodTest -> D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\bin\Debug\net9.0\FiniteDifferenceMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceSolverTests.cs(20,63): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceMethodTest.csproj]
+D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceSolverTests.cs(57,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceMethodTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.04
+]]></string>
+    <string>WritePatch: Compile failed.
+FiniteDifferenceMethodTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:49:08 AM
+FiniteDifferenceMethodTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:49:08 AM
+FiniteDifferenceMethodTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:49:44 AM
+FiniteDifferenceMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FiniteDifferenceMethod -> D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethod\bin\Debug\net9.0\FiniteDifferenceMethod.dll
+  FiniteDifferenceMethodTest -> D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\bin\Debug\net9.0\FiniteDifferenceMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+]]></string>
+    <string>WritePatch: Code is not Complete.
+FiniteDifferenceMethodTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:50:00 AM
+FiniteDifferenceMethodTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FiniteDifferenceMethod -> D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethod\bin\Debug\net9.0\FiniteDifferenceMethod.dll
+  FiniteDifferenceMethodTest -> D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\bin\Debug\net9.0\FiniteDifferenceMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+
+</CompilerResponse>
+2025-02-23 10:50:01 AM
+FiniteDifferenceMethodTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 10:50:02 AM
+FiniteDifferenceMethod</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FiniteDifferenceMethod -> D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethod\bin\Debug\net9.0\FiniteDifferenceMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.75
+]]></string>
+    <string>WritePatch: Code is Complete.
+FiniteDifferenceMethod</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:50:21 AM
+FiniteDifferenceMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FiniteDifferenceMethod -> D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethod\bin\Debug\net9.0\FiniteDifferenceMethod.dll
+  FiniteDifferenceMethodTest -> D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\bin\Debug\net9.0\FiniteDifferenceMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+]]></string>
+    <string>WritePatch: Code is Complete.
+FiniteDifferenceMethodTest</string>
+    <string>[INFO 2025-02-23 10:50:34 AM] Starting test for project: D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 10:50:34 AM] Starting test for project: D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 10:50:34 AM] Starting test for project: D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 10:50:34 AM] Starting test for project: D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 10:50:34 AM] Starting test for project: D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 10:50:34 AM] Starting test for project: D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 10:50:34 AM] Starting test for project: D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 10:50:34 AM] Starting test for project: D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 10:50:34 AM] Starting test for project: D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 10:50:34 AM] Starting test for project: D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 10:50:34 AM] Starting test for project: D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 10:50:34 AM] Starting test for project: D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceMethodTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 10:50:36 AM]   FiniteDifferenceMethod -> D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethod\bin\Debug\net9.0\FiniteDifferenceMethod.dll
+[OUTPUT 2025-02-23 10:50:38 AM] Test Parallelization enabled for D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\bin\Debug\net9.0\FiniteDifferenceMethodTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:50:37 AM] D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\bin\Debug\net9.0\FiniteDifferenceMethodTest.dll
+[OUTPUT 2025-02-23 10:50:37 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:50:37 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:50:37 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:50:36 AM] Test run for D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\bin\Debug\net9.0\FiniteDifferenceMethodTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:50:36 AM]   FiniteDifferenceMethodTest -> D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\bin\Debug\net9.0\FiniteDifferenceMethodTest.dll
+[OUTPUT 2025-02-23 10:50:35 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:50:35 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 10:50:37 AM] All tests passed successfully.
+[INFO 2025-02-23 10:50:37 AM] Test process completed. Duration: 3.03 seconds.
+[INFO 2025-02-23 10:50:37 AM] Process exited with code 0.
+[INFO 2025-02-23 10:50:34 AM] Command: dotnet test "D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceMethodTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:50:34 AM] Starting test for project: D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceMethodTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 10:46:08 AM
+FiniteDifferenceMethod
+
+WritePatch ran compiler. 2025-02-23 10:46:32 AM
+FiniteDifferenceMethod
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FiniteDifferenceMethod -> D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethod\bin\Debug\net9.0\FiniteDifferenceMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.88
+
+
+WritePatch: Code is Complete.
+FiniteDifferenceMethod
+
+WritePatch Started CycleStep. 2025-02-23 10:46:43 AM
+FiniteDifferenceMethodTest
+
+WritePatch ran compiler. 2025-02-23 10:47:54 AM
+FiniteDifferenceMethodTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceMethodTest.csproj (in 222 ms).
+  1 of 2 projects are up-to-date for restore.
+  FiniteDifferenceMethod -> D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethod\bin\Debug\net9.0\FiniteDifferenceMethod.dll
+D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceSolverTests.cs(20,63): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceMethodTest.csproj]
+D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceSolverTests.cs(57,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceMethodTest.csproj]
+D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceSolverTests.cs(10,40): warning CS8618: Non-nullable field 'solver' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceMethodTest.csproj]
+  FiniteDifferenceMethodTest -> D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\bin\Debug\net9.0\FiniteDifferenceMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceSolverTests.cs(20,63): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceMethodTest.csproj]
+D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceSolverTests.cs(57,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceMethodTest.csproj]
+D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceSolverTests.cs(10,40): warning CS8618: Non-nullable field 'solver' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceMethodTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.48
+
+
+WritePatch: Compile failed.
+FiniteDifferenceMethodTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:47:54 AM
+FiniteDifferenceMethodTest
+
+WritePatch Started CycleStep. 2025-02-23 10:47:55 AM
+FiniteDifferenceMethodTest
+
+WritePatch ran compiler. 2025-02-23 10:49:07 AM
+FiniteDifferenceMethodTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FiniteDifferenceMethod -> D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethod\bin\Debug\net9.0\FiniteDifferenceMethod.dll
+D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceSolverTests.cs(20,63): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceMethodTest.csproj]
+D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceSolverTests.cs(57,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceMethodTest.csproj]
+  FiniteDifferenceMethodTest -> D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\bin\Debug\net9.0\FiniteDifferenceMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceSolverTests.cs(20,63): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceMethodTest.csproj]
+D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceSolverTests.cs(57,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceMethodTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.04
+
+
+WritePatch: Compile failed.
+FiniteDifferenceMethodTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:49:08 AM
+FiniteDifferenceMethodTest
+
+WritePatch Started CycleStep. 2025-02-23 10:49:08 AM
+FiniteDifferenceMethodTest
+
+WritePatch ran compiler. 2025-02-23 10:49:44 AM
+FiniteDifferenceMethodTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FiniteDifferenceMethod -> D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethod\bin\Debug\net9.0\FiniteDifferenceMethod.dll
+  FiniteDifferenceMethodTest -> D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\bin\Debug\net9.0\FiniteDifferenceMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+
+
+WritePatch: Code is not Complete.
+FiniteDifferenceMethodTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:50:00 AM
+FiniteDifferenceMethodTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FiniteDifferenceMethod -> D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethod\bin\Debug\net9.0\FiniteDifferenceMethod.dll
+  FiniteDifferenceMethodTest -> D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\bin\Debug\net9.0\FiniteDifferenceMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+
+</CompilerResponse>
+2025-02-23 10:50:01 AM
+FiniteDifferenceMethodTest
+
+WritePatch ran compiler. 2025-02-23 10:50:02 AM
+FiniteDifferenceMethod
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FiniteDifferenceMethod -> D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethod\bin\Debug\net9.0\FiniteDifferenceMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.75
+
+
+WritePatch: Code is Complete.
+FiniteDifferenceMethod
+
+WritePatch ran compiler. 2025-02-23 10:50:21 AM
+FiniteDifferenceMethodTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FiniteDifferenceMethod -> D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethod\bin\Debug\net9.0\FiniteDifferenceMethod.dll
+  FiniteDifferenceMethodTest -> D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\bin\Debug\net9.0\FiniteDifferenceMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+
+
+WritePatch: Code is Complete.
+FiniteDifferenceMethodTest
+
+TestResult:
+[OUTPUT 2025-02-23 10:50:36 AM]   FiniteDifferenceMethod -> D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethod\bin\Debug\net9.0\FiniteDifferenceMethod.dll
+[OUTPUT 2025-02-23 10:50:38 AM] Test Parallelization enabled for D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\bin\Debug\net9.0\FiniteDifferenceMethodTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:50:37 AM] D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\bin\Debug\net9.0\FiniteDifferenceMethodTest.dll
+[OUTPUT 2025-02-23 10:50:37 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:50:37 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:50:37 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:50:36 AM] Test run for D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\bin\Debug\net9.0\FiniteDifferenceMethodTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:50:36 AM]   FiniteDifferenceMethodTest -> D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\bin\Debug\net9.0\FiniteDifferenceMethodTest.dll
+[OUTPUT 2025-02-23 10:50:35 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:50:35 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 10:50:37 AM] All tests passed successfully.
+[INFO 2025-02-23 10:50:37 AM] Test process completed. Duration: 3.03 seconds.
+[INFO 2025-02-23 10:50:37 AM] Process exited with code 0.
+[INFO 2025-02-23 10:50:34 AM] Command: dotnet test "D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceMethodTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:50:34 AM] Starting test for project: D:\Code2025\RavenWork\FiniteDifferenceMethod\FiniteDifferenceMethodTest\FiniteDifferenceMethodTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
