@@ -1,0 +1,423 @@
+<ActRecord>
+  <ProjectName>LongestCommonSubstring</ProjectName>
+  <ProjectDescription>Longest common substring problem: find the longest string (or strings) that is a substring (or are substrings) of two or more strings</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Longest common substring problem: find the longest string (or strings) that is a substring (or are substrings) of two or more strings</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\LongestCommonSubstring</SolutionFolderPath>
+  <ProjectFolderName>LongestCommonSubstring</ProjectFolderName>
+  <ProjectName>LongestCommonSubstring</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:30:43 PM
+LongestCommonSubstring</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:31:14 PM
+LongestCommonSubstring</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongestCommonSubstring -> D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstring\bin\Debug\net9.0\LongestCommonSubstring.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.80
+]]></string>
+    <string>WritePatch: Code is Complete.
+LongestCommonSubstring</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:31:34 PM
+LongestCommonSubstringTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:32:36 PM
+LongestCommonSubstringTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj (in 395 ms).
+  1 of 2 projects are up-to-date for restore.
+  LongestCommonSubstring -> D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstring\bin\Debug\net9.0\LongestCommonSubstring.dll
+D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTests.cs(15,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj]
+D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTests.cs(16,92): warning CS8604: Possible null reference argument for parameter 'inputs' in 'List<string> LongestCommonSubstringFinder.FindLongestCommonSubstrings(string[] inputs)'. [D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj]
+  LongestCommonSubstringTest -> D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\bin\Debug\net9.0\LongestCommonSubstringTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTests.cs(15,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj]
+D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTests.cs(16,92): warning CS8604: Possible null reference argument for parameter 'inputs' in 'List<string> LongestCommonSubstringFinder.FindLongestCommonSubstrings(string[] inputs)'. [D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.31
+]]></string>
+    <string>WritePatch: Compile failed.
+LongestCommonSubstringTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:32:37 PM
+LongestCommonSubstringTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:32:37 PM
+LongestCommonSubstringTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:33:06 PM
+LongestCommonSubstringTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongestCommonSubstring -> D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstring\bin\Debug\net9.0\LongestCommonSubstring.dll
+  LongestCommonSubstringTest -> D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\bin\Debug\net9.0\LongestCommonSubstringTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.06
+]]></string>
+    <string>WritePatch: Code is not Complete.
+LongestCommonSubstringTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:33:24 PM
+LongestCommonSubstringTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:33:24 PM
+LongestCommonSubstringTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:34:17 PM
+LongestCommonSubstringTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongestCommonSubstring -> D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstring\bin\Debug\net9.0\LongestCommonSubstring.dll
+D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTests.cs(15,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj]
+D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTests.cs(16,92): warning CS8604: Possible null reference argument for parameter 'inputs' in 'List<string> LongestCommonSubstringFinder.FindLongestCommonSubstrings(string[] inputs)'. [D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj]
+D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTests.cs(130,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj]
+  LongestCommonSubstringTest -> D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\bin\Debug\net9.0\LongestCommonSubstringTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTests.cs(15,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj]
+D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTests.cs(16,92): warning CS8604: Possible null reference argument for parameter 'inputs' in 'List<string> LongestCommonSubstringFinder.FindLongestCommonSubstrings(string[] inputs)'. [D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj]
+D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTests.cs(130,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.72
+]]></string>
+    <string>WritePatch: Compile failed.
+LongestCommonSubstringTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:34:18 PM
+LongestCommonSubstringTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongestCommonSubstring -> D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstring\bin\Debug\net9.0\LongestCommonSubstring.dll
+D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTests.cs(15,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj]
+D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTests.cs(16,92): warning CS8604: Possible null reference argument for parameter 'inputs' in 'List<string> LongestCommonSubstringFinder.FindLongestCommonSubstrings(string[] inputs)'. [D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj]
+D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTests.cs(130,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj]
+  LongestCommonSubstringTest -> D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\bin\Debug\net9.0\LongestCommonSubstringTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTests.cs(15,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj]
+D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTests.cs(16,92): warning CS8604: Possible null reference argument for parameter 'inputs' in 'List<string> LongestCommonSubstringFinder.FindLongestCommonSubstrings(string[] inputs)'. [D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj]
+D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTests.cs(130,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.72
+
+</CompilerResponse>
+2025-02-23 6:34:18 PM
+LongestCommonSubstringTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 6:34:21 PM
+LongestCommonSubstring</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongestCommonSubstring -> D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstring\bin\Debug\net9.0\LongestCommonSubstring.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.51
+]]></string>
+    <string>WritePatch: Code is Complete.
+LongestCommonSubstring</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:34:34 PM
+LongestCommonSubstringTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongestCommonSubstring -> D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstring\bin\Debug\net9.0\LongestCommonSubstring.dll
+  LongestCommonSubstringTest -> D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\bin\Debug\net9.0\LongestCommonSubstringTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.94
+]]></string>
+    <string>WritePatch: Code is Complete.
+LongestCommonSubstringTest</string>
+    <string>[INFO 2025-02-23 6:34:44 PM] Starting test for project: D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj</string>
+    <string>[INFO 2025-02-23 6:34:44 PM] Starting test for project: D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj</string>
+    <string>[INFO 2025-02-23 6:34:44 PM] Starting test for project: D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj</string>
+    <string>[INFO 2025-02-23 6:34:44 PM] Starting test for project: D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj</string>
+    <string>[INFO 2025-02-23 6:34:44 PM] Starting test for project: D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj</string>
+    <string>[INFO 2025-02-23 6:34:44 PM] Starting test for project: D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj</string>
+    <string>[INFO 2025-02-23 6:34:44 PM] Starting test for project: D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj</string>
+    <string>[INFO 2025-02-23 6:34:44 PM] Starting test for project: D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj</string>
+    <string>[INFO 2025-02-23 6:34:44 PM] Starting test for project: D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj</string>
+    <string>[INFO 2025-02-23 6:34:44 PM] Starting test for project: D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj</string>
+    <string>[INFO 2025-02-23 6:34:44 PM] Starting test for project: D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj</string>
+    <string>[INFO 2025-02-23 6:34:44 PM] Starting test for project: D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj</string>
+    <string>[INFO 2025-02-23 6:34:44 PM] Starting test for project: D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj</string>
+    <string>[INFO 2025-02-23 6:34:44 PM] Starting test for project: D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj</string>
+    <string>[INFO 2025-02-23 6:34:44 PM] Starting test for project: D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj</string>
+    <string>[INFO 2025-02-23 6:34:44 PM] Starting test for project: D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj</string>
+    <string>[INFO 2025-02-23 6:34:44 PM] Starting test for project: D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 6:34:53 PM] All tests passed successfully.
+[INFO 2025-02-23 6:34:53 PM] Test process completed. Duration: 8.35 seconds.
+[INFO 2025-02-23 6:34:53 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 6:34:50 PM] D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\bin\Debug\net9.0\LongestCommonSubstringTest.dll
+[OUTPUT 2025-02-23 6:34:49 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:34:49 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:34:47 PM]   LongestCommonSubstring -> D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstring\bin\Debug\net9.0\LongestCommonSubstring.dll
+[OUTPUT 2025-02-23 6:34:46 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 6:34:54 PM]   Passed TestMultipleCommonSubstrings [9 ms]
+[OUTPUT 2025-02-23 6:34:53 PM]   Passed TestSingleInput [8 ms]
+[OUTPUT 2025-02-23 6:34:52 PM]   Passed TestCommonSubstring [8 ms]
+[OUTPUT 2025-02-23 6:34:52 PM]   Passed TestNullInput [8 ms]
+[OUTPUT 2025-02-23 6:34:51 PM]   Passed TestWithNullElement [8 ms]
+[OUTPUT 2025-02-23 6:34:51 PM] Test Parallelization enabled for D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\bin\Debug\net9.0\LongestCommonSubstringTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 6:34:48 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:34:48 PM] Test run for D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\bin\Debug\net9.0\LongestCommonSubstringTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:34:47 PM]   LongestCommonSubstringTest -> D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\bin\Debug\net9.0\LongestCommonSubstringTest.dll
+[OUTPUT 2025-02-23 6:34:46 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 6:34:44 PM] Command: dotnet test "D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:34:44 PM] Starting test for project: D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 6:30:43 PM
+LongestCommonSubstring
+
+WritePatch ran compiler. 2025-02-23 6:31:14 PM
+LongestCommonSubstring
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongestCommonSubstring -> D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstring\bin\Debug\net9.0\LongestCommonSubstring.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.80
+
+
+WritePatch: Code is Complete.
+LongestCommonSubstring
+
+WritePatch Started CycleStep. 2025-02-23 6:31:34 PM
+LongestCommonSubstringTest
+
+WritePatch ran compiler. 2025-02-23 6:32:36 PM
+LongestCommonSubstringTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj (in 395 ms).
+  1 of 2 projects are up-to-date for restore.
+  LongestCommonSubstring -> D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstring\bin\Debug\net9.0\LongestCommonSubstring.dll
+D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTests.cs(15,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj]
+D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTests.cs(16,92): warning CS8604: Possible null reference argument for parameter 'inputs' in 'List<string> LongestCommonSubstringFinder.FindLongestCommonSubstrings(string[] inputs)'. [D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj]
+  LongestCommonSubstringTest -> D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\bin\Debug\net9.0\LongestCommonSubstringTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTests.cs(15,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj]
+D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTests.cs(16,92): warning CS8604: Possible null reference argument for parameter 'inputs' in 'List<string> LongestCommonSubstringFinder.FindLongestCommonSubstrings(string[] inputs)'. [D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.31
+
+
+WritePatch: Compile failed.
+LongestCommonSubstringTest
+
+Finished WritePatch cycle step.
+2025-02-23 6:32:37 PM
+LongestCommonSubstringTest
+
+WritePatch Started CycleStep. 2025-02-23 6:32:37 PM
+LongestCommonSubstringTest
+
+WritePatch ran compiler. 2025-02-23 6:33:06 PM
+LongestCommonSubstringTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongestCommonSubstring -> D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstring\bin\Debug\net9.0\LongestCommonSubstring.dll
+  LongestCommonSubstringTest -> D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\bin\Debug\net9.0\LongestCommonSubstringTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.06
+
+
+WritePatch: Code is not Complete.
+LongestCommonSubstringTest
+
+Finished WritePatch cycle step.
+2025-02-23 6:33:24 PM
+LongestCommonSubstringTest
+
+WritePatch Started CycleStep. 2025-02-23 6:33:24 PM
+LongestCommonSubstringTest
+
+WritePatch ran compiler. 2025-02-23 6:34:17 PM
+LongestCommonSubstringTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongestCommonSubstring -> D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstring\bin\Debug\net9.0\LongestCommonSubstring.dll
+D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTests.cs(15,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj]
+D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTests.cs(16,92): warning CS8604: Possible null reference argument for parameter 'inputs' in 'List<string> LongestCommonSubstringFinder.FindLongestCommonSubstrings(string[] inputs)'. [D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj]
+D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTests.cs(130,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj]
+  LongestCommonSubstringTest -> D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\bin\Debug\net9.0\LongestCommonSubstringTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTests.cs(15,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj]
+D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTests.cs(16,92): warning CS8604: Possible null reference argument for parameter 'inputs' in 'List<string> LongestCommonSubstringFinder.FindLongestCommonSubstrings(string[] inputs)'. [D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj]
+D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTests.cs(130,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.72
+
+
+WritePatch: Compile failed.
+LongestCommonSubstringTest
+
+Finished WritePatch cycle step.
+2025-02-23 6:34:18 PM
+LongestCommonSubstringTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongestCommonSubstring -> D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstring\bin\Debug\net9.0\LongestCommonSubstring.dll
+D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTests.cs(15,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj]
+D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTests.cs(16,92): warning CS8604: Possible null reference argument for parameter 'inputs' in 'List<string> LongestCommonSubstringFinder.FindLongestCommonSubstrings(string[] inputs)'. [D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj]
+D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTests.cs(130,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj]
+  LongestCommonSubstringTest -> D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\bin\Debug\net9.0\LongestCommonSubstringTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTests.cs(15,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj]
+D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTests.cs(16,92): warning CS8604: Possible null reference argument for parameter 'inputs' in 'List<string> LongestCommonSubstringFinder.FindLongestCommonSubstrings(string[] inputs)'. [D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj]
+D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTests.cs(130,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.72
+
+</CompilerResponse>
+2025-02-23 6:34:18 PM
+LongestCommonSubstringTest
+
+WritePatch ran compiler. 2025-02-23 6:34:21 PM
+LongestCommonSubstring
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongestCommonSubstring -> D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstring\bin\Debug\net9.0\LongestCommonSubstring.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.51
+
+
+WritePatch: Code is Complete.
+LongestCommonSubstring
+
+WritePatch ran compiler. 2025-02-23 6:34:34 PM
+LongestCommonSubstringTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongestCommonSubstring -> D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstring\bin\Debug\net9.0\LongestCommonSubstring.dll
+  LongestCommonSubstringTest -> D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\bin\Debug\net9.0\LongestCommonSubstringTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.94
+
+
+WritePatch: Code is Complete.
+LongestCommonSubstringTest
+
+TestResult:
+[SUCCESS 2025-02-23 6:34:53 PM] All tests passed successfully.
+[INFO 2025-02-23 6:34:53 PM] Test process completed. Duration: 8.35 seconds.
+[INFO 2025-02-23 6:34:53 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 6:34:50 PM] D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\bin\Debug\net9.0\LongestCommonSubstringTest.dll
+[OUTPUT 2025-02-23 6:34:49 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:34:49 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:34:47 PM]   LongestCommonSubstring -> D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstring\bin\Debug\net9.0\LongestCommonSubstring.dll
+[OUTPUT 2025-02-23 6:34:46 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 6:34:54 PM]   Passed TestMultipleCommonSubstrings [9 ms]
+[OUTPUT 2025-02-23 6:34:53 PM]   Passed TestSingleInput [8 ms]
+[OUTPUT 2025-02-23 6:34:52 PM]   Passed TestCommonSubstring [8 ms]
+[OUTPUT 2025-02-23 6:34:52 PM]   Passed TestNullInput [8 ms]
+[OUTPUT 2025-02-23 6:34:51 PM]   Passed TestWithNullElement [8 ms]
+[OUTPUT 2025-02-23 6:34:51 PM] Test Parallelization enabled for D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\bin\Debug\net9.0\LongestCommonSubstringTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 6:34:48 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:34:48 PM] Test run for D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\bin\Debug\net9.0\LongestCommonSubstringTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:34:47 PM]   LongestCommonSubstringTest -> D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\bin\Debug\net9.0\LongestCommonSubstringTest.dll
+[OUTPUT 2025-02-23 6:34:46 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 6:34:44 PM] Command: dotnet test "D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:34:44 PM] Starting test for project: D:\Code2025\RavenWork\LongestCommonSubstring\LongestCommonSubstringTest\LongestCommonSubstringTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
