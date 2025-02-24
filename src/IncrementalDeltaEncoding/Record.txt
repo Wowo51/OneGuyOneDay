@@ -1,0 +1,476 @@
+<ActRecord>
+  <ProjectName>IncrementalDeltaEncoding</ProjectName>
+  <ProjectDescription>Incremental encoding: Delta encoding applied to sequences of strings</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Incremental encoding: Delta encoding applied to sequences of strings</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\IncrementalDeltaEncoding</SolutionFolderPath>
+  <ProjectFolderName>IncrementalDeltaEncoding</ProjectFolderName>
+  <ProjectName>IncrementalDeltaEncoding</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:08:25 AM
+IncrementalDeltaEncoding</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:09:45 AM
+IncrementalDeltaEncoding</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  IncrementalDeltaEncoding -> D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncoding\bin\Debug\net9.0\IncrementalDeltaEncoding.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+]]></string>
+    <string>WritePatch: Code is Complete.
+IncrementalDeltaEncoding</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:10:00 AM
+IncrementalDeltaEncodingTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:12:28 AM
+IncrementalDeltaEncodingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj (in 184 ms).
+  1 of 2 projects are up-to-date for restore.
+  IncrementalDeltaEncoding -> D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncoding\bin\Debug\net9.0\IncrementalDeltaEncoding.dll
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(13,30): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(14,51): warning CS8604: Possible null reference argument for parameter 'input' in 'string[] DeltaEncoder.Encode(string[] input)'. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(64,30): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(65,51): warning CS8604: Possible null reference argument for parameter 'deltas' in 'string[] DeltaEncoder.Decode(string[] deltas)'. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(127,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(129,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(131,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+  IncrementalDeltaEncodingTest -> D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\bin\Debug\net9.0\IncrementalDeltaEncodingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(13,30): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(14,51): warning CS8604: Possible null reference argument for parameter 'input' in 'string[] DeltaEncoder.Encode(string[] input)'. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(64,30): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(65,51): warning CS8604: Possible null reference argument for parameter 'deltas' in 'string[] DeltaEncoder.Decode(string[] deltas)'. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(127,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(129,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(131,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+    7 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.34
+]]></string>
+    <string>WritePatch: Compile failed.
+IncrementalDeltaEncodingTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:12:29 AM
+IncrementalDeltaEncodingTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:12:29 AM
+IncrementalDeltaEncodingTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:13:09 AM
+IncrementalDeltaEncodingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  IncrementalDeltaEncoding -> D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncoding\bin\Debug\net9.0\IncrementalDeltaEncoding.dll
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(13,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(14,51): warning CS8604: Possible null reference argument for parameter 'input' in 'string[] DeltaEncoder.Encode(string[] input)'. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(14,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(23,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(35,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(57,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(64,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(65,51): warning CS8604: Possible null reference argument for parameter 'deltas' in 'string[] DeltaEncoder.Decode(string[] deltas)'. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(65,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'deltas' of type 'string[]' in 'string[] DeltaEncoder.Decode(string[] deltas)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(74,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'deltas' of type 'string[]' in 'string[] DeltaEncoder.Decode(string[] deltas)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(87,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'deltas' of type 'string[]' in 'string[] DeltaEncoder.Decode(string[] deltas)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(102,52): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(117,52): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(141,52): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(163,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'deltas' of type 'string[]' in 'string[] DeltaEncoder.Decode(string[] deltas)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+  IncrementalDeltaEncodingTest -> D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\bin\Debug\net9.0\IncrementalDeltaEncodingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(13,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(14,51): warning CS8604: Possible null reference argument for parameter 'input' in 'string[] DeltaEncoder.Encode(string[] input)'. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(14,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(23,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(35,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(57,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(64,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(65,51): warning CS8604: Possible null reference argument for parameter 'deltas' in 'string[] DeltaEncoder.Decode(string[] deltas)'. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(65,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'deltas' of type 'string[]' in 'string[] DeltaEncoder.Decode(string[] deltas)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(74,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'deltas' of type 'string[]' in 'string[] DeltaEncoder.Decode(string[] deltas)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(87,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'deltas' of type 'string[]' in 'string[] DeltaEncoder.Decode(string[] deltas)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(102,52): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(117,52): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(141,52): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(163,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'deltas' of type 'string[]' in 'string[] DeltaEncoder.Decode(string[] deltas)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+    15 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.96
+]]></string>
+    <string>WritePatch: Compile failed.
+IncrementalDeltaEncodingTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:13:10 AM
+IncrementalDeltaEncodingTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:13:10 AM
+IncrementalDeltaEncodingTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 8:13:31 AM
+IncrementalDeltaEncodingTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  IncrementalDeltaEncoding -> D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncoding\bin\Debug\net9.0\IncrementalDeltaEncoding.dll
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(13,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(14,51): warning CS8604: Possible null reference argument for parameter 'input' in 'string[] DeltaEncoder.Encode(string[] input)'. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(14,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(23,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(35,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(57,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(64,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(65,51): warning CS8604: Possible null reference argument for parameter 'deltas' in 'string[] DeltaEncoder.Decode(string[] deltas)'. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(65,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'deltas' of type 'string[]' in 'string[] DeltaEncoder.Decode(string[] deltas)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(74,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'deltas' of type 'string[]' in 'string[] DeltaEncoder.Decode(string[] deltas)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(87,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'deltas' of type 'string[]' in 'string[] DeltaEncoder.Decode(string[] deltas)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(102,52): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(117,52): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(141,52): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(163,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'deltas' of type 'string[]' in 'string[] DeltaEncoder.Decode(string[] deltas)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+  IncrementalDeltaEncodingTest -> D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\bin\Debug\net9.0\IncrementalDeltaEncodingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(13,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(14,51): warning CS8604: Possible null reference argument for parameter 'input' in 'string[] DeltaEncoder.Encode(string[] input)'. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(14,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(23,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(35,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(57,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(64,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(65,51): warning CS8604: Possible null reference argument for parameter 'deltas' in 'string[] DeltaEncoder.Decode(string[] deltas)'. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(65,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'deltas' of type 'string[]' in 'string[] DeltaEncoder.Decode(string[] deltas)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(74,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'deltas' of type 'string[]' in 'string[] DeltaEncoder.Decode(string[] deltas)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(87,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'deltas' of type 'string[]' in 'string[] DeltaEncoder.Decode(string[] deltas)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(102,52): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(117,52): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(141,52): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(163,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'deltas' of type 'string[]' in 'string[] DeltaEncoder.Decode(string[] deltas)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+    15 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.96
+
+</CompilerResponse>
+2025-02-23 8:13:31 AM
+IncrementalDeltaEncodingTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 8:13:33 AM
+IncrementalDeltaEncoding</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  IncrementalDeltaEncoding -> D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncoding\bin\Debug\net9.0\IncrementalDeltaEncoding.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+]]></string>
+    <string>WritePatch: Code is Complete.
+IncrementalDeltaEncoding</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:13:57 AM
+IncrementalDeltaEncodingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  IncrementalDeltaEncoding -> D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncoding\bin\Debug\net9.0\IncrementalDeltaEncoding.dll
+  IncrementalDeltaEncodingTest -> D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\bin\Debug\net9.0\IncrementalDeltaEncodingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.88
+]]></string>
+    <string>WritePatch: Code is Complete.
+IncrementalDeltaEncodingTest</string>
+    <string>[INFO 2025-02-23 8:14:11 AM] Starting test for project: D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj</string>
+    <string>[INFO 2025-02-23 8:14:11 AM] Starting test for project: D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj</string>
+    <string>[INFO 2025-02-23 8:14:11 AM] Starting test for project: D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj</string>
+    <string>[INFO 2025-02-23 8:14:11 AM] Starting test for project: D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj</string>
+    <string>[INFO 2025-02-23 8:14:11 AM] Starting test for project: D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj</string>
+    <string>[INFO 2025-02-23 8:14:11 AM] Starting test for project: D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj</string>
+    <string>[INFO 2025-02-23 8:14:11 AM] Starting test for project: D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj</string>
+    <string>[INFO 2025-02-23 8:14:11 AM] Starting test for project: D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj</string>
+    <string>[INFO 2025-02-23 8:14:11 AM] Starting test for project: D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 8:14:14 AM] All tests passed successfully.
+[INFO 2025-02-23 8:14:14 AM] Test process completed. Duration: 3.31 seconds.
+[INFO 2025-02-23 8:14:14 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 8:14:14 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:14:14 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:14:14 AM] Test run for D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\bin\Debug\net9.0\IncrementalDeltaEncodingTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:14:13 AM]   IncrementalDeltaEncodingTest -> D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\bin\Debug\net9.0\IncrementalDeltaEncodingTest.dll
+[OUTPUT 2025-02-23 8:14:13 AM]   IncrementalDeltaEncoding -> D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncoding\bin\Debug\net9.0\IncrementalDeltaEncoding.dll
+[OUTPUT 2025-02-23 8:14:12 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:14:11 AM]   Determining projects to restore...
+[INFO 2025-02-23 8:14:11 AM] Command: dotnet test "D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:14:11 AM] Starting test for project: D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 8:08:25 AM
+IncrementalDeltaEncoding
+
+WritePatch ran compiler. 2025-02-23 8:09:45 AM
+IncrementalDeltaEncoding
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  IncrementalDeltaEncoding -> D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncoding\bin\Debug\net9.0\IncrementalDeltaEncoding.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+
+
+WritePatch: Code is Complete.
+IncrementalDeltaEncoding
+
+WritePatch Started CycleStep. 2025-02-23 8:10:00 AM
+IncrementalDeltaEncodingTest
+
+WritePatch ran compiler. 2025-02-23 8:12:28 AM
+IncrementalDeltaEncodingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj (in 184 ms).
+  1 of 2 projects are up-to-date for restore.
+  IncrementalDeltaEncoding -> D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncoding\bin\Debug\net9.0\IncrementalDeltaEncoding.dll
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(13,30): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(14,51): warning CS8604: Possible null reference argument for parameter 'input' in 'string[] DeltaEncoder.Encode(string[] input)'. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(64,30): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(65,51): warning CS8604: Possible null reference argument for parameter 'deltas' in 'string[] DeltaEncoder.Decode(string[] deltas)'. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(127,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(129,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(131,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+  IncrementalDeltaEncodingTest -> D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\bin\Debug\net9.0\IncrementalDeltaEncodingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(13,30): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(14,51): warning CS8604: Possible null reference argument for parameter 'input' in 'string[] DeltaEncoder.Encode(string[] input)'. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(64,30): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(65,51): warning CS8604: Possible null reference argument for parameter 'deltas' in 'string[] DeltaEncoder.Decode(string[] deltas)'. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(127,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(129,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(131,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+    7 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.34
+
+
+WritePatch: Compile failed.
+IncrementalDeltaEncodingTest
+
+Finished WritePatch cycle step.
+2025-02-23 8:12:29 AM
+IncrementalDeltaEncodingTest
+
+WritePatch Started CycleStep. 2025-02-23 8:12:29 AM
+IncrementalDeltaEncodingTest
+
+WritePatch ran compiler. 2025-02-23 8:13:09 AM
+IncrementalDeltaEncodingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  IncrementalDeltaEncoding -> D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncoding\bin\Debug\net9.0\IncrementalDeltaEncoding.dll
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(13,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(14,51): warning CS8604: Possible null reference argument for parameter 'input' in 'string[] DeltaEncoder.Encode(string[] input)'. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(14,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(23,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(35,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(57,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(64,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(65,51): warning CS8604: Possible null reference argument for parameter 'deltas' in 'string[] DeltaEncoder.Decode(string[] deltas)'. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(65,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'deltas' of type 'string[]' in 'string[] DeltaEncoder.Decode(string[] deltas)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(74,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'deltas' of type 'string[]' in 'string[] DeltaEncoder.Decode(string[] deltas)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(87,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'deltas' of type 'string[]' in 'string[] DeltaEncoder.Decode(string[] deltas)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(102,52): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(117,52): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(141,52): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(163,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'deltas' of type 'string[]' in 'string[] DeltaEncoder.Decode(string[] deltas)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+  IncrementalDeltaEncodingTest -> D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\bin\Debug\net9.0\IncrementalDeltaEncodingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(13,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(14,51): warning CS8604: Possible null reference argument for parameter 'input' in 'string[] DeltaEncoder.Encode(string[] input)'. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(14,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(23,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(35,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(57,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(64,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(65,51): warning CS8604: Possible null reference argument for parameter 'deltas' in 'string[] DeltaEncoder.Decode(string[] deltas)'. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(65,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'deltas' of type 'string[]' in 'string[] DeltaEncoder.Decode(string[] deltas)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(74,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'deltas' of type 'string[]' in 'string[] DeltaEncoder.Decode(string[] deltas)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(87,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'deltas' of type 'string[]' in 'string[] DeltaEncoder.Decode(string[] deltas)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(102,52): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(117,52): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(141,52): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(163,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'deltas' of type 'string[]' in 'string[] DeltaEncoder.Decode(string[] deltas)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+    15 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.96
+
+
+WritePatch: Compile failed.
+IncrementalDeltaEncodingTest
+
+Finished WritePatch cycle step.
+2025-02-23 8:13:10 AM
+IncrementalDeltaEncodingTest
+
+WritePatch Started CycleStep. 2025-02-23 8:13:10 AM
+IncrementalDeltaEncodingTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 8:13:31 AM
+IncrementalDeltaEncodingTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  IncrementalDeltaEncoding -> D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncoding\bin\Debug\net9.0\IncrementalDeltaEncoding.dll
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(13,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(14,51): warning CS8604: Possible null reference argument for parameter 'input' in 'string[] DeltaEncoder.Encode(string[] input)'. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(14,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(23,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(35,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(57,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(64,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(65,51): warning CS8604: Possible null reference argument for parameter 'deltas' in 'string[] DeltaEncoder.Decode(string[] deltas)'. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(65,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'deltas' of type 'string[]' in 'string[] DeltaEncoder.Decode(string[] deltas)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(74,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'deltas' of type 'string[]' in 'string[] DeltaEncoder.Decode(string[] deltas)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(87,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'deltas' of type 'string[]' in 'string[] DeltaEncoder.Decode(string[] deltas)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(102,52): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(117,52): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(141,52): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(163,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'deltas' of type 'string[]' in 'string[] DeltaEncoder.Decode(string[] deltas)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+  IncrementalDeltaEncodingTest -> D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\bin\Debug\net9.0\IncrementalDeltaEncodingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(13,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(14,51): warning CS8604: Possible null reference argument for parameter 'input' in 'string[] DeltaEncoder.Encode(string[] input)'. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(14,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(23,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(35,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(57,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(64,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(65,51): warning CS8604: Possible null reference argument for parameter 'deltas' in 'string[] DeltaEncoder.Decode(string[] deltas)'. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(65,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'deltas' of type 'string[]' in 'string[] DeltaEncoder.Decode(string[] deltas)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(74,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'deltas' of type 'string[]' in 'string[] DeltaEncoder.Decode(string[] deltas)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(87,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'deltas' of type 'string[]' in 'string[] DeltaEncoder.Decode(string[] deltas)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(102,52): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(117,52): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(141,52): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'input' of type 'string[]' in 'string[] DeltaEncoder.Encode(string[] input)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\DeltaEncoderTests.cs(163,51): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'deltas' of type 'string[]' in 'string[] DeltaEncoder.Decode(string[] deltas)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj]
+    15 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.96
+
+</CompilerResponse>
+2025-02-23 8:13:31 AM
+IncrementalDeltaEncodingTest
+
+WritePatch ran compiler. 2025-02-23 8:13:33 AM
+IncrementalDeltaEncoding
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  IncrementalDeltaEncoding -> D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncoding\bin\Debug\net9.0\IncrementalDeltaEncoding.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+
+
+WritePatch: Code is Complete.
+IncrementalDeltaEncoding
+
+WritePatch ran compiler. 2025-02-23 8:13:57 AM
+IncrementalDeltaEncodingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  IncrementalDeltaEncoding -> D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncoding\bin\Debug\net9.0\IncrementalDeltaEncoding.dll
+  IncrementalDeltaEncodingTest -> D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\bin\Debug\net9.0\IncrementalDeltaEncodingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.88
+
+
+WritePatch: Code is Complete.
+IncrementalDeltaEncodingTest
+
+TestResult:
+[SUCCESS 2025-02-23 8:14:14 AM] All tests passed successfully.
+[INFO 2025-02-23 8:14:14 AM] Test process completed. Duration: 3.31 seconds.
+[INFO 2025-02-23 8:14:14 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 8:14:14 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:14:14 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:14:14 AM] Test run for D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\bin\Debug\net9.0\IncrementalDeltaEncodingTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:14:13 AM]   IncrementalDeltaEncodingTest -> D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\bin\Debug\net9.0\IncrementalDeltaEncodingTest.dll
+[OUTPUT 2025-02-23 8:14:13 AM]   IncrementalDeltaEncoding -> D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncoding\bin\Debug\net9.0\IncrementalDeltaEncoding.dll
+[OUTPUT 2025-02-23 8:14:12 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:14:11 AM]   Determining projects to restore...
+[INFO 2025-02-23 8:14:11 AM] Command: dotnet test "D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:14:11 AM] Starting test for project: D:\Code2025\RavenWork\IncrementalDeltaEncoding\IncrementalDeltaEncodingTest\IncrementalDeltaEncodingTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
