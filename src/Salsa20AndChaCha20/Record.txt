@@ -1,0 +1,353 @@
+<ActRecord>
+  <ProjectName>Salsa20AndChaCha20</ProjectName>
+  <ProjectDescription>Salsa20 (and ChaCha20)</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Salsa20 (and ChaCha20)</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\Salsa20AndChaCha20</SolutionFolderPath>
+  <ProjectFolderName>Salsa20AndChaCha20</ProjectFolderName>
+  <ProjectName>Salsa20AndChaCha20</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:19:16 AM
+Salsa20AndChaCha20</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:21:02 AM
+Salsa20AndChaCha20</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Salsa20AndChaCha20 -> D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20\bin\Debug\net9.0\Salsa20AndChaCha20.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+]]></string>
+    <string>WritePatch: Code is Complete.
+Salsa20AndChaCha20</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:21:21 AM
+Salsa20AndChaCha20Test</string>
+    <string>Exception: The request was canceled due to the configured HttpClient.Timeout of 200 seconds elapsing.</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:24:41 AM
+Salsa20AndChaCha20Test</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:26:26 AM
+Salsa20AndChaCha20Test</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20AndChaCha20Test.csproj (in 215 ms).
+  1 of 2 projects are up-to-date for restore.
+  Salsa20AndChaCha20 -> D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20\bin\Debug\net9.0\Salsa20AndChaCha20.dll
+D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\ChaCha20Tests.cs(56,33): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20AndChaCha20Test.csproj]
+D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\ChaCha20Tests.cs(59,65): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20AndChaCha20Test.csproj]
+D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20Tests.cs(56,32): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20AndChaCha20Test.csproj]
+D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20Tests.cs(59,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20AndChaCha20Test.csproj]
+  Salsa20AndChaCha20Test -> D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\bin\Debug\net9.0\Salsa20AndChaCha20Test.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\ChaCha20Tests.cs(56,33): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20AndChaCha20Test.csproj]
+D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\ChaCha20Tests.cs(59,65): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20AndChaCha20Test.csproj]
+D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20Tests.cs(56,32): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20AndChaCha20Test.csproj]
+D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20Tests.cs(59,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20AndChaCha20Test.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.48
+]]></string>
+    <string>WritePatch: Compile failed.
+Salsa20AndChaCha20Test</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:26:26 AM
+Salsa20AndChaCha20Test</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:26:26 AM
+Salsa20AndChaCha20Test</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:27:15 AM
+Salsa20AndChaCha20Test</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Salsa20AndChaCha20 -> D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20\bin\Debug\net9.0\Salsa20AndChaCha20.dll
+  Salsa20AndChaCha20Test -> D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\bin\Debug\net9.0\Salsa20AndChaCha20Test.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.02
+]]></string>
+    <string>WritePatch: Code is not Complete.
+Salsa20AndChaCha20Test</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:27:44 AM
+Salsa20AndChaCha20Test</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Salsa20AndChaCha20 -> D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20\bin\Debug\net9.0\Salsa20AndChaCha20.dll
+  Salsa20AndChaCha20Test -> D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\bin\Debug\net9.0\Salsa20AndChaCha20Test.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.02
+
+</CompilerResponse>
+2025-02-23 10:27:44 AM
+Salsa20AndChaCha20Test]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 10:27:45 AM
+Salsa20AndChaCha20</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Salsa20AndChaCha20 -> D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20\bin\Debug\net9.0\Salsa20AndChaCha20.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87
+]]></string>
+    <string>WritePatch: Code is Complete.
+Salsa20AndChaCha20</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:28:49 AM
+Salsa20AndChaCha20Test</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Salsa20AndChaCha20 -> D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20\bin\Debug\net9.0\Salsa20AndChaCha20.dll
+  Salsa20AndChaCha20Test -> D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\bin\Debug\net9.0\Salsa20AndChaCha20Test.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.08
+]]></string>
+    <string>WritePatch: Code is Complete.
+Salsa20AndChaCha20Test</string>
+    <string>[INFO 2025-02-23 10:29:18 AM] Starting test for project: D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20AndChaCha20Test.csproj</string>
+    <string>[INFO 2025-02-23 10:29:18 AM] Starting test for project: D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20AndChaCha20Test.csproj</string>
+    <string>[INFO 2025-02-23 10:29:18 AM] Starting test for project: D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20AndChaCha20Test.csproj</string>
+    <string>[INFO 2025-02-23 10:29:18 AM] Starting test for project: D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20AndChaCha20Test.csproj</string>
+    <string>[INFO 2025-02-23 10:29:18 AM] Starting test for project: D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20AndChaCha20Test.csproj</string>
+    <string>[INFO 2025-02-23 10:29:18 AM] Starting test for project: D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20AndChaCha20Test.csproj</string>
+    <string>[INFO 2025-02-23 10:29:18 AM] Starting test for project: D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20AndChaCha20Test.csproj</string>
+    <string>[INFO 2025-02-23 10:29:18 AM] Starting test for project: D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20AndChaCha20Test.csproj</string>
+    <string>[INFO 2025-02-23 10:29:18 AM] Starting test for project: D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20AndChaCha20Test.csproj</string>
+    <string>[INFO 2025-02-23 10:29:18 AM] Starting test for project: D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20AndChaCha20Test.csproj</string>
+    <string>[INFO 2025-02-23 10:29:18 AM] Starting test for project: D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20AndChaCha20Test.csproj</string>
+    <string>[INFO 2025-02-23 10:29:18 AM] Starting test for project: D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20AndChaCha20Test.csproj</string>
+    <string>[INFO 2025-02-23 10:29:18 AM] Starting test for project: D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20AndChaCha20Test.csproj</string>
+    <string>[INFO 2025-02-23 10:29:18 AM] Starting test for project: D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20AndChaCha20Test.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 10:29:21 AM] All tests passed successfully.
+[INFO 2025-02-23 10:29:21 AM] Test process completed. Duration: 3.10 seconds.
+[INFO 2025-02-23 10:29:21 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 10:29:21 AM]   Passed ProcessBytesNullInputTest [4 ms]
+[OUTPUT 2025-02-23 10:29:21 AM]   Passed ProcessBytesInvalidOffsetTest [4 ms]
+[OUTPUT 2025-02-23 10:29:20 AM] D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\bin\Debug\net9.0\Salsa20AndChaCha20Test.dll
+[OUTPUT 2025-02-23 10:29:20 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:29:20 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:29:19 AM]   Salsa20AndChaCha20 -> D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20\bin\Debug\net9.0\Salsa20AndChaCha20.dll
+[OUTPUT 2025-02-23 10:29:19 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:29:21 AM] Test Parallelization enabled for D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\bin\Debug\net9.0\Salsa20AndChaCha20Test.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:29:20 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:29:19 AM] Test run for D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\bin\Debug\net9.0\Salsa20AndChaCha20Test.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:29:19 AM]   Salsa20AndChaCha20Test -> D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\bin\Debug\net9.0\Salsa20AndChaCha20Test.dll
+[OUTPUT 2025-02-23 10:29:18 AM]   Determining projects to restore...
+[INFO 2025-02-23 10:29:18 AM] Command: dotnet test "D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20AndChaCha20Test.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:29:18 AM] Starting test for project: D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20AndChaCha20Test.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 10:19:16 AM
+Salsa20AndChaCha20
+
+WritePatch ran compiler. 2025-02-23 10:21:02 AM
+Salsa20AndChaCha20
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Salsa20AndChaCha20 -> D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20\bin\Debug\net9.0\Salsa20AndChaCha20.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+
+
+WritePatch: Code is Complete.
+Salsa20AndChaCha20
+
+WritePatch Started CycleStep. 2025-02-23 10:21:21 AM
+Salsa20AndChaCha20Test
+
+Exception: The request was canceled due to the configured HttpClient.Timeout of 200 seconds elapsing.
+
+WritePatch Started CycleStep. 2025-02-23 10:24:41 AM
+Salsa20AndChaCha20Test
+
+WritePatch ran compiler. 2025-02-23 10:26:26 AM
+Salsa20AndChaCha20Test
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20AndChaCha20Test.csproj (in 215 ms).
+  1 of 2 projects are up-to-date for restore.
+  Salsa20AndChaCha20 -> D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20\bin\Debug\net9.0\Salsa20AndChaCha20.dll
+D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\ChaCha20Tests.cs(56,33): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20AndChaCha20Test.csproj]
+D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\ChaCha20Tests.cs(59,65): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20AndChaCha20Test.csproj]
+D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20Tests.cs(56,32): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20AndChaCha20Test.csproj]
+D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20Tests.cs(59,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20AndChaCha20Test.csproj]
+  Salsa20AndChaCha20Test -> D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\bin\Debug\net9.0\Salsa20AndChaCha20Test.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\ChaCha20Tests.cs(56,33): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20AndChaCha20Test.csproj]
+D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\ChaCha20Tests.cs(59,65): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20AndChaCha20Test.csproj]
+D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20Tests.cs(56,32): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20AndChaCha20Test.csproj]
+D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20Tests.cs(59,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20AndChaCha20Test.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.48
+
+
+WritePatch: Compile failed.
+Salsa20AndChaCha20Test
+
+Finished WritePatch cycle step.
+2025-02-23 10:26:26 AM
+Salsa20AndChaCha20Test
+
+WritePatch Started CycleStep. 2025-02-23 10:26:26 AM
+Salsa20AndChaCha20Test
+
+WritePatch ran compiler. 2025-02-23 10:27:15 AM
+Salsa20AndChaCha20Test
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Salsa20AndChaCha20 -> D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20\bin\Debug\net9.0\Salsa20AndChaCha20.dll
+  Salsa20AndChaCha20Test -> D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\bin\Debug\net9.0\Salsa20AndChaCha20Test.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.02
+
+
+WritePatch: Code is not Complete.
+Salsa20AndChaCha20Test
+
+Finished WritePatch cycle step.
+2025-02-23 10:27:44 AM
+Salsa20AndChaCha20Test
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Salsa20AndChaCha20 -> D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20\bin\Debug\net9.0\Salsa20AndChaCha20.dll
+  Salsa20AndChaCha20Test -> D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\bin\Debug\net9.0\Salsa20AndChaCha20Test.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.02
+
+</CompilerResponse>
+2025-02-23 10:27:44 AM
+Salsa20AndChaCha20Test
+
+WritePatch ran compiler. 2025-02-23 10:27:45 AM
+Salsa20AndChaCha20
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Salsa20AndChaCha20 -> D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20\bin\Debug\net9.0\Salsa20AndChaCha20.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87
+
+
+WritePatch: Code is Complete.
+Salsa20AndChaCha20
+
+WritePatch ran compiler. 2025-02-23 10:28:49 AM
+Salsa20AndChaCha20Test
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Salsa20AndChaCha20 -> D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20\bin\Debug\net9.0\Salsa20AndChaCha20.dll
+  Salsa20AndChaCha20Test -> D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\bin\Debug\net9.0\Salsa20AndChaCha20Test.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.08
+
+
+WritePatch: Code is Complete.
+Salsa20AndChaCha20Test
+
+TestResult:
+[SUCCESS 2025-02-23 10:29:21 AM] All tests passed successfully.
+[INFO 2025-02-23 10:29:21 AM] Test process completed. Duration: 3.10 seconds.
+[INFO 2025-02-23 10:29:21 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 10:29:21 AM]   Passed ProcessBytesNullInputTest [4 ms]
+[OUTPUT 2025-02-23 10:29:21 AM]   Passed ProcessBytesInvalidOffsetTest [4 ms]
+[OUTPUT 2025-02-23 10:29:20 AM] D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\bin\Debug\net9.0\Salsa20AndChaCha20Test.dll
+[OUTPUT 2025-02-23 10:29:20 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:29:20 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:29:19 AM]   Salsa20AndChaCha20 -> D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20\bin\Debug\net9.0\Salsa20AndChaCha20.dll
+[OUTPUT 2025-02-23 10:29:19 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:29:21 AM] Test Parallelization enabled for D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\bin\Debug\net9.0\Salsa20AndChaCha20Test.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:29:20 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:29:19 AM] Test run for D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\bin\Debug\net9.0\Salsa20AndChaCha20Test.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:29:19 AM]   Salsa20AndChaCha20Test -> D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\bin\Debug\net9.0\Salsa20AndChaCha20Test.dll
+[OUTPUT 2025-02-23 10:29:18 AM]   Determining projects to restore...
+[INFO 2025-02-23 10:29:18 AM] Command: dotnet test "D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20AndChaCha20Test.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:29:18 AM] Starting test for project: D:\Code2025\RavenWork\Salsa20AndChaCha20\Salsa20AndChaCha20Test\Salsa20AndChaCha20Test.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
