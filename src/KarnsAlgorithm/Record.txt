@@ -1,0 +1,156 @@
+<ActRecord>
+  <ProjectName>KarnsAlgorithm</ProjectName>
+  <ProjectDescription><![CDATA[Karn's algorithm: Provides accurate round‑trip time estimates for TCP]]></ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification><![CDATA[Karn's algorithm: Provides accurate round‑trip time estimates for TCP]]]]><![CDATA[></WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\KarnsAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>KarnsAlgorithm</ProjectFolderName>
+  <ProjectName>KarnsAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:41:15 PM
+KarnsAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:41:39 PM
+KarnsAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KarnsAlgorithm -> D:\Code2025\RavenWork\KarnsAlgorithm\KarnsAlgorithm\bin\Debug\net9.0\KarnsAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.26
+]]></string>
+    <string>WritePatch: Code is Complete.
+KarnsAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:42:23 PM
+KarnsAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:42:54 PM
+KarnsAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\KarnsAlgorithm\KarnsAlgorithmTest\KarnsAlgorithmTest.csproj (in 320 ms).
+  1 of 2 projects are up-to-date for restore.
+  KarnsAlgorithm -> D:\Code2025\RavenWork\KarnsAlgorithm\KarnsAlgorithm\bin\Debug\net9.0\KarnsAlgorithm.dll
+  KarnsAlgorithmTest -> D:\Code2025\RavenWork\KarnsAlgorithm\KarnsAlgorithmTest\bin\Debug\net9.0\KarnsAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.20
+]]></string>
+    <string>WritePatch: Code is Complete.
+KarnsAlgorithmTest</string>
+    <string>[INFO 2025-02-23 1:43:34 PM] Starting test for project: D:\Code2025\RavenWork\KarnsAlgorithm\KarnsAlgorithmTest\KarnsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:43:34 PM] Starting test for project: D:\Code2025\RavenWork\KarnsAlgorithm\KarnsAlgorithmTest\KarnsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:43:34 PM] Starting test for project: D:\Code2025\RavenWork\KarnsAlgorithm\KarnsAlgorithmTest\KarnsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:43:34 PM] Starting test for project: D:\Code2025\RavenWork\KarnsAlgorithm\KarnsAlgorithmTest\KarnsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:43:34 PM] Starting test for project: D:\Code2025\RavenWork\KarnsAlgorithm\KarnsAlgorithmTest\KarnsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:43:34 PM] Starting test for project: D:\Code2025\RavenWork\KarnsAlgorithm\KarnsAlgorithmTest\KarnsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:43:34 PM] Starting test for project: D:\Code2025\RavenWork\KarnsAlgorithm\KarnsAlgorithmTest\KarnsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:43:34 PM] Starting test for project: D:\Code2025\RavenWork\KarnsAlgorithm\KarnsAlgorithmTest\KarnsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:43:34 PM] Starting test for project: D:\Code2025\RavenWork\KarnsAlgorithm\KarnsAlgorithmTest\KarnsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:43:34 PM] Starting test for project: D:\Code2025\RavenWork\KarnsAlgorithm\KarnsAlgorithmTest\KarnsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:43:34 PM] Starting test for project: D:\Code2025\RavenWork\KarnsAlgorithm\KarnsAlgorithmTest\KarnsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:43:34 PM] Starting test for project: D:\Code2025\RavenWork\KarnsAlgorithm\KarnsAlgorithmTest\KarnsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:43:34 PM] Starting test for project: D:\Code2025\RavenWork\KarnsAlgorithm\KarnsAlgorithmTest\KarnsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:43:34 PM] Starting test for project: D:\Code2025\RavenWork\KarnsAlgorithm\KarnsAlgorithmTest\KarnsAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 1:43:39 PM]   Passed TestRetransmissionIgnored [8 ms]
+[OUTPUT 2025-02-23 1:43:38 PM]   Passed TestSyntheticSamples [8 ms]
+[OUTPUT 2025-02-23 1:43:36 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 1:43:36 PM] Test run for D:\Code2025\RavenWork\KarnsAlgorithm\KarnsAlgorithmTest\bin\Debug\net9.0\KarnsAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 1:43:36 PM]   KarnsAlgorithmTest -> D:\Code2025\RavenWork\KarnsAlgorithm\KarnsAlgorithmTest\bin\Debug\net9.0\KarnsAlgorithmTest.dll
+[OUTPUT 2025-02-23 1:43:35 PM]   All projects are up-to-date for restore.
+[SUCCESS 2025-02-23 1:43:38 PM] All tests passed successfully.
+[INFO 2025-02-23 1:43:38 PM] Test process completed. Duration: 4.53 seconds.
+[INFO 2025-02-23 1:43:38 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 1:43:38 PM] Test Parallelization enabled for D:\Code2025\RavenWork\KarnsAlgorithm\KarnsAlgorithmTest\bin\Debug\net9.0\KarnsAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 1:43:37 PM] D:\Code2025\RavenWork\KarnsAlgorithm\KarnsAlgorithmTest\bin\Debug\net9.0\KarnsAlgorithmTest.dll
+[OUTPUT 2025-02-23 1:43:37 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 1:43:37 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 1:43:35 PM]   KarnsAlgorithm -> D:\Code2025\RavenWork\KarnsAlgorithm\KarnsAlgorithm\bin\Debug\net9.0\KarnsAlgorithm.dll
+[OUTPUT 2025-02-23 1:43:35 PM]   Determining projects to restore...
+[INFO 2025-02-23 1:43:34 PM] Command: dotnet test "D:\Code2025\RavenWork\KarnsAlgorithm\KarnsAlgorithmTest\KarnsAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:43:34 PM] Starting test for project: D:\Code2025\RavenWork\KarnsAlgorithm\KarnsAlgorithmTest\KarnsAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 1:41:15 PM
+KarnsAlgorithm
+
+WritePatch ran compiler. 2025-02-23 1:41:39 PM
+KarnsAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KarnsAlgorithm -> D:\Code2025\RavenWork\KarnsAlgorithm\KarnsAlgorithm\bin\Debug\net9.0\KarnsAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.26
+
+
+WritePatch: Code is Complete.
+KarnsAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 1:42:23 PM
+KarnsAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 1:42:54 PM
+KarnsAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\KarnsAlgorithm\KarnsAlgorithmTest\KarnsAlgorithmTest.csproj (in 320 ms).
+  1 of 2 projects are up-to-date for restore.
+  KarnsAlgorithm -> D:\Code2025\RavenWork\KarnsAlgorithm\KarnsAlgorithm\bin\Debug\net9.0\KarnsAlgorithm.dll
+  KarnsAlgorithmTest -> D:\Code2025\RavenWork\KarnsAlgorithm\KarnsAlgorithmTest\bin\Debug\net9.0\KarnsAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.20
+
+
+WritePatch: Code is Complete.
+KarnsAlgorithmTest
+
+TestResult:
+[OUTPUT 2025-02-23 1:43:39 PM]   Passed TestRetransmissionIgnored [8 ms]
+[OUTPUT 2025-02-23 1:43:38 PM]   Passed TestSyntheticSamples [8 ms]
+[OUTPUT 2025-02-23 1:43:36 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 1:43:36 PM] Test run for D:\Code2025\RavenWork\KarnsAlgorithm\KarnsAlgorithmTest\bin\Debug\net9.0\KarnsAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 1:43:36 PM]   KarnsAlgorithmTest -> D:\Code2025\RavenWork\KarnsAlgorithm\KarnsAlgorithmTest\bin\Debug\net9.0\KarnsAlgorithmTest.dll
+[OUTPUT 2025-02-23 1:43:35 PM]   All projects are up-to-date for restore.
+[SUCCESS 2025-02-23 1:43:38 PM] All tests passed successfully.
+[INFO 2025-02-23 1:43:38 PM] Test process completed. Duration: 4.53 seconds.
+[INFO 2025-02-23 1:43:38 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 1:43:38 PM] Test Parallelization enabled for D:\Code2025\RavenWork\KarnsAlgorithm\KarnsAlgorithmTest\bin\Debug\net9.0\KarnsAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 1:43:37 PM] D:\Code2025\RavenWork\KarnsAlgorithm\KarnsAlgorithmTest\bin\Debug\net9.0\KarnsAlgorithmTest.dll
+[OUTPUT 2025-02-23 1:43:37 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 1:43:37 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 1:43:35 PM]   KarnsAlgorithm -> D:\Code2025\RavenWork\KarnsAlgorithm\KarnsAlgorithm\bin\Debug\net9.0\KarnsAlgorithm.dll
+[OUTPUT 2025-02-23 1:43:35 PM]   Determining projects to restore...
+[INFO 2025-02-23 1:43:34 PM] Command: dotnet test "D:\Code2025\RavenWork\KarnsAlgorithm\KarnsAlgorithmTest\KarnsAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:43:34 PM] Starting test for project: D:\Code2025\RavenWork\KarnsAlgorithm\KarnsAlgorithmTest\KarnsAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
