@@ -1,0 +1,328 @@
+<ActRecord>
+  <ProjectName>InsertionSort</ProjectName>
+  <ProjectDescription>Insertion sort: determine where the current item belongs in the list of sorted ones, and insert it there</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Insertion sort: determine where the current item belongs in the list of sorted ones, and insert it there</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\InsertionSort</SolutionFolderPath>
+  <ProjectFolderName>InsertionSort</ProjectFolderName>
+  <ProjectName>InsertionSort</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:18:17 AM
+InsertionSort</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 7:18:41 AM
+InsertionSort</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:18:41 AM
+InsertionSort</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:19:16 AM
+InsertionSort</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  InsertionSort -> D:\Code2025\RavenWork\InsertionSort\InsertionSort\bin\Debug\net9.0\InsertionSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+]]></string>
+    <string>WritePatch: Code is Complete.
+InsertionSort</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:19:26 AM
+InsertionSortTest</string>
+    <string>Exception: The request was canceled due to the configured HttpClient.Timeout of 200 seconds elapsing.</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:22:47 AM
+InsertionSortTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:25:42 AM
+InsertionSortTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSortTest.csproj (in 183 ms).
+  1 of 2 projects are up-to-date for restore.
+  InsertionSort -> D:\Code2025\RavenWork\InsertionSort\InsertionSort\bin\Debug\net9.0\InsertionSort.dll
+D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSorterTests.cs(14,30): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSortTest.csproj]
+D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSorterTests.cs(17,43): warning CS8604: Possible null reference argument for parameter 'list' in 'void InsertionSorter.Sort<int>(List<int> list)'. [D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSortTest.csproj]
+  InsertionSortTest -> D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\bin\Debug\net9.0\InsertionSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSorterTests.cs(14,30): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSortTest.csproj]
+D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSorterTests.cs(17,43): warning CS8604: Possible null reference argument for parameter 'list' in 'void InsertionSorter.Sort<int>(List<int> list)'. [D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSortTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.31
+]]></string>
+    <string>WritePatch: Compile failed.
+InsertionSortTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:25:42 AM
+InsertionSortTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:25:43 AM
+InsertionSortTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 7:26:16 AM
+InsertionSortTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\InsertionSort\InsertionSortTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSortTest.csproj (in 183 ms).
+  1 of 2 projects are up-to-date for restore.
+  InsertionSort -> D:\Code2025\RavenWork\InsertionSort\InsertionSort\bin\Debug\net9.0\InsertionSort.dll
+D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSorterTests.cs(14,30): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSortTest.csproj]
+D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSorterTests.cs(17,43): warning CS8604: Possible null reference argument for parameter 'list' in 'void InsertionSorter.Sort<int>(List<int> list)'. [D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSortTest.csproj]
+  InsertionSortTest -> D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\bin\Debug\net9.0\InsertionSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSorterTests.cs(14,30): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSortTest.csproj]
+D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSorterTests.cs(17,43): warning CS8604: Possible null reference argument for parameter 'list' in 'void InsertionSorter.Sort<int>(List<int> list)'. [D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSortTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.31
+
+</CompilerResponse>
+2025-02-23 7:26:16 AM
+InsertionSortTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 7:26:17 AM
+InsertionSort</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  InsertionSort -> D:\Code2025\RavenWork\InsertionSort\InsertionSort\bin\Debug\net9.0\InsertionSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.73
+]]></string>
+    <string>WritePatch: Code is Complete.
+InsertionSort</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:26:25 AM
+InsertionSortTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  InsertionSort -> D:\Code2025\RavenWork\InsertionSort\InsertionSort\bin\Debug\net9.0\InsertionSort.dll
+  InsertionSortTest -> D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\bin\Debug\net9.0\InsertionSortTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.90
+]]></string>
+    <string>WritePatch: Code is Complete.
+InsertionSortTest</string>
+    <string>[INFO 2025-02-23 7:26:35 AM] Starting test for project: D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSortTest.csproj</string>
+    <string>[INFO 2025-02-23 7:26:35 AM] Starting test for project: D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSortTest.csproj</string>
+    <string>[INFO 2025-02-23 7:26:35 AM] Starting test for project: D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSortTest.csproj</string>
+    <string>[INFO 2025-02-23 7:26:35 AM] Starting test for project: D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSortTest.csproj</string>
+    <string>[INFO 2025-02-23 7:26:35 AM] Starting test for project: D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSortTest.csproj</string>
+    <string>[INFO 2025-02-23 7:26:35 AM] Starting test for project: D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSortTest.csproj</string>
+    <string>[INFO 2025-02-23 7:26:35 AM] Starting test for project: D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSortTest.csproj</string>
+    <string>[INFO 2025-02-23 7:26:35 AM] Starting test for project: D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSortTest.csproj</string>
+    <string>[INFO 2025-02-23 7:26:35 AM] Starting test for project: D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSortTest.csproj</string>
+    <string>[INFO 2025-02-23 7:26:35 AM] Starting test for project: D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSortTest.csproj</string>
+    <string>[INFO 2025-02-23 7:26:35 AM] Starting test for project: D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSortTest.csproj</string>
+    <string>[INFO 2025-02-23 7:26:35 AM] Starting test for project: D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSortTest.csproj</string>
+    <string>[INFO 2025-02-23 7:26:35 AM] Starting test for project: D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSortTest.csproj</string>
+    <string>[INFO 2025-02-23 7:26:35 AM] Starting test for project: D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSortTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 7:26:38 AM] All tests passed successfully.
+[INFO 2025-02-23 7:26:38 AM] Test process completed. Duration: 2.88 seconds.
+[INFO 2025-02-23 7:26:38 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 7:26:38 AM]   Passed TestSort_Strings [4 ms]
+[OUTPUT 2025-02-23 7:26:38 AM]   Passed TestSort_UnsortedList [4 ms]
+[OUTPUT 2025-02-23 7:26:38 AM] Test Parallelization enabled for D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\bin\Debug\net9.0\InsertionSortTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:26:37 AM] D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\bin\Debug\net9.0\InsertionSortTest.dll
+[OUTPUT 2025-02-23 7:26:37 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:26:37 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:26:37 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:26:37 AM] Test run for D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\bin\Debug\net9.0\InsertionSortTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:26:37 AM]   InsertionSortTest -> D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\bin\Debug\net9.0\InsertionSortTest.dll
+[OUTPUT 2025-02-23 7:26:36 AM]   InsertionSort -> D:\Code2025\RavenWork\InsertionSort\InsertionSort\bin\Debug\net9.0\InsertionSort.dll
+[OUTPUT 2025-02-23 7:26:36 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:26:36 AM]   Determining projects to restore...
+[INFO 2025-02-23 7:26:35 AM] Command: dotnet test "D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSortTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:26:35 AM] Starting test for project: D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSortTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 7:18:17 AM
+InsertionSort
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 7:18:41 AM
+InsertionSort
+
+WritePatch Started CycleStep. 2025-02-23 7:18:41 AM
+InsertionSort
+
+WritePatch ran compiler. 2025-02-23 7:19:16 AM
+InsertionSort
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  InsertionSort -> D:\Code2025\RavenWork\InsertionSort\InsertionSort\bin\Debug\net9.0\InsertionSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+
+
+WritePatch: Code is Complete.
+InsertionSort
+
+WritePatch Started CycleStep. 2025-02-23 7:19:26 AM
+InsertionSortTest
+
+Exception: The request was canceled due to the configured HttpClient.Timeout of 200 seconds elapsing.
+
+WritePatch Started CycleStep. 2025-02-23 7:22:47 AM
+InsertionSortTest
+
+WritePatch ran compiler. 2025-02-23 7:25:42 AM
+InsertionSortTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSortTest.csproj (in 183 ms).
+  1 of 2 projects are up-to-date for restore.
+  InsertionSort -> D:\Code2025\RavenWork\InsertionSort\InsertionSort\bin\Debug\net9.0\InsertionSort.dll
+D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSorterTests.cs(14,30): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSortTest.csproj]
+D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSorterTests.cs(17,43): warning CS8604: Possible null reference argument for parameter 'list' in 'void InsertionSorter.Sort<int>(List<int> list)'. [D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSortTest.csproj]
+  InsertionSortTest -> D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\bin\Debug\net9.0\InsertionSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSorterTests.cs(14,30): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSortTest.csproj]
+D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSorterTests.cs(17,43): warning CS8604: Possible null reference argument for parameter 'list' in 'void InsertionSorter.Sort<int>(List<int> list)'. [D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSortTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.31
+
+
+WritePatch: Compile failed.
+InsertionSortTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:25:42 AM
+InsertionSortTest
+
+WritePatch Started CycleStep. 2025-02-23 7:25:43 AM
+InsertionSortTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 7:26:16 AM
+InsertionSortTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\InsertionSort\InsertionSortTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSortTest.csproj (in 183 ms).
+  1 of 2 projects are up-to-date for restore.
+  InsertionSort -> D:\Code2025\RavenWork\InsertionSort\InsertionSort\bin\Debug\net9.0\InsertionSort.dll
+D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSorterTests.cs(14,30): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSortTest.csproj]
+D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSorterTests.cs(17,43): warning CS8604: Possible null reference argument for parameter 'list' in 'void InsertionSorter.Sort<int>(List<int> list)'. [D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSortTest.csproj]
+  InsertionSortTest -> D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\bin\Debug\net9.0\InsertionSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSorterTests.cs(14,30): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSortTest.csproj]
+D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSorterTests.cs(17,43): warning CS8604: Possible null reference argument for parameter 'list' in 'void InsertionSorter.Sort<int>(List<int> list)'. [D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSortTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.31
+
+</CompilerResponse>
+2025-02-23 7:26:16 AM
+InsertionSortTest
+
+WritePatch ran compiler. 2025-02-23 7:26:17 AM
+InsertionSort
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  InsertionSort -> D:\Code2025\RavenWork\InsertionSort\InsertionSort\bin\Debug\net9.0\InsertionSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.73
+
+
+WritePatch: Code is Complete.
+InsertionSort
+
+WritePatch ran compiler. 2025-02-23 7:26:25 AM
+InsertionSortTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  InsertionSort -> D:\Code2025\RavenWork\InsertionSort\InsertionSort\bin\Debug\net9.0\InsertionSort.dll
+  InsertionSortTest -> D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\bin\Debug\net9.0\InsertionSortTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.90
+
+
+WritePatch: Code is Complete.
+InsertionSortTest
+
+TestResult:
+[SUCCESS 2025-02-23 7:26:38 AM] All tests passed successfully.
+[INFO 2025-02-23 7:26:38 AM] Test process completed. Duration: 2.88 seconds.
+[INFO 2025-02-23 7:26:38 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 7:26:38 AM]   Passed TestSort_Strings [4 ms]
+[OUTPUT 2025-02-23 7:26:38 AM]   Passed TestSort_UnsortedList [4 ms]
+[OUTPUT 2025-02-23 7:26:38 AM] Test Parallelization enabled for D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\bin\Debug\net9.0\InsertionSortTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:26:37 AM] D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\bin\Debug\net9.0\InsertionSortTest.dll
+[OUTPUT 2025-02-23 7:26:37 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:26:37 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:26:37 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:26:37 AM] Test run for D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\bin\Debug\net9.0\InsertionSortTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:26:37 AM]   InsertionSortTest -> D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\bin\Debug\net9.0\InsertionSortTest.dll
+[OUTPUT 2025-02-23 7:26:36 AM]   InsertionSort -> D:\Code2025\RavenWork\InsertionSort\InsertionSort\bin\Debug\net9.0\InsertionSort.dll
+[OUTPUT 2025-02-23 7:26:36 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:26:36 AM]   Determining projects to restore...
+[INFO 2025-02-23 7:26:35 AM] Command: dotnet test "D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSortTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:26:35 AM] Starting test for project: D:\Code2025\RavenWork\InsertionSort\InsertionSortTest\InsertionSortTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
