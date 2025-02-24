@@ -1,0 +1,359 @@
+<ActRecord>
+  <ProjectName>AssociationRuleLearning</ProjectName>
+  <ProjectDescription>Association rule learning</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Association rule learning</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\AssociationRuleLearning</SolutionFolderPath>
+  <ProjectFolderName>AssociationRuleLearning</ProjectFolderName>
+  <ProjectName>AssociationRuleLearning</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 3:15:37 PM
+AssociationRuleLearning</string>
+    <string>WritePatch ran compiler. 2025-02-23 3:17:07 PM
+AssociationRuleLearning</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AssociationRuleLearning -> D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearning\bin\Debug\net9.0\AssociationRuleLearning.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.66
+]]></string>
+    <string>WritePatch: Code is Complete.
+AssociationRuleLearning</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 3:17:21 PM
+AssociationRuleLearningTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 3:18:09 PM
+AssociationRuleLearningTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AssociationRuleLearningTest.csproj (in 369 ms).
+  1 of 2 projects are up-to-date for restore.
+  AssociationRuleLearning -> D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearning\bin\Debug\net9.0\AssociationRuleLearning.dll
+D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AprioriTests.cs(15,47): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AssociationRuleLearningTest.csproj]
+D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AprioriTests.cs(18,76): warning CS8604: Possible null reference argument for parameter 'transactions' in 'List<AssociationRule> Apriori.GenerateAssociationRules(List<List<string>> transactions, double minSupport, double minConfidence)'. [D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AssociationRuleLearningTest.csproj]
+  AssociationRuleLearningTest -> D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\bin\Debug\net9.0\AssociationRuleLearningTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AprioriTests.cs(15,47): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AssociationRuleLearningTest.csproj]
+D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AprioriTests.cs(18,76): warning CS8604: Possible null reference argument for parameter 'transactions' in 'List<AssociationRule> Apriori.GenerateAssociationRules(List<List<string>> transactions, double minSupport, double minConfidence)'. [D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AssociationRuleLearningTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.89
+]]></string>
+    <string>WritePatch: Compile failed.
+AssociationRuleLearningTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 3:18:10 PM
+AssociationRuleLearningTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 3:18:11 PM
+AssociationRuleLearningTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 3:19:31 PM
+AssociationRuleLearningTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AssociationRuleLearning -> D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearning\bin\Debug\net9.0\AssociationRuleLearning.dll
+D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AprioriTests.cs(18,76): warning CS8604: Possible null reference argument for parameter 'transactions' in 'List<AssociationRule> Apriori.GenerateAssociationRules(List<List<string>> transactions, double minSupport, double minConfidence)'. [D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AssociationRuleLearningTest.csproj]
+  AssociationRuleLearningTest -> D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\bin\Debug\net9.0\AssociationRuleLearningTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AprioriTests.cs(18,76): warning CS8604: Possible null reference argument for parameter 'transactions' in 'List<AssociationRule> Apriori.GenerateAssociationRules(List<List<string>> transactions, double minSupport, double minConfidence)'. [D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AssociationRuleLearningTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.83
+]]></string>
+    <string>WritePatch: Compile failed.
+AssociationRuleLearningTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 3:19:33 PM
+AssociationRuleLearningTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 3:19:33 PM
+AssociationRuleLearningTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 3:20:08 PM
+AssociationRuleLearningTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AssociationRuleLearning -> D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearning\bin\Debug\net9.0\AssociationRuleLearning.dll
+D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AprioriTests.cs(18,76): warning CS8604: Possible null reference argument for parameter 'transactions' in 'List<AssociationRule> Apriori.GenerateAssociationRules(List<List<string>> transactions, double minSupport, double minConfidence)'. [D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AssociationRuleLearningTest.csproj]
+  AssociationRuleLearningTest -> D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\bin\Debug\net9.0\AssociationRuleLearningTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AprioriTests.cs(18,76): warning CS8604: Possible null reference argument for parameter 'transactions' in 'List<AssociationRule> Apriori.GenerateAssociationRules(List<List<string>> transactions, double minSupport, double minConfidence)'. [D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AssociationRuleLearningTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.83
+
+</CompilerResponse>
+2025-02-23 3:20:08 PM
+AssociationRuleLearningTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 3:20:10 PM
+AssociationRuleLearning</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AssociationRuleLearning -> D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearning\bin\Debug\net9.0\AssociationRuleLearning.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.26
+]]></string>
+    <string>WritePatch: Code is Complete.
+AssociationRuleLearning</string>
+    <string>WritePatch ran compiler. 2025-02-23 3:20:32 PM
+AssociationRuleLearningTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AssociationRuleLearning -> D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearning\bin\Debug\net9.0\AssociationRuleLearning.dll
+  AssociationRuleLearningTest -> D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\bin\Debug\net9.0\AssociationRuleLearningTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.66
+]]></string>
+    <string>WritePatch: Code is Complete.
+AssociationRuleLearningTest</string>
+    <string>[INFO 2025-02-23 3:20:44 PM] Starting test for project: D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AssociationRuleLearningTest.csproj</string>
+    <string>[INFO 2025-02-23 3:20:44 PM] Starting test for project: D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AssociationRuleLearningTest.csproj</string>
+    <string>[INFO 2025-02-23 3:20:44 PM] Starting test for project: D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AssociationRuleLearningTest.csproj</string>
+    <string>[INFO 2025-02-23 3:20:44 PM] Starting test for project: D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AssociationRuleLearningTest.csproj</string>
+    <string>[INFO 2025-02-23 3:20:44 PM] Starting test for project: D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AssociationRuleLearningTest.csproj</string>
+    <string>[INFO 2025-02-23 3:20:44 PM] Starting test for project: D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AssociationRuleLearningTest.csproj</string>
+    <string>[INFO 2025-02-23 3:20:44 PM] Starting test for project: D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AssociationRuleLearningTest.csproj</string>
+    <string>[INFO 2025-02-23 3:20:44 PM] Starting test for project: D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AssociationRuleLearningTest.csproj</string>
+    <string>[INFO 2025-02-23 3:20:44 PM] Starting test for project: D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AssociationRuleLearningTest.csproj</string>
+    <string>[INFO 2025-02-23 3:20:44 PM] Starting test for project: D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AssociationRuleLearningTest.csproj</string>
+    <string>[INFO 2025-02-23 3:20:44 PM] Starting test for project: D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AssociationRuleLearningTest.csproj</string>
+    <string>[INFO 2025-02-23 3:20:44 PM] Starting test for project: D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AssociationRuleLearningTest.csproj</string>
+    <string>[INFO 2025-02-23 3:20:44 PM] Starting test for project: D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AssociationRuleLearningTest.csproj</string>
+    <string>[INFO 2025-02-23 3:20:44 PM] Starting test for project: D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AssociationRuleLearningTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 3:20:50 PM] All tests passed successfully.
+[INFO 2025-02-23 3:20:50 PM] Test process completed. Duration: 6.19 seconds.
+[INFO 2025-02-23 3:20:50 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 3:20:50 PM]   Passed TestGenerateAssociationRules_SyntheticLargeDataset [42 ms]
+[OUTPUT 2025-02-23 3:20:50 PM]   Passed TestGenerateAssociationRules_EmptyTransactions [42 ms]
+[OUTPUT 2025-02-23 3:20:46 PM]   AssociationRuleLearning -> D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearning\bin\Debug\net9.0\AssociationRuleLearning.dll
+[OUTPUT 2025-02-23 3:20:49 PM] D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\bin\Debug\net9.0\AssociationRuleLearningTest.dll
+[OUTPUT 2025-02-23 3:20:48 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 3:20:48 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 3:20:48 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 3:20:45 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 3:20:49 PM] Test Parallelization enabled for D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\bin\Debug\net9.0\AssociationRuleLearningTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 3:20:47 PM] Test run for D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\bin\Debug\net9.0\AssociationRuleLearningTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 3:20:46 PM]   AssociationRuleLearningTest -> D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\bin\Debug\net9.0\AssociationRuleLearningTest.dll
+[OUTPUT 2025-02-23 3:20:45 PM]   Determining projects to restore...
+[INFO 2025-02-23 3:20:44 PM] Command: dotnet test "D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AssociationRuleLearningTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 3:20:44 PM] Starting test for project: D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AssociationRuleLearningTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 3:15:37 PM
+AssociationRuleLearning
+
+WritePatch ran compiler. 2025-02-23 3:17:07 PM
+AssociationRuleLearning
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AssociationRuleLearning -> D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearning\bin\Debug\net9.0\AssociationRuleLearning.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.66
+
+
+WritePatch: Code is Complete.
+AssociationRuleLearning
+
+WritePatch Started CycleStep. 2025-02-23 3:17:21 PM
+AssociationRuleLearningTest
+
+WritePatch ran compiler. 2025-02-23 3:18:09 PM
+AssociationRuleLearningTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AssociationRuleLearningTest.csproj (in 369 ms).
+  1 of 2 projects are up-to-date for restore.
+  AssociationRuleLearning -> D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearning\bin\Debug\net9.0\AssociationRuleLearning.dll
+D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AprioriTests.cs(15,47): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AssociationRuleLearningTest.csproj]
+D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AprioriTests.cs(18,76): warning CS8604: Possible null reference argument for parameter 'transactions' in 'List<AssociationRule> Apriori.GenerateAssociationRules(List<List<string>> transactions, double minSupport, double minConfidence)'. [D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AssociationRuleLearningTest.csproj]
+  AssociationRuleLearningTest -> D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\bin\Debug\net9.0\AssociationRuleLearningTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AprioriTests.cs(15,47): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AssociationRuleLearningTest.csproj]
+D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AprioriTests.cs(18,76): warning CS8604: Possible null reference argument for parameter 'transactions' in 'List<AssociationRule> Apriori.GenerateAssociationRules(List<List<string>> transactions, double minSupport, double minConfidence)'. [D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AssociationRuleLearningTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.89
+
+
+WritePatch: Compile failed.
+AssociationRuleLearningTest
+
+Finished WritePatch cycle step.
+2025-02-23 3:18:10 PM
+AssociationRuleLearningTest
+
+WritePatch Started CycleStep. 2025-02-23 3:18:11 PM
+AssociationRuleLearningTest
+
+WritePatch ran compiler. 2025-02-23 3:19:31 PM
+AssociationRuleLearningTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AssociationRuleLearning -> D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearning\bin\Debug\net9.0\AssociationRuleLearning.dll
+D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AprioriTests.cs(18,76): warning CS8604: Possible null reference argument for parameter 'transactions' in 'List<AssociationRule> Apriori.GenerateAssociationRules(List<List<string>> transactions, double minSupport, double minConfidence)'. [D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AssociationRuleLearningTest.csproj]
+  AssociationRuleLearningTest -> D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\bin\Debug\net9.0\AssociationRuleLearningTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AprioriTests.cs(18,76): warning CS8604: Possible null reference argument for parameter 'transactions' in 'List<AssociationRule> Apriori.GenerateAssociationRules(List<List<string>> transactions, double minSupport, double minConfidence)'. [D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AssociationRuleLearningTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.83
+
+
+WritePatch: Compile failed.
+AssociationRuleLearningTest
+
+Finished WritePatch cycle step.
+2025-02-23 3:19:33 PM
+AssociationRuleLearningTest
+
+WritePatch Started CycleStep. 2025-02-23 3:19:33 PM
+AssociationRuleLearningTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 3:20:08 PM
+AssociationRuleLearningTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AssociationRuleLearning -> D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearning\bin\Debug\net9.0\AssociationRuleLearning.dll
+D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AprioriTests.cs(18,76): warning CS8604: Possible null reference argument for parameter 'transactions' in 'List<AssociationRule> Apriori.GenerateAssociationRules(List<List<string>> transactions, double minSupport, double minConfidence)'. [D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AssociationRuleLearningTest.csproj]
+  AssociationRuleLearningTest -> D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\bin\Debug\net9.0\AssociationRuleLearningTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AprioriTests.cs(18,76): warning CS8604: Possible null reference argument for parameter 'transactions' in 'List<AssociationRule> Apriori.GenerateAssociationRules(List<List<string>> transactions, double minSupport, double minConfidence)'. [D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AssociationRuleLearningTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.83
+
+</CompilerResponse>
+2025-02-23 3:20:08 PM
+AssociationRuleLearningTest
+
+WritePatch ran compiler. 2025-02-23 3:20:10 PM
+AssociationRuleLearning
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AssociationRuleLearning -> D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearning\bin\Debug\net9.0\AssociationRuleLearning.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.26
+
+
+WritePatch: Code is Complete.
+AssociationRuleLearning
+
+WritePatch ran compiler. 2025-02-23 3:20:32 PM
+AssociationRuleLearningTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AssociationRuleLearning -> D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearning\bin\Debug\net9.0\AssociationRuleLearning.dll
+  AssociationRuleLearningTest -> D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\bin\Debug\net9.0\AssociationRuleLearningTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.66
+
+
+WritePatch: Code is Complete.
+AssociationRuleLearningTest
+
+TestResult:
+[SUCCESS 2025-02-23 3:20:50 PM] All tests passed successfully.
+[INFO 2025-02-23 3:20:50 PM] Test process completed. Duration: 6.19 seconds.
+[INFO 2025-02-23 3:20:50 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 3:20:50 PM]   Passed TestGenerateAssociationRules_SyntheticLargeDataset [42 ms]
+[OUTPUT 2025-02-23 3:20:50 PM]   Passed TestGenerateAssociationRules_EmptyTransactions [42 ms]
+[OUTPUT 2025-02-23 3:20:46 PM]   AssociationRuleLearning -> D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearning\bin\Debug\net9.0\AssociationRuleLearning.dll
+[OUTPUT 2025-02-23 3:20:49 PM] D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\bin\Debug\net9.0\AssociationRuleLearningTest.dll
+[OUTPUT 2025-02-23 3:20:48 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 3:20:48 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 3:20:48 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 3:20:45 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 3:20:49 PM] Test Parallelization enabled for D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\bin\Debug\net9.0\AssociationRuleLearningTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 3:20:47 PM] Test run for D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\bin\Debug\net9.0\AssociationRuleLearningTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 3:20:46 PM]   AssociationRuleLearningTest -> D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\bin\Debug\net9.0\AssociationRuleLearningTest.dll
+[OUTPUT 2025-02-23 3:20:45 PM]   Determining projects to restore...
+[INFO 2025-02-23 3:20:44 PM] Command: dotnet test "D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AssociationRuleLearningTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 3:20:44 PM] Starting test for project: D:\Code2025\RavenWork\AssociationRuleLearning\AssociationRuleLearningTest\AssociationRuleLearningTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
