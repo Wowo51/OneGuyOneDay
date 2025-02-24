@@ -1,0 +1,375 @@
+<ActRecord>
+  <ProjectName>Pbkdf2</ProjectName>
+  <ProjectDescription>PBKDF2</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>PBKDF2</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\Pbkdf2</SolutionFolderPath>
+  <ProjectFolderName>Pbkdf2</ProjectFolderName>
+  <ProjectName>Pbkdf2</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 3:20:57 PM
+Pbkdf2</string>
+    <string>WritePatch ran compiler. 2025-02-23 3:21:38 PM
+Pbkdf2</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Pbkdf2 -> D:\Code2025\RavenWork\Pbkdf2\Pbkdf2\bin\Debug\net9.0\Pbkdf2.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.79
+]]></string>
+    <string>WritePatch: Code is Complete.
+Pbkdf2</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 3:22:02 PM
+Pbkdf2Test</string>
+    <string>WritePatch ran compiler. 2025-02-23 3:22:38 PM
+Pbkdf2Test</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj (in 343 ms).
+  1 of 2 projects are up-to-date for restore.
+  Pbkdf2 -> D:\Code2025\RavenWork\Pbkdf2\Pbkdf2\bin\Debug\net9.0\Pbkdf2.dll
+D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2GeneratorTests.cs(30,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj]
+D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2GeneratorTests.cs(40,59): warning CS8604: Possible null reference argument for parameter 'password' in 'byte[] Pbkdf2Generator.DeriveKey(string password, byte[] salt, int iterations, int keyLength)'. [D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj]
+D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2GeneratorTests.cs(48,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj]
+D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2GeneratorTests.cs(51,69): warning CS8604: Possible null reference argument for parameter 'salt' in 'byte[] Pbkdf2Generator.DeriveKey(string password, byte[] salt, int iterations, int keyLength)'. [D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj]
+  Pbkdf2Test -> D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\bin\Debug\net9.0\Pbkdf2Test.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2GeneratorTests.cs(30,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj]
+D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2GeneratorTests.cs(40,59): warning CS8604: Possible null reference argument for parameter 'password' in 'byte[] Pbkdf2Generator.DeriveKey(string password, byte[] salt, int iterations, int keyLength)'. [D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj]
+D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2GeneratorTests.cs(48,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj]
+D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2GeneratorTests.cs(51,69): warning CS8604: Possible null reference argument for parameter 'salt' in 'byte[] Pbkdf2Generator.DeriveKey(string password, byte[] salt, int iterations, int keyLength)'. [D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.02
+]]></string>
+    <string>WritePatch: Compile failed.
+Pbkdf2Test</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 3:22:39 PM
+Pbkdf2Test</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 3:22:39 PM
+Pbkdf2Test</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 3:23:23 PM
+Pbkdf2Test</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 3:23:23 PM
+Pbkdf2Test</string>
+    <string>WritePatch ran compiler. 2025-02-23 3:25:00 PM
+Pbkdf2Test</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Pbkdf2 -> D:\Code2025\RavenWork\Pbkdf2\Pbkdf2\bin\Debug\net9.0\Pbkdf2.dll
+D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2GeneratorTests.cs(40,59): warning CS8604: Possible null reference argument for parameter 'password' in 'byte[] Pbkdf2Generator.DeriveKey(string password, byte[] salt, int iterations, int keyLength)'. [D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj]
+D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2GeneratorTests.cs(51,69): warning CS8604: Possible null reference argument for parameter 'salt' in 'byte[] Pbkdf2Generator.DeriveKey(string password, byte[] salt, int iterations, int keyLength)'. [D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj]
+  Pbkdf2Test -> D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\bin\Debug\net9.0\Pbkdf2Test.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2GeneratorTests.cs(40,59): warning CS8604: Possible null reference argument for parameter 'password' in 'byte[] Pbkdf2Generator.DeriveKey(string password, byte[] salt, int iterations, int keyLength)'. [D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj]
+D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2GeneratorTests.cs(51,69): warning CS8604: Possible null reference argument for parameter 'salt' in 'byte[] Pbkdf2Generator.DeriveKey(string password, byte[] salt, int iterations, int keyLength)'. [D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.99
+]]></string>
+    <string>WritePatch: Compile failed.
+Pbkdf2Test</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 3:25:01 PM
+Pbkdf2Test</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Pbkdf2 -> D:\Code2025\RavenWork\Pbkdf2\Pbkdf2\bin\Debug\net9.0\Pbkdf2.dll
+D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2GeneratorTests.cs(40,59): warning CS8604: Possible null reference argument for parameter 'password' in 'byte[] Pbkdf2Generator.DeriveKey(string password, byte[] salt, int iterations, int keyLength)'. [D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj]
+D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2GeneratorTests.cs(51,69): warning CS8604: Possible null reference argument for parameter 'salt' in 'byte[] Pbkdf2Generator.DeriveKey(string password, byte[] salt, int iterations, int keyLength)'. [D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj]
+  Pbkdf2Test -> D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\bin\Debug\net9.0\Pbkdf2Test.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2GeneratorTests.cs(40,59): warning CS8604: Possible null reference argument for parameter 'password' in 'byte[] Pbkdf2Generator.DeriveKey(string password, byte[] salt, int iterations, int keyLength)'. [D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj]
+D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2GeneratorTests.cs(51,69): warning CS8604: Possible null reference argument for parameter 'salt' in 'byte[] Pbkdf2Generator.DeriveKey(string password, byte[] salt, int iterations, int keyLength)'. [D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.99
+
+</CompilerResponse>
+2025-02-23 3:25:01 PM
+Pbkdf2Test]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 3:25:03 PM
+Pbkdf2</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Pbkdf2 -> D:\Code2025\RavenWork\Pbkdf2\Pbkdf2\bin\Debug\net9.0\Pbkdf2.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.30
+]]></string>
+    <string>WritePatch: Code is Complete.
+Pbkdf2</string>
+    <string>WritePatch ran compiler. 2025-02-23 3:25:22 PM
+Pbkdf2Test</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Pbkdf2 -> D:\Code2025\RavenWork\Pbkdf2\Pbkdf2\bin\Debug\net9.0\Pbkdf2.dll
+  Pbkdf2Test -> D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\bin\Debug\net9.0\Pbkdf2Test.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.57
+]]></string>
+    <string>WritePatch: Code is Complete.
+Pbkdf2Test</string>
+    <string>[INFO 2025-02-23 3:25:32 PM] Starting test for project: D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj</string>
+    <string>[INFO 2025-02-23 3:25:32 PM] Starting test for project: D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj</string>
+    <string>[INFO 2025-02-23 3:25:32 PM] Starting test for project: D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj</string>
+    <string>[INFO 2025-02-23 3:25:32 PM] Starting test for project: D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj</string>
+    <string>[INFO 2025-02-23 3:25:32 PM] Starting test for project: D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj</string>
+    <string>[INFO 2025-02-23 3:25:32 PM] Starting test for project: D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj</string>
+    <string>[INFO 2025-02-23 3:25:32 PM] Starting test for project: D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj</string>
+    <string>[INFO 2025-02-23 3:25:32 PM] Starting test for project: D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj</string>
+    <string>[INFO 2025-02-23 3:25:32 PM] Starting test for project: D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj</string>
+    <string>[INFO 2025-02-23 3:25:32 PM] Starting test for project: D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj</string>
+    <string>[INFO 2025-02-23 3:25:32 PM] Starting test for project: D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj</string>
+    <string>[INFO 2025-02-23 3:25:32 PM] Starting test for project: D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj</string>
+    <string>[INFO 2025-02-23 3:25:32 PM] Starting test for project: D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj</string>
+    <string>[INFO 2025-02-23 3:25:32 PM] Starting test for project: D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 3:25:37 PM] All tests passed successfully.
+[INFO 2025-02-23 3:25:37 PM] Test process completed. Duration: 5.49 seconds.
+[INFO 2025-02-23 3:25:37 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 3:25:37 PM] Test Parallelization enabled for D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\bin\Debug\net9.0\Pbkdf2Test.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 3:25:36 PM] D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\bin\Debug\net9.0\Pbkdf2Test.dll
+[OUTPUT 2025-02-23 3:25:35 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 3:25:35 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 3:25:34 PM]   Pbkdf2 -> D:\Code2025\RavenWork\Pbkdf2\Pbkdf2\bin\Debug\net9.0\Pbkdf2.dll
+[OUTPUT 2025-02-23 3:25:33 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 3:25:38 PM]   Passed DeriveKey_NonPositiveParameters_UsesDefaults [11 ms]
+[OUTPUT 2025-02-23 3:25:37 PM]   Passed DeriveKey_NullSalt_ReturnsCorrectLength [11 ms]
+[OUTPUT 2025-02-23 3:25:35 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 3:25:34 PM] Test run for D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\bin\Debug\net9.0\Pbkdf2Test.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 3:25:34 PM]   Pbkdf2Test -> D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\bin\Debug\net9.0\Pbkdf2Test.dll
+[OUTPUT 2025-02-23 3:25:33 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 3:25:32 PM] Command: dotnet test "D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 3:25:32 PM] Starting test for project: D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 3:20:57 PM
+Pbkdf2
+
+WritePatch ran compiler. 2025-02-23 3:21:38 PM
+Pbkdf2
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Pbkdf2 -> D:\Code2025\RavenWork\Pbkdf2\Pbkdf2\bin\Debug\net9.0\Pbkdf2.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.79
+
+
+WritePatch: Code is Complete.
+Pbkdf2
+
+WritePatch Started CycleStep. 2025-02-23 3:22:02 PM
+Pbkdf2Test
+
+WritePatch ran compiler. 2025-02-23 3:22:38 PM
+Pbkdf2Test
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj (in 343 ms).
+  1 of 2 projects are up-to-date for restore.
+  Pbkdf2 -> D:\Code2025\RavenWork\Pbkdf2\Pbkdf2\bin\Debug\net9.0\Pbkdf2.dll
+D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2GeneratorTests.cs(30,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj]
+D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2GeneratorTests.cs(40,59): warning CS8604: Possible null reference argument for parameter 'password' in 'byte[] Pbkdf2Generator.DeriveKey(string password, byte[] salt, int iterations, int keyLength)'. [D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj]
+D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2GeneratorTests.cs(48,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj]
+D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2GeneratorTests.cs(51,69): warning CS8604: Possible null reference argument for parameter 'salt' in 'byte[] Pbkdf2Generator.DeriveKey(string password, byte[] salt, int iterations, int keyLength)'. [D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj]
+  Pbkdf2Test -> D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\bin\Debug\net9.0\Pbkdf2Test.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2GeneratorTests.cs(30,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj]
+D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2GeneratorTests.cs(40,59): warning CS8604: Possible null reference argument for parameter 'password' in 'byte[] Pbkdf2Generator.DeriveKey(string password, byte[] salt, int iterations, int keyLength)'. [D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj]
+D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2GeneratorTests.cs(48,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj]
+D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2GeneratorTests.cs(51,69): warning CS8604: Possible null reference argument for parameter 'salt' in 'byte[] Pbkdf2Generator.DeriveKey(string password, byte[] salt, int iterations, int keyLength)'. [D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.02
+
+
+WritePatch: Compile failed.
+Pbkdf2Test
+
+Finished WritePatch cycle step.
+2025-02-23 3:22:39 PM
+Pbkdf2Test
+
+WritePatch Started CycleStep. 2025-02-23 3:22:39 PM
+Pbkdf2Test
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 3:23:23 PM
+Pbkdf2Test
+
+WritePatch Started CycleStep. 2025-02-23 3:23:23 PM
+Pbkdf2Test
+
+WritePatch ran compiler. 2025-02-23 3:25:00 PM
+Pbkdf2Test
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Pbkdf2 -> D:\Code2025\RavenWork\Pbkdf2\Pbkdf2\bin\Debug\net9.0\Pbkdf2.dll
+D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2GeneratorTests.cs(40,59): warning CS8604: Possible null reference argument for parameter 'password' in 'byte[] Pbkdf2Generator.DeriveKey(string password, byte[] salt, int iterations, int keyLength)'. [D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj]
+D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2GeneratorTests.cs(51,69): warning CS8604: Possible null reference argument for parameter 'salt' in 'byte[] Pbkdf2Generator.DeriveKey(string password, byte[] salt, int iterations, int keyLength)'. [D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj]
+  Pbkdf2Test -> D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\bin\Debug\net9.0\Pbkdf2Test.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2GeneratorTests.cs(40,59): warning CS8604: Possible null reference argument for parameter 'password' in 'byte[] Pbkdf2Generator.DeriveKey(string password, byte[] salt, int iterations, int keyLength)'. [D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj]
+D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2GeneratorTests.cs(51,69): warning CS8604: Possible null reference argument for parameter 'salt' in 'byte[] Pbkdf2Generator.DeriveKey(string password, byte[] salt, int iterations, int keyLength)'. [D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.99
+
+
+WritePatch: Compile failed.
+Pbkdf2Test
+
+Finished WritePatch cycle step.
+2025-02-23 3:25:01 PM
+Pbkdf2Test
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Pbkdf2 -> D:\Code2025\RavenWork\Pbkdf2\Pbkdf2\bin\Debug\net9.0\Pbkdf2.dll
+D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2GeneratorTests.cs(40,59): warning CS8604: Possible null reference argument for parameter 'password' in 'byte[] Pbkdf2Generator.DeriveKey(string password, byte[] salt, int iterations, int keyLength)'. [D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj]
+D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2GeneratorTests.cs(51,69): warning CS8604: Possible null reference argument for parameter 'salt' in 'byte[] Pbkdf2Generator.DeriveKey(string password, byte[] salt, int iterations, int keyLength)'. [D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj]
+  Pbkdf2Test -> D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\bin\Debug\net9.0\Pbkdf2Test.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2GeneratorTests.cs(40,59): warning CS8604: Possible null reference argument for parameter 'password' in 'byte[] Pbkdf2Generator.DeriveKey(string password, byte[] salt, int iterations, int keyLength)'. [D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj]
+D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2GeneratorTests.cs(51,69): warning CS8604: Possible null reference argument for parameter 'salt' in 'byte[] Pbkdf2Generator.DeriveKey(string password, byte[] salt, int iterations, int keyLength)'. [D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.99
+
+</CompilerResponse>
+2025-02-23 3:25:01 PM
+Pbkdf2Test
+
+WritePatch ran compiler. 2025-02-23 3:25:03 PM
+Pbkdf2
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Pbkdf2 -> D:\Code2025\RavenWork\Pbkdf2\Pbkdf2\bin\Debug\net9.0\Pbkdf2.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.30
+
+
+WritePatch: Code is Complete.
+Pbkdf2
+
+WritePatch ran compiler. 2025-02-23 3:25:22 PM
+Pbkdf2Test
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Pbkdf2 -> D:\Code2025\RavenWork\Pbkdf2\Pbkdf2\bin\Debug\net9.0\Pbkdf2.dll
+  Pbkdf2Test -> D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\bin\Debug\net9.0\Pbkdf2Test.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.57
+
+
+WritePatch: Code is Complete.
+Pbkdf2Test
+
+TestResult:
+[SUCCESS 2025-02-23 3:25:37 PM] All tests passed successfully.
+[INFO 2025-02-23 3:25:37 PM] Test process completed. Duration: 5.49 seconds.
+[INFO 2025-02-23 3:25:37 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 3:25:37 PM] Test Parallelization enabled for D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\bin\Debug\net9.0\Pbkdf2Test.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 3:25:36 PM] D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\bin\Debug\net9.0\Pbkdf2Test.dll
+[OUTPUT 2025-02-23 3:25:35 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 3:25:35 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 3:25:34 PM]   Pbkdf2 -> D:\Code2025\RavenWork\Pbkdf2\Pbkdf2\bin\Debug\net9.0\Pbkdf2.dll
+[OUTPUT 2025-02-23 3:25:33 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 3:25:38 PM]   Passed DeriveKey_NonPositiveParameters_UsesDefaults [11 ms]
+[OUTPUT 2025-02-23 3:25:37 PM]   Passed DeriveKey_NullSalt_ReturnsCorrectLength [11 ms]
+[OUTPUT 2025-02-23 3:25:35 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 3:25:34 PM] Test run for D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\bin\Debug\net9.0\Pbkdf2Test.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 3:25:34 PM]   Pbkdf2Test -> D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\bin\Debug\net9.0\Pbkdf2Test.dll
+[OUTPUT 2025-02-23 3:25:33 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 3:25:32 PM] Command: dotnet test "D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 3:25:32 PM] Starting test for project: D:\Code2025\RavenWork\Pbkdf2\Pbkdf2Test\Pbkdf2Test.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
