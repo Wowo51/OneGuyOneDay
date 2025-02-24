@@ -1,0 +1,391 @@
+<ActRecord>
+  <ProjectName>ItpMethod</ProjectName>
+  <ProjectDescription>ITP method – A root-finding algorithm that achieves minmax optimality along with superlinear convergence.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>ITP method – A root-finding algorithm that achieves minmax optimality along with superlinear convergence.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\ItpMethod</SolutionFolderPath>
+  <ProjectFolderName>ItpMethod</ProjectFolderName>
+  <ProjectName>ItpMethod</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:58:29 PM
+ItpMethod</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:59:11 PM
+ItpMethod</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ItpMethod -> D:\Code2025\RavenWork\ItpMethod\ItpMethod\bin\Debug\net9.0\ItpMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.11
+]]></string>
+    <string>WritePatch: Code is Complete.
+ItpMethod</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:59:41 PM
+ItpMethodTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:00:46 PM
+ItpMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodTest.csproj (in 393 ms).
+  1 of 2 projects are up-to-date for restore.
+  ItpMethod -> D:\Code2025\RavenWork\ItpMethod\ItpMethod\bin\Debug\net9.0\ItpMethod.dll
+D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodUnitTests.cs(13,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodTest.csproj]
+  ItpMethodTest -> D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\bin\Debug\net9.0\ItpMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodUnitTests.cs(13,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.00
+]]></string>
+    <string>WritePatch: Compile failed.
+ItpMethodTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 5:00:48 PM
+ItpMethodTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 5:00:49 PM
+ItpMethodTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:01:27 PM
+ItpMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ItpMethod -> D:\Code2025\RavenWork\ItpMethod\ItpMethod\bin\Debug\net9.0\ItpMethod.dll
+  ItpMethodTest -> D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\bin\Debug\net9.0\ItpMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.36
+]]></string>
+    <string>WritePatch: Code is not Complete.
+ItpMethodTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 5:01:40 PM
+ItpMethodTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 5:01:41 PM
+ItpMethodTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:02:40 PM
+ItpMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ItpMethod -> D:\Code2025\RavenWork\ItpMethod\ItpMethod\bin\Debug\net9.0\ItpMethod.dll
+D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodUnitTests.cs(13,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodTest.csproj]
+  ItpMethodTest -> D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\bin\Debug\net9.0\ItpMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodUnitTests.cs(13,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.15
+]]></string>
+    <string>WritePatch: Compile failed.
+ItpMethodTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 5:02:42 PM
+ItpMethodTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\ItpMethod\ItpMethodTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ItpMethod -> D:\Code2025\RavenWork\ItpMethod\ItpMethod\bin\Debug\net9.0\ItpMethod.dll
+D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodUnitTests.cs(13,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodTest.csproj]
+  ItpMethodTest -> D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\bin\Debug\net9.0\ItpMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodUnitTests.cs(13,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.15
+
+</CompilerResponse>
+2025-02-23 5:02:42 PM
+ItpMethodTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 5:02:45 PM
+ItpMethod</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ItpMethod -> D:\Code2025\RavenWork\ItpMethod\ItpMethod\bin\Debug\net9.0\ItpMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.47
+]]></string>
+    <string>WritePatch: Code is Complete.
+ItpMethod</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:03:14 PM
+ItpMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ItpMethod -> D:\Code2025\RavenWork\ItpMethod\ItpMethod\bin\Debug\net9.0\ItpMethod.dll
+  ItpMethodTest -> D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\bin\Debug\net9.0\ItpMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.19
+]]></string>
+    <string>WritePatch: Code is Complete.
+ItpMethodTest</string>
+    <string>[INFO 2025-02-23 5:03:34 PM] Starting test for project: D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 5:03:34 PM] Starting test for project: D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 5:03:34 PM] Starting test for project: D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 5:03:34 PM] Starting test for project: D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 5:03:34 PM] Starting test for project: D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 5:03:34 PM] Starting test for project: D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 5:03:34 PM] Starting test for project: D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 5:03:34 PM] Starting test for project: D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 5:03:34 PM] Starting test for project: D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 5:03:34 PM] Starting test for project: D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 5:03:34 PM] Starting test for project: D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 5:03:34 PM] Starting test for project: D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 5:03:34 PM] Starting test for project: D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 5:03:41 PM] All tests passed successfully.
+[INFO 2025-02-23 5:03:41 PM] Test process completed. Duration: 7.52 seconds.
+[INFO 2025-02-23 5:03:41 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 5:03:40 PM] D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\bin\Debug\net9.0\ItpMethodTest.dll
+[OUTPUT 2025-02-23 5:03:40 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 5:03:39 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 5:03:39 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 5:03:38 PM] Test run for D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\bin\Debug\net9.0\ItpMethodTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 5:03:37 PM]   ItpMethodTest -> D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\bin\Debug\net9.0\ItpMethodTest.dll
+[OUTPUT 2025-02-23 5:03:36 PM]   ItpMethod -> D:\Code2025\RavenWork\ItpMethod\ItpMethod\bin\Debug\net9.0\ItpMethod.dll
+[OUTPUT 2025-02-23 5:03:36 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 5:03:35 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 5:03:42 PM]   Passed TestConvergenceCubic [9 ms]
+[OUTPUT 2025-02-23 5:03:41 PM] Test Parallelization enabled for D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\bin\Debug\net9.0\ItpMethodTest.dll (Workers: 16, Scope: MethodLevel)
+[INFO 2025-02-23 5:03:34 PM] Command: dotnet test "D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 5:03:34 PM] Starting test for project: D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 4:58:29 PM
+ItpMethod
+
+WritePatch ran compiler. 2025-02-23 4:59:11 PM
+ItpMethod
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ItpMethod -> D:\Code2025\RavenWork\ItpMethod\ItpMethod\bin\Debug\net9.0\ItpMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.11
+
+
+WritePatch: Code is Complete.
+ItpMethod
+
+WritePatch Started CycleStep. 2025-02-23 4:59:41 PM
+ItpMethodTest
+
+WritePatch ran compiler. 2025-02-23 5:00:46 PM
+ItpMethodTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodTest.csproj (in 393 ms).
+  1 of 2 projects are up-to-date for restore.
+  ItpMethod -> D:\Code2025\RavenWork\ItpMethod\ItpMethod\bin\Debug\net9.0\ItpMethod.dll
+D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodUnitTests.cs(13,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodTest.csproj]
+  ItpMethodTest -> D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\bin\Debug\net9.0\ItpMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodUnitTests.cs(13,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.00
+
+
+WritePatch: Compile failed.
+ItpMethodTest
+
+Finished WritePatch cycle step.
+2025-02-23 5:00:48 PM
+ItpMethodTest
+
+WritePatch Started CycleStep. 2025-02-23 5:00:49 PM
+ItpMethodTest
+
+WritePatch ran compiler. 2025-02-23 5:01:27 PM
+ItpMethodTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ItpMethod -> D:\Code2025\RavenWork\ItpMethod\ItpMethod\bin\Debug\net9.0\ItpMethod.dll
+  ItpMethodTest -> D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\bin\Debug\net9.0\ItpMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.36
+
+
+WritePatch: Code is not Complete.
+ItpMethodTest
+
+Finished WritePatch cycle step.
+2025-02-23 5:01:40 PM
+ItpMethodTest
+
+WritePatch Started CycleStep. 2025-02-23 5:01:41 PM
+ItpMethodTest
+
+WritePatch ran compiler. 2025-02-23 5:02:40 PM
+ItpMethodTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ItpMethod -> D:\Code2025\RavenWork\ItpMethod\ItpMethod\bin\Debug\net9.0\ItpMethod.dll
+D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodUnitTests.cs(13,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodTest.csproj]
+  ItpMethodTest -> D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\bin\Debug\net9.0\ItpMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodUnitTests.cs(13,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.15
+
+
+WritePatch: Compile failed.
+ItpMethodTest
+
+Finished WritePatch cycle step.
+2025-02-23 5:02:42 PM
+ItpMethodTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\ItpMethod\ItpMethodTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ItpMethod -> D:\Code2025\RavenWork\ItpMethod\ItpMethod\bin\Debug\net9.0\ItpMethod.dll
+D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodUnitTests.cs(13,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodTest.csproj]
+  ItpMethodTest -> D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\bin\Debug\net9.0\ItpMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodUnitTests.cs(13,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.15
+
+</CompilerResponse>
+2025-02-23 5:02:42 PM
+ItpMethodTest
+
+WritePatch ran compiler. 2025-02-23 5:02:45 PM
+ItpMethod
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ItpMethod -> D:\Code2025\RavenWork\ItpMethod\ItpMethod\bin\Debug\net9.0\ItpMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.47
+
+
+WritePatch: Code is Complete.
+ItpMethod
+
+WritePatch ran compiler. 2025-02-23 5:03:14 PM
+ItpMethodTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ItpMethod -> D:\Code2025\RavenWork\ItpMethod\ItpMethod\bin\Debug\net9.0\ItpMethod.dll
+  ItpMethodTest -> D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\bin\Debug\net9.0\ItpMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.19
+
+
+WritePatch: Code is Complete.
+ItpMethodTest
+
+TestResult:
+[SUCCESS 2025-02-23 5:03:41 PM] All tests passed successfully.
+[INFO 2025-02-23 5:03:41 PM] Test process completed. Duration: 7.52 seconds.
+[INFO 2025-02-23 5:03:41 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 5:03:40 PM] D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\bin\Debug\net9.0\ItpMethodTest.dll
+[OUTPUT 2025-02-23 5:03:40 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 5:03:39 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 5:03:39 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 5:03:38 PM] Test run for D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\bin\Debug\net9.0\ItpMethodTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 5:03:37 PM]   ItpMethodTest -> D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\bin\Debug\net9.0\ItpMethodTest.dll
+[OUTPUT 2025-02-23 5:03:36 PM]   ItpMethod -> D:\Code2025\RavenWork\ItpMethod\ItpMethod\bin\Debug\net9.0\ItpMethod.dll
+[OUTPUT 2025-02-23 5:03:36 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 5:03:35 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 5:03:42 PM]   Passed TestConvergenceCubic [9 ms]
+[OUTPUT 2025-02-23 5:03:41 PM] Test Parallelization enabled for D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\bin\Debug\net9.0\ItpMethodTest.dll (Workers: 16, Scope: MethodLevel)
+[INFO 2025-02-23 5:03:34 PM] Command: dotnet test "D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 5:03:34 PM] Starting test for project: D:\Code2025\RavenWork\ItpMethod\ItpMethodTest\ItpMethodTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
