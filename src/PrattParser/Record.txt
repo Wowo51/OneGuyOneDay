@@ -1,0 +1,396 @@
+<ActRecord>
+  <ProjectName>PrattParser</ProjectName>
+  <ProjectDescription>Pratt parser</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Pratt parser</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\PrattParser</SolutionFolderPath>
+  <ProjectFolderName>PrattParser</ProjectFolderName>
+  <ProjectName>PrattParser</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:18:42 AM
+PrattParser</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:19:15 AM
+PrattParser</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PrattParser -> D:\Code2025\RavenWork\PrattParser\PrattParser\bin\Debug\net9.0\PrattParser.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+]]></string>
+    <string>WritePatch: Code is Complete.
+PrattParser</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:19:25 AM
+PrattParserTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:20:26 AM
+PrattParserTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTest.csproj (in 226 ms).
+  1 of 2 projects are up-to-date for restore.
+  PrattParser -> D:\Code2025\RavenWork\PrattParser\PrattParser\bin\Debug\net9.0\PrattParser.dll
+D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTests.cs(95,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTest.csproj]
+D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTests.cs(96,27): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTest.csproj]
+  PrattParserTest -> D:\Code2025\RavenWork\PrattParser\PrattParserTest\bin\Debug\net9.0\PrattParserTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTests.cs(95,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTest.csproj]
+D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTests.cs(96,27): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.57
+]]></string>
+    <string>WritePatch: Compile failed.
+PrattParserTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:20:27 AM
+PrattParserTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:20:27 AM
+PrattParserTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:21:50 AM
+PrattParserTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PrattParser -> D:\Code2025\RavenWork\PrattParser\PrattParser\bin\Debug\net9.0\PrattParser.dll
+D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTests.cs(102,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTest.csproj]
+D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTests.cs(103,27): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTest.csproj]
+  PrattParserTest -> D:\Code2025\RavenWork\PrattParser\PrattParserTest\bin\Debug\net9.0\PrattParserTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTests.cs(102,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTest.csproj]
+D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTests.cs(103,27): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.07
+]]></string>
+    <string>WritePatch: Compile failed.
+PrattParserTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:21:50 AM
+PrattParserTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:21:51 AM
+PrattParserTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:22:56 AM
+PrattParserTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PrattParser -> D:\Code2025\RavenWork\PrattParser\PrattParser\bin\Debug\net9.0\PrattParser.dll
+  PrattParserTest -> D:\Code2025\RavenWork\PrattParser\PrattParserTest\bin\Debug\net9.0\PrattParserTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+]]></string>
+    <string>WritePatch: Code is not Complete.
+PrattParserTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:23:18 AM
+PrattParserTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\PrattParser\PrattParserTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PrattParser -> D:\Code2025\RavenWork\PrattParser\PrattParser\bin\Debug\net9.0\PrattParser.dll
+  PrattParserTest -> D:\Code2025\RavenWork\PrattParser\PrattParserTest\bin\Debug\net9.0\PrattParserTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+
+</CompilerResponse>
+2025-02-23 10:23:18 AM
+PrattParserTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 10:23:20 AM
+PrattParser</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PrattParser -> D:\Code2025\RavenWork\PrattParser\PrattParser\bin\Debug\net9.0\PrattParser.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.74
+]]></string>
+    <string>WritePatch: Code is Complete.
+PrattParser</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:23:42 AM
+PrattParserTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PrattParser -> D:\Code2025\RavenWork\PrattParser\PrattParser\bin\Debug\net9.0\PrattParser.dll
+  PrattParserTest -> D:\Code2025\RavenWork\PrattParser\PrattParserTest\bin\Debug\net9.0\PrattParserTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.99
+]]></string>
+    <string>WritePatch: Code is Complete.
+PrattParserTest</string>
+    <string>[INFO 2025-02-23 10:24:14 AM] Starting test for project: D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTest.csproj</string>
+    <string>[INFO 2025-02-23 10:24:14 AM] Starting test for project: D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTest.csproj</string>
+    <string>[INFO 2025-02-23 10:24:14 AM] Starting test for project: D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTest.csproj</string>
+    <string>[INFO 2025-02-23 10:24:14 AM] Starting test for project: D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTest.csproj</string>
+    <string>[INFO 2025-02-23 10:24:14 AM] Starting test for project: D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTest.csproj</string>
+    <string>[INFO 2025-02-23 10:24:14 AM] Starting test for project: D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTest.csproj</string>
+    <string>[INFO 2025-02-23 10:24:14 AM] Starting test for project: D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTest.csproj</string>
+    <string>[INFO 2025-02-23 10:24:14 AM] Starting test for project: D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTest.csproj</string>
+    <string>[INFO 2025-02-23 10:24:14 AM] Starting test for project: D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTest.csproj</string>
+    <string>[INFO 2025-02-23 10:24:14 AM] Starting test for project: D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTest.csproj</string>
+    <string>[INFO 2025-02-23 10:24:14 AM] Starting test for project: D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTest.csproj</string>
+    <string>[INFO 2025-02-23 10:24:14 AM] Starting test for project: D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTest.csproj</string>
+    <string>[INFO 2025-02-23 10:24:14 AM] Starting test for project: D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTest.csproj</string>
+    <string>[INFO 2025-02-23 10:24:14 AM] Starting test for project: D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 10:24:17 AM]   Passed TestOperatorPrecedence [40 ms]
+[OUTPUT 2025-02-23 10:24:17 AM]   Passed TestNumberExpression [40 ms]
+[OUTPUT 2025-02-23 10:24:17 AM] Test Parallelization enabled for D:\Code2025\RavenWork\PrattParser\PrattParserTest\bin\Debug\net9.0\PrattParserTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:24:17 AM] D:\Code2025\RavenWork\PrattParser\PrattParserTest\bin\Debug\net9.0\PrattParserTest.dll
+[OUTPUT 2025-02-23 10:24:16 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:24:16 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:24:16 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:24:16 AM] Test run for D:\Code2025\RavenWork\PrattParser\PrattParserTest\bin\Debug\net9.0\PrattParserTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:24:15 AM]   PrattParserTest -> D:\Code2025\RavenWork\PrattParser\PrattParserTest\bin\Debug\net9.0\PrattParserTest.dll
+[OUTPUT 2025-02-23 10:24:15 AM]   PrattParser -> D:\Code2025\RavenWork\PrattParser\PrattParser\bin\Debug\net9.0\PrattParser.dll
+[OUTPUT 2025-02-23 10:24:15 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:24:15 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 10:24:17 AM] All tests passed successfully.
+[INFO 2025-02-23 10:24:17 AM] Test process completed. Duration: 3.20 seconds.
+[INFO 2025-02-23 10:24:17 AM] Process exited with code 0.
+[INFO 2025-02-23 10:24:14 AM] Command: dotnet test "D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:24:14 AM] Starting test for project: D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 10:18:42 AM
+PrattParser
+
+WritePatch ran compiler. 2025-02-23 10:19:15 AM
+PrattParser
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PrattParser -> D:\Code2025\RavenWork\PrattParser\PrattParser\bin\Debug\net9.0\PrattParser.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+
+
+WritePatch: Code is Complete.
+PrattParser
+
+WritePatch Started CycleStep. 2025-02-23 10:19:25 AM
+PrattParserTest
+
+WritePatch ran compiler. 2025-02-23 10:20:26 AM
+PrattParserTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTest.csproj (in 226 ms).
+  1 of 2 projects are up-to-date for restore.
+  PrattParser -> D:\Code2025\RavenWork\PrattParser\PrattParser\bin\Debug\net9.0\PrattParser.dll
+D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTests.cs(95,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTest.csproj]
+D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTests.cs(96,27): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTest.csproj]
+  PrattParserTest -> D:\Code2025\RavenWork\PrattParser\PrattParserTest\bin\Debug\net9.0\PrattParserTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTests.cs(95,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTest.csproj]
+D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTests.cs(96,27): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.57
+
+
+WritePatch: Compile failed.
+PrattParserTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:20:27 AM
+PrattParserTest
+
+WritePatch Started CycleStep. 2025-02-23 10:20:27 AM
+PrattParserTest
+
+WritePatch ran compiler. 2025-02-23 10:21:50 AM
+PrattParserTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PrattParser -> D:\Code2025\RavenWork\PrattParser\PrattParser\bin\Debug\net9.0\PrattParser.dll
+D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTests.cs(102,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTest.csproj]
+D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTests.cs(103,27): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTest.csproj]
+  PrattParserTest -> D:\Code2025\RavenWork\PrattParser\PrattParserTest\bin\Debug\net9.0\PrattParserTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTests.cs(102,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTest.csproj]
+D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTests.cs(103,27): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.07
+
+
+WritePatch: Compile failed.
+PrattParserTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:21:50 AM
+PrattParserTest
+
+WritePatch Started CycleStep. 2025-02-23 10:21:51 AM
+PrattParserTest
+
+WritePatch ran compiler. 2025-02-23 10:22:56 AM
+PrattParserTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PrattParser -> D:\Code2025\RavenWork\PrattParser\PrattParser\bin\Debug\net9.0\PrattParser.dll
+  PrattParserTest -> D:\Code2025\RavenWork\PrattParser\PrattParserTest\bin\Debug\net9.0\PrattParserTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+
+
+WritePatch: Code is not Complete.
+PrattParserTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:23:18 AM
+PrattParserTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\PrattParser\PrattParserTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PrattParser -> D:\Code2025\RavenWork\PrattParser\PrattParser\bin\Debug\net9.0\PrattParser.dll
+  PrattParserTest -> D:\Code2025\RavenWork\PrattParser\PrattParserTest\bin\Debug\net9.0\PrattParserTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+
+</CompilerResponse>
+2025-02-23 10:23:18 AM
+PrattParserTest
+
+WritePatch ran compiler. 2025-02-23 10:23:20 AM
+PrattParser
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PrattParser -> D:\Code2025\RavenWork\PrattParser\PrattParser\bin\Debug\net9.0\PrattParser.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.74
+
+
+WritePatch: Code is Complete.
+PrattParser
+
+WritePatch ran compiler. 2025-02-23 10:23:42 AM
+PrattParserTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PrattParser -> D:\Code2025\RavenWork\PrattParser\PrattParser\bin\Debug\net9.0\PrattParser.dll
+  PrattParserTest -> D:\Code2025\RavenWork\PrattParser\PrattParserTest\bin\Debug\net9.0\PrattParserTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.99
+
+
+WritePatch: Code is Complete.
+PrattParserTest
+
+TestResult:
+[OUTPUT 2025-02-23 10:24:17 AM]   Passed TestOperatorPrecedence [40 ms]
+[OUTPUT 2025-02-23 10:24:17 AM]   Passed TestNumberExpression [40 ms]
+[OUTPUT 2025-02-23 10:24:17 AM] Test Parallelization enabled for D:\Code2025\RavenWork\PrattParser\PrattParserTest\bin\Debug\net9.0\PrattParserTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:24:17 AM] D:\Code2025\RavenWork\PrattParser\PrattParserTest\bin\Debug\net9.0\PrattParserTest.dll
+[OUTPUT 2025-02-23 10:24:16 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:24:16 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:24:16 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:24:16 AM] Test run for D:\Code2025\RavenWork\PrattParser\PrattParserTest\bin\Debug\net9.0\PrattParserTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:24:15 AM]   PrattParserTest -> D:\Code2025\RavenWork\PrattParser\PrattParserTest\bin\Debug\net9.0\PrattParserTest.dll
+[OUTPUT 2025-02-23 10:24:15 AM]   PrattParser -> D:\Code2025\RavenWork\PrattParser\PrattParser\bin\Debug\net9.0\PrattParser.dll
+[OUTPUT 2025-02-23 10:24:15 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:24:15 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 10:24:17 AM] All tests passed successfully.
+[INFO 2025-02-23 10:24:17 AM] Test process completed. Duration: 3.20 seconds.
+[INFO 2025-02-23 10:24:17 AM] Process exited with code 0.
+[INFO 2025-02-23 10:24:14 AM] Command: dotnet test "D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:24:14 AM] Starting test for project: D:\Code2025\RavenWork\PrattParser\PrattParserTest\PrattParserTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
