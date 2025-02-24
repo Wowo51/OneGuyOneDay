@@ -1,0 +1,675 @@
+<ActRecord>
+  <ProjectName>DataEncryptionStandard</ProjectName>
+  <ProjectDescription>Data Encryption Standard (DES)</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Data Encryption Standard (DES)</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\DataEncryptionStandard</SolutionFolderPath>
+  <ProjectFolderName>DataEncryptionStandard</ProjectFolderName>
+  <ProjectName>DataEncryptionStandard</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:44:38 AM
+DataEncryptionStandard</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:45:07 AM
+DataEncryptionStandard</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DataEncryptionStandard -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandard\bin\Debug\net9.0\DataEncryptionStandard.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.84
+]]></string>
+    <string>WritePatch: Code is Complete.
+DataEncryptionStandard</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:45:19 AM
+DataEncryptionStandardTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:46:08 AM
+DataEncryptionStandardTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj (in 752 ms).
+  1 of 2 projects are up-to-date for restore.
+  DataEncryptionStandard -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandard\bin\Debug\net9.0\DataEncryptionStandard.dll
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(70,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(99,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(250,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(269,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(288,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(307,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+  DataEncryptionStandardTest -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\bin\Debug\net9.0\DataEncryptionStandardTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(70,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(99,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(250,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(269,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(288,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(307,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+    6 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.81
+]]></string>
+    <string>WritePatch: Compile failed.
+DataEncryptionStandardTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:46:08 AM
+DataEncryptionStandardTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:46:08 AM
+DataEncryptionStandardTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:46:39 AM
+DataEncryptionStandardTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DataEncryptionStandard -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandard\bin\Debug\net9.0\DataEncryptionStandard.dll
+  DataEncryptionStandardTest -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\bin\Debug\net9.0\DataEncryptionStandardTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.91
+]]></string>
+    <string>WritePatch: Code is not Complete.
+DataEncryptionStandardTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:46:54 AM
+DataEncryptionStandardTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:46:54 AM
+DataEncryptionStandardTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:48:10 AM
+DataEncryptionStandardTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DataEncryptionStandard -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandard\bin\Debug\net9.0\DataEncryptionStandard.dll
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(70,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(99,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(250,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(269,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(288,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(307,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+  DataEncryptionStandardTest -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\bin\Debug\net9.0\DataEncryptionStandardTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(70,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(99,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(250,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(269,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(288,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(307,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+    6 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+]]></string>
+    <string>WritePatch: Compile failed.
+DataEncryptionStandardTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:48:11 AM
+DataEncryptionStandardTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DataEncryptionStandard -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandard\bin\Debug\net9.0\DataEncryptionStandard.dll
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(70,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(99,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(250,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(269,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(288,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(307,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+  DataEncryptionStandardTest -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\bin\Debug\net9.0\DataEncryptionStandardTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(70,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(99,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(250,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(269,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(288,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(307,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+    6 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+
+</CompilerResponse>
+2025-02-23 6:48:11 AM
+DataEncryptionStandardTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 6:48:12 AM
+DataEncryptionStandard</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DataEncryptionStandard -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandard\bin\Debug\net9.0\DataEncryptionStandard.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.66
+]]></string>
+    <string>WritePatch: Code is Complete.
+DataEncryptionStandard</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:48:26 AM
+DataEncryptionStandardTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DataEncryptionStandard -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandard\bin\Debug\net9.0\DataEncryptionStandard.dll
+  DataEncryptionStandardTest -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\bin\Debug\net9.0\DataEncryptionStandardTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.83
+]]></string>
+    <string>WritePatch: Code is Complete.
+DataEncryptionStandardTest</string>
+    <string>[INFO 2025-02-23 6:48:39 AM] Starting test for project: D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj</string>
+    <string>[INFO 2025-02-23 6:48:39 AM] Starting test for project: D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj</string>
+    <string>[INFO 2025-02-23 6:48:39 AM] Starting test for project: D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj</string>
+    <string>[INFO 2025-02-23 6:48:39 AM] Starting test for project: D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj</string>
+    <string>[INFO 2025-02-23 6:48:39 AM] Starting test for project: D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj</string>
+    <string>[INFO 2025-02-23 6:48:39 AM] Starting test for project: D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj</string>
+    <string>[INFO 2025-02-23 6:48:39 AM] Starting test for project: D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj</string>
+    <string>[INFO 2025-02-23 6:48:39 AM] Starting test for project: D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj</string>
+    <string>[INFO 2025-02-23 6:48:39 AM] Starting test for project: D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj</string>
+    <string>[INFO 2025-02-23 6:48:39 AM] Starting test for project: D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj</string>
+    <string>[INFO 2025-02-23 6:48:39 AM] Starting test for project: D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj</string>
+    <string>[INFO 2025-02-23 6:48:39 AM] Starting test for project: D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj</string>
+    <string>[INFO 2025-02-23 6:48:39 AM] Starting test for project: D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj</string>
+    <string>[INFO 2025-02-23 6:48:39 AM] Starting test for project: D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj</string>
+    <string>[INFO 2025-02-23 6:48:39 AM] Starting test for project: D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj</string>
+    <string><![CDATA[TestResult:
+[INFO] Check 'TestResults' folder for more details.
+[LAST OUTPUT] Test Run Failed.
+[LAST OUTPUT]   Passed TestDecrypt_NullData_ReturnsEmpty [4 ms]
+[LAST OUTPUT] Test Parallelization enabled for D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\bin\Debug\net9.0\DataEncryptionStandardTest.dll (Workers: 16, Scope: MethodLevel)
+[LAST OUTPUT] D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\bin\Debug\net9.0\DataEncryptionStandardTest.dll
+[LAST OUTPUT] A total of 1 test files matched the specified pattern.
+[LAST OUTPUT] Starting test execution, please wait...
+[LAST OUTPUT] VSTest version 17.12.0 (x64)
+[LAST OUTPUT] Test run for D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\bin\Debug\net9.0\DataEncryptionStandardTest.dll (.NETCoreApp,Version=v9.0)
+[LAST OUTPUT]   DataEncryptionStandardTest -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\bin\Debug\net9.0\DataEncryptionStandardTest.dll
+[LAST OUTPUT]   DataEncryptionStandard -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandard\bin\Debug\net9.0\DataEncryptionStandard.dll
+[ERROR 2025-02-23 6:48:41 AM] Process exited with code 1. Possible causes:
+[INFO 2025-02-23 6:48:41 AM] Test process completed. Duration: 2.68 seconds.
+[INFO 2025-02-23 6:48:41 AM] Process exited with code 1.
+[OUTPUT 2025-02-23 6:48:42 AM]   Passed TestDecrypt_NullIV_ReturnsEmpty [< 1 ms]
+[OUTPUT 2025-02-23 6:48:41 AM]   Passed TestDecrypt_NullData_ReturnsEmpty [4 ms]
+[OUTPUT 2025-02-23 6:48:41 AM] Test Parallelization enabled for D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\bin\Debug\net9.0\DataEncryptionStandardTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 6:48:41 AM] D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\bin\Debug\net9.0\DataEncryptionStandardTest.dll
+[OUTPUT 2025-02-23 6:48:41 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:48:40 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:48:40 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:48:40 AM] Test run for D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\bin\Debug\net9.0\DataEncryptionStandardTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:48:40 AM]   DataEncryptionStandardTest -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\bin\Debug\net9.0\DataEncryptionStandardTest.dll
+[OUTPUT 2025-02-23 6:48:40 AM]   DataEncryptionStandard -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandard\bin\Debug\net9.0\DataEncryptionStandard.dll
+[OUTPUT 2025-02-23 6:48:39 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 6:48:39 AM]   Determining projects to restore...
+[ERROR 2025-02-23 6:48:41 AM] Test Run Failed.
+[INFO 2025-02-23 6:48:39 AM] Command: dotnet test "D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:48:39 AM] Starting test for project: D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]]></string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:48:56 AM
+DataEncryptionStandard</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:49:41 AM
+DataEncryptionStandard</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DataEncryptionStandard -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandard\bin\Debug\net9.0\DataEncryptionStandard.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.69
+]]></string>
+    <string>WritePatch: Code is Complete.
+DataEncryptionStandard</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:49:54 AM
+DataEncryptionStandardTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:50:36 AM
+DataEncryptionStandardTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DataEncryptionStandard -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandard\bin\Debug\net9.0\DataEncryptionStandard.dll
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(70,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(99,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(250,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(269,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(288,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(307,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+  DataEncryptionStandardTest -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\bin\Debug\net9.0\DataEncryptionStandardTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(70,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(99,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(250,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(269,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(288,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(307,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+    6 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+]]></string>
+    <string>WritePatch: Compile failed.
+DataEncryptionStandardTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:50:37 AM
+DataEncryptionStandardTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:50:37 AM
+DataEncryptionStandardTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:51:29 AM
+DataEncryptionStandardTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DataEncryptionStandard -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandard\bin\Debug\net9.0\DataEncryptionStandard.dll
+  DataEncryptionStandardTest -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\bin\Debug\net9.0\DataEncryptionStandardTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.90
+]]></string>
+    <string>WritePatch: Code is Complete.
+DataEncryptionStandardTest</string>
+    <string>[INFO 2025-02-23 6:51:51 AM] Starting test for project: D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj</string>
+    <string>[INFO 2025-02-23 6:51:51 AM] Starting test for project: D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj</string>
+    <string>[INFO 2025-02-23 6:51:51 AM] Starting test for project: D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj</string>
+    <string>[INFO 2025-02-23 6:51:51 AM] Starting test for project: D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj</string>
+    <string>[INFO 2025-02-23 6:51:51 AM] Starting test for project: D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj</string>
+    <string>[INFO 2025-02-23 6:51:51 AM] Starting test for project: D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj</string>
+    <string>[INFO 2025-02-23 6:51:51 AM] Starting test for project: D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj</string>
+    <string>[INFO 2025-02-23 6:51:51 AM] Starting test for project: D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj</string>
+    <string>[INFO 2025-02-23 6:51:51 AM] Starting test for project: D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj</string>
+    <string>[INFO 2025-02-23 6:51:51 AM] Starting test for project: D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 6:51:54 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:51:53 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:51:53 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:51:53 AM] Test run for D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\bin\Debug\net9.0\DataEncryptionStandardTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:51:53 AM]   DataEncryptionStandardTest -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\bin\Debug\net9.0\DataEncryptionStandardTest.dll
+[OUTPUT 2025-02-23 6:51:52 AM]   DataEncryptionStandard -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandard\bin\Debug\net9.0\DataEncryptionStandard.dll
+[OUTPUT 2025-02-23 6:51:52 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 6:51:52 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 6:51:53 AM] All tests passed successfully.
+[INFO 2025-02-23 6:51:53 AM] Test process completed. Duration: 1.95 seconds.
+[INFO 2025-02-23 6:51:53 AM] Process exited with code 0.
+[INFO 2025-02-23 6:51:51 AM] Command: dotnet test "D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:51:51 AM] Starting test for project: D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 6:44:38 AM
+DataEncryptionStandard
+
+WritePatch ran compiler. 2025-02-23 6:45:07 AM
+DataEncryptionStandard
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DataEncryptionStandard -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandard\bin\Debug\net9.0\DataEncryptionStandard.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.84
+
+
+WritePatch: Code is Complete.
+DataEncryptionStandard
+
+WritePatch Started CycleStep. 2025-02-23 6:45:19 AM
+DataEncryptionStandardTest
+
+WritePatch ran compiler. 2025-02-23 6:46:08 AM
+DataEncryptionStandardTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj (in 752 ms).
+  1 of 2 projects are up-to-date for restore.
+  DataEncryptionStandard -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandard\bin\Debug\net9.0\DataEncryptionStandard.dll
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(70,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(99,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(250,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(269,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(288,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(307,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+  DataEncryptionStandardTest -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\bin\Debug\net9.0\DataEncryptionStandardTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(70,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(99,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(250,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(269,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(288,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(307,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+    6 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.81
+
+
+WritePatch: Compile failed.
+DataEncryptionStandardTest
+
+Finished WritePatch cycle step.
+2025-02-23 6:46:08 AM
+DataEncryptionStandardTest
+
+WritePatch Started CycleStep. 2025-02-23 6:46:08 AM
+DataEncryptionStandardTest
+
+WritePatch ran compiler. 2025-02-23 6:46:39 AM
+DataEncryptionStandardTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DataEncryptionStandard -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandard\bin\Debug\net9.0\DataEncryptionStandard.dll
+  DataEncryptionStandardTest -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\bin\Debug\net9.0\DataEncryptionStandardTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.91
+
+
+WritePatch: Code is not Complete.
+DataEncryptionStandardTest
+
+Finished WritePatch cycle step.
+2025-02-23 6:46:54 AM
+DataEncryptionStandardTest
+
+WritePatch Started CycleStep. 2025-02-23 6:46:54 AM
+DataEncryptionStandardTest
+
+WritePatch ran compiler. 2025-02-23 6:48:10 AM
+DataEncryptionStandardTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DataEncryptionStandard -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandard\bin\Debug\net9.0\DataEncryptionStandard.dll
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(70,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(99,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(250,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(269,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(288,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(307,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+  DataEncryptionStandardTest -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\bin\Debug\net9.0\DataEncryptionStandardTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(70,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(99,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(250,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(269,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(288,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(307,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+    6 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+
+
+WritePatch: Compile failed.
+DataEncryptionStandardTest
+
+Finished WritePatch cycle step.
+2025-02-23 6:48:11 AM
+DataEncryptionStandardTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DataEncryptionStandard -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandard\bin\Debug\net9.0\DataEncryptionStandard.dll
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(70,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(99,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(250,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(269,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(288,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(307,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+  DataEncryptionStandardTest -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\bin\Debug\net9.0\DataEncryptionStandardTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(70,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(99,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(250,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(269,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(288,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(307,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+    6 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+
+</CompilerResponse>
+2025-02-23 6:48:11 AM
+DataEncryptionStandardTest
+
+WritePatch ran compiler. 2025-02-23 6:48:12 AM
+DataEncryptionStandard
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DataEncryptionStandard -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandard\bin\Debug\net9.0\DataEncryptionStandard.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.66
+
+
+WritePatch: Code is Complete.
+DataEncryptionStandard
+
+WritePatch ran compiler. 2025-02-23 6:48:26 AM
+DataEncryptionStandardTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DataEncryptionStandard -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandard\bin\Debug\net9.0\DataEncryptionStandard.dll
+  DataEncryptionStandardTest -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\bin\Debug\net9.0\DataEncryptionStandardTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.83
+
+
+WritePatch: Code is Complete.
+DataEncryptionStandardTest
+
+TestResult:
+[INFO] Check 'TestResults' folder for more details.
+[LAST OUTPUT] Test Run Failed.
+[LAST OUTPUT]   Passed TestDecrypt_NullData_ReturnsEmpty [4 ms]
+[LAST OUTPUT] Test Parallelization enabled for D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\bin\Debug\net9.0\DataEncryptionStandardTest.dll (Workers: 16, Scope: MethodLevel)
+[LAST OUTPUT] D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\bin\Debug\net9.0\DataEncryptionStandardTest.dll
+[LAST OUTPUT] A total of 1 test files matched the specified pattern.
+[LAST OUTPUT] Starting test execution, please wait...
+[LAST OUTPUT] VSTest version 17.12.0 (x64)
+[LAST OUTPUT] Test run for D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\bin\Debug\net9.0\DataEncryptionStandardTest.dll (.NETCoreApp,Version=v9.0)
+[LAST OUTPUT]   DataEncryptionStandardTest -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\bin\Debug\net9.0\DataEncryptionStandardTest.dll
+[LAST OUTPUT]   DataEncryptionStandard -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandard\bin\Debug\net9.0\DataEncryptionStandard.dll
+[ERROR 2025-02-23 6:48:41 AM] Process exited with code 1. Possible causes:
+[INFO 2025-02-23 6:48:41 AM] Test process completed. Duration: 2.68 seconds.
+[INFO 2025-02-23 6:48:41 AM] Process exited with code 1.
+[OUTPUT 2025-02-23 6:48:42 AM]   Passed TestDecrypt_NullIV_ReturnsEmpty [< 1 ms]
+[OUTPUT 2025-02-23 6:48:41 AM]   Passed TestDecrypt_NullData_ReturnsEmpty [4 ms]
+[OUTPUT 2025-02-23 6:48:41 AM] Test Parallelization enabled for D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\bin\Debug\net9.0\DataEncryptionStandardTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 6:48:41 AM] D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\bin\Debug\net9.0\DataEncryptionStandardTest.dll
+[OUTPUT 2025-02-23 6:48:41 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:48:40 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:48:40 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:48:40 AM] Test run for D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\bin\Debug\net9.0\DataEncryptionStandardTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:48:40 AM]   DataEncryptionStandardTest -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\bin\Debug\net9.0\DataEncryptionStandardTest.dll
+[OUTPUT 2025-02-23 6:48:40 AM]   DataEncryptionStandard -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandard\bin\Debug\net9.0\DataEncryptionStandard.dll
+[OUTPUT 2025-02-23 6:48:39 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 6:48:39 AM]   Determining projects to restore...
+[ERROR 2025-02-23 6:48:41 AM] Test Run Failed.
+[INFO 2025-02-23 6:48:39 AM] Command: dotnet test "D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:48:39 AM] Starting test for project: D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj
+
+WritePatch Started CycleStep. 2025-02-23 6:48:56 AM
+DataEncryptionStandard
+
+WritePatch ran compiler. 2025-02-23 6:49:41 AM
+DataEncryptionStandard
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DataEncryptionStandard -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandard\bin\Debug\net9.0\DataEncryptionStandard.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.69
+
+
+WritePatch: Code is Complete.
+DataEncryptionStandard
+
+WritePatch Started CycleStep. 2025-02-23 6:49:54 AM
+DataEncryptionStandardTest
+
+WritePatch ran compiler. 2025-02-23 6:50:36 AM
+DataEncryptionStandardTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DataEncryptionStandard -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandard\bin\Debug\net9.0\DataEncryptionStandard.dll
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(70,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(99,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(250,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(269,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(288,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(307,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+  DataEncryptionStandardTest -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\bin\Debug\net9.0\DataEncryptionStandardTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(70,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(99,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(250,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(269,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(288,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DesEncryptionTests.cs(307,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj]
+    6 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+
+
+WritePatch: Compile failed.
+DataEncryptionStandardTest
+
+Finished WritePatch cycle step.
+2025-02-23 6:50:37 AM
+DataEncryptionStandardTest
+
+WritePatch Started CycleStep. 2025-02-23 6:50:37 AM
+DataEncryptionStandardTest
+
+WritePatch ran compiler. 2025-02-23 6:51:29 AM
+DataEncryptionStandardTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DataEncryptionStandard -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandard\bin\Debug\net9.0\DataEncryptionStandard.dll
+  DataEncryptionStandardTest -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\bin\Debug\net9.0\DataEncryptionStandardTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.90
+
+
+WritePatch: Code is Complete.
+DataEncryptionStandardTest
+
+TestResult:
+[OUTPUT 2025-02-23 6:51:54 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:51:53 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:51:53 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:51:53 AM] Test run for D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\bin\Debug\net9.0\DataEncryptionStandardTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:51:53 AM]   DataEncryptionStandardTest -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\bin\Debug\net9.0\DataEncryptionStandardTest.dll
+[OUTPUT 2025-02-23 6:51:52 AM]   DataEncryptionStandard -> D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandard\bin\Debug\net9.0\DataEncryptionStandard.dll
+[OUTPUT 2025-02-23 6:51:52 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 6:51:52 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 6:51:53 AM] All tests passed successfully.
+[INFO 2025-02-23 6:51:53 AM] Test process completed. Duration: 1.95 seconds.
+[INFO 2025-02-23 6:51:53 AM] Process exited with code 0.
+[INFO 2025-02-23 6:51:51 AM] Command: dotnet test "D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:51:51 AM] Starting test for project: D:\Code2025\RavenWork\DataEncryptionStandard\DataEncryptionStandardTest\DataEncryptionStandardTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
