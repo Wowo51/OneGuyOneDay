@@ -1,0 +1,153 @@
+<ActRecord>
+  <ProjectName>MullersMethod</ProjectName>
+  <ProjectDescription><![CDATA[Muller's method – A root-finding technique that uses quadratic interpolation based on three points.]]></ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification><![CDATA[Muller's method – A root-finding technique that uses quadratic interpolation based on three points.]]]]><![CDATA[></WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\MullersMethod</SolutionFolderPath>
+  <ProjectFolderName>MullersMethod</ProjectFolderName>
+  <ProjectName>MullersMethod</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 5:15:29 PM
+MullersMethod</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:16:25 PM
+MullersMethod</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  MullersMethod -> D:\Code2025\RavenWork\MullersMethod\MullersMethod\bin\Debug\net9.0\MullersMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.22
+]]></string>
+    <string>WritePatch: Code is Complete.
+MullersMethod</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 5:16:39 PM
+MullersMethodTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:17:21 PM
+MullersMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\MullersMethod\MullersMethodTest\MullersMethodTest.csproj (in 458 ms).
+  1 of 2 projects are up-to-date for restore.
+  MullersMethod -> D:\Code2025\RavenWork\MullersMethod\MullersMethod\bin\Debug\net9.0\MullersMethod.dll
+  MullersMethodTest -> D:\Code2025\RavenWork\MullersMethod\MullersMethodTest\bin\Debug\net9.0\MullersMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.31
+]]></string>
+    <string>WritePatch: Code is Complete.
+MullersMethodTest</string>
+    <string>[INFO 2025-02-23 5:17:38 PM] Starting test for project: D:\Code2025\RavenWork\MullersMethod\MullersMethodTest\MullersMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 5:17:38 PM] Starting test for project: D:\Code2025\RavenWork\MullersMethod\MullersMethodTest\MullersMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 5:17:38 PM] Starting test for project: D:\Code2025\RavenWork\MullersMethod\MullersMethodTest\MullersMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 5:17:38 PM] Starting test for project: D:\Code2025\RavenWork\MullersMethod\MullersMethodTest\MullersMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 5:17:38 PM] Starting test for project: D:\Code2025\RavenWork\MullersMethod\MullersMethodTest\MullersMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 5:17:38 PM] Starting test for project: D:\Code2025\RavenWork\MullersMethod\MullersMethodTest\MullersMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 5:17:38 PM] Starting test for project: D:\Code2025\RavenWork\MullersMethod\MullersMethodTest\MullersMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 5:17:38 PM] Starting test for project: D:\Code2025\RavenWork\MullersMethod\MullersMethodTest\MullersMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 5:17:38 PM] Starting test for project: D:\Code2025\RavenWork\MullersMethod\MullersMethodTest\MullersMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 5:17:38 PM] Starting test for project: D:\Code2025\RavenWork\MullersMethod\MullersMethodTest\MullersMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 5:17:38 PM] Starting test for project: D:\Code2025\RavenWork\MullersMethod\MullersMethodTest\MullersMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 5:17:38 PM] Starting test for project: D:\Code2025\RavenWork\MullersMethod\MullersMethodTest\MullersMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 5:17:38 PM] Starting test for project: D:\Code2025\RavenWork\MullersMethod\MullersMethodTest\MullersMethodTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 5:17:47 PM] All tests passed successfully.
+[INFO 2025-02-23 5:17:47 PM] Test process completed. Duration: 9.01 seconds.
+[INFO 2025-02-23 5:17:47 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 5:17:47 PM]   Passed TestSyntheticMultipleTrials [9 ms]
+[OUTPUT 2025-02-23 5:17:46 PM] Test Parallelization enabled for D:\Code2025\RavenWork\MullersMethod\MullersMethodTest\bin\Debug\net9.0\MullersMethodTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 5:17:41 PM]   MullersMethod -> D:\Code2025\RavenWork\MullersMethod\MullersMethod\bin\Debug\net9.0\MullersMethod.dll
+[OUTPUT 2025-02-23 5:17:40 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 5:17:44 PM] D:\Code2025\RavenWork\MullersMethod\MullersMethodTest\bin\Debug\net9.0\MullersMethodTest.dll
+[OUTPUT 2025-02-23 5:17:44 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 5:17:43 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 5:17:43 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 5:17:42 PM] Test run for D:\Code2025\RavenWork\MullersMethod\MullersMethodTest\bin\Debug\net9.0\MullersMethodTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 5:17:42 PM]   MullersMethodTest -> D:\Code2025\RavenWork\MullersMethod\MullersMethodTest\bin\Debug\net9.0\MullersMethodTest.dll
+[OUTPUT 2025-02-23 5:17:40 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 5:17:38 PM] Command: dotnet test "D:\Code2025\RavenWork\MullersMethod\MullersMethodTest\MullersMethodTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 5:17:38 PM] Starting test for project: D:\Code2025\RavenWork\MullersMethod\MullersMethodTest\MullersMethodTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 5:15:29 PM
+MullersMethod
+
+WritePatch ran compiler. 2025-02-23 5:16:25 PM
+MullersMethod
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  MullersMethod -> D:\Code2025\RavenWork\MullersMethod\MullersMethod\bin\Debug\net9.0\MullersMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.22
+
+
+WritePatch: Code is Complete.
+MullersMethod
+
+WritePatch Started CycleStep. 2025-02-23 5:16:39 PM
+MullersMethodTest
+
+WritePatch ran compiler. 2025-02-23 5:17:21 PM
+MullersMethodTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\MullersMethod\MullersMethodTest\MullersMethodTest.csproj (in 458 ms).
+  1 of 2 projects are up-to-date for restore.
+  MullersMethod -> D:\Code2025\RavenWork\MullersMethod\MullersMethod\bin\Debug\net9.0\MullersMethod.dll
+  MullersMethodTest -> D:\Code2025\RavenWork\MullersMethod\MullersMethodTest\bin\Debug\net9.0\MullersMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.31
+
+
+WritePatch: Code is Complete.
+MullersMethodTest
+
+TestResult:
+[SUCCESS 2025-02-23 5:17:47 PM] All tests passed successfully.
+[INFO 2025-02-23 5:17:47 PM] Test process completed. Duration: 9.01 seconds.
+[INFO 2025-02-23 5:17:47 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 5:17:47 PM]   Passed TestSyntheticMultipleTrials [9 ms]
+[OUTPUT 2025-02-23 5:17:46 PM] Test Parallelization enabled for D:\Code2025\RavenWork\MullersMethod\MullersMethodTest\bin\Debug\net9.0\MullersMethodTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 5:17:41 PM]   MullersMethod -> D:\Code2025\RavenWork\MullersMethod\MullersMethod\bin\Debug\net9.0\MullersMethod.dll
+[OUTPUT 2025-02-23 5:17:40 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 5:17:44 PM] D:\Code2025\RavenWork\MullersMethod\MullersMethodTest\bin\Debug\net9.0\MullersMethodTest.dll
+[OUTPUT 2025-02-23 5:17:44 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 5:17:43 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 5:17:43 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 5:17:42 PM] Test run for D:\Code2025\RavenWork\MullersMethod\MullersMethodTest\bin\Debug\net9.0\MullersMethodTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 5:17:42 PM]   MullersMethodTest -> D:\Code2025\RavenWork\MullersMethod\MullersMethodTest\bin\Debug\net9.0\MullersMethodTest.dll
+[OUTPUT 2025-02-23 5:17:40 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 5:17:38 PM] Command: dotnet test "D:\Code2025\RavenWork\MullersMethod\MullersMethodTest\MullersMethodTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 5:17:38 PM] Starting test for project: D:\Code2025\RavenWork\MullersMethod\MullersMethodTest\MullersMethodTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
