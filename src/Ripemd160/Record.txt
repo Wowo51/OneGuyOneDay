@@ -1,0 +1,270 @@
+<ActRecord>
+  <ProjectName>Ripemd160</ProjectName>
+  <ProjectDescription>RIPEMD‑160</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>RIPEMD‑160</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\Ripemd160</SolutionFolderPath>
+  <ProjectFolderName>Ripemd160</ProjectFolderName>
+  <ProjectName>Ripemd160</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:29:10 AM
+Ripemd160</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:30:21 AM
+Ripemd160</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Ripemd160 -> D:\Code2025\RavenWork\Ripemd160\Ripemd160\bin\Debug\net9.0\Ripemd160.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.05
+]]></string>
+    <string>WritePatch: Code is Complete.
+Ripemd160</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:31:25 AM
+Ripemd160Test</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:32:22 AM
+Ripemd160Test</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Test.csproj (in 260 ms).
+  1 of 2 projects are up-to-date for restore.
+  Ripemd160 -> D:\Code2025\RavenWork\Ripemd160\Ripemd160\bin\Debug\net9.0\Ripemd160.dll
+D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Tests.cs(78,38): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Test.csproj]
+D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Tests.cs(79,70): warning CS8604: Possible null reference argument for parameter 'bytes' in 'string Ripemd160Tests.ByteArrayToHex(byte[] bytes)'. [D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Test.csproj]
+  Ripemd160Test -> D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\bin\Debug\net9.0\Ripemd160Test.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Tests.cs(78,38): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Test.csproj]
+D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Tests.cs(79,70): warning CS8604: Possible null reference argument for parameter 'bytes' in 'string Ripemd160Tests.ByteArrayToHex(byte[] bytes)'. [D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Test.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.80
+]]></string>
+    <string>WritePatch: Compile failed.
+Ripemd160Test</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:32:22 AM
+Ripemd160Test</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:32:23 AM
+Ripemd160Test</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:33:13 AM
+Ripemd160Test</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Ripemd160 -> D:\Code2025\RavenWork\Ripemd160\Ripemd160\bin\Debug\net9.0\Ripemd160.dll
+D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Tests.cs(90,38): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Test.csproj]
+  Ripemd160Test -> D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\bin\Debug\net9.0\Ripemd160Test.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Tests.cs(90,38): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Test.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.23
+]]></string>
+    <string>WritePatch: Compile failed.
+Ripemd160Test</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:33:14 AM
+Ripemd160Test</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:33:14 AM
+Ripemd160Test</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:33:47 AM
+Ripemd160Test</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Ripemd160 -> D:\Code2025\RavenWork\Ripemd160\Ripemd160\bin\Debug\net9.0\Ripemd160.dll
+  Ripemd160Test -> D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\bin\Debug\net9.0\Ripemd160Test.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+]]></string>
+    <string>WritePatch: Code is Complete.
+Ripemd160Test</string>
+    <string>[INFO 2025-02-23 10:33:58 AM] Starting test for project: D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Test.csproj</string>
+    <string>[INFO 2025-02-23 10:33:58 AM] Starting test for project: D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Test.csproj</string>
+    <string>[INFO 2025-02-23 10:33:58 AM] Starting test for project: D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Test.csproj</string>
+    <string>[INFO 2025-02-23 10:33:58 AM] Starting test for project: D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Test.csproj</string>
+    <string>[INFO 2025-02-23 10:33:58 AM] Starting test for project: D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Test.csproj</string>
+    <string>[INFO 2025-02-23 10:33:58 AM] Starting test for project: D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Test.csproj</string>
+    <string>[INFO 2025-02-23 10:33:58 AM] Starting test for project: D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Test.csproj</string>
+    <string>[INFO 2025-02-23 10:33:58 AM] Starting test for project: D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Test.csproj</string>
+    <string>[INFO 2025-02-23 10:33:58 AM] Starting test for project: D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Test.csproj</string>
+    <string>[INFO 2025-02-23 10:33:58 AM] Starting test for project: D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Test.csproj</string>
+    <string>[INFO 2025-02-23 10:33:58 AM] Starting test for project: D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Test.csproj</string>
+    <string>[INFO 2025-02-23 10:33:58 AM] Starting test for project: D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Test.csproj</string>
+    <string>[INFO 2025-02-23 10:33:58 AM] Starting test for project: D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Test.csproj</string>
+    <string>[INFO 2025-02-23 10:33:58 AM] Starting test for project: D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Test.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 10:34:01 AM] Test Parallelization enabled for D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\bin\Debug\net9.0\Ripemd160Test.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:34:01 AM]   Passed TestQuickBrownFox [28 ms]
+[OUTPUT 2025-02-23 10:34:01 AM]   Passed TestIncrementalHashing [28 ms]
+[OUTPUT 2025-02-23 10:34:00 AM] D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\bin\Debug\net9.0\Ripemd160Test.dll
+[OUTPUT 2025-02-23 10:34:00 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:34:00 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:34:00 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:33:59 AM]   Ripemd160 -> D:\Code2025\RavenWork\Ripemd160\Ripemd160\bin\Debug\net9.0\Ripemd160.dll
+[OUTPUT 2025-02-23 10:33:59 AM] Test run for D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\bin\Debug\net9.0\Ripemd160Test.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:33:59 AM]   Ripemd160Test -> D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\bin\Debug\net9.0\Ripemd160Test.dll
+[OUTPUT 2025-02-23 10:33:59 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:33:58 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 10:34:01 AM] All tests passed successfully.
+[INFO 2025-02-23 10:34:01 AM] Test process completed. Duration: 3.34 seconds.
+[INFO 2025-02-23 10:34:01 AM] Process exited with code 0.
+[INFO 2025-02-23 10:33:58 AM] Command: dotnet test "D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Test.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:33:58 AM] Starting test for project: D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Test.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 10:29:10 AM
+Ripemd160
+
+WritePatch ran compiler. 2025-02-23 10:30:21 AM
+Ripemd160
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Ripemd160 -> D:\Code2025\RavenWork\Ripemd160\Ripemd160\bin\Debug\net9.0\Ripemd160.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.05
+
+
+WritePatch: Code is Complete.
+Ripemd160
+
+WritePatch Started CycleStep. 2025-02-23 10:31:25 AM
+Ripemd160Test
+
+WritePatch ran compiler. 2025-02-23 10:32:22 AM
+Ripemd160Test
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Test.csproj (in 260 ms).
+  1 of 2 projects are up-to-date for restore.
+  Ripemd160 -> D:\Code2025\RavenWork\Ripemd160\Ripemd160\bin\Debug\net9.0\Ripemd160.dll
+D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Tests.cs(78,38): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Test.csproj]
+D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Tests.cs(79,70): warning CS8604: Possible null reference argument for parameter 'bytes' in 'string Ripemd160Tests.ByteArrayToHex(byte[] bytes)'. [D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Test.csproj]
+  Ripemd160Test -> D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\bin\Debug\net9.0\Ripemd160Test.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Tests.cs(78,38): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Test.csproj]
+D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Tests.cs(79,70): warning CS8604: Possible null reference argument for parameter 'bytes' in 'string Ripemd160Tests.ByteArrayToHex(byte[] bytes)'. [D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Test.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.80
+
+
+WritePatch: Compile failed.
+Ripemd160Test
+
+Finished WritePatch cycle step.
+2025-02-23 10:32:22 AM
+Ripemd160Test
+
+WritePatch Started CycleStep. 2025-02-23 10:32:23 AM
+Ripemd160Test
+
+WritePatch ran compiler. 2025-02-23 10:33:13 AM
+Ripemd160Test
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Ripemd160 -> D:\Code2025\RavenWork\Ripemd160\Ripemd160\bin\Debug\net9.0\Ripemd160.dll
+D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Tests.cs(90,38): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Test.csproj]
+  Ripemd160Test -> D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\bin\Debug\net9.0\Ripemd160Test.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Tests.cs(90,38): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Test.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.23
+
+
+WritePatch: Compile failed.
+Ripemd160Test
+
+Finished WritePatch cycle step.
+2025-02-23 10:33:14 AM
+Ripemd160Test
+
+WritePatch Started CycleStep. 2025-02-23 10:33:14 AM
+Ripemd160Test
+
+WritePatch ran compiler. 2025-02-23 10:33:47 AM
+Ripemd160Test
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Ripemd160 -> D:\Code2025\RavenWork\Ripemd160\Ripemd160\bin\Debug\net9.0\Ripemd160.dll
+  Ripemd160Test -> D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\bin\Debug\net9.0\Ripemd160Test.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+
+
+WritePatch: Code is Complete.
+Ripemd160Test
+
+TestResult:
+[OUTPUT 2025-02-23 10:34:01 AM] Test Parallelization enabled for D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\bin\Debug\net9.0\Ripemd160Test.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:34:01 AM]   Passed TestQuickBrownFox [28 ms]
+[OUTPUT 2025-02-23 10:34:01 AM]   Passed TestIncrementalHashing [28 ms]
+[OUTPUT 2025-02-23 10:34:00 AM] D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\bin\Debug\net9.0\Ripemd160Test.dll
+[OUTPUT 2025-02-23 10:34:00 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:34:00 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:34:00 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:33:59 AM]   Ripemd160 -> D:\Code2025\RavenWork\Ripemd160\Ripemd160\bin\Debug\net9.0\Ripemd160.dll
+[OUTPUT 2025-02-23 10:33:59 AM] Test run for D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\bin\Debug\net9.0\Ripemd160Test.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:33:59 AM]   Ripemd160Test -> D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\bin\Debug\net9.0\Ripemd160Test.dll
+[OUTPUT 2025-02-23 10:33:59 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:33:58 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 10:34:01 AM] All tests passed successfully.
+[INFO 2025-02-23 10:34:01 AM] Test process completed. Duration: 3.34 seconds.
+[INFO 2025-02-23 10:34:01 AM] Process exited with code 0.
+[INFO 2025-02-23 10:33:58 AM] Command: dotnet test "D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Test.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:33:58 AM] Starting test for project: D:\Code2025\RavenWork\Ripemd160\Ripemd160Test\Ripemd160Test.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
