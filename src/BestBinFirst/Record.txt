@@ -1,0 +1,414 @@
+<ActRecord>
+  <ProjectName>BestBinFirst</ProjectName>
+  <ProjectDescription>Best Bin First – A heuristic algorithm that provides an approximate solution to the nearest neighbor search problem in high-dimensional spaces.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Best Bin First – A heuristic algorithm that provides an approximate solution to the nearest neighbor search problem in high-dimensional spaces.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\BestBinFirst</SolutionFolderPath>
+  <ProjectFolderName>BestBinFirst</ProjectFolderName>
+  <ProjectName>BestBinFirst</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:38:30 AM
+BestBinFirst</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:39:22 AM
+BestBinFirst</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BestBinFirst -> D:\Code2025\RavenWork\BestBinFirst\BestBinFirst\bin\Debug\net9.0\BestBinFirst.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.86
+]]></string>
+    <string>WritePatch: Code is Complete.
+BestBinFirst</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:39:39 AM
+BestBinFirstTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:40:17 AM
+BestBinFirstTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj (in 216 ms).
+  1 of 2 projects are up-to-date for restore.
+  BestBinFirst -> D:\Code2025\RavenWork\BestBinFirst\BestBinFirst\bin\Debug\net9.0\BestBinFirst.dll
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(25,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(40,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(52,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(52,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(59,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(61,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(82,30): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(94,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+  BestBinFirstTest -> D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\bin\Debug\net9.0\BestBinFirstTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(25,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(40,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(52,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(52,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(59,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(61,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(82,30): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(94,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+    8 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.48
+]]></string>
+    <string>WritePatch: Compile failed.
+BestBinFirstTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:40:18 AM
+BestBinFirstTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:40:18 AM
+BestBinFirstTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:42:52 AM
+BestBinFirstTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BestBinFirst -> D:\Code2025\RavenWork\BestBinFirst\BestBinFirst\bin\Debug\net9.0\BestBinFirst.dll
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(52,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(59,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+  BestBinFirstTest -> D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\bin\Debug\net9.0\BestBinFirstTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(52,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(59,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.07
+]]></string>
+    <string>WritePatch: Compile failed.
+BestBinFirstTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:42:52 AM
+BestBinFirstTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:42:53 AM
+BestBinFirstTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:43:27 AM
+BestBinFirstTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BestBinFirst -> D:\Code2025\RavenWork\BestBinFirst\BestBinFirst\bin\Debug\net9.0\BestBinFirst.dll
+  BestBinFirstTest -> D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\bin\Debug\net9.0\BestBinFirstTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.00
+]]></string>
+    <string>WritePatch: Code is not Complete.
+BestBinFirstTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:43:38 AM
+BestBinFirstTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BestBinFirst -> D:\Code2025\RavenWork\BestBinFirst\BestBinFirst\bin\Debug\net9.0\BestBinFirst.dll
+  BestBinFirstTest -> D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\bin\Debug\net9.0\BestBinFirstTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.00
+
+</CompilerResponse>
+2025-02-23 10:43:39 AM
+BestBinFirstTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 10:43:40 AM
+BestBinFirst</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BestBinFirst -> D:\Code2025\RavenWork\BestBinFirst\BestBinFirst\bin\Debug\net9.0\BestBinFirst.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+]]></string>
+    <string>WritePatch: Code is Complete.
+BestBinFirst</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:43:51 AM
+BestBinFirstTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BestBinFirst -> D:\Code2025\RavenWork\BestBinFirst\BestBinFirst\bin\Debug\net9.0\BestBinFirst.dll
+  BestBinFirstTest -> D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\bin\Debug\net9.0\BestBinFirstTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.32
+]]></string>
+    <string>WritePatch: Code is Complete.
+BestBinFirstTest</string>
+    <string>[INFO 2025-02-23 10:44:00 AM] Starting test for project: D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj</string>
+    <string>[INFO 2025-02-23 10:44:00 AM] Starting test for project: D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj</string>
+    <string>[INFO 2025-02-23 10:44:00 AM] Starting test for project: D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj</string>
+    <string>[INFO 2025-02-23 10:44:00 AM] Starting test for project: D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj</string>
+    <string>[INFO 2025-02-23 10:44:00 AM] Starting test for project: D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj</string>
+    <string>[INFO 2025-02-23 10:44:00 AM] Starting test for project: D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj</string>
+    <string>[INFO 2025-02-23 10:44:00 AM] Starting test for project: D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj</string>
+    <string>[INFO 2025-02-23 10:44:00 AM] Starting test for project: D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj</string>
+    <string>[INFO 2025-02-23 10:44:00 AM] Starting test for project: D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj</string>
+    <string>[INFO 2025-02-23 10:44:00 AM] Starting test for project: D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj</string>
+    <string>[INFO 2025-02-23 10:44:00 AM] Starting test for project: D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj</string>
+    <string>[INFO 2025-02-23 10:44:00 AM] Starting test for project: D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 10:44:04 AM] Test Parallelization enabled for D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\bin\Debug\net9.0\BestBinFirstTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:44:03 AM] D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\bin\Debug\net9.0\BestBinFirstTest.dll
+[OUTPUT 2025-02-23 10:44:03 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:44:01 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:44:03 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:44:03 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:44:02 AM] Test run for D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\bin\Debug\net9.0\BestBinFirstTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:44:02 AM]   BestBinFirstTest -> D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\bin\Debug\net9.0\BestBinFirstTest.dll
+[OUTPUT 2025-02-23 10:44:02 AM]   BestBinFirst -> D:\Code2025\RavenWork\BestBinFirst\BestBinFirst\bin\Debug\net9.0\BestBinFirst.dll
+[OUTPUT 2025-02-23 10:44:01 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 10:44:04 AM] All tests passed successfully.
+[INFO 2025-02-23 10:44:04 AM] Test process completed. Duration: 3.28 seconds.
+[INFO 2025-02-23 10:44:04 AM] Process exited with code 0.
+[INFO 2025-02-23 10:44:00 AM] Command: dotnet test "D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:44:00 AM] Starting test for project: D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 10:38:30 AM
+BestBinFirst
+
+WritePatch ran compiler. 2025-02-23 10:39:22 AM
+BestBinFirst
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BestBinFirst -> D:\Code2025\RavenWork\BestBinFirst\BestBinFirst\bin\Debug\net9.0\BestBinFirst.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.86
+
+
+WritePatch: Code is Complete.
+BestBinFirst
+
+WritePatch Started CycleStep. 2025-02-23 10:39:39 AM
+BestBinFirstTest
+
+WritePatch ran compiler. 2025-02-23 10:40:17 AM
+BestBinFirstTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj (in 216 ms).
+  1 of 2 projects are up-to-date for restore.
+  BestBinFirst -> D:\Code2025\RavenWork\BestBinFirst\BestBinFirst\bin\Debug\net9.0\BestBinFirst.dll
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(25,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(40,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(52,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(52,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(59,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(61,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(82,30): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(94,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+  BestBinFirstTest -> D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\bin\Debug\net9.0\BestBinFirstTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(25,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(40,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(52,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(52,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(59,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(61,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(82,30): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(94,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+    8 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.48
+
+
+WritePatch: Compile failed.
+BestBinFirstTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:40:18 AM
+BestBinFirstTest
+
+WritePatch Started CycleStep. 2025-02-23 10:40:18 AM
+BestBinFirstTest
+
+WritePatch ran compiler. 2025-02-23 10:42:52 AM
+BestBinFirstTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BestBinFirst -> D:\Code2025\RavenWork\BestBinFirst\BestBinFirst\bin\Debug\net9.0\BestBinFirst.dll
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(52,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(59,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+  BestBinFirstTest -> D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\bin\Debug\net9.0\BestBinFirstTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(52,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTests.cs(59,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.07
+
+
+WritePatch: Compile failed.
+BestBinFirstTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:42:52 AM
+BestBinFirstTest
+
+WritePatch Started CycleStep. 2025-02-23 10:42:53 AM
+BestBinFirstTest
+
+WritePatch ran compiler. 2025-02-23 10:43:27 AM
+BestBinFirstTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BestBinFirst -> D:\Code2025\RavenWork\BestBinFirst\BestBinFirst\bin\Debug\net9.0\BestBinFirst.dll
+  BestBinFirstTest -> D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\bin\Debug\net9.0\BestBinFirstTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.00
+
+
+WritePatch: Code is not Complete.
+BestBinFirstTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:43:38 AM
+BestBinFirstTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BestBinFirst -> D:\Code2025\RavenWork\BestBinFirst\BestBinFirst\bin\Debug\net9.0\BestBinFirst.dll
+  BestBinFirstTest -> D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\bin\Debug\net9.0\BestBinFirstTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.00
+
+</CompilerResponse>
+2025-02-23 10:43:39 AM
+BestBinFirstTest
+
+WritePatch ran compiler. 2025-02-23 10:43:40 AM
+BestBinFirst
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BestBinFirst -> D:\Code2025\RavenWork\BestBinFirst\BestBinFirst\bin\Debug\net9.0\BestBinFirst.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+
+
+WritePatch: Code is Complete.
+BestBinFirst
+
+WritePatch ran compiler. 2025-02-23 10:43:51 AM
+BestBinFirstTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BestBinFirst -> D:\Code2025\RavenWork\BestBinFirst\BestBinFirst\bin\Debug\net9.0\BestBinFirst.dll
+  BestBinFirstTest -> D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\bin\Debug\net9.0\BestBinFirstTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.32
+
+
+WritePatch: Code is Complete.
+BestBinFirstTest
+
+TestResult:
+[OUTPUT 2025-02-23 10:44:04 AM] Test Parallelization enabled for D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\bin\Debug\net9.0\BestBinFirstTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:44:03 AM] D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\bin\Debug\net9.0\BestBinFirstTest.dll
+[OUTPUT 2025-02-23 10:44:03 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:44:01 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:44:03 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:44:03 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:44:02 AM] Test run for D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\bin\Debug\net9.0\BestBinFirstTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:44:02 AM]   BestBinFirstTest -> D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\bin\Debug\net9.0\BestBinFirstTest.dll
+[OUTPUT 2025-02-23 10:44:02 AM]   BestBinFirst -> D:\Code2025\RavenWork\BestBinFirst\BestBinFirst\bin\Debug\net9.0\BestBinFirst.dll
+[OUTPUT 2025-02-23 10:44:01 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 10:44:04 AM] All tests passed successfully.
+[INFO 2025-02-23 10:44:04 AM] Test process completed. Duration: 3.28 seconds.
+[INFO 2025-02-23 10:44:04 AM] Process exited with code 0.
+[INFO 2025-02-23 10:44:00 AM] Command: dotnet test "D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:44:00 AM] Starting test for project: D:\Code2025\RavenWork\BestBinFirst\BestBinFirstTest\BestBinFirstTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
