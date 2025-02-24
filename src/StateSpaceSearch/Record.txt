@@ -1,0 +1,203 @@
+<ActRecord>
+  <ProjectName>StateSpaceSearch</ProjectName>
+  <ProjectDescription>SSS*: state space search traversing a game tree in a best‑first fashion similar to that of the A* search algorithm</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>SSS*: state space search traversing a game tree in a best‑first fashion similar to that of the A* search algorithm</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\StateSpaceSearch</SolutionFolderPath>
+  <ProjectFolderName>StateSpaceSearch</ProjectFolderName>
+  <ProjectName>StateSpaceSearch</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:04:24 AM
+StateSpaceSearch</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:05:16 AM
+StateSpaceSearch</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearch\StateSpaceSearchAlgorithm.cs(33,91): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearch\StateSpaceSearch.csproj]
+  StateSpaceSearch -> D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearch\bin\Debug\net9.0\StateSpaceSearch.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearch\StateSpaceSearchAlgorithm.cs(33,91): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearch\StateSpaceSearch.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.05
+]]></string>
+    <string>WritePatch: Compile failed.
+StateSpaceSearch</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:05:16 AM
+StateSpaceSearch</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:05:17 AM
+StateSpaceSearch</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:05:46 AM
+StateSpaceSearch</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StateSpaceSearch -> D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearch\bin\Debug\net9.0\StateSpaceSearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.18
+]]></string>
+    <string>WritePatch: Code is Complete.
+StateSpaceSearch</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:06:48 AM
+StateSpaceSearchTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:07:29 AM
+StateSpaceSearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearchTest\StateSpaceSearchTest.csproj (in 290 ms).
+  1 of 2 projects are up-to-date for restore.
+  StateSpaceSearch -> D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearch\bin\Debug\net9.0\StateSpaceSearch.dll
+  StateSpaceSearchTest -> D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearchTest\bin\Debug\net9.0\StateSpaceSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.88
+]]></string>
+    <string>WritePatch: Code is Complete.
+StateSpaceSearchTest</string>
+    <string>[INFO 2025-02-23 11:07:56 AM] Starting test for project: D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearchTest\StateSpaceSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 11:07:56 AM] Starting test for project: D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearchTest\StateSpaceSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 11:07:56 AM] Starting test for project: D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearchTest\StateSpaceSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 11:07:56 AM] Starting test for project: D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearchTest\StateSpaceSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 11:07:56 AM] Starting test for project: D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearchTest\StateSpaceSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 11:07:56 AM] Starting test for project: D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearchTest\StateSpaceSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 11:07:56 AM] Starting test for project: D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearchTest\StateSpaceSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 11:07:56 AM] Starting test for project: D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearchTest\StateSpaceSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 11:07:56 AM] Starting test for project: D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearchTest\StateSpaceSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 11:07:56 AM] Starting test for project: D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearchTest\StateSpaceSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 11:07:56 AM] Starting test for project: D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearchTest\StateSpaceSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 11:07:56 AM] Starting test for project: D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearchTest\StateSpaceSearchTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 11:07:58 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:07:58 AM] Test run for D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearchTest\bin\Debug\net9.0\StateSpaceSearchTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:07:57 AM]   StateSpaceSearchTest -> D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearchTest\bin\Debug\net9.0\StateSpaceSearchTest.dll
+[OUTPUT 2025-02-23 11:07:57 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:08:00 AM] Test Parallelization enabled for D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearchTest\bin\Debug\net9.0\StateSpaceSearchTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 11:07:59 AM] D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearchTest\bin\Debug\net9.0\StateSpaceSearchTest.dll
+[OUTPUT 2025-02-23 11:07:59 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:07:58 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:07:57 AM]   StateSpaceSearch -> D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearch\bin\Debug\net9.0\StateSpaceSearch.dll
+[OUTPUT 2025-02-23 11:07:56 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 11:07:59 AM] All tests passed successfully.
+[INFO 2025-02-23 11:07:59 AM] Test process completed. Duration: 3.74 seconds.
+[INFO 2025-02-23 11:07:59 AM] Process exited with code 0.
+[INFO 2025-02-23 11:07:56 AM] Command: dotnet test "D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearchTest\StateSpaceSearchTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:07:56 AM] Starting test for project: D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearchTest\StateSpaceSearchTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 11:04:24 AM
+StateSpaceSearch
+
+WritePatch ran compiler. 2025-02-23 11:05:16 AM
+StateSpaceSearch
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearch\StateSpaceSearchAlgorithm.cs(33,91): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearch\StateSpaceSearch.csproj]
+  StateSpaceSearch -> D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearch\bin\Debug\net9.0\StateSpaceSearch.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearch\StateSpaceSearchAlgorithm.cs(33,91): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearch\StateSpaceSearch.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.05
+
+
+WritePatch: Compile failed.
+StateSpaceSearch
+
+Finished WritePatch cycle step.
+2025-02-23 11:05:16 AM
+StateSpaceSearch
+
+WritePatch Started CycleStep. 2025-02-23 11:05:17 AM
+StateSpaceSearch
+
+WritePatch ran compiler. 2025-02-23 11:05:46 AM
+StateSpaceSearch
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StateSpaceSearch -> D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearch\bin\Debug\net9.0\StateSpaceSearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.18
+
+
+WritePatch: Code is Complete.
+StateSpaceSearch
+
+WritePatch Started CycleStep. 2025-02-23 11:06:48 AM
+StateSpaceSearchTest
+
+WritePatch ran compiler. 2025-02-23 11:07:29 AM
+StateSpaceSearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearchTest\StateSpaceSearchTest.csproj (in 290 ms).
+  1 of 2 projects are up-to-date for restore.
+  StateSpaceSearch -> D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearch\bin\Debug\net9.0\StateSpaceSearch.dll
+  StateSpaceSearchTest -> D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearchTest\bin\Debug\net9.0\StateSpaceSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.88
+
+
+WritePatch: Code is Complete.
+StateSpaceSearchTest
+
+TestResult:
+[OUTPUT 2025-02-23 11:07:58 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:07:58 AM] Test run for D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearchTest\bin\Debug\net9.0\StateSpaceSearchTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:07:57 AM]   StateSpaceSearchTest -> D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearchTest\bin\Debug\net9.0\StateSpaceSearchTest.dll
+[OUTPUT 2025-02-23 11:07:57 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:08:00 AM] Test Parallelization enabled for D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearchTest\bin\Debug\net9.0\StateSpaceSearchTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 11:07:59 AM] D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearchTest\bin\Debug\net9.0\StateSpaceSearchTest.dll
+[OUTPUT 2025-02-23 11:07:59 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:07:58 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:07:57 AM]   StateSpaceSearch -> D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearch\bin\Debug\net9.0\StateSpaceSearch.dll
+[OUTPUT 2025-02-23 11:07:56 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 11:07:59 AM] All tests passed successfully.
+[INFO 2025-02-23 11:07:59 AM] Test process completed. Duration: 3.74 seconds.
+[INFO 2025-02-23 11:07:59 AM] Process exited with code 0.
+[INFO 2025-02-23 11:07:56 AM] Command: dotnet test "D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearchTest\StateSpaceSearchTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:07:56 AM] Starting test for project: D:\Code2025\RavenWork\StateSpaceSearch\StateSpaceSearchTest\StateSpaceSearchTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
