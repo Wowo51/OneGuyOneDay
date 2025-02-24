@@ -1,0 +1,448 @@
+<ActRecord>
+  <ProjectName>BellmanFordAlgorithm</ProjectName>
+  <ProjectDescription>Bellman–Ford Algorithm: Computes shortest paths from a single source in graphs that may have negative edge weights by iteratively relaxing edges.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Bellman–Ford Algorithm: Computes shortest paths from a single source in graphs that may have negative edge weights by iteratively relaxing edges.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\BellmanFordAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>BellmanFordAlgorithm</ProjectFolderName>
+  <ProjectName>BellmanFordAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:02:09 AM
+BellmanFordAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:02:42 AM
+BellmanFordAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithm\BellmanFordSolver.cs(11,29): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithm\BellmanFordAlgorithm.csproj]
+D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithm\BellmanFordSolver.cs(12,32): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithm\BellmanFordAlgorithm.csproj]
+  BellmanFordAlgorithm -> D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithm\bin\Debug\net9.0\BellmanFordAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithm\BellmanFordSolver.cs(11,29): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithm\BellmanFordAlgorithm.csproj]
+D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithm\BellmanFordSolver.cs(12,32): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithm\BellmanFordAlgorithm.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+]]></string>
+    <string>WritePatch: Compile failed.
+BellmanFordAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:02:43 AM
+BellmanFordAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:02:43 AM
+BellmanFordAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:03:51 AM
+BellmanFordAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BellmanFordAlgorithm -> D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithm\bin\Debug\net9.0\BellmanFordAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+]]></string>
+    <string>WritePatch: Code is Complete.
+BellmanFordAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:04:04 AM
+BellmanFordAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:05:15 AM
+BellmanFordAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordAlgorithmTest.csproj (in 201 ms).
+  1 of 2 projects are up-to-date for restore.
+  BellmanFordAlgorithm -> D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithm\bin\Debug\net9.0\BellmanFordAlgorithm.dll
+D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordSolverTests.cs(61,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordAlgorithmTest.csproj]
+  BellmanFordAlgorithmTest -> D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\bin\Debug\net9.0\BellmanFordAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordSolverTests.cs(61,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.53
+]]></string>
+    <string>WritePatch: Compile failed.
+BellmanFordAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:05:16 AM
+BellmanFordAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:05:16 AM
+BellmanFordAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:05:42 AM
+BellmanFordAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BellmanFordAlgorithm -> D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithm\bin\Debug\net9.0\BellmanFordAlgorithm.dll
+  BellmanFordAlgorithmTest -> D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\bin\Debug\net9.0\BellmanFordAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.26
+]]></string>
+    <string>WritePatch: Code is not Complete.
+BellmanFordAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:05:58 AM
+BellmanFordAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:05:58 AM
+BellmanFordAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:06:55 AM
+BellmanFordAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BellmanFordAlgorithm -> D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithm\bin\Debug\net9.0\BellmanFordAlgorithm.dll
+D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordSolverTests.cs(61,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordAlgorithmTest.csproj]
+  BellmanFordAlgorithmTest -> D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\bin\Debug\net9.0\BellmanFordAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordSolverTests.cs(61,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.00
+]]></string>
+    <string>WritePatch: Compile failed.
+BellmanFordAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:06:56 AM
+BellmanFordAlgorithmTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BellmanFordAlgorithm -> D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithm\bin\Debug\net9.0\BellmanFordAlgorithm.dll
+D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordSolverTests.cs(61,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordAlgorithmTest.csproj]
+  BellmanFordAlgorithmTest -> D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\bin\Debug\net9.0\BellmanFordAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordSolverTests.cs(61,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.00
+
+</CompilerResponse>
+2025-02-23 10:06:56 AM
+BellmanFordAlgorithmTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 10:06:57 AM
+BellmanFordAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BellmanFordAlgorithm -> D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithm\bin\Debug\net9.0\BellmanFordAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87
+]]></string>
+    <string>WritePatch: Code is Complete.
+BellmanFordAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:07:08 AM
+BellmanFordAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BellmanFordAlgorithm -> D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithm\bin\Debug\net9.0\BellmanFordAlgorithm.dll
+  BellmanFordAlgorithmTest -> D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\bin\Debug\net9.0\BellmanFordAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.96
+]]></string>
+    <string>WritePatch: Code is Complete.
+BellmanFordAlgorithmTest</string>
+    <string>[INFO 2025-02-23 10:07:23 AM] Starting test for project: D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:07:23 AM] Starting test for project: D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:07:23 AM] Starting test for project: D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:07:23 AM] Starting test for project: D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:07:23 AM] Starting test for project: D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:07:23 AM] Starting test for project: D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:07:23 AM] Starting test for project: D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:07:23 AM] Starting test for project: D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:07:23 AM] Starting test for project: D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:07:23 AM] Starting test for project: D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:07:23 AM] Starting test for project: D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:07:23 AM] Starting test for project: D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:07:23 AM] Starting test for project: D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 10:07:26 AM] All tests passed successfully.
+[INFO 2025-02-23 10:07:26 AM] Test process completed. Duration: 3.02 seconds.
+[INFO 2025-02-23 10:07:26 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 10:07:26 AM] D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\bin\Debug\net9.0\BellmanFordAlgorithmTest.dll
+[OUTPUT 2025-02-23 10:07:25 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:07:25 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:07:25 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:07:25 AM] Test run for D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\bin\Debug\net9.0\BellmanFordAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:07:24 AM]   BellmanFordAlgorithmTest -> D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\bin\Debug\net9.0\BellmanFordAlgorithmTest.dll
+[OUTPUT 2025-02-23 10:07:24 AM]   BellmanFordAlgorithm -> D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithm\bin\Debug\net9.0\BellmanFordAlgorithm.dll
+[OUTPUT 2025-02-23 10:07:24 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:07:26 AM]   Passed TestSingleVertexGraph [4 ms]
+[OUTPUT 2025-02-23 10:07:26 AM] Test Parallelization enabled for D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\bin\Debug\net9.0\BellmanFordAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:07:24 AM]   Determining projects to restore...
+[INFO 2025-02-23 10:07:23 AM] Command: dotnet test "D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:07:23 AM] Starting test for project: D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 10:02:09 AM
+BellmanFordAlgorithm
+
+WritePatch ran compiler. 2025-02-23 10:02:42 AM
+BellmanFordAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithm\BellmanFordSolver.cs(11,29): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithm\BellmanFordAlgorithm.csproj]
+D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithm\BellmanFordSolver.cs(12,32): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithm\BellmanFordAlgorithm.csproj]
+  BellmanFordAlgorithm -> D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithm\bin\Debug\net9.0\BellmanFordAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithm\BellmanFordSolver.cs(11,29): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithm\BellmanFordAlgorithm.csproj]
+D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithm\BellmanFordSolver.cs(12,32): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithm\BellmanFordAlgorithm.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+
+
+WritePatch: Compile failed.
+BellmanFordAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 10:02:43 AM
+BellmanFordAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 10:02:43 AM
+BellmanFordAlgorithm
+
+WritePatch ran compiler. 2025-02-23 10:03:51 AM
+BellmanFordAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BellmanFordAlgorithm -> D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithm\bin\Debug\net9.0\BellmanFordAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+
+
+WritePatch: Code is Complete.
+BellmanFordAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 10:04:04 AM
+BellmanFordAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 10:05:15 AM
+BellmanFordAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordAlgorithmTest.csproj (in 201 ms).
+  1 of 2 projects are up-to-date for restore.
+  BellmanFordAlgorithm -> D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithm\bin\Debug\net9.0\BellmanFordAlgorithm.dll
+D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordSolverTests.cs(61,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordAlgorithmTest.csproj]
+  BellmanFordAlgorithmTest -> D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\bin\Debug\net9.0\BellmanFordAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordSolverTests.cs(61,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.53
+
+
+WritePatch: Compile failed.
+BellmanFordAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:05:16 AM
+BellmanFordAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 10:05:16 AM
+BellmanFordAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 10:05:42 AM
+BellmanFordAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BellmanFordAlgorithm -> D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithm\bin\Debug\net9.0\BellmanFordAlgorithm.dll
+  BellmanFordAlgorithmTest -> D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\bin\Debug\net9.0\BellmanFordAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.26
+
+
+WritePatch: Code is not Complete.
+BellmanFordAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:05:58 AM
+BellmanFordAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 10:05:58 AM
+BellmanFordAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 10:06:55 AM
+BellmanFordAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BellmanFordAlgorithm -> D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithm\bin\Debug\net9.0\BellmanFordAlgorithm.dll
+D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordSolverTests.cs(61,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordAlgorithmTest.csproj]
+  BellmanFordAlgorithmTest -> D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\bin\Debug\net9.0\BellmanFordAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordSolverTests.cs(61,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.00
+
+
+WritePatch: Compile failed.
+BellmanFordAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:06:56 AM
+BellmanFordAlgorithmTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BellmanFordAlgorithm -> D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithm\bin\Debug\net9.0\BellmanFordAlgorithm.dll
+D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordSolverTests.cs(61,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordAlgorithmTest.csproj]
+  BellmanFordAlgorithmTest -> D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\bin\Debug\net9.0\BellmanFordAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordSolverTests.cs(61,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.00
+
+</CompilerResponse>
+2025-02-23 10:06:56 AM
+BellmanFordAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 10:06:57 AM
+BellmanFordAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BellmanFordAlgorithm -> D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithm\bin\Debug\net9.0\BellmanFordAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87
+
+
+WritePatch: Code is Complete.
+BellmanFordAlgorithm
+
+WritePatch ran compiler. 2025-02-23 10:07:08 AM
+BellmanFordAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BellmanFordAlgorithm -> D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithm\bin\Debug\net9.0\BellmanFordAlgorithm.dll
+  BellmanFordAlgorithmTest -> D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\bin\Debug\net9.0\BellmanFordAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.96
+
+
+WritePatch: Code is Complete.
+BellmanFordAlgorithmTest
+
+TestResult:
+[SUCCESS 2025-02-23 10:07:26 AM] All tests passed successfully.
+[INFO 2025-02-23 10:07:26 AM] Test process completed. Duration: 3.02 seconds.
+[INFO 2025-02-23 10:07:26 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 10:07:26 AM] D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\bin\Debug\net9.0\BellmanFordAlgorithmTest.dll
+[OUTPUT 2025-02-23 10:07:25 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:07:25 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:07:25 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:07:25 AM] Test run for D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\bin\Debug\net9.0\BellmanFordAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:07:24 AM]   BellmanFordAlgorithmTest -> D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\bin\Debug\net9.0\BellmanFordAlgorithmTest.dll
+[OUTPUT 2025-02-23 10:07:24 AM]   BellmanFordAlgorithm -> D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithm\bin\Debug\net9.0\BellmanFordAlgorithm.dll
+[OUTPUT 2025-02-23 10:07:24 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:07:26 AM]   Passed TestSingleVertexGraph [4 ms]
+[OUTPUT 2025-02-23 10:07:26 AM] Test Parallelization enabled for D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\bin\Debug\net9.0\BellmanFordAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:07:24 AM]   Determining projects to restore...
+[INFO 2025-02-23 10:07:23 AM] Command: dotnet test "D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:07:23 AM] Starting test for project: D:\Code2025\RavenWork\BellmanFordAlgorithm\BellmanFordAlgorithmTest\BellmanFordAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
