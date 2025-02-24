@@ -1,0 +1,337 @@
+<ActRecord>
+  <ProjectName>ElevatorAlgorithm</ProjectName>
+  <ProjectDescription>Elevator algorithm: A disk scheduling algorithm that works like an elevator</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Elevator algorithm: A disk scheduling algorithm that works like an elevator</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\ElevatorAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>ElevatorAlgorithm</ProjectFolderName>
+  <ProjectName>ElevatorAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:21:30 PM
+ElevatorAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:22:05 PM
+ElevatorAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ElevatorAlgorithm -> D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithm\bin\Debug\net9.0\ElevatorAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.33
+]]></string>
+    <string>WritePatch: Code is Complete.
+ElevatorAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:22:44 PM
+ElevatorAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:24:02 PM
+ElevatorAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\ElevatorAlgorithmTest.csproj (in 205 ms).
+  1 of 2 projects are up-to-date for restore.
+  ElevatorAlgorithm -> D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithm\bin\Debug\net9.0\ElevatorAlgorithm.dll
+D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\ElevatorSchedulerTests.cs(15,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\ElevatorAlgorithmTest.csproj]
+  ElevatorAlgorithmTest -> D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\bin\Debug\net9.0\ElevatorAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\ElevatorSchedulerTests.cs(15,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\ElevatorAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.51
+]]></string>
+    <string>WritePatch: Compile failed.
+ElevatorAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:24:03 PM
+ElevatorAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:24:03 PM
+ElevatorAlgorithmTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 1:24:59 PM
+ElevatorAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:24:59 PM
+ElevatorAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:25:58 PM
+ElevatorAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ElevatorAlgorithm -> D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithm\bin\Debug\net9.0\ElevatorAlgorithm.dll
+  ElevatorAlgorithmTest -> D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\bin\Debug\net9.0\ElevatorAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.05
+]]></string>
+    <string>WritePatch: Code is not Complete.
+ElevatorAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:26:15 PM
+ElevatorAlgorithmTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ElevatorAlgorithm -> D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithm\bin\Debug\net9.0\ElevatorAlgorithm.dll
+  ElevatorAlgorithmTest -> D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\bin\Debug\net9.0\ElevatorAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.05
+
+</CompilerResponse>
+2025-02-23 1:26:15 PM
+ElevatorAlgorithmTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 1:26:16 PM
+ElevatorAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ElevatorAlgorithm -> D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithm\bin\Debug\net9.0\ElevatorAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.79
+]]></string>
+    <string>WritePatch: Code is Complete.
+ElevatorAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:26:47 PM
+ElevatorAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ElevatorAlgorithm -> D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithm\bin\Debug\net9.0\ElevatorAlgorithm.dll
+  ElevatorAlgorithmTest -> D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\bin\Debug\net9.0\ElevatorAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.00
+]]></string>
+    <string>WritePatch: Code is Complete.
+ElevatorAlgorithmTest</string>
+    <string>[INFO 2025-02-23 1:27:05 PM] Starting test for project: D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\ElevatorAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:27:05 PM] Starting test for project: D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\ElevatorAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:27:05 PM] Starting test for project: D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\ElevatorAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:27:05 PM] Starting test for project: D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\ElevatorAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:27:05 PM] Starting test for project: D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\ElevatorAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:27:05 PM] Starting test for project: D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\ElevatorAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:27:05 PM] Starting test for project: D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\ElevatorAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:27:05 PM] Starting test for project: D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\ElevatorAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:27:05 PM] Starting test for project: D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\ElevatorAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:27:05 PM] Starting test for project: D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\ElevatorAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:27:05 PM] Starting test for project: D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\ElevatorAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:27:05 PM] Starting test for project: D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\ElevatorAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 1:27:09 PM] Test Parallelization enabled for D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\bin\Debug\net9.0\ElevatorAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 1:27:09 PM] D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\bin\Debug\net9.0\ElevatorAlgorithmTest.dll
+[OUTPUT 2025-02-23 1:27:08 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 1:27:08 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 1:27:08 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 1:27:08 PM] Test run for D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\bin\Debug\net9.0\ElevatorAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 1:27:07 PM]   ElevatorAlgorithmTest -> D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\bin\Debug\net9.0\ElevatorAlgorithmTest.dll
+[OUTPUT 2025-02-23 1:27:07 PM]   ElevatorAlgorithm -> D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithm\bin\Debug\net9.0\ElevatorAlgorithm.dll
+[OUTPUT 2025-02-23 1:27:07 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:27:06 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 1:27:09 PM] All tests passed successfully.
+[INFO 2025-02-23 1:27:09 PM] Test process completed. Duration: 4.04 seconds.
+[INFO 2025-02-23 1:27:09 PM] Process exited with code 0.
+[INFO 2025-02-23 1:27:05 PM] Command: dotnet test "D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\ElevatorAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:27:05 PM] Starting test for project: D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\ElevatorAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 1:21:30 PM
+ElevatorAlgorithm
+
+WritePatch ran compiler. 2025-02-23 1:22:05 PM
+ElevatorAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ElevatorAlgorithm -> D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithm\bin\Debug\net9.0\ElevatorAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.33
+
+
+WritePatch: Code is Complete.
+ElevatorAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 1:22:44 PM
+ElevatorAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 1:24:02 PM
+ElevatorAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\ElevatorAlgorithmTest.csproj (in 205 ms).
+  1 of 2 projects are up-to-date for restore.
+  ElevatorAlgorithm -> D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithm\bin\Debug\net9.0\ElevatorAlgorithm.dll
+D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\ElevatorSchedulerTests.cs(15,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\ElevatorAlgorithmTest.csproj]
+  ElevatorAlgorithmTest -> D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\bin\Debug\net9.0\ElevatorAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\ElevatorSchedulerTests.cs(15,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\ElevatorAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.51
+
+
+WritePatch: Compile failed.
+ElevatorAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:24:03 PM
+ElevatorAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 1:24:03 PM
+ElevatorAlgorithmTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 1:24:59 PM
+ElevatorAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 1:24:59 PM
+ElevatorAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 1:25:58 PM
+ElevatorAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ElevatorAlgorithm -> D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithm\bin\Debug\net9.0\ElevatorAlgorithm.dll
+  ElevatorAlgorithmTest -> D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\bin\Debug\net9.0\ElevatorAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.05
+
+
+WritePatch: Code is not Complete.
+ElevatorAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:26:15 PM
+ElevatorAlgorithmTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ElevatorAlgorithm -> D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithm\bin\Debug\net9.0\ElevatorAlgorithm.dll
+  ElevatorAlgorithmTest -> D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\bin\Debug\net9.0\ElevatorAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.05
+
+</CompilerResponse>
+2025-02-23 1:26:15 PM
+ElevatorAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 1:26:16 PM
+ElevatorAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ElevatorAlgorithm -> D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithm\bin\Debug\net9.0\ElevatorAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.79
+
+
+WritePatch: Code is Complete.
+ElevatorAlgorithm
+
+WritePatch ran compiler. 2025-02-23 1:26:47 PM
+ElevatorAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ElevatorAlgorithm -> D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithm\bin\Debug\net9.0\ElevatorAlgorithm.dll
+  ElevatorAlgorithmTest -> D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\bin\Debug\net9.0\ElevatorAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.00
+
+
+WritePatch: Code is Complete.
+ElevatorAlgorithmTest
+
+TestResult:
+[OUTPUT 2025-02-23 1:27:09 PM] Test Parallelization enabled for D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\bin\Debug\net9.0\ElevatorAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 1:27:09 PM] D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\bin\Debug\net9.0\ElevatorAlgorithmTest.dll
+[OUTPUT 2025-02-23 1:27:08 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 1:27:08 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 1:27:08 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 1:27:08 PM] Test run for D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\bin\Debug\net9.0\ElevatorAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 1:27:07 PM]   ElevatorAlgorithmTest -> D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\bin\Debug\net9.0\ElevatorAlgorithmTest.dll
+[OUTPUT 2025-02-23 1:27:07 PM]   ElevatorAlgorithm -> D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithm\bin\Debug\net9.0\ElevatorAlgorithm.dll
+[OUTPUT 2025-02-23 1:27:07 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:27:06 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 1:27:09 PM] All tests passed successfully.
+[INFO 2025-02-23 1:27:09 PM] Test process completed. Duration: 4.04 seconds.
+[INFO 2025-02-23 1:27:09 PM] Process exited with code 0.
+[INFO 2025-02-23 1:27:05 PM] Command: dotnet test "D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\ElevatorAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:27:05 PM] Starting test for project: D:\Code2025\RavenWork\ElevatorAlgorithm\ElevatorAlgorithmTest\ElevatorAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
