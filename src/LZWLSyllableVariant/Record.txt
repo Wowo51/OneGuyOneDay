@@ -1,0 +1,425 @@
+<ActRecord>
+  <ProjectName>LZWLSyllableVariant</ProjectName>
+  <ProjectDescription>LZWL: A syllable‑based variant</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>LZWL: A syllable‑based variant</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\LZWLSyllableVariant</SolutionFolderPath>
+  <ProjectFolderName>LZWLSyllableVariant</ProjectFolderName>
+  <ProjectName>LZWLSyllableVariant</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:01:39 PM
+LZWLSyllableVariant</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:03:40 PM
+LZWLSyllableVariant</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant\SyllableSequence.cs(29,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant.csproj]
+D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant\SyllableSequence.cs(39,21): warning CS8767: Nullability of reference types in type of parameter 'other' of 'bool SyllableSequence.Equals(SyllableSequence other)' doesn't match implicitly implemented member 'bool IEquatable<SyllableSequence>.Equals(SyllableSequence? other)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant.csproj]
+D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant\SyllableLzw.cs(85,56): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant.csproj]
+D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant\SyllableLzw.cs(91,38): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant.csproj]
+D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant\SyllableLzw.cs(64,79): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant.csproj]
+  LZWLSyllableVariant -> D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\bin\Debug\net9.0\LZWLSyllableVariant.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant\SyllableSequence.cs(29,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant.csproj]
+D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant\SyllableSequence.cs(39,21): warning CS8767: Nullability of reference types in type of parameter 'other' of 'bool SyllableSequence.Equals(SyllableSequence other)' doesn't match implicitly implemented member 'bool IEquatable<SyllableSequence>.Equals(SyllableSequence? other)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant.csproj]
+D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant\SyllableLzw.cs(85,56): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant.csproj]
+D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant\SyllableLzw.cs(91,38): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant.csproj]
+D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant\SyllableLzw.cs(64,79): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant.csproj]
+    5 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.48
+]]></string>
+    <string>WritePatch: Compile failed.
+LZWLSyllableVariant</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:03:42 PM
+LZWLSyllableVariant</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:03:42 PM
+LZWLSyllableVariant</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:05:56 PM
+LZWLSyllableVariant</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LZWLSyllableVariant -> D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\bin\Debug\net9.0\LZWLSyllableVariant.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.63
+]]></string>
+    <string>WritePatch: Code is Complete.
+LZWLSyllableVariant</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:07:01 PM
+LZWLSyllableVariantTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:08:52 PM
+LZWLSyllableVariantTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\LZWLSyllableVariantTest.csproj (in 282 ms).
+  1 of 2 projects are up-to-date for restore.
+  LZWLSyllableVariant -> D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\bin\Debug\net9.0\LZWLSyllableVariant.dll
+  LZWLSyllableVariantTest -> D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\bin\Debug\net9.0\LZWLSyllableVariantTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.30
+]]></string>
+    <string>WritePatch: Code is Complete.
+LZWLSyllableVariantTest</string>
+    <string>[INFO 2025-02-23 2:09:22 PM] Starting test for project: D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\LZWLSyllableVariantTest.csproj</string>
+    <string>[INFO 2025-02-23 2:09:22 PM] Starting test for project: D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\LZWLSyllableVariantTest.csproj</string>
+    <string>[INFO 2025-02-23 2:09:22 PM] Starting test for project: D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\LZWLSyllableVariantTest.csproj</string>
+    <string>[INFO 2025-02-23 2:09:22 PM] Starting test for project: D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\LZWLSyllableVariantTest.csproj</string>
+    <string>[INFO 2025-02-23 2:09:22 PM] Starting test for project: D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\LZWLSyllableVariantTest.csproj</string>
+    <string>[INFO 2025-02-23 2:09:22 PM] Starting test for project: D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\LZWLSyllableVariantTest.csproj</string>
+    <string>[INFO 2025-02-23 2:09:22 PM] Starting test for project: D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\LZWLSyllableVariantTest.csproj</string>
+    <string>[INFO 2025-02-23 2:09:22 PM] Starting test for project: D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\LZWLSyllableVariantTest.csproj</string>
+    <string>[INFO 2025-02-23 2:09:22 PM] Starting test for project: D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\LZWLSyllableVariantTest.csproj</string>
+    <string>[INFO 2025-02-23 2:09:22 PM] Starting test for project: D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\LZWLSyllableVariantTest.csproj</string>
+    <string>[INFO 2025-02-23 2:09:22 PM] Starting test for project: D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\LZWLSyllableVariantTest.csproj</string>
+    <string>[INFO 2025-02-23 2:09:22 PM] Starting test for project: D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\LZWLSyllableVariantTest.csproj</string>
+    <string>[INFO 2025-02-23 2:09:22 PM] Starting test for project: D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\LZWLSyllableVariantTest.csproj</string>
+    <string>[INFO 2025-02-23 2:09:22 PM] Starting test for project: D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\LZWLSyllableVariantTest.csproj</string>
+    <string><![CDATA[TestResult:
+[INFO] Check 'TestResults' folder for more details.
+[LAST OUTPUT] Test Run Failed.
+[LAST OUTPUT] Test Parallelization enabled for D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\bin\Debug\net9.0\LZWLSyllableVariantTest.dll (Workers: 16, Scope: MethodLevel)
+[LAST OUTPUT] D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\bin\Debug\net9.0\LZWLSyllableVariantTest.dll
+[LAST OUTPUT] A total of 1 test files matched the specified pattern.
+[LAST OUTPUT] Starting test execution, please wait...
+[LAST OUTPUT] VSTest version 17.12.0 (x64)
+[LAST OUTPUT] Test run for D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\bin\Debug\net9.0\LZWLSyllableVariantTest.dll (.NETCoreApp,Version=v9.0)
+[LAST OUTPUT]   LZWLSyllableVariantTest -> D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\bin\Debug\net9.0\LZWLSyllableVariantTest.dll
+[LAST OUTPUT]   LZWLSyllableVariant -> D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\bin\Debug\net9.0\LZWLSyllableVariant.dll
+[LAST OUTPUT]   All projects are up-to-date for restore.
+[ERROR 2025-02-23 2:09:28 PM] Process exited with code 1. Possible causes:
+[INFO 2025-02-23 2:09:28 PM] Test process completed. Duration: 5.91 seconds.
+[INFO 2025-02-23 2:09:28 PM] Process exited with code 1.
+[OUTPUT 2025-02-23 2:09:29 PM]   Passed TestRoundTrip_LargeRandomString [14 ms]
+[OUTPUT 2025-02-23 2:09:28 PM] Test Parallelization enabled for D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\bin\Debug\net9.0\LZWLSyllableVariantTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 2:09:24 PM]   LZWLSyllableVariant -> D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\bin\Debug\net9.0\LZWLSyllableVariant.dll
+[ERROR 2025-02-23 2:09:28 PM] Test Run Failed.
+[OUTPUT 2025-02-23 2:09:27 PM] D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\bin\Debug\net9.0\LZWLSyllableVariantTest.dll
+[OUTPUT 2025-02-23 2:09:27 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 2:09:26 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 2:09:26 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 2:09:25 PM] Test run for D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\bin\Debug\net9.0\LZWLSyllableVariantTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 2:09:25 PM]   LZWLSyllableVariantTest -> D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\bin\Debug\net9.0\LZWLSyllableVariantTest.dll
+[OUTPUT 2025-02-23 2:09:24 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 2:09:23 PM]   Determining projects to restore...
+[INFO 2025-02-23 2:09:22 PM] Command: dotnet test "D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\LZWLSyllableVariantTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 2:09:22 PM] Starting test for project: D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\LZWLSyllableVariantTest.csproj]]></string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:09:50 PM
+LZWLSyllableVariant</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:12:01 PM
+LZWLSyllableVariant</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant\DecompressionHelper.cs(19,56): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant.csproj]
+  LZWLSyllableVariant -> D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\bin\Debug\net9.0\LZWLSyllableVariant.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant\DecompressionHelper.cs(19,56): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.90
+]]></string>
+    <string>WritePatch: Compile failed.
+LZWLSyllableVariant</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:12:02 PM
+LZWLSyllableVariant</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:12:03 PM
+LZWLSyllableVariant</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:13:19 PM
+LZWLSyllableVariant</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LZWLSyllableVariant -> D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\bin\Debug\net9.0\LZWLSyllableVariant.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.47
+]]></string>
+    <string>WritePatch: Code is Complete.
+LZWLSyllableVariant</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:13:36 PM
+LZWLSyllableVariantTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 2:15:03 PM
+LZWLSyllableVariantTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:15:03 PM
+LZWLSyllableVariantTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:16:36 PM
+LZWLSyllableVariantTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LZWLSyllableVariant -> D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\bin\Debug\net9.0\LZWLSyllableVariant.dll
+  LZWLSyllableVariantTest -> D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\bin\Debug\net9.0\LZWLSyllableVariantTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.60
+]]></string>
+    <string>WritePatch: Code is Complete.
+LZWLSyllableVariantTest</string>
+    <string>[INFO 2025-02-23 2:16:50 PM] Starting test for project: D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\LZWLSyllableVariantTest.csproj</string>
+    <string>[INFO 2025-02-23 2:16:50 PM] Starting test for project: D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\LZWLSyllableVariantTest.csproj</string>
+    <string>[INFO 2025-02-23 2:16:50 PM] Starting test for project: D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\LZWLSyllableVariantTest.csproj</string>
+    <string>[INFO 2025-02-23 2:16:50 PM] Starting test for project: D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\LZWLSyllableVariantTest.csproj</string>
+    <string>[INFO 2025-02-23 2:16:50 PM] Starting test for project: D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\LZWLSyllableVariantTest.csproj</string>
+    <string>[INFO 2025-02-23 2:16:50 PM] Starting test for project: D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\LZWLSyllableVariantTest.csproj</string>
+    <string>[INFO 2025-02-23 2:16:50 PM] Starting test for project: D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\LZWLSyllableVariantTest.csproj</string>
+    <string>[INFO 2025-02-23 2:16:50 PM] Starting test for project: D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\LZWLSyllableVariantTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 2:16:53 PM] All tests passed successfully.
+[INFO 2025-02-23 2:16:53 PM] Test process completed. Duration: 3.76 seconds.
+[INFO 2025-02-23 2:16:53 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 2:16:53 PM]   LZWLSyllableVariantTest -> D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\bin\Debug\net9.0\LZWLSyllableVariantTest.dll
+[OUTPUT 2025-02-23 2:16:52 PM]   LZWLSyllableVariant -> D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\bin\Debug\net9.0\LZWLSyllableVariant.dll
+[OUTPUT 2025-02-23 2:16:51 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 2:16:54 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 2:16:53 PM] Test run for D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\bin\Debug\net9.0\LZWLSyllableVariantTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 2:16:51 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 2:16:50 PM] Command: dotnet test "D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\LZWLSyllableVariantTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 2:16:50 PM] Starting test for project: D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\LZWLSyllableVariantTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 2:01:39 PM
+LZWLSyllableVariant
+
+WritePatch ran compiler. 2025-02-23 2:03:40 PM
+LZWLSyllableVariant
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant\SyllableSequence.cs(29,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant.csproj]
+D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant\SyllableSequence.cs(39,21): warning CS8767: Nullability of reference types in type of parameter 'other' of 'bool SyllableSequence.Equals(SyllableSequence other)' doesn't match implicitly implemented member 'bool IEquatable<SyllableSequence>.Equals(SyllableSequence? other)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant.csproj]
+D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant\SyllableLzw.cs(85,56): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant.csproj]
+D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant\SyllableLzw.cs(91,38): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant.csproj]
+D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant\SyllableLzw.cs(64,79): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant.csproj]
+  LZWLSyllableVariant -> D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\bin\Debug\net9.0\LZWLSyllableVariant.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant\SyllableSequence.cs(29,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant.csproj]
+D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant\SyllableSequence.cs(39,21): warning CS8767: Nullability of reference types in type of parameter 'other' of 'bool SyllableSequence.Equals(SyllableSequence other)' doesn't match implicitly implemented member 'bool IEquatable<SyllableSequence>.Equals(SyllableSequence? other)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant.csproj]
+D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant\SyllableLzw.cs(85,56): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant.csproj]
+D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant\SyllableLzw.cs(91,38): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant.csproj]
+D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant\SyllableLzw.cs(64,79): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant.csproj]
+    5 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.48
+
+
+WritePatch: Compile failed.
+LZWLSyllableVariant
+
+Finished WritePatch cycle step.
+2025-02-23 2:03:42 PM
+LZWLSyllableVariant
+
+WritePatch Started CycleStep. 2025-02-23 2:03:42 PM
+LZWLSyllableVariant
+
+WritePatch ran compiler. 2025-02-23 2:05:56 PM
+LZWLSyllableVariant
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LZWLSyllableVariant -> D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\bin\Debug\net9.0\LZWLSyllableVariant.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.63
+
+
+WritePatch: Code is Complete.
+LZWLSyllableVariant
+
+WritePatch Started CycleStep. 2025-02-23 2:07:01 PM
+LZWLSyllableVariantTest
+
+WritePatch ran compiler. 2025-02-23 2:08:52 PM
+LZWLSyllableVariantTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\LZWLSyllableVariantTest.csproj (in 282 ms).
+  1 of 2 projects are up-to-date for restore.
+  LZWLSyllableVariant -> D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\bin\Debug\net9.0\LZWLSyllableVariant.dll
+  LZWLSyllableVariantTest -> D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\bin\Debug\net9.0\LZWLSyllableVariantTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.30
+
+
+WritePatch: Code is Complete.
+LZWLSyllableVariantTest
+
+TestResult:
+[INFO] Check 'TestResults' folder for more details.
+[LAST OUTPUT] Test Run Failed.
+[LAST OUTPUT] Test Parallelization enabled for D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\bin\Debug\net9.0\LZWLSyllableVariantTest.dll (Workers: 16, Scope: MethodLevel)
+[LAST OUTPUT] D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\bin\Debug\net9.0\LZWLSyllableVariantTest.dll
+[LAST OUTPUT] A total of 1 test files matched the specified pattern.
+[LAST OUTPUT] Starting test execution, please wait...
+[LAST OUTPUT] VSTest version 17.12.0 (x64)
+[LAST OUTPUT] Test run for D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\bin\Debug\net9.0\LZWLSyllableVariantTest.dll (.NETCoreApp,Version=v9.0)
+[LAST OUTPUT]   LZWLSyllableVariantTest -> D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\bin\Debug\net9.0\LZWLSyllableVariantTest.dll
+[LAST OUTPUT]   LZWLSyllableVariant -> D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\bin\Debug\net9.0\LZWLSyllableVariant.dll
+[LAST OUTPUT]   All projects are up-to-date for restore.
+[ERROR 2025-02-23 2:09:28 PM] Process exited with code 1. Possible causes:
+[INFO 2025-02-23 2:09:28 PM] Test process completed. Duration: 5.91 seconds.
+[INFO 2025-02-23 2:09:28 PM] Process exited with code 1.
+[OUTPUT 2025-02-23 2:09:29 PM]   Passed TestRoundTrip_LargeRandomString [14 ms]
+[OUTPUT 2025-02-23 2:09:28 PM] Test Parallelization enabled for D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\bin\Debug\net9.0\LZWLSyllableVariantTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 2:09:24 PM]   LZWLSyllableVariant -> D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\bin\Debug\net9.0\LZWLSyllableVariant.dll
+[ERROR 2025-02-23 2:09:28 PM] Test Run Failed.
+[OUTPUT 2025-02-23 2:09:27 PM] D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\bin\Debug\net9.0\LZWLSyllableVariantTest.dll
+[OUTPUT 2025-02-23 2:09:27 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 2:09:26 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 2:09:26 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 2:09:25 PM] Test run for D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\bin\Debug\net9.0\LZWLSyllableVariantTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 2:09:25 PM]   LZWLSyllableVariantTest -> D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\bin\Debug\net9.0\LZWLSyllableVariantTest.dll
+[OUTPUT 2025-02-23 2:09:24 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 2:09:23 PM]   Determining projects to restore...
+[INFO 2025-02-23 2:09:22 PM] Command: dotnet test "D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\LZWLSyllableVariantTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 2:09:22 PM] Starting test for project: D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\LZWLSyllableVariantTest.csproj
+
+WritePatch Started CycleStep. 2025-02-23 2:09:50 PM
+LZWLSyllableVariant
+
+WritePatch ran compiler. 2025-02-23 2:12:01 PM
+LZWLSyllableVariant
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant\DecompressionHelper.cs(19,56): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant.csproj]
+  LZWLSyllableVariant -> D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\bin\Debug\net9.0\LZWLSyllableVariant.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant\DecompressionHelper.cs(19,56): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\LZWLSyllableVariant.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.90
+
+
+WritePatch: Compile failed.
+LZWLSyllableVariant
+
+Finished WritePatch cycle step.
+2025-02-23 2:12:02 PM
+LZWLSyllableVariant
+
+WritePatch Started CycleStep. 2025-02-23 2:12:03 PM
+LZWLSyllableVariant
+
+WritePatch ran compiler. 2025-02-23 2:13:19 PM
+LZWLSyllableVariant
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LZWLSyllableVariant -> D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\bin\Debug\net9.0\LZWLSyllableVariant.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.47
+
+
+WritePatch: Code is Complete.
+LZWLSyllableVariant
+
+WritePatch Started CycleStep. 2025-02-23 2:13:36 PM
+LZWLSyllableVariantTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 2:15:03 PM
+LZWLSyllableVariantTest
+
+WritePatch Started CycleStep. 2025-02-23 2:15:03 PM
+LZWLSyllableVariantTest
+
+WritePatch ran compiler. 2025-02-23 2:16:36 PM
+LZWLSyllableVariantTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LZWLSyllableVariant -> D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\bin\Debug\net9.0\LZWLSyllableVariant.dll
+  LZWLSyllableVariantTest -> D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\bin\Debug\net9.0\LZWLSyllableVariantTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.60
+
+
+WritePatch: Code is Complete.
+LZWLSyllableVariantTest
+
+TestResult:
+[SUCCESS 2025-02-23 2:16:53 PM] All tests passed successfully.
+[INFO 2025-02-23 2:16:53 PM] Test process completed. Duration: 3.76 seconds.
+[INFO 2025-02-23 2:16:53 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 2:16:53 PM]   LZWLSyllableVariantTest -> D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\bin\Debug\net9.0\LZWLSyllableVariantTest.dll
+[OUTPUT 2025-02-23 2:16:52 PM]   LZWLSyllableVariant -> D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariant\bin\Debug\net9.0\LZWLSyllableVariant.dll
+[OUTPUT 2025-02-23 2:16:51 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 2:16:54 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 2:16:53 PM] Test run for D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\bin\Debug\net9.0\LZWLSyllableVariantTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 2:16:51 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 2:16:50 PM] Command: dotnet test "D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\LZWLSyllableVariantTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 2:16:50 PM] Starting test for project: D:\Code2025\RavenWork\LZWLSyllableVariant\LZWLSyllableVariantTest\LZWLSyllableVariantTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
