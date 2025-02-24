@@ -1,0 +1,284 @@
+<ActRecord>
+  <ProjectName>QuadraticSieve</ProjectName>
+  <ProjectDescription>Quadratic sieve – An algorithm for factoring integers that is effective for numbers of moderate size.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Quadratic sieve – An algorithm for factoring integers that is effective for numbers of moderate size.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\QuadraticSieve</SolutionFolderPath>
+  <ProjectFolderName>QuadraticSieve</ProjectFolderName>
+  <ProjectName>QuadraticSieve</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:14:00 PM
+QuadraticSieve</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:15:40 PM
+QuadraticSieve</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\Mod2Solver.cs(13,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\QuadraticSieve.csproj]
+D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\Mod2Solver.cs(59,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\QuadraticSieve.csproj]
+D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\QuadraticSieveAlgorithm.cs(303,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\QuadraticSieve.csproj]
+D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\QuadraticSieveAlgorithm.cs(311,30): warning CS8618: Non-nullable field 'Exponents' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\QuadraticSieve.csproj]
+D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\QuadraticSieveAlgorithm.cs(312,41): warning CS8618: Non-nullable field 'Factorization' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\QuadraticSieve.csproj]
+  QuadraticSieve -> D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\bin\Debug\net9.0\QuadraticSieve.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\Mod2Solver.cs(13,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\QuadraticSieve.csproj]
+D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\Mod2Solver.cs(59,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\QuadraticSieve.csproj]
+D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\QuadraticSieveAlgorithm.cs(303,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\QuadraticSieve.csproj]
+D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\QuadraticSieveAlgorithm.cs(311,30): warning CS8618: Non-nullable field 'Exponents' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\QuadraticSieve.csproj]
+D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\QuadraticSieveAlgorithm.cs(312,41): warning CS8618: Non-nullable field 'Factorization' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\QuadraticSieve.csproj]
+    5 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.10
+]]></string>
+    <string>WritePatch: Compile failed.
+QuadraticSieve</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:15:41 PM
+QuadraticSieve</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:15:41 PM
+QuadraticSieve</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 6:16:39 PM
+QuadraticSieve</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:16:39 PM
+QuadraticSieve</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:17:36 PM
+QuadraticSieve</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  QuadraticSieve -> D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\bin\Debug\net9.0\QuadraticSieve.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.75
+]]></string>
+    <string>WritePatch: Code is Complete.
+QuadraticSieve</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:18:03 PM
+QuadraticSieveTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:19:30 PM
+QuadraticSieveTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieveTest\QuadraticSieveTest.csproj (in 483 ms).
+  1 of 2 projects are up-to-date for restore.
+  QuadraticSieve -> D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\bin\Debug\net9.0\QuadraticSieve.dll
+  QuadraticSieveTest -> D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieveTest\bin\Debug\net9.0\QuadraticSieveTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.98
+]]></string>
+    <string>WritePatch: Code is not Complete.
+QuadraticSieveTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:19:59 PM
+QuadraticSieveTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:20:00 PM
+QuadraticSieveTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:21:03 PM
+QuadraticSieveTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  QuadraticSieve -> D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\bin\Debug\net9.0\QuadraticSieve.dll
+  QuadraticSieveTest -> D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieveTest\bin\Debug\net9.0\QuadraticSieveTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.40
+]]></string>
+    <string>WritePatch: Code is Complete.
+QuadraticSieveTest</string>
+    <string>[INFO 2025-02-23 6:21:23 PM] Starting test for project: D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieveTest\QuadraticSieveTest.csproj</string>
+    <string>[INFO 2025-02-23 6:21:23 PM] Starting test for project: D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieveTest\QuadraticSieveTest.csproj</string>
+    <string>[INFO 2025-02-23 6:21:23 PM] Starting test for project: D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieveTest\QuadraticSieveTest.csproj</string>
+    <string>[INFO 2025-02-23 6:21:23 PM] Starting test for project: D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieveTest\QuadraticSieveTest.csproj</string>
+    <string>[INFO 2025-02-23 6:21:23 PM] Starting test for project: D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieveTest\QuadraticSieveTest.csproj</string>
+    <string>[INFO 2025-02-23 6:21:23 PM] Starting test for project: D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieveTest\QuadraticSieveTest.csproj</string>
+    <string>[INFO 2025-02-23 6:21:23 PM] Starting test for project: D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieveTest\QuadraticSieveTest.csproj</string>
+    <string>[INFO 2025-02-23 6:21:23 PM] Starting test for project: D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieveTest\QuadraticSieveTest.csproj</string>
+    <string>[INFO 2025-02-23 6:21:23 PM] Starting test for project: D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieveTest\QuadraticSieveTest.csproj</string>
+    <string>[INFO 2025-02-23 6:21:23 PM] Starting test for project: D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieveTest\QuadraticSieveTest.csproj</string>
+    <string>[INFO 2025-02-23 6:21:23 PM] Starting test for project: D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieveTest\QuadraticSieveTest.csproj</string>
+    <string>[INFO 2025-02-23 6:21:23 PM] Starting test for project: D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieveTest\QuadraticSieveTest.csproj</string>
+    <string>[INFO 2025-02-23 6:21:23 PM] Starting test for project: D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieveTest\QuadraticSieveTest.csproj</string>
+    <string>[INFO 2025-02-23 6:21:23 PM] Starting test for project: D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieveTest\QuadraticSieveTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 6:21:31 PM] All tests passed successfully.
+[INFO 2025-02-23 6:21:31 PM] Test process completed. Duration: 7.79 seconds.
+[INFO 2025-02-23 6:21:31 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 6:21:30 PM] Test Parallelization enabled for D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieveTest\bin\Debug\net9.0\QuadraticSieveTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 6:21:28 PM] D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieveTest\bin\Debug\net9.0\QuadraticSieveTest.dll
+[OUTPUT 2025-02-23 6:21:28 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:21:28 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:21:27 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:21:26 PM]   QuadraticSieve -> D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\bin\Debug\net9.0\QuadraticSieve.dll
+[OUTPUT 2025-02-23 6:21:24 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 6:21:31 PM]   Passed TestFactor_LargePrime [63 ms]
+[OUTPUT 2025-02-23 6:21:30 PM]   Passed TestMod2Solver_EmptyMatrix [59 ms]
+[OUTPUT 2025-02-23 6:21:27 PM] Test run for D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieveTest\bin\Debug\net9.0\QuadraticSieveTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:21:26 PM]   QuadraticSieveTest -> D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieveTest\bin\Debug\net9.0\QuadraticSieveTest.dll
+[OUTPUT 2025-02-23 6:21:25 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 6:21:23 PM] Command: dotnet test "D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieveTest\QuadraticSieveTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:21:23 PM] Starting test for project: D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieveTest\QuadraticSieveTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 6:14:00 PM
+QuadraticSieve
+
+WritePatch ran compiler. 2025-02-23 6:15:40 PM
+QuadraticSieve
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\Mod2Solver.cs(13,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\QuadraticSieve.csproj]
+D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\Mod2Solver.cs(59,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\QuadraticSieve.csproj]
+D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\QuadraticSieveAlgorithm.cs(303,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\QuadraticSieve.csproj]
+D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\QuadraticSieveAlgorithm.cs(311,30): warning CS8618: Non-nullable field 'Exponents' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\QuadraticSieve.csproj]
+D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\QuadraticSieveAlgorithm.cs(312,41): warning CS8618: Non-nullable field 'Factorization' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\QuadraticSieve.csproj]
+  QuadraticSieve -> D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\bin\Debug\net9.0\QuadraticSieve.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\Mod2Solver.cs(13,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\QuadraticSieve.csproj]
+D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\Mod2Solver.cs(59,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\QuadraticSieve.csproj]
+D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\QuadraticSieveAlgorithm.cs(303,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\QuadraticSieve.csproj]
+D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\QuadraticSieveAlgorithm.cs(311,30): warning CS8618: Non-nullable field 'Exponents' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\QuadraticSieve.csproj]
+D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\QuadraticSieveAlgorithm.cs(312,41): warning CS8618: Non-nullable field 'Factorization' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\QuadraticSieve.csproj]
+    5 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.10
+
+
+WritePatch: Compile failed.
+QuadraticSieve
+
+Finished WritePatch cycle step.
+2025-02-23 6:15:41 PM
+QuadraticSieve
+
+WritePatch Started CycleStep. 2025-02-23 6:15:41 PM
+QuadraticSieve
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 6:16:39 PM
+QuadraticSieve
+
+WritePatch Started CycleStep. 2025-02-23 6:16:39 PM
+QuadraticSieve
+
+WritePatch ran compiler. 2025-02-23 6:17:36 PM
+QuadraticSieve
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  QuadraticSieve -> D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\bin\Debug\net9.0\QuadraticSieve.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.75
+
+
+WritePatch: Code is Complete.
+QuadraticSieve
+
+WritePatch Started CycleStep. 2025-02-23 6:18:03 PM
+QuadraticSieveTest
+
+WritePatch ran compiler. 2025-02-23 6:19:30 PM
+QuadraticSieveTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieveTest\QuadraticSieveTest.csproj (in 483 ms).
+  1 of 2 projects are up-to-date for restore.
+  QuadraticSieve -> D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\bin\Debug\net9.0\QuadraticSieve.dll
+  QuadraticSieveTest -> D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieveTest\bin\Debug\net9.0\QuadraticSieveTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.98
+
+
+WritePatch: Code is not Complete.
+QuadraticSieveTest
+
+Finished WritePatch cycle step.
+2025-02-23 6:19:59 PM
+QuadraticSieveTest
+
+WritePatch Started CycleStep. 2025-02-23 6:20:00 PM
+QuadraticSieveTest
+
+WritePatch ran compiler. 2025-02-23 6:21:03 PM
+QuadraticSieveTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  QuadraticSieve -> D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\bin\Debug\net9.0\QuadraticSieve.dll
+  QuadraticSieveTest -> D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieveTest\bin\Debug\net9.0\QuadraticSieveTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.40
+
+
+WritePatch: Code is Complete.
+QuadraticSieveTest
+
+TestResult:
+[SUCCESS 2025-02-23 6:21:31 PM] All tests passed successfully.
+[INFO 2025-02-23 6:21:31 PM] Test process completed. Duration: 7.79 seconds.
+[INFO 2025-02-23 6:21:31 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 6:21:30 PM] Test Parallelization enabled for D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieveTest\bin\Debug\net9.0\QuadraticSieveTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 6:21:28 PM] D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieveTest\bin\Debug\net9.0\QuadraticSieveTest.dll
+[OUTPUT 2025-02-23 6:21:28 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:21:28 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:21:27 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:21:26 PM]   QuadraticSieve -> D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieve\bin\Debug\net9.0\QuadraticSieve.dll
+[OUTPUT 2025-02-23 6:21:24 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 6:21:31 PM]   Passed TestFactor_LargePrime [63 ms]
+[OUTPUT 2025-02-23 6:21:30 PM]   Passed TestMod2Solver_EmptyMatrix [59 ms]
+[OUTPUT 2025-02-23 6:21:27 PM] Test run for D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieveTest\bin\Debug\net9.0\QuadraticSieveTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:21:26 PM]   QuadraticSieveTest -> D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieveTest\bin\Debug\net9.0\QuadraticSieveTest.dll
+[OUTPUT 2025-02-23 6:21:25 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 6:21:23 PM] Command: dotnet test "D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieveTest\QuadraticSieveTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:21:23 PM] Starting test for project: D:\Code2025\RavenWork\QuadraticSieve\QuadraticSieveTest\QuadraticSieveTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
