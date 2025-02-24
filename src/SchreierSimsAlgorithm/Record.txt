@@ -1,0 +1,572 @@
+<ActRecord>
+  <ProjectName>SchreierSimsAlgorithm</ProjectName>
+  <ProjectDescription>Schreier–Sims algorithm – Computes a base and strong generating set (BSGS) for a permutation group.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Schreier–Sims algorithm – Computes a base and strong generating set (BSGS) for a permutation group.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\SchreierSimsAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>SchreierSimsAlgorithm</ProjectFolderName>
+  <ProjectName>SchreierSimsAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:14:54 AM
+SchreierSimsAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:18:03 AM
+SchreierSimsAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\Permutation.cs(101,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\SchreierSimsAlgorithm.csproj]
+D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\Permutation.cs(103,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\SchreierSimsAlgorithm.csproj]
+  SchreierSimsAlgorithm -> D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\bin\Debug\net9.0\SchreierSimsAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\Permutation.cs(101,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\SchreierSimsAlgorithm.csproj]
+D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\Permutation.cs(103,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\SchreierSimsAlgorithm.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+]]></string>
+    <string>WritePatch: Compile failed.
+SchreierSimsAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:18:04 AM
+SchreierSimsAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:18:04 AM
+SchreierSimsAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:19:11 AM
+SchreierSimsAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\Permutation.cs(103,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\SchreierSimsAlgorithm.csproj]
+  SchreierSimsAlgorithm -> D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\bin\Debug\net9.0\SchreierSimsAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\Permutation.cs(103,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\SchreierSimsAlgorithm.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.80
+]]></string>
+    <string>WritePatch: Compile failed.
+SchreierSimsAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:19:11 AM
+SchreierSimsAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:19:12 AM
+SchreierSimsAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:21:27 AM
+SchreierSimsAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SchreierSimsAlgorithm -> D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\bin\Debug\net9.0\SchreierSimsAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.75
+]]></string>
+    <string>WritePatch: Code is not Complete.
+SchreierSimsAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:22:34 AM
+SchreierSimsAlgorithm</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SchreierSimsAlgorithm -> D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\bin\Debug\net9.0\SchreierSimsAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.75
+
+</CompilerResponse>
+2025-02-23 7:22:34 AM
+SchreierSimsAlgorithm]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 7:22:36 AM
+SchreierSimsAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SchreierSimsAlgorithm -> D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\bin\Debug\net9.0\SchreierSimsAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.71
+]]></string>
+    <string>WritePatch: Code is Complete.
+SchreierSimsAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:24:46 AM
+SchreierSimsAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:25:50 AM
+SchreierSimsAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmTest.csproj (in 184 ms).
+  1 of 2 projects are up-to-date for restore.
+  SchreierSimsAlgorithm -> D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\bin\Debug\net9.0\SchreierSimsAlgorithm.dll
+  SchreierSimsAlgorithmTest -> D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\bin\Debug\net9.0\SchreierSimsAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.28
+]]></string>
+    <string>WritePatch: Code is not Complete.
+SchreierSimsAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:26:23 AM
+SchreierSimsAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:26:23 AM
+SchreierSimsAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:27:19 AM
+SchreierSimsAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SchreierSimsAlgorithm -> D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\bin\Debug\net9.0\SchreierSimsAlgorithm.dll
+D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmUnitTests.cs(194,99): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmTest.csproj]
+  SchreierSimsAlgorithmTest -> D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\bin\Debug\net9.0\SchreierSimsAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmUnitTests.cs(194,99): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+]]></string>
+    <string>WritePatch: Compile failed.
+SchreierSimsAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:27:20 AM
+SchreierSimsAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:27:21 AM
+SchreierSimsAlgorithmTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 7:27:57 AM
+SchreierSimsAlgorithmTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SchreierSimsAlgorithm -> D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\bin\Debug\net9.0\SchreierSimsAlgorithm.dll
+D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmUnitTests.cs(194,99): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmTest.csproj]
+  SchreierSimsAlgorithmTest -> D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\bin\Debug\net9.0\SchreierSimsAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmUnitTests.cs(194,99): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+
+</CompilerResponse>
+2025-02-23 7:27:57 AM
+SchreierSimsAlgorithmTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 7:27:59 AM
+SchreierSimsAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SchreierSimsAlgorithm -> D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\bin\Debug\net9.0\SchreierSimsAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+]]></string>
+    <string>WritePatch: Code is Complete.
+SchreierSimsAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:28:29 AM
+SchreierSimsAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SchreierSimsAlgorithm -> D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\bin\Debug\net9.0\SchreierSimsAlgorithm.dll
+  SchreierSimsAlgorithmTest -> D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\bin\Debug\net9.0\SchreierSimsAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87
+]]></string>
+    <string>WritePatch: Code is Complete.
+SchreierSimsAlgorithmTest</string>
+    <string>[INFO 2025-02-23 7:28:39 AM] Starting test for project: D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:28:39 AM] Starting test for project: D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:28:39 AM] Starting test for project: D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:28:39 AM] Starting test for project: D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:28:39 AM] Starting test for project: D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:28:39 AM] Starting test for project: D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:28:39 AM] Starting test for project: D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:28:39 AM] Starting test for project: D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:28:39 AM] Starting test for project: D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:28:39 AM] Starting test for project: D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:28:39 AM] Starting test for project: D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:28:39 AM] Starting test for project: D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:28:39 AM] Starting test for project: D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:28:39 AM] Starting test for project: D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:28:39 AM] Starting test for project: D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:28:39 AM] Starting test for project: D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:28:39 AM] Starting test for project: D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:28:39 AM] Starting test for project: D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:28:39 AM] Starting test for project: D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:28:39 AM] Starting test for project: D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:28:39 AM] Starting test for project: D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:28:39 AM] Starting test for project: D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:28:39 AM] Starting test for project: D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:28:39 AM] Starting test for project: D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 7:30:10 AM] Test Run Successful.
+[OUTPUT 2025-02-23 7:30:10 AM]   Passed TestComputeBSGS_LargeRandomGenerators [1 m 28 s]
+[OUTPUT 2025-02-23 7:28:43 AM]   Passed TestPermutationInverse [4 ms]
+[OUTPUT 2025-02-23 7:28:43 AM]   Passed TestPermutationEqualsAndToString [4 ms]
+[OUTPUT 2025-02-23 7:28:43 AM]   Passed TestComputeBSGST_S3 [4 ms]
+[OUTPUT 2025-02-23 7:28:43 AM]   Passed TestPermutationComposeWithIdentity [4 ms]
+[OUTPUT 2025-02-23 7:28:42 AM]   Passed TestIdentityPermutation [4 ms]
+[OUTPUT 2025-02-23 7:28:42 AM]   Passed TestComputeBSGST_RandomGenerators [4 ms]
+[OUTPUT 2025-02-23 7:28:42 AM]   Passed TestComputeBSGS_NullGenerators [< 1 ms]
+[OUTPUT 2025-02-23 7:28:42 AM]   Passed TestComputeBSGST_TrivialGroup [4 ms]
+[OUTPUT 2025-02-23 7:28:42 AM]   Passed TestNullMapping [4 ms]
+[OUTPUT 2025-02-23 7:28:41 AM]   Passed TestApplyInvalidIndex [4 ms]
+[OUTPUT 2025-02-23 7:28:41 AM] Test Parallelization enabled for D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\bin\Debug\net9.0\SchreierSimsAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:28:41 AM] D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\bin\Debug\net9.0\SchreierSimsAlgorithmTest.dll
+[OUTPUT 2025-02-23 7:28:41 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:28:40 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:28:40 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:28:40 AM] Test run for D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\bin\Debug\net9.0\SchreierSimsAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:28:40 AM]   SchreierSimsAlgorithmTest -> D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\bin\Debug\net9.0\SchreierSimsAlgorithmTest.dll
+[OUTPUT 2025-02-23 7:28:40 AM]   SchreierSimsAlgorithm -> D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\bin\Debug\net9.0\SchreierSimsAlgorithm.dll
+[OUTPUT 2025-02-23 7:28:39 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:28:39 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 7:30:10 AM] All tests passed successfully.
+[INFO 2025-02-23 7:30:10 AM] Test process completed. Duration: 91.21 seconds.
+[INFO 2025-02-23 7:30:10 AM] Process exited with code 0.
+[INFO 2025-02-23 7:28:39 AM] Command: dotnet test "D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:28:39 AM] Starting test for project: D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 7:14:54 AM
+SchreierSimsAlgorithm
+
+WritePatch ran compiler. 2025-02-23 7:18:03 AM
+SchreierSimsAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\Permutation.cs(101,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\SchreierSimsAlgorithm.csproj]
+D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\Permutation.cs(103,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\SchreierSimsAlgorithm.csproj]
+  SchreierSimsAlgorithm -> D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\bin\Debug\net9.0\SchreierSimsAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\Permutation.cs(101,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\SchreierSimsAlgorithm.csproj]
+D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\Permutation.cs(103,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\SchreierSimsAlgorithm.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+
+
+WritePatch: Compile failed.
+SchreierSimsAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 7:18:04 AM
+SchreierSimsAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 7:18:04 AM
+SchreierSimsAlgorithm
+
+WritePatch ran compiler. 2025-02-23 7:19:11 AM
+SchreierSimsAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\Permutation.cs(103,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\SchreierSimsAlgorithm.csproj]
+  SchreierSimsAlgorithm -> D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\bin\Debug\net9.0\SchreierSimsAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\Permutation.cs(103,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\SchreierSimsAlgorithm.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.80
+
+
+WritePatch: Compile failed.
+SchreierSimsAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 7:19:11 AM
+SchreierSimsAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 7:19:12 AM
+SchreierSimsAlgorithm
+
+WritePatch ran compiler. 2025-02-23 7:21:27 AM
+SchreierSimsAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SchreierSimsAlgorithm -> D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\bin\Debug\net9.0\SchreierSimsAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.75
+
+
+WritePatch: Code is not Complete.
+SchreierSimsAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 7:22:34 AM
+SchreierSimsAlgorithm
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SchreierSimsAlgorithm -> D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\bin\Debug\net9.0\SchreierSimsAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.75
+
+</CompilerResponse>
+2025-02-23 7:22:34 AM
+SchreierSimsAlgorithm
+
+WritePatch ran compiler. 2025-02-23 7:22:36 AM
+SchreierSimsAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SchreierSimsAlgorithm -> D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\bin\Debug\net9.0\SchreierSimsAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.71
+
+
+WritePatch: Code is Complete.
+SchreierSimsAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 7:24:46 AM
+SchreierSimsAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 7:25:50 AM
+SchreierSimsAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmTest.csproj (in 184 ms).
+  1 of 2 projects are up-to-date for restore.
+  SchreierSimsAlgorithm -> D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\bin\Debug\net9.0\SchreierSimsAlgorithm.dll
+  SchreierSimsAlgorithmTest -> D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\bin\Debug\net9.0\SchreierSimsAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.28
+
+
+WritePatch: Code is not Complete.
+SchreierSimsAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:26:23 AM
+SchreierSimsAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 7:26:23 AM
+SchreierSimsAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 7:27:19 AM
+SchreierSimsAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SchreierSimsAlgorithm -> D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\bin\Debug\net9.0\SchreierSimsAlgorithm.dll
+D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmUnitTests.cs(194,99): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmTest.csproj]
+  SchreierSimsAlgorithmTest -> D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\bin\Debug\net9.0\SchreierSimsAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmUnitTests.cs(194,99): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+
+
+WritePatch: Compile failed.
+SchreierSimsAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:27:20 AM
+SchreierSimsAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 7:27:21 AM
+SchreierSimsAlgorithmTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 7:27:57 AM
+SchreierSimsAlgorithmTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SchreierSimsAlgorithm -> D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\bin\Debug\net9.0\SchreierSimsAlgorithm.dll
+D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmUnitTests.cs(194,99): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmTest.csproj]
+  SchreierSimsAlgorithmTest -> D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\bin\Debug\net9.0\SchreierSimsAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmUnitTests.cs(194,99): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+
+</CompilerResponse>
+2025-02-23 7:27:57 AM
+SchreierSimsAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 7:27:59 AM
+SchreierSimsAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SchreierSimsAlgorithm -> D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\bin\Debug\net9.0\SchreierSimsAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+
+
+WritePatch: Code is Complete.
+SchreierSimsAlgorithm
+
+WritePatch ran compiler. 2025-02-23 7:28:29 AM
+SchreierSimsAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SchreierSimsAlgorithm -> D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\bin\Debug\net9.0\SchreierSimsAlgorithm.dll
+  SchreierSimsAlgorithmTest -> D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\bin\Debug\net9.0\SchreierSimsAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87
+
+
+WritePatch: Code is Complete.
+SchreierSimsAlgorithmTest
+
+TestResult:
+[OUTPUT 2025-02-23 7:30:10 AM] Test Run Successful.
+[OUTPUT 2025-02-23 7:30:10 AM]   Passed TestComputeBSGS_LargeRandomGenerators [1 m 28 s]
+[OUTPUT 2025-02-23 7:28:43 AM]   Passed TestPermutationInverse [4 ms]
+[OUTPUT 2025-02-23 7:28:43 AM]   Passed TestPermutationEqualsAndToString [4 ms]
+[OUTPUT 2025-02-23 7:28:43 AM]   Passed TestComputeBSGST_S3 [4 ms]
+[OUTPUT 2025-02-23 7:28:43 AM]   Passed TestPermutationComposeWithIdentity [4 ms]
+[OUTPUT 2025-02-23 7:28:42 AM]   Passed TestIdentityPermutation [4 ms]
+[OUTPUT 2025-02-23 7:28:42 AM]   Passed TestComputeBSGST_RandomGenerators [4 ms]
+[OUTPUT 2025-02-23 7:28:42 AM]   Passed TestComputeBSGS_NullGenerators [< 1 ms]
+[OUTPUT 2025-02-23 7:28:42 AM]   Passed TestComputeBSGST_TrivialGroup [4 ms]
+[OUTPUT 2025-02-23 7:28:42 AM]   Passed TestNullMapping [4 ms]
+[OUTPUT 2025-02-23 7:28:41 AM]   Passed TestApplyInvalidIndex [4 ms]
+[OUTPUT 2025-02-23 7:28:41 AM] Test Parallelization enabled for D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\bin\Debug\net9.0\SchreierSimsAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:28:41 AM] D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\bin\Debug\net9.0\SchreierSimsAlgorithmTest.dll
+[OUTPUT 2025-02-23 7:28:41 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:28:40 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:28:40 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:28:40 AM] Test run for D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\bin\Debug\net9.0\SchreierSimsAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:28:40 AM]   SchreierSimsAlgorithmTest -> D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\bin\Debug\net9.0\SchreierSimsAlgorithmTest.dll
+[OUTPUT 2025-02-23 7:28:40 AM]   SchreierSimsAlgorithm -> D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithm\bin\Debug\net9.0\SchreierSimsAlgorithm.dll
+[OUTPUT 2025-02-23 7:28:39 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:28:39 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 7:30:10 AM] All tests passed successfully.
+[INFO 2025-02-23 7:30:10 AM] Test process completed. Duration: 91.21 seconds.
+[INFO 2025-02-23 7:30:10 AM] Process exited with code 0.
+[INFO 2025-02-23 7:28:39 AM] Command: dotnet test "D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:28:39 AM] Starting test for project: D:\Code2025\RavenWork\SchreierSimsAlgorithm\SchreierSimsAlgorithmTest\SchreierSimsAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
