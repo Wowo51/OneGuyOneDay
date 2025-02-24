@@ -1,0 +1,448 @@
+<ActRecord>
+  <ProjectName>KosarajuAlgorithm</ProjectName>
+  <ProjectDescription><![CDATA[Kosaraju's algorithm]]></ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification><![CDATA[Kosaraju's algorithm]]]]><![CDATA[></WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\KosarajuAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>KosarajuAlgorithm</ProjectFolderName>
+  <ProjectName>KosarajuAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:44:05 PM
+KosarajuAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:44:51 PM
+KosarajuAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithm\KosarajuAlgorithm\KosarajuSccFinder.cs(45,61): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithm\KosarajuAlgorithm.csproj]
+D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithm\KosarajuAlgorithm\KosarajuSccFinder.cs(63,61): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithm\KosarajuAlgorithm.csproj]
+  KosarajuAlgorithm -> D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithm\bin\Debug\net9.0\KosarajuAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithm\KosarajuAlgorithm\KosarajuSccFinder.cs(45,61): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithm\KosarajuAlgorithm.csproj]
+D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithm\KosarajuAlgorithm\KosarajuSccFinder.cs(63,61): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithm\KosarajuAlgorithm.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.47
+]]></string>
+    <string>WritePatch: Compile failed.
+KosarajuAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:44:52 PM
+KosarajuAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:44:53 PM
+KosarajuAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:46:13 PM
+KosarajuAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KosarajuAlgorithm -> D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithm\bin\Debug\net9.0\KosarajuAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.02
+]]></string>
+    <string>WritePatch: Code is Complete.
+KosarajuAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:46:40 PM
+KosarajuAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:48:14 PM
+KosarajuAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTest.csproj (in 433 ms).
+  1 of 2 projects are up-to-date for restore.
+  KosarajuAlgorithm -> D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithm\bin\Debug\net9.0\KosarajuAlgorithm.dll
+D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTests.cs(14,86): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTest.csproj]
+  KosarajuAlgorithmTest -> D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\bin\Debug\net9.0\KosarajuAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTests.cs(14,86): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.06
+]]></string>
+    <string>WritePatch: Compile failed.
+KosarajuAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:48:15 PM
+KosarajuAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:48:15 PM
+KosarajuAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:49:18 PM
+KosarajuAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KosarajuAlgorithm -> D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithm\bin\Debug\net9.0\KosarajuAlgorithm.dll
+  KosarajuAlgorithmTest -> D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\bin\Debug\net9.0\KosarajuAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.95
+]]></string>
+    <string>WritePatch: Code is not Complete.
+KosarajuAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:49:29 PM
+KosarajuAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:49:29 PM
+KosarajuAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:50:40 PM
+KosarajuAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KosarajuAlgorithm -> D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithm\bin\Debug\net9.0\KosarajuAlgorithm.dll
+D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTests.cs(14,86): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTest.csproj]
+  KosarajuAlgorithmTest -> D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\bin\Debug\net9.0\KosarajuAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTests.cs(14,86): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.21
+]]></string>
+    <string>WritePatch: Compile failed.
+KosarajuAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:50:42 PM
+KosarajuAlgorithmTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KosarajuAlgorithm -> D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithm\bin\Debug\net9.0\KosarajuAlgorithm.dll
+D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTests.cs(14,86): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTest.csproj]
+  KosarajuAlgorithmTest -> D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\bin\Debug\net9.0\KosarajuAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTests.cs(14,86): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.21
+
+</CompilerResponse>
+2025-02-23 7:50:42 PM
+KosarajuAlgorithmTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 7:50:45 PM
+KosarajuAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KosarajuAlgorithm -> D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithm\bin\Debug\net9.0\KosarajuAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.40
+]]></string>
+    <string>WritePatch: Code is Complete.
+KosarajuAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:51:01 PM
+KosarajuAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KosarajuAlgorithm -> D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithm\bin\Debug\net9.0\KosarajuAlgorithm.dll
+  KosarajuAlgorithmTest -> D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\bin\Debug\net9.0\KosarajuAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.60
+]]></string>
+    <string>WritePatch: Code is Complete.
+KosarajuAlgorithmTest</string>
+    <string>[INFO 2025-02-23 7:51:19 PM] Starting test for project: D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:51:19 PM] Starting test for project: D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:51:19 PM] Starting test for project: D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:51:19 PM] Starting test for project: D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:51:19 PM] Starting test for project: D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:51:19 PM] Starting test for project: D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:51:19 PM] Starting test for project: D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:51:19 PM] Starting test for project: D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:51:19 PM] Starting test for project: D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:51:19 PM] Starting test for project: D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:51:19 PM] Starting test for project: D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:51:19 PM] Starting test for project: D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:51:19 PM] Starting test for project: D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 7:51:25 PM] All tests passed successfully.
+[INFO 2025-02-23 7:51:25 PM] Test process completed. Duration: 6.48 seconds.
+[INFO 2025-02-23 7:51:25 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 7:51:25 PM] Test Parallelization enabled for D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\bin\Debug\net9.0\KosarajuAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:51:24 PM] D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\bin\Debug\net9.0\KosarajuAlgorithmTest.dll
+[OUTPUT 2025-02-23 7:51:24 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:51:23 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:51:21 PM]   KosarajuAlgorithm -> D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithm\bin\Debug\net9.0\KosarajuAlgorithm.dll
+[OUTPUT 2025-02-23 7:51:20 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 7:51:26 PM]   Passed TestLargeGraphMultipleCycles [9 ms]
+[OUTPUT 2025-02-23 7:51:23 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:51:22 PM] Test run for D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\bin\Debug\net9.0\KosarajuAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:51:22 PM]   KosarajuAlgorithmTest -> D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\bin\Debug\net9.0\KosarajuAlgorithmTest.dll
+[OUTPUT 2025-02-23 7:51:21 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 7:51:19 PM] Command: dotnet test "D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:51:19 PM] Starting test for project: D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 7:44:05 PM
+KosarajuAlgorithm
+
+WritePatch ran compiler. 2025-02-23 7:44:51 PM
+KosarajuAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithm\KosarajuAlgorithm\KosarajuSccFinder.cs(45,61): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithm\KosarajuAlgorithm.csproj]
+D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithm\KosarajuAlgorithm\KosarajuSccFinder.cs(63,61): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithm\KosarajuAlgorithm.csproj]
+  KosarajuAlgorithm -> D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithm\bin\Debug\net9.0\KosarajuAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithm\KosarajuAlgorithm\KosarajuSccFinder.cs(45,61): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithm\KosarajuAlgorithm.csproj]
+D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithm\KosarajuAlgorithm\KosarajuSccFinder.cs(63,61): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithm\KosarajuAlgorithm.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.47
+
+
+WritePatch: Compile failed.
+KosarajuAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 7:44:52 PM
+KosarajuAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 7:44:53 PM
+KosarajuAlgorithm
+
+WritePatch ran compiler. 2025-02-23 7:46:13 PM
+KosarajuAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KosarajuAlgorithm -> D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithm\bin\Debug\net9.0\KosarajuAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.02
+
+
+WritePatch: Code is Complete.
+KosarajuAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 7:46:40 PM
+KosarajuAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 7:48:14 PM
+KosarajuAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTest.csproj (in 433 ms).
+  1 of 2 projects are up-to-date for restore.
+  KosarajuAlgorithm -> D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithm\bin\Debug\net9.0\KosarajuAlgorithm.dll
+D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTests.cs(14,86): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTest.csproj]
+  KosarajuAlgorithmTest -> D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\bin\Debug\net9.0\KosarajuAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTests.cs(14,86): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.06
+
+
+WritePatch: Compile failed.
+KosarajuAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:48:15 PM
+KosarajuAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 7:48:15 PM
+KosarajuAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 7:49:18 PM
+KosarajuAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KosarajuAlgorithm -> D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithm\bin\Debug\net9.0\KosarajuAlgorithm.dll
+  KosarajuAlgorithmTest -> D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\bin\Debug\net9.0\KosarajuAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.95
+
+
+WritePatch: Code is not Complete.
+KosarajuAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:49:29 PM
+KosarajuAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 7:49:29 PM
+KosarajuAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 7:50:40 PM
+KosarajuAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KosarajuAlgorithm -> D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithm\bin\Debug\net9.0\KosarajuAlgorithm.dll
+D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTests.cs(14,86): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTest.csproj]
+  KosarajuAlgorithmTest -> D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\bin\Debug\net9.0\KosarajuAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTests.cs(14,86): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.21
+
+
+WritePatch: Compile failed.
+KosarajuAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:50:42 PM
+KosarajuAlgorithmTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KosarajuAlgorithm -> D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithm\bin\Debug\net9.0\KosarajuAlgorithm.dll
+D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTests.cs(14,86): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTest.csproj]
+  KosarajuAlgorithmTest -> D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\bin\Debug\net9.0\KosarajuAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTests.cs(14,86): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.21
+
+</CompilerResponse>
+2025-02-23 7:50:42 PM
+KosarajuAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 7:50:45 PM
+KosarajuAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KosarajuAlgorithm -> D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithm\bin\Debug\net9.0\KosarajuAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.40
+
+
+WritePatch: Code is Complete.
+KosarajuAlgorithm
+
+WritePatch ran compiler. 2025-02-23 7:51:01 PM
+KosarajuAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KosarajuAlgorithm -> D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithm\bin\Debug\net9.0\KosarajuAlgorithm.dll
+  KosarajuAlgorithmTest -> D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\bin\Debug\net9.0\KosarajuAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.60
+
+
+WritePatch: Code is Complete.
+KosarajuAlgorithmTest
+
+TestResult:
+[SUCCESS 2025-02-23 7:51:25 PM] All tests passed successfully.
+[INFO 2025-02-23 7:51:25 PM] Test process completed. Duration: 6.48 seconds.
+[INFO 2025-02-23 7:51:25 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 7:51:25 PM] Test Parallelization enabled for D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\bin\Debug\net9.0\KosarajuAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:51:24 PM] D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\bin\Debug\net9.0\KosarajuAlgorithmTest.dll
+[OUTPUT 2025-02-23 7:51:24 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:51:23 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:51:21 PM]   KosarajuAlgorithm -> D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithm\bin\Debug\net9.0\KosarajuAlgorithm.dll
+[OUTPUT 2025-02-23 7:51:20 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 7:51:26 PM]   Passed TestLargeGraphMultipleCycles [9 ms]
+[OUTPUT 2025-02-23 7:51:23 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:51:22 PM] Test run for D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\bin\Debug\net9.0\KosarajuAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:51:22 PM]   KosarajuAlgorithmTest -> D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\bin\Debug\net9.0\KosarajuAlgorithmTest.dll
+[OUTPUT 2025-02-23 7:51:21 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 7:51:19 PM] Command: dotnet test "D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:51:19 PM] Starting test for project: D:\Code2025\RavenWork\KosarajuAlgorithm\KosarajuAlgorithmTest\KosarajuAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
