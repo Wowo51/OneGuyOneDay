@@ -1,0 +1,407 @@
+<ActRecord>
+  <ProjectName>DeltaEncoding</ProjectName>
+  <ProjectDescription>Delta encoding: Aids compression when sequential data is frequent</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Delta encoding: Aids compression when sequential data is frequent</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\DeltaEncoding</SolutionFolderPath>
+  <ProjectFolderName>DeltaEncoding</ProjectFolderName>
+  <ProjectName>DeltaEncoding</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:36:38 AM
+DeltaEncoding</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:37:06 AM
+DeltaEncoding</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DeltaEncoding -> D:\Code2025\RavenWork\DeltaEncoding\DeltaEncoding\bin\Debug\net9.0\DeltaEncoding.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.15
+]]></string>
+    <string>WritePatch: Code is Complete.
+DeltaEncoding</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:37:16 AM
+DeltaEncodingTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:37:52 AM
+DeltaEncodingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj (in 169 ms).
+  1 of 2 projects are up-to-date for restore.
+  DeltaEncoding -> D:\Code2025\RavenWork\DeltaEncoding\DeltaEncoding\bin\Debug\net9.0\DeltaEncoding.dll
+D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncoderTests.cs(12,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncoderTests.cs(13,49): warning CS8604: Possible null reference argument for parameter 'input' in 'int[] DeltaEncoder.Encode(int[] input)'. [D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncoderTests.cs(62,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncoderTests.cs(63,49): warning CS8604: Possible null reference argument for parameter 'encoded' in 'int[] DeltaEncoder.Decode(int[] encoded)'. [D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj]
+  DeltaEncodingTest -> D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\bin\Debug\net9.0\DeltaEncodingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncoderTests.cs(12,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncoderTests.cs(13,49): warning CS8604: Possible null reference argument for parameter 'input' in 'int[] DeltaEncoder.Encode(int[] input)'. [D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncoderTests.cs(62,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncoderTests.cs(63,49): warning CS8604: Possible null reference argument for parameter 'encoded' in 'int[] DeltaEncoder.Decode(int[] encoded)'. [D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.31
+]]></string>
+    <string>WritePatch: Compile failed.
+DeltaEncodingTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:37:52 AM
+DeltaEncodingTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:37:52 AM
+DeltaEncodingTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:40:49 AM
+DeltaEncodingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DeltaEncoding -> D:\Code2025\RavenWork\DeltaEncoding\DeltaEncoding\bin\Debug\net9.0\DeltaEncoding.dll
+D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncoderTests.cs(13,49): warning CS8604: Possible null reference argument for parameter 'input' in 'int[] DeltaEncoder.Encode(int[] input)'. [D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncoderTests.cs(63,49): warning CS8604: Possible null reference argument for parameter 'encoded' in 'int[] DeltaEncoder.Decode(int[] encoded)'. [D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj]
+  DeltaEncodingTest -> D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\bin\Debug\net9.0\DeltaEncodingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncoderTests.cs(13,49): warning CS8604: Possible null reference argument for parameter 'input' in 'int[] DeltaEncoder.Encode(int[] input)'. [D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncoderTests.cs(63,49): warning CS8604: Possible null reference argument for parameter 'encoded' in 'int[] DeltaEncoder.Decode(int[] encoded)'. [D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.92
+]]></string>
+    <string>WritePatch: Compile failed.
+DeltaEncodingTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:40:49 AM
+DeltaEncodingTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:40:49 AM
+DeltaEncodingTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:41:51 AM
+DeltaEncodingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DeltaEncoding -> D:\Code2025\RavenWork\DeltaEncoding\DeltaEncoding\bin\Debug\net9.0\DeltaEncoding.dll
+  DeltaEncodingTest -> D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\bin\Debug\net9.0\DeltaEncodingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.80
+]]></string>
+    <string>WritePatch: Code is not Complete.
+DeltaEncodingTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:42:05 AM
+DeltaEncodingTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DeltaEncoding -> D:\Code2025\RavenWork\DeltaEncoding\DeltaEncoding\bin\Debug\net9.0\DeltaEncoding.dll
+  DeltaEncodingTest -> D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\bin\Debug\net9.0\DeltaEncodingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.80
+
+</CompilerResponse>
+2025-02-23 6:42:05 AM
+DeltaEncodingTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 6:42:06 AM
+DeltaEncoding</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DeltaEncoding -> D:\Code2025\RavenWork\DeltaEncoding\DeltaEncoding\bin\Debug\net9.0\DeltaEncoding.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.69
+]]></string>
+    <string>WritePatch: Code is Complete.
+DeltaEncoding</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:42:15 AM
+DeltaEncodingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DeltaEncoding -> D:\Code2025\RavenWork\DeltaEncoding\DeltaEncoding\bin\Debug\net9.0\DeltaEncoding.dll
+  DeltaEncodingTest -> D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\bin\Debug\net9.0\DeltaEncodingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+]]></string>
+    <string>WritePatch: Code is Complete.
+DeltaEncodingTest</string>
+    <string>[INFO 2025-02-23 6:42:26 AM] Starting test for project: D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:42:26 AM] Starting test for project: D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:42:26 AM] Starting test for project: D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:42:26 AM] Starting test for project: D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:42:26 AM] Starting test for project: D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:42:26 AM] Starting test for project: D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:42:26 AM] Starting test for project: D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:42:26 AM] Starting test for project: D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:42:26 AM] Starting test for project: D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:42:26 AM] Starting test for project: D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:42:26 AM] Starting test for project: D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:42:26 AM] Starting test for project: D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:42:26 AM] Starting test for project: D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:42:26 AM] Starting test for project: D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:42:26 AM] Starting test for project: D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 6:42:29 AM]   Passed TestEncode_SingleElement_ReturnsSameElement [4 ms]
+[OUTPUT 2025-02-23 6:42:29 AM]   Passed TestDecode_NullInput_ReturnsEmptyArray [4 ms]
+[OUTPUT 2025-02-23 6:42:29 AM]   Passed TestDecode_EmptyArray_ReturnsEmptyArray [4 ms]
+[OUTPUT 2025-02-23 6:42:28 AM] Test Parallelization enabled for D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\bin\Debug\net9.0\DeltaEncodingTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 6:42:28 AM] D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\bin\Debug\net9.0\DeltaEncodingTest.dll
+[OUTPUT 2025-02-23 6:42:28 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:42:27 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:42:27 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:42:27 AM] Test run for D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\bin\Debug\net9.0\DeltaEncodingTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:42:27 AM]   DeltaEncodingTest -> D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\bin\Debug\net9.0\DeltaEncodingTest.dll
+[OUTPUT 2025-02-23 6:42:27 AM]   DeltaEncoding -> D:\Code2025\RavenWork\DeltaEncoding\DeltaEncoding\bin\Debug\net9.0\DeltaEncoding.dll
+[OUTPUT 2025-02-23 6:42:27 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 6:42:26 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 6:42:29 AM] All tests passed successfully.
+[INFO 2025-02-23 6:42:29 AM] Test process completed. Duration: 2.67 seconds.
+[INFO 2025-02-23 6:42:29 AM] Process exited with code 0.
+[INFO 2025-02-23 6:42:26 AM] Command: dotnet test "D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:42:26 AM] Starting test for project: D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 6:36:38 AM
+DeltaEncoding
+
+WritePatch ran compiler. 2025-02-23 6:37:06 AM
+DeltaEncoding
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DeltaEncoding -> D:\Code2025\RavenWork\DeltaEncoding\DeltaEncoding\bin\Debug\net9.0\DeltaEncoding.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.15
+
+
+WritePatch: Code is Complete.
+DeltaEncoding
+
+WritePatch Started CycleStep. 2025-02-23 6:37:16 AM
+DeltaEncodingTest
+
+WritePatch ran compiler. 2025-02-23 6:37:52 AM
+DeltaEncodingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj (in 169 ms).
+  1 of 2 projects are up-to-date for restore.
+  DeltaEncoding -> D:\Code2025\RavenWork\DeltaEncoding\DeltaEncoding\bin\Debug\net9.0\DeltaEncoding.dll
+D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncoderTests.cs(12,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncoderTests.cs(13,49): warning CS8604: Possible null reference argument for parameter 'input' in 'int[] DeltaEncoder.Encode(int[] input)'. [D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncoderTests.cs(62,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncoderTests.cs(63,49): warning CS8604: Possible null reference argument for parameter 'encoded' in 'int[] DeltaEncoder.Decode(int[] encoded)'. [D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj]
+  DeltaEncodingTest -> D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\bin\Debug\net9.0\DeltaEncodingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncoderTests.cs(12,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncoderTests.cs(13,49): warning CS8604: Possible null reference argument for parameter 'input' in 'int[] DeltaEncoder.Encode(int[] input)'. [D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncoderTests.cs(62,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncoderTests.cs(63,49): warning CS8604: Possible null reference argument for parameter 'encoded' in 'int[] DeltaEncoder.Decode(int[] encoded)'. [D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.31
+
+
+WritePatch: Compile failed.
+DeltaEncodingTest
+
+Finished WritePatch cycle step.
+2025-02-23 6:37:52 AM
+DeltaEncodingTest
+
+WritePatch Started CycleStep. 2025-02-23 6:37:52 AM
+DeltaEncodingTest
+
+WritePatch ran compiler. 2025-02-23 6:40:49 AM
+DeltaEncodingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DeltaEncoding -> D:\Code2025\RavenWork\DeltaEncoding\DeltaEncoding\bin\Debug\net9.0\DeltaEncoding.dll
+D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncoderTests.cs(13,49): warning CS8604: Possible null reference argument for parameter 'input' in 'int[] DeltaEncoder.Encode(int[] input)'. [D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncoderTests.cs(63,49): warning CS8604: Possible null reference argument for parameter 'encoded' in 'int[] DeltaEncoder.Decode(int[] encoded)'. [D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj]
+  DeltaEncodingTest -> D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\bin\Debug\net9.0\DeltaEncodingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncoderTests.cs(13,49): warning CS8604: Possible null reference argument for parameter 'input' in 'int[] DeltaEncoder.Encode(int[] input)'. [D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj]
+D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncoderTests.cs(63,49): warning CS8604: Possible null reference argument for parameter 'encoded' in 'int[] DeltaEncoder.Decode(int[] encoded)'. [D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.92
+
+
+WritePatch: Compile failed.
+DeltaEncodingTest
+
+Finished WritePatch cycle step.
+2025-02-23 6:40:49 AM
+DeltaEncodingTest
+
+WritePatch Started CycleStep. 2025-02-23 6:40:49 AM
+DeltaEncodingTest
+
+WritePatch ran compiler. 2025-02-23 6:41:51 AM
+DeltaEncodingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DeltaEncoding -> D:\Code2025\RavenWork\DeltaEncoding\DeltaEncoding\bin\Debug\net9.0\DeltaEncoding.dll
+  DeltaEncodingTest -> D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\bin\Debug\net9.0\DeltaEncodingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.80
+
+
+WritePatch: Code is not Complete.
+DeltaEncodingTest
+
+Finished WritePatch cycle step.
+2025-02-23 6:42:05 AM
+DeltaEncodingTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DeltaEncoding -> D:\Code2025\RavenWork\DeltaEncoding\DeltaEncoding\bin\Debug\net9.0\DeltaEncoding.dll
+  DeltaEncodingTest -> D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\bin\Debug\net9.0\DeltaEncodingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.80
+
+</CompilerResponse>
+2025-02-23 6:42:05 AM
+DeltaEncodingTest
+
+WritePatch ran compiler. 2025-02-23 6:42:06 AM
+DeltaEncoding
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DeltaEncoding -> D:\Code2025\RavenWork\DeltaEncoding\DeltaEncoding\bin\Debug\net9.0\DeltaEncoding.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.69
+
+
+WritePatch: Code is Complete.
+DeltaEncoding
+
+WritePatch ran compiler. 2025-02-23 6:42:15 AM
+DeltaEncodingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DeltaEncoding -> D:\Code2025\RavenWork\DeltaEncoding\DeltaEncoding\bin\Debug\net9.0\DeltaEncoding.dll
+  DeltaEncodingTest -> D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\bin\Debug\net9.0\DeltaEncodingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+
+
+WritePatch: Code is Complete.
+DeltaEncodingTest
+
+TestResult:
+[OUTPUT 2025-02-23 6:42:29 AM]   Passed TestEncode_SingleElement_ReturnsSameElement [4 ms]
+[OUTPUT 2025-02-23 6:42:29 AM]   Passed TestDecode_NullInput_ReturnsEmptyArray [4 ms]
+[OUTPUT 2025-02-23 6:42:29 AM]   Passed TestDecode_EmptyArray_ReturnsEmptyArray [4 ms]
+[OUTPUT 2025-02-23 6:42:28 AM] Test Parallelization enabled for D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\bin\Debug\net9.0\DeltaEncodingTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 6:42:28 AM] D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\bin\Debug\net9.0\DeltaEncodingTest.dll
+[OUTPUT 2025-02-23 6:42:28 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:42:27 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:42:27 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:42:27 AM] Test run for D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\bin\Debug\net9.0\DeltaEncodingTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:42:27 AM]   DeltaEncodingTest -> D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\bin\Debug\net9.0\DeltaEncodingTest.dll
+[OUTPUT 2025-02-23 6:42:27 AM]   DeltaEncoding -> D:\Code2025\RavenWork\DeltaEncoding\DeltaEncoding\bin\Debug\net9.0\DeltaEncoding.dll
+[OUTPUT 2025-02-23 6:42:27 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 6:42:26 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 6:42:29 AM] All tests passed successfully.
+[INFO 2025-02-23 6:42:29 AM] Test process completed. Duration: 2.67 seconds.
+[INFO 2025-02-23 6:42:29 AM] Process exited with code 0.
+[INFO 2025-02-23 6:42:26 AM] Command: dotnet test "D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:42:26 AM] Starting test for project: D:\Code2025\RavenWork\DeltaEncoding\DeltaEncodingTest\DeltaEncodingTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
