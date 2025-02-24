@@ -1,0 +1,402 @@
+<ActRecord>
+  <ProjectName>TrigramSearch</ProjectName>
+  <ProjectDescription>Trigram search: search for text when the exact syntax or spelling of the target object is not precisely known</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Trigram search: search for text when the exact syntax or spelling of the target object is not precisely known</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\TrigramSearch</SolutionFolderPath>
+  <ProjectFolderName>TrigramSearch</ProjectFolderName>
+  <ProjectName>TrigramSearch</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:09:06 PM
+TrigramSearch</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:09:48 PM
+TrigramSearch</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TrigramSearch -> D:\Code2025\RavenWork\TrigramSearch\TrigramSearch\bin\Debug\net9.0\TrigramSearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.96
+]]></string>
+    <string>WritePatch: Code is Complete.
+TrigramSearch</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:10:12 PM
+TrigramSearchTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:11:08 PM
+TrigramSearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj (in 275 ms).
+  1 of 2 projects are up-to-date for restore.
+  TrigramSearch -> D:\Code2025\RavenWork\TrigramSearch\TrigramSearch\bin\Debug\net9.0\TrigramSearch.dll
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramHelperTests.cs(14,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramIndexTests.cs(15,31): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramIndexTests.cs(24,39): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+  TrigramSearchTest -> D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\bin\Debug\net9.0\TrigramSearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramHelperTests.cs(14,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramIndexTests.cs(15,31): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramIndexTests.cs(24,39): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.77
+]]></string>
+    <string>WritePatch: Compile failed.
+TrigramSearchTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:11:13 PM
+TrigramSearchTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:11:14 PM
+TrigramSearchTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:11:54 PM
+TrigramSearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TrigramSearch -> D:\Code2025\RavenWork\TrigramSearch\TrigramSearch\bin\Debug\net9.0\TrigramSearch.dll
+  TrigramSearchTest -> D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\bin\Debug\net9.0\TrigramSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.11
+]]></string>
+    <string>WritePatch: Code is not Complete.
+TrigramSearchTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:12:26 PM
+TrigramSearchTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:12:29 PM
+TrigramSearchTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:13:38 PM
+TrigramSearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TrigramSearch -> D:\Code2025\RavenWork\TrigramSearch\TrigramSearch\bin\Debug\net9.0\TrigramSearch.dll
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramIndexTests.cs(15,31): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramHelperTests.cs(14,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramIndexTests.cs(24,39): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramIndexTests.cs(76,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+  TrigramSearchTest -> D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\bin\Debug\net9.0\TrigramSearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramIndexTests.cs(15,31): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramHelperTests.cs(14,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramIndexTests.cs(24,39): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramIndexTests.cs(76,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.30
+]]></string>
+    <string>WritePatch: Compile failed.
+TrigramSearchTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:13:42 PM
+TrigramSearchTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TrigramSearch -> D:\Code2025\RavenWork\TrigramSearch\TrigramSearch\bin\Debug\net9.0\TrigramSearch.dll
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramIndexTests.cs(15,31): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramHelperTests.cs(14,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramIndexTests.cs(24,39): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramIndexTests.cs(76,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+  TrigramSearchTest -> D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\bin\Debug\net9.0\TrigramSearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramIndexTests.cs(15,31): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramHelperTests.cs(14,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramIndexTests.cs(24,39): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramIndexTests.cs(76,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.30
+
+</CompilerResponse>
+2025-02-23 1:13:42 PM
+TrigramSearchTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 1:13:45 PM
+TrigramSearch</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TrigramSearch -> D:\Code2025\RavenWork\TrigramSearch\TrigramSearch\bin\Debug\net9.0\TrigramSearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.83
+]]></string>
+    <string>WritePatch: Code is Complete.
+TrigramSearch</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:14:00 PM
+TrigramSearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TrigramSearch -> D:\Code2025\RavenWork\TrigramSearch\TrigramSearch\bin\Debug\net9.0\TrigramSearch.dll
+  TrigramSearchTest -> D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\bin\Debug\net9.0\TrigramSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.13
+]]></string>
+    <string>WritePatch: Code is Complete.
+TrigramSearchTest</string>
+    <string>[INFO 2025-02-23 1:14:17 PM] Starting test for project: D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:14:17 PM] Starting test for project: D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:14:17 PM] Starting test for project: D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:14:17 PM] Starting test for project: D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:14:17 PM] Starting test for project: D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:14:17 PM] Starting test for project: D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 1:14:22 PM]   TrigramSearchTest -> D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\bin\Debug\net9.0\TrigramSearchTest.dll
+[OUTPUT 2025-02-23 1:14:20 PM]   TrigramSearch -> D:\Code2025\RavenWork\TrigramSearch\TrigramSearch\bin\Debug\net9.0\TrigramSearch.dll
+[OUTPUT 2025-02-23 1:14:19 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:14:18 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 1:14:21 PM] All tests passed successfully.
+[INFO 2025-02-23 1:14:21 PM] Test process completed. Duration: 4.25 seconds.
+[INFO 2025-02-23 1:14:21 PM] Process exited with code 0.
+[INFO 2025-02-23 1:14:17 PM] Command: dotnet test "D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:14:17 PM] Starting test for project: D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 1:09:06 PM
+TrigramSearch
+
+WritePatch ran compiler. 2025-02-23 1:09:48 PM
+TrigramSearch
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TrigramSearch -> D:\Code2025\RavenWork\TrigramSearch\TrigramSearch\bin\Debug\net9.0\TrigramSearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.96
+
+
+WritePatch: Code is Complete.
+TrigramSearch
+
+WritePatch Started CycleStep. 2025-02-23 1:10:12 PM
+TrigramSearchTest
+
+WritePatch ran compiler. 2025-02-23 1:11:08 PM
+TrigramSearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj (in 275 ms).
+  1 of 2 projects are up-to-date for restore.
+  TrigramSearch -> D:\Code2025\RavenWork\TrigramSearch\TrigramSearch\bin\Debug\net9.0\TrigramSearch.dll
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramHelperTests.cs(14,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramIndexTests.cs(15,31): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramIndexTests.cs(24,39): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+  TrigramSearchTest -> D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\bin\Debug\net9.0\TrigramSearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramHelperTests.cs(14,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramIndexTests.cs(15,31): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramIndexTests.cs(24,39): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.77
+
+
+WritePatch: Compile failed.
+TrigramSearchTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:11:13 PM
+TrigramSearchTest
+
+WritePatch Started CycleStep. 2025-02-23 1:11:14 PM
+TrigramSearchTest
+
+WritePatch ran compiler. 2025-02-23 1:11:54 PM
+TrigramSearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TrigramSearch -> D:\Code2025\RavenWork\TrigramSearch\TrigramSearch\bin\Debug\net9.0\TrigramSearch.dll
+  TrigramSearchTest -> D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\bin\Debug\net9.0\TrigramSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.11
+
+
+WritePatch: Code is not Complete.
+TrigramSearchTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:12:26 PM
+TrigramSearchTest
+
+WritePatch Started CycleStep. 2025-02-23 1:12:29 PM
+TrigramSearchTest
+
+WritePatch ran compiler. 2025-02-23 1:13:38 PM
+TrigramSearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TrigramSearch -> D:\Code2025\RavenWork\TrigramSearch\TrigramSearch\bin\Debug\net9.0\TrigramSearch.dll
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramIndexTests.cs(15,31): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramHelperTests.cs(14,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramIndexTests.cs(24,39): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramIndexTests.cs(76,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+  TrigramSearchTest -> D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\bin\Debug\net9.0\TrigramSearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramIndexTests.cs(15,31): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramHelperTests.cs(14,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramIndexTests.cs(24,39): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramIndexTests.cs(76,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.30
+
+
+WritePatch: Compile failed.
+TrigramSearchTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:13:42 PM
+TrigramSearchTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TrigramSearch -> D:\Code2025\RavenWork\TrigramSearch\TrigramSearch\bin\Debug\net9.0\TrigramSearch.dll
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramIndexTests.cs(15,31): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramHelperTests.cs(14,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramIndexTests.cs(24,39): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramIndexTests.cs(76,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+  TrigramSearchTest -> D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\bin\Debug\net9.0\TrigramSearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramIndexTests.cs(15,31): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramHelperTests.cs(14,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramIndexTests.cs(24,39): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramIndexTests.cs(76,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.30
+
+</CompilerResponse>
+2025-02-23 1:13:42 PM
+TrigramSearchTest
+
+WritePatch ran compiler. 2025-02-23 1:13:45 PM
+TrigramSearch
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TrigramSearch -> D:\Code2025\RavenWork\TrigramSearch\TrigramSearch\bin\Debug\net9.0\TrigramSearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.83
+
+
+WritePatch: Code is Complete.
+TrigramSearch
+
+WritePatch ran compiler. 2025-02-23 1:14:00 PM
+TrigramSearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TrigramSearch -> D:\Code2025\RavenWork\TrigramSearch\TrigramSearch\bin\Debug\net9.0\TrigramSearch.dll
+  TrigramSearchTest -> D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\bin\Debug\net9.0\TrigramSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.13
+
+
+WritePatch: Code is Complete.
+TrigramSearchTest
+
+TestResult:
+[OUTPUT 2025-02-23 1:14:22 PM]   TrigramSearchTest -> D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\bin\Debug\net9.0\TrigramSearchTest.dll
+[OUTPUT 2025-02-23 1:14:20 PM]   TrigramSearch -> D:\Code2025\RavenWork\TrigramSearch\TrigramSearch\bin\Debug\net9.0\TrigramSearch.dll
+[OUTPUT 2025-02-23 1:14:19 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:14:18 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 1:14:21 PM] All tests passed successfully.
+[INFO 2025-02-23 1:14:21 PM] Test process completed. Duration: 4.25 seconds.
+[INFO 2025-02-23 1:14:21 PM] Process exited with code 0.
+[INFO 2025-02-23 1:14:17 PM] Command: dotnet test "D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:14:17 PM] Starting test for project: D:\Code2025\RavenWork\TrigramSearch\TrigramSearchTest\TrigramSearchTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
