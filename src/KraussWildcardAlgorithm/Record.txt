@@ -1,0 +1,404 @@
+<ActRecord>
+  <ProjectName>KraussWildcardAlgorithm</ProjectName>
+  <ProjectDescription>Krauss matching wildcards algorithm – An open‐source non‐recursive algorithm for wildcard matching.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Krauss matching wildcards algorithm – An open‐source non‐recursive algorithm for wildcard matching.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\KraussWildcardAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>KraussWildcardAlgorithm</ProjectFolderName>
+  <ProjectName>KraussWildcardAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:19:50 PM
+KraussWildcardAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:20:10 PM
+KraussWildcardAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KraussWildcardAlgorithm -> D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithm\bin\Debug\net9.0\KraussWildcardAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.98
+]]></string>
+    <string>WritePatch: Code is Complete.
+KraussWildcardAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:21:54 PM
+KraussWildcardAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:22:44 PM
+KraussWildcardAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj (in 413 ms).
+  1 of 2 projects are up-to-date for restore.
+  KraussWildcardAlgorithm -> D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithm\bin\Debug\net9.0\KraussWildcardAlgorithm.dll
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(67,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(69,51): warning CS8604: Possible null reference argument for parameter 'text' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(72,23): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(73,52): warning CS8604: Possible null reference argument for parameter 'pattern' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(75,20): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(76,23): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(77,46): warning CS8604: Possible null reference argument for parameter 'text' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(77,52): warning CS8604: Possible null reference argument for parameter 'pattern' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+  KraussWildcardAlgorithmTest -> D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\bin\Debug\net9.0\KraussWildcardAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(67,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(69,51): warning CS8604: Possible null reference argument for parameter 'text' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(72,23): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(73,52): warning CS8604: Possible null reference argument for parameter 'pattern' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(75,20): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(76,23): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(77,46): warning CS8604: Possible null reference argument for parameter 'text' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(77,52): warning CS8604: Possible null reference argument for parameter 'pattern' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+    8 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.97
+]]></string>
+    <string>WritePatch: Compile failed.
+KraussWildcardAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:22:46 PM
+KraussWildcardAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:22:47 PM
+KraussWildcardAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:23:20 PM
+KraussWildcardAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KraussWildcardAlgorithm -> D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithm\bin\Debug\net9.0\KraussWildcardAlgorithm.dll
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(69,51): warning CS8604: Possible null reference argument for parameter 'text' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(73,52): warning CS8604: Possible null reference argument for parameter 'pattern' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(77,46): warning CS8604: Possible null reference argument for parameter 'text' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(77,52): warning CS8604: Possible null reference argument for parameter 'pattern' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+  KraussWildcardAlgorithmTest -> D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\bin\Debug\net9.0\KraussWildcardAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(69,51): warning CS8604: Possible null reference argument for parameter 'text' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(73,52): warning CS8604: Possible null reference argument for parameter 'pattern' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(77,46): warning CS8604: Possible null reference argument for parameter 'text' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(77,52): warning CS8604: Possible null reference argument for parameter 'pattern' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.33
+]]></string>
+    <string>WritePatch: Compile failed.
+KraussWildcardAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:23:21 PM
+KraussWildcardAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:23:22 PM
+KraussWildcardAlgorithmTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 6:23:49 PM
+KraussWildcardAlgorithmTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KraussWildcardAlgorithm -> D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithm\bin\Debug\net9.0\KraussWildcardAlgorithm.dll
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(69,51): warning CS8604: Possible null reference argument for parameter 'text' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(73,52): warning CS8604: Possible null reference argument for parameter 'pattern' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(77,46): warning CS8604: Possible null reference argument for parameter 'text' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(77,52): warning CS8604: Possible null reference argument for parameter 'pattern' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+  KraussWildcardAlgorithmTest -> D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\bin\Debug\net9.0\KraussWildcardAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(69,51): warning CS8604: Possible null reference argument for parameter 'text' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(73,52): warning CS8604: Possible null reference argument for parameter 'pattern' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(77,46): warning CS8604: Possible null reference argument for parameter 'text' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(77,52): warning CS8604: Possible null reference argument for parameter 'pattern' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.33
+
+</CompilerResponse>
+2025-02-23 6:23:49 PM
+KraussWildcardAlgorithmTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 6:23:52 PM
+KraussWildcardAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KraussWildcardAlgorithm -> D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithm\bin\Debug\net9.0\KraussWildcardAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.45
+]]></string>
+    <string>WritePatch: Code is Complete.
+KraussWildcardAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:24:08 PM
+KraussWildcardAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KraussWildcardAlgorithm -> D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithm\bin\Debug\net9.0\KraussWildcardAlgorithm.dll
+  KraussWildcardAlgorithmTest -> D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\bin\Debug\net9.0\KraussWildcardAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.51
+]]></string>
+    <string>WritePatch: Code is Complete.
+KraussWildcardAlgorithmTest</string>
+    <string>[INFO 2025-02-23 6:24:21 PM] Starting test for project: D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:24:21 PM] Starting test for project: D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:24:21 PM] Starting test for project: D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:24:21 PM] Starting test for project: D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:24:21 PM] Starting test for project: D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:24:21 PM] Starting test for project: D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:24:21 PM] Starting test for project: D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:24:21 PM] Starting test for project: D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:24:21 PM] Starting test for project: D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:24:21 PM] Starting test for project: D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:24:21 PM] Starting test for project: D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:24:21 PM] Starting test for project: D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:24:21 PM] Starting test for project: D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 6:24:28 PM] All tests passed successfully.
+[INFO 2025-02-23 6:24:28 PM] Test process completed. Duration: 7.26 seconds.
+[INFO 2025-02-23 6:24:28 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 6:24:28 PM]   Passed TestExactMatch [8 ms]
+[OUTPUT 2025-02-23 6:24:26 PM] D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\bin\Debug\net9.0\KraussWildcardAlgorithmTest.dll
+[OUTPUT 2025-02-23 6:24:25 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:24:25 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:24:23 PM]   KraussWildcardAlgorithm -> D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithm\bin\Debug\net9.0\KraussWildcardAlgorithm.dll
+[OUTPUT 2025-02-23 6:24:22 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 6:24:27 PM] Test Parallelization enabled for D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\bin\Debug\net9.0\KraussWildcardAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 6:24:24 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:24:24 PM] Test run for D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\bin\Debug\net9.0\KraussWildcardAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:24:23 PM]   KraussWildcardAlgorithmTest -> D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\bin\Debug\net9.0\KraussWildcardAlgorithmTest.dll
+[OUTPUT 2025-02-23 6:24:22 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 6:24:21 PM] Command: dotnet test "D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:24:21 PM] Starting test for project: D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 6:19:50 PM
+KraussWildcardAlgorithm
+
+WritePatch ran compiler. 2025-02-23 6:20:10 PM
+KraussWildcardAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KraussWildcardAlgorithm -> D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithm\bin\Debug\net9.0\KraussWildcardAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.98
+
+
+WritePatch: Code is Complete.
+KraussWildcardAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 6:21:54 PM
+KraussWildcardAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 6:22:44 PM
+KraussWildcardAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj (in 413 ms).
+  1 of 2 projects are up-to-date for restore.
+  KraussWildcardAlgorithm -> D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithm\bin\Debug\net9.0\KraussWildcardAlgorithm.dll
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(67,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(69,51): warning CS8604: Possible null reference argument for parameter 'text' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(72,23): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(73,52): warning CS8604: Possible null reference argument for parameter 'pattern' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(75,20): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(76,23): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(77,46): warning CS8604: Possible null reference argument for parameter 'text' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(77,52): warning CS8604: Possible null reference argument for parameter 'pattern' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+  KraussWildcardAlgorithmTest -> D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\bin\Debug\net9.0\KraussWildcardAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(67,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(69,51): warning CS8604: Possible null reference argument for parameter 'text' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(72,23): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(73,52): warning CS8604: Possible null reference argument for parameter 'pattern' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(75,20): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(76,23): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(77,46): warning CS8604: Possible null reference argument for parameter 'text' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(77,52): warning CS8604: Possible null reference argument for parameter 'pattern' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+    8 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.97
+
+
+WritePatch: Compile failed.
+KraussWildcardAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 6:22:46 PM
+KraussWildcardAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 6:22:47 PM
+KraussWildcardAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 6:23:20 PM
+KraussWildcardAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KraussWildcardAlgorithm -> D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithm\bin\Debug\net9.0\KraussWildcardAlgorithm.dll
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(69,51): warning CS8604: Possible null reference argument for parameter 'text' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(73,52): warning CS8604: Possible null reference argument for parameter 'pattern' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(77,46): warning CS8604: Possible null reference argument for parameter 'text' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(77,52): warning CS8604: Possible null reference argument for parameter 'pattern' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+  KraussWildcardAlgorithmTest -> D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\bin\Debug\net9.0\KraussWildcardAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(69,51): warning CS8604: Possible null reference argument for parameter 'text' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(73,52): warning CS8604: Possible null reference argument for parameter 'pattern' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(77,46): warning CS8604: Possible null reference argument for parameter 'text' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(77,52): warning CS8604: Possible null reference argument for parameter 'pattern' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.33
+
+
+WritePatch: Compile failed.
+KraussWildcardAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 6:23:21 PM
+KraussWildcardAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 6:23:22 PM
+KraussWildcardAlgorithmTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 6:23:49 PM
+KraussWildcardAlgorithmTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KraussWildcardAlgorithm -> D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithm\bin\Debug\net9.0\KraussWildcardAlgorithm.dll
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(69,51): warning CS8604: Possible null reference argument for parameter 'text' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(73,52): warning CS8604: Possible null reference argument for parameter 'pattern' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(77,46): warning CS8604: Possible null reference argument for parameter 'text' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(77,52): warning CS8604: Possible null reference argument for parameter 'pattern' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+  KraussWildcardAlgorithmTest -> D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\bin\Debug\net9.0\KraussWildcardAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(69,51): warning CS8604: Possible null reference argument for parameter 'text' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(73,52): warning CS8604: Possible null reference argument for parameter 'pattern' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(77,46): warning CS8604: Possible null reference argument for parameter 'text' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\WildcardMatcherTests.cs(77,52): warning CS8604: Possible null reference argument for parameter 'pattern' in 'bool WildcardMatcher.IsMatch(string text, string pattern)'. [D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.33
+
+</CompilerResponse>
+2025-02-23 6:23:49 PM
+KraussWildcardAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 6:23:52 PM
+KraussWildcardAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KraussWildcardAlgorithm -> D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithm\bin\Debug\net9.0\KraussWildcardAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.45
+
+
+WritePatch: Code is Complete.
+KraussWildcardAlgorithm
+
+WritePatch ran compiler. 2025-02-23 6:24:08 PM
+KraussWildcardAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KraussWildcardAlgorithm -> D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithm\bin\Debug\net9.0\KraussWildcardAlgorithm.dll
+  KraussWildcardAlgorithmTest -> D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\bin\Debug\net9.0\KraussWildcardAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.51
+
+
+WritePatch: Code is Complete.
+KraussWildcardAlgorithmTest
+
+TestResult:
+[SUCCESS 2025-02-23 6:24:28 PM] All tests passed successfully.
+[INFO 2025-02-23 6:24:28 PM] Test process completed. Duration: 7.26 seconds.
+[INFO 2025-02-23 6:24:28 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 6:24:28 PM]   Passed TestExactMatch [8 ms]
+[OUTPUT 2025-02-23 6:24:26 PM] D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\bin\Debug\net9.0\KraussWildcardAlgorithmTest.dll
+[OUTPUT 2025-02-23 6:24:25 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:24:25 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:24:23 PM]   KraussWildcardAlgorithm -> D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithm\bin\Debug\net9.0\KraussWildcardAlgorithm.dll
+[OUTPUT 2025-02-23 6:24:22 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 6:24:27 PM] Test Parallelization enabled for D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\bin\Debug\net9.0\KraussWildcardAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 6:24:24 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:24:24 PM] Test run for D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\bin\Debug\net9.0\KraussWildcardAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:24:23 PM]   KraussWildcardAlgorithmTest -> D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\bin\Debug\net9.0\KraussWildcardAlgorithmTest.dll
+[OUTPUT 2025-02-23 6:24:22 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 6:24:21 PM] Command: dotnet test "D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:24:21 PM] Starting test for project: D:\Code2025\RavenWork\KraussWildcardAlgorithm\KraussWildcardAlgorithmTest\KraussWildcardAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
