@@ -1,0 +1,635 @@
+<ActRecord>
+  <ProjectName>SimplePrecedenceParser</ProjectName>
+  <ProjectDescription>  – Simple precedence parser</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>  – Simple precedence parser</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\SimplePrecedenceParser</SolutionFolderPath>
+  <ProjectFolderName>SimplePrecedenceParser</ProjectFolderName>
+  <ProjectName>SimplePrecedenceParser</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:14:21 AM
+SimplePrecedenceParser</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:15:27 AM
+SimplePrecedenceParser</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(36,24): warning CS8618: Non-nullable field 'text' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+  SimplePrecedenceParser -> D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\bin\Debug\net9.0\SimplePrecedenceParser.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(36,24): warning CS8618: Non-nullable field 'text' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+]]></string>
+    <string>WritePatch: Compile failed.
+SimplePrecedenceParser</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:15:28 AM
+SimplePrecedenceParser</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:15:29 AM
+SimplePrecedenceParser</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:15:51 AM
+SimplePrecedenceParser</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(6,27): error CS0101: The namespace 'SimplePrecedenceParser' already contains a definition for 'Expr' [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(10,18): error CS0101: The namespace 'SimplePrecedenceParser' already contains a definition for 'NumberExpr' [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(20,18): error CS0101: The namespace 'SimplePrecedenceParser' already contains a definition for 'BinaryExpr' [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(34,18): error CS0101: The namespace 'SimplePrecedenceParser' already contains a definition for 'PrecedenceParser' [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(14,16): error CS0111: Type 'NumberExpr' already defines a member called 'NumberExpr' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(26,16): error CS0111: Type 'BinaryExpr' already defines a member called 'BinaryExpr' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(39,21): error CS0111: Type 'PrecedenceParser' already defines a member called 'Parse' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(47,22): error CS0111: Type 'PrecedenceParser' already defines a member called 'Advance' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(60,22): error CS0111: Type 'PrecedenceParser' already defines a member called 'SkipWhitespace' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(68,24): error CS0111: Type 'PrecedenceParser' already defines a member called 'ParseNumber' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(86,22): error CS0111: Type 'PrecedenceParser' already defines a member called 'ParseExpression' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(91,22): error CS0111: Type 'PrecedenceParser' already defines a member called 'ParseTerm' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(108,22): error CS0111: Type 'PrecedenceParser' already defines a member called 'ParseFactor' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(125,22): error CS0111: Type 'PrecedenceParser' already defines a member called 'ParsePrimary' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(6,27): error CS0101: The namespace 'SimplePrecedenceParser' already contains a definition for 'Expr' [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(10,18): error CS0101: The namespace 'SimplePrecedenceParser' already contains a definition for 'NumberExpr' [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(20,18): error CS0101: The namespace 'SimplePrecedenceParser' already contains a definition for 'BinaryExpr' [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(34,18): error CS0101: The namespace 'SimplePrecedenceParser' already contains a definition for 'PrecedenceParser' [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(14,16): error CS0111: Type 'NumberExpr' already defines a member called 'NumberExpr' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(26,16): error CS0111: Type 'BinaryExpr' already defines a member called 'BinaryExpr' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(39,21): error CS0111: Type 'PrecedenceParser' already defines a member called 'Parse' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(47,22): error CS0111: Type 'PrecedenceParser' already defines a member called 'Advance' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(60,22): error CS0111: Type 'PrecedenceParser' already defines a member called 'SkipWhitespace' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(68,24): error CS0111: Type 'PrecedenceParser' already defines a member called 'ParseNumber' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(86,22): error CS0111: Type 'PrecedenceParser' already defines a member called 'ParseExpression' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(91,22): error CS0111: Type 'PrecedenceParser' already defines a member called 'ParseTerm' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(108,22): error CS0111: Type 'PrecedenceParser' already defines a member called 'ParseFactor' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(125,22): error CS0111: Type 'PrecedenceParser' already defines a member called 'ParsePrimary' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+    0 Warning(s)
+    14 Error(s)
+
+Time Elapsed 00:00:00.73
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+SimplePrecedenceParser</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:15:52 AM
+SimplePrecedenceParser</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:15:52 AM
+SimplePrecedenceParser</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:17:22 AM
+SimplePrecedenceParser</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(36,24): warning CS8618: Non-nullable field 'text' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+  SimplePrecedenceParser -> D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\bin\Debug\net9.0\SimplePrecedenceParser.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(36,24): warning CS8618: Non-nullable field 'text' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+]]></string>
+    <string>WritePatch: Compile failed.
+SimplePrecedenceParser</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:17:23 AM
+SimplePrecedenceParser</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(36,24): warning CS8618: Non-nullable field 'text' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+  SimplePrecedenceParser -> D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\bin\Debug\net9.0\SimplePrecedenceParser.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(36,24): warning CS8618: Non-nullable field 'text' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+
+</CompilerResponse>
+2025-02-23 8:17:23 AM
+SimplePrecedenceParser]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 8:17:24 AM
+SimplePrecedenceParser</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SimplePrecedenceParser -> D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\bin\Debug\net9.0\SimplePrecedenceParser.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.71
+]]></string>
+    <string>WritePatch: Code is Complete.
+SimplePrecedenceParser</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:18:08 AM
+SimplePrecedenceParserTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:21:04 AM
+SimplePrecedenceParserTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\SimplePrecedenceParserTest.csproj (in 185 ms).
+  1 of 2 projects are up-to-date for restore.
+  SimplePrecedenceParser -> D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\bin\Debug\net9.0\SimplePrecedenceParser.dll
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\PrecedenceParserTests.cs(138,38): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\SimplePrecedenceParserTest.csproj]
+  SimplePrecedenceParserTest -> D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\bin\Debug\net9.0\SimplePrecedenceParserTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\PrecedenceParserTests.cs(138,38): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\SimplePrecedenceParserTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.33
+]]></string>
+    <string>WritePatch: Compile failed.
+SimplePrecedenceParserTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:21:05 AM
+SimplePrecedenceParserTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:21:06 AM
+SimplePrecedenceParserTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:23:55 AM
+SimplePrecedenceParserTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SimplePrecedenceParser -> D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\bin\Debug\net9.0\SimplePrecedenceParser.dll
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\PrecedenceParserTests.cs(135,38): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\SimplePrecedenceParserTest.csproj]
+  SimplePrecedenceParserTest -> D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\bin\Debug\net9.0\SimplePrecedenceParserTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\PrecedenceParserTests.cs(135,38): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\SimplePrecedenceParserTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.02
+]]></string>
+    <string>WritePatch: Compile failed.
+SimplePrecedenceParserTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:23:56 AM
+SimplePrecedenceParserTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:23:56 AM
+SimplePrecedenceParserTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:24:30 AM
+SimplePrecedenceParserTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SimplePrecedenceParser -> D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\bin\Debug\net9.0\SimplePrecedenceParser.dll
+  SimplePrecedenceParserTest -> D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\bin\Debug\net9.0\SimplePrecedenceParserTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87
+]]></string>
+    <string>WritePatch: Code is not Complete.
+SimplePrecedenceParserTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:24:44 AM
+SimplePrecedenceParserTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SimplePrecedenceParser -> D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\bin\Debug\net9.0\SimplePrecedenceParser.dll
+  SimplePrecedenceParserTest -> D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\bin\Debug\net9.0\SimplePrecedenceParserTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87
+
+</CompilerResponse>
+2025-02-23 8:24:44 AM
+SimplePrecedenceParserTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 8:24:46 AM
+SimplePrecedenceParser</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SimplePrecedenceParser -> D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\bin\Debug\net9.0\SimplePrecedenceParser.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.68
+]]></string>
+    <string>WritePatch: Code is Complete.
+SimplePrecedenceParser</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:25:00 AM
+SimplePrecedenceParserTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SimplePrecedenceParser -> D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\bin\Debug\net9.0\SimplePrecedenceParser.dll
+  SimplePrecedenceParserTest -> D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\bin\Debug\net9.0\SimplePrecedenceParserTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.86
+]]></string>
+    <string>WritePatch: Code is Complete.
+SimplePrecedenceParserTest</string>
+    <string>[INFO 2025-02-23 8:25:11 AM] Starting test for project: D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\SimplePrecedenceParserTest.csproj</string>
+    <string>[INFO 2025-02-23 8:25:11 AM] Starting test for project: D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\SimplePrecedenceParserTest.csproj</string>
+    <string>[INFO 2025-02-23 8:25:11 AM] Starting test for project: D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\SimplePrecedenceParserTest.csproj</string>
+    <string>[INFO 2025-02-23 8:25:11 AM] Starting test for project: D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\SimplePrecedenceParserTest.csproj</string>
+    <string>[INFO 2025-02-23 8:25:11 AM] Starting test for project: D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\SimplePrecedenceParserTest.csproj</string>
+    <string>[INFO 2025-02-23 8:25:11 AM] Starting test for project: D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\SimplePrecedenceParserTest.csproj</string>
+    <string>[INFO 2025-02-23 8:25:11 AM] Starting test for project: D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\SimplePrecedenceParserTest.csproj</string>
+    <string>[INFO 2025-02-23 8:25:11 AM] Starting test for project: D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\SimplePrecedenceParserTest.csproj</string>
+    <string>[INFO 2025-02-23 8:25:11 AM] Starting test for project: D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\SimplePrecedenceParserTest.csproj</string>
+    <string>[INFO 2025-02-23 8:25:11 AM] Starting test for project: D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\SimplePrecedenceParserTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 8:25:15 AM] All tests passed successfully.
+[INFO 2025-02-23 8:25:15 AM] Test process completed. Duration: 3.36 seconds.
+[INFO 2025-02-23 8:25:15 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 8:25:15 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 8:25:15 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:25:14 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:25:14 AM] Test run for D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\bin\Debug\net9.0\SimplePrecedenceParserTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:25:14 AM]   SimplePrecedenceParserTest -> D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\bin\Debug\net9.0\SimplePrecedenceParserTest.dll
+[OUTPUT 2025-02-23 8:25:13 AM]   SimplePrecedenceParser -> D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\bin\Debug\net9.0\SimplePrecedenceParser.dll
+[OUTPUT 2025-02-23 8:25:13 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:25:13 AM]   Determining projects to restore...
+[INFO 2025-02-23 8:25:11 AM] Command: dotnet test "D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\SimplePrecedenceParserTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:25:11 AM] Starting test for project: D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\SimplePrecedenceParserTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 8:14:21 AM
+SimplePrecedenceParser
+
+WritePatch ran compiler. 2025-02-23 8:15:27 AM
+SimplePrecedenceParser
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(36,24): warning CS8618: Non-nullable field 'text' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+  SimplePrecedenceParser -> D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\bin\Debug\net9.0\SimplePrecedenceParser.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(36,24): warning CS8618: Non-nullable field 'text' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+
+
+WritePatch: Compile failed.
+SimplePrecedenceParser
+
+Finished WritePatch cycle step.
+2025-02-23 8:15:28 AM
+SimplePrecedenceParser
+
+WritePatch Started CycleStep. 2025-02-23 8:15:29 AM
+SimplePrecedenceParser
+
+WritePatch ran compiler. 2025-02-23 8:15:51 AM
+SimplePrecedenceParser
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(6,27): error CS0101: The namespace 'SimplePrecedenceParser' already contains a definition for 'Expr' [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(10,18): error CS0101: The namespace 'SimplePrecedenceParser' already contains a definition for 'NumberExpr' [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(20,18): error CS0101: The namespace 'SimplePrecedenceParser' already contains a definition for 'BinaryExpr' [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(34,18): error CS0101: The namespace 'SimplePrecedenceParser' already contains a definition for 'PrecedenceParser' [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(14,16): error CS0111: Type 'NumberExpr' already defines a member called 'NumberExpr' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(26,16): error CS0111: Type 'BinaryExpr' already defines a member called 'BinaryExpr' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(39,21): error CS0111: Type 'PrecedenceParser' already defines a member called 'Parse' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(47,22): error CS0111: Type 'PrecedenceParser' already defines a member called 'Advance' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(60,22): error CS0111: Type 'PrecedenceParser' already defines a member called 'SkipWhitespace' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(68,24): error CS0111: Type 'PrecedenceParser' already defines a member called 'ParseNumber' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(86,22): error CS0111: Type 'PrecedenceParser' already defines a member called 'ParseExpression' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(91,22): error CS0111: Type 'PrecedenceParser' already defines a member called 'ParseTerm' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(108,22): error CS0111: Type 'PrecedenceParser' already defines a member called 'ParseFactor' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(125,22): error CS0111: Type 'PrecedenceParser' already defines a member called 'ParsePrimary' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(6,27): error CS0101: The namespace 'SimplePrecedenceParser' already contains a definition for 'Expr' [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(10,18): error CS0101: The namespace 'SimplePrecedenceParser' already contains a definition for 'NumberExpr' [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(20,18): error CS0101: The namespace 'SimplePrecedenceParser' already contains a definition for 'BinaryExpr' [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(34,18): error CS0101: The namespace 'SimplePrecedenceParser' already contains a definition for 'PrecedenceParser' [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(14,16): error CS0111: Type 'NumberExpr' already defines a member called 'NumberExpr' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(26,16): error CS0111: Type 'BinaryExpr' already defines a member called 'BinaryExpr' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(39,21): error CS0111: Type 'PrecedenceParser' already defines a member called 'Parse' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(47,22): error CS0111: Type 'PrecedenceParser' already defines a member called 'Advance' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(60,22): error CS0111: Type 'PrecedenceParser' already defines a member called 'SkipWhitespace' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(68,24): error CS0111: Type 'PrecedenceParser' already defines a member called 'ParseNumber' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(86,22): error CS0111: Type 'PrecedenceParser' already defines a member called 'ParseExpression' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(91,22): error CS0111: Type 'PrecedenceParser' already defines a member called 'ParseTerm' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(108,22): error CS0111: Type 'PrecedenceParser' already defines a member called 'ParseFactor' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(125,22): error CS0111: Type 'PrecedenceParser' already defines a member called 'ParsePrimary' with the same parameter types [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+    0 Warning(s)
+    14 Error(s)
+
+Time Elapsed 00:00:00.73
+
+
+Errors:
+
+WritePatch: Compile failed.
+SimplePrecedenceParser
+
+Finished WritePatch cycle step.
+2025-02-23 8:15:52 AM
+SimplePrecedenceParser
+
+WritePatch Started CycleStep. 2025-02-23 8:15:52 AM
+SimplePrecedenceParser
+
+WritePatch ran compiler. 2025-02-23 8:17:22 AM
+SimplePrecedenceParser
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(36,24): warning CS8618: Non-nullable field 'text' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+  SimplePrecedenceParser -> D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\bin\Debug\net9.0\SimplePrecedenceParser.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(36,24): warning CS8618: Non-nullable field 'text' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+
+
+WritePatch: Compile failed.
+SimplePrecedenceParser
+
+Finished WritePatch cycle step.
+2025-02-23 8:17:23 AM
+SimplePrecedenceParser
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(36,24): warning CS8618: Non-nullable field 'text' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+  SimplePrecedenceParser -> D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\bin\Debug\net9.0\SimplePrecedenceParser.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser\PrecedenceParser.cs(36,24): warning CS8618: Non-nullable field 'text' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\SimplePrecedenceParser.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+
+</CompilerResponse>
+2025-02-23 8:17:23 AM
+SimplePrecedenceParser
+
+WritePatch ran compiler. 2025-02-23 8:17:24 AM
+SimplePrecedenceParser
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SimplePrecedenceParser -> D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\bin\Debug\net9.0\SimplePrecedenceParser.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.71
+
+
+WritePatch: Code is Complete.
+SimplePrecedenceParser
+
+WritePatch Started CycleStep. 2025-02-23 8:18:08 AM
+SimplePrecedenceParserTest
+
+WritePatch ran compiler. 2025-02-23 8:21:04 AM
+SimplePrecedenceParserTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\SimplePrecedenceParserTest.csproj (in 185 ms).
+  1 of 2 projects are up-to-date for restore.
+  SimplePrecedenceParser -> D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\bin\Debug\net9.0\SimplePrecedenceParser.dll
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\PrecedenceParserTests.cs(138,38): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\SimplePrecedenceParserTest.csproj]
+  SimplePrecedenceParserTest -> D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\bin\Debug\net9.0\SimplePrecedenceParserTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\PrecedenceParserTests.cs(138,38): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\SimplePrecedenceParserTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.33
+
+
+WritePatch: Compile failed.
+SimplePrecedenceParserTest
+
+Finished WritePatch cycle step.
+2025-02-23 8:21:05 AM
+SimplePrecedenceParserTest
+
+WritePatch Started CycleStep. 2025-02-23 8:21:06 AM
+SimplePrecedenceParserTest
+
+WritePatch ran compiler. 2025-02-23 8:23:55 AM
+SimplePrecedenceParserTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SimplePrecedenceParser -> D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\bin\Debug\net9.0\SimplePrecedenceParser.dll
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\PrecedenceParserTests.cs(135,38): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\SimplePrecedenceParserTest.csproj]
+  SimplePrecedenceParserTest -> D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\bin\Debug\net9.0\SimplePrecedenceParserTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\PrecedenceParserTests.cs(135,38): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\SimplePrecedenceParserTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.02
+
+
+WritePatch: Compile failed.
+SimplePrecedenceParserTest
+
+Finished WritePatch cycle step.
+2025-02-23 8:23:56 AM
+SimplePrecedenceParserTest
+
+WritePatch Started CycleStep. 2025-02-23 8:23:56 AM
+SimplePrecedenceParserTest
+
+WritePatch ran compiler. 2025-02-23 8:24:30 AM
+SimplePrecedenceParserTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SimplePrecedenceParser -> D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\bin\Debug\net9.0\SimplePrecedenceParser.dll
+  SimplePrecedenceParserTest -> D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\bin\Debug\net9.0\SimplePrecedenceParserTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87
+
+
+WritePatch: Code is not Complete.
+SimplePrecedenceParserTest
+
+Finished WritePatch cycle step.
+2025-02-23 8:24:44 AM
+SimplePrecedenceParserTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SimplePrecedenceParser -> D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\bin\Debug\net9.0\SimplePrecedenceParser.dll
+  SimplePrecedenceParserTest -> D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\bin\Debug\net9.0\SimplePrecedenceParserTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87
+
+</CompilerResponse>
+2025-02-23 8:24:44 AM
+SimplePrecedenceParserTest
+
+WritePatch ran compiler. 2025-02-23 8:24:46 AM
+SimplePrecedenceParser
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SimplePrecedenceParser -> D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\bin\Debug\net9.0\SimplePrecedenceParser.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.68
+
+
+WritePatch: Code is Complete.
+SimplePrecedenceParser
+
+WritePatch ran compiler. 2025-02-23 8:25:00 AM
+SimplePrecedenceParserTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SimplePrecedenceParser -> D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\bin\Debug\net9.0\SimplePrecedenceParser.dll
+  SimplePrecedenceParserTest -> D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\bin\Debug\net9.0\SimplePrecedenceParserTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.86
+
+
+WritePatch: Code is Complete.
+SimplePrecedenceParserTest
+
+TestResult:
+[SUCCESS 2025-02-23 8:25:15 AM] All tests passed successfully.
+[INFO 2025-02-23 8:25:15 AM] Test process completed. Duration: 3.36 seconds.
+[INFO 2025-02-23 8:25:15 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 8:25:15 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 8:25:15 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:25:14 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:25:14 AM] Test run for D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\bin\Debug\net9.0\SimplePrecedenceParserTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:25:14 AM]   SimplePrecedenceParserTest -> D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\bin\Debug\net9.0\SimplePrecedenceParserTest.dll
+[OUTPUT 2025-02-23 8:25:13 AM]   SimplePrecedenceParser -> D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParser\bin\Debug\net9.0\SimplePrecedenceParser.dll
+[OUTPUT 2025-02-23 8:25:13 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:25:13 AM]   Determining projects to restore...
+[INFO 2025-02-23 8:25:11 AM] Command: dotnet test "D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\SimplePrecedenceParserTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:25:11 AM] Starting test for project: D:\Code2025\RavenWork\SimplePrecedenceParser\SimplePrecedenceParserTest\SimplePrecedenceParserTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
