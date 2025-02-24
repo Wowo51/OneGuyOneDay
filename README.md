@@ -1,12 +1,12 @@
 #OneGuyOneDay
 
-This repo contains xxx algorithms. The algorithms were written in one day by me and my Raven code generation system.
+This repo contains 433 algorithms. The algorithms were written in one day by me and my Raven code generation system.
 
 Pure C# libraries. No external dependencies except for Microsoft's unit testing. No binaries. Unit tested.
 
 This code is free to use under the MIT.
 
-Raven can go from a prompt to a unit test report stating that the app has passed testing in one click. As LLM's typically make a few mistakes when writing code, working out all of the bugs and unit testing the code is crucial. It can write algorithms in parallel. This run used a setting of writing 10 algorithms simultaneously. My 8-core pc wasn't loaded very badly so more algorithms could have been solved simultaneously. My tier 5 OpenAI account could handle many more simultaneous API calls than my 8 core.
+Raven can go from a prompt to a unit test report stating that the app has passed testing in one click. As LLM's typically make a few mistakes when writing code, working out all of the bugs and unit testing the code is crucial. It can write algorithms in parallel. This run used a setting of writing 10 algorithms simultaneously. An 8-core pc was used. My tier 5 OpenAI account could handle many more simultaneous API calls than my 8 core.
 
 Raven does not always complete an algorithm with a single pass of the code generation too. Only a single pass was used. 433 out of 609 of the algorithms were solved.
 
