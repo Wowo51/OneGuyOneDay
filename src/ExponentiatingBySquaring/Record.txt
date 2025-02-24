@@ -1,0 +1,156 @@
+<ActRecord>
+  <ProjectName>ExponentiatingBySquaring</ProjectName>
+  <ProjectDescription>Exponentiating by squaring – Efficiently computes large integer powers by recursively squaring.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Exponentiating by squaring – Efficiently computes large integer powers by recursively squaring.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\ExponentiatingBySquaring</SolutionFolderPath>
+  <ProjectFolderName>ExponentiatingBySquaring</ProjectFolderName>
+  <ProjectName>ExponentiatingBySquaring</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 5:25:27 PM
+ExponentiatingBySquaring</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:25:58 PM
+ExponentiatingBySquaring</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ExponentiatingBySquaring -> D:\Code2025\RavenWork\ExponentiatingBySquaring\ExponentiatingBySquaring\bin\Debug\net9.0\ExponentiatingBySquaring.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.58
+]]></string>
+    <string>WritePatch: Code is Complete.
+ExponentiatingBySquaring</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 5:26:15 PM
+ExponentiatingBySquaringTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:26:55 PM
+ExponentiatingBySquaringTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\ExponentiatingBySquaring\ExponentiatingBySquaringTest\ExponentiatingBySquaringTest.csproj (in 434 ms).
+  1 of 2 projects are up-to-date for restore.
+  ExponentiatingBySquaring -> D:\Code2025\RavenWork\ExponentiatingBySquaring\ExponentiatingBySquaring\bin\Debug\net9.0\ExponentiatingBySquaring.dll
+  ExponentiatingBySquaringTest -> D:\Code2025\RavenWork\ExponentiatingBySquaring\ExponentiatingBySquaringTest\bin\Debug\net9.0\ExponentiatingBySquaringTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:06.20
+]]></string>
+    <string>WritePatch: Code is Complete.
+ExponentiatingBySquaringTest</string>
+    <string>[INFO 2025-02-23 5:27:07 PM] Starting test for project: D:\Code2025\RavenWork\ExponentiatingBySquaring\ExponentiatingBySquaringTest\ExponentiatingBySquaringTest.csproj</string>
+    <string>[INFO 2025-02-23 5:27:07 PM] Starting test for project: D:\Code2025\RavenWork\ExponentiatingBySquaring\ExponentiatingBySquaringTest\ExponentiatingBySquaringTest.csproj</string>
+    <string>[INFO 2025-02-23 5:27:07 PM] Starting test for project: D:\Code2025\RavenWork\ExponentiatingBySquaring\ExponentiatingBySquaringTest\ExponentiatingBySquaringTest.csproj</string>
+    <string>[INFO 2025-02-23 5:27:07 PM] Starting test for project: D:\Code2025\RavenWork\ExponentiatingBySquaring\ExponentiatingBySquaringTest\ExponentiatingBySquaringTest.csproj</string>
+    <string>[INFO 2025-02-23 5:27:07 PM] Starting test for project: D:\Code2025\RavenWork\ExponentiatingBySquaring\ExponentiatingBySquaringTest\ExponentiatingBySquaringTest.csproj</string>
+    <string>[INFO 2025-02-23 5:27:07 PM] Starting test for project: D:\Code2025\RavenWork\ExponentiatingBySquaring\ExponentiatingBySquaringTest\ExponentiatingBySquaringTest.csproj</string>
+    <string>[INFO 2025-02-23 5:27:07 PM] Starting test for project: D:\Code2025\RavenWork\ExponentiatingBySquaring\ExponentiatingBySquaringTest\ExponentiatingBySquaringTest.csproj</string>
+    <string>[INFO 2025-02-23 5:27:07 PM] Starting test for project: D:\Code2025\RavenWork\ExponentiatingBySquaring\ExponentiatingBySquaringTest\ExponentiatingBySquaringTest.csproj</string>
+    <string>[INFO 2025-02-23 5:27:07 PM] Starting test for project: D:\Code2025\RavenWork\ExponentiatingBySquaring\ExponentiatingBySquaringTest\ExponentiatingBySquaringTest.csproj</string>
+    <string>[INFO 2025-02-23 5:27:07 PM] Starting test for project: D:\Code2025\RavenWork\ExponentiatingBySquaring\ExponentiatingBySquaringTest\ExponentiatingBySquaringTest.csproj</string>
+    <string>[INFO 2025-02-23 5:27:07 PM] Starting test for project: D:\Code2025\RavenWork\ExponentiatingBySquaring\ExponentiatingBySquaringTest\ExponentiatingBySquaringTest.csproj</string>
+    <string>[INFO 2025-02-23 5:27:07 PM] Starting test for project: D:\Code2025\RavenWork\ExponentiatingBySquaring\ExponentiatingBySquaringTest\ExponentiatingBySquaringTest.csproj</string>
+    <string>[INFO 2025-02-23 5:27:07 PM] Starting test for project: D:\Code2025\RavenWork\ExponentiatingBySquaring\ExponentiatingBySquaringTest\ExponentiatingBySquaringTest.csproj</string>
+    <string>[INFO 2025-02-23 5:27:07 PM] Starting test for project: D:\Code2025\RavenWork\ExponentiatingBySquaring\ExponentiatingBySquaringTest\ExponentiatingBySquaringTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 5:27:14 PM]   Passed TestLargeExponent [8 ms]
+[OUTPUT 2025-02-23 5:27:13 PM]   Passed TestExponentSequence [8 ms]
+[SUCCESS 2025-02-23 5:27:13 PM] All tests passed successfully.
+[INFO 2025-02-23 5:27:13 PM] Test process completed. Duration: 6.57 seconds.
+[INFO 2025-02-23 5:27:13 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 5:27:13 PM] Test Parallelization enabled for D:\Code2025\RavenWork\ExponentiatingBySquaring\ExponentiatingBySquaringTest\bin\Debug\net9.0\ExponentiatingBySquaringTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 5:27:12 PM] D:\Code2025\RavenWork\ExponentiatingBySquaring\ExponentiatingBySquaringTest\bin\Debug\net9.0\ExponentiatingBySquaringTest.dll
+[OUTPUT 2025-02-23 5:27:11 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 5:27:11 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 5:27:09 PM]   ExponentiatingBySquaring -> D:\Code2025\RavenWork\ExponentiatingBySquaring\ExponentiatingBySquaring\bin\Debug\net9.0\ExponentiatingBySquaring.dll
+[OUTPUT 2025-02-23 5:27:08 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 5:27:10 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 5:27:10 PM] Test run for D:\Code2025\RavenWork\ExponentiatingBySquaring\ExponentiatingBySquaringTest\bin\Debug\net9.0\ExponentiatingBySquaringTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 5:27:09 PM]   ExponentiatingBySquaringTest -> D:\Code2025\RavenWork\ExponentiatingBySquaring\ExponentiatingBySquaringTest\bin\Debug\net9.0\ExponentiatingBySquaringTest.dll
+[OUTPUT 2025-02-23 5:27:08 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 5:27:07 PM] Command: dotnet test "D:\Code2025\RavenWork\ExponentiatingBySquaring\ExponentiatingBySquaringTest\ExponentiatingBySquaringTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 5:27:07 PM] Starting test for project: D:\Code2025\RavenWork\ExponentiatingBySquaring\ExponentiatingBySquaringTest\ExponentiatingBySquaringTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 5:25:27 PM
+ExponentiatingBySquaring
+
+WritePatch ran compiler. 2025-02-23 5:25:58 PM
+ExponentiatingBySquaring
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ExponentiatingBySquaring -> D:\Code2025\RavenWork\ExponentiatingBySquaring\ExponentiatingBySquaring\bin\Debug\net9.0\ExponentiatingBySquaring.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.58
+
+
+WritePatch: Code is Complete.
+ExponentiatingBySquaring
+
+WritePatch Started CycleStep. 2025-02-23 5:26:15 PM
+ExponentiatingBySquaringTest
+
+WritePatch ran compiler. 2025-02-23 5:26:55 PM
+ExponentiatingBySquaringTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\ExponentiatingBySquaring\ExponentiatingBySquaringTest\ExponentiatingBySquaringTest.csproj (in 434 ms).
+  1 of 2 projects are up-to-date for restore.
+  ExponentiatingBySquaring -> D:\Code2025\RavenWork\ExponentiatingBySquaring\ExponentiatingBySquaring\bin\Debug\net9.0\ExponentiatingBySquaring.dll
+  ExponentiatingBySquaringTest -> D:\Code2025\RavenWork\ExponentiatingBySquaring\ExponentiatingBySquaringTest\bin\Debug\net9.0\ExponentiatingBySquaringTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:06.20
+
+
+WritePatch: Code is Complete.
+ExponentiatingBySquaringTest
+
+TestResult:
+[OUTPUT 2025-02-23 5:27:14 PM]   Passed TestLargeExponent [8 ms]
+[OUTPUT 2025-02-23 5:27:13 PM]   Passed TestExponentSequence [8 ms]
+[SUCCESS 2025-02-23 5:27:13 PM] All tests passed successfully.
+[INFO 2025-02-23 5:27:13 PM] Test process completed. Duration: 6.57 seconds.
+[INFO 2025-02-23 5:27:13 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 5:27:13 PM] Test Parallelization enabled for D:\Code2025\RavenWork\ExponentiatingBySquaring\ExponentiatingBySquaringTest\bin\Debug\net9.0\ExponentiatingBySquaringTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 5:27:12 PM] D:\Code2025\RavenWork\ExponentiatingBySquaring\ExponentiatingBySquaringTest\bin\Debug\net9.0\ExponentiatingBySquaringTest.dll
+[OUTPUT 2025-02-23 5:27:11 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 5:27:11 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 5:27:09 PM]   ExponentiatingBySquaring -> D:\Code2025\RavenWork\ExponentiatingBySquaring\ExponentiatingBySquaring\bin\Debug\net9.0\ExponentiatingBySquaring.dll
+[OUTPUT 2025-02-23 5:27:08 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 5:27:10 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 5:27:10 PM] Test run for D:\Code2025\RavenWork\ExponentiatingBySquaring\ExponentiatingBySquaringTest\bin\Debug\net9.0\ExponentiatingBySquaringTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 5:27:09 PM]   ExponentiatingBySquaringTest -> D:\Code2025\RavenWork\ExponentiatingBySquaring\ExponentiatingBySquaringTest\bin\Debug\net9.0\ExponentiatingBySquaringTest.dll
+[OUTPUT 2025-02-23 5:27:08 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 5:27:07 PM] Command: dotnet test "D:\Code2025\RavenWork\ExponentiatingBySquaring\ExponentiatingBySquaringTest\ExponentiatingBySquaringTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 5:27:07 PM] Starting test for project: D:\Code2025\RavenWork\ExponentiatingBySquaring\ExponentiatingBySquaringTest\ExponentiatingBySquaringTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
