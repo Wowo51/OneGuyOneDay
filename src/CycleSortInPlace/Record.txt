@@ -1,0 +1,406 @@
+<ActRecord>
+  <ProjectName>CycleSortInPlace</ProjectName>
+  <ProjectDescription>Cycle sort: in‑place with theoretically optimal number of writes</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Cycle sort: in‑place with theoretically optimal number of writes</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\CycleSortInPlace</SolutionFolderPath>
+  <ProjectFolderName>CycleSortInPlace</ProjectFolderName>
+  <ProjectName>CycleSortInPlace</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:02:09 AM
+CycleSortInPlace</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:03:05 AM
+CycleSortInPlace</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CycleSortInPlace -> D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlace\bin\Debug\net9.0\CycleSortInPlace.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.14
+]]></string>
+    <string>WritePatch: Code is Complete.
+CycleSortInPlace</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:03:58 AM
+CycleSortInPlaceTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:04:27 AM
+CycleSortInPlaceTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj (in 244 ms).
+  1 of 2 projects are up-to-date for restore.
+  CycleSortInPlace -> D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlace\bin\Debug\net9.0\CycleSortInPlace.dll
+D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSorterTests.cs(13,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj]
+D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSorterTests.cs(14,30): warning CS8604: Possible null reference argument for parameter 'array' in 'void CycleSorter.Sort<int>(int[] array)'. [D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj]
+  CycleSortInPlaceTest -> D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\bin\Debug\net9.0\CycleSortInPlaceTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSorterTests.cs(13,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj]
+D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSorterTests.cs(14,30): warning CS8604: Possible null reference argument for parameter 'array' in 'void CycleSorter.Sort<int>(int[] array)'. [D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.77
+]]></string>
+    <string>WritePatch: Compile failed.
+CycleSortInPlaceTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:04:28 AM
+CycleSortInPlaceTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:04:28 AM
+CycleSortInPlaceTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:04:53 AM
+CycleSortInPlaceTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CycleSortInPlace -> D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlace\bin\Debug\net9.0\CycleSortInPlace.dll
+  CycleSortInPlaceTest -> D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\bin\Debug\net9.0\CycleSortInPlaceTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.23
+]]></string>
+    <string>WritePatch: Code is not Complete.
+CycleSortInPlaceTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:05:18 AM
+CycleSortInPlaceTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:05:19 AM
+CycleSortInPlaceTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:05:47 AM
+CycleSortInPlaceTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CycleSortInPlace -> D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlace\bin\Debug\net9.0\CycleSortInPlace.dll
+D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSorterTests.cs(13,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj]
+D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSorterTests.cs(14,30): warning CS8604: Possible null reference argument for parameter 'array' in 'void CycleSorter.Sort<int>(int[] array)'. [D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj]
+  CycleSortInPlaceTest -> D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\bin\Debug\net9.0\CycleSortInPlaceTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSorterTests.cs(13,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj]
+D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSorterTests.cs(14,30): warning CS8604: Possible null reference argument for parameter 'array' in 'void CycleSorter.Sort<int>(int[] array)'. [D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.39
+]]></string>
+    <string>WritePatch: Compile failed.
+CycleSortInPlaceTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:05:47 AM
+CycleSortInPlaceTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CycleSortInPlace -> D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlace\bin\Debug\net9.0\CycleSortInPlace.dll
+D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSorterTests.cs(13,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj]
+D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSorterTests.cs(14,30): warning CS8604: Possible null reference argument for parameter 'array' in 'void CycleSorter.Sort<int>(int[] array)'. [D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj]
+  CycleSortInPlaceTest -> D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\bin\Debug\net9.0\CycleSortInPlaceTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSorterTests.cs(13,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj]
+D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSorterTests.cs(14,30): warning CS8604: Possible null reference argument for parameter 'array' in 'void CycleSorter.Sort<int>(int[] array)'. [D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.39
+
+</CompilerResponse>
+2025-02-23 11:05:48 AM
+CycleSortInPlaceTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 11:05:49 AM
+CycleSortInPlace</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CycleSortInPlace -> D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlace\bin\Debug\net9.0\CycleSortInPlace.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.92
+]]></string>
+    <string>WritePatch: Code is Complete.
+CycleSortInPlace</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:06:35 AM
+CycleSortInPlaceTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CycleSortInPlace -> D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlace\bin\Debug\net9.0\CycleSortInPlace.dll
+  CycleSortInPlaceTest -> D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\bin\Debug\net9.0\CycleSortInPlaceTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.37
+]]></string>
+    <string>WritePatch: Code is Complete.
+CycleSortInPlaceTest</string>
+    <string>[INFO 2025-02-23 11:06:45 AM] Starting test for project: D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj</string>
+    <string>[INFO 2025-02-23 11:06:45 AM] Starting test for project: D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj</string>
+    <string>[INFO 2025-02-23 11:06:45 AM] Starting test for project: D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj</string>
+    <string>[INFO 2025-02-23 11:06:45 AM] Starting test for project: D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj</string>
+    <string>[INFO 2025-02-23 11:06:45 AM] Starting test for project: D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj</string>
+    <string>[INFO 2025-02-23 11:06:45 AM] Starting test for project: D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj</string>
+    <string>[INFO 2025-02-23 11:06:45 AM] Starting test for project: D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj</string>
+    <string>[INFO 2025-02-23 11:06:45 AM] Starting test for project: D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj</string>
+    <string>[INFO 2025-02-23 11:06:45 AM] Starting test for project: D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj</string>
+    <string>[INFO 2025-02-23 11:06:45 AM] Starting test for project: D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj</string>
+    <string>[INFO 2025-02-23 11:06:45 AM] Starting test for project: D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj</string>
+    <string>[INFO 2025-02-23 11:06:45 AM] Starting test for project: D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj</string>
+    <string>[INFO 2025-02-23 11:06:45 AM] Starting test for project: D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj</string>
+    <string>[INFO 2025-02-23 11:06:45 AM] Starting test for project: D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 11:06:48 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:06:47 AM] Test run for D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\bin\Debug\net9.0\CycleSortInPlaceTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:06:47 AM]   CycleSortInPlaceTest -> D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\bin\Debug\net9.0\CycleSortInPlaceTest.dll
+[OUTPUT 2025-02-23 11:06:50 AM]   Passed TestSort_StringArray [5 ms]
+[OUTPUT 2025-02-23 11:06:50 AM]   Passed TestSort_SingleElement [4 ms]
+[OUTPUT 2025-02-23 11:06:49 AM] Test Parallelization enabled for D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\bin\Debug\net9.0\CycleSortInPlaceTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 11:06:47 AM]   CycleSortInPlace -> D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlace\bin\Debug\net9.0\CycleSortInPlace.dll
+[OUTPUT 2025-02-23 11:06:49 AM] D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\bin\Debug\net9.0\CycleSortInPlaceTest.dll
+[OUTPUT 2025-02-23 11:06:48 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:06:48 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:06:46 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:06:46 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 11:06:50 AM] All tests passed successfully.
+[INFO 2025-02-23 11:06:50 AM] Test process completed. Duration: 4.55 seconds.
+[INFO 2025-02-23 11:06:50 AM] Process exited with code 0.
+[INFO 2025-02-23 11:06:45 AM] Command: dotnet test "D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:06:45 AM] Starting test for project: D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 11:02:09 AM
+CycleSortInPlace
+
+WritePatch ran compiler. 2025-02-23 11:03:05 AM
+CycleSortInPlace
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CycleSortInPlace -> D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlace\bin\Debug\net9.0\CycleSortInPlace.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.14
+
+
+WritePatch: Code is Complete.
+CycleSortInPlace
+
+WritePatch Started CycleStep. 2025-02-23 11:03:58 AM
+CycleSortInPlaceTest
+
+WritePatch ran compiler. 2025-02-23 11:04:27 AM
+CycleSortInPlaceTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj (in 244 ms).
+  1 of 2 projects are up-to-date for restore.
+  CycleSortInPlace -> D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlace\bin\Debug\net9.0\CycleSortInPlace.dll
+D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSorterTests.cs(13,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj]
+D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSorterTests.cs(14,30): warning CS8604: Possible null reference argument for parameter 'array' in 'void CycleSorter.Sort<int>(int[] array)'. [D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj]
+  CycleSortInPlaceTest -> D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\bin\Debug\net9.0\CycleSortInPlaceTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSorterTests.cs(13,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj]
+D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSorterTests.cs(14,30): warning CS8604: Possible null reference argument for parameter 'array' in 'void CycleSorter.Sort<int>(int[] array)'. [D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.77
+
+
+WritePatch: Compile failed.
+CycleSortInPlaceTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:04:28 AM
+CycleSortInPlaceTest
+
+WritePatch Started CycleStep. 2025-02-23 11:04:28 AM
+CycleSortInPlaceTest
+
+WritePatch ran compiler. 2025-02-23 11:04:53 AM
+CycleSortInPlaceTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CycleSortInPlace -> D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlace\bin\Debug\net9.0\CycleSortInPlace.dll
+  CycleSortInPlaceTest -> D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\bin\Debug\net9.0\CycleSortInPlaceTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.23
+
+
+WritePatch: Code is not Complete.
+CycleSortInPlaceTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:05:18 AM
+CycleSortInPlaceTest
+
+WritePatch Started CycleStep. 2025-02-23 11:05:19 AM
+CycleSortInPlaceTest
+
+WritePatch ran compiler. 2025-02-23 11:05:47 AM
+CycleSortInPlaceTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CycleSortInPlace -> D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlace\bin\Debug\net9.0\CycleSortInPlace.dll
+D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSorterTests.cs(13,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj]
+D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSorterTests.cs(14,30): warning CS8604: Possible null reference argument for parameter 'array' in 'void CycleSorter.Sort<int>(int[] array)'. [D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj]
+  CycleSortInPlaceTest -> D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\bin\Debug\net9.0\CycleSortInPlaceTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSorterTests.cs(13,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj]
+D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSorterTests.cs(14,30): warning CS8604: Possible null reference argument for parameter 'array' in 'void CycleSorter.Sort<int>(int[] array)'. [D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.39
+
+
+WritePatch: Compile failed.
+CycleSortInPlaceTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:05:47 AM
+CycleSortInPlaceTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CycleSortInPlace -> D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlace\bin\Debug\net9.0\CycleSortInPlace.dll
+D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSorterTests.cs(13,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj]
+D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSorterTests.cs(14,30): warning CS8604: Possible null reference argument for parameter 'array' in 'void CycleSorter.Sort<int>(int[] array)'. [D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj]
+  CycleSortInPlaceTest -> D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\bin\Debug\net9.0\CycleSortInPlaceTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSorterTests.cs(13,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj]
+D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSorterTests.cs(14,30): warning CS8604: Possible null reference argument for parameter 'array' in 'void CycleSorter.Sort<int>(int[] array)'. [D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.39
+
+</CompilerResponse>
+2025-02-23 11:05:48 AM
+CycleSortInPlaceTest
+
+WritePatch ran compiler. 2025-02-23 11:05:49 AM
+CycleSortInPlace
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CycleSortInPlace -> D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlace\bin\Debug\net9.0\CycleSortInPlace.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.92
+
+
+WritePatch: Code is Complete.
+CycleSortInPlace
+
+WritePatch ran compiler. 2025-02-23 11:06:35 AM
+CycleSortInPlaceTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CycleSortInPlace -> D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlace\bin\Debug\net9.0\CycleSortInPlace.dll
+  CycleSortInPlaceTest -> D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\bin\Debug\net9.0\CycleSortInPlaceTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.37
+
+
+WritePatch: Code is Complete.
+CycleSortInPlaceTest
+
+TestResult:
+[OUTPUT 2025-02-23 11:06:48 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:06:47 AM] Test run for D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\bin\Debug\net9.0\CycleSortInPlaceTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:06:47 AM]   CycleSortInPlaceTest -> D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\bin\Debug\net9.0\CycleSortInPlaceTest.dll
+[OUTPUT 2025-02-23 11:06:50 AM]   Passed TestSort_StringArray [5 ms]
+[OUTPUT 2025-02-23 11:06:50 AM]   Passed TestSort_SingleElement [4 ms]
+[OUTPUT 2025-02-23 11:06:49 AM] Test Parallelization enabled for D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\bin\Debug\net9.0\CycleSortInPlaceTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 11:06:47 AM]   CycleSortInPlace -> D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlace\bin\Debug\net9.0\CycleSortInPlace.dll
+[OUTPUT 2025-02-23 11:06:49 AM] D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\bin\Debug\net9.0\CycleSortInPlaceTest.dll
+[OUTPUT 2025-02-23 11:06:48 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:06:48 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:06:46 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:06:46 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 11:06:50 AM] All tests passed successfully.
+[INFO 2025-02-23 11:06:50 AM] Test process completed. Duration: 4.55 seconds.
+[INFO 2025-02-23 11:06:50 AM] Process exited with code 0.
+[INFO 2025-02-23 11:06:45 AM] Command: dotnet test "D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:06:45 AM] Starting test for project: D:\Code2025\RavenWork\CycleSortInPlace\CycleSortInPlaceTest\CycleSortInPlaceTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
