@@ -1,0 +1,144 @@
+<ActRecord>
+  <ProjectName>TruncatedExponentialBackoff</ProjectName>
+  <ProjectDescription>Truncated binary exponential backoff</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Truncated binary exponential backoff</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\TruncatedExponentialBackoff</SolutionFolderPath>
+  <ProjectFolderName>TruncatedExponentialBackoff</ProjectFolderName>
+  <ProjectName>TruncatedExponentialBackoff</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:20:29 PM
+TruncatedExponentialBackoff</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:22:04 PM
+TruncatedExponentialBackoff</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TruncatedExponentialBackoff -> D:\Code2025\RavenWork\TruncatedExponentialBackoff\TruncatedExponentialBackoff\bin\Debug\net9.0\TruncatedExponentialBackoff.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.27
+]]></string>
+    <string>WritePatch: Code is Complete.
+TruncatedExponentialBackoff</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:22:31 PM
+TruncatedExponentialBackoffTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:23:52 PM
+TruncatedExponentialBackoffTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\TruncatedExponentialBackoff\TruncatedExponentialBackoffTest\TruncatedExponentialBackoffTest.csproj (in 246 ms).
+  1 of 2 projects are up-to-date for restore.
+  TruncatedExponentialBackoff -> D:\Code2025\RavenWork\TruncatedExponentialBackoff\TruncatedExponentialBackoff\bin\Debug\net9.0\TruncatedExponentialBackoff.dll
+  TruncatedExponentialBackoffTest -> D:\Code2025\RavenWork\TruncatedExponentialBackoff\TruncatedExponentialBackoffTest\bin\Debug\net9.0\TruncatedExponentialBackoffTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.63
+]]></string>
+    <string>WritePatch: Code is Complete.
+TruncatedExponentialBackoffTest</string>
+    <string>[INFO 2025-02-23 1:24:36 PM] Starting test for project: D:\Code2025\RavenWork\TruncatedExponentialBackoff\TruncatedExponentialBackoffTest\TruncatedExponentialBackoffTest.csproj</string>
+    <string>[INFO 2025-02-23 1:24:36 PM] Starting test for project: D:\Code2025\RavenWork\TruncatedExponentialBackoff\TruncatedExponentialBackoffTest\TruncatedExponentialBackoffTest.csproj</string>
+    <string>[INFO 2025-02-23 1:24:36 PM] Starting test for project: D:\Code2025\RavenWork\TruncatedExponentialBackoff\TruncatedExponentialBackoffTest\TruncatedExponentialBackoffTest.csproj</string>
+    <string>[INFO 2025-02-23 1:24:36 PM] Starting test for project: D:\Code2025\RavenWork\TruncatedExponentialBackoff\TruncatedExponentialBackoffTest\TruncatedExponentialBackoffTest.csproj</string>
+    <string>[INFO 2025-02-23 1:24:36 PM] Starting test for project: D:\Code2025\RavenWork\TruncatedExponentialBackoff\TruncatedExponentialBackoffTest\TruncatedExponentialBackoffTest.csproj</string>
+    <string>[INFO 2025-02-23 1:24:36 PM] Starting test for project: D:\Code2025\RavenWork\TruncatedExponentialBackoff\TruncatedExponentialBackoffTest\TruncatedExponentialBackoffTest.csproj</string>
+    <string>[INFO 2025-02-23 1:24:36 PM] Starting test for project: D:\Code2025\RavenWork\TruncatedExponentialBackoff\TruncatedExponentialBackoffTest\TruncatedExponentialBackoffTest.csproj</string>
+    <string>[INFO 2025-02-23 1:24:36 PM] Starting test for project: D:\Code2025\RavenWork\TruncatedExponentialBackoff\TruncatedExponentialBackoffTest\TruncatedExponentialBackoffTest.csproj</string>
+    <string>[INFO 2025-02-23 1:24:36 PM] Starting test for project: D:\Code2025\RavenWork\TruncatedExponentialBackoff\TruncatedExponentialBackoffTest\TruncatedExponentialBackoffTest.csproj</string>
+    <string>[INFO 2025-02-23 1:24:36 PM] Starting test for project: D:\Code2025\RavenWork\TruncatedExponentialBackoff\TruncatedExponentialBackoffTest\TruncatedExponentialBackoffTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 1:24:41 PM] A total of 1 test files matched the specified pattern.
+[SUCCESS 2025-02-23 1:24:40 PM] All tests passed successfully.
+[INFO 2025-02-23 1:24:40 PM] Test process completed. Duration: 4.11 seconds.
+[INFO 2025-02-23 1:24:40 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 1:24:40 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 1:24:39 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 1:24:39 PM] Test run for D:\Code2025\RavenWork\TruncatedExponentialBackoff\TruncatedExponentialBackoffTest\bin\Debug\net9.0\TruncatedExponentialBackoffTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 1:24:39 PM]   TruncatedExponentialBackoffTest -> D:\Code2025\RavenWork\TruncatedExponentialBackoff\TruncatedExponentialBackoffTest\bin\Debug\net9.0\TruncatedExponentialBackoffTest.dll
+[OUTPUT 2025-02-23 1:24:38 PM]   TruncatedExponentialBackoff -> D:\Code2025\RavenWork\TruncatedExponentialBackoff\TruncatedExponentialBackoff\bin\Debug\net9.0\TruncatedExponentialBackoff.dll
+[OUTPUT 2025-02-23 1:24:38 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:24:37 PM]   Determining projects to restore...
+[INFO 2025-02-23 1:24:36 PM] Command: dotnet test "D:\Code2025\RavenWork\TruncatedExponentialBackoff\TruncatedExponentialBackoffTest\TruncatedExponentialBackoffTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:24:36 PM] Starting test for project: D:\Code2025\RavenWork\TruncatedExponentialBackoff\TruncatedExponentialBackoffTest\TruncatedExponentialBackoffTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 1:20:29 PM
+TruncatedExponentialBackoff
+
+WritePatch ran compiler. 2025-02-23 1:22:04 PM
+TruncatedExponentialBackoff
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TruncatedExponentialBackoff -> D:\Code2025\RavenWork\TruncatedExponentialBackoff\TruncatedExponentialBackoff\bin\Debug\net9.0\TruncatedExponentialBackoff.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.27
+
+
+WritePatch: Code is Complete.
+TruncatedExponentialBackoff
+
+WritePatch Started CycleStep. 2025-02-23 1:22:31 PM
+TruncatedExponentialBackoffTest
+
+WritePatch ran compiler. 2025-02-23 1:23:52 PM
+TruncatedExponentialBackoffTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\TruncatedExponentialBackoff\TruncatedExponentialBackoffTest\TruncatedExponentialBackoffTest.csproj (in 246 ms).
+  1 of 2 projects are up-to-date for restore.
+  TruncatedExponentialBackoff -> D:\Code2025\RavenWork\TruncatedExponentialBackoff\TruncatedExponentialBackoff\bin\Debug\net9.0\TruncatedExponentialBackoff.dll
+  TruncatedExponentialBackoffTest -> D:\Code2025\RavenWork\TruncatedExponentialBackoff\TruncatedExponentialBackoffTest\bin\Debug\net9.0\TruncatedExponentialBackoffTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.63
+
+
+WritePatch: Code is Complete.
+TruncatedExponentialBackoffTest
+
+TestResult:
+[OUTPUT 2025-02-23 1:24:41 PM] A total of 1 test files matched the specified pattern.
+[SUCCESS 2025-02-23 1:24:40 PM] All tests passed successfully.
+[INFO 2025-02-23 1:24:40 PM] Test process completed. Duration: 4.11 seconds.
+[INFO 2025-02-23 1:24:40 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 1:24:40 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 1:24:39 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 1:24:39 PM] Test run for D:\Code2025\RavenWork\TruncatedExponentialBackoff\TruncatedExponentialBackoffTest\bin\Debug\net9.0\TruncatedExponentialBackoffTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 1:24:39 PM]   TruncatedExponentialBackoffTest -> D:\Code2025\RavenWork\TruncatedExponentialBackoff\TruncatedExponentialBackoffTest\bin\Debug\net9.0\TruncatedExponentialBackoffTest.dll
+[OUTPUT 2025-02-23 1:24:38 PM]   TruncatedExponentialBackoff -> D:\Code2025\RavenWork\TruncatedExponentialBackoff\TruncatedExponentialBackoff\bin\Debug\net9.0\TruncatedExponentialBackoff.dll
+[OUTPUT 2025-02-23 1:24:38 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:24:37 PM]   Determining projects to restore...
+[INFO 2025-02-23 1:24:36 PM] Command: dotnet test "D:\Code2025\RavenWork\TruncatedExponentialBackoff\TruncatedExponentialBackoffTest\TruncatedExponentialBackoffTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:24:36 PM] Starting test for project: D:\Code2025\RavenWork\TruncatedExponentialBackoff\TruncatedExponentialBackoffTest\TruncatedExponentialBackoffTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
