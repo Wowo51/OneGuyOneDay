@@ -1,0 +1,391 @@
+<ActRecord>
+  <ProjectName>UniformBinarySearch</ProjectName>
+  <ProjectDescription>Uniform binary search: an optimization of the classic binary search algorithm</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Uniform binary search: an optimization of the classic binary search algorithm</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\UniformBinarySearch</SolutionFolderPath>
+  <ProjectFolderName>UniformBinarySearch</ProjectFolderName>
+  <ProjectName>UniformBinarySearch</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:31:47 PM
+UniformBinarySearch</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:32:44 PM
+UniformBinarySearch</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  UniformBinarySearch -> D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearch\bin\Debug\net9.0\UniformBinarySearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.66
+]]></string>
+    <string>WritePatch: Code is Complete.
+UniformBinarySearch</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:33:21 PM
+UniformBinarySearchTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:34:06 PM
+UniformBinarySearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTest.csproj (in 398 ms).
+  1 of 2 projects are up-to-date for restore.
+  UniformBinarySearch -> D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearch\bin\Debug\net9.0\UniformBinarySearch.dll
+D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTests.cs(12,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTest.csproj]
+  UniformBinarySearchTest -> D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\bin\Debug\net9.0\UniformBinarySearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTests.cs(12,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.15
+]]></string>
+    <string>WritePatch: Compile failed.
+UniformBinarySearchTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:34:07 PM
+UniformBinarySearchTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:34:07 PM
+UniformBinarySearchTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:34:47 PM
+UniformBinarySearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  UniformBinarySearch -> D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearch\bin\Debug\net9.0\UniformBinarySearch.dll
+  UniformBinarySearchTest -> D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\bin\Debug\net9.0\UniformBinarySearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.51
+]]></string>
+    <string>WritePatch: Code is not Complete.
+UniformBinarySearchTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:35:00 PM
+UniformBinarySearchTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:35:01 PM
+UniformBinarySearchTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:36:38 PM
+UniformBinarySearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  UniformBinarySearch -> D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearch\bin\Debug\net9.0\UniformBinarySearch.dll
+D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTests.cs(12,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTest.csproj]
+  UniformBinarySearchTest -> D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\bin\Debug\net9.0\UniformBinarySearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTests.cs(12,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.54
+]]></string>
+    <string>WritePatch: Compile failed.
+UniformBinarySearchTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:36:40 PM
+UniformBinarySearchTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  UniformBinarySearch -> D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearch\bin\Debug\net9.0\UniformBinarySearch.dll
+D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTests.cs(12,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTest.csproj]
+  UniformBinarySearchTest -> D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\bin\Debug\net9.0\UniformBinarySearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTests.cs(12,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.54
+
+</CompilerResponse>
+2025-02-23 7:36:42 PM
+UniformBinarySearchTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 7:36:45 PM
+UniformBinarySearch</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  UniformBinarySearch -> D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearch\bin\Debug\net9.0\UniformBinarySearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.67
+]]></string>
+    <string>WritePatch: Code is Complete.
+UniformBinarySearch</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:37:13 PM
+UniformBinarySearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  UniformBinarySearch -> D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearch\bin\Debug\net9.0\UniformBinarySearch.dll
+  UniformBinarySearchTest -> D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\bin\Debug\net9.0\UniformBinarySearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.85
+]]></string>
+    <string>WritePatch: Code is Complete.
+UniformBinarySearchTest</string>
+    <string>[INFO 2025-02-23 7:37:31 PM] Starting test for project: D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTest.csproj</string>
+    <string>[INFO 2025-02-23 7:37:31 PM] Starting test for project: D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTest.csproj</string>
+    <string>[INFO 2025-02-23 7:37:31 PM] Starting test for project: D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTest.csproj</string>
+    <string>[INFO 2025-02-23 7:37:31 PM] Starting test for project: D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTest.csproj</string>
+    <string>[INFO 2025-02-23 7:37:31 PM] Starting test for project: D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTest.csproj</string>
+    <string>[INFO 2025-02-23 7:37:31 PM] Starting test for project: D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTest.csproj</string>
+    <string>[INFO 2025-02-23 7:37:31 PM] Starting test for project: D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTest.csproj</string>
+    <string>[INFO 2025-02-23 7:37:31 PM] Starting test for project: D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTest.csproj</string>
+    <string>[INFO 2025-02-23 7:37:31 PM] Starting test for project: D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTest.csproj</string>
+    <string>[INFO 2025-02-23 7:37:31 PM] Starting test for project: D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTest.csproj</string>
+    <string>[INFO 2025-02-23 7:37:31 PM] Starting test for project: D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTest.csproj</string>
+    <string>[INFO 2025-02-23 7:37:31 PM] Starting test for project: D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTest.csproj</string>
+    <string>[INFO 2025-02-23 7:37:31 PM] Starting test for project: D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 7:37:38 PM] All tests passed successfully.
+[INFO 2025-02-23 7:37:38 PM] Test process completed. Duration: 6.61 seconds.
+[INFO 2025-02-23 7:37:38 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 7:37:38 PM] Test Parallelization enabled for D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\bin\Debug\net9.0\UniformBinarySearchTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:37:36 PM] D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\bin\Debug\net9.0\UniformBinarySearchTest.dll
+[OUTPUT 2025-02-23 7:37:36 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:37:35 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:37:34 PM]   UniformBinarySearch -> D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearch\bin\Debug\net9.0\UniformBinarySearch.dll
+[OUTPUT 2025-02-23 7:37:33 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 7:37:39 PM]   Passed Test_MultiElement_FoundAtEnd [8 ms]
+[OUTPUT 2025-02-23 7:37:35 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:37:35 PM] Test run for D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\bin\Debug\net9.0\UniformBinarySearchTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:37:34 PM]   UniformBinarySearchTest -> D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\bin\Debug\net9.0\UniformBinarySearchTest.dll
+[OUTPUT 2025-02-23 7:37:33 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 7:37:31 PM] Command: dotnet test "D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:37:31 PM] Starting test for project: D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 7:31:47 PM
+UniformBinarySearch
+
+WritePatch ran compiler. 2025-02-23 7:32:44 PM
+UniformBinarySearch
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  UniformBinarySearch -> D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearch\bin\Debug\net9.0\UniformBinarySearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.66
+
+
+WritePatch: Code is Complete.
+UniformBinarySearch
+
+WritePatch Started CycleStep. 2025-02-23 7:33:21 PM
+UniformBinarySearchTest
+
+WritePatch ran compiler. 2025-02-23 7:34:06 PM
+UniformBinarySearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTest.csproj (in 398 ms).
+  1 of 2 projects are up-to-date for restore.
+  UniformBinarySearch -> D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearch\bin\Debug\net9.0\UniformBinarySearch.dll
+D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTests.cs(12,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTest.csproj]
+  UniformBinarySearchTest -> D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\bin\Debug\net9.0\UniformBinarySearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTests.cs(12,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.15
+
+
+WritePatch: Compile failed.
+UniformBinarySearchTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:34:07 PM
+UniformBinarySearchTest
+
+WritePatch Started CycleStep. 2025-02-23 7:34:07 PM
+UniformBinarySearchTest
+
+WritePatch ran compiler. 2025-02-23 7:34:47 PM
+UniformBinarySearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  UniformBinarySearch -> D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearch\bin\Debug\net9.0\UniformBinarySearch.dll
+  UniformBinarySearchTest -> D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\bin\Debug\net9.0\UniformBinarySearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.51
+
+
+WritePatch: Code is not Complete.
+UniformBinarySearchTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:35:00 PM
+UniformBinarySearchTest
+
+WritePatch Started CycleStep. 2025-02-23 7:35:01 PM
+UniformBinarySearchTest
+
+WritePatch ran compiler. 2025-02-23 7:36:38 PM
+UniformBinarySearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  UniformBinarySearch -> D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearch\bin\Debug\net9.0\UniformBinarySearch.dll
+D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTests.cs(12,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTest.csproj]
+  UniformBinarySearchTest -> D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\bin\Debug\net9.0\UniformBinarySearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTests.cs(12,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.54
+
+
+WritePatch: Compile failed.
+UniformBinarySearchTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:36:40 PM
+UniformBinarySearchTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  UniformBinarySearch -> D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearch\bin\Debug\net9.0\UniformBinarySearch.dll
+D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTests.cs(12,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTest.csproj]
+  UniformBinarySearchTest -> D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\bin\Debug\net9.0\UniformBinarySearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTests.cs(12,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.54
+
+</CompilerResponse>
+2025-02-23 7:36:42 PM
+UniformBinarySearchTest
+
+WritePatch ran compiler. 2025-02-23 7:36:45 PM
+UniformBinarySearch
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  UniformBinarySearch -> D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearch\bin\Debug\net9.0\UniformBinarySearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.67
+
+
+WritePatch: Code is Complete.
+UniformBinarySearch
+
+WritePatch ran compiler. 2025-02-23 7:37:13 PM
+UniformBinarySearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  UniformBinarySearch -> D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearch\bin\Debug\net9.0\UniformBinarySearch.dll
+  UniformBinarySearchTest -> D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\bin\Debug\net9.0\UniformBinarySearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.85
+
+
+WritePatch: Code is Complete.
+UniformBinarySearchTest
+
+TestResult:
+[SUCCESS 2025-02-23 7:37:38 PM] All tests passed successfully.
+[INFO 2025-02-23 7:37:38 PM] Test process completed. Duration: 6.61 seconds.
+[INFO 2025-02-23 7:37:38 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 7:37:38 PM] Test Parallelization enabled for D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\bin\Debug\net9.0\UniformBinarySearchTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:37:36 PM] D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\bin\Debug\net9.0\UniformBinarySearchTest.dll
+[OUTPUT 2025-02-23 7:37:36 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:37:35 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:37:34 PM]   UniformBinarySearch -> D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearch\bin\Debug\net9.0\UniformBinarySearch.dll
+[OUTPUT 2025-02-23 7:37:33 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 7:37:39 PM]   Passed Test_MultiElement_FoundAtEnd [8 ms]
+[OUTPUT 2025-02-23 7:37:35 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:37:35 PM] Test run for D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\bin\Debug\net9.0\UniformBinarySearchTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:37:34 PM]   UniformBinarySearchTest -> D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\bin\Debug\net9.0\UniformBinarySearchTest.dll
+[OUTPUT 2025-02-23 7:37:33 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 7:37:31 PM] Command: dotnet test "D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:37:31 PM] Starting test for project: D:\Code2025\RavenWork\UniformBinarySearch\UniformBinarySearchTest\UniformBinarySearchTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
