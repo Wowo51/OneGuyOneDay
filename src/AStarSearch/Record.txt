@@ -1,0 +1,452 @@
+<ActRecord>
+  <ProjectName>AStarSearch</ProjectName>
+  <ProjectDescription>A*: A best-first search algorithm that uses heuristics to efficiently guide the search toward the goal while finding the shortest path.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>A*: A best-first search algorithm that uses heuristics to efficiently guide the search toward the goal while finding the shortest path.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\AStarSearch</SolutionFolderPath>
+  <ProjectFolderName>AStarSearch</ProjectFolderName>
+  <ProjectName>AStarSearch</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:13:54 PM
+AStarSearch</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:15:03 PM
+AStarSearch</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\AStarSearch\AStarSearch\AStarAlgorithm.cs(53,60): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AStarSearch\AStarSearch\AStarSearch.csproj]
+  AStarSearch -> D:\Code2025\RavenWork\AStarSearch\AStarSearch\bin\Debug\net9.0\AStarSearch.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\AStarSearch\AStarSearch\AStarAlgorithm.cs(53,60): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AStarSearch\AStarSearch\AStarSearch.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+]]></string>
+    <string>WritePatch: Compile failed.
+AStarSearch</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:15:05 PM
+AStarSearch</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:15:06 PM
+AStarSearch</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:15:43 PM
+AStarSearch</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AStarSearch -> D:\Code2025\RavenWork\AStarSearch\AStarSearch\bin\Debug\net9.0\AStarSearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.92
+]]></string>
+    <string>WritePatch: Code is Complete.
+AStarSearch</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:16:00 PM
+AStarSearchTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:16:58 PM
+AStarSearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj (in 227 ms).
+  1 of 2 projects are up-to-date for restore.
+  AStarSearch -> D:\Code2025\RavenWork\AStarSearch\AStarSearch\bin\Debug\net9.0\AStarSearch.dll
+D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarAlgorithmTests.cs(114,34): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj]
+D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarAlgorithmTests.cs(95,77): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj]
+D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarAlgorithmTests.cs(97,94): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj]
+D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarAlgorithmTests.cs(99,122): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj]
+  AStarSearchTest -> D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\bin\Debug\net9.0\AStarSearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarAlgorithmTests.cs(114,34): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj]
+D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarAlgorithmTests.cs(95,77): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj]
+D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarAlgorithmTests.cs(97,94): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj]
+D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarAlgorithmTests.cs(99,122): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.63
+]]></string>
+    <string>WritePatch: Compile failed.
+AStarSearchTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:16:58 PM
+AStarSearchTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:16:58 PM
+AStarSearchTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:17:46 PM
+AStarSearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AStarSearch -> D:\Code2025\RavenWork\AStarSearch\AStarSearch\bin\Debug\net9.0\AStarSearch.dll
+D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarAlgorithmTests.cs(95,77): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj]
+D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarAlgorithmTests.cs(97,94): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj]
+D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarAlgorithmTests.cs(99,122): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj]
+  AStarSearchTest -> D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\bin\Debug\net9.0\AStarSearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarAlgorithmTests.cs(95,77): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj]
+D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarAlgorithmTests.cs(97,94): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj]
+D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarAlgorithmTests.cs(99,122): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.42
+]]></string>
+    <string>WritePatch: Compile failed.
+AStarSearchTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:17:46 PM
+AStarSearchTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:17:47 PM
+AStarSearchTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:18:22 PM
+AStarSearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AStarSearch -> D:\Code2025\RavenWork\AStarSearch\AStarSearch\bin\Debug\net9.0\AStarSearch.dll
+  AStarSearchTest -> D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\bin\Debug\net9.0\AStarSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.20
+]]></string>
+    <string>WritePatch: Code is not Complete.
+AStarSearchTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:18:51 PM
+AStarSearchTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\AStarSearch\AStarSearchTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AStarSearch -> D:\Code2025\RavenWork\AStarSearch\AStarSearch\bin\Debug\net9.0\AStarSearch.dll
+  AStarSearchTest -> D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\bin\Debug\net9.0\AStarSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.20
+
+</CompilerResponse>
+2025-02-23 1:18:51 PM
+AStarSearchTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 1:18:53 PM
+AStarSearch</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AStarSearch -> D:\Code2025\RavenWork\AStarSearch\AStarSearch\bin\Debug\net9.0\AStarSearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+]]></string>
+    <string>WritePatch: Code is Complete.
+AStarSearch</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:19:08 PM
+AStarSearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AStarSearch -> D:\Code2025\RavenWork\AStarSearch\AStarSearch\bin\Debug\net9.0\AStarSearch.dll
+  AStarSearchTest -> D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\bin\Debug\net9.0\AStarSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.02
+]]></string>
+    <string>WritePatch: Code is Complete.
+AStarSearchTest</string>
+    <string>[INFO 2025-02-23 1:19:30 PM] Starting test for project: D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:19:30 PM] Starting test for project: D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:19:30 PM] Starting test for project: D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:19:30 PM] Starting test for project: D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:19:30 PM] Starting test for project: D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:19:30 PM] Starting test for project: D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:19:30 PM] Starting test for project: D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:19:30 PM] Starting test for project: D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:19:30 PM] Starting test for project: D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:19:30 PM] Starting test for project: D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:19:30 PM] Starting test for project: D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 1:19:34 PM] All tests passed successfully.
+[INFO 2025-02-23 1:19:34 PM] Test process completed. Duration: 3.35 seconds.
+[INFO 2025-02-23 1:19:34 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 1:19:34 PM] D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\bin\Debug\net9.0\AStarSearchTest.dll
+[OUTPUT 2025-02-23 1:19:33 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 1:19:33 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 1:19:33 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 1:19:32 PM] Test run for D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\bin\Debug\net9.0\AStarSearchTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 1:19:32 PM]   AStarSearchTest -> D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\bin\Debug\net9.0\AStarSearchTest.dll
+[OUTPUT 2025-02-23 1:19:32 PM]   AStarSearch -> D:\Code2025\RavenWork\AStarSearch\AStarSearch\bin\Debug\net9.0\AStarSearch.dll
+[OUTPUT 2025-02-23 1:19:32 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:19:31 PM]   Determining projects to restore...
+[INFO 2025-02-23 1:19:30 PM] Command: dotnet test "D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:19:30 PM] Starting test for project: D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 1:13:54 PM
+AStarSearch
+
+WritePatch ran compiler. 2025-02-23 1:15:03 PM
+AStarSearch
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\AStarSearch\AStarSearch\AStarAlgorithm.cs(53,60): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AStarSearch\AStarSearch\AStarSearch.csproj]
+  AStarSearch -> D:\Code2025\RavenWork\AStarSearch\AStarSearch\bin\Debug\net9.0\AStarSearch.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\AStarSearch\AStarSearch\AStarAlgorithm.cs(53,60): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AStarSearch\AStarSearch\AStarSearch.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+
+
+WritePatch: Compile failed.
+AStarSearch
+
+Finished WritePatch cycle step.
+2025-02-23 1:15:05 PM
+AStarSearch
+
+WritePatch Started CycleStep. 2025-02-23 1:15:06 PM
+AStarSearch
+
+WritePatch ran compiler. 2025-02-23 1:15:43 PM
+AStarSearch
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AStarSearch -> D:\Code2025\RavenWork\AStarSearch\AStarSearch\bin\Debug\net9.0\AStarSearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.92
+
+
+WritePatch: Code is Complete.
+AStarSearch
+
+WritePatch Started CycleStep. 2025-02-23 1:16:00 PM
+AStarSearchTest
+
+WritePatch ran compiler. 2025-02-23 1:16:58 PM
+AStarSearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj (in 227 ms).
+  1 of 2 projects are up-to-date for restore.
+  AStarSearch -> D:\Code2025\RavenWork\AStarSearch\AStarSearch\bin\Debug\net9.0\AStarSearch.dll
+D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarAlgorithmTests.cs(114,34): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj]
+D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarAlgorithmTests.cs(95,77): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj]
+D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarAlgorithmTests.cs(97,94): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj]
+D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarAlgorithmTests.cs(99,122): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj]
+  AStarSearchTest -> D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\bin\Debug\net9.0\AStarSearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarAlgorithmTests.cs(114,34): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj]
+D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarAlgorithmTests.cs(95,77): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj]
+D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarAlgorithmTests.cs(97,94): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj]
+D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarAlgorithmTests.cs(99,122): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.63
+
+
+WritePatch: Compile failed.
+AStarSearchTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:16:58 PM
+AStarSearchTest
+
+WritePatch Started CycleStep. 2025-02-23 1:16:58 PM
+AStarSearchTest
+
+WritePatch ran compiler. 2025-02-23 1:17:46 PM
+AStarSearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AStarSearch -> D:\Code2025\RavenWork\AStarSearch\AStarSearch\bin\Debug\net9.0\AStarSearch.dll
+D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarAlgorithmTests.cs(95,77): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj]
+D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarAlgorithmTests.cs(97,94): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj]
+D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarAlgorithmTests.cs(99,122): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj]
+  AStarSearchTest -> D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\bin\Debug\net9.0\AStarSearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarAlgorithmTests.cs(95,77): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj]
+D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarAlgorithmTests.cs(97,94): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj]
+D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarAlgorithmTests.cs(99,122): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.42
+
+
+WritePatch: Compile failed.
+AStarSearchTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:17:46 PM
+AStarSearchTest
+
+WritePatch Started CycleStep. 2025-02-23 1:17:47 PM
+AStarSearchTest
+
+WritePatch ran compiler. 2025-02-23 1:18:22 PM
+AStarSearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AStarSearch -> D:\Code2025\RavenWork\AStarSearch\AStarSearch\bin\Debug\net9.0\AStarSearch.dll
+  AStarSearchTest -> D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\bin\Debug\net9.0\AStarSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.20
+
+
+WritePatch: Code is not Complete.
+AStarSearchTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:18:51 PM
+AStarSearchTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\AStarSearch\AStarSearchTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AStarSearch -> D:\Code2025\RavenWork\AStarSearch\AStarSearch\bin\Debug\net9.0\AStarSearch.dll
+  AStarSearchTest -> D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\bin\Debug\net9.0\AStarSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.20
+
+</CompilerResponse>
+2025-02-23 1:18:51 PM
+AStarSearchTest
+
+WritePatch ran compiler. 2025-02-23 1:18:53 PM
+AStarSearch
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AStarSearch -> D:\Code2025\RavenWork\AStarSearch\AStarSearch\bin\Debug\net9.0\AStarSearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+
+
+WritePatch: Code is Complete.
+AStarSearch
+
+WritePatch ran compiler. 2025-02-23 1:19:08 PM
+AStarSearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AStarSearch -> D:\Code2025\RavenWork\AStarSearch\AStarSearch\bin\Debug\net9.0\AStarSearch.dll
+  AStarSearchTest -> D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\bin\Debug\net9.0\AStarSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.02
+
+
+WritePatch: Code is Complete.
+AStarSearchTest
+
+TestResult:
+[SUCCESS 2025-02-23 1:19:34 PM] All tests passed successfully.
+[INFO 2025-02-23 1:19:34 PM] Test process completed. Duration: 3.35 seconds.
+[INFO 2025-02-23 1:19:34 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 1:19:34 PM] D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\bin\Debug\net9.0\AStarSearchTest.dll
+[OUTPUT 2025-02-23 1:19:33 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 1:19:33 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 1:19:33 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 1:19:32 PM] Test run for D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\bin\Debug\net9.0\AStarSearchTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 1:19:32 PM]   AStarSearchTest -> D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\bin\Debug\net9.0\AStarSearchTest.dll
+[OUTPUT 2025-02-23 1:19:32 PM]   AStarSearch -> D:\Code2025\RavenWork\AStarSearch\AStarSearch\bin\Debug\net9.0\AStarSearch.dll
+[OUTPUT 2025-02-23 1:19:32 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:19:31 PM]   Determining projects to restore...
+[INFO 2025-02-23 1:19:30 PM] Command: dotnet test "D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:19:30 PM] Starting test for project: D:\Code2025\RavenWork\AStarSearch\AStarSearchTest\AStarSearchTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
