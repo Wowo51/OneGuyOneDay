@@ -1,0 +1,349 @@
+<ActRecord>
+  <ProjectName>HammingDistance</ProjectName>
+  <ProjectDescription>Hamming distance: sum number of positions which are different</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Hamming distance: sum number of positions which are different</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\HammingDistance</SolutionFolderPath>
+  <ProjectFolderName>HammingDistance</ProjectFolderName>
+  <ProjectName>HammingDistance</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:03:30 AM
+HammingDistance</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:03:52 AM
+HammingDistance</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HammingDistance -> D:\Code2025\RavenWork\HammingDistance\HammingDistance\bin\Debug\net9.0\HammingDistance.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.05
+]]></string>
+    <string>WritePatch: Code is Complete.
+HammingDistance</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:04:08 AM
+HammingDistanceTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:05:11 AM
+HammingDistanceTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTest.csproj (in 246 ms).
+  1 of 2 projects are up-to-date for restore.
+  HammingDistance -> D:\Code2025\RavenWork\HammingDistance\HammingDistance\bin\Debug\net9.0\HammingDistance.dll
+D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTests.cs(31,75): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTest.csproj]
+D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTests.cs(31,81): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTest.csproj]
+D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTests.cs(39,76): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTest.csproj]
+D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTests.cs(40,84): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTest.csproj]
+  HammingDistanceTest -> D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\bin\Debug\net9.0\HammingDistanceTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTests.cs(31,75): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTest.csproj]
+D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTests.cs(31,81): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTest.csproj]
+D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTests.cs(39,76): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTest.csproj]
+D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTests.cs(40,84): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.80
+]]></string>
+    <string>WritePatch: Compile failed.
+HammingDistanceTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:05:12 AM
+HammingDistanceTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:05:12 AM
+HammingDistanceTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:05:38 AM
+HammingDistanceTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HammingDistance -> D:\Code2025\RavenWork\HammingDistance\HammingDistance\bin\Debug\net9.0\HammingDistance.dll
+  HammingDistanceTest -> D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\bin\Debug\net9.0\HammingDistanceTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.23
+]]></string>
+    <string>WritePatch: Code is not Complete.
+HammingDistanceTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:06:01 AM
+HammingDistanceTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:06:01 AM
+HammingDistanceTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 11:06:36 AM
+HammingDistanceTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HammingDistance -> D:\Code2025\RavenWork\HammingDistance\HammingDistance\bin\Debug\net9.0\HammingDistance.dll
+  HammingDistanceTest -> D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\bin\Debug\net9.0\HammingDistanceTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.23
+
+</CompilerResponse>
+2025-02-23 11:06:36 AM
+HammingDistanceTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 11:06:37 AM
+HammingDistance</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HammingDistance -> D:\Code2025\RavenWork\HammingDistance\HammingDistance\bin\Debug\net9.0\HammingDistance.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.92
+]]></string>
+    <string>WritePatch: Code is Complete.
+HammingDistance</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:07:02 AM
+HammingDistanceTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HammingDistance -> D:\Code2025\RavenWork\HammingDistance\HammingDistance\bin\Debug\net9.0\HammingDistance.dll
+  HammingDistanceTest -> D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\bin\Debug\net9.0\HammingDistanceTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.39
+]]></string>
+    <string>WritePatch: Code is Complete.
+HammingDistanceTest</string>
+    <string>[INFO 2025-02-23 11:07:22 AM] Starting test for project: D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTest.csproj</string>
+    <string>[INFO 2025-02-23 11:07:22 AM] Starting test for project: D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTest.csproj</string>
+    <string>[INFO 2025-02-23 11:07:22 AM] Starting test for project: D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTest.csproj</string>
+    <string>[INFO 2025-02-23 11:07:22 AM] Starting test for project: D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTest.csproj</string>
+    <string>[INFO 2025-02-23 11:07:22 AM] Starting test for project: D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTest.csproj</string>
+    <string>[INFO 2025-02-23 11:07:22 AM] Starting test for project: D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTest.csproj</string>
+    <string>[INFO 2025-02-23 11:07:22 AM] Starting test for project: D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTest.csproj</string>
+    <string>[INFO 2025-02-23 11:07:22 AM] Starting test for project: D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTest.csproj</string>
+    <string>[INFO 2025-02-23 11:07:22 AM] Starting test for project: D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTest.csproj</string>
+    <string>[INFO 2025-02-23 11:07:22 AM] Starting test for project: D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTest.csproj</string>
+    <string>[INFO 2025-02-23 11:07:22 AM] Starting test for project: D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTest.csproj</string>
+    <string>[INFO 2025-02-23 11:07:22 AM] Starting test for project: D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 11:07:26 AM] All tests passed successfully.
+[INFO 2025-02-23 11:07:26 AM] Test process completed. Duration: 3.63 seconds.
+[INFO 2025-02-23 11:07:26 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 11:07:26 AM] Test Parallelization enabled for D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\bin\Debug\net9.0\HammingDistanceTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 11:07:25 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:07:25 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:07:24 AM] Test run for D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\bin\Debug\net9.0\HammingDistanceTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:07:24 AM]   HammingDistanceTest -> D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\bin\Debug\net9.0\HammingDistanceTest.dll
+[OUTPUT 2025-02-23 11:07:23 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:07:26 AM] D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\bin\Debug\net9.0\HammingDistanceTest.dll
+[OUTPUT 2025-02-23 11:07:25 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:07:24 AM]   HammingDistance -> D:\Code2025\RavenWork\HammingDistance\HammingDistance\bin\Debug\net9.0\HammingDistance.dll
+[OUTPUT 2025-02-23 11:07:23 AM]   Determining projects to restore...
+[INFO 2025-02-23 11:07:22 AM] Command: dotnet test "D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:07:22 AM] Starting test for project: D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 11:03:30 AM
+HammingDistance
+
+WritePatch ran compiler. 2025-02-23 11:03:52 AM
+HammingDistance
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HammingDistance -> D:\Code2025\RavenWork\HammingDistance\HammingDistance\bin\Debug\net9.0\HammingDistance.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.05
+
+
+WritePatch: Code is Complete.
+HammingDistance
+
+WritePatch Started CycleStep. 2025-02-23 11:04:08 AM
+HammingDistanceTest
+
+WritePatch ran compiler. 2025-02-23 11:05:11 AM
+HammingDistanceTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTest.csproj (in 246 ms).
+  1 of 2 projects are up-to-date for restore.
+  HammingDistance -> D:\Code2025\RavenWork\HammingDistance\HammingDistance\bin\Debug\net9.0\HammingDistance.dll
+D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTests.cs(31,75): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTest.csproj]
+D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTests.cs(31,81): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTest.csproj]
+D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTests.cs(39,76): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTest.csproj]
+D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTests.cs(40,84): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTest.csproj]
+  HammingDistanceTest -> D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\bin\Debug\net9.0\HammingDistanceTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTests.cs(31,75): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTest.csproj]
+D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTests.cs(31,81): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTest.csproj]
+D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTests.cs(39,76): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTest.csproj]
+D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTests.cs(40,84): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.80
+
+
+WritePatch: Compile failed.
+HammingDistanceTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:05:12 AM
+HammingDistanceTest
+
+WritePatch Started CycleStep. 2025-02-23 11:05:12 AM
+HammingDistanceTest
+
+WritePatch ran compiler. 2025-02-23 11:05:38 AM
+HammingDistanceTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HammingDistance -> D:\Code2025\RavenWork\HammingDistance\HammingDistance\bin\Debug\net9.0\HammingDistance.dll
+  HammingDistanceTest -> D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\bin\Debug\net9.0\HammingDistanceTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.23
+
+
+WritePatch: Code is not Complete.
+HammingDistanceTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:06:01 AM
+HammingDistanceTest
+
+WritePatch Started CycleStep. 2025-02-23 11:06:01 AM
+HammingDistanceTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 11:06:36 AM
+HammingDistanceTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HammingDistance -> D:\Code2025\RavenWork\HammingDistance\HammingDistance\bin\Debug\net9.0\HammingDistance.dll
+  HammingDistanceTest -> D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\bin\Debug\net9.0\HammingDistanceTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.23
+
+</CompilerResponse>
+2025-02-23 11:06:36 AM
+HammingDistanceTest
+
+WritePatch ran compiler. 2025-02-23 11:06:37 AM
+HammingDistance
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HammingDistance -> D:\Code2025\RavenWork\HammingDistance\HammingDistance\bin\Debug\net9.0\HammingDistance.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.92
+
+
+WritePatch: Code is Complete.
+HammingDistance
+
+WritePatch ran compiler. 2025-02-23 11:07:02 AM
+HammingDistanceTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HammingDistance -> D:\Code2025\RavenWork\HammingDistance\HammingDistance\bin\Debug\net9.0\HammingDistance.dll
+  HammingDistanceTest -> D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\bin\Debug\net9.0\HammingDistanceTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.39
+
+
+WritePatch: Code is Complete.
+HammingDistanceTest
+
+TestResult:
+[SUCCESS 2025-02-23 11:07:26 AM] All tests passed successfully.
+[INFO 2025-02-23 11:07:26 AM] Test process completed. Duration: 3.63 seconds.
+[INFO 2025-02-23 11:07:26 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 11:07:26 AM] Test Parallelization enabled for D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\bin\Debug\net9.0\HammingDistanceTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 11:07:25 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:07:25 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:07:24 AM] Test run for D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\bin\Debug\net9.0\HammingDistanceTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:07:24 AM]   HammingDistanceTest -> D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\bin\Debug\net9.0\HammingDistanceTest.dll
+[OUTPUT 2025-02-23 11:07:23 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:07:26 AM] D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\bin\Debug\net9.0\HammingDistanceTest.dll
+[OUTPUT 2025-02-23 11:07:25 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:07:24 AM]   HammingDistance -> D:\Code2025\RavenWork\HammingDistance\HammingDistance\bin\Debug\net9.0\HammingDistance.dll
+[OUTPUT 2025-02-23 11:07:23 AM]   Determining projects to restore...
+[INFO 2025-02-23 11:07:22 AM] Command: dotnet test "D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:07:22 AM] Starting test for project: D:\Code2025\RavenWork\HammingDistance\HammingDistanceTest\HammingDistanceTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
