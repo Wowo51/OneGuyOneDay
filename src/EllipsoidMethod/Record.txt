@@ -1,0 +1,225 @@
+<ActRecord>
+  <ProjectName>EllipsoidMethod</ProjectName>
+  <ProjectDescription>Ellipsoid method – An iterative algorithm that uses ellipsoids to solve convex optimization problems.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Ellipsoid method – An iterative algorithm that uses ellipsoids to solve convex optimization problems.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\EllipsoidMethod</SolutionFolderPath>
+  <ProjectFolderName>EllipsoidMethod</ProjectFolderName>
+  <ProjectName>EllipsoidMethod</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:37:17 AM
+EllipsoidMethod</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:39:08 AM
+EllipsoidMethod</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EllipsoidMethod -> D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethod\bin\Debug\net9.0\EllipsoidMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+]]></string>
+    <string>WritePatch: Code is Complete.
+EllipsoidMethod</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:39:25 AM
+EllipsoidMethodTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:41:52 AM
+EllipsoidMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidMethodTest.csproj (in 331 ms).
+  1 of 2 projects are up-to-date for restore.
+  EllipsoidMethod -> D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethod\bin\Debug\net9.0\EllipsoidMethod.dll
+D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidSolverTests.cs(32,49): error CS0150: A constant value is expected [D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidMethodTest.csproj]
+D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidSolverTests.cs(38,50): error CS0150: A constant value is expected [D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidMethodTest.csproj]
+D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidSolverTests.cs(38,61): error CS0150: A constant value is expected [D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidMethodTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidSolverTests.cs(32,49): error CS0150: A constant value is expected [D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidMethodTest.csproj]
+D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidSolverTests.cs(38,50): error CS0150: A constant value is expected [D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidMethodTest.csproj]
+D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidSolverTests.cs(38,61): error CS0150: A constant value is expected [D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidMethodTest.csproj]
+    0 Warning(s)
+    3 Error(s)
+
+Time Elapsed 00:00:02.35
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+EllipsoidMethodTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:41:53 AM
+EllipsoidMethodTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:41:53 AM
+EllipsoidMethodTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:43:02 AM
+EllipsoidMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EllipsoidMethod -> D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethod\bin\Debug\net9.0\EllipsoidMethod.dll
+  EllipsoidMethodTest -> D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\bin\Debug\net9.0\EllipsoidMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.69
+]]></string>
+    <string>WritePatch: Code is Complete.
+EllipsoidMethodTest</string>
+    <string>[INFO 2025-02-23 9:43:20 AM] Starting test for project: D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 9:43:20 AM] Starting test for project: D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 9:43:20 AM] Starting test for project: D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 9:43:20 AM] Starting test for project: D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 9:43:20 AM] Starting test for project: D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 9:43:20 AM] Starting test for project: D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 9:43:20 AM] Starting test for project: D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 9:43:20 AM] Starting test for project: D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 9:43:20 AM] Starting test for project: D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 9:43:20 AM] Starting test for project: D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 9:43:20 AM] Starting test for project: D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 9:43:20 AM] Starting test for project: D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 9:43:20 AM] Starting test for project: D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 9:43:20 AM] Starting test for project: D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidMethodTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 9:43:24 AM] All tests passed successfully.
+[INFO 2025-02-23 9:43:24 AM] Test process completed. Duration: 3.89 seconds.
+[INFO 2025-02-23 9:43:24 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 9:43:25 AM]   Passed TestLargeMatrixVectorMultiplication [5 ms]
+[OUTPUT 2025-02-23 9:43:24 AM]   Passed TestSolveWithNullOracle_ReturnsInitialCenter [5 ms]
+[OUTPUT 2025-02-23 9:43:24 AM] Test Parallelization enabled for D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\bin\Debug\net9.0\EllipsoidMethodTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 9:43:23 AM] D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\bin\Debug\net9.0\EllipsoidMethodTest.dll
+[OUTPUT 2025-02-23 9:43:23 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 9:43:23 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 9:43:22 AM]   EllipsoidMethod -> D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethod\bin\Debug\net9.0\EllipsoidMethod.dll
+[OUTPUT 2025-02-23 9:43:21 AM]   Determining projects to restore...
+[OUTPUT 2025-02-23 9:43:23 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 9:43:22 AM] Test run for D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\bin\Debug\net9.0\EllipsoidMethodTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 9:43:22 AM]   EllipsoidMethodTest -> D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\bin\Debug\net9.0\EllipsoidMethodTest.dll
+[OUTPUT 2025-02-23 9:43:21 AM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 9:43:20 AM] Command: dotnet test "D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidMethodTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 9:43:20 AM] Starting test for project: D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidMethodTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 9:37:17 AM
+EllipsoidMethod
+
+WritePatch ran compiler. 2025-02-23 9:39:08 AM
+EllipsoidMethod
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EllipsoidMethod -> D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethod\bin\Debug\net9.0\EllipsoidMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+
+
+WritePatch: Code is Complete.
+EllipsoidMethod
+
+WritePatch Started CycleStep. 2025-02-23 9:39:25 AM
+EllipsoidMethodTest
+
+WritePatch ran compiler. 2025-02-23 9:41:52 AM
+EllipsoidMethodTest
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidMethodTest.csproj (in 331 ms).
+  1 of 2 projects are up-to-date for restore.
+  EllipsoidMethod -> D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethod\bin\Debug\net9.0\EllipsoidMethod.dll
+D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidSolverTests.cs(32,49): error CS0150: A constant value is expected [D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidMethodTest.csproj]
+D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidSolverTests.cs(38,50): error CS0150: A constant value is expected [D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidMethodTest.csproj]
+D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidSolverTests.cs(38,61): error CS0150: A constant value is expected [D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidMethodTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidSolverTests.cs(32,49): error CS0150: A constant value is expected [D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidMethodTest.csproj]
+D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidSolverTests.cs(38,50): error CS0150: A constant value is expected [D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidMethodTest.csproj]
+D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidSolverTests.cs(38,61): error CS0150: A constant value is expected [D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidMethodTest.csproj]
+    0 Warning(s)
+    3 Error(s)
+
+Time Elapsed 00:00:02.35
+
+
+Errors:
+
+WritePatch: Compile failed.
+EllipsoidMethodTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:41:53 AM
+EllipsoidMethodTest
+
+WritePatch Started CycleStep. 2025-02-23 9:41:53 AM
+EllipsoidMethodTest
+
+WritePatch ran compiler. 2025-02-23 9:43:02 AM
+EllipsoidMethodTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EllipsoidMethod -> D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethod\bin\Debug\net9.0\EllipsoidMethod.dll
+  EllipsoidMethodTest -> D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\bin\Debug\net9.0\EllipsoidMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.69
+
+
+WritePatch: Code is Complete.
+EllipsoidMethodTest
+
+TestResult:
+[SUCCESS 2025-02-23 9:43:24 AM] All tests passed successfully.
+[INFO 2025-02-23 9:43:24 AM] Test process completed. Duration: 3.89 seconds.
+[INFO 2025-02-23 9:43:24 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 9:43:25 AM]   Passed TestLargeMatrixVectorMultiplication [5 ms]
+[OUTPUT 2025-02-23 9:43:24 AM]   Passed TestSolveWithNullOracle_ReturnsInitialCenter [5 ms]
+[OUTPUT 2025-02-23 9:43:24 AM] Test Parallelization enabled for D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\bin\Debug\net9.0\EllipsoidMethodTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 9:43:23 AM] D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\bin\Debug\net9.0\EllipsoidMethodTest.dll
+[OUTPUT 2025-02-23 9:43:23 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 9:43:23 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 9:43:22 AM]   EllipsoidMethod -> D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethod\bin\Debug\net9.0\EllipsoidMethod.dll
+[OUTPUT 2025-02-23 9:43:21 AM]   Determining projects to restore...
+[OUTPUT 2025-02-23 9:43:23 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 9:43:22 AM] Test run for D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\bin\Debug\net9.0\EllipsoidMethodTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 9:43:22 AM]   EllipsoidMethodTest -> D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\bin\Debug\net9.0\EllipsoidMethodTest.dll
+[OUTPUT 2025-02-23 9:43:21 AM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 9:43:20 AM] Command: dotnet test "D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidMethodTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 9:43:20 AM] Starting test for project: D:\Code2025\RavenWork\EllipsoidMethod\EllipsoidMethodTest\EllipsoidMethodTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
