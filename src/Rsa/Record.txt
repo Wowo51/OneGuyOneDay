@@ -1,0 +1,156 @@
+<ActRecord>
+  <ProjectName>Rsa</ProjectName>
+  <ProjectDescription>RSA</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>RSA</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\Rsa</SolutionFolderPath>
+  <ProjectFolderName>Rsa</ProjectFolderName>
+  <ProjectName>Rsa</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:45:46 AM
+Rsa</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:46:19 AM
+Rsa</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Rsa -> D:\Code2025\RavenWork\Rsa\Rsa\bin\Debug\net9.0\Rsa.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.73
+]]></string>
+    <string>WritePatch: Code is Complete.
+Rsa</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:46:39 AM
+RsaTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:47:05 AM
+RsaTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\Rsa\RsaTest\RsaTest.csproj (in 186 ms).
+  1 of 2 projects are up-to-date for restore.
+  Rsa -> D:\Code2025\RavenWork\Rsa\Rsa\bin\Debug\net9.0\Rsa.dll
+  RsaTest -> D:\Code2025\RavenWork\Rsa\RsaTest\bin\Debug\net9.0\RsaTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.33
+]]></string>
+    <string>WritePatch: Code is Complete.
+RsaTest</string>
+    <string>[INFO 2025-02-23 6:47:23 AM] Starting test for project: D:\Code2025\RavenWork\Rsa\RsaTest\RsaTest.csproj</string>
+    <string>[INFO 2025-02-23 6:47:23 AM] Starting test for project: D:\Code2025\RavenWork\Rsa\RsaTest\RsaTest.csproj</string>
+    <string>[INFO 2025-02-23 6:47:23 AM] Starting test for project: D:\Code2025\RavenWork\Rsa\RsaTest\RsaTest.csproj</string>
+    <string>[INFO 2025-02-23 6:47:23 AM] Starting test for project: D:\Code2025\RavenWork\Rsa\RsaTest\RsaTest.csproj</string>
+    <string>[INFO 2025-02-23 6:47:23 AM] Starting test for project: D:\Code2025\RavenWork\Rsa\RsaTest\RsaTest.csproj</string>
+    <string>[INFO 2025-02-23 6:47:23 AM] Starting test for project: D:\Code2025\RavenWork\Rsa\RsaTest\RsaTest.csproj</string>
+    <string>[INFO 2025-02-23 6:47:23 AM] Starting test for project: D:\Code2025\RavenWork\Rsa\RsaTest\RsaTest.csproj</string>
+    <string>[INFO 2025-02-23 6:47:23 AM] Starting test for project: D:\Code2025\RavenWork\Rsa\RsaTest\RsaTest.csproj</string>
+    <string>[INFO 2025-02-23 6:47:23 AM] Starting test for project: D:\Code2025\RavenWork\Rsa\RsaTest\RsaTest.csproj</string>
+    <string>[INFO 2025-02-23 6:47:23 AM] Starting test for project: D:\Code2025\RavenWork\Rsa\RsaTest\RsaTest.csproj</string>
+    <string>[INFO 2025-02-23 6:47:23 AM] Starting test for project: D:\Code2025\RavenWork\Rsa\RsaTest\RsaTest.csproj</string>
+    <string>[INFO 2025-02-23 6:47:23 AM] Starting test for project: D:\Code2025\RavenWork\Rsa\RsaTest\RsaTest.csproj</string>
+    <string>[INFO 2025-02-23 6:47:23 AM] Starting test for project: D:\Code2025\RavenWork\Rsa\RsaTest\RsaTest.csproj</string>
+    <string>[INFO 2025-02-23 6:47:23 AM] Starting test for project: D:\Code2025\RavenWork\Rsa\RsaTest\RsaTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 6:47:26 AM]   Passed TestEncryptionDecryptionSynthetic [4 ms]
+[OUTPUT 2025-02-23 6:47:26 AM]   Passed TestEncryptionDecryptionAllMessages [4 ms]
+[OUTPUT 2025-02-23 6:47:26 AM] Test Parallelization enabled for D:\Code2025\RavenWork\Rsa\RsaTest\bin\Debug\net9.0\RsaTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 6:47:25 AM] D:\Code2025\RavenWork\Rsa\RsaTest\bin\Debug\net9.0\RsaTest.dll
+[OUTPUT 2025-02-23 6:47:25 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:47:25 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:47:25 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:47:25 AM] Test run for D:\Code2025\RavenWork\Rsa\RsaTest\bin\Debug\net9.0\RsaTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:47:24 AM]   RsaTest -> D:\Code2025\RavenWork\Rsa\RsaTest\bin\Debug\net9.0\RsaTest.dll
+[OUTPUT 2025-02-23 6:47:24 AM]   Rsa -> D:\Code2025\RavenWork\Rsa\Rsa\bin\Debug\net9.0\Rsa.dll
+[OUTPUT 2025-02-23 6:47:24 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 6:47:23 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 6:47:26 AM] All tests passed successfully.
+[INFO 2025-02-23 6:47:26 AM] Test process completed. Duration: 3.04 seconds.
+[INFO 2025-02-23 6:47:26 AM] Process exited with code 0.
+[INFO 2025-02-23 6:47:23 AM] Command: dotnet test "D:\Code2025\RavenWork\Rsa\RsaTest\RsaTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:47:23 AM] Starting test for project: D:\Code2025\RavenWork\Rsa\RsaTest\RsaTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 6:45:46 AM
+Rsa
+
+WritePatch ran compiler. 2025-02-23 6:46:19 AM
+Rsa
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Rsa -> D:\Code2025\RavenWork\Rsa\Rsa\bin\Debug\net9.0\Rsa.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.73
+
+
+WritePatch: Code is Complete.
+Rsa
+
+WritePatch Started CycleStep. 2025-02-23 6:46:39 AM
+RsaTest
+
+WritePatch ran compiler. 2025-02-23 6:47:05 AM
+RsaTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\Rsa\RsaTest\RsaTest.csproj (in 186 ms).
+  1 of 2 projects are up-to-date for restore.
+  Rsa -> D:\Code2025\RavenWork\Rsa\Rsa\bin\Debug\net9.0\Rsa.dll
+  RsaTest -> D:\Code2025\RavenWork\Rsa\RsaTest\bin\Debug\net9.0\RsaTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.33
+
+
+WritePatch: Code is Complete.
+RsaTest
+
+TestResult:
+[OUTPUT 2025-02-23 6:47:26 AM]   Passed TestEncryptionDecryptionSynthetic [4 ms]
+[OUTPUT 2025-02-23 6:47:26 AM]   Passed TestEncryptionDecryptionAllMessages [4 ms]
+[OUTPUT 2025-02-23 6:47:26 AM] Test Parallelization enabled for D:\Code2025\RavenWork\Rsa\RsaTest\bin\Debug\net9.0\RsaTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 6:47:25 AM] D:\Code2025\RavenWork\Rsa\RsaTest\bin\Debug\net9.0\RsaTest.dll
+[OUTPUT 2025-02-23 6:47:25 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:47:25 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:47:25 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:47:25 AM] Test run for D:\Code2025\RavenWork\Rsa\RsaTest\bin\Debug\net9.0\RsaTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:47:24 AM]   RsaTest -> D:\Code2025\RavenWork\Rsa\RsaTest\bin\Debug\net9.0\RsaTest.dll
+[OUTPUT 2025-02-23 6:47:24 AM]   Rsa -> D:\Code2025\RavenWork\Rsa\Rsa\bin\Debug\net9.0\Rsa.dll
+[OUTPUT 2025-02-23 6:47:24 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 6:47:23 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 6:47:26 AM] All tests passed successfully.
+[INFO 2025-02-23 6:47:26 AM] Test process completed. Duration: 3.04 seconds.
+[INFO 2025-02-23 6:47:26 AM] Process exited with code 0.
+[INFO 2025-02-23 6:47:23 AM] Command: dotnet test "D:\Code2025\RavenWork\Rsa\RsaTest\RsaTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:47:23 AM] Starting test for project: D:\Code2025\RavenWork\Rsa\RsaTest\RsaTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
