@@ -1,0 +1,403 @@
+<ActRecord>
+  <ProjectName>HmacMessageAuthentication</ProjectName>
+  <ProjectDescription>HMAC: Keyed‑hash message authentication</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>HMAC: Keyed‑hash message authentication</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\HmacMessageAuthentication</SolutionFolderPath>
+  <ProjectFolderName>HmacMessageAuthentication</ProjectFolderName>
+  <ProjectName>HmacMessageAuthentication</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:13:13 AM
+HmacMessageAuthentication</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:13:42 AM
+HmacMessageAuthentication</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HmacMessageAuthentication -> D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthentication\bin\Debug\net9.0\HmacMessageAuthentication.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+]]></string>
+    <string>WritePatch: Code is Complete.
+HmacMessageAuthentication</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:13:55 AM
+HmacMessageAuthenticationTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:14:25 AM
+HmacMessageAuthenticationTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj (in 270 ms).
+  1 of 2 projects are up-to-date for restore.
+  HmacMessageAuthentication -> D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthentication\bin\Debug\net9.0\HmacMessageAuthentication.dll
+D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacCalculatorTests.cs(27,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj]
+D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacCalculatorTests.cs(35,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj]
+D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacCalculatorTests.cs(42,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj]
+D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacCalculatorTests.cs(42,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj]
+  HmacMessageAuthenticationTest -> D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\bin\Debug\net9.0\HmacMessageAuthenticationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacCalculatorTests.cs(27,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj]
+D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacCalculatorTests.cs(35,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj]
+D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacCalculatorTests.cs(42,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj]
+D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacCalculatorTests.cs(42,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.53
+]]></string>
+    <string>WritePatch: Compile failed.
+HmacMessageAuthenticationTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:14:28 AM
+HmacMessageAuthenticationTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:14:28 AM
+HmacMessageAuthenticationTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:15:08 AM
+HmacMessageAuthenticationTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HmacMessageAuthentication -> D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthentication\bin\Debug\net9.0\HmacMessageAuthentication.dll
+D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacCalculatorTests.cs(27,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj]
+D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacCalculatorTests.cs(35,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj]
+D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacCalculatorTests.cs(42,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj]
+D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacCalculatorTests.cs(42,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj]
+  HmacMessageAuthenticationTest -> D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\bin\Debug\net9.0\HmacMessageAuthenticationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacCalculatorTests.cs(27,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj]
+D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacCalculatorTests.cs(35,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj]
+D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacCalculatorTests.cs(42,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj]
+D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacCalculatorTests.cs(42,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.42
+]]></string>
+    <string>WritePatch: Compile failed.
+HmacMessageAuthenticationTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:15:09 AM
+HmacMessageAuthenticationTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:15:09 AM
+HmacMessageAuthenticationTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:15:27 AM
+HmacMessageAuthenticationTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HmacMessageAuthentication -> D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthentication\bin\Debug\net9.0\HmacMessageAuthentication.dll
+  HmacMessageAuthenticationTest -> D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\bin\Debug\net9.0\HmacMessageAuthenticationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.20
+]]></string>
+    <string>WritePatch: Code is not Complete.
+HmacMessageAuthenticationTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:15:42 AM
+HmacMessageAuthenticationTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HmacMessageAuthentication -> D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthentication\bin\Debug\net9.0\HmacMessageAuthentication.dll
+  HmacMessageAuthenticationTest -> D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\bin\Debug\net9.0\HmacMessageAuthenticationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.20
+
+</CompilerResponse>
+2025-02-23 9:15:42 AM
+HmacMessageAuthenticationTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 9:15:44 AM
+HmacMessageAuthentication</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HmacMessageAuthentication -> D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthentication\bin\Debug\net9.0\HmacMessageAuthentication.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.20
+]]></string>
+    <string>WritePatch: Code is Complete.
+HmacMessageAuthentication</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:15:56 AM
+HmacMessageAuthenticationTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HmacMessageAuthentication -> D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthentication\bin\Debug\net9.0\HmacMessageAuthentication.dll
+  HmacMessageAuthenticationTest -> D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\bin\Debug\net9.0\HmacMessageAuthenticationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.36
+]]></string>
+    <string>WritePatch: Code is Complete.
+HmacMessageAuthenticationTest</string>
+    <string>[INFO 2025-02-23 9:16:10 AM] Starting test for project: D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj</string>
+    <string>[INFO 2025-02-23 9:16:10 AM] Starting test for project: D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj</string>
+    <string>[INFO 2025-02-23 9:16:10 AM] Starting test for project: D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj</string>
+    <string>[INFO 2025-02-23 9:16:10 AM] Starting test for project: D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj</string>
+    <string>[INFO 2025-02-23 9:16:10 AM] Starting test for project: D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj</string>
+    <string>[INFO 2025-02-23 9:16:10 AM] Starting test for project: D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj</string>
+    <string>[INFO 2025-02-23 9:16:10 AM] Starting test for project: D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj</string>
+    <string>[INFO 2025-02-23 9:16:10 AM] Starting test for project: D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj</string>
+    <string>[INFO 2025-02-23 9:16:10 AM] Starting test for project: D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj</string>
+    <string>[INFO 2025-02-23 9:16:10 AM] Starting test for project: D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj</string>
+    <string>[INFO 2025-02-23 9:16:10 AM] Starting test for project: D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 9:16:15 AM] All tests passed successfully.
+[INFO 2025-02-23 9:16:15 AM] Test process completed. Duration: 4.99 seconds.
+[INFO 2025-02-23 9:16:15 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 9:16:12 AM]   HmacMessageAuthenticationTest -> D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\bin\Debug\net9.0\HmacMessageAuthenticationTest.dll
+[OUTPUT 2025-02-23 9:16:11 AM]   HmacMessageAuthentication -> D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthentication\bin\Debug\net9.0\HmacMessageAuthentication.dll
+[OUTPUT 2025-02-23 9:16:11 AM]   Determining projects to restore...
+[OUTPUT 2025-02-23 9:16:15 AM] D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\bin\Debug\net9.0\HmacMessageAuthenticationTest.dll
+[OUTPUT 2025-02-23 9:16:14 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 9:16:13 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 9:16:13 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 9:16:12 AM] Test run for D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\bin\Debug\net9.0\HmacMessageAuthenticationTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 9:16:11 AM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 9:16:10 AM] Command: dotnet test "D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 9:16:10 AM] Starting test for project: D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 9:13:13 AM
+HmacMessageAuthentication
+
+WritePatch ran compiler. 2025-02-23 9:13:42 AM
+HmacMessageAuthentication
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HmacMessageAuthentication -> D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthentication\bin\Debug\net9.0\HmacMessageAuthentication.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+
+
+WritePatch: Code is Complete.
+HmacMessageAuthentication
+
+WritePatch Started CycleStep. 2025-02-23 9:13:55 AM
+HmacMessageAuthenticationTest
+
+WritePatch ran compiler. 2025-02-23 9:14:25 AM
+HmacMessageAuthenticationTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj (in 270 ms).
+  1 of 2 projects are up-to-date for restore.
+  HmacMessageAuthentication -> D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthentication\bin\Debug\net9.0\HmacMessageAuthentication.dll
+D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacCalculatorTests.cs(27,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj]
+D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacCalculatorTests.cs(35,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj]
+D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacCalculatorTests.cs(42,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj]
+D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacCalculatorTests.cs(42,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj]
+  HmacMessageAuthenticationTest -> D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\bin\Debug\net9.0\HmacMessageAuthenticationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacCalculatorTests.cs(27,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj]
+D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacCalculatorTests.cs(35,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj]
+D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacCalculatorTests.cs(42,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj]
+D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacCalculatorTests.cs(42,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.53
+
+
+WritePatch: Compile failed.
+HmacMessageAuthenticationTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:14:28 AM
+HmacMessageAuthenticationTest
+
+WritePatch Started CycleStep. 2025-02-23 9:14:28 AM
+HmacMessageAuthenticationTest
+
+WritePatch ran compiler. 2025-02-23 9:15:08 AM
+HmacMessageAuthenticationTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HmacMessageAuthentication -> D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthentication\bin\Debug\net9.0\HmacMessageAuthentication.dll
+D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacCalculatorTests.cs(27,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj]
+D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacCalculatorTests.cs(35,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj]
+D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacCalculatorTests.cs(42,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj]
+D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacCalculatorTests.cs(42,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj]
+  HmacMessageAuthenticationTest -> D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\bin\Debug\net9.0\HmacMessageAuthenticationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacCalculatorTests.cs(27,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj]
+D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacCalculatorTests.cs(35,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj]
+D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacCalculatorTests.cs(42,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj]
+D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacCalculatorTests.cs(42,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.42
+
+
+WritePatch: Compile failed.
+HmacMessageAuthenticationTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:15:09 AM
+HmacMessageAuthenticationTest
+
+WritePatch Started CycleStep. 2025-02-23 9:15:09 AM
+HmacMessageAuthenticationTest
+
+WritePatch ran compiler. 2025-02-23 9:15:27 AM
+HmacMessageAuthenticationTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HmacMessageAuthentication -> D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthentication\bin\Debug\net9.0\HmacMessageAuthentication.dll
+  HmacMessageAuthenticationTest -> D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\bin\Debug\net9.0\HmacMessageAuthenticationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.20
+
+
+WritePatch: Code is not Complete.
+HmacMessageAuthenticationTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:15:42 AM
+HmacMessageAuthenticationTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HmacMessageAuthentication -> D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthentication\bin\Debug\net9.0\HmacMessageAuthentication.dll
+  HmacMessageAuthenticationTest -> D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\bin\Debug\net9.0\HmacMessageAuthenticationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.20
+
+</CompilerResponse>
+2025-02-23 9:15:42 AM
+HmacMessageAuthenticationTest
+
+WritePatch ran compiler. 2025-02-23 9:15:44 AM
+HmacMessageAuthentication
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HmacMessageAuthentication -> D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthentication\bin\Debug\net9.0\HmacMessageAuthentication.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.20
+
+
+WritePatch: Code is Complete.
+HmacMessageAuthentication
+
+WritePatch ran compiler. 2025-02-23 9:15:56 AM
+HmacMessageAuthenticationTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HmacMessageAuthentication -> D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthentication\bin\Debug\net9.0\HmacMessageAuthentication.dll
+  HmacMessageAuthenticationTest -> D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\bin\Debug\net9.0\HmacMessageAuthenticationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.36
+
+
+WritePatch: Code is Complete.
+HmacMessageAuthenticationTest
+
+TestResult:
+[SUCCESS 2025-02-23 9:16:15 AM] All tests passed successfully.
+[INFO 2025-02-23 9:16:15 AM] Test process completed. Duration: 4.99 seconds.
+[INFO 2025-02-23 9:16:15 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 9:16:12 AM]   HmacMessageAuthenticationTest -> D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\bin\Debug\net9.0\HmacMessageAuthenticationTest.dll
+[OUTPUT 2025-02-23 9:16:11 AM]   HmacMessageAuthentication -> D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthentication\bin\Debug\net9.0\HmacMessageAuthentication.dll
+[OUTPUT 2025-02-23 9:16:11 AM]   Determining projects to restore...
+[OUTPUT 2025-02-23 9:16:15 AM] D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\bin\Debug\net9.0\HmacMessageAuthenticationTest.dll
+[OUTPUT 2025-02-23 9:16:14 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 9:16:13 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 9:16:13 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 9:16:12 AM] Test run for D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\bin\Debug\net9.0\HmacMessageAuthenticationTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 9:16:11 AM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 9:16:10 AM] Command: dotnet test "D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 9:16:10 AM] Starting test for project: D:\Code2025\RavenWork\HmacMessageAuthentication\HmacMessageAuthenticationTest\HmacMessageAuthenticationTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
