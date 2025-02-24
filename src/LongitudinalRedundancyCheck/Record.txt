@@ -1,0 +1,572 @@
+<ActRecord>
+  <ProjectName>LongitudinalRedundancyCheck</ProjectName>
+  <ProjectDescription>Longitudinal redundancy check (LRC)</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Longitudinal redundancy check (LRC)</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\LongitudinalRedundancyCheck</SolutionFolderPath>
+  <ProjectFolderName>LongitudinalRedundancyCheck</ProjectFolderName>
+  <ProjectName>LongitudinalRedundancyCheck</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:17:26 AM
+LongitudinalRedundancyCheck</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:17:56 AM
+LongitudinalRedundancyCheck</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongitudinalRedundancyCheck -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheck\bin\Debug\net9.0\LongitudinalRedundancyCheck.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87
+]]></string>
+    <string>WritePatch: Code is Complete.
+LongitudinalRedundancyCheck</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:18:10 AM
+LongitudinalRedundancyCheckTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:18:33 AM
+LongitudinalRedundancyCheckTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LongitudinalRedundancyCheckTest.csproj (in 223 ms).
+  1 of 2 projects are up-to-date for restore.
+  LongitudinalRedundancyCheck -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheck\bin\Debug\net9.0\LongitudinalRedundancyCheck.dll
+D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LrcCalculatorTests.cs(15,80): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LongitudinalRedundancyCheckTest.csproj]
+  LongitudinalRedundancyCheckTest -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\bin\Debug\net9.0\LongitudinalRedundancyCheckTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LrcCalculatorTests.cs(15,80): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LongitudinalRedundancyCheckTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.62
+]]></string>
+    <string>WritePatch: Compile failed.
+LongitudinalRedundancyCheckTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:18:33 AM
+LongitudinalRedundancyCheckTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:18:34 AM
+LongitudinalRedundancyCheckTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:18:47 AM
+LongitudinalRedundancyCheckTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongitudinalRedundancyCheck -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheck\bin\Debug\net9.0\LongitudinalRedundancyCheck.dll
+  LongitudinalRedundancyCheckTest -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\bin\Debug\net9.0\LongitudinalRedundancyCheckTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+]]></string>
+    <string>WritePatch: Code is not Complete.
+LongitudinalRedundancyCheckTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:19:09 AM
+LongitudinalRedundancyCheckTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:19:10 AM
+LongitudinalRedundancyCheckTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:19:40 AM
+LongitudinalRedundancyCheckTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongitudinalRedundancyCheck -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheck\bin\Debug\net9.0\LongitudinalRedundancyCheck.dll
+  LongitudinalRedundancyCheckTest -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\bin\Debug\net9.0\LongitudinalRedundancyCheckTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.07
+]]></string>
+    <string>WritePatch: Code is not Complete.
+LongitudinalRedundancyCheckTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:19:59 AM
+LongitudinalRedundancyCheckTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongitudinalRedundancyCheck -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheck\bin\Debug\net9.0\LongitudinalRedundancyCheck.dll
+  LongitudinalRedundancyCheckTest -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\bin\Debug\net9.0\LongitudinalRedundancyCheckTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.07
+
+</CompilerResponse>
+2025-02-23 10:19:59 AM
+LongitudinalRedundancyCheckTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 10:20:00 AM
+LongitudinalRedundancyCheck</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongitudinalRedundancyCheck -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheck\bin\Debug\net9.0\LongitudinalRedundancyCheck.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+]]></string>
+    <string>WritePatch: Code is Complete.
+LongitudinalRedundancyCheck</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:20:15 AM
+LongitudinalRedundancyCheckTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongitudinalRedundancyCheck -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheck\bin\Debug\net9.0\LongitudinalRedundancyCheck.dll
+  LongitudinalRedundancyCheckTest -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\bin\Debug\net9.0\LongitudinalRedundancyCheckTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.06
+]]></string>
+    <string>WritePatch: Code is Complete.
+LongitudinalRedundancyCheckTest</string>
+    <string>[INFO 2025-02-23 10:20:29 AM] Starting test for project: D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LongitudinalRedundancyCheckTest.csproj</string>
+    <string>[INFO 2025-02-23 10:20:29 AM] Starting test for project: D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LongitudinalRedundancyCheckTest.csproj</string>
+    <string>[INFO 2025-02-23 10:20:29 AM] Starting test for project: D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LongitudinalRedundancyCheckTest.csproj</string>
+    <string>[INFO 2025-02-23 10:20:29 AM] Starting test for project: D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LongitudinalRedundancyCheckTest.csproj</string>
+    <string>[INFO 2025-02-23 10:20:29 AM] Starting test for project: D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LongitudinalRedundancyCheckTest.csproj</string>
+    <string>[INFO 2025-02-23 10:20:29 AM] Starting test for project: D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LongitudinalRedundancyCheckTest.csproj</string>
+    <string>[INFO 2025-02-23 10:20:29 AM] Starting test for project: D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LongitudinalRedundancyCheckTest.csproj</string>
+    <string>[INFO 2025-02-23 10:20:29 AM] Starting test for project: D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LongitudinalRedundancyCheckTest.csproj</string>
+    <string>[INFO 2025-02-23 10:20:29 AM] Starting test for project: D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LongitudinalRedundancyCheckTest.csproj</string>
+    <string>[INFO 2025-02-23 10:20:29 AM] Starting test for project: D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LongitudinalRedundancyCheckTest.csproj</string>
+    <string>[INFO 2025-02-23 10:20:29 AM] Starting test for project: D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LongitudinalRedundancyCheckTest.csproj</string>
+    <string>[INFO 2025-02-23 10:20:29 AM] Starting test for project: D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LongitudinalRedundancyCheckTest.csproj</string>
+    <string>[INFO 2025-02-23 10:20:29 AM] Starting test for project: D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LongitudinalRedundancyCheckTest.csproj</string>
+    <string>[INFO 2025-02-23 10:20:29 AM] Starting test for project: D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LongitudinalRedundancyCheckTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 10:20:32 AM]   Passed TestComputeLRC_NullInput [23 ms]
+[OUTPUT 2025-02-23 10:20:32 AM] Test Parallelization enabled for D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\bin\Debug\net9.0\LongitudinalRedundancyCheckTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:20:32 AM] D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\bin\Debug\net9.0\LongitudinalRedundancyCheckTest.dll
+[OUTPUT 2025-02-23 10:20:31 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:20:31 AM] Starting test execution, please wait...
+[INFO] Check 'TestResults' folder for more details.
+[LAST OUTPUT] Test Run Failed.
+[LAST OUTPUT] Test Parallelization enabled for D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\bin\Debug\net9.0\LongitudinalRedundancyCheckTest.dll (Workers: 16, Scope: MethodLevel)
+[LAST OUTPUT] D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\bin\Debug\net9.0\LongitudinalRedundancyCheckTest.dll
+[LAST OUTPUT] A total of 1 test files matched the specified pattern.
+[LAST OUTPUT] Starting test execution, please wait...
+[LAST OUTPUT] VSTest version 17.12.0 (x64)
+[LAST OUTPUT] Test run for D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\bin\Debug\net9.0\LongitudinalRedundancyCheckTest.dll (.NETCoreApp,Version=v9.0)
+[LAST OUTPUT]   LongitudinalRedundancyCheckTest -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\bin\Debug\net9.0\LongitudinalRedundancyCheckTest.dll
+[LAST OUTPUT]   LongitudinalRedundancyCheck -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheck\bin\Debug\net9.0\LongitudinalRedundancyCheck.dll
+[LAST OUTPUT]   All projects are up-to-date for restore.
+[ERROR 2025-02-23 10:20:32 AM] Process exited with code 1. Possible causes:
+[INFO 2025-02-23 10:20:32 AM] Test process completed. Duration: 3.07 seconds.
+[INFO 2025-02-23 10:20:32 AM] Process exited with code 1.
+[OUTPUT 2025-02-23 10:20:31 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:20:31 AM] Test run for D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\bin\Debug\net9.0\LongitudinalRedundancyCheckTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:20:30 AM]   LongitudinalRedundancyCheckTest -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\bin\Debug\net9.0\LongitudinalRedundancyCheckTest.dll
+[OUTPUT 2025-02-23 10:20:30 AM]   LongitudinalRedundancyCheck -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheck\bin\Debug\net9.0\LongitudinalRedundancyCheck.dll
+[OUTPUT 2025-02-23 10:20:30 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:20:30 AM]   Determining projects to restore...
+[ERROR 2025-02-23 10:20:32 AM] Test Run Failed.
+[INFO 2025-02-23 10:20:29 AM] Command: dotnet test "D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LongitudinalRedundancyCheckTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:20:29 AM] Starting test for project: D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LongitudinalRedundancyCheckTest.csproj]]></string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:20:50 AM
+LongitudinalRedundancyCheck</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:22:26 AM
+LongitudinalRedundancyCheck</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongitudinalRedundancyCheck -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheck\bin\Debug\net9.0\LongitudinalRedundancyCheck.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.84
+]]></string>
+    <string>WritePatch: Code is not Complete.
+LongitudinalRedundancyCheck</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:23:03 AM
+LongitudinalRedundancyCheck</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:23:03 AM
+LongitudinalRedundancyCheck</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:25:11 AM
+LongitudinalRedundancyCheck</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongitudinalRedundancyCheck -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheck\bin\Debug\net9.0\LongitudinalRedundancyCheck.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+]]></string>
+    <string>WritePatch: Code is Complete.
+LongitudinalRedundancyCheck</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:25:26 AM
+LongitudinalRedundancyCheckTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:26:28 AM
+LongitudinalRedundancyCheckTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongitudinalRedundancyCheck -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheck\bin\Debug\net9.0\LongitudinalRedundancyCheck.dll
+  LongitudinalRedundancyCheckTest -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\bin\Debug\net9.0\LongitudinalRedundancyCheckTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.12
+]]></string>
+    <string>WritePatch: Code is Complete.
+LongitudinalRedundancyCheckTest</string>
+    <string>[INFO 2025-02-23 10:26:40 AM] Starting test for project: D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LongitudinalRedundancyCheckTest.csproj</string>
+    <string>[INFO 2025-02-23 10:26:40 AM] Starting test for project: D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LongitudinalRedundancyCheckTest.csproj</string>
+    <string>[INFO 2025-02-23 10:26:40 AM] Starting test for project: D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LongitudinalRedundancyCheckTest.csproj</string>
+    <string>[INFO 2025-02-23 10:26:40 AM] Starting test for project: D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LongitudinalRedundancyCheckTest.csproj</string>
+    <string>[INFO 2025-02-23 10:26:40 AM] Starting test for project: D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LongitudinalRedundancyCheckTest.csproj</string>
+    <string>[INFO 2025-02-23 10:26:40 AM] Starting test for project: D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LongitudinalRedundancyCheckTest.csproj</string>
+    <string>[INFO 2025-02-23 10:26:40 AM] Starting test for project: D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LongitudinalRedundancyCheckTest.csproj</string>
+    <string>[INFO 2025-02-23 10:26:40 AM] Starting test for project: D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LongitudinalRedundancyCheckTest.csproj</string>
+    <string>[INFO 2025-02-23 10:26:40 AM] Starting test for project: D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LongitudinalRedundancyCheckTest.csproj</string>
+    <string>[INFO 2025-02-23 10:26:40 AM] Starting test for project: D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LongitudinalRedundancyCheckTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 10:26:42 AM] All tests passed successfully.
+[INFO 2025-02-23 10:26:42 AM] Test process completed. Duration: 2.05 seconds.
+[INFO 2025-02-23 10:26:42 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 10:26:43 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:26:42 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:26:42 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:26:42 AM] Test run for D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\bin\Debug\net9.0\LongitudinalRedundancyCheckTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:26:42 AM]   LongitudinalRedundancyCheckTest -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\bin\Debug\net9.0\LongitudinalRedundancyCheckTest.dll
+[OUTPUT 2025-02-23 10:26:42 AM]   LongitudinalRedundancyCheck -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheck\bin\Debug\net9.0\LongitudinalRedundancyCheck.dll
+[OUTPUT 2025-02-23 10:26:41 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:26:41 AM]   Determining projects to restore...
+[INFO 2025-02-23 10:26:40 AM] Command: dotnet test "D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LongitudinalRedundancyCheckTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:26:40 AM] Starting test for project: D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LongitudinalRedundancyCheckTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 10:17:26 AM
+LongitudinalRedundancyCheck
+
+WritePatch ran compiler. 2025-02-23 10:17:56 AM
+LongitudinalRedundancyCheck
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongitudinalRedundancyCheck -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheck\bin\Debug\net9.0\LongitudinalRedundancyCheck.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87
+
+
+WritePatch: Code is Complete.
+LongitudinalRedundancyCheck
+
+WritePatch Started CycleStep. 2025-02-23 10:18:10 AM
+LongitudinalRedundancyCheckTest
+
+WritePatch ran compiler. 2025-02-23 10:18:33 AM
+LongitudinalRedundancyCheckTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LongitudinalRedundancyCheckTest.csproj (in 223 ms).
+  1 of 2 projects are up-to-date for restore.
+  LongitudinalRedundancyCheck -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheck\bin\Debug\net9.0\LongitudinalRedundancyCheck.dll
+D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LrcCalculatorTests.cs(15,80): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LongitudinalRedundancyCheckTest.csproj]
+  LongitudinalRedundancyCheckTest -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\bin\Debug\net9.0\LongitudinalRedundancyCheckTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LrcCalculatorTests.cs(15,80): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LongitudinalRedundancyCheckTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.62
+
+
+WritePatch: Compile failed.
+LongitudinalRedundancyCheckTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:18:33 AM
+LongitudinalRedundancyCheckTest
+
+WritePatch Started CycleStep. 2025-02-23 10:18:34 AM
+LongitudinalRedundancyCheckTest
+
+WritePatch ran compiler. 2025-02-23 10:18:47 AM
+LongitudinalRedundancyCheckTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongitudinalRedundancyCheck -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheck\bin\Debug\net9.0\LongitudinalRedundancyCheck.dll
+  LongitudinalRedundancyCheckTest -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\bin\Debug\net9.0\LongitudinalRedundancyCheckTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+
+
+WritePatch: Code is not Complete.
+LongitudinalRedundancyCheckTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:19:09 AM
+LongitudinalRedundancyCheckTest
+
+WritePatch Started CycleStep. 2025-02-23 10:19:10 AM
+LongitudinalRedundancyCheckTest
+
+WritePatch ran compiler. 2025-02-23 10:19:40 AM
+LongitudinalRedundancyCheckTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongitudinalRedundancyCheck -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheck\bin\Debug\net9.0\LongitudinalRedundancyCheck.dll
+  LongitudinalRedundancyCheckTest -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\bin\Debug\net9.0\LongitudinalRedundancyCheckTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.07
+
+
+WritePatch: Code is not Complete.
+LongitudinalRedundancyCheckTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:19:59 AM
+LongitudinalRedundancyCheckTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongitudinalRedundancyCheck -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheck\bin\Debug\net9.0\LongitudinalRedundancyCheck.dll
+  LongitudinalRedundancyCheckTest -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\bin\Debug\net9.0\LongitudinalRedundancyCheckTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.07
+
+</CompilerResponse>
+2025-02-23 10:19:59 AM
+LongitudinalRedundancyCheckTest
+
+WritePatch ran compiler. 2025-02-23 10:20:00 AM
+LongitudinalRedundancyCheck
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongitudinalRedundancyCheck -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheck\bin\Debug\net9.0\LongitudinalRedundancyCheck.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+
+
+WritePatch: Code is Complete.
+LongitudinalRedundancyCheck
+
+WritePatch ran compiler. 2025-02-23 10:20:15 AM
+LongitudinalRedundancyCheckTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongitudinalRedundancyCheck -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheck\bin\Debug\net9.0\LongitudinalRedundancyCheck.dll
+  LongitudinalRedundancyCheckTest -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\bin\Debug\net9.0\LongitudinalRedundancyCheckTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.06
+
+
+WritePatch: Code is Complete.
+LongitudinalRedundancyCheckTest
+
+TestResult:
+[OUTPUT 2025-02-23 10:20:32 AM]   Passed TestComputeLRC_NullInput [23 ms]
+[OUTPUT 2025-02-23 10:20:32 AM] Test Parallelization enabled for D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\bin\Debug\net9.0\LongitudinalRedundancyCheckTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:20:32 AM] D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\bin\Debug\net9.0\LongitudinalRedundancyCheckTest.dll
+[OUTPUT 2025-02-23 10:20:31 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:20:31 AM] Starting test execution, please wait...
+[INFO] Check 'TestResults' folder for more details.
+[LAST OUTPUT] Test Run Failed.
+[LAST OUTPUT] Test Parallelization enabled for D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\bin\Debug\net9.0\LongitudinalRedundancyCheckTest.dll (Workers: 16, Scope: MethodLevel)
+[LAST OUTPUT] D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\bin\Debug\net9.0\LongitudinalRedundancyCheckTest.dll
+[LAST OUTPUT] A total of 1 test files matched the specified pattern.
+[LAST OUTPUT] Starting test execution, please wait...
+[LAST OUTPUT] VSTest version 17.12.0 (x64)
+[LAST OUTPUT] Test run for D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\bin\Debug\net9.0\LongitudinalRedundancyCheckTest.dll (.NETCoreApp,Version=v9.0)
+[LAST OUTPUT]   LongitudinalRedundancyCheckTest -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\bin\Debug\net9.0\LongitudinalRedundancyCheckTest.dll
+[LAST OUTPUT]   LongitudinalRedundancyCheck -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheck\bin\Debug\net9.0\LongitudinalRedundancyCheck.dll
+[LAST OUTPUT]   All projects are up-to-date for restore.
+[ERROR 2025-02-23 10:20:32 AM] Process exited with code 1. Possible causes:
+[INFO 2025-02-23 10:20:32 AM] Test process completed. Duration: 3.07 seconds.
+[INFO 2025-02-23 10:20:32 AM] Process exited with code 1.
+[OUTPUT 2025-02-23 10:20:31 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:20:31 AM] Test run for D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\bin\Debug\net9.0\LongitudinalRedundancyCheckTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:20:30 AM]   LongitudinalRedundancyCheckTest -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\bin\Debug\net9.0\LongitudinalRedundancyCheckTest.dll
+[OUTPUT 2025-02-23 10:20:30 AM]   LongitudinalRedundancyCheck -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheck\bin\Debug\net9.0\LongitudinalRedundancyCheck.dll
+[OUTPUT 2025-02-23 10:20:30 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:20:30 AM]   Determining projects to restore...
+[ERROR 2025-02-23 10:20:32 AM] Test Run Failed.
+[INFO 2025-02-23 10:20:29 AM] Command: dotnet test "D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LongitudinalRedundancyCheckTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:20:29 AM] Starting test for project: D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LongitudinalRedundancyCheckTest.csproj
+
+WritePatch Started CycleStep. 2025-02-23 10:20:50 AM
+LongitudinalRedundancyCheck
+
+WritePatch ran compiler. 2025-02-23 10:22:26 AM
+LongitudinalRedundancyCheck
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongitudinalRedundancyCheck -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheck\bin\Debug\net9.0\LongitudinalRedundancyCheck.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.84
+
+
+WritePatch: Code is not Complete.
+LongitudinalRedundancyCheck
+
+Finished WritePatch cycle step.
+2025-02-23 10:23:03 AM
+LongitudinalRedundancyCheck
+
+WritePatch Started CycleStep. 2025-02-23 10:23:03 AM
+LongitudinalRedundancyCheck
+
+WritePatch ran compiler. 2025-02-23 10:25:11 AM
+LongitudinalRedundancyCheck
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongitudinalRedundancyCheck -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheck\bin\Debug\net9.0\LongitudinalRedundancyCheck.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+
+
+WritePatch: Code is Complete.
+LongitudinalRedundancyCheck
+
+WritePatch Started CycleStep. 2025-02-23 10:25:26 AM
+LongitudinalRedundancyCheckTest
+
+WritePatch ran compiler. 2025-02-23 10:26:28 AM
+LongitudinalRedundancyCheckTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LongitudinalRedundancyCheck -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheck\bin\Debug\net9.0\LongitudinalRedundancyCheck.dll
+  LongitudinalRedundancyCheckTest -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\bin\Debug\net9.0\LongitudinalRedundancyCheckTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.12
+
+
+WritePatch: Code is Complete.
+LongitudinalRedundancyCheckTest
+
+TestResult:
+[SUCCESS 2025-02-23 10:26:42 AM] All tests passed successfully.
+[INFO 2025-02-23 10:26:42 AM] Test process completed. Duration: 2.05 seconds.
+[INFO 2025-02-23 10:26:42 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 10:26:43 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:26:42 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:26:42 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:26:42 AM] Test run for D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\bin\Debug\net9.0\LongitudinalRedundancyCheckTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:26:42 AM]   LongitudinalRedundancyCheckTest -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\bin\Debug\net9.0\LongitudinalRedundancyCheckTest.dll
+[OUTPUT 2025-02-23 10:26:42 AM]   LongitudinalRedundancyCheck -> D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheck\bin\Debug\net9.0\LongitudinalRedundancyCheck.dll
+[OUTPUT 2025-02-23 10:26:41 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:26:41 AM]   Determining projects to restore...
+[INFO 2025-02-23 10:26:40 AM] Command: dotnet test "D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LongitudinalRedundancyCheckTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:26:40 AM] Starting test for project: D:\Code2025\RavenWork\LongitudinalRedundancyCheck\LongitudinalRedundancyCheckTest\LongitudinalRedundancyCheckTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
