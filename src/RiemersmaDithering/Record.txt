@@ -1,0 +1,1137 @@
+<ActRecord>
+  <ProjectName>RiemersmaDithering</ProjectName>
+  <ProjectDescription>Riemersma dithering</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Riemersma dithering</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\RiemersmaDithering</SolutionFolderPath>
+  <ProjectFolderName>RiemersmaDithering</ProjectFolderName>
+  <ProjectName>RiemersmaDithering</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:01:52 PM
+RiemersmaDithering</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:04:25 PM
+RiemersmaDithering</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(9,45): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(9,23): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(9,45): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(9,23): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.25
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+RiemersmaDithering</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:04:26 PM
+RiemersmaDithering</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:04:26 PM
+RiemersmaDithering</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:05:24 PM
+RiemersmaDithering</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(64,44): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(74,16): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(98,51): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(30,23): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(40,17): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(61,27): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(32,24): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(78,28): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(24,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(31,37): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(40,37): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(40,80): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(54,62): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(63,45): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(76,43): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(13,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(108,49): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(120,57): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(134,57): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(149,57): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(163,57): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+  RiemersmaDithering -> D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\bin\Debug\net9.0\RiemersmaDithering.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(64,44): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(74,16): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(98,51): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(30,23): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(40,17): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(61,27): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(32,24): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(78,28): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(24,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(31,37): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(40,37): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(40,80): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(54,62): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(63,45): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(76,43): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(13,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(108,49): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(120,57): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(134,57): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(149,57): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(163,57): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+    21 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.51
+]]></string>
+    <string>WritePatch: Compile failed.
+RiemersmaDithering</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:05:25 PM
+RiemersmaDithering</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:05:25 PM
+RiemersmaDithering</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:07:41 PM
+RiemersmaDithering</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(9,46): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(9,23): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(9,46): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(9,23): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.33
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+RiemersmaDithering</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:07:42 PM
+RiemersmaDithering</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(9,46): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(9,23): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(9,46): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(9,23): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.33
+
+
+Errors:
+</CompilerResponse>
+2025-02-23 2:07:43 PM
+RiemersmaDithering]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 2:07:45 PM
+RiemersmaDithering</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(9,46): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(9,23): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(9,46): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(9,23): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.65
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+RiemersmaDithering</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:07:47 PM
+RiemersmaDithering</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:08:39 PM
+RiemersmaDithering</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(12,46): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(12,23): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(12,46): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(12,23): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.92
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+RiemersmaDithering</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:08:41 PM
+RiemersmaDithering</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:08:41 PM
+RiemersmaDithering</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:09:51 PM
+RiemersmaDithering</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(41,23): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(87,16): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(97,44): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(100,36): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(76,17): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(84,27): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(43,24): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(91,24): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(27,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(34,22): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(43,22): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(43,50): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(57,47): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(65,30): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(78,43): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(110,34): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(122,42): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(136,42): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(151,42): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(165,42): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+  RiemersmaDithering -> D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\bin\Debug\net9.0\RiemersmaDithering.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(41,23): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(87,16): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(97,44): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(100,36): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(76,17): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(84,27): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(43,24): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(91,24): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(27,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(34,22): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(43,22): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(43,50): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(57,47): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(65,30): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(78,43): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(110,34): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(122,42): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(136,42): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(151,42): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(165,42): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+    20 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.91
+]]></string>
+    <string>WritePatch: Compile failed.
+RiemersmaDithering</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:09:53 PM
+RiemersmaDithering</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:09:53 PM
+RiemersmaDithering</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:10:38 PM
+RiemersmaDithering</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(12,46): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(12,23): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(12,46): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(12,23): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.06
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+RiemersmaDithering</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:10:39 PM
+RiemersmaDithering</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(12,46): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(12,23): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(12,46): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(12,23): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.06
+
+
+Errors:
+</CompilerResponse>
+2025-02-23 2:10:40 PM
+RiemersmaDithering]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 2:10:42 PM
+RiemersmaDithering</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(12,46): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(12,23): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(12,46): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(12,23): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.25
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+RiemersmaDithering</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:10:43 PM
+RiemersmaDithering</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:12:46 PM
+RiemersmaDithering</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(17,55): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(17,23): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(17,55): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(17,23): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.61
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+RiemersmaDithering</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:12:48 PM
+RiemersmaDithering</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:12:49 PM
+RiemersmaDithering</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:14:34 PM
+RiemersmaDithering</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs(18,23): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(118,36): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs(49,16): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs(54,44): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs(38,17): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs(46,27): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs(20,24): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(32,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(39,22): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(48,22): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(48,50): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(62,47): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(70,30): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(83,43): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(128,34): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(140,42): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(154,42): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(169,42): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(183,42): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+  RiemersmaDithering -> D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\bin\Debug\net9.0\RiemersmaDithering.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs(18,23): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(118,36): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs(49,16): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs(54,44): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs(38,17): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs(46,27): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs(20,24): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(32,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(39,22): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(48,22): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(48,50): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(62,47): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(70,30): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(83,43): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(128,34): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(140,42): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(154,42): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(169,42): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(183,42): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+    19 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.55
+]]></string>
+    <string>WritePatch: Compile failed.
+RiemersmaDithering</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:14:37 PM
+RiemersmaDithering</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:14:37 PM
+RiemersmaDithering</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:16:03 PM
+RiemersmaDithering</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RiemersmaDithering -> D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\bin\Debug\net9.0\RiemersmaDithering.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.61
+]]></string>
+    <string>WritePatch: Code is Complete.
+RiemersmaDithering</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:16:23 PM
+RiemersmaDitheringTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:17:58 PM
+RiemersmaDitheringTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj (in 363 ms).
+  1 of 2 projects are up-to-date for restore.
+  RiemersmaDithering -> D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\bin\Debug\net9.0\RiemersmaDithering.dll
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\DithererTests.cs(31,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\DithererTests.cs(32,32): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\DithererTests.cs(67,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\DithererTests.cs(68,36): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\DithererTests.cs(90,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\DithererTests.cs(96,38): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj]
+  RiemersmaDitheringTest -> D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\bin\Debug\net9.0\RiemersmaDitheringTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\DithererTests.cs(31,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\DithererTests.cs(32,32): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\DithererTests.cs(67,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\DithererTests.cs(68,36): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\DithererTests.cs(90,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\DithererTests.cs(96,38): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj]
+    6 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.97
+]]></string>
+    <string>WritePatch: Compile failed.
+RiemersmaDitheringTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:18:00 PM
+RiemersmaDitheringTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:18:00 PM
+RiemersmaDitheringTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:19:15 PM
+RiemersmaDitheringTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RiemersmaDithering -> D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\bin\Debug\net9.0\RiemersmaDithering.dll
+  RiemersmaDitheringTest -> D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\bin\Debug\net9.0\RiemersmaDitheringTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.77
+]]></string>
+    <string>WritePatch: Code is Complete.
+RiemersmaDitheringTest</string>
+    <string>[INFO 2025-02-23 2:19:32 PM] Starting test for project: D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj</string>
+    <string>[INFO 2025-02-23 2:19:32 PM] Starting test for project: D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj</string>
+    <string>[INFO 2025-02-23 2:19:32 PM] Starting test for project: D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj</string>
+    <string>[INFO 2025-02-23 2:19:32 PM] Starting test for project: D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj</string>
+    <string>[INFO 2025-02-23 2:19:32 PM] Starting test for project: D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj</string>
+    <string>[INFO 2025-02-23 2:19:32 PM] Starting test for project: D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj</string>
+    <string>[INFO 2025-02-23 2:19:32 PM] Starting test for project: D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj</string>
+    <string>[INFO 2025-02-23 2:19:32 PM] Starting test for project: D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj</string>
+    <string>[INFO 2025-02-23 2:19:32 PM] Starting test for project: D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj</string>
+    <string>[INFO 2025-02-23 2:19:32 PM] Starting test for project: D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 2:19:39 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 2:19:38 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 2:19:34 PM]   All projects are up-to-date for restore.
+[SUCCESS 2025-02-23 2:19:38 PM] All tests passed successfully.
+[INFO 2025-02-23 2:19:38 PM] Test process completed. Duration: 5.44 seconds.
+[INFO 2025-02-23 2:19:38 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 2:19:37 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 2:19:36 PM] Test run for D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\bin\Debug\net9.0\RiemersmaDitheringTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 2:19:35 PM]   RiemersmaDitheringTest -> D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\bin\Debug\net9.0\RiemersmaDitheringTest.dll
+[OUTPUT 2025-02-23 2:19:35 PM]   RiemersmaDithering -> D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\bin\Debug\net9.0\RiemersmaDithering.dll
+[OUTPUT 2025-02-23 2:19:33 PM]   Determining projects to restore...
+[INFO 2025-02-23 2:19:32 PM] Command: dotnet test "D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 2:19:32 PM] Starting test for project: D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 2:01:52 PM
+RiemersmaDithering
+
+WritePatch ran compiler. 2025-02-23 2:04:25 PM
+RiemersmaDithering
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(9,45): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(9,23): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(9,45): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(9,23): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.25
+
+
+Errors:
+
+WritePatch: Compile failed.
+RiemersmaDithering
+
+Finished WritePatch cycle step.
+2025-02-23 2:04:26 PM
+RiemersmaDithering
+
+WritePatch Started CycleStep. 2025-02-23 2:04:26 PM
+RiemersmaDithering
+
+WritePatch ran compiler. 2025-02-23 2:05:24 PM
+RiemersmaDithering
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(64,44): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(74,16): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(98,51): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(30,23): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(40,17): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(61,27): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(32,24): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(78,28): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(24,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(31,37): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(40,37): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(40,80): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(54,62): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(63,45): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(76,43): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(13,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(108,49): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(120,57): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(134,57): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(149,57): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(163,57): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+  RiemersmaDithering -> D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\bin\Debug\net9.0\RiemersmaDithering.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(64,44): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(74,16): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(98,51): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(30,23): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(40,17): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(61,27): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(32,24): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(78,28): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(24,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(31,37): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(40,37): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(40,80): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(54,62): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(63,45): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(76,43): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(13,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(108,49): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(120,57): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(134,57): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(149,57): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(163,57): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+    21 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.51
+
+
+WritePatch: Compile failed.
+RiemersmaDithering
+
+Finished WritePatch cycle step.
+2025-02-23 2:05:25 PM
+RiemersmaDithering
+
+WritePatch Started CycleStep. 2025-02-23 2:05:25 PM
+RiemersmaDithering
+
+WritePatch ran compiler. 2025-02-23 2:07:41 PM
+RiemersmaDithering
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(9,46): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(9,23): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(9,46): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(9,23): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.33
+
+
+Errors:
+
+WritePatch: Compile failed.
+RiemersmaDithering
+
+Finished WritePatch cycle step.
+2025-02-23 2:07:42 PM
+RiemersmaDithering
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(9,46): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(9,23): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(9,46): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(9,23): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.33
+
+
+Errors:
+</CompilerResponse>
+2025-02-23 2:07:43 PM
+RiemersmaDithering
+
+WritePatch ran compiler. 2025-02-23 2:07:45 PM
+RiemersmaDithering
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(9,46): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(9,23): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(9,46): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(9,23): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.65
+
+
+Errors:
+
+WritePatch: Compile failed.
+RiemersmaDithering
+
+WritePatch Started CycleStep. 2025-02-23 2:07:47 PM
+RiemersmaDithering
+
+WritePatch ran compiler. 2025-02-23 2:08:39 PM
+RiemersmaDithering
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(12,46): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(12,23): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(12,46): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(12,23): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.92
+
+
+Errors:
+
+WritePatch: Compile failed.
+RiemersmaDithering
+
+Finished WritePatch cycle step.
+2025-02-23 2:08:41 PM
+RiemersmaDithering
+
+WritePatch Started CycleStep. 2025-02-23 2:08:41 PM
+RiemersmaDithering
+
+WritePatch ran compiler. 2025-02-23 2:09:51 PM
+RiemersmaDithering
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(41,23): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(87,16): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(97,44): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(100,36): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(76,17): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(84,27): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(43,24): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(91,24): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(27,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(34,22): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(43,22): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(43,50): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(57,47): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(65,30): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(78,43): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(110,34): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(122,42): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(136,42): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(151,42): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(165,42): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+  RiemersmaDithering -> D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\bin\Debug\net9.0\RiemersmaDithering.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(41,23): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(87,16): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(97,44): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(100,36): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(76,17): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(84,27): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(43,24): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs(91,24): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(27,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(34,22): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(43,22): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(43,50): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(57,47): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(65,30): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(78,43): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(110,34): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(122,42): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(136,42): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(151,42): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(165,42): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\FakeSystemDrawing.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+    20 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.91
+
+
+WritePatch: Compile failed.
+RiemersmaDithering
+
+Finished WritePatch cycle step.
+2025-02-23 2:09:53 PM
+RiemersmaDithering
+
+WritePatch Started CycleStep. 2025-02-23 2:09:53 PM
+RiemersmaDithering
+
+WritePatch ran compiler. 2025-02-23 2:10:38 PM
+RiemersmaDithering
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(12,46): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(12,23): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(12,46): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(12,23): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.06
+
+
+Errors:
+
+WritePatch: Compile failed.
+RiemersmaDithering
+
+Finished WritePatch cycle step.
+2025-02-23 2:10:39 PM
+RiemersmaDithering
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(12,46): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(12,23): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(12,46): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(12,23): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.06
+
+
+Errors:
+</CompilerResponse>
+2025-02-23 2:10:40 PM
+RiemersmaDithering
+
+WritePatch ran compiler. 2025-02-23 2:10:42 PM
+RiemersmaDithering
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(12,46): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(12,23): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(12,46): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(12,23): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.25
+
+
+Errors:
+
+WritePatch: Compile failed.
+RiemersmaDithering
+
+WritePatch Started CycleStep. 2025-02-23 2:10:43 PM
+RiemersmaDithering
+
+WritePatch ran compiler. 2025-02-23 2:12:46 PM
+RiemersmaDithering
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(17,55): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(17,23): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(17,55): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(17,23): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.61
+
+
+Errors:
+
+WritePatch: Compile failed.
+RiemersmaDithering
+
+Finished WritePatch cycle step.
+2025-02-23 2:12:48 PM
+RiemersmaDithering
+
+WritePatch Started CycleStep. 2025-02-23 2:12:49 PM
+RiemersmaDithering
+
+WritePatch ran compiler. 2025-02-23 2:14:34 PM
+RiemersmaDithering
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs(18,23): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(118,36): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs(49,16): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs(54,44): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs(38,17): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs(46,27): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs(20,24): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(32,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(39,22): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(48,22): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(48,50): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(62,47): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(70,30): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(83,43): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(128,34): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(140,42): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(154,42): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(169,42): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(183,42): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+  RiemersmaDithering -> D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\bin\Debug\net9.0\RiemersmaDithering.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs(18,23): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(118,36): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs(49,16): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs(54,44): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs(38,17): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs(46,27): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs(20,24): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(32,21): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(39,22): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(48,22): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(48,50): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(62,47): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(70,30): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(83,43): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(128,34): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(140,42): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(154,42): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(169,42): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDitherer.cs(183,42): warning CS0436: The type 'Point' in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs' conflicts with the imported type 'Point' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\System.DrawingShim.cs'. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\RiemersmaDithering.csproj]
+    19 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.55
+
+
+WritePatch: Compile failed.
+RiemersmaDithering
+
+Finished WritePatch cycle step.
+2025-02-23 2:14:37 PM
+RiemersmaDithering
+
+WritePatch Started CycleStep. 2025-02-23 2:14:37 PM
+RiemersmaDithering
+
+WritePatch ran compiler. 2025-02-23 2:16:03 PM
+RiemersmaDithering
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RiemersmaDithering -> D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\bin\Debug\net9.0\RiemersmaDithering.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.61
+
+
+WritePatch: Code is Complete.
+RiemersmaDithering
+
+WritePatch Started CycleStep. 2025-02-23 2:16:23 PM
+RiemersmaDitheringTest
+
+WritePatch ran compiler. 2025-02-23 2:17:58 PM
+RiemersmaDitheringTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj (in 363 ms).
+  1 of 2 projects are up-to-date for restore.
+  RiemersmaDithering -> D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\bin\Debug\net9.0\RiemersmaDithering.dll
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\DithererTests.cs(31,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\DithererTests.cs(32,32): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\DithererTests.cs(67,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\DithererTests.cs(68,36): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\DithererTests.cs(90,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\DithererTests.cs(96,38): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj]
+  RiemersmaDitheringTest -> D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\bin\Debug\net9.0\RiemersmaDitheringTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\DithererTests.cs(31,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\DithererTests.cs(32,32): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\DithererTests.cs(67,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\DithererTests.cs(68,36): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\DithererTests.cs(90,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj]
+D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\DithererTests.cs(96,38): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj]
+    6 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.97
+
+
+WritePatch: Compile failed.
+RiemersmaDitheringTest
+
+Finished WritePatch cycle step.
+2025-02-23 2:18:00 PM
+RiemersmaDitheringTest
+
+WritePatch Started CycleStep. 2025-02-23 2:18:00 PM
+RiemersmaDitheringTest
+
+WritePatch ran compiler. 2025-02-23 2:19:15 PM
+RiemersmaDitheringTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RiemersmaDithering -> D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\bin\Debug\net9.0\RiemersmaDithering.dll
+  RiemersmaDitheringTest -> D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\bin\Debug\net9.0\RiemersmaDitheringTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.77
+
+
+WritePatch: Code is Complete.
+RiemersmaDitheringTest
+
+TestResult:
+[OUTPUT 2025-02-23 2:19:39 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 2:19:38 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 2:19:34 PM]   All projects are up-to-date for restore.
+[SUCCESS 2025-02-23 2:19:38 PM] All tests passed successfully.
+[INFO 2025-02-23 2:19:38 PM] Test process completed. Duration: 5.44 seconds.
+[INFO 2025-02-23 2:19:38 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 2:19:37 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 2:19:36 PM] Test run for D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\bin\Debug\net9.0\RiemersmaDitheringTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 2:19:35 PM]   RiemersmaDitheringTest -> D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\bin\Debug\net9.0\RiemersmaDitheringTest.dll
+[OUTPUT 2025-02-23 2:19:35 PM]   RiemersmaDithering -> D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDithering\bin\Debug\net9.0\RiemersmaDithering.dll
+[OUTPUT 2025-02-23 2:19:33 PM]   Determining projects to restore...
+[INFO 2025-02-23 2:19:32 PM] Command: dotnet test "D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 2:19:32 PM] Starting test for project: D:\Code2025\RavenWork\RiemersmaDithering\RiemersmaDitheringTest\RiemersmaDitheringTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
