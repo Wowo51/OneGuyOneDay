@@ -1,0 +1,406 @@
+<ActRecord>
+  <ProjectName>Rc4Cipher</ProjectName>
+  <ProjectDescription>RC4 (cipher)</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>RC4 (cipher)</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\Rc4Cipher</SolutionFolderPath>
+  <ProjectFolderName>Rc4Cipher</ProjectFolderName>
+  <ProjectName>Rc4Cipher</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 3:11:38 PM
+Rc4Cipher</string>
+    <string>WritePatch ran compiler. 2025-02-23 3:12:21 PM
+Rc4Cipher</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Rc4Cipher -> D:\Code2025\RavenWork\Rc4Cipher\Rc4Cipher\bin\Debug\net9.0\Rc4Cipher.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.34
+]]></string>
+    <string>WritePatch: Code is Complete.
+Rc4Cipher</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 3:12:36 PM
+Rc4CipherTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 3:13:16 PM
+Rc4CipherTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj (in 368 ms).
+  1 of 2 projects are up-to-date for restore.
+  Rc4Cipher -> D:\Code2025\RavenWork\Rc4Cipher\Rc4Cipher\bin\Debug\net9.0\Rc4Cipher.dll
+D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\RC4CipherTests.cs(19,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj]
+D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\RC4CipherTests.cs(34,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj]
+  Rc4CipherTest -> D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\bin\Debug\net9.0\Rc4CipherTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\RC4CipherTests.cs(19,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj]
+D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\RC4CipherTests.cs(34,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.49
+]]></string>
+    <string>WritePatch: Compile failed.
+Rc4CipherTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 3:13:17 PM
+Rc4CipherTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 3:13:18 PM
+Rc4CipherTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 3:13:40 PM
+Rc4CipherTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Rc4Cipher -> D:\Code2025\RavenWork\Rc4Cipher\Rc4Cipher\bin\Debug\net9.0\Rc4Cipher.dll
+  Rc4CipherTest -> D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\bin\Debug\net9.0\Rc4CipherTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.80
+]]></string>
+    <string>WritePatch: Code is not Complete.
+Rc4CipherTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 3:13:59 PM
+Rc4CipherTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 3:13:59 PM
+Rc4CipherTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 3:14:40 PM
+Rc4CipherTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Rc4Cipher -> D:\Code2025\RavenWork\Rc4Cipher\Rc4Cipher\bin\Debug\net9.0\Rc4Cipher.dll
+D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\RC4CipherTests.cs(19,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj]
+D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\RC4CipherTests.cs(34,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj]
+  Rc4CipherTest -> D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\bin\Debug\net9.0\Rc4CipherTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\RC4CipherTests.cs(19,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj]
+D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\RC4CipherTests.cs(34,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.76
+]]></string>
+    <string>WritePatch: Compile failed.
+Rc4CipherTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 3:14:41 PM
+Rc4CipherTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Rc4Cipher -> D:\Code2025\RavenWork\Rc4Cipher\Rc4Cipher\bin\Debug\net9.0\Rc4Cipher.dll
+D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\RC4CipherTests.cs(19,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj]
+D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\RC4CipherTests.cs(34,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj]
+  Rc4CipherTest -> D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\bin\Debug\net9.0\Rc4CipherTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\RC4CipherTests.cs(19,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj]
+D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\RC4CipherTests.cs(34,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.76
+
+</CompilerResponse>
+2025-02-23 3:14:41 PM
+Rc4CipherTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 3:14:43 PM
+Rc4Cipher</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Rc4Cipher -> D:\Code2025\RavenWork\Rc4Cipher\Rc4Cipher\bin\Debug\net9.0\Rc4Cipher.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.23
+]]></string>
+    <string>WritePatch: Code is Complete.
+Rc4Cipher</string>
+    <string>WritePatch ran compiler. 2025-02-23 3:15:00 PM
+Rc4CipherTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Rc4Cipher -> D:\Code2025\RavenWork\Rc4Cipher\Rc4Cipher\bin\Debug\net9.0\Rc4Cipher.dll
+  Rc4CipherTest -> D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\bin\Debug\net9.0\Rc4CipherTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.53
+]]></string>
+    <string>WritePatch: Code is Complete.
+Rc4CipherTest</string>
+    <string>[INFO 2025-02-23 3:15:19 PM] Starting test for project: D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj</string>
+    <string>[INFO 2025-02-23 3:15:19 PM] Starting test for project: D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj</string>
+    <string>[INFO 2025-02-23 3:15:19 PM] Starting test for project: D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj</string>
+    <string>[INFO 2025-02-23 3:15:19 PM] Starting test for project: D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj</string>
+    <string>[INFO 2025-02-23 3:15:19 PM] Starting test for project: D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj</string>
+    <string>[INFO 2025-02-23 3:15:19 PM] Starting test for project: D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj</string>
+    <string>[INFO 2025-02-23 3:15:19 PM] Starting test for project: D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj</string>
+    <string>[INFO 2025-02-23 3:15:19 PM] Starting test for project: D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj</string>
+    <string>[INFO 2025-02-23 3:15:19 PM] Starting test for project: D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj</string>
+    <string>[INFO 2025-02-23 3:15:19 PM] Starting test for project: D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj</string>
+    <string>[INFO 2025-02-23 3:15:19 PM] Starting test for project: D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj</string>
+    <string>[INFO 2025-02-23 3:15:19 PM] Starting test for project: D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj</string>
+    <string>[INFO 2025-02-23 3:15:19 PM] Starting test for project: D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj</string>
+    <string>[INFO 2025-02-23 3:15:19 PM] Starting test for project: D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 3:15:25 PM] All tests passed successfully.
+[INFO 2025-02-23 3:15:25 PM] Test process completed. Duration: 5.93 seconds.
+[INFO 2025-02-23 3:15:25 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 3:15:24 PM] Test Parallelization enabled for D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\bin\Debug\net9.0\Rc4CipherTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 3:15:23 PM] D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\bin\Debug\net9.0\Rc4CipherTest.dll
+[OUTPUT 2025-02-23 3:15:22 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 3:15:22 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 3:15:22 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 3:15:21 PM]   Rc4Cipher -> D:\Code2025\RavenWork\Rc4Cipher\Rc4Cipher\bin\Debug\net9.0\Rc4Cipher.dll
+[OUTPUT 2025-02-23 3:15:20 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 3:15:25 PM]   Passed Encrypt_EmptyData_ReturnsEmptyArray [7 ms]
+[OUTPUT 2025-02-23 3:15:25 PM]   Passed EncryptDecrypt_LargeData_ReturnsOriginalData [13 ms]
+[OUTPUT 2025-02-23 3:15:21 PM] Test run for D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\bin\Debug\net9.0\Rc4CipherTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 3:15:21 PM]   Rc4CipherTest -> D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\bin\Debug\net9.0\Rc4CipherTest.dll
+[OUTPUT 2025-02-23 3:15:20 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 3:15:19 PM] Command: dotnet test "D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 3:15:19 PM] Starting test for project: D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 3:11:38 PM
+Rc4Cipher
+
+WritePatch ran compiler. 2025-02-23 3:12:21 PM
+Rc4Cipher
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Rc4Cipher -> D:\Code2025\RavenWork\Rc4Cipher\Rc4Cipher\bin\Debug\net9.0\Rc4Cipher.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.34
+
+
+WritePatch: Code is Complete.
+Rc4Cipher
+
+WritePatch Started CycleStep. 2025-02-23 3:12:36 PM
+Rc4CipherTest
+
+WritePatch ran compiler. 2025-02-23 3:13:16 PM
+Rc4CipherTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj (in 368 ms).
+  1 of 2 projects are up-to-date for restore.
+  Rc4Cipher -> D:\Code2025\RavenWork\Rc4Cipher\Rc4Cipher\bin\Debug\net9.0\Rc4Cipher.dll
+D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\RC4CipherTests.cs(19,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj]
+D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\RC4CipherTests.cs(34,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj]
+  Rc4CipherTest -> D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\bin\Debug\net9.0\Rc4CipherTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\RC4CipherTests.cs(19,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj]
+D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\RC4CipherTests.cs(34,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.49
+
+
+WritePatch: Compile failed.
+Rc4CipherTest
+
+Finished WritePatch cycle step.
+2025-02-23 3:13:17 PM
+Rc4CipherTest
+
+WritePatch Started CycleStep. 2025-02-23 3:13:18 PM
+Rc4CipherTest
+
+WritePatch ran compiler. 2025-02-23 3:13:40 PM
+Rc4CipherTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Rc4Cipher -> D:\Code2025\RavenWork\Rc4Cipher\Rc4Cipher\bin\Debug\net9.0\Rc4Cipher.dll
+  Rc4CipherTest -> D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\bin\Debug\net9.0\Rc4CipherTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.80
+
+
+WritePatch: Code is not Complete.
+Rc4CipherTest
+
+Finished WritePatch cycle step.
+2025-02-23 3:13:59 PM
+Rc4CipherTest
+
+WritePatch Started CycleStep. 2025-02-23 3:13:59 PM
+Rc4CipherTest
+
+WritePatch ran compiler. 2025-02-23 3:14:40 PM
+Rc4CipherTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Rc4Cipher -> D:\Code2025\RavenWork\Rc4Cipher\Rc4Cipher\bin\Debug\net9.0\Rc4Cipher.dll
+D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\RC4CipherTests.cs(19,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj]
+D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\RC4CipherTests.cs(34,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj]
+  Rc4CipherTest -> D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\bin\Debug\net9.0\Rc4CipherTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\RC4CipherTests.cs(19,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj]
+D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\RC4CipherTests.cs(34,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.76
+
+
+WritePatch: Compile failed.
+Rc4CipherTest
+
+Finished WritePatch cycle step.
+2025-02-23 3:14:41 PM
+Rc4CipherTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Rc4Cipher -> D:\Code2025\RavenWork\Rc4Cipher\Rc4Cipher\bin\Debug\net9.0\Rc4Cipher.dll
+D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\RC4CipherTests.cs(19,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj]
+D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\RC4CipherTests.cs(34,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj]
+  Rc4CipherTest -> D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\bin\Debug\net9.0\Rc4CipherTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\RC4CipherTests.cs(19,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj]
+D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\RC4CipherTests.cs(34,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.76
+
+</CompilerResponse>
+2025-02-23 3:14:41 PM
+Rc4CipherTest
+
+WritePatch ran compiler. 2025-02-23 3:14:43 PM
+Rc4Cipher
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Rc4Cipher -> D:\Code2025\RavenWork\Rc4Cipher\Rc4Cipher\bin\Debug\net9.0\Rc4Cipher.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.23
+
+
+WritePatch: Code is Complete.
+Rc4Cipher
+
+WritePatch ran compiler. 2025-02-23 3:15:00 PM
+Rc4CipherTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Rc4Cipher -> D:\Code2025\RavenWork\Rc4Cipher\Rc4Cipher\bin\Debug\net9.0\Rc4Cipher.dll
+  Rc4CipherTest -> D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\bin\Debug\net9.0\Rc4CipherTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.53
+
+
+WritePatch: Code is Complete.
+Rc4CipherTest
+
+TestResult:
+[SUCCESS 2025-02-23 3:15:25 PM] All tests passed successfully.
+[INFO 2025-02-23 3:15:25 PM] Test process completed. Duration: 5.93 seconds.
+[INFO 2025-02-23 3:15:25 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 3:15:24 PM] Test Parallelization enabled for D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\bin\Debug\net9.0\Rc4CipherTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 3:15:23 PM] D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\bin\Debug\net9.0\Rc4CipherTest.dll
+[OUTPUT 2025-02-23 3:15:22 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 3:15:22 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 3:15:22 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 3:15:21 PM]   Rc4Cipher -> D:\Code2025\RavenWork\Rc4Cipher\Rc4Cipher\bin\Debug\net9.0\Rc4Cipher.dll
+[OUTPUT 2025-02-23 3:15:20 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 3:15:25 PM]   Passed Encrypt_EmptyData_ReturnsEmptyArray [7 ms]
+[OUTPUT 2025-02-23 3:15:25 PM]   Passed EncryptDecrypt_LargeData_ReturnsOriginalData [13 ms]
+[OUTPUT 2025-02-23 3:15:21 PM] Test run for D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\bin\Debug\net9.0\Rc4CipherTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 3:15:21 PM]   Rc4CipherTest -> D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\bin\Debug\net9.0\Rc4CipherTest.dll
+[OUTPUT 2025-02-23 3:15:20 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 3:15:19 PM] Command: dotnet test "D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 3:15:19 PM] Starting test for project: D:\Code2025\RavenWork\Rc4Cipher\Rc4CipherTest\Rc4CipherTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
