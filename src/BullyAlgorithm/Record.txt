@@ -1,0 +1,1612 @@
+<ActRecord>
+  <ProjectName>BullyAlgorithm</ProjectName>
+  <ProjectDescription>Bully algorithm: A leader election algorithm</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Bully algorithm: A leader election algorithm</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\BullyAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>BullyAlgorithm</ProjectFolderName>
+  <ProjectName>BullyAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:09:11 AM
+BullyAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:09:50 AM
+BullyAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\Program.cs(20,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\BullyAlgorithm.csproj]
+D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\Program.cs(27,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\BullyAlgorithm.csproj]
+D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\BullyElection.cs(28,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\BullyAlgorithm.csproj]
+D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\BullyElection.cs(43,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\BullyAlgorithm.csproj]
+  BullyAlgorithm -> D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\bin\Debug\net9.0\BullyAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\Program.cs(20,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\BullyAlgorithm.csproj]
+D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\Program.cs(27,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\BullyAlgorithm.csproj]
+D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\BullyElection.cs(28,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\BullyAlgorithm.csproj]
+D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\BullyElection.cs(43,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\BullyAlgorithm.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.88
+]]></string>
+    <string>WritePatch: Compile failed.
+BullyAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:09:51 AM
+BullyAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:09:51 AM
+BullyAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:10:46 AM
+BullyAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BullyAlgorithm -> D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\bin\Debug\net9.0\BullyAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87
+]]></string>
+    <string>WritePatch: Code is Complete.
+BullyAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:11:02 AM
+BullyAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:11:41 AM
+BullyAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj (in 203 ms).
+  1 of 2 projects are up-to-date for restore.
+  BullyAlgorithm -> D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\bin\Debug\net9.0\BullyAlgorithm.dll
+D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyElectionTests.cs(52,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyElectionTests.cs(53,13): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj]
+  BullyAlgorithmTest -> D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\bin\Debug\net9.0\BullyAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyElectionTests.cs(52,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyElectionTests.cs(53,13): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.47
+]]></string>
+    <string>WritePatch: Compile failed.
+BullyAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:11:42 AM
+BullyAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:11:42 AM
+BullyAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:12:26 AM
+BullyAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BullyAlgorithm -> D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\bin\Debug\net9.0\BullyAlgorithm.dll
+  BullyAlgorithmTest -> D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\bin\Debug\net9.0\BullyAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.04
+]]></string>
+    <string>WritePatch: Code is Complete.
+BullyAlgorithmTest</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 10:14:02 AM]  Process 812 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:02 AM]  Process 810 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:02 AM]  Process 808 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:02 AM]  Process 806 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:02 AM]  Process 804 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:01 AM]  Process 802 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:01 AM]  Process 800 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:01 AM]  Process 798 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:01 AM]  Process 796 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:01 AM]  Process 794 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:00 AM]  Process 792 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:00 AM]  Process 790 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:00 AM]  Process 788 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:00 AM]  Process 786 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:00 AM]  Process 784 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:00 AM]  Process 782 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:59 AM]  Process 780 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:59 AM]  Process 778 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:59 AM]  Process 776 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:59 AM]  Process 774 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:58 AM]  Process 772 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:58 AM]  Process 770 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:58 AM]  Process 768 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:58 AM]  Process 766 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:57 AM]  Process 764 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:57 AM]  Process 762 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:57 AM]  Process 760 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:57 AM]  Process 758 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:56 AM]  Process 756 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:56 AM]  Process 754 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:56 AM]  Process 752 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:56 AM]  Process 750 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:55 AM]  Process 748 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:55 AM]  Process 746 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:55 AM]  Process 744 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:55 AM]  Process 742 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:55 AM]  Process 740 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:54 AM]  Process 738 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:54 AM]  Process 736 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:54 AM]  Process 734 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:54 AM]  Process 732 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:54 AM]  Process 730 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:54 AM]  Process 728 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:53 AM]  Process 726 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:53 AM]  Process 724 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:53 AM]  Process 722 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:53 AM]  Process 720 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:53 AM]  Process 718 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:53 AM]  Process 716 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:52 AM]  Process 714 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:52 AM]  Process 712 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:52 AM]  Process 710 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:52 AM]  Process 708 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:52 AM]  Process 706 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:52 AM]  Process 704 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:51 AM]  Process 702 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:51 AM]  Process 700 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:51 AM]  Process 698 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:51 AM]  Process 696 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:51 AM]  Process 694 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:50 AM]  Process 692 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:50 AM]  Process 690 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:50 AM]  Process 688 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:50 AM]  Process 686 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:50 AM]  Process 684 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:50 AM]  Process 682 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:49 AM]  Process 680 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:49 AM]  Process 678 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:49 AM]  Process 676 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:49 AM]  Process 674 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:48 AM]  Process 672 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:48 AM]  Process 670 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:48 AM]  Process 668 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:48 AM]  Process 666 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:48 AM]  Process 664 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:47 AM]  Process 662 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:47 AM]  Process 660 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:47 AM]  Process 658 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:47 AM]  Process 656 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:47 AM]  Process 654 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:46 AM]  Process 652 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:46 AM]  Process 650 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:46 AM]  Process 648 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:46 AM]  Process 646 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:46 AM]  Process 644 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:45 AM]  Process 642 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:45 AM]  Process 640 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:45 AM]  Process 638 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:45 AM]  Process 636 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:45 AM]  Process 634 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:45 AM]  Process 632 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:44 AM]  Process 630 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:44 AM]  Process 628 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:44 AM]  Process 626 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:44 AM]  Process 624 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:44 AM]  Process 622 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:44 AM]  Process 620 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:43 AM]  Process 618 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:43 AM]  Process 616 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:43 AM]  Process 614 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:43 AM]  Process 612 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:43 AM]  Process 610 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:42 AM]  Process 608 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:42 AM]  Process 606 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:42 AM]  Process 604 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:42 AM]  Process 602 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:42 AM]  Process 600 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:42 AM]  Process 598 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:41 AM]  Process 596 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:41 AM]  Process 594 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:41 AM]  Process 592 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:41 AM]  Process 590 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:41 AM]  Process 588 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:40 AM]  Process 586 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:40 AM]  Process 584 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:40 AM]  Process 582 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:40 AM]  Process 580 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:40 AM]  Process 578 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:39 AM]  Process 576 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:39 AM]  Process 574 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:39 AM]  Process 572 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:39 AM]  Process 570 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:39 AM]  Process 568 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:39 AM]  Process 566 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:38 AM]  Process 564 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:38 AM]  Process 562 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:38 AM]  Process 560 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:38 AM]  Process 558 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:38 AM]  Process 556 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:37 AM]  Process 554 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:37 AM]  Process 552 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:37 AM]  Process 550 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:37 AM]  Process 548 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:37 AM]  Process 546 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:37 AM]  Process 544 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:36 AM]  Process 542 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:36 AM]  Process 540 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:36 AM]  Process 538 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:36 AM]  Process 536 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:36 AM]  Process 534 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:36 AM]  Process 532 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:35 AM]  Process 530 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:35 AM]  Process 528 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:35 AM]  Process 526 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:35 AM]  Process 524 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:35 AM]  Process 522 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:35 AM]  Process 520 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:34 AM]  Process 518 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:34 AM]  Process 516 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:34 AM]  Process 514 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:34 AM]  Process 512 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:34 AM]  Process 510 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:34 AM]  Process 508 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:33 AM]  Process 506 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:33 AM]  Process 504 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:33 AM]  Process 502 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:33 AM]  Process 500 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:33 AM]  Process 498 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:33 AM]  Process 496 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:32 AM]  Process 494 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:32 AM]  Process 492 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:32 AM]  Process 490 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:32 AM]  Process 488 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:32 AM]  Process 486 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:31 AM]  Process 484 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:31 AM]  Process 482 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:31 AM]  Process 480 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:31 AM]  Process 478 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:31 AM]  Process 476 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:31 AM]  Process 474 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:30 AM]  Process 472 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:30 AM]  Process 470 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:30 AM]  Process 468 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:30 AM]  Process 466 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:30 AM]  Process 464 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:30 AM]  Process 462 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:29 AM]  Process 460 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:29 AM]  Process 458 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:29 AM]  Process 456 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:29 AM]  Process 454 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:29 AM]  Process 452 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:29 AM]  Process 450 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:28 AM]  Process 448 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:28 AM]  Process 446 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:28 AM]  Process 444 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:28 AM]  Process 442 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:28 AM]  Process 440 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:28 AM]  Process 438 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:27 AM]  Process 436 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:27 AM]  Process 434 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:27 AM]  Process 432 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:27 AM]  Process 430 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:27 AM]  Process 428 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:27 AM]  Process 426 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:26 AM]  Process 424 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:26 AM]  Process 422 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:26 AM]  Process 420 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:26 AM]  Process 418 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:26 AM]  Process 416 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:26 AM]  Process 414 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:25 AM]  Process 412 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:25 AM]  Process 410 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:25 AM]  Process 408 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:25 AM]  Process 406 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:25 AM]  Process 404 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:25 AM]  Process 402 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:24 AM]  Process 400 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:24 AM]  Process 398 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:24 AM]  Process 396 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:24 AM]  Process 394 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:24 AM]  Process 392 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:24 AM]  Process 390 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:23 AM]  Process 388 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:23 AM]  Process 386 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:23 AM]  Process 384 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:23 AM]  Process 382 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:23 AM]  Process 380 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:23 AM]  Process 378 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:22 AM]  Process 376 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:22 AM]  Process 374 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:22 AM]  Process 372 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:22 AM]  Process 370 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:22 AM]  Process 368 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:22 AM]  Process 366 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:21 AM]  Process 364 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:21 AM]  Process 362 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:21 AM]  Process 360 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:21 AM]  Process 358 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:21 AM]  Process 356 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:20 AM]  Process 354 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:20 AM]  Process 352 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:20 AM]  Process 350 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:20 AM]  Process 348 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:20 AM]  Process 346 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:19 AM]  Process 344 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:19 AM]  Process 342 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:19 AM]  Process 340 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:19 AM]  Process 338 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:19 AM]  Process 336 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:19 AM]  Process 334 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:18 AM]  Process 332 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:18 AM]  Process 330 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:18 AM]  Process 328 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:18 AM]  Process 326 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:18 AM]  Process 324 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:18 AM]  Process 322 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:17 AM]  Process 320 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:17 AM]  Process 318 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:17 AM]  Process 316 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:17 AM]  Process 314 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:17 AM]  Process 312 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:16 AM]  Process 310 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:16 AM]  Process 308 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:16 AM]  Process 306 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:16 AM]  Process 304 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:16 AM]  Process 302 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:16 AM]  Process 300 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:15 AM]  Process 298 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:15 AM]  Process 296 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:15 AM]  Process 294 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:15 AM]  Process 292 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:15 AM]  Process 290 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:15 AM]  Process 288 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:14 AM]  Process 286 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:14 AM]  Process 284 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:14 AM]  Process 282 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:14 AM]  Process 280 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:14 AM]  Process 278 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:13 AM]  Process 276 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:13 AM]  Process 274 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:13 AM]  Process 272 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:13 AM]  Process 270 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:13 AM]  Process 268 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:13 AM]  Process 266 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:12 AM]  Process 264 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:12 AM]  Process 262 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:12 AM]  Process 260 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:12 AM]  Process 258 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:12 AM]  Process 256 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:12 AM]  Process 254 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:11 AM]  Process 252 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:11 AM]  Process 250 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:11 AM]  Process 248 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:11 AM]  Process 246 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:11 AM]  Process 244 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:10 AM]  Process 242 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:10 AM]  Process 240 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:10 AM]  Process 238 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:10 AM]  Process 236 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:10 AM]  Process 234 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:10 AM]  Process 232 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:09 AM]  Process 230 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:09 AM]  Process 228 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:09 AM]  Process 226 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:09 AM]  Process 224 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:09 AM]  Process 222 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:08 AM]  Process 220 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:08 AM]  Process 218 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:08 AM]  Process 216 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:08 AM]  Process 214 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:08 AM]  Process 212 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:08 AM]  Process 210 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:07 AM]  Process 208 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:07 AM]  Process 206 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:07 AM]  Process 204 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:06 AM]  Process 202 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:06 AM]  Process 200 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:06 AM]  Process 198 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:06 AM]  Process 196 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:06 AM]  Process 194 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:06 AM]  Process 192 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:05 AM]  Process 190 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:05 AM]  Process 188 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:05 AM]  Process 186 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:05 AM]  Process 184 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:05 AM]  Process 182 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:04 AM]  Process 180 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:04 AM]  Process 178 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:04 AM]  Process 176 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:04 AM]  Process 174 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:04 AM]  Process 172 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:04 AM]  Process 170 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:03 AM]  Process 168 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:03 AM]  Process 166 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:03 AM]  Process 164 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:03 AM]  Process 162 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:03 AM]  Process 160 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:03 AM]  Process 158 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:03 AM]  Process 156 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:02 AM]  Process 154 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:02 AM]  Process 152 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:02 AM]  Process 150 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:02 AM]  Process 148 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:02 AM]  Process 146 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:01 AM]  Process 144 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:01 AM]  Process 142 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:01 AM]  Process 140 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:01 AM]  Process 138 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:01 AM]  Process 136 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:01 AM]  Process 134 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:00 AM]  Process 132 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:00 AM]  Process 130 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:00 AM]  Process 128 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:00 AM]  Process 126 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:00 AM]  Process 124 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:00 AM]  Process 122 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:59 AM]  Process 120 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:59 AM]  Process 118 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:59 AM]  Process 116 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:59 AM]  Process 114 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:59 AM]  Process 112 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:59 AM]  Process 110 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:58 AM]  Process 108 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:58 AM]  Process 106 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:58 AM]  Process 104 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:58 AM]  Process 102 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:58 AM]  Process 100 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:58 AM]  Process 98 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:57 AM]  Process 96 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:57 AM]  Process 94 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:57 AM]  Process 92 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:57 AM]  Process 90 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:57 AM]  Process 88 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:57 AM]  Process 86 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:56 AM]  Process 84 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:56 AM]  Process 82 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:06 AM]  Process 852 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:05 AM]  Process 850 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:05 AM]  Process 848 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:05 AM]  Process 846 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:05 AM]  Process 844 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:05 AM]  Process 842 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:05 AM]  Process 840 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:04 AM]  Process 838 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:04 AM]  Process 836 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:04 AM]  Process 834 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:04 AM]  Process 832 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:04 AM]  Process 830 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:04 AM]  Process 828 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:03 AM]  Process 826 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:03 AM]  Process 824 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:03 AM]  Process 822 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:03 AM]  Process 820 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:03 AM]  Process 818 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:03 AM]  Process 816 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:02 AM]  Process 814 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:48 AM]  Process 6 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:48 AM]  Process 4 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:48 AM]  Process 2 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:48 AM]  Process 1 is starting the election.
+[OUTPUT 2025-02-23 10:12:47 AM]   Standard Output Messages:
+[OUTPUT 2025-02-23 10:12:47 AM]   Passed Test_LargeDataset_Election [4 ms]
+[OUTPUT 2025-02-23 10:12:47 AM]  No available process to become coordinator.
+[OUTPUT 2025-02-23 10:12:47 AM]  Process 1 is starting the election.
+[OUTPUT 2025-02-23 10:12:47 AM]   Standard Output Messages:
+[OUTPUT 2025-02-23 10:12:47 AM]   Passed Test_AllProcessesDown_Election [4 ms]
+[OUTPUT 2025-02-23 10:12:46 AM]  Process 30 is elected as coordinator.
+[OUTPUT 2025-02-23 10:12:46 AM]  Process 30 received election message from Process 20.
+[OUTPUT 2025-02-23 10:12:46 AM]  Process 20 is starting the election.
+[OUTPUT 2025-02-23 10:12:46 AM]   Standard Output Messages:
+[OUTPUT 2025-02-23 10:12:46 AM]   Passed Test_StartElection_Method [4 ms]
+[OUTPUT 2025-02-23 10:12:46 AM]  Process 5 is elected as coordinator.
+[OUTPUT 2025-02-23 10:12:45 AM]  Process 5 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:45 AM]  Process 4 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:45 AM]  Process 3 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:45 AM]  Process 2 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:45 AM]  Process 1 is starting the election.
+[OUTPUT 2025-02-23 10:12:45 AM]   Standard Output Messages:
+[OUTPUT 2025-02-23 10:12:44 AM]   Passed Test_AllProcessesAlive_Election [4 ms]
+[OUTPUT 2025-02-23 10:12:44 AM] Test Parallelization enabled for D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\bin\Debug\net9.0\BullyAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:12:56 AM]  Process 80 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:56 AM]  Process 78 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:56 AM]  Process 76 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:55 AM]  Process 74 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:55 AM]  Process 72 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:55 AM]  Process 70 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:55 AM]  Process 68 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:55 AM]  Process 66 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:54 AM]  Process 64 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:54 AM]  Process 62 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:54 AM]  Process 60 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:54 AM]  Process 58 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:54 AM]  Process 56 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:54 AM]  Process 54 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:53 AM]  Process 52 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:53 AM]  Process 50 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:53 AM]  Process 48 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:53 AM]  Process 46 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:52 AM]  Process 44 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:52 AM]  Process 42 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:52 AM]  Process 40 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:51 AM]  Process 38 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:51 AM]  Process 36 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:51 AM]  Process 34 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:51 AM]  Process 32 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:50 AM]  Process 30 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:50 AM]  Process 28 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:50 AM]  Process 26 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:50 AM]  Process 24 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:50 AM]  Process 22 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:49 AM]  Process 20 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:49 AM]  Process 18 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:49 AM]  Process 16 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:49 AM]  Process 14 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:49 AM]  Process 12 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:49 AM]  Process 10 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:48 AM]  Process 8 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:44 AM] D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\bin\Debug\net9.0\BullyAlgorithmTest.dll
+[OUTPUT 2025-02-23 10:12:44 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:12:43 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:12:43 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:12:43 AM] Test run for D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\bin\Debug\net9.0\BullyAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:12:43 AM]   BullyAlgorithmTest -> D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\bin\Debug\net9.0\BullyAlgorithmTest.dll
+[OUTPUT 2025-02-23 10:12:43 AM]   BullyAlgorithm -> D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\bin\Debug\net9.0\BullyAlgorithm.dll
+[OUTPUT 2025-02-23 10:12:42 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:12:42 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 10:14:05 AM] All tests passed successfully.
+[INFO 2025-02-23 10:14:05 AM] Test process completed. Duration: 84.01 seconds.
+[INFO 2025-02-23 10:14:05 AM] Process exited with code 0.
+[INFO 2025-02-23 10:12:41 AM] Command: dotnet test "D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 10:09:11 AM
+BullyAlgorithm
+
+WritePatch ran compiler. 2025-02-23 10:09:50 AM
+BullyAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\Program.cs(20,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\BullyAlgorithm.csproj]
+D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\Program.cs(27,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\BullyAlgorithm.csproj]
+D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\BullyElection.cs(28,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\BullyAlgorithm.csproj]
+D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\BullyElection.cs(43,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\BullyAlgorithm.csproj]
+  BullyAlgorithm -> D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\bin\Debug\net9.0\BullyAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\Program.cs(20,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\BullyAlgorithm.csproj]
+D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\Program.cs(27,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\BullyAlgorithm.csproj]
+D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\BullyElection.cs(28,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\BullyAlgorithm.csproj]
+D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\BullyElection.cs(43,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\BullyAlgorithm.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.88
+
+
+WritePatch: Compile failed.
+BullyAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 10:09:51 AM
+BullyAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 10:09:51 AM
+BullyAlgorithm
+
+WritePatch ran compiler. 2025-02-23 10:10:46 AM
+BullyAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BullyAlgorithm -> D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\bin\Debug\net9.0\BullyAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87
+
+
+WritePatch: Code is Complete.
+BullyAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 10:11:02 AM
+BullyAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 10:11:41 AM
+BullyAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj (in 203 ms).
+  1 of 2 projects are up-to-date for restore.
+  BullyAlgorithm -> D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\bin\Debug\net9.0\BullyAlgorithm.dll
+D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyElectionTests.cs(52,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyElectionTests.cs(53,13): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj]
+  BullyAlgorithmTest -> D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\bin\Debug\net9.0\BullyAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyElectionTests.cs(52,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyElectionTests.cs(53,13): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.47
+
+
+WritePatch: Compile failed.
+BullyAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:11:42 AM
+BullyAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 10:11:42 AM
+BullyAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 10:12:26 AM
+BullyAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BullyAlgorithm -> D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\bin\Debug\net9.0\BullyAlgorithm.dll
+  BullyAlgorithmTest -> D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\bin\Debug\net9.0\BullyAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.04
+
+
+WritePatch: Code is Complete.
+BullyAlgorithmTest
+
+TestResult:
+[OUTPUT 2025-02-23 10:14:02 AM]  Process 812 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:02 AM]  Process 810 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:02 AM]  Process 808 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:02 AM]  Process 806 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:02 AM]  Process 804 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:01 AM]  Process 802 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:01 AM]  Process 800 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:01 AM]  Process 798 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:01 AM]  Process 796 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:01 AM]  Process 794 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:00 AM]  Process 792 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:00 AM]  Process 790 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:00 AM]  Process 788 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:00 AM]  Process 786 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:00 AM]  Process 784 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:00 AM]  Process 782 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:59 AM]  Process 780 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:59 AM]  Process 778 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:59 AM]  Process 776 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:59 AM]  Process 774 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:58 AM]  Process 772 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:58 AM]  Process 770 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:58 AM]  Process 768 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:58 AM]  Process 766 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:57 AM]  Process 764 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:57 AM]  Process 762 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:57 AM]  Process 760 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:57 AM]  Process 758 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:56 AM]  Process 756 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:56 AM]  Process 754 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:56 AM]  Process 752 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:56 AM]  Process 750 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:55 AM]  Process 748 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:55 AM]  Process 746 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:55 AM]  Process 744 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:55 AM]  Process 742 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:55 AM]  Process 740 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:54 AM]  Process 738 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:54 AM]  Process 736 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:54 AM]  Process 734 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:54 AM]  Process 732 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:54 AM]  Process 730 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:54 AM]  Process 728 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:53 AM]  Process 726 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:53 AM]  Process 724 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:53 AM]  Process 722 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:53 AM]  Process 720 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:53 AM]  Process 718 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:53 AM]  Process 716 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:52 AM]  Process 714 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:52 AM]  Process 712 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:52 AM]  Process 710 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:52 AM]  Process 708 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:52 AM]  Process 706 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:52 AM]  Process 704 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:51 AM]  Process 702 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:51 AM]  Process 700 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:51 AM]  Process 698 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:51 AM]  Process 696 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:51 AM]  Process 694 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:50 AM]  Process 692 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:50 AM]  Process 690 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:50 AM]  Process 688 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:50 AM]  Process 686 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:50 AM]  Process 684 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:50 AM]  Process 682 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:49 AM]  Process 680 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:49 AM]  Process 678 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:49 AM]  Process 676 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:49 AM]  Process 674 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:48 AM]  Process 672 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:48 AM]  Process 670 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:48 AM]  Process 668 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:48 AM]  Process 666 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:48 AM]  Process 664 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:47 AM]  Process 662 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:47 AM]  Process 660 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:47 AM]  Process 658 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:47 AM]  Process 656 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:47 AM]  Process 654 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:46 AM]  Process 652 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:46 AM]  Process 650 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:46 AM]  Process 648 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:46 AM]  Process 646 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:46 AM]  Process 644 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:45 AM]  Process 642 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:45 AM]  Process 640 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:45 AM]  Process 638 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:45 AM]  Process 636 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:45 AM]  Process 634 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:45 AM]  Process 632 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:44 AM]  Process 630 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:44 AM]  Process 628 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:44 AM]  Process 626 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:44 AM]  Process 624 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:44 AM]  Process 622 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:44 AM]  Process 620 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:43 AM]  Process 618 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:43 AM]  Process 616 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:43 AM]  Process 614 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:43 AM]  Process 612 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:43 AM]  Process 610 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:42 AM]  Process 608 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:42 AM]  Process 606 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:42 AM]  Process 604 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:42 AM]  Process 602 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:42 AM]  Process 600 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:42 AM]  Process 598 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:41 AM]  Process 596 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:41 AM]  Process 594 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:41 AM]  Process 592 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:41 AM]  Process 590 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:41 AM]  Process 588 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:40 AM]  Process 586 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:40 AM]  Process 584 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:40 AM]  Process 582 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:40 AM]  Process 580 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:40 AM]  Process 578 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:39 AM]  Process 576 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:39 AM]  Process 574 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:39 AM]  Process 572 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:39 AM]  Process 570 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:39 AM]  Process 568 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:39 AM]  Process 566 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:38 AM]  Process 564 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:38 AM]  Process 562 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:38 AM]  Process 560 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:38 AM]  Process 558 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:38 AM]  Process 556 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:37 AM]  Process 554 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:37 AM]  Process 552 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:37 AM]  Process 550 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:37 AM]  Process 548 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:37 AM]  Process 546 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:37 AM]  Process 544 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:36 AM]  Process 542 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:36 AM]  Process 540 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:36 AM]  Process 538 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:36 AM]  Process 536 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:36 AM]  Process 534 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:36 AM]  Process 532 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:35 AM]  Process 530 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:35 AM]  Process 528 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:35 AM]  Process 526 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:35 AM]  Process 524 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:35 AM]  Process 522 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:35 AM]  Process 520 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:34 AM]  Process 518 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:34 AM]  Process 516 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:34 AM]  Process 514 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:34 AM]  Process 512 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:34 AM]  Process 510 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:34 AM]  Process 508 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:33 AM]  Process 506 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:33 AM]  Process 504 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:33 AM]  Process 502 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:33 AM]  Process 500 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:33 AM]  Process 498 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:33 AM]  Process 496 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:32 AM]  Process 494 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:32 AM]  Process 492 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:32 AM]  Process 490 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:32 AM]  Process 488 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:32 AM]  Process 486 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:31 AM]  Process 484 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:31 AM]  Process 482 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:31 AM]  Process 480 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:31 AM]  Process 478 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:31 AM]  Process 476 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:31 AM]  Process 474 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:30 AM]  Process 472 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:30 AM]  Process 470 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:30 AM]  Process 468 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:30 AM]  Process 466 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:30 AM]  Process 464 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:30 AM]  Process 462 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:29 AM]  Process 460 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:29 AM]  Process 458 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:29 AM]  Process 456 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:29 AM]  Process 454 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:29 AM]  Process 452 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:29 AM]  Process 450 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:28 AM]  Process 448 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:28 AM]  Process 446 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:28 AM]  Process 444 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:28 AM]  Process 442 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:28 AM]  Process 440 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:28 AM]  Process 438 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:27 AM]  Process 436 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:27 AM]  Process 434 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:27 AM]  Process 432 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:27 AM]  Process 430 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:27 AM]  Process 428 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:27 AM]  Process 426 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:26 AM]  Process 424 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:26 AM]  Process 422 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:26 AM]  Process 420 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:26 AM]  Process 418 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:26 AM]  Process 416 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:26 AM]  Process 414 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:25 AM]  Process 412 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:25 AM]  Process 410 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:25 AM]  Process 408 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:25 AM]  Process 406 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:25 AM]  Process 404 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:25 AM]  Process 402 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:24 AM]  Process 400 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:24 AM]  Process 398 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:24 AM]  Process 396 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:24 AM]  Process 394 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:24 AM]  Process 392 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:24 AM]  Process 390 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:23 AM]  Process 388 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:23 AM]  Process 386 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:23 AM]  Process 384 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:23 AM]  Process 382 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:23 AM]  Process 380 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:23 AM]  Process 378 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:22 AM]  Process 376 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:22 AM]  Process 374 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:22 AM]  Process 372 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:22 AM]  Process 370 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:22 AM]  Process 368 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:22 AM]  Process 366 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:21 AM]  Process 364 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:21 AM]  Process 362 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:21 AM]  Process 360 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:21 AM]  Process 358 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:21 AM]  Process 356 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:20 AM]  Process 354 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:20 AM]  Process 352 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:20 AM]  Process 350 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:20 AM]  Process 348 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:20 AM]  Process 346 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:19 AM]  Process 344 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:19 AM]  Process 342 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:19 AM]  Process 340 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:19 AM]  Process 338 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:19 AM]  Process 336 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:19 AM]  Process 334 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:18 AM]  Process 332 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:18 AM]  Process 330 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:18 AM]  Process 328 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:18 AM]  Process 326 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:18 AM]  Process 324 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:18 AM]  Process 322 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:17 AM]  Process 320 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:17 AM]  Process 318 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:17 AM]  Process 316 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:17 AM]  Process 314 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:17 AM]  Process 312 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:16 AM]  Process 310 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:16 AM]  Process 308 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:16 AM]  Process 306 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:16 AM]  Process 304 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:16 AM]  Process 302 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:16 AM]  Process 300 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:15 AM]  Process 298 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:15 AM]  Process 296 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:15 AM]  Process 294 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:15 AM]  Process 292 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:15 AM]  Process 290 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:15 AM]  Process 288 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:14 AM]  Process 286 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:14 AM]  Process 284 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:14 AM]  Process 282 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:14 AM]  Process 280 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:14 AM]  Process 278 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:13 AM]  Process 276 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:13 AM]  Process 274 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:13 AM]  Process 272 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:13 AM]  Process 270 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:13 AM]  Process 268 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:13 AM]  Process 266 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:12 AM]  Process 264 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:12 AM]  Process 262 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:12 AM]  Process 260 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:12 AM]  Process 258 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:12 AM]  Process 256 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:12 AM]  Process 254 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:11 AM]  Process 252 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:11 AM]  Process 250 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:11 AM]  Process 248 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:11 AM]  Process 246 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:11 AM]  Process 244 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:10 AM]  Process 242 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:10 AM]  Process 240 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:10 AM]  Process 238 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:10 AM]  Process 236 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:10 AM]  Process 234 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:10 AM]  Process 232 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:09 AM]  Process 230 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:09 AM]  Process 228 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:09 AM]  Process 226 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:09 AM]  Process 224 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:09 AM]  Process 222 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:08 AM]  Process 220 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:08 AM]  Process 218 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:08 AM]  Process 216 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:08 AM]  Process 214 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:08 AM]  Process 212 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:08 AM]  Process 210 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:07 AM]  Process 208 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:07 AM]  Process 206 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:07 AM]  Process 204 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:06 AM]  Process 202 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:06 AM]  Process 200 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:06 AM]  Process 198 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:06 AM]  Process 196 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:06 AM]  Process 194 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:06 AM]  Process 192 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:05 AM]  Process 190 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:05 AM]  Process 188 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:05 AM]  Process 186 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:05 AM]  Process 184 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:05 AM]  Process 182 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:04 AM]  Process 180 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:04 AM]  Process 178 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:04 AM]  Process 176 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:04 AM]  Process 174 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:04 AM]  Process 172 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:04 AM]  Process 170 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:03 AM]  Process 168 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:03 AM]  Process 166 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:03 AM]  Process 164 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:03 AM]  Process 162 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:03 AM]  Process 160 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:03 AM]  Process 158 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:03 AM]  Process 156 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:02 AM]  Process 154 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:02 AM]  Process 152 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:02 AM]  Process 150 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:02 AM]  Process 148 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:02 AM]  Process 146 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:01 AM]  Process 144 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:01 AM]  Process 142 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:01 AM]  Process 140 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:01 AM]  Process 138 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:01 AM]  Process 136 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:01 AM]  Process 134 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:00 AM]  Process 132 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:00 AM]  Process 130 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:00 AM]  Process 128 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:00 AM]  Process 126 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:00 AM]  Process 124 received election message from Process 1.
+[OUTPUT 2025-02-23 10:13:00 AM]  Process 122 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:59 AM]  Process 120 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:59 AM]  Process 118 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:59 AM]  Process 116 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:59 AM]  Process 114 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:59 AM]  Process 112 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:59 AM]  Process 110 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:58 AM]  Process 108 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:58 AM]  Process 106 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:58 AM]  Process 104 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:58 AM]  Process 102 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:58 AM]  Process 100 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:58 AM]  Process 98 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:57 AM]  Process 96 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:57 AM]  Process 94 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:57 AM]  Process 92 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:57 AM]  Process 90 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:57 AM]  Process 88 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:57 AM]  Process 86 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:56 AM]  Process 84 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:56 AM]  Process 82 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:06 AM]  Process 852 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:05 AM]  Process 850 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:05 AM]  Process 848 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:05 AM]  Process 846 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:05 AM]  Process 844 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:05 AM]  Process 842 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:05 AM]  Process 840 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:04 AM]  Process 838 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:04 AM]  Process 836 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:04 AM]  Process 834 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:04 AM]  Process 832 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:04 AM]  Process 830 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:04 AM]  Process 828 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:03 AM]  Process 826 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:03 AM]  Process 824 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:03 AM]  Process 822 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:03 AM]  Process 820 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:03 AM]  Process 818 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:03 AM]  Process 816 received election message from Process 1.
+[OUTPUT 2025-02-23 10:14:02 AM]  Process 814 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:48 AM]  Process 6 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:48 AM]  Process 4 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:48 AM]  Process 2 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:48 AM]  Process 1 is starting the election.
+[OUTPUT 2025-02-23 10:12:47 AM]   Standard Output Messages:
+[OUTPUT 2025-02-23 10:12:47 AM]   Passed Test_LargeDataset_Election [4 ms]
+[OUTPUT 2025-02-23 10:12:47 AM]  No available process to become coordinator.
+[OUTPUT 2025-02-23 10:12:47 AM]  Process 1 is starting the election.
+[OUTPUT 2025-02-23 10:12:47 AM]   Standard Output Messages:
+[OUTPUT 2025-02-23 10:12:47 AM]   Passed Test_AllProcessesDown_Election [4 ms]
+[OUTPUT 2025-02-23 10:12:46 AM]  Process 30 is elected as coordinator.
+[OUTPUT 2025-02-23 10:12:46 AM]  Process 30 received election message from Process 20.
+[OUTPUT 2025-02-23 10:12:46 AM]  Process 20 is starting the election.
+[OUTPUT 2025-02-23 10:12:46 AM]   Standard Output Messages:
+[OUTPUT 2025-02-23 10:12:46 AM]   Passed Test_StartElection_Method [4 ms]
+[OUTPUT 2025-02-23 10:12:46 AM]  Process 5 is elected as coordinator.
+[OUTPUT 2025-02-23 10:12:45 AM]  Process 5 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:45 AM]  Process 4 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:45 AM]  Process 3 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:45 AM]  Process 2 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:45 AM]  Process 1 is starting the election.
+[OUTPUT 2025-02-23 10:12:45 AM]   Standard Output Messages:
+[OUTPUT 2025-02-23 10:12:44 AM]   Passed Test_AllProcessesAlive_Election [4 ms]
+[OUTPUT 2025-02-23 10:12:44 AM] Test Parallelization enabled for D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\bin\Debug\net9.0\BullyAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:12:56 AM]  Process 80 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:56 AM]  Process 78 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:56 AM]  Process 76 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:55 AM]  Process 74 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:55 AM]  Process 72 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:55 AM]  Process 70 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:55 AM]  Process 68 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:55 AM]  Process 66 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:54 AM]  Process 64 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:54 AM]  Process 62 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:54 AM]  Process 60 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:54 AM]  Process 58 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:54 AM]  Process 56 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:54 AM]  Process 54 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:53 AM]  Process 52 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:53 AM]  Process 50 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:53 AM]  Process 48 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:53 AM]  Process 46 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:52 AM]  Process 44 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:52 AM]  Process 42 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:52 AM]  Process 40 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:51 AM]  Process 38 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:51 AM]  Process 36 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:51 AM]  Process 34 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:51 AM]  Process 32 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:50 AM]  Process 30 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:50 AM]  Process 28 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:50 AM]  Process 26 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:50 AM]  Process 24 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:50 AM]  Process 22 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:49 AM]  Process 20 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:49 AM]  Process 18 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:49 AM]  Process 16 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:49 AM]  Process 14 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:49 AM]  Process 12 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:49 AM]  Process 10 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:48 AM]  Process 8 received election message from Process 1.
+[OUTPUT 2025-02-23 10:12:44 AM] D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\bin\Debug\net9.0\BullyAlgorithmTest.dll
+[OUTPUT 2025-02-23 10:12:44 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:12:43 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:12:43 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:12:43 AM] Test run for D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\bin\Debug\net9.0\BullyAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:12:43 AM]   BullyAlgorithmTest -> D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\bin\Debug\net9.0\BullyAlgorithmTest.dll
+[OUTPUT 2025-02-23 10:12:43 AM]   BullyAlgorithm -> D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithm\bin\Debug\net9.0\BullyAlgorithm.dll
+[OUTPUT 2025-02-23 10:12:42 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:12:42 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 10:14:05 AM] All tests passed successfully.
+[INFO 2025-02-23 10:14:05 AM] Test process completed. Duration: 84.01 seconds.
+[INFO 2025-02-23 10:14:05 AM] Process exited with code 0.
+[INFO 2025-02-23 10:12:41 AM] Command: dotnet test "D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:12:41 AM] Starting test for project: D:\Code2025\RavenWork\BullyAlgorithm\BullyAlgorithmTest\BullyAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
