@@ -1,0 +1,403 @@
+<ActRecord>
+  <ProjectName>ViterbiAlgorithm</ProjectName>
+  <ProjectDescription>Viterbi algorithm: Finds the most likely sequence of hidden states in a hidden Markov model</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Viterbi algorithm: Finds the most likely sequence of hidden states in a hidden Markov model</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\ViterbiAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>ViterbiAlgorithm</ProjectFolderName>
+  <ProjectName>ViterbiAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:55:00 AM
+ViterbiAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:55:38 AM
+ViterbiAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ViterbiAlgorithm -> D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithm\bin\Debug\net9.0\ViterbiAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.19
+]]></string>
+    <string>WritePatch: Code is Complete.
+ViterbiAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:55:55 AM
+ViterbiAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:57:01 AM
+ViterbiAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj (in 232 ms).
+  1 of 2 projects are up-to-date for restore.
+  ViterbiAlgorithm -> D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithm\bin\Debug\net9.0\ViterbiAlgorithm.dll
+D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTests.cs(18,66): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj]
+D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTests.cs(64,73): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj]
+  ViterbiAlgorithmTest -> D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\bin\Debug\net9.0\ViterbiAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTests.cs(18,66): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj]
+D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTests.cs(64,73): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.65
+]]></string>
+    <string>WritePatch: Compile failed.
+ViterbiAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:57:01 AM
+ViterbiAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:57:02 AM
+ViterbiAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:57:53 AM
+ViterbiAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ViterbiAlgorithm -> D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithm\bin\Debug\net9.0\ViterbiAlgorithm.dll
+  ViterbiAlgorithmTest -> D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\bin\Debug\net9.0\ViterbiAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.22
+]]></string>
+    <string>WritePatch: Code is not Complete.
+ViterbiAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:58:08 AM
+ViterbiAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:58:08 AM
+ViterbiAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:59:07 AM
+ViterbiAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ViterbiAlgorithm -> D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithm\bin\Debug\net9.0\ViterbiAlgorithm.dll
+D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTests.cs(18,66): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj]
+D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTests.cs(64,73): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj]
+  ViterbiAlgorithmTest -> D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\bin\Debug\net9.0\ViterbiAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTests.cs(18,66): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj]
+D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTests.cs(64,73): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.33
+]]></string>
+    <string>WritePatch: Compile failed.
+ViterbiAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:59:07 AM
+ViterbiAlgorithmTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ViterbiAlgorithm -> D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithm\bin\Debug\net9.0\ViterbiAlgorithm.dll
+D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTests.cs(18,66): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj]
+D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTests.cs(64,73): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj]
+  ViterbiAlgorithmTest -> D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\bin\Debug\net9.0\ViterbiAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTests.cs(18,66): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj]
+D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTests.cs(64,73): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.33
+
+</CompilerResponse>
+2025-02-23 11:59:08 AM
+ViterbiAlgorithmTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 11:59:09 AM
+ViterbiAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ViterbiAlgorithm -> D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithm\bin\Debug\net9.0\ViterbiAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.90
+]]></string>
+    <string>WritePatch: Code is Complete.
+ViterbiAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:59:23 AM
+ViterbiAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ViterbiAlgorithm -> D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithm\bin\Debug\net9.0\ViterbiAlgorithm.dll
+  ViterbiAlgorithmTest -> D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\bin\Debug\net9.0\ViterbiAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.11
+]]></string>
+    <string>WritePatch: Code is Complete.
+ViterbiAlgorithmTest</string>
+    <string>[INFO 2025-02-23 11:59:38 AM] Starting test for project: D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:59:38 AM] Starting test for project: D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:59:38 AM] Starting test for project: D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:59:38 AM] Starting test for project: D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:59:38 AM] Starting test for project: D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:59:38 AM] Starting test for project: D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:59:38 AM] Starting test for project: D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:59:38 AM] Starting test for project: D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:59:38 AM] Starting test for project: D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:59:38 AM] Starting test for project: D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:59:38 AM] Starting test for project: D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:59:38 AM] Starting test for project: D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:59:38 AM] Starting test for project: D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 11:59:42 AM] All tests passed successfully.
+[INFO 2025-02-23 11:59:42 AM] Test process completed. Duration: 3.74 seconds.
+[INFO 2025-02-23 11:59:42 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 11:59:42 AM]   Passed Test_KnownExample_MultipleObservations [5 ms]
+[OUTPUT 2025-02-23 11:59:41 AM] Test Parallelization enabled for D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\bin\Debug\net9.0\ViterbiAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 11:59:41 AM] D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\bin\Debug\net9.0\ViterbiAlgorithmTest.dll
+[OUTPUT 2025-02-23 11:59:41 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:59:40 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:59:40 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:59:40 AM] Test run for D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\bin\Debug\net9.0\ViterbiAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:59:40 AM]   ViterbiAlgorithmTest -> D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\bin\Debug\net9.0\ViterbiAlgorithmTest.dll
+[OUTPUT 2025-02-23 11:59:39 AM]   ViterbiAlgorithm -> D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithm\bin\Debug\net9.0\ViterbiAlgorithm.dll
+[OUTPUT 2025-02-23 11:59:39 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:59:39 AM]   Determining projects to restore...
+[INFO 2025-02-23 11:59:38 AM] Command: dotnet test "D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:59:38 AM] Starting test for project: D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 11:55:00 AM
+ViterbiAlgorithm
+
+WritePatch ran compiler. 2025-02-23 11:55:38 AM
+ViterbiAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ViterbiAlgorithm -> D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithm\bin\Debug\net9.0\ViterbiAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.19
+
+
+WritePatch: Code is Complete.
+ViterbiAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 11:55:55 AM
+ViterbiAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 11:57:01 AM
+ViterbiAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj (in 232 ms).
+  1 of 2 projects are up-to-date for restore.
+  ViterbiAlgorithm -> D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithm\bin\Debug\net9.0\ViterbiAlgorithm.dll
+D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTests.cs(18,66): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj]
+D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTests.cs(64,73): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj]
+  ViterbiAlgorithmTest -> D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\bin\Debug\net9.0\ViterbiAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTests.cs(18,66): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj]
+D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTests.cs(64,73): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.65
+
+
+WritePatch: Compile failed.
+ViterbiAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:57:01 AM
+ViterbiAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 11:57:02 AM
+ViterbiAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 11:57:53 AM
+ViterbiAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ViterbiAlgorithm -> D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithm\bin\Debug\net9.0\ViterbiAlgorithm.dll
+  ViterbiAlgorithmTest -> D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\bin\Debug\net9.0\ViterbiAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.22
+
+
+WritePatch: Code is not Complete.
+ViterbiAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:58:08 AM
+ViterbiAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 11:58:08 AM
+ViterbiAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 11:59:07 AM
+ViterbiAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ViterbiAlgorithm -> D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithm\bin\Debug\net9.0\ViterbiAlgorithm.dll
+D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTests.cs(18,66): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj]
+D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTests.cs(64,73): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj]
+  ViterbiAlgorithmTest -> D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\bin\Debug\net9.0\ViterbiAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTests.cs(18,66): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj]
+D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTests.cs(64,73): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.33
+
+
+WritePatch: Compile failed.
+ViterbiAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:59:07 AM
+ViterbiAlgorithmTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ViterbiAlgorithm -> D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithm\bin\Debug\net9.0\ViterbiAlgorithm.dll
+D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTests.cs(18,66): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj]
+D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTests.cs(64,73): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj]
+  ViterbiAlgorithmTest -> D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\bin\Debug\net9.0\ViterbiAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTests.cs(18,66): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj]
+D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTests.cs(64,73): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.33
+
+</CompilerResponse>
+2025-02-23 11:59:08 AM
+ViterbiAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 11:59:09 AM
+ViterbiAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ViterbiAlgorithm -> D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithm\bin\Debug\net9.0\ViterbiAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.90
+
+
+WritePatch: Code is Complete.
+ViterbiAlgorithm
+
+WritePatch ran compiler. 2025-02-23 11:59:23 AM
+ViterbiAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ViterbiAlgorithm -> D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithm\bin\Debug\net9.0\ViterbiAlgorithm.dll
+  ViterbiAlgorithmTest -> D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\bin\Debug\net9.0\ViterbiAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.11
+
+
+WritePatch: Code is Complete.
+ViterbiAlgorithmTest
+
+TestResult:
+[SUCCESS 2025-02-23 11:59:42 AM] All tests passed successfully.
+[INFO 2025-02-23 11:59:42 AM] Test process completed. Duration: 3.74 seconds.
+[INFO 2025-02-23 11:59:42 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 11:59:42 AM]   Passed Test_KnownExample_MultipleObservations [5 ms]
+[OUTPUT 2025-02-23 11:59:41 AM] Test Parallelization enabled for D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\bin\Debug\net9.0\ViterbiAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 11:59:41 AM] D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\bin\Debug\net9.0\ViterbiAlgorithmTest.dll
+[OUTPUT 2025-02-23 11:59:41 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:59:40 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:59:40 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:59:40 AM] Test run for D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\bin\Debug\net9.0\ViterbiAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:59:40 AM]   ViterbiAlgorithmTest -> D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\bin\Debug\net9.0\ViterbiAlgorithmTest.dll
+[OUTPUT 2025-02-23 11:59:39 AM]   ViterbiAlgorithm -> D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithm\bin\Debug\net9.0\ViterbiAlgorithm.dll
+[OUTPUT 2025-02-23 11:59:39 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:59:39 AM]   Determining projects to restore...
+[INFO 2025-02-23 11:59:38 AM] Command: dotnet test "D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:59:38 AM] Starting test for project: D:\Code2025\RavenWork\ViterbiAlgorithm\ViterbiAlgorithmTest\ViterbiAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
