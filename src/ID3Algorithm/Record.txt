@@ -1,0 +1,302 @@
+<ActRecord>
+  <ProjectName>ID3Algorithm</ProjectName>
+  <ProjectDescription>ID3 algorithm (Iterative Dichotomiser 3): Uses a heuristic to generate small decision trees</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>ID3 algorithm (Iterative Dichotomiser 3): Uses a heuristic to generate small decision trees</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\ID3Algorithm</SolutionFolderPath>
+  <ProjectFolderName>ID3Algorithm</ProjectFolderName>
+  <ProjectName>ID3Algorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:43:23 AM
+ID3Algorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:44:22 AM
+ID3Algorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ID3Algorithm -> D:\Code2025\RavenWork\ID3Algorithm\ID3Algorithm\bin\Debug\net9.0\ID3Algorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.74
+]]></string>
+    <string>WritePatch: Code is Complete.
+ID3Algorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:44:33 AM
+ID3AlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:45:53 AM
+ID3AlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\ID3AlgorithmTest.csproj (in 177 ms).
+  1 of 2 projects are up-to-date for restore.
+  ID3Algorithm -> D:\Code2025\RavenWork\ID3Algorithm\ID3Algorithm\bin\Debug\net9.0\ID3Algorithm.dll
+  ID3AlgorithmTest -> D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\bin\Debug\net9.0\ID3AlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.23
+]]></string>
+    <string>WritePatch: Code is Complete.
+ID3AlgorithmTest</string>
+    <string>[INFO 2025-02-23 6:46:09 AM] Starting test for project: D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\ID3AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:46:09 AM] Starting test for project: D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\ID3AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:46:09 AM] Starting test for project: D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\ID3AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:46:09 AM] Starting test for project: D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\ID3AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:46:09 AM] Starting test for project: D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\ID3AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:46:09 AM] Starting test for project: D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\ID3AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:46:09 AM] Starting test for project: D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\ID3AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:46:09 AM] Starting test for project: D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\ID3AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:46:09 AM] Starting test for project: D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\ID3AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:46:09 AM] Starting test for project: D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\ID3AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:46:09 AM] Starting test for project: D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\ID3AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:46:09 AM] Starting test for project: D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\ID3AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:46:09 AM] Starting test for project: D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\ID3AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:46:09 AM] Starting test for project: D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\ID3AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:46:09 AM] Starting test for project: D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\ID3AlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[INFO] Check 'TestResults' folder for more details.
+[LAST OUTPUT] Test Run Failed.
+[LAST OUTPUT]   Passed TestAllSameLabels [23 ms]
+[LAST OUTPUT] Test Parallelization enabled for D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\bin\Debug\net9.0\ID3AlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[LAST OUTPUT] D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\bin\Debug\net9.0\ID3AlgorithmTest.dll
+[LAST OUTPUT] A total of 1 test files matched the specified pattern.
+[LAST OUTPUT] Starting test execution, please wait...
+[LAST OUTPUT] VSTest version 17.12.0 (x64)
+[LAST OUTPUT] Test run for D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\bin\Debug\net9.0\ID3AlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[LAST OUTPUT]   ID3AlgorithmTest -> D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\bin\Debug\net9.0\ID3AlgorithmTest.dll
+[LAST OUTPUT]   ID3Algorithm -> D:\Code2025\RavenWork\ID3Algorithm\ID3Algorithm\bin\Debug\net9.0\ID3Algorithm.dll
+[ERROR 2025-02-23 6:46:11 AM] Process exited with code 1. Possible causes:
+[INFO 2025-02-23 6:46:11 AM] Test process completed. Duration: 2.64 seconds.
+[INFO 2025-02-23 6:46:11 AM] Process exited with code 1.
+[ERROR 2025-02-23 6:46:11 AM] Test Run Failed.
+[OUTPUT 2025-02-23 6:46:11 AM] Test Parallelization enabled for D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\bin\Debug\net9.0\ID3AlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 6:46:11 AM]   Passed TestNoAttributes [23 ms]
+[OUTPUT 2025-02-23 6:46:11 AM]   Passed TestAllSameLabels [23 ms]
+[OUTPUT 2025-02-23 6:46:10 AM] D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\bin\Debug\net9.0\ID3AlgorithmTest.dll
+[OUTPUT 2025-02-23 6:46:10 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:46:10 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:46:10 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:46:10 AM] Test run for D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\bin\Debug\net9.0\ID3AlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:46:10 AM]   ID3AlgorithmTest -> D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\bin\Debug\net9.0\ID3AlgorithmTest.dll
+[OUTPUT 2025-02-23 6:46:10 AM]   ID3Algorithm -> D:\Code2025\RavenWork\ID3Algorithm\ID3Algorithm\bin\Debug\net9.0\ID3Algorithm.dll
+[OUTPUT 2025-02-23 6:46:09 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 6:46:09 AM]   Determining projects to restore...
+[INFO 2025-02-23 6:46:09 AM] Command: dotnet test "D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\ID3AlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:46:09 AM] Starting test for project: D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\ID3AlgorithmTest.csproj]]></string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:46:25 AM
+ID3Algorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:47:42 AM
+ID3Algorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ID3Algorithm -> D:\Code2025\RavenWork\ID3Algorithm\ID3Algorithm\bin\Debug\net9.0\ID3Algorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.80
+]]></string>
+    <string>WritePatch: Code is Complete.
+ID3Algorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:48:10 AM
+ID3AlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:50:00 AM
+ID3AlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ID3Algorithm -> D:\Code2025\RavenWork\ID3Algorithm\ID3Algorithm\bin\Debug\net9.0\ID3Algorithm.dll
+  ID3AlgorithmTest -> D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\bin\Debug\net9.0\ID3AlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.92
+]]></string>
+    <string>WritePatch: Code is Complete.
+ID3AlgorithmTest</string>
+    <string>[INFO 2025-02-23 6:50:39 AM] Starting test for project: D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\ID3AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:50:39 AM] Starting test for project: D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\ID3AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:50:39 AM] Starting test for project: D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\ID3AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:50:39 AM] Starting test for project: D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\ID3AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:50:39 AM] Starting test for project: D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\ID3AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:50:39 AM] Starting test for project: D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\ID3AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:50:39 AM] Starting test for project: D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\ID3AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:50:39 AM] Starting test for project: D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\ID3AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:50:39 AM] Starting test for project: D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\ID3AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:50:39 AM] Starting test for project: D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\ID3AlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 6:50:41 AM] All tests passed successfully.
+[INFO 2025-02-23 6:50:41 AM] Test process completed. Duration: 1.88 seconds.
+[INFO 2025-02-23 6:50:41 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 6:50:41 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:50:41 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:50:41 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:50:41 AM] Test run for D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\bin\Debug\net9.0\ID3AlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:50:40 AM]   ID3AlgorithmTest -> D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\bin\Debug\net9.0\ID3AlgorithmTest.dll
+[OUTPUT 2025-02-23 6:50:40 AM]   ID3Algorithm -> D:\Code2025\RavenWork\ID3Algorithm\ID3Algorithm\bin\Debug\net9.0\ID3Algorithm.dll
+[OUTPUT 2025-02-23 6:50:40 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 6:50:40 AM]   Determining projects to restore...
+[INFO 2025-02-23 6:50:39 AM] Command: dotnet test "D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\ID3AlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:50:39 AM] Starting test for project: D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\ID3AlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 6:43:23 AM
+ID3Algorithm
+
+WritePatch ran compiler. 2025-02-23 6:44:22 AM
+ID3Algorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ID3Algorithm -> D:\Code2025\RavenWork\ID3Algorithm\ID3Algorithm\bin\Debug\net9.0\ID3Algorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.74
+
+
+WritePatch: Code is Complete.
+ID3Algorithm
+
+WritePatch Started CycleStep. 2025-02-23 6:44:33 AM
+ID3AlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 6:45:53 AM
+ID3AlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\ID3AlgorithmTest.csproj (in 177 ms).
+  1 of 2 projects are up-to-date for restore.
+  ID3Algorithm -> D:\Code2025\RavenWork\ID3Algorithm\ID3Algorithm\bin\Debug\net9.0\ID3Algorithm.dll
+  ID3AlgorithmTest -> D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\bin\Debug\net9.0\ID3AlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.23
+
+
+WritePatch: Code is Complete.
+ID3AlgorithmTest
+
+TestResult:
+[INFO] Check 'TestResults' folder for more details.
+[LAST OUTPUT] Test Run Failed.
+[LAST OUTPUT]   Passed TestAllSameLabels [23 ms]
+[LAST OUTPUT] Test Parallelization enabled for D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\bin\Debug\net9.0\ID3AlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[LAST OUTPUT] D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\bin\Debug\net9.0\ID3AlgorithmTest.dll
+[LAST OUTPUT] A total of 1 test files matched the specified pattern.
+[LAST OUTPUT] Starting test execution, please wait...
+[LAST OUTPUT] VSTest version 17.12.0 (x64)
+[LAST OUTPUT] Test run for D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\bin\Debug\net9.0\ID3AlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[LAST OUTPUT]   ID3AlgorithmTest -> D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\bin\Debug\net9.0\ID3AlgorithmTest.dll
+[LAST OUTPUT]   ID3Algorithm -> D:\Code2025\RavenWork\ID3Algorithm\ID3Algorithm\bin\Debug\net9.0\ID3Algorithm.dll
+[ERROR 2025-02-23 6:46:11 AM] Process exited with code 1. Possible causes:
+[INFO 2025-02-23 6:46:11 AM] Test process completed. Duration: 2.64 seconds.
+[INFO 2025-02-23 6:46:11 AM] Process exited with code 1.
+[ERROR 2025-02-23 6:46:11 AM] Test Run Failed.
+[OUTPUT 2025-02-23 6:46:11 AM] Test Parallelization enabled for D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\bin\Debug\net9.0\ID3AlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 6:46:11 AM]   Passed TestNoAttributes [23 ms]
+[OUTPUT 2025-02-23 6:46:11 AM]   Passed TestAllSameLabels [23 ms]
+[OUTPUT 2025-02-23 6:46:10 AM] D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\bin\Debug\net9.0\ID3AlgorithmTest.dll
+[OUTPUT 2025-02-23 6:46:10 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:46:10 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:46:10 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:46:10 AM] Test run for D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\bin\Debug\net9.0\ID3AlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:46:10 AM]   ID3AlgorithmTest -> D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\bin\Debug\net9.0\ID3AlgorithmTest.dll
+[OUTPUT 2025-02-23 6:46:10 AM]   ID3Algorithm -> D:\Code2025\RavenWork\ID3Algorithm\ID3Algorithm\bin\Debug\net9.0\ID3Algorithm.dll
+[OUTPUT 2025-02-23 6:46:09 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 6:46:09 AM]   Determining projects to restore...
+[INFO 2025-02-23 6:46:09 AM] Command: dotnet test "D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\ID3AlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:46:09 AM] Starting test for project: D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\ID3AlgorithmTest.csproj
+
+WritePatch Started CycleStep. 2025-02-23 6:46:25 AM
+ID3Algorithm
+
+WritePatch ran compiler. 2025-02-23 6:47:42 AM
+ID3Algorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ID3Algorithm -> D:\Code2025\RavenWork\ID3Algorithm\ID3Algorithm\bin\Debug\net9.0\ID3Algorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.80
+
+
+WritePatch: Code is Complete.
+ID3Algorithm
+
+WritePatch Started CycleStep. 2025-02-23 6:48:10 AM
+ID3AlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 6:50:00 AM
+ID3AlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ID3Algorithm -> D:\Code2025\RavenWork\ID3Algorithm\ID3Algorithm\bin\Debug\net9.0\ID3Algorithm.dll
+  ID3AlgorithmTest -> D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\bin\Debug\net9.0\ID3AlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.92
+
+
+WritePatch: Code is Complete.
+ID3AlgorithmTest
+
+TestResult:
+[SUCCESS 2025-02-23 6:50:41 AM] All tests passed successfully.
+[INFO 2025-02-23 6:50:41 AM] Test process completed. Duration: 1.88 seconds.
+[INFO 2025-02-23 6:50:41 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 6:50:41 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:50:41 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:50:41 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:50:41 AM] Test run for D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\bin\Debug\net9.0\ID3AlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:50:40 AM]   ID3AlgorithmTest -> D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\bin\Debug\net9.0\ID3AlgorithmTest.dll
+[OUTPUT 2025-02-23 6:50:40 AM]   ID3Algorithm -> D:\Code2025\RavenWork\ID3Algorithm\ID3Algorithm\bin\Debug\net9.0\ID3Algorithm.dll
+[OUTPUT 2025-02-23 6:50:40 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 6:50:40 AM]   Determining projects to restore...
+[INFO 2025-02-23 6:50:39 AM] Command: dotnet test "D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\ID3AlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:50:39 AM] Starting test for project: D:\Code2025\RavenWork\ID3Algorithm\ID3AlgorithmTest\ID3AlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
