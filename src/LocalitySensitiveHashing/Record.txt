@@ -1,0 +1,370 @@
+<ActRecord>
+  <ProjectName>LocalitySensitiveHashing</ProjectName>
+  <ProjectDescription>Locality‑sensitive hashing (LSH): Performs probabilistic dimension reduction</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Locality‑sensitive hashing (LSH): Performs probabilistic dimension reduction</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\LocalitySensitiveHashing</SolutionFolderPath>
+  <ProjectFolderName>LocalitySensitiveHashing</ProjectFolderName>
+  <ProjectName>LocalitySensitiveHashing</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:39:16 AM
+LocalitySensitiveHashing</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:39:41 AM
+LocalitySensitiveHashing</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LocalitySensitiveHashing -> D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashing\bin\Debug\net9.0\LocalitySensitiveHashing.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.02
+]]></string>
+    <string>WritePatch: Code is Complete.
+LocalitySensitiveHashing</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:40:08 AM
+LocalitySensitiveHashingTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:40:42 AM
+LocalitySensitiveHashingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\LocalitySensitiveHashingTest.csproj (in 289 ms).
+  1 of 2 projects are up-to-date for restore.
+  LocalitySensitiveHashing -> D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashing\bin\Debug\net9.0\LocalitySensitiveHashing.dll
+D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\LSHTests.cs(15,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\LocalitySensitiveHashingTest.csproj]
+  LocalitySensitiveHashingTest -> D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\bin\Debug\net9.0\LocalitySensitiveHashingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\LSHTests.cs(15,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\LocalitySensitiveHashingTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.81
+]]></string>
+    <string>WritePatch: Compile failed.
+LocalitySensitiveHashingTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:40:46 AM
+LocalitySensitiveHashingTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:40:48 AM
+LocalitySensitiveHashingTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:42:19 AM
+LocalitySensitiveHashingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LocalitySensitiveHashing -> D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashing\bin\Debug\net9.0\LocalitySensitiveHashing.dll
+  LocalitySensitiveHashingTest -> D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\bin\Debug\net9.0\LocalitySensitiveHashingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.23
+]]></string>
+    <string>WritePatch: Code is not Complete.
+LocalitySensitiveHashingTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:42:44 AM
+LocalitySensitiveHashingTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:42:45 AM
+LocalitySensitiveHashingTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:44:29 AM
+LocalitySensitiveHashingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LocalitySensitiveHashing -> D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashing\bin\Debug\net9.0\LocalitySensitiveHashing.dll
+D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\LSHTests.cs(15,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\LocalitySensitiveHashingTest.csproj]
+  LocalitySensitiveHashingTest -> D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\bin\Debug\net9.0\LocalitySensitiveHashingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\LSHTests.cs(15,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\LocalitySensitiveHashingTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.27
+]]></string>
+    <string>WritePatch: Compile failed.
+LocalitySensitiveHashingTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:44:34 AM
+LocalitySensitiveHashingTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LocalitySensitiveHashing -> D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashing\bin\Debug\net9.0\LocalitySensitiveHashing.dll
+D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\LSHTests.cs(15,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\LocalitySensitiveHashingTest.csproj]
+  LocalitySensitiveHashingTest -> D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\bin\Debug\net9.0\LocalitySensitiveHashingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\LSHTests.cs(15,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\LocalitySensitiveHashingTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.27
+
+</CompilerResponse>
+2025-02-23 11:44:36 AM
+LocalitySensitiveHashingTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 11:44:40 AM
+LocalitySensitiveHashing</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LocalitySensitiveHashing -> D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashing\bin\Debug\net9.0\LocalitySensitiveHashing.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.90
+]]></string>
+    <string>WritePatch: Code is Complete.
+LocalitySensitiveHashing</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:44:56 AM
+LocalitySensitiveHashingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LocalitySensitiveHashing -> D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashing\bin\Debug\net9.0\LocalitySensitiveHashing.dll
+  LocalitySensitiveHashingTest -> D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\bin\Debug\net9.0\LocalitySensitiveHashingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.25
+]]></string>
+    <string>WritePatch: Code is Complete.
+LocalitySensitiveHashingTest</string>
+    <string>[INFO 2025-02-23 11:45:15 AM] Starting test for project: D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\LocalitySensitiveHashingTest.csproj</string>
+    <string>[INFO 2025-02-23 11:45:15 AM] Starting test for project: D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\LocalitySensitiveHashingTest.csproj</string>
+    <string>[INFO 2025-02-23 11:45:15 AM] Starting test for project: D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\LocalitySensitiveHashingTest.csproj</string>
+    <string>[INFO 2025-02-23 11:45:15 AM] Starting test for project: D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\LocalitySensitiveHashingTest.csproj</string>
+    <string>[INFO 2025-02-23 11:45:15 AM] Starting test for project: D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\LocalitySensitiveHashingTest.csproj</string>
+    <string>[INFO 2025-02-23 11:45:15 AM] Starting test for project: D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\LocalitySensitiveHashingTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 11:45:20 AM] All tests passed successfully.
+[INFO 2025-02-23 11:45:20 AM] Test process completed. Duration: 4.84 seconds.
+[INFO 2025-02-23 11:45:20 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 11:45:17 AM]   Determining projects to restore...
+[OUTPUT 2025-02-23 11:45:21 AM]   LocalitySensitiveHashingTest -> D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\bin\Debug\net9.0\LocalitySensitiveHashingTest.dll
+[OUTPUT 2025-02-23 11:45:19 AM]   LocalitySensitiveHashing -> D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashing\bin\Debug\net9.0\LocalitySensitiveHashing.dll
+[OUTPUT 2025-02-23 11:45:18 AM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 11:45:15 AM] Command: dotnet test "D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\LocalitySensitiveHashingTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:45:15 AM] Starting test for project: D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\LocalitySensitiveHashingTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 11:39:16 AM
+LocalitySensitiveHashing
+
+WritePatch ran compiler. 2025-02-23 11:39:41 AM
+LocalitySensitiveHashing
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LocalitySensitiveHashing -> D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashing\bin\Debug\net9.0\LocalitySensitiveHashing.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.02
+
+
+WritePatch: Code is Complete.
+LocalitySensitiveHashing
+
+WritePatch Started CycleStep. 2025-02-23 11:40:08 AM
+LocalitySensitiveHashingTest
+
+WritePatch ran compiler. 2025-02-23 11:40:42 AM
+LocalitySensitiveHashingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\LocalitySensitiveHashingTest.csproj (in 289 ms).
+  1 of 2 projects are up-to-date for restore.
+  LocalitySensitiveHashing -> D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashing\bin\Debug\net9.0\LocalitySensitiveHashing.dll
+D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\LSHTests.cs(15,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\LocalitySensitiveHashingTest.csproj]
+  LocalitySensitiveHashingTest -> D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\bin\Debug\net9.0\LocalitySensitiveHashingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\LSHTests.cs(15,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\LocalitySensitiveHashingTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.81
+
+
+WritePatch: Compile failed.
+LocalitySensitiveHashingTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:40:46 AM
+LocalitySensitiveHashingTest
+
+WritePatch Started CycleStep. 2025-02-23 11:40:48 AM
+LocalitySensitiveHashingTest
+
+WritePatch ran compiler. 2025-02-23 11:42:19 AM
+LocalitySensitiveHashingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LocalitySensitiveHashing -> D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashing\bin\Debug\net9.0\LocalitySensitiveHashing.dll
+  LocalitySensitiveHashingTest -> D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\bin\Debug\net9.0\LocalitySensitiveHashingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.23
+
+
+WritePatch: Code is not Complete.
+LocalitySensitiveHashingTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:42:44 AM
+LocalitySensitiveHashingTest
+
+WritePatch Started CycleStep. 2025-02-23 11:42:45 AM
+LocalitySensitiveHashingTest
+
+WritePatch ran compiler. 2025-02-23 11:44:29 AM
+LocalitySensitiveHashingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LocalitySensitiveHashing -> D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashing\bin\Debug\net9.0\LocalitySensitiveHashing.dll
+D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\LSHTests.cs(15,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\LocalitySensitiveHashingTest.csproj]
+  LocalitySensitiveHashingTest -> D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\bin\Debug\net9.0\LocalitySensitiveHashingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\LSHTests.cs(15,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\LocalitySensitiveHashingTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.27
+
+
+WritePatch: Compile failed.
+LocalitySensitiveHashingTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:44:34 AM
+LocalitySensitiveHashingTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LocalitySensitiveHashing -> D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashing\bin\Debug\net9.0\LocalitySensitiveHashing.dll
+D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\LSHTests.cs(15,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\LocalitySensitiveHashingTest.csproj]
+  LocalitySensitiveHashingTest -> D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\bin\Debug\net9.0\LocalitySensitiveHashingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\LSHTests.cs(15,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\LocalitySensitiveHashingTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.27
+
+</CompilerResponse>
+2025-02-23 11:44:36 AM
+LocalitySensitiveHashingTest
+
+WritePatch ran compiler. 2025-02-23 11:44:40 AM
+LocalitySensitiveHashing
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LocalitySensitiveHashing -> D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashing\bin\Debug\net9.0\LocalitySensitiveHashing.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.90
+
+
+WritePatch: Code is Complete.
+LocalitySensitiveHashing
+
+WritePatch ran compiler. 2025-02-23 11:44:56 AM
+LocalitySensitiveHashingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LocalitySensitiveHashing -> D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashing\bin\Debug\net9.0\LocalitySensitiveHashing.dll
+  LocalitySensitiveHashingTest -> D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\bin\Debug\net9.0\LocalitySensitiveHashingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.25
+
+
+WritePatch: Code is Complete.
+LocalitySensitiveHashingTest
+
+TestResult:
+[SUCCESS 2025-02-23 11:45:20 AM] All tests passed successfully.
+[INFO 2025-02-23 11:45:20 AM] Test process completed. Duration: 4.84 seconds.
+[INFO 2025-02-23 11:45:20 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 11:45:17 AM]   Determining projects to restore...
+[OUTPUT 2025-02-23 11:45:21 AM]   LocalitySensitiveHashingTest -> D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\bin\Debug\net9.0\LocalitySensitiveHashingTest.dll
+[OUTPUT 2025-02-23 11:45:19 AM]   LocalitySensitiveHashing -> D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashing\bin\Debug\net9.0\LocalitySensitiveHashing.dll
+[OUTPUT 2025-02-23 11:45:18 AM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 11:45:15 AM] Command: dotnet test "D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\LocalitySensitiveHashingTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:45:15 AM] Starting test for project: D:\Code2025\RavenWork\LocalitySensitiveHashing\LocalitySensitiveHashingTest\LocalitySensitiveHashingTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
