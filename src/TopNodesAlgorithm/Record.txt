@@ -1,0 +1,417 @@
+<ActRecord>
+  <ProjectName>TopNodesAlgorithm</ProjectName>
+  <ProjectDescription>Top‑nodes algorithm: For resource calendar management</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Top‑nodes algorithm: For resource calendar management</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\TopNodesAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>TopNodesAlgorithm</ProjectFolderName>
+  <ProjectName>TopNodesAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:27:14 PM
+TopNodesAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:27:36 PM
+TopNodesAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TopNodesAlgorithm -> D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithm\bin\Debug\net9.0\TopNodesAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+]]></string>
+    <string>WritePatch: Code is Complete.
+TopNodesAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:28:06 PM
+TopNodesAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:29:49 PM
+TopNodesAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj (in 678 ms).
+  1 of 2 projects are up-to-date for restore.
+  TopNodesAlgorithm -> D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithm\bin\Debug\net9.0\TopNodesAlgorithm.dll
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(15,50): error CS0234: The type or namespace name 'GetTopNodes' does not exist in the namespace 'TopNodesAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(14,50): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(24,50): error CS0234: The type or namespace name 'GetTopNodes' does not exist in the namespace 'TopNodesAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(39,50): error CS0234: The type or namespace name 'GetTopNodes' does not exist in the namespace 'TopNodesAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(59,50): error CS0234: The type or namespace name 'GetTopNodes' does not exist in the namespace 'TopNodesAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(75,50): error CS0234: The type or namespace name 'GetTopNodes' does not exist in the namespace 'TopNodesAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(94,50): error CS0234: The type or namespace name 'GetTopNodes' does not exist in the namespace 'TopNodesAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(103,52): error CS0234: The type or namespace name 'GetTopNodes' does not exist in the namespace 'TopNodesAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(14,50): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(15,50): error CS0234: The type or namespace name 'GetTopNodes' does not exist in the namespace 'TopNodesAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(24,50): error CS0234: The type or namespace name 'GetTopNodes' does not exist in the namespace 'TopNodesAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(39,50): error CS0234: The type or namespace name 'GetTopNodes' does not exist in the namespace 'TopNodesAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(59,50): error CS0234: The type or namespace name 'GetTopNodes' does not exist in the namespace 'TopNodesAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(75,50): error CS0234: The type or namespace name 'GetTopNodes' does not exist in the namespace 'TopNodesAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(94,50): error CS0234: The type or namespace name 'GetTopNodes' does not exist in the namespace 'TopNodesAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(103,52): error CS0234: The type or namespace name 'GetTopNodes' does not exist in the namespace 'TopNodesAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+    1 Warning(s)
+    7 Error(s)
+
+Time Elapsed 00:00:01.84
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+TopNodesAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:29:50 PM
+TopNodesAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:29:51 PM
+TopNodesAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:33:07 PM
+TopNodesAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TopNodesAlgorithm -> D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithm\bin\Debug\net9.0\TopNodesAlgorithm.dll
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(15,50): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(16,66): warning CS8604: Possible null reference argument for parameter 'events' in 'List<ResourceCalendarEvent> TopNodesAlgorithm.GetTopNodes(List<ResourceCalendarEvent> events)'. [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+  TopNodesAlgorithmTest -> D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\bin\Debug\net9.0\TopNodesAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(15,50): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(16,66): warning CS8604: Possible null reference argument for parameter 'events' in 'List<ResourceCalendarEvent> TopNodesAlgorithm.GetTopNodes(List<ResourceCalendarEvent> events)'. [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.34
+]]></string>
+    <string>WritePatch: Compile failed.
+TopNodesAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:33:08 PM
+TopNodesAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:33:08 PM
+TopNodesAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:33:50 PM
+TopNodesAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TopNodesAlgorithm -> D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithm\bin\Debug\net9.0\TopNodesAlgorithm.dll
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(16,66): warning CS8604: Possible null reference argument for parameter 'events' in 'List<ResourceCalendarEvent> TopNodesAlgorithm.GetTopNodes(List<ResourceCalendarEvent> events)'. [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+  TopNodesAlgorithmTest -> D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\bin\Debug\net9.0\TopNodesAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(16,66): warning CS8604: Possible null reference argument for parameter 'events' in 'List<ResourceCalendarEvent> TopNodesAlgorithm.GetTopNodes(List<ResourceCalendarEvent> events)'. [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.80
+]]></string>
+    <string>WritePatch: Compile failed.
+TopNodesAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:33:52 PM
+TopNodesAlgorithmTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TopNodesAlgorithm -> D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithm\bin\Debug\net9.0\TopNodesAlgorithm.dll
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(16,66): warning CS8604: Possible null reference argument for parameter 'events' in 'List<ResourceCalendarEvent> TopNodesAlgorithm.GetTopNodes(List<ResourceCalendarEvent> events)'. [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+  TopNodesAlgorithmTest -> D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\bin\Debug\net9.0\TopNodesAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(16,66): warning CS8604: Possible null reference argument for parameter 'events' in 'List<ResourceCalendarEvent> TopNodesAlgorithm.GetTopNodes(List<ResourceCalendarEvent> events)'. [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.80
+
+</CompilerResponse>
+2025-02-23 1:33:52 PM
+TopNodesAlgorithmTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 1:33:53 PM
+TopNodesAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TopNodesAlgorithm -> D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithm\bin\Debug\net9.0\TopNodesAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+]]></string>
+    <string>WritePatch: Code is Complete.
+TopNodesAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:34:09 PM
+TopNodesAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TopNodesAlgorithm -> D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithm\bin\Debug\net9.0\TopNodesAlgorithm.dll
+  TopNodesAlgorithmTest -> D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\bin\Debug\net9.0\TopNodesAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.29
+]]></string>
+    <string>WritePatch: Code is Complete.
+TopNodesAlgorithmTest</string>
+    <string>[INFO 2025-02-23 1:34:38 PM] Starting test for project: D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:34:38 PM] Starting test for project: D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:34:38 PM] Starting test for project: D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:34:38 PM] Starting test for project: D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:34:38 PM] Starting test for project: D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:34:38 PM] Starting test for project: D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:34:38 PM] Starting test for project: D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 1:34:44 PM] All tests passed successfully.
+[INFO 2025-02-23 1:34:44 PM] Test process completed. Duration: 5.76 seconds.
+[INFO 2025-02-23 1:34:44 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 1:34:44 PM] Test run for D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\bin\Debug\net9.0\TopNodesAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 1:34:42 PM]   TopNodesAlgorithmTest -> D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\bin\Debug\net9.0\TopNodesAlgorithmTest.dll
+[OUTPUT 2025-02-23 1:34:42 PM]   TopNodesAlgorithm -> D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithm\bin\Debug\net9.0\TopNodesAlgorithm.dll
+[OUTPUT 2025-02-23 1:34:41 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:34:39 PM]   Determining projects to restore...
+[INFO 2025-02-23 1:34:38 PM] Command: dotnet test "D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:34:38 PM] Starting test for project: D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 1:27:14 PM
+TopNodesAlgorithm
+
+WritePatch ran compiler. 2025-02-23 1:27:36 PM
+TopNodesAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TopNodesAlgorithm -> D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithm\bin\Debug\net9.0\TopNodesAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+
+
+WritePatch: Code is Complete.
+TopNodesAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 1:28:06 PM
+TopNodesAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 1:29:49 PM
+TopNodesAlgorithmTest
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj (in 678 ms).
+  1 of 2 projects are up-to-date for restore.
+  TopNodesAlgorithm -> D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithm\bin\Debug\net9.0\TopNodesAlgorithm.dll
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(15,50): error CS0234: The type or namespace name 'GetTopNodes' does not exist in the namespace 'TopNodesAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(14,50): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(24,50): error CS0234: The type or namespace name 'GetTopNodes' does not exist in the namespace 'TopNodesAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(39,50): error CS0234: The type or namespace name 'GetTopNodes' does not exist in the namespace 'TopNodesAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(59,50): error CS0234: The type or namespace name 'GetTopNodes' does not exist in the namespace 'TopNodesAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(75,50): error CS0234: The type or namespace name 'GetTopNodes' does not exist in the namespace 'TopNodesAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(94,50): error CS0234: The type or namespace name 'GetTopNodes' does not exist in the namespace 'TopNodesAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(103,52): error CS0234: The type or namespace name 'GetTopNodes' does not exist in the namespace 'TopNodesAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(14,50): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(15,50): error CS0234: The type or namespace name 'GetTopNodes' does not exist in the namespace 'TopNodesAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(24,50): error CS0234: The type or namespace name 'GetTopNodes' does not exist in the namespace 'TopNodesAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(39,50): error CS0234: The type or namespace name 'GetTopNodes' does not exist in the namespace 'TopNodesAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(59,50): error CS0234: The type or namespace name 'GetTopNodes' does not exist in the namespace 'TopNodesAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(75,50): error CS0234: The type or namespace name 'GetTopNodes' does not exist in the namespace 'TopNodesAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(94,50): error CS0234: The type or namespace name 'GetTopNodes' does not exist in the namespace 'TopNodesAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(103,52): error CS0234: The type or namespace name 'GetTopNodes' does not exist in the namespace 'TopNodesAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+    1 Warning(s)
+    7 Error(s)
+
+Time Elapsed 00:00:01.84
+
+
+Errors:
+
+WritePatch: Compile failed.
+TopNodesAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:29:50 PM
+TopNodesAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 1:29:51 PM
+TopNodesAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 1:33:07 PM
+TopNodesAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TopNodesAlgorithm -> D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithm\bin\Debug\net9.0\TopNodesAlgorithm.dll
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(15,50): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(16,66): warning CS8604: Possible null reference argument for parameter 'events' in 'List<ResourceCalendarEvent> TopNodesAlgorithm.GetTopNodes(List<ResourceCalendarEvent> events)'. [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+  TopNodesAlgorithmTest -> D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\bin\Debug\net9.0\TopNodesAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(15,50): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(16,66): warning CS8604: Possible null reference argument for parameter 'events' in 'List<ResourceCalendarEvent> TopNodesAlgorithm.GetTopNodes(List<ResourceCalendarEvent> events)'. [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.34
+
+
+WritePatch: Compile failed.
+TopNodesAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:33:08 PM
+TopNodesAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 1:33:08 PM
+TopNodesAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 1:33:50 PM
+TopNodesAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TopNodesAlgorithm -> D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithm\bin\Debug\net9.0\TopNodesAlgorithm.dll
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(16,66): warning CS8604: Possible null reference argument for parameter 'events' in 'List<ResourceCalendarEvent> TopNodesAlgorithm.GetTopNodes(List<ResourceCalendarEvent> events)'. [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+  TopNodesAlgorithmTest -> D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\bin\Debug\net9.0\TopNodesAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(16,66): warning CS8604: Possible null reference argument for parameter 'events' in 'List<ResourceCalendarEvent> TopNodesAlgorithm.GetTopNodes(List<ResourceCalendarEvent> events)'. [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.80
+
+
+WritePatch: Compile failed.
+TopNodesAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:33:52 PM
+TopNodesAlgorithmTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TopNodesAlgorithm -> D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithm\bin\Debug\net9.0\TopNodesAlgorithm.dll
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(16,66): warning CS8604: Possible null reference argument for parameter 'events' in 'List<ResourceCalendarEvent> TopNodesAlgorithm.GetTopNodes(List<ResourceCalendarEvent> events)'. [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+  TopNodesAlgorithmTest -> D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\bin\Debug\net9.0\TopNodesAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTests.cs(16,66): warning CS8604: Possible null reference argument for parameter 'events' in 'List<ResourceCalendarEvent> TopNodesAlgorithm.GetTopNodes(List<ResourceCalendarEvent> events)'. [D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.80
+
+</CompilerResponse>
+2025-02-23 1:33:52 PM
+TopNodesAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 1:33:53 PM
+TopNodesAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TopNodesAlgorithm -> D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithm\bin\Debug\net9.0\TopNodesAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+
+
+WritePatch: Code is Complete.
+TopNodesAlgorithm
+
+WritePatch ran compiler. 2025-02-23 1:34:09 PM
+TopNodesAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TopNodesAlgorithm -> D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithm\bin\Debug\net9.0\TopNodesAlgorithm.dll
+  TopNodesAlgorithmTest -> D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\bin\Debug\net9.0\TopNodesAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.29
+
+
+WritePatch: Code is Complete.
+TopNodesAlgorithmTest
+
+TestResult:
+[SUCCESS 2025-02-23 1:34:44 PM] All tests passed successfully.
+[INFO 2025-02-23 1:34:44 PM] Test process completed. Duration: 5.76 seconds.
+[INFO 2025-02-23 1:34:44 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 1:34:44 PM] Test run for D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\bin\Debug\net9.0\TopNodesAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 1:34:42 PM]   TopNodesAlgorithmTest -> D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\bin\Debug\net9.0\TopNodesAlgorithmTest.dll
+[OUTPUT 2025-02-23 1:34:42 PM]   TopNodesAlgorithm -> D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithm\bin\Debug\net9.0\TopNodesAlgorithm.dll
+[OUTPUT 2025-02-23 1:34:41 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:34:39 PM]   Determining projects to restore...
+[INFO 2025-02-23 1:34:38 PM] Command: dotnet test "D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:34:38 PM] Starting test for project: D:\Code2025\RavenWork\TopNodesAlgorithm\TopNodesAlgorithmTest\TopNodesAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
