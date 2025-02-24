@@ -1,0 +1,337 @@
+<ActRecord>
+  <ProjectName>BuchbergerAlgorithm</ProjectName>
+  <ProjectDescription>Buchberger’s algorithm – Computes a Gröbner basis for a system of polynomials.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Buchberger’s algorithm – Computes a Gröbner basis for a system of polynomials.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\BuchbergerAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>BuchbergerAlgorithm</ProjectFolderName>
+  <ProjectName>BuchbergerAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:52:44 AM
+BuchbergerAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:55:43 AM
+BuchbergerAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithm\BuchbergerAlgorithm\Term.cs(128,20): warning CS8767: Nullability of reference types in type of parameter 'other' of 'int Term.CompareTo(Term other)' doesn't match implicitly implemented member 'int IComparable<Term>.CompareTo(Term? other)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithm\BuchbergerAlgorithm.csproj]
+D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithm\BuchbergerAlgorithm\Polynomial.cs(111,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithm\BuchbergerAlgorithm.csproj]
+  BuchbergerAlgorithm -> D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithm\bin\Debug\net9.0\BuchbergerAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithm\BuchbergerAlgorithm\Term.cs(128,20): warning CS8767: Nullability of reference types in type of parameter 'other' of 'int Term.CompareTo(Term other)' doesn't match implicitly implemented member 'int IComparable<Term>.CompareTo(Term? other)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithm\BuchbergerAlgorithm.csproj]
+D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithm\BuchbergerAlgorithm\Polynomial.cs(111,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithm\BuchbergerAlgorithm.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.00
+]]></string>
+    <string>WritePatch: Compile failed.
+BuchbergerAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:55:43 AM
+BuchbergerAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:55:44 AM
+BuchbergerAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:56:47 AM
+BuchbergerAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BuchbergerAlgorithm -> D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithm\bin\Debug\net9.0\BuchbergerAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.96
+]]></string>
+    <string>WritePatch: Code is not Complete.
+BuchbergerAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:57:09 AM
+BuchbergerAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:57:10 AM
+BuchbergerAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:57:39 AM
+BuchbergerAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BuchbergerAlgorithm -> D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithm\bin\Debug\net9.0\BuchbergerAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+]]></string>
+    <string>WritePatch: Code is not Complete.
+BuchbergerAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:57:48 AM
+BuchbergerAlgorithm</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithm
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BuchbergerAlgorithm -> D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithm\bin\Debug\net9.0\BuchbergerAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+
+</CompilerResponse>
+2025-02-23 10:57:48 AM
+BuchbergerAlgorithm]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 10:57:50 AM
+BuchbergerAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BuchbergerAlgorithm -> D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithm\bin\Debug\net9.0\BuchbergerAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.91
+]]></string>
+    <string>WritePatch: Code is Complete.
+BuchbergerAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:58:11 AM
+BuchbergerAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:59:14 AM
+BuchbergerAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithmTest\BuchbergerAlgorithmTest.csproj (in 225 ms).
+  1 of 2 projects are up-to-date for restore.
+  BuchbergerAlgorithm -> D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithm\bin\Debug\net9.0\BuchbergerAlgorithm.dll
+  BuchbergerAlgorithmTest -> D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithmTest\bin\Debug\net9.0\BuchbergerAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.62
+]]></string>
+    <string>WritePatch: Code is Complete.
+BuchbergerAlgorithmTest</string>
+    <string>[INFO 2025-02-23 10:59:38 AM] Starting test for project: D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithmTest\BuchbergerAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:59:38 AM] Starting test for project: D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithmTest\BuchbergerAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:59:38 AM] Starting test for project: D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithmTest\BuchbergerAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:59:38 AM] Starting test for project: D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithmTest\BuchbergerAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:59:38 AM] Starting test for project: D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithmTest\BuchbergerAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:59:38 AM] Starting test for project: D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithmTest\BuchbergerAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:59:38 AM] Starting test for project: D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithmTest\BuchbergerAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:59:38 AM] Starting test for project: D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithmTest\BuchbergerAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:59:38 AM] Starting test for project: D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithmTest\BuchbergerAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:59:38 AM] Starting test for project: D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithmTest\BuchbergerAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:59:38 AM] Starting test for project: D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithmTest\BuchbergerAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:59:38 AM] Starting test for project: D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithmTest\BuchbergerAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 10:59:39 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:59:41 AM] Test Parallelization enabled for D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithmTest\bin\Debug\net9.0\BuchbergerAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:59:41 AM] D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithmTest\bin\Debug\net9.0\BuchbergerAlgorithmTest.dll
+[OUTPUT 2025-02-23 10:59:41 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:59:41 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:59:40 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:59:40 AM] Test run for D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithmTest\bin\Debug\net9.0\BuchbergerAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:59:40 AM]   BuchbergerAlgorithmTest -> D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithmTest\bin\Debug\net9.0\BuchbergerAlgorithmTest.dll
+[OUTPUT 2025-02-23 10:59:39 AM]   BuchbergerAlgorithm -> D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithm\bin\Debug\net9.0\BuchbergerAlgorithm.dll
+[OUTPUT 2025-02-23 10:59:39 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 10:59:41 AM] All tests passed successfully.
+[INFO 2025-02-23 10:59:41 AM] Test process completed. Duration: 3.55 seconds.
+[INFO 2025-02-23 10:59:41 AM] Process exited with code 0.
+[INFO 2025-02-23 10:59:38 AM] Command: dotnet test "D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithmTest\BuchbergerAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:59:38 AM] Starting test for project: D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithmTest\BuchbergerAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 10:52:44 AM
+BuchbergerAlgorithm
+
+WritePatch ran compiler. 2025-02-23 10:55:43 AM
+BuchbergerAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithm\BuchbergerAlgorithm\Term.cs(128,20): warning CS8767: Nullability of reference types in type of parameter 'other' of 'int Term.CompareTo(Term other)' doesn't match implicitly implemented member 'int IComparable<Term>.CompareTo(Term? other)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithm\BuchbergerAlgorithm.csproj]
+D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithm\BuchbergerAlgorithm\Polynomial.cs(111,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithm\BuchbergerAlgorithm.csproj]
+  BuchbergerAlgorithm -> D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithm\bin\Debug\net9.0\BuchbergerAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithm\BuchbergerAlgorithm\Term.cs(128,20): warning CS8767: Nullability of reference types in type of parameter 'other' of 'int Term.CompareTo(Term other)' doesn't match implicitly implemented member 'int IComparable<Term>.CompareTo(Term? other)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithm\BuchbergerAlgorithm.csproj]
+D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithm\BuchbergerAlgorithm\Polynomial.cs(111,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithm\BuchbergerAlgorithm.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.00
+
+
+WritePatch: Compile failed.
+BuchbergerAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 10:55:43 AM
+BuchbergerAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 10:55:44 AM
+BuchbergerAlgorithm
+
+WritePatch ran compiler. 2025-02-23 10:56:47 AM
+BuchbergerAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BuchbergerAlgorithm -> D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithm\bin\Debug\net9.0\BuchbergerAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.96
+
+
+WritePatch: Code is not Complete.
+BuchbergerAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 10:57:09 AM
+BuchbergerAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 10:57:10 AM
+BuchbergerAlgorithm
+
+WritePatch ran compiler. 2025-02-23 10:57:39 AM
+BuchbergerAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BuchbergerAlgorithm -> D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithm\bin\Debug\net9.0\BuchbergerAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+
+
+WritePatch: Code is not Complete.
+BuchbergerAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 10:57:48 AM
+BuchbergerAlgorithm
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithm
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BuchbergerAlgorithm -> D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithm\bin\Debug\net9.0\BuchbergerAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+
+</CompilerResponse>
+2025-02-23 10:57:48 AM
+BuchbergerAlgorithm
+
+WritePatch ran compiler. 2025-02-23 10:57:50 AM
+BuchbergerAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BuchbergerAlgorithm -> D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithm\bin\Debug\net9.0\BuchbergerAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.91
+
+
+WritePatch: Code is Complete.
+BuchbergerAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 10:58:11 AM
+BuchbergerAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 10:59:14 AM
+BuchbergerAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithmTest\BuchbergerAlgorithmTest.csproj (in 225 ms).
+  1 of 2 projects are up-to-date for restore.
+  BuchbergerAlgorithm -> D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithm\bin\Debug\net9.0\BuchbergerAlgorithm.dll
+  BuchbergerAlgorithmTest -> D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithmTest\bin\Debug\net9.0\BuchbergerAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.62
+
+
+WritePatch: Code is Complete.
+BuchbergerAlgorithmTest
+
+TestResult:
+[OUTPUT 2025-02-23 10:59:39 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:59:41 AM] Test Parallelization enabled for D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithmTest\bin\Debug\net9.0\BuchbergerAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:59:41 AM] D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithmTest\bin\Debug\net9.0\BuchbergerAlgorithmTest.dll
+[OUTPUT 2025-02-23 10:59:41 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:59:41 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:59:40 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:59:40 AM] Test run for D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithmTest\bin\Debug\net9.0\BuchbergerAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:59:40 AM]   BuchbergerAlgorithmTest -> D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithmTest\bin\Debug\net9.0\BuchbergerAlgorithmTest.dll
+[OUTPUT 2025-02-23 10:59:39 AM]   BuchbergerAlgorithm -> D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithm\bin\Debug\net9.0\BuchbergerAlgorithm.dll
+[OUTPUT 2025-02-23 10:59:39 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 10:59:41 AM] All tests passed successfully.
+[INFO 2025-02-23 10:59:41 AM] Test process completed. Duration: 3.55 seconds.
+[INFO 2025-02-23 10:59:41 AM] Process exited with code 0.
+[INFO 2025-02-23 10:59:38 AM] Command: dotnet test "D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithmTest\BuchbergerAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:59:38 AM] Starting test for project: D:\Code2025\RavenWork\BuchbergerAlgorithm\BuchbergerAlgorithmTest\BuchbergerAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
