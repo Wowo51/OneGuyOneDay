@@ -1,0 +1,454 @@
+<ActRecord>
+  <ProjectName>HybridBfgsMethod</ProjectName>
+  <ProjectDescription>A hybrid BFGS-like method – A hybrid optimization algorithm that incorporates ideas from the BFGS method.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>A hybrid BFGS-like method – A hybrid optimization algorithm that incorporates ideas from the BFGS method.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\HybridBfgsMethod</SolutionFolderPath>
+  <ProjectFolderName>HybridBfgsMethod</ProjectFolderName>
+  <ProjectName>HybridBfgsMethod</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:36:04 AM
+HybridBfgsMethod</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:36:58 AM
+HybridBfgsMethod</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethod\HybridBfgsOptimizer.cs(11,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethod\HybridBfgsMethod.csproj]
+  HybridBfgsMethod -> D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethod\bin\Debug\net9.0\HybridBfgsMethod.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethod\HybridBfgsOptimizer.cs(11,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethod\HybridBfgsMethod.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.88
+]]></string>
+    <string>WritePatch: Compile failed.
+HybridBfgsMethod</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:36:58 AM
+HybridBfgsMethod</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:36:59 AM
+HybridBfgsMethod</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:37:32 AM
+HybridBfgsMethod</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HybridBfgsMethod -> D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethod\bin\Debug\net9.0\HybridBfgsMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.88
+]]></string>
+    <string>WritePatch: Code is Complete.
+HybridBfgsMethod</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:37:51 AM
+HybridBfgsMethodTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:39:54 AM
+HybridBfgsMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj (in 214 ms).
+  1 of 2 projects are up-to-date for restore.
+  HybridBfgsMethod -> D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethod\bin\Debug\net9.0\HybridBfgsMethod.dll
+D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTests.cs(20,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj]
+  HybridBfgsMethodTest -> D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\bin\Debug\net9.0\HybridBfgsMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTests.cs(20,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.48
+]]></string>
+    <string>WritePatch: Compile failed.
+HybridBfgsMethodTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:39:55 AM
+HybridBfgsMethodTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:39:55 AM
+HybridBfgsMethodTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:40:24 AM
+HybridBfgsMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HybridBfgsMethod -> D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethod\bin\Debug\net9.0\HybridBfgsMethod.dll
+  HybridBfgsMethodTest -> D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\bin\Debug\net9.0\HybridBfgsMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.08
+]]></string>
+    <string>WritePatch: Code is not Complete.
+HybridBfgsMethodTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:40:50 AM
+HybridBfgsMethodTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:40:50 AM
+HybridBfgsMethodTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:43:06 AM
+HybridBfgsMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HybridBfgsMethod -> D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethod\bin\Debug\net9.0\HybridBfgsMethod.dll
+D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTests.cs(20,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj]
+D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTests.cs(64,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj]
+D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTests.cs(79,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj]
+  HybridBfgsMethodTest -> D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\bin\Debug\net9.0\HybridBfgsMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTests.cs(20,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj]
+D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTests.cs(64,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj]
+D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTests.cs(79,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.23
+]]></string>
+    <string>WritePatch: Compile failed.
+HybridBfgsMethodTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:43:07 AM
+HybridBfgsMethodTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HybridBfgsMethod -> D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethod\bin\Debug\net9.0\HybridBfgsMethod.dll
+D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTests.cs(20,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj]
+D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTests.cs(64,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj]
+D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTests.cs(79,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj]
+  HybridBfgsMethodTest -> D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\bin\Debug\net9.0\HybridBfgsMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTests.cs(20,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj]
+D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTests.cs(64,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj]
+D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTests.cs(79,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.23
+
+</CompilerResponse>
+2025-02-23 10:43:08 AM
+HybridBfgsMethodTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 10:43:09 AM
+HybridBfgsMethod</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HybridBfgsMethod -> D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethod\bin\Debug\net9.0\HybridBfgsMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.74
+]]></string>
+    <string>WritePatch: Code is Complete.
+HybridBfgsMethod</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:43:23 AM
+HybridBfgsMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HybridBfgsMethod -> D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethod\bin\Debug\net9.0\HybridBfgsMethod.dll
+  HybridBfgsMethodTest -> D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\bin\Debug\net9.0\HybridBfgsMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.00
+]]></string>
+    <string>WritePatch: Code is Complete.
+HybridBfgsMethodTest</string>
+    <string>[INFO 2025-02-23 10:44:23 AM] Starting test for project: D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 10:44:23 AM] Starting test for project: D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 10:44:23 AM] Starting test for project: D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 10:44:23 AM] Starting test for project: D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 10:44:23 AM] Starting test for project: D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 10:44:23 AM] Starting test for project: D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 10:44:23 AM] Starting test for project: D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 10:44:23 AM] Starting test for project: D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 10:44:23 AM] Starting test for project: D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 10:44:23 AM] Starting test for project: D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 10:44:23 AM] Starting test for project: D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 10:44:26 AM] All tests passed successfully.
+[INFO 2025-02-23 10:44:26 AM] Test process completed. Duration: 2.99 seconds.
+[INFO 2025-02-23 10:44:26 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 10:44:26 AM] D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\bin\Debug\net9.0\HybridBfgsMethodTest.dll
+[OUTPUT 2025-02-23 10:44:26 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:44:25 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:44:25 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:44:25 AM] Test run for D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\bin\Debug\net9.0\HybridBfgsMethodTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:44:24 AM]   HybridBfgsMethodTest -> D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\bin\Debug\net9.0\HybridBfgsMethodTest.dll
+[OUTPUT 2025-02-23 10:44:24 AM]   HybridBfgsMethod -> D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethod\bin\Debug\net9.0\HybridBfgsMethod.dll
+[OUTPUT 2025-02-23 10:44:24 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:44:24 AM]   Determining projects to restore...
+[INFO 2025-02-23 10:44:23 AM] Command: dotnet test "D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:44:23 AM] Starting test for project: D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 10:36:04 AM
+HybridBfgsMethod
+
+WritePatch ran compiler. 2025-02-23 10:36:58 AM
+HybridBfgsMethod
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethod\HybridBfgsOptimizer.cs(11,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethod\HybridBfgsMethod.csproj]
+  HybridBfgsMethod -> D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethod\bin\Debug\net9.0\HybridBfgsMethod.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethod\HybridBfgsOptimizer.cs(11,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethod\HybridBfgsMethod.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.88
+
+
+WritePatch: Compile failed.
+HybridBfgsMethod
+
+Finished WritePatch cycle step.
+2025-02-23 10:36:58 AM
+HybridBfgsMethod
+
+WritePatch Started CycleStep. 2025-02-23 10:36:59 AM
+HybridBfgsMethod
+
+WritePatch ran compiler. 2025-02-23 10:37:32 AM
+HybridBfgsMethod
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HybridBfgsMethod -> D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethod\bin\Debug\net9.0\HybridBfgsMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.88
+
+
+WritePatch: Code is Complete.
+HybridBfgsMethod
+
+WritePatch Started CycleStep. 2025-02-23 10:37:51 AM
+HybridBfgsMethodTest
+
+WritePatch ran compiler. 2025-02-23 10:39:54 AM
+HybridBfgsMethodTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj (in 214 ms).
+  1 of 2 projects are up-to-date for restore.
+  HybridBfgsMethod -> D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethod\bin\Debug\net9.0\HybridBfgsMethod.dll
+D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTests.cs(20,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj]
+  HybridBfgsMethodTest -> D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\bin\Debug\net9.0\HybridBfgsMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTests.cs(20,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.48
+
+
+WritePatch: Compile failed.
+HybridBfgsMethodTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:39:55 AM
+HybridBfgsMethodTest
+
+WritePatch Started CycleStep. 2025-02-23 10:39:55 AM
+HybridBfgsMethodTest
+
+WritePatch ran compiler. 2025-02-23 10:40:24 AM
+HybridBfgsMethodTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HybridBfgsMethod -> D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethod\bin\Debug\net9.0\HybridBfgsMethod.dll
+  HybridBfgsMethodTest -> D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\bin\Debug\net9.0\HybridBfgsMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.08
+
+
+WritePatch: Code is not Complete.
+HybridBfgsMethodTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:40:50 AM
+HybridBfgsMethodTest
+
+WritePatch Started CycleStep. 2025-02-23 10:40:50 AM
+HybridBfgsMethodTest
+
+WritePatch ran compiler. 2025-02-23 10:43:06 AM
+HybridBfgsMethodTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HybridBfgsMethod -> D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethod\bin\Debug\net9.0\HybridBfgsMethod.dll
+D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTests.cs(20,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj]
+D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTests.cs(64,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj]
+D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTests.cs(79,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj]
+  HybridBfgsMethodTest -> D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\bin\Debug\net9.0\HybridBfgsMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTests.cs(20,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj]
+D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTests.cs(64,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj]
+D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTests.cs(79,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.23
+
+
+WritePatch: Compile failed.
+HybridBfgsMethodTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:43:07 AM
+HybridBfgsMethodTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HybridBfgsMethod -> D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethod\bin\Debug\net9.0\HybridBfgsMethod.dll
+D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTests.cs(20,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj]
+D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTests.cs(64,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj]
+D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTests.cs(79,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj]
+  HybridBfgsMethodTest -> D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\bin\Debug\net9.0\HybridBfgsMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTests.cs(20,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj]
+D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTests.cs(64,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj]
+D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTests.cs(79,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.23
+
+</CompilerResponse>
+2025-02-23 10:43:08 AM
+HybridBfgsMethodTest
+
+WritePatch ran compiler. 2025-02-23 10:43:09 AM
+HybridBfgsMethod
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HybridBfgsMethod -> D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethod\bin\Debug\net9.0\HybridBfgsMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.74
+
+
+WritePatch: Code is Complete.
+HybridBfgsMethod
+
+WritePatch ran compiler. 2025-02-23 10:43:23 AM
+HybridBfgsMethodTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HybridBfgsMethod -> D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethod\bin\Debug\net9.0\HybridBfgsMethod.dll
+  HybridBfgsMethodTest -> D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\bin\Debug\net9.0\HybridBfgsMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.00
+
+
+WritePatch: Code is Complete.
+HybridBfgsMethodTest
+
+TestResult:
+[SUCCESS 2025-02-23 10:44:26 AM] All tests passed successfully.
+[INFO 2025-02-23 10:44:26 AM] Test process completed. Duration: 2.99 seconds.
+[INFO 2025-02-23 10:44:26 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 10:44:26 AM] D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\bin\Debug\net9.0\HybridBfgsMethodTest.dll
+[OUTPUT 2025-02-23 10:44:26 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:44:25 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:44:25 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:44:25 AM] Test run for D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\bin\Debug\net9.0\HybridBfgsMethodTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:44:24 AM]   HybridBfgsMethodTest -> D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\bin\Debug\net9.0\HybridBfgsMethodTest.dll
+[OUTPUT 2025-02-23 10:44:24 AM]   HybridBfgsMethod -> D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethod\bin\Debug\net9.0\HybridBfgsMethod.dll
+[OUTPUT 2025-02-23 10:44:24 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:44:24 AM]   Determining projects to restore...
+[INFO 2025-02-23 10:44:23 AM] Command: dotnet test "D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:44:23 AM] Starting test for project: D:\Code2025\RavenWork\HybridBfgsMethod\HybridBfgsMethodTest\HybridBfgsMethodTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
