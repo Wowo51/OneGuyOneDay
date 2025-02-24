@@ -1,0 +1,214 @@
+<ActRecord>
+  <ProjectName>NewtonMethod</ProjectName>
+  <ProjectDescription><![CDATA[Newton's method in optimization – An algorithm that applies Newton’s method to find local optima in optimization problems.]]></ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification><![CDATA[Newton's method in optimization – An algorithm that applies Newton’s method to find local optima in optimization problems.]]]]><![CDATA[></WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\NewtonMethod</SolutionFolderPath>
+  <ProjectFolderName>NewtonMethod</ProjectFolderName>
+  <ProjectName>NewtonMethod</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:51:45 AM
+NewtonMethod</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:53:59 AM
+NewtonMethod</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\NewtonMethod\NewtonMethod\VectorUtil.cs(11,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\NewtonMethod\NewtonMethod\NewtonMethod.csproj]
+D:\Code2025\RavenWork\NewtonMethod\NewtonMethod\MatrixUtil.cs(12,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\NewtonMethod\NewtonMethod\NewtonMethod.csproj]
+D:\Code2025\RavenWork\NewtonMethod\NewtonMethod\MatrixUtil.cs(42,28): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\NewtonMethod\NewtonMethod\NewtonMethod.csproj]
+  NewtonMethod -> D:\Code2025\RavenWork\NewtonMethod\NewtonMethod\bin\Debug\net9.0\NewtonMethod.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\NewtonMethod\NewtonMethod\VectorUtil.cs(11,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\NewtonMethod\NewtonMethod\NewtonMethod.csproj]
+D:\Code2025\RavenWork\NewtonMethod\NewtonMethod\MatrixUtil.cs(12,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\NewtonMethod\NewtonMethod\NewtonMethod.csproj]
+D:\Code2025\RavenWork\NewtonMethod\NewtonMethod\MatrixUtil.cs(42,28): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\NewtonMethod\NewtonMethod\NewtonMethod.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.83
+]]></string>
+    <string>WritePatch: Compile failed.
+NewtonMethod</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:53:59 AM
+NewtonMethod</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:54:00 AM
+NewtonMethod</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:54:39 AM
+NewtonMethod</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  NewtonMethod -> D:\Code2025\RavenWork\NewtonMethod\NewtonMethod\bin\Debug\net9.0\NewtonMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.73
+]]></string>
+    <string>WritePatch: Code is Complete.
+NewtonMethod</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:56:06 AM
+NewtonMethodTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:57:08 AM
+NewtonMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\NewtonMethod\NewtonMethodTest\NewtonMethodTest.csproj (in 180 ms).
+  1 of 2 projects are up-to-date for restore.
+  NewtonMethod -> D:\Code2025\RavenWork\NewtonMethod\NewtonMethod\bin\Debug\net9.0\NewtonMethod.dll
+  NewtonMethodTest -> D:\Code2025\RavenWork\NewtonMethod\NewtonMethodTest\bin\Debug\net9.0\NewtonMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.28
+]]></string>
+    <string>WritePatch: Code is Complete.
+NewtonMethodTest</string>
+    <string>[INFO 2025-02-23 6:58:14 AM] Starting test for project: D:\Code2025\RavenWork\NewtonMethod\NewtonMethodTest\NewtonMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 6:58:14 AM] Starting test for project: D:\Code2025\RavenWork\NewtonMethod\NewtonMethodTest\NewtonMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 6:58:14 AM] Starting test for project: D:\Code2025\RavenWork\NewtonMethod\NewtonMethodTest\NewtonMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 6:58:14 AM] Starting test for project: D:\Code2025\RavenWork\NewtonMethod\NewtonMethodTest\NewtonMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 6:58:14 AM] Starting test for project: D:\Code2025\RavenWork\NewtonMethod\NewtonMethodTest\NewtonMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 6:58:14 AM] Starting test for project: D:\Code2025\RavenWork\NewtonMethod\NewtonMethodTest\NewtonMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 6:58:14 AM] Starting test for project: D:\Code2025\RavenWork\NewtonMethod\NewtonMethodTest\NewtonMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 6:58:14 AM] Starting test for project: D:\Code2025\RavenWork\NewtonMethod\NewtonMethodTest\NewtonMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 6:58:14 AM] Starting test for project: D:\Code2025\RavenWork\NewtonMethod\NewtonMethodTest\NewtonMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 6:58:14 AM] Starting test for project: D:\Code2025\RavenWork\NewtonMethod\NewtonMethodTest\NewtonMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 6:58:14 AM] Starting test for project: D:\Code2025\RavenWork\NewtonMethod\NewtonMethodTest\NewtonMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 6:58:14 AM] Starting test for project: D:\Code2025\RavenWork\NewtonMethod\NewtonMethodTest\NewtonMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 6:58:14 AM] Starting test for project: D:\Code2025\RavenWork\NewtonMethod\NewtonMethodTest\NewtonMethodTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 6:58:17 AM]   Passed TestNewtonOptimizer_Quadratic [3 ms]
+[OUTPUT 2025-02-23 6:58:17 AM] Test Parallelization enabled for D:\Code2025\RavenWork\NewtonMethod\NewtonMethodTest\bin\Debug\net9.0\NewtonMethodTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 6:58:16 AM] D:\Code2025\RavenWork\NewtonMethod\NewtonMethodTest\bin\Debug\net9.0\NewtonMethodTest.dll
+[OUTPUT 2025-02-23 6:58:16 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:58:16 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:58:16 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:58:16 AM] Test run for D:\Code2025\RavenWork\NewtonMethod\NewtonMethodTest\bin\Debug\net9.0\NewtonMethodTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:58:15 AM]   NewtonMethodTest -> D:\Code2025\RavenWork\NewtonMethod\NewtonMethodTest\bin\Debug\net9.0\NewtonMethodTest.dll
+[OUTPUT 2025-02-23 6:58:15 AM]   NewtonMethod -> D:\Code2025\RavenWork\NewtonMethod\NewtonMethod\bin\Debug\net9.0\NewtonMethod.dll
+[OUTPUT 2025-02-23 6:58:15 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 6:58:15 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 6:58:17 AM] All tests passed successfully.
+[INFO 2025-02-23 6:58:17 AM] Test process completed. Duration: 2.68 seconds.
+[INFO 2025-02-23 6:58:17 AM] Process exited with code 0.
+[INFO 2025-02-23 6:58:14 AM] Command: dotnet test "D:\Code2025\RavenWork\NewtonMethod\NewtonMethodTest\NewtonMethodTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:58:14 AM] Starting test for project: D:\Code2025\RavenWork\NewtonMethod\NewtonMethodTest\NewtonMethodTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 6:51:45 AM
+NewtonMethod
+
+WritePatch ran compiler. 2025-02-23 6:53:59 AM
+NewtonMethod
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\NewtonMethod\NewtonMethod\VectorUtil.cs(11,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\NewtonMethod\NewtonMethod\NewtonMethod.csproj]
+D:\Code2025\RavenWork\NewtonMethod\NewtonMethod\MatrixUtil.cs(12,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\NewtonMethod\NewtonMethod\NewtonMethod.csproj]
+D:\Code2025\RavenWork\NewtonMethod\NewtonMethod\MatrixUtil.cs(42,28): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\NewtonMethod\NewtonMethod\NewtonMethod.csproj]
+  NewtonMethod -> D:\Code2025\RavenWork\NewtonMethod\NewtonMethod\bin\Debug\net9.0\NewtonMethod.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\NewtonMethod\NewtonMethod\VectorUtil.cs(11,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\NewtonMethod\NewtonMethod\NewtonMethod.csproj]
+D:\Code2025\RavenWork\NewtonMethod\NewtonMethod\MatrixUtil.cs(12,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\NewtonMethod\NewtonMethod\NewtonMethod.csproj]
+D:\Code2025\RavenWork\NewtonMethod\NewtonMethod\MatrixUtil.cs(42,28): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\NewtonMethod\NewtonMethod\NewtonMethod.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.83
+
+
+WritePatch: Compile failed.
+NewtonMethod
+
+Finished WritePatch cycle step.
+2025-02-23 6:53:59 AM
+NewtonMethod
+
+WritePatch Started CycleStep. 2025-02-23 6:54:00 AM
+NewtonMethod
+
+WritePatch ran compiler. 2025-02-23 6:54:39 AM
+NewtonMethod
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  NewtonMethod -> D:\Code2025\RavenWork\NewtonMethod\NewtonMethod\bin\Debug\net9.0\NewtonMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.73
+
+
+WritePatch: Code is Complete.
+NewtonMethod
+
+WritePatch Started CycleStep. 2025-02-23 6:56:06 AM
+NewtonMethodTest
+
+WritePatch ran compiler. 2025-02-23 6:57:08 AM
+NewtonMethodTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\NewtonMethod\NewtonMethodTest\NewtonMethodTest.csproj (in 180 ms).
+  1 of 2 projects are up-to-date for restore.
+  NewtonMethod -> D:\Code2025\RavenWork\NewtonMethod\NewtonMethod\bin\Debug\net9.0\NewtonMethod.dll
+  NewtonMethodTest -> D:\Code2025\RavenWork\NewtonMethod\NewtonMethodTest\bin\Debug\net9.0\NewtonMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.28
+
+
+WritePatch: Code is Complete.
+NewtonMethodTest
+
+TestResult:
+[OUTPUT 2025-02-23 6:58:17 AM]   Passed TestNewtonOptimizer_Quadratic [3 ms]
+[OUTPUT 2025-02-23 6:58:17 AM] Test Parallelization enabled for D:\Code2025\RavenWork\NewtonMethod\NewtonMethodTest\bin\Debug\net9.0\NewtonMethodTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 6:58:16 AM] D:\Code2025\RavenWork\NewtonMethod\NewtonMethodTest\bin\Debug\net9.0\NewtonMethodTest.dll
+[OUTPUT 2025-02-23 6:58:16 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:58:16 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:58:16 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:58:16 AM] Test run for D:\Code2025\RavenWork\NewtonMethod\NewtonMethodTest\bin\Debug\net9.0\NewtonMethodTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:58:15 AM]   NewtonMethodTest -> D:\Code2025\RavenWork\NewtonMethod\NewtonMethodTest\bin\Debug\net9.0\NewtonMethodTest.dll
+[OUTPUT 2025-02-23 6:58:15 AM]   NewtonMethod -> D:\Code2025\RavenWork\NewtonMethod\NewtonMethod\bin\Debug\net9.0\NewtonMethod.dll
+[OUTPUT 2025-02-23 6:58:15 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 6:58:15 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 6:58:17 AM] All tests passed successfully.
+[INFO 2025-02-23 6:58:17 AM] Test process completed. Duration: 2.68 seconds.
+[INFO 2025-02-23 6:58:17 AM] Process exited with code 0.
+[INFO 2025-02-23 6:58:14 AM] Command: dotnet test "D:\Code2025\RavenWork\NewtonMethod\NewtonMethodTest\NewtonMethodTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:58:14 AM] Starting test for project: D:\Code2025\RavenWork\NewtonMethod\NewtonMethodTest\NewtonMethodTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
