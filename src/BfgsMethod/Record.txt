@@ -1,0 +1,224 @@
+<ActRecord>
+  <ProjectName>BfgsMethod</ProjectName>
+  <ProjectDescription>BFGS method – A quasi-Newton algorithm for solving nonlinear optimization problems by approximating the Hessian.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>BFGS method – A quasi-Newton algorithm for solving nonlinear optimization problems by approximating the Hessian.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\BfgsMethod</SolutionFolderPath>
+  <ProjectFolderName>BfgsMethod</ProjectFolderName>
+  <ProjectName>BfgsMethod</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:42:23 PM
+BfgsMethod</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:43:23 PM
+BfgsMethod</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\BfgsMethod\BfgsMethod\BfgsOptimizer.cs(38,55): error CS1503: Argument 1: cannot convert from 'double[][]' to 'double[]' [D:\Code2025\RavenWork\BfgsMethod\BfgsMethod\BfgsMethod.csproj]
+D:\Code2025\RavenWork\BfgsMethod\BfgsMethod\BfgsOptimizer.cs(38,58): error CS1503: Argument 2: cannot convert from 'double[][]' to 'double[]' [D:\Code2025\RavenWork\BfgsMethod\BfgsMethod\BfgsMethod.csproj]
+D:\Code2025\RavenWork\BfgsMethod\BfgsMethod\BfgsOptimizer.cs(39,55): error CS1503: Argument 1: cannot convert from 'double[][]' to 'double[]' [D:\Code2025\RavenWork\BfgsMethod\BfgsMethod\BfgsMethod.csproj]
+D:\Code2025\RavenWork\BfgsMethod\BfgsMethod\BfgsOptimizer.cs(39,58): error CS1503: Argument 2: cannot convert from 'double[][]' to 'double[]' [D:\Code2025\RavenWork\BfgsMethod\BfgsMethod\BfgsMethod.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\BfgsMethod\BfgsMethod\BfgsOptimizer.cs(38,55): error CS1503: Argument 1: cannot convert from 'double[][]' to 'double[]' [D:\Code2025\RavenWork\BfgsMethod\BfgsMethod\BfgsMethod.csproj]
+D:\Code2025\RavenWork\BfgsMethod\BfgsMethod\BfgsOptimizer.cs(38,58): error CS1503: Argument 2: cannot convert from 'double[][]' to 'double[]' [D:\Code2025\RavenWork\BfgsMethod\BfgsMethod\BfgsMethod.csproj]
+D:\Code2025\RavenWork\BfgsMethod\BfgsMethod\BfgsOptimizer.cs(39,55): error CS1503: Argument 1: cannot convert from 'double[][]' to 'double[]' [D:\Code2025\RavenWork\BfgsMethod\BfgsMethod\BfgsMethod.csproj]
+D:\Code2025\RavenWork\BfgsMethod\BfgsMethod\BfgsOptimizer.cs(39,58): error CS1503: Argument 2: cannot convert from 'double[][]' to 'double[]' [D:\Code2025\RavenWork\BfgsMethod\BfgsMethod\BfgsMethod.csproj]
+    0 Warning(s)
+    4 Error(s)
+
+Time Elapsed 00:00:02.44
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+BfgsMethod</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 4:43:24 PM
+BfgsMethod</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:43:25 PM
+BfgsMethod</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:44:20 PM
+BfgsMethod</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BfgsMethod -> D:\Code2025\RavenWork\BfgsMethod\BfgsMethod\bin\Debug\net9.0\BfgsMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.69
+]]></string>
+    <string>WritePatch: Code is Complete.
+BfgsMethod</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:44:45 PM
+BfgsMethodTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:45:44 PM
+BfgsMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\BfgsMethod\BfgsMethodTest\BfgsMethodTest.csproj (in 461 ms).
+  1 of 2 projects are up-to-date for restore.
+  BfgsMethod -> D:\Code2025\RavenWork\BfgsMethod\BfgsMethod\bin\Debug\net9.0\BfgsMethod.dll
+  BfgsMethodTest -> D:\Code2025\RavenWork\BfgsMethod\BfgsMethodTest\bin\Debug\net9.0\BfgsMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.64
+]]></string>
+    <string>WritePatch: Code is Complete.
+BfgsMethodTest</string>
+    <string>[INFO 2025-02-23 4:46:16 PM] Starting test for project: D:\Code2025\RavenWork\BfgsMethod\BfgsMethodTest\BfgsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 4:46:16 PM] Starting test for project: D:\Code2025\RavenWork\BfgsMethod\BfgsMethodTest\BfgsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 4:46:16 PM] Starting test for project: D:\Code2025\RavenWork\BfgsMethod\BfgsMethodTest\BfgsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 4:46:16 PM] Starting test for project: D:\Code2025\RavenWork\BfgsMethod\BfgsMethodTest\BfgsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 4:46:16 PM] Starting test for project: D:\Code2025\RavenWork\BfgsMethod\BfgsMethodTest\BfgsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 4:46:16 PM] Starting test for project: D:\Code2025\RavenWork\BfgsMethod\BfgsMethodTest\BfgsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 4:46:16 PM] Starting test for project: D:\Code2025\RavenWork\BfgsMethod\BfgsMethodTest\BfgsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 4:46:16 PM] Starting test for project: D:\Code2025\RavenWork\BfgsMethod\BfgsMethodTest\BfgsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 4:46:16 PM] Starting test for project: D:\Code2025\RavenWork\BfgsMethod\BfgsMethodTest\BfgsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 4:46:16 PM] Starting test for project: D:\Code2025\RavenWork\BfgsMethod\BfgsMethodTest\BfgsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 4:46:16 PM] Starting test for project: D:\Code2025\RavenWork\BfgsMethod\BfgsMethodTest\BfgsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 4:46:16 PM] Starting test for project: D:\Code2025\RavenWork\BfgsMethod\BfgsMethodTest\BfgsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 4:46:16 PM] Starting test for project: D:\Code2025\RavenWork\BfgsMethod\BfgsMethodTest\BfgsMethodTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 4:46:23 PM] All tests passed successfully.
+[INFO 2025-02-23 4:46:23 PM] Test process completed. Duration: 6.93 seconds.
+[INFO 2025-02-23 4:46:23 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 4:46:23 PM] Test Parallelization enabled for D:\Code2025\RavenWork\BfgsMethod\BfgsMethodTest\bin\Debug\net9.0\BfgsMethodTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 4:46:22 PM] D:\Code2025\RavenWork\BfgsMethod\BfgsMethodTest\bin\Debug\net9.0\BfgsMethodTest.dll
+[OUTPUT 2025-02-23 4:46:21 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 4:46:21 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 4:46:19 PM]   BfgsMethod -> D:\Code2025\RavenWork\BfgsMethod\BfgsMethod\bin\Debug\net9.0\BfgsMethod.dll
+[OUTPUT 2025-02-23 4:46:18 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 4:46:24 PM]   Passed TestQuadraticND [8 ms]
+[OUTPUT 2025-02-23 4:46:20 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 4:46:20 PM] Test run for D:\Code2025\RavenWork\BfgsMethod\BfgsMethodTest\bin\Debug\net9.0\BfgsMethodTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 4:46:19 PM]   BfgsMethodTest -> D:\Code2025\RavenWork\BfgsMethod\BfgsMethodTest\bin\Debug\net9.0\BfgsMethodTest.dll
+[OUTPUT 2025-02-23 4:46:18 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 4:46:16 PM] Command: dotnet test "D:\Code2025\RavenWork\BfgsMethod\BfgsMethodTest\BfgsMethodTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 4:46:16 PM] Starting test for project: D:\Code2025\RavenWork\BfgsMethod\BfgsMethodTest\BfgsMethodTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 4:42:23 PM
+BfgsMethod
+
+WritePatch ran compiler. 2025-02-23 4:43:23 PM
+BfgsMethod
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\BfgsMethod\BfgsMethod\BfgsOptimizer.cs(38,55): error CS1503: Argument 1: cannot convert from 'double[][]' to 'double[]' [D:\Code2025\RavenWork\BfgsMethod\BfgsMethod\BfgsMethod.csproj]
+D:\Code2025\RavenWork\BfgsMethod\BfgsMethod\BfgsOptimizer.cs(38,58): error CS1503: Argument 2: cannot convert from 'double[][]' to 'double[]' [D:\Code2025\RavenWork\BfgsMethod\BfgsMethod\BfgsMethod.csproj]
+D:\Code2025\RavenWork\BfgsMethod\BfgsMethod\BfgsOptimizer.cs(39,55): error CS1503: Argument 1: cannot convert from 'double[][]' to 'double[]' [D:\Code2025\RavenWork\BfgsMethod\BfgsMethod\BfgsMethod.csproj]
+D:\Code2025\RavenWork\BfgsMethod\BfgsMethod\BfgsOptimizer.cs(39,58): error CS1503: Argument 2: cannot convert from 'double[][]' to 'double[]' [D:\Code2025\RavenWork\BfgsMethod\BfgsMethod\BfgsMethod.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\BfgsMethod\BfgsMethod\BfgsOptimizer.cs(38,55): error CS1503: Argument 1: cannot convert from 'double[][]' to 'double[]' [D:\Code2025\RavenWork\BfgsMethod\BfgsMethod\BfgsMethod.csproj]
+D:\Code2025\RavenWork\BfgsMethod\BfgsMethod\BfgsOptimizer.cs(38,58): error CS1503: Argument 2: cannot convert from 'double[][]' to 'double[]' [D:\Code2025\RavenWork\BfgsMethod\BfgsMethod\BfgsMethod.csproj]
+D:\Code2025\RavenWork\BfgsMethod\BfgsMethod\BfgsOptimizer.cs(39,55): error CS1503: Argument 1: cannot convert from 'double[][]' to 'double[]' [D:\Code2025\RavenWork\BfgsMethod\BfgsMethod\BfgsMethod.csproj]
+D:\Code2025\RavenWork\BfgsMethod\BfgsMethod\BfgsOptimizer.cs(39,58): error CS1503: Argument 2: cannot convert from 'double[][]' to 'double[]' [D:\Code2025\RavenWork\BfgsMethod\BfgsMethod\BfgsMethod.csproj]
+    0 Warning(s)
+    4 Error(s)
+
+Time Elapsed 00:00:02.44
+
+
+Errors:
+
+WritePatch: Compile failed.
+BfgsMethod
+
+Finished WritePatch cycle step.
+2025-02-23 4:43:24 PM
+BfgsMethod
+
+WritePatch Started CycleStep. 2025-02-23 4:43:25 PM
+BfgsMethod
+
+WritePatch ran compiler. 2025-02-23 4:44:20 PM
+BfgsMethod
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BfgsMethod -> D:\Code2025\RavenWork\BfgsMethod\BfgsMethod\bin\Debug\net9.0\BfgsMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.69
+
+
+WritePatch: Code is Complete.
+BfgsMethod
+
+WritePatch Started CycleStep. 2025-02-23 4:44:45 PM
+BfgsMethodTest
+
+WritePatch ran compiler. 2025-02-23 4:45:44 PM
+BfgsMethodTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\BfgsMethod\BfgsMethodTest\BfgsMethodTest.csproj (in 461 ms).
+  1 of 2 projects are up-to-date for restore.
+  BfgsMethod -> D:\Code2025\RavenWork\BfgsMethod\BfgsMethod\bin\Debug\net9.0\BfgsMethod.dll
+  BfgsMethodTest -> D:\Code2025\RavenWork\BfgsMethod\BfgsMethodTest\bin\Debug\net9.0\BfgsMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.64
+
+
+WritePatch: Code is Complete.
+BfgsMethodTest
+
+TestResult:
+[SUCCESS 2025-02-23 4:46:23 PM] All tests passed successfully.
+[INFO 2025-02-23 4:46:23 PM] Test process completed. Duration: 6.93 seconds.
+[INFO 2025-02-23 4:46:23 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 4:46:23 PM] Test Parallelization enabled for D:\Code2025\RavenWork\BfgsMethod\BfgsMethodTest\bin\Debug\net9.0\BfgsMethodTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 4:46:22 PM] D:\Code2025\RavenWork\BfgsMethod\BfgsMethodTest\bin\Debug\net9.0\BfgsMethodTest.dll
+[OUTPUT 2025-02-23 4:46:21 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 4:46:21 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 4:46:19 PM]   BfgsMethod -> D:\Code2025\RavenWork\BfgsMethod\BfgsMethod\bin\Debug\net9.0\BfgsMethod.dll
+[OUTPUT 2025-02-23 4:46:18 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 4:46:24 PM]   Passed TestQuadraticND [8 ms]
+[OUTPUT 2025-02-23 4:46:20 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 4:46:20 PM] Test run for D:\Code2025\RavenWork\BfgsMethod\BfgsMethodTest\bin\Debug\net9.0\BfgsMethodTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 4:46:19 PM]   BfgsMethodTest -> D:\Code2025\RavenWork\BfgsMethod\BfgsMethodTest\bin\Debug\net9.0\BfgsMethodTest.dll
+[OUTPUT 2025-02-23 4:46:18 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 4:46:16 PM] Command: dotnet test "D:\Code2025\RavenWork\BfgsMethod\BfgsMethodTest\BfgsMethodTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 4:46:16 PM] Starting test for project: D:\Code2025\RavenWork\BfgsMethod\BfgsMethodTest\BfgsMethodTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
