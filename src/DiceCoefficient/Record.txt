@@ -1,0 +1,403 @@
+<ActRecord>
+  <ProjectName>DiceCoefficient</ProjectName>
+  <ProjectDescription><![CDATA[Dice's coefficient (also known as the Dice coefficient): a similarity measure related to the Jaccard index]]></ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification><![CDATA[Dice's coefficient (also known as the Dice coefficient): a similarity measure related to the Jaccard index]]]]><![CDATA[></WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\DiceCoefficient</SolutionFolderPath>
+  <ProjectFolderName>DiceCoefficient</ProjectFolderName>
+  <ProjectName>DiceCoefficient</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:10:27 PM
+DiceCoefficient</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:10:56 PM
+DiceCoefficient</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DiceCoefficient -> D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficient\bin\Debug\net9.0\DiceCoefficient.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.96
+]]></string>
+    <string>WritePatch: Code is Complete.
+DiceCoefficient</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:11:16 PM
+DiceCoefficientTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:12:28 PM
+DiceCoefficientTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj (in 228 ms).
+  1 of 2 projects are up-to-date for restore.
+  DiceCoefficient -> D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficient\bin\Debug\net9.0\DiceCoefficient.dll
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(14,65): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(14,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(21,65): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(28,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+  DiceCoefficientTest -> D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\bin\Debug\net9.0\DiceCoefficientTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(14,65): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(14,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(21,65): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(28,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.61
+]]></string>
+    <string>WritePatch: Compile failed.
+DiceCoefficientTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:12:35 PM
+DiceCoefficientTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:12:36 PM
+DiceCoefficientTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:13:09 PM
+DiceCoefficientTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DiceCoefficient -> D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficient\bin\Debug\net9.0\DiceCoefficient.dll
+  DiceCoefficientTest -> D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\bin\Debug\net9.0\DiceCoefficientTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.09
+]]></string>
+    <string>WritePatch: Code is not Complete.
+DiceCoefficientTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:13:27 PM
+DiceCoefficientTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:13:27 PM
+DiceCoefficientTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:14:15 PM
+DiceCoefficientTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DiceCoefficient -> D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficient\bin\Debug\net9.0\DiceCoefficient.dll
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(14,65): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(14,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(21,65): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(28,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+  DiceCoefficientTest -> D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\bin\Debug\net9.0\DiceCoefficientTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(14,65): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(14,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(21,65): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(28,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.31
+]]></string>
+    <string>WritePatch: Compile failed.
+DiceCoefficientTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:14:19 PM
+DiceCoefficientTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DiceCoefficient -> D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficient\bin\Debug\net9.0\DiceCoefficient.dll
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(14,65): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(14,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(21,65): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(28,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+  DiceCoefficientTest -> D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\bin\Debug\net9.0\DiceCoefficientTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(14,65): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(14,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(21,65): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(28,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.31
+
+</CompilerResponse>
+2025-02-23 1:14:20 PM
+DiceCoefficientTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 1:14:23 PM
+DiceCoefficient</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DiceCoefficient -> D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficient\bin\Debug\net9.0\DiceCoefficient.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.84
+]]></string>
+    <string>WritePatch: Code is Complete.
+DiceCoefficient</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:14:37 PM
+DiceCoefficientTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DiceCoefficient -> D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficient\bin\Debug\net9.0\DiceCoefficient.dll
+  DiceCoefficientTest -> D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\bin\Debug\net9.0\DiceCoefficientTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.09
+]]></string>
+    <string>WritePatch: Code is Complete.
+DiceCoefficientTest</string>
+    <string>[INFO 2025-02-23 1:14:54 PM] Starting test for project: D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj</string>
+    <string>[INFO 2025-02-23 1:14:54 PM] Starting test for project: D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj</string>
+    <string>[INFO 2025-02-23 1:14:54 PM] Starting test for project: D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj</string>
+    <string>[INFO 2025-02-23 1:14:54 PM] Starting test for project: D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj</string>
+    <string>[INFO 2025-02-23 1:14:54 PM] Starting test for project: D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 1:14:59 PM] All tests passed successfully.
+[INFO 2025-02-23 1:14:59 PM] Test process completed. Duration: 4.52 seconds.
+[INFO 2025-02-23 1:14:59 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 1:14:59 PM]   DiceCoefficient -> D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficient\bin\Debug\net9.0\DiceCoefficient.dll
+[OUTPUT 2025-02-23 1:14:57 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:14:56 PM]   Determining projects to restore...
+[INFO 2025-02-23 1:14:54 PM] Command: dotnet test "D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:14:54 PM] Starting test for project: D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 1:10:27 PM
+DiceCoefficient
+
+WritePatch ran compiler. 2025-02-23 1:10:56 PM
+DiceCoefficient
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DiceCoefficient -> D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficient\bin\Debug\net9.0\DiceCoefficient.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.96
+
+
+WritePatch: Code is Complete.
+DiceCoefficient
+
+WritePatch Started CycleStep. 2025-02-23 1:11:16 PM
+DiceCoefficientTest
+
+WritePatch ran compiler. 2025-02-23 1:12:28 PM
+DiceCoefficientTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj (in 228 ms).
+  1 of 2 projects are up-to-date for restore.
+  DiceCoefficient -> D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficient\bin\Debug\net9.0\DiceCoefficient.dll
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(14,65): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(14,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(21,65): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(28,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+  DiceCoefficientTest -> D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\bin\Debug\net9.0\DiceCoefficientTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(14,65): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(14,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(21,65): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(28,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.61
+
+
+WritePatch: Compile failed.
+DiceCoefficientTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:12:35 PM
+DiceCoefficientTest
+
+WritePatch Started CycleStep. 2025-02-23 1:12:36 PM
+DiceCoefficientTest
+
+WritePatch ran compiler. 2025-02-23 1:13:09 PM
+DiceCoefficientTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DiceCoefficient -> D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficient\bin\Debug\net9.0\DiceCoefficient.dll
+  DiceCoefficientTest -> D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\bin\Debug\net9.0\DiceCoefficientTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.09
+
+
+WritePatch: Code is not Complete.
+DiceCoefficientTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:13:27 PM
+DiceCoefficientTest
+
+WritePatch Started CycleStep. 2025-02-23 1:13:27 PM
+DiceCoefficientTest
+
+WritePatch ran compiler. 2025-02-23 1:14:15 PM
+DiceCoefficientTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DiceCoefficient -> D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficient\bin\Debug\net9.0\DiceCoefficient.dll
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(14,65): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(14,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(21,65): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(28,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+  DiceCoefficientTest -> D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\bin\Debug\net9.0\DiceCoefficientTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(14,65): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(14,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(21,65): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(28,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.31
+
+
+WritePatch: Compile failed.
+DiceCoefficientTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:14:19 PM
+DiceCoefficientTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DiceCoefficient -> D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficient\bin\Debug\net9.0\DiceCoefficient.dll
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(14,65): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(14,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(21,65): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(28,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+  DiceCoefficientTest -> D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\bin\Debug\net9.0\DiceCoefficientTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(14,65): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(14,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(21,65): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTests.cs(28,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.31
+
+</CompilerResponse>
+2025-02-23 1:14:20 PM
+DiceCoefficientTest
+
+WritePatch ran compiler. 2025-02-23 1:14:23 PM
+DiceCoefficient
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DiceCoefficient -> D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficient\bin\Debug\net9.0\DiceCoefficient.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.84
+
+
+WritePatch: Code is Complete.
+DiceCoefficient
+
+WritePatch ran compiler. 2025-02-23 1:14:37 PM
+DiceCoefficientTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DiceCoefficient -> D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficient\bin\Debug\net9.0\DiceCoefficient.dll
+  DiceCoefficientTest -> D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\bin\Debug\net9.0\DiceCoefficientTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.09
+
+
+WritePatch: Code is Complete.
+DiceCoefficientTest
+
+TestResult:
+[SUCCESS 2025-02-23 1:14:59 PM] All tests passed successfully.
+[INFO 2025-02-23 1:14:59 PM] Test process completed. Duration: 4.52 seconds.
+[INFO 2025-02-23 1:14:59 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 1:14:59 PM]   DiceCoefficient -> D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficient\bin\Debug\net9.0\DiceCoefficient.dll
+[OUTPUT 2025-02-23 1:14:57 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:14:56 PM]   Determining projects to restore...
+[INFO 2025-02-23 1:14:54 PM] Command: dotnet test "D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:14:54 PM] Starting test for project: D:\Code2025\RavenWork\DiceCoefficient\DiceCoefficientTest\DiceCoefficientTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
