@@ -1,0 +1,305 @@
+<ActRecord>
+  <ProjectName>LamportsBakeryAlgorithm</ProjectName>
+  <ProjectDescription><![CDATA[Lamport's Bakery algorithm: For process synchronization]]></ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification><![CDATA[Lamport's Bakery algorithm: For process synchronization]]]]><![CDATA[></WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\LamportsBakeryAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>LamportsBakeryAlgorithm</ProjectFolderName>
+  <ProjectName>LamportsBakeryAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:24:48 PM
+LamportsBakeryAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:26:26 PM
+LamportsBakeryAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithm\Program.cs(9,35): warning CS8618: Non-nullable field 'bakeryLock' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithm\LamportsBakeryAlgorithm.csproj]
+  LamportsBakeryAlgorithm -> D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithm\bin\Debug\net9.0\LamportsBakeryAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithm\Program.cs(9,35): warning CS8618: Non-nullable field 'bakeryLock' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithm\LamportsBakeryAlgorithm.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.91
+]]></string>
+    <string>WritePatch: Compile failed.
+LamportsBakeryAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:26:26 PM
+LamportsBakeryAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:26:27 PM
+LamportsBakeryAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:26:51 PM
+LamportsBakeryAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LamportsBakeryAlgorithm -> D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithm\bin\Debug\net9.0\LamportsBakeryAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.86
+]]></string>
+    <string>WritePatch: Code is not Complete.
+LamportsBakeryAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:27:04 PM
+LamportsBakeryAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:27:05 PM
+LamportsBakeryAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:27:53 PM
+LamportsBakeryAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LamportsBakeryAlgorithm -> D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithm\bin\Debug\net9.0\LamportsBakeryAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.84
+]]></string>
+    <string>WritePatch: Code is Complete.
+LamportsBakeryAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:28:05 PM
+LamportsBakeryAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:29:06 PM
+LamportsBakeryAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithmTest\LamportsBakeryAlgorithmTest.csproj (in 211 ms).
+  1 of 2 projects are up-to-date for restore.
+  LamportsBakeryAlgorithm -> D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithm\bin\Debug\net9.0\LamportsBakeryAlgorithm.dll
+D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithmTest\BakeryLockTests.cs(69,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithmTest\LamportsBakeryAlgorithmTest.csproj]
+  LamportsBakeryAlgorithmTest -> D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithmTest\bin\Debug\net9.0\LamportsBakeryAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithmTest\BakeryLockTests.cs(69,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithmTest\LamportsBakeryAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.51
+]]></string>
+    <string>WritePatch: Compile failed.
+LamportsBakeryAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:29:07 PM
+LamportsBakeryAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:29:07 PM
+LamportsBakeryAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:30:09 PM
+LamportsBakeryAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LamportsBakeryAlgorithm -> D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithm\bin\Debug\net9.0\LamportsBakeryAlgorithm.dll
+  LamportsBakeryAlgorithmTest -> D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithmTest\bin\Debug\net9.0\LamportsBakeryAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.09
+]]></string>
+    <string>WritePatch: Code is Complete.
+LamportsBakeryAlgorithmTest</string>
+    <string>[INFO 2025-02-23 1:30:25 PM] Starting test for project: D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithmTest\LamportsBakeryAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:30:25 PM] Starting test for project: D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithmTest\LamportsBakeryAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:30:25 PM] Starting test for project: D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithmTest\LamportsBakeryAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:30:25 PM] Starting test for project: D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithmTest\LamportsBakeryAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:30:25 PM] Starting test for project: D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithmTest\LamportsBakeryAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:30:25 PM] Starting test for project: D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithmTest\LamportsBakeryAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:30:25 PM] Starting test for project: D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithmTest\LamportsBakeryAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:30:25 PM] Starting test for project: D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithmTest\LamportsBakeryAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:30:25 PM] Starting test for project: D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithmTest\LamportsBakeryAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:30:25 PM] Starting test for project: D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithmTest\LamportsBakeryAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:30:25 PM] Starting test for project: D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithmTest\LamportsBakeryAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 1:30:25 PM] Starting test for project: D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithmTest\LamportsBakeryAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 1:30:29 PM] All tests passed successfully.
+[INFO 2025-02-23 1:30:29 PM] Test process completed. Duration: 3.58 seconds.
+[INFO 2025-02-23 1:30:29 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 1:30:26 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:30:29 PM] Test Parallelization enabled for D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithmTest\bin\Debug\net9.0\LamportsBakeryAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 1:30:28 PM] D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithmTest\bin\Debug\net9.0\LamportsBakeryAlgorithmTest.dll
+[OUTPUT 2025-02-23 1:30:28 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 1:30:28 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 1:30:27 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 1:30:27 PM] Test run for D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithmTest\bin\Debug\net9.0\LamportsBakeryAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 1:30:27 PM]   LamportsBakeryAlgorithmTest -> D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithmTest\bin\Debug\net9.0\LamportsBakeryAlgorithmTest.dll
+[OUTPUT 2025-02-23 1:30:26 PM]   LamportsBakeryAlgorithm -> D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithm\bin\Debug\net9.0\LamportsBakeryAlgorithm.dll
+[OUTPUT 2025-02-23 1:30:26 PM]   Determining projects to restore...
+[INFO 2025-02-23 1:30:25 PM] Command: dotnet test "D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithmTest\LamportsBakeryAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:30:25 PM] Starting test for project: D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithmTest\LamportsBakeryAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 1:24:48 PM
+LamportsBakeryAlgorithm
+
+WritePatch ran compiler. 2025-02-23 1:26:26 PM
+LamportsBakeryAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithm\Program.cs(9,35): warning CS8618: Non-nullable field 'bakeryLock' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithm\LamportsBakeryAlgorithm.csproj]
+  LamportsBakeryAlgorithm -> D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithm\bin\Debug\net9.0\LamportsBakeryAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithm\Program.cs(9,35): warning CS8618: Non-nullable field 'bakeryLock' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithm\LamportsBakeryAlgorithm.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.91
+
+
+WritePatch: Compile failed.
+LamportsBakeryAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 1:26:26 PM
+LamportsBakeryAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 1:26:27 PM
+LamportsBakeryAlgorithm
+
+WritePatch ran compiler. 2025-02-23 1:26:51 PM
+LamportsBakeryAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LamportsBakeryAlgorithm -> D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithm\bin\Debug\net9.0\LamportsBakeryAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.86
+
+
+WritePatch: Code is not Complete.
+LamportsBakeryAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 1:27:04 PM
+LamportsBakeryAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 1:27:05 PM
+LamportsBakeryAlgorithm
+
+WritePatch ran compiler. 2025-02-23 1:27:53 PM
+LamportsBakeryAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LamportsBakeryAlgorithm -> D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithm\bin\Debug\net9.0\LamportsBakeryAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.84
+
+
+WritePatch: Code is Complete.
+LamportsBakeryAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 1:28:05 PM
+LamportsBakeryAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 1:29:06 PM
+LamportsBakeryAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithmTest\LamportsBakeryAlgorithmTest.csproj (in 211 ms).
+  1 of 2 projects are up-to-date for restore.
+  LamportsBakeryAlgorithm -> D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithm\bin\Debug\net9.0\LamportsBakeryAlgorithm.dll
+D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithmTest\BakeryLockTests.cs(69,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithmTest\LamportsBakeryAlgorithmTest.csproj]
+  LamportsBakeryAlgorithmTest -> D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithmTest\bin\Debug\net9.0\LamportsBakeryAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithmTest\BakeryLockTests.cs(69,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithmTest\LamportsBakeryAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.51
+
+
+WritePatch: Compile failed.
+LamportsBakeryAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:29:07 PM
+LamportsBakeryAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 1:29:07 PM
+LamportsBakeryAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 1:30:09 PM
+LamportsBakeryAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LamportsBakeryAlgorithm -> D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithm\bin\Debug\net9.0\LamportsBakeryAlgorithm.dll
+  LamportsBakeryAlgorithmTest -> D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithmTest\bin\Debug\net9.0\LamportsBakeryAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.09
+
+
+WritePatch: Code is Complete.
+LamportsBakeryAlgorithmTest
+
+TestResult:
+[SUCCESS 2025-02-23 1:30:29 PM] All tests passed successfully.
+[INFO 2025-02-23 1:30:29 PM] Test process completed. Duration: 3.58 seconds.
+[INFO 2025-02-23 1:30:29 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 1:30:26 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:30:29 PM] Test Parallelization enabled for D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithmTest\bin\Debug\net9.0\LamportsBakeryAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 1:30:28 PM] D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithmTest\bin\Debug\net9.0\LamportsBakeryAlgorithmTest.dll
+[OUTPUT 2025-02-23 1:30:28 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 1:30:28 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 1:30:27 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 1:30:27 PM] Test run for D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithmTest\bin\Debug\net9.0\LamportsBakeryAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 1:30:27 PM]   LamportsBakeryAlgorithmTest -> D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithmTest\bin\Debug\net9.0\LamportsBakeryAlgorithmTest.dll
+[OUTPUT 2025-02-23 1:30:26 PM]   LamportsBakeryAlgorithm -> D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithm\bin\Debug\net9.0\LamportsBakeryAlgorithm.dll
+[OUTPUT 2025-02-23 1:30:26 PM]   Determining projects to restore...
+[INFO 2025-02-23 1:30:25 PM] Command: dotnet test "D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithmTest\LamportsBakeryAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:30:25 PM] Starting test for project: D:\Code2025\RavenWork\LamportsBakeryAlgorithm\LamportsBakeryAlgorithmTest\LamportsBakeryAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
