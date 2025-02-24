@@ -1,0 +1,451 @@
+<ActRecord>
+  <ProjectName>BeesAlgorithm</ProjectName>
+  <ProjectDescription>Bees algorithm – A search algorithm that mimics the food foraging behavior of honey bees.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Bees algorithm – A search algorithm that mimics the food foraging behavior of honey bees.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\BeesAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>BeesAlgorithm</ProjectFolderName>
+  <ProjectName>BeesAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:12:31 PM
+BeesAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:13:09 PM
+BeesAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\BeesAlgorithmSolver.cs(14,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\BeesAlgorithm.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\BeesAlgorithmSolver.cs(19,40): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\BeesAlgorithm.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\BeesAlgorithmSolver.cs(73,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\BeesAlgorithm.csproj]
+  BeesAlgorithm -> D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\bin\Debug\net9.0\BeesAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\BeesAlgorithmSolver.cs(14,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\BeesAlgorithm.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\BeesAlgorithmSolver.cs(19,40): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\BeesAlgorithm.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\BeesAlgorithmSolver.cs(73,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\BeesAlgorithm.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+]]></string>
+    <string>WritePatch: Compile failed.
+BeesAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 12:13:09 PM
+BeesAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:13:09 PM
+BeesAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:13:51 PM
+BeesAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BeesAlgorithm -> D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\bin\Debug\net9.0\BeesAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.92
+]]></string>
+    <string>WritePatch: Code is Complete.
+BeesAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:14:09 PM
+BeesAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:14:56 PM
+BeesAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj (in 233 ms).
+  1 of 2 projects are up-to-date for restore.
+  BeesAlgorithm -> D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\bin\Debug\net9.0\BeesAlgorithm.dll
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(25,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(25,34): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(41,16): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(38,34): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(58,34): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(90,34): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(125,34): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(159,34): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+  BeesAlgorithmTest -> D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\bin\Debug\net9.0\BeesAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(25,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(25,34): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(41,16): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(38,34): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(58,34): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(90,34): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(125,34): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(159,34): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+    8 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.63
+]]></string>
+    <string>WritePatch: Compile failed.
+BeesAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 12:14:56 PM
+BeesAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:14:57 PM
+BeesAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:17:16 PM
+BeesAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BeesAlgorithm -> D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\bin\Debug\net9.0\BeesAlgorithm.dll
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(25,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(41,16): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+  BeesAlgorithmTest -> D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\bin\Debug\net9.0\BeesAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(25,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(41,16): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.18
+]]></string>
+    <string>WritePatch: Compile failed.
+BeesAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 12:18:06 PM
+BeesAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:18:20 PM
+BeesAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:19:37 PM
+BeesAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BeesAlgorithm -> D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\bin\Debug\net9.0\BeesAlgorithm.dll
+  BeesAlgorithmTest -> D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\bin\Debug\net9.0\BeesAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.08
+]]></string>
+    <string>WritePatch: Code is not Complete.
+BeesAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 12:20:59 PM
+BeesAlgorithmTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BeesAlgorithm -> D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\bin\Debug\net9.0\BeesAlgorithm.dll
+  BeesAlgorithmTest -> D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\bin\Debug\net9.0\BeesAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.08
+
+</CompilerResponse>
+2025-02-23 12:21:26 PM
+BeesAlgorithmTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 12:21:43 PM
+BeesAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BeesAlgorithm -> D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\bin\Debug\net9.0\BeesAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+]]></string>
+    <string>WritePatch: Code is Complete.
+BeesAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:22:59 PM
+BeesAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BeesAlgorithm -> D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\bin\Debug\net9.0\BeesAlgorithm.dll
+  BeesAlgorithmTest -> D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\bin\Debug\net9.0\BeesAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.28
+]]></string>
+    <string>WritePatch: Code is Complete.
+BeesAlgorithmTest</string>
+    <string>[INFO 2025-02-23 12:24:15 PM] Starting test for project: D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 12:24:15 PM] Starting test for project: D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 12:24:15 PM] Starting test for project: D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 12:24:15 PM] Starting test for project: D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 12:24:43 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 12:24:25 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 12:24:28 PM] All tests passed successfully.
+[INFO 2025-02-23 12:24:28 PM] Test process completed. Duration: 12.42 seconds.
+[INFO 2025-02-23 12:24:28 PM] Process exited with code 0.
+[INFO 2025-02-23 12:24:15 PM] Command: dotnet test "D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 12:24:15 PM] Starting test for project: D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 12:12:31 PM
+BeesAlgorithm
+
+WritePatch ran compiler. 2025-02-23 12:13:09 PM
+BeesAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\BeesAlgorithmSolver.cs(14,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\BeesAlgorithm.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\BeesAlgorithmSolver.cs(19,40): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\BeesAlgorithm.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\BeesAlgorithmSolver.cs(73,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\BeesAlgorithm.csproj]
+  BeesAlgorithm -> D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\bin\Debug\net9.0\BeesAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\BeesAlgorithmSolver.cs(14,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\BeesAlgorithm.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\BeesAlgorithmSolver.cs(19,40): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\BeesAlgorithm.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\BeesAlgorithmSolver.cs(73,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\BeesAlgorithm.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+
+
+WritePatch: Compile failed.
+BeesAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 12:13:09 PM
+BeesAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 12:13:09 PM
+BeesAlgorithm
+
+WritePatch ran compiler. 2025-02-23 12:13:51 PM
+BeesAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BeesAlgorithm -> D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\bin\Debug\net9.0\BeesAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.92
+
+
+WritePatch: Code is Complete.
+BeesAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 12:14:09 PM
+BeesAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 12:14:56 PM
+BeesAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj (in 233 ms).
+  1 of 2 projects are up-to-date for restore.
+  BeesAlgorithm -> D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\bin\Debug\net9.0\BeesAlgorithm.dll
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(25,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(25,34): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(41,16): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(38,34): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(58,34): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(90,34): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(125,34): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(159,34): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+  BeesAlgorithmTest -> D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\bin\Debug\net9.0\BeesAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(25,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(25,34): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(41,16): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(38,34): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(58,34): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(90,34): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(125,34): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(159,34): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+    8 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.63
+
+
+WritePatch: Compile failed.
+BeesAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 12:14:56 PM
+BeesAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 12:14:57 PM
+BeesAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 12:17:16 PM
+BeesAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BeesAlgorithm -> D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\bin\Debug\net9.0\BeesAlgorithm.dll
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(25,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(41,16): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+  BeesAlgorithmTest -> D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\bin\Debug\net9.0\BeesAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(25,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTests.cs(41,16): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.18
+
+
+WritePatch: Compile failed.
+BeesAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 12:18:06 PM
+BeesAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 12:18:20 PM
+BeesAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 12:19:37 PM
+BeesAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BeesAlgorithm -> D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\bin\Debug\net9.0\BeesAlgorithm.dll
+  BeesAlgorithmTest -> D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\bin\Debug\net9.0\BeesAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.08
+
+
+WritePatch: Code is not Complete.
+BeesAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 12:20:59 PM
+BeesAlgorithmTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BeesAlgorithm -> D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\bin\Debug\net9.0\BeesAlgorithm.dll
+  BeesAlgorithmTest -> D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\bin\Debug\net9.0\BeesAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.08
+
+</CompilerResponse>
+2025-02-23 12:21:26 PM
+BeesAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 12:21:43 PM
+BeesAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BeesAlgorithm -> D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\bin\Debug\net9.0\BeesAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+
+
+WritePatch: Code is Complete.
+BeesAlgorithm
+
+WritePatch ran compiler. 2025-02-23 12:22:59 PM
+BeesAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BeesAlgorithm -> D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithm\bin\Debug\net9.0\BeesAlgorithm.dll
+  BeesAlgorithmTest -> D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\bin\Debug\net9.0\BeesAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.28
+
+
+WritePatch: Code is Complete.
+BeesAlgorithmTest
+
+TestResult:
+[OUTPUT 2025-02-23 12:24:43 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 12:24:25 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 12:24:28 PM] All tests passed successfully.
+[INFO 2025-02-23 12:24:28 PM] Test process completed. Duration: 12.42 seconds.
+[INFO 2025-02-23 12:24:28 PM] Process exited with code 0.
+[INFO 2025-02-23 12:24:15 PM] Command: dotnet test "D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 12:24:15 PM] Starting test for project: D:\Code2025\RavenWork\BeesAlgorithm\BeesAlgorithmTest\BeesAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
