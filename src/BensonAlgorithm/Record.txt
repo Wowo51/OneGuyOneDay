@@ -1,0 +1,470 @@
+<ActRecord>
+  <ProjectName>BensonAlgorithm</ProjectName>
+  <ProjectDescription><![CDATA[Benson's algorithm – A procedure for solving linear vector optimization problems.]]></ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification><![CDATA[Benson's algorithm – A procedure for solving linear vector optimization problems.]]]]><![CDATA[></WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\BensonAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>BensonAlgorithm</ProjectFolderName>
+  <ProjectName>BensonAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:52:02 PM
+BensonAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:53:41 PM
+BensonAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithm\Algorithms\SimplexSolver.cs(80,28): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithm\BensonAlgorithm.csproj]
+  BensonAlgorithm -> D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithm\bin\Debug\net9.0\BensonAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithm\Algorithms\SimplexSolver.cs(80,28): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithm\BensonAlgorithm.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.15
+]]></string>
+    <string>WritePatch: Compile failed.
+BensonAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 4:53:43 PM
+BensonAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:53:44 PM
+BensonAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:54:44 PM
+BensonAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithm\Algorithms\BensonSolver.cs(32,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithm\BensonAlgorithm.csproj]
+  BensonAlgorithm -> D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithm\bin\Debug\net9.0\BensonAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithm\Algorithms\BensonSolver.cs(32,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithm\BensonAlgorithm.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.94
+]]></string>
+    <string>WritePatch: Compile failed.
+BensonAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 4:54:45 PM
+BensonAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:54:47 PM
+BensonAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:55:23 PM
+BensonAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BensonAlgorithm -> D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithm\bin\Debug\net9.0\BensonAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.89
+]]></string>
+    <string>WritePatch: Code is Complete.
+BensonAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:55:59 PM
+BensonAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:57:29 PM
+BensonAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj (in 658 ms).
+  1 of 2 projects are up-to-date for restore.
+  BensonAlgorithm -> D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithm\bin\Debug\net9.0\BensonAlgorithm.dll
+D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmUnitTests.cs(14,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmUnitTests.cs(76,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmUnitTests.cs(101,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmUnitTests.cs(133,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj]
+  BensonAlgorithmTest -> D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\bin\Debug\net9.0\BensonAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmUnitTests.cs(14,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmUnitTests.cs(76,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmUnitTests.cs(101,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmUnitTests.cs(133,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.40
+]]></string>
+    <string>WritePatch: Compile failed.
+BensonAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 4:57:30 PM
+BensonAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:57:31 PM
+BensonAlgorithmTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 4:58:26 PM
+BensonAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:58:27 PM
+BensonAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:59:36 PM
+BensonAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BensonAlgorithm -> D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithm\bin\Debug\net9.0\BensonAlgorithm.dll
+D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmUnitTests.cs(14,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj]
+  BensonAlgorithmTest -> D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\bin\Debug\net9.0\BensonAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmUnitTests.cs(14,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.23
+]]></string>
+    <string>WritePatch: Compile failed.
+BensonAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 4:59:39 PM
+BensonAlgorithmTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BensonAlgorithm -> D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithm\bin\Debug\net9.0\BensonAlgorithm.dll
+D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmUnitTests.cs(14,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj]
+  BensonAlgorithmTest -> D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\bin\Debug\net9.0\BensonAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmUnitTests.cs(14,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.23
+
+</CompilerResponse>
+2025-02-23 4:59:39 PM
+BensonAlgorithmTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 4:59:42 PM
+BensonAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BensonAlgorithm -> D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithm\bin\Debug\net9.0\BensonAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.64
+]]></string>
+    <string>WritePatch: Code is Complete.
+BensonAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:00:10 PM
+BensonAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BensonAlgorithm -> D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithm\bin\Debug\net9.0\BensonAlgorithm.dll
+  BensonAlgorithmTest -> D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\bin\Debug\net9.0\BensonAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.81
+]]></string>
+    <string>WritePatch: Code is Complete.
+BensonAlgorithmTest</string>
+    <string>[INFO 2025-02-23 5:00:27 PM] Starting test for project: D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 5:00:27 PM] Starting test for project: D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 5:00:27 PM] Starting test for project: D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 5:00:27 PM] Starting test for project: D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 5:00:27 PM] Starting test for project: D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 5:00:27 PM] Starting test for project: D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 5:00:27 PM] Starting test for project: D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 5:00:27 PM] Starting test for project: D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 5:00:27 PM] Starting test for project: D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 5:00:27 PM] Starting test for project: D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 5:00:27 PM] Starting test for project: D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 5:00:27 PM] Starting test for project: D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 5:00:27 PM] Starting test for project: D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 5:00:29 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 5:00:37 PM]   Passed BensonSolver_NullProblem_ReturnsEmptySolutions [61 ms]
+[OUTPUT 2025-02-23 5:00:36 PM] Test Parallelization enabled for D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\bin\Debug\net9.0\BensonAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 5:00:34 PM] D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\bin\Debug\net9.0\BensonAlgorithmTest.dll
+[OUTPUT 2025-02-23 5:00:33 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 5:00:32 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 5:00:32 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 5:00:31 PM] Test run for D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\bin\Debug\net9.0\BensonAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 5:00:30 PM]   BensonAlgorithmTest -> D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\bin\Debug\net9.0\BensonAlgorithmTest.dll
+[OUTPUT 2025-02-23 5:00:30 PM]   BensonAlgorithm -> D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithm\bin\Debug\net9.0\BensonAlgorithm.dll
+[OUTPUT 2025-02-23 5:00:28 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 5:00:36 PM] All tests passed successfully.
+[INFO 2025-02-23 5:00:36 PM] Test process completed. Duration: 9.44 seconds.
+[INFO 2025-02-23 5:00:36 PM] Process exited with code 0.
+[INFO 2025-02-23 5:00:27 PM] Command: dotnet test "D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 5:00:27 PM] Starting test for project: D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 4:52:02 PM
+BensonAlgorithm
+
+WritePatch ran compiler. 2025-02-23 4:53:41 PM
+BensonAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithm\Algorithms\SimplexSolver.cs(80,28): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithm\BensonAlgorithm.csproj]
+  BensonAlgorithm -> D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithm\bin\Debug\net9.0\BensonAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithm\Algorithms\SimplexSolver.cs(80,28): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithm\BensonAlgorithm.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.15
+
+
+WritePatch: Compile failed.
+BensonAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 4:53:43 PM
+BensonAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 4:53:44 PM
+BensonAlgorithm
+
+WritePatch ran compiler. 2025-02-23 4:54:44 PM
+BensonAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithm\Algorithms\BensonSolver.cs(32,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithm\BensonAlgorithm.csproj]
+  BensonAlgorithm -> D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithm\bin\Debug\net9.0\BensonAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithm\Algorithms\BensonSolver.cs(32,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithm\BensonAlgorithm.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.94
+
+
+WritePatch: Compile failed.
+BensonAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 4:54:45 PM
+BensonAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 4:54:47 PM
+BensonAlgorithm
+
+WritePatch ran compiler. 2025-02-23 4:55:23 PM
+BensonAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BensonAlgorithm -> D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithm\bin\Debug\net9.0\BensonAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.89
+
+
+WritePatch: Code is Complete.
+BensonAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 4:55:59 PM
+BensonAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 4:57:29 PM
+BensonAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj (in 658 ms).
+  1 of 2 projects are up-to-date for restore.
+  BensonAlgorithm -> D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithm\bin\Debug\net9.0\BensonAlgorithm.dll
+D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmUnitTests.cs(14,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmUnitTests.cs(76,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmUnitTests.cs(101,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmUnitTests.cs(133,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj]
+  BensonAlgorithmTest -> D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\bin\Debug\net9.0\BensonAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmUnitTests.cs(14,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmUnitTests.cs(76,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmUnitTests.cs(101,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj]
+D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmUnitTests.cs(133,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.40
+
+
+WritePatch: Compile failed.
+BensonAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 4:57:30 PM
+BensonAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 4:57:31 PM
+BensonAlgorithmTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 4:58:26 PM
+BensonAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 4:58:27 PM
+BensonAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 4:59:36 PM
+BensonAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BensonAlgorithm -> D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithm\bin\Debug\net9.0\BensonAlgorithm.dll
+D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmUnitTests.cs(14,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj]
+  BensonAlgorithmTest -> D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\bin\Debug\net9.0\BensonAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmUnitTests.cs(14,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.23
+
+
+WritePatch: Compile failed.
+BensonAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 4:59:39 PM
+BensonAlgorithmTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BensonAlgorithm -> D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithm\bin\Debug\net9.0\BensonAlgorithm.dll
+D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmUnitTests.cs(14,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj]
+  BensonAlgorithmTest -> D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\bin\Debug\net9.0\BensonAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmUnitTests.cs(14,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.23
+
+</CompilerResponse>
+2025-02-23 4:59:39 PM
+BensonAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 4:59:42 PM
+BensonAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BensonAlgorithm -> D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithm\bin\Debug\net9.0\BensonAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.64
+
+
+WritePatch: Code is Complete.
+BensonAlgorithm
+
+WritePatch ran compiler. 2025-02-23 5:00:10 PM
+BensonAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BensonAlgorithm -> D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithm\bin\Debug\net9.0\BensonAlgorithm.dll
+  BensonAlgorithmTest -> D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\bin\Debug\net9.0\BensonAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.81
+
+
+WritePatch: Code is Complete.
+BensonAlgorithmTest
+
+TestResult:
+[OUTPUT 2025-02-23 5:00:29 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 5:00:37 PM]   Passed BensonSolver_NullProblem_ReturnsEmptySolutions [61 ms]
+[OUTPUT 2025-02-23 5:00:36 PM] Test Parallelization enabled for D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\bin\Debug\net9.0\BensonAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 5:00:34 PM] D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\bin\Debug\net9.0\BensonAlgorithmTest.dll
+[OUTPUT 2025-02-23 5:00:33 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 5:00:32 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 5:00:32 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 5:00:31 PM] Test run for D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\bin\Debug\net9.0\BensonAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 5:00:30 PM]   BensonAlgorithmTest -> D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\bin\Debug\net9.0\BensonAlgorithmTest.dll
+[OUTPUT 2025-02-23 5:00:30 PM]   BensonAlgorithm -> D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithm\bin\Debug\net9.0\BensonAlgorithm.dll
+[OUTPUT 2025-02-23 5:00:28 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 5:00:36 PM] All tests passed successfully.
+[INFO 2025-02-23 5:00:36 PM] Test process completed. Duration: 9.44 seconds.
+[INFO 2025-02-23 5:00:36 PM] Process exited with code 0.
+[INFO 2025-02-23 5:00:27 PM] Command: dotnet test "D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 5:00:27 PM] Starting test for project: D:\Code2025\RavenWork\BensonAlgorithm\BensonAlgorithmTest\BensonAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
