@@ -1,0 +1,427 @@
+<ActRecord>
+  <ProjectName>FnvHash</ProjectName>
+  <ProjectDescription>Fowler–Noll–Vo hash function: A fast hash function with a low collision rate</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Fowler–Noll–Vo hash function: A fast hash function with a low collision rate</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\FnvHash</SolutionFolderPath>
+  <ProjectFolderName>FnvHash</ProjectFolderName>
+  <ProjectName>FnvHash</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:55:01 PM
+FnvHash</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:55:50 PM
+FnvHash</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FnvHash -> D:\Code2025\RavenWork\FnvHash\FnvHash\bin\Debug\net9.0\FnvHash.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.43
+]]></string>
+    <string>WritePatch: Code is Complete.
+FnvHash</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:56:04 PM
+FnvHashTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:56:59 PM
+FnvHashTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj (in 302 ms).
+  1 of 2 projects are up-to-date for restore.
+  FnvHash -> D:\Code2025\RavenWork\FnvHash\FnvHash\bin\Debug\net9.0\FnvHash.dll
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(14,49): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(14,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(29,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(30,49): warning CS8604: Possible null reference argument for parameter 'text' in 'uint FnvHasher.ComputeHash(string text)'. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+  FnvHashTest -> D:\Code2025\RavenWork\FnvHash\FnvHashTest\bin\Debug\net9.0\FnvHashTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(14,49): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(14,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(29,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(30,49): warning CS8604: Possible null reference argument for parameter 'text' in 'uint FnvHasher.ComputeHash(string text)'. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.23
+]]></string>
+    <string>WritePatch: Compile failed.
+FnvHashTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:57:00 PM
+FnvHashTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:57:00 PM
+FnvHashTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:57:25 PM
+FnvHashTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FnvHash -> D:\Code2025\RavenWork\FnvHash\FnvHash\bin\Debug\net9.0\FnvHash.dll
+  FnvHashTest -> D:\Code2025\RavenWork\FnvHash\FnvHashTest\bin\Debug\net9.0\FnvHashTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.42
+]]></string>
+    <string>WritePatch: Code is not Complete.
+FnvHashTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:57:41 PM
+FnvHashTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:57:42 PM
+FnvHashTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:58:22 PM
+FnvHashTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FnvHash -> D:\Code2025\RavenWork\FnvHash\FnvHash\bin\Debug\net9.0\FnvHash.dll
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(14,49): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(14,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(29,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(30,49): warning CS8604: Possible null reference argument for parameter 'text' in 'uint FnvHasher.ComputeHash(string text)'. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+  FnvHashTest -> D:\Code2025\RavenWork\FnvHash\FnvHashTest\bin\Debug\net9.0\FnvHashTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(14,49): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(14,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(29,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(30,49): warning CS8604: Possible null reference argument for parameter 'text' in 'uint FnvHasher.ComputeHash(string text)'. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.82
+]]></string>
+    <string>WritePatch: Compile failed.
+FnvHashTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:58:25 PM
+FnvHashTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\FnvHash\FnvHashTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FnvHash -> D:\Code2025\RavenWork\FnvHash\FnvHash\bin\Debug\net9.0\FnvHash.dll
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(14,49): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(14,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(29,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(30,49): warning CS8604: Possible null reference argument for parameter 'text' in 'uint FnvHasher.ComputeHash(string text)'. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+  FnvHashTest -> D:\Code2025\RavenWork\FnvHash\FnvHashTest\bin\Debug\net9.0\FnvHashTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(14,49): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(14,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(29,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(30,49): warning CS8604: Possible null reference argument for parameter 'text' in 'uint FnvHasher.ComputeHash(string text)'. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.82
+
+</CompilerResponse>
+2025-02-23 1:58:26 PM
+FnvHashTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 1:58:29 PM
+FnvHash</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FnvHash -> D:\Code2025\RavenWork\FnvHash\FnvHash\bin\Debug\net9.0\FnvHash.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.26
+]]></string>
+    <string>WritePatch: Code is Complete.
+FnvHash</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:58:37 PM
+FnvHashTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FnvHash -> D:\Code2025\RavenWork\FnvHash\FnvHash\bin\Debug\net9.0\FnvHash.dll
+  FnvHashTest -> D:\Code2025\RavenWork\FnvHash\FnvHashTest\bin\Debug\net9.0\FnvHashTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.71
+]]></string>
+    <string>WritePatch: Code is Complete.
+FnvHashTest</string>
+    <string>[INFO 2025-02-23 1:58:48 PM] Starting test for project: D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj</string>
+    <string>[INFO 2025-02-23 1:58:48 PM] Starting test for project: D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj</string>
+    <string>[INFO 2025-02-23 1:58:48 PM] Starting test for project: D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj</string>
+    <string>[INFO 2025-02-23 1:58:48 PM] Starting test for project: D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj</string>
+    <string>[INFO 2025-02-23 1:58:48 PM] Starting test for project: D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj</string>
+    <string>[INFO 2025-02-23 1:58:48 PM] Starting test for project: D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj</string>
+    <string>[INFO 2025-02-23 1:58:48 PM] Starting test for project: D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj</string>
+    <string>[INFO 2025-02-23 1:58:48 PM] Starting test for project: D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj</string>
+    <string>[INFO 2025-02-23 1:58:48 PM] Starting test for project: D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj</string>
+    <string>[INFO 2025-02-23 1:58:48 PM] Starting test for project: D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj</string>
+    <string>[INFO 2025-02-23 1:58:48 PM] Starting test for project: D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj</string>
+    <string>[INFO 2025-02-23 1:58:48 PM] Starting test for project: D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj</string>
+    <string>[INFO 2025-02-23 1:58:48 PM] Starting test for project: D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 1:58:49 PM]   FnvHash -> D:\Code2025\RavenWork\FnvHash\FnvHash\bin\Debug\net9.0\FnvHash.dll
+[OUTPUT 2025-02-23 1:58:54 PM]   Passed ComputeHash_HelloString_ReturnsExpectedHash [7 ms]
+[OUTPUT 2025-02-23 1:58:53 PM] Test Parallelization enabled for D:\Code2025\RavenWork\FnvHash\FnvHashTest\bin\Debug\net9.0\FnvHashTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 1:58:51 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 1:58:50 PM] Test run for D:\Code2025\RavenWork\FnvHash\FnvHashTest\bin\Debug\net9.0\FnvHashTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 1:58:50 PM]   FnvHashTest -> D:\Code2025\RavenWork\FnvHash\FnvHashTest\bin\Debug\net9.0\FnvHashTest.dll
+[OUTPUT 2025-02-23 1:58:49 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:58:52 PM] D:\Code2025\RavenWork\FnvHash\FnvHashTest\bin\Debug\net9.0\FnvHashTest.dll
+[OUTPUT 2025-02-23 1:58:52 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 1:58:51 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 1:58:48 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 1:58:53 PM] All tests passed successfully.
+[INFO 2025-02-23 1:58:53 PM] Test process completed. Duration: 5.10 seconds.
+[INFO 2025-02-23 1:58:53 PM] Process exited with code 0.
+[INFO 2025-02-23 1:58:48 PM] Command: dotnet test "D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:58:48 PM] Starting test for project: D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 1:55:01 PM
+FnvHash
+
+WritePatch ran compiler. 2025-02-23 1:55:50 PM
+FnvHash
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FnvHash -> D:\Code2025\RavenWork\FnvHash\FnvHash\bin\Debug\net9.0\FnvHash.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.43
+
+
+WritePatch: Code is Complete.
+FnvHash
+
+WritePatch Started CycleStep. 2025-02-23 1:56:04 PM
+FnvHashTest
+
+WritePatch ran compiler. 2025-02-23 1:56:59 PM
+FnvHashTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj (in 302 ms).
+  1 of 2 projects are up-to-date for restore.
+  FnvHash -> D:\Code2025\RavenWork\FnvHash\FnvHash\bin\Debug\net9.0\FnvHash.dll
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(14,49): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(14,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(29,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(30,49): warning CS8604: Possible null reference argument for parameter 'text' in 'uint FnvHasher.ComputeHash(string text)'. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+  FnvHashTest -> D:\Code2025\RavenWork\FnvHash\FnvHashTest\bin\Debug\net9.0\FnvHashTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(14,49): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(14,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(29,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(30,49): warning CS8604: Possible null reference argument for parameter 'text' in 'uint FnvHasher.ComputeHash(string text)'. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.23
+
+
+WritePatch: Compile failed.
+FnvHashTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:57:00 PM
+FnvHashTest
+
+WritePatch Started CycleStep. 2025-02-23 1:57:00 PM
+FnvHashTest
+
+WritePatch ran compiler. 2025-02-23 1:57:25 PM
+FnvHashTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FnvHash -> D:\Code2025\RavenWork\FnvHash\FnvHash\bin\Debug\net9.0\FnvHash.dll
+  FnvHashTest -> D:\Code2025\RavenWork\FnvHash\FnvHashTest\bin\Debug\net9.0\FnvHashTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.42
+
+
+WritePatch: Code is not Complete.
+FnvHashTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:57:41 PM
+FnvHashTest
+
+WritePatch Started CycleStep. 2025-02-23 1:57:42 PM
+FnvHashTest
+
+WritePatch ran compiler. 2025-02-23 1:58:22 PM
+FnvHashTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FnvHash -> D:\Code2025\RavenWork\FnvHash\FnvHash\bin\Debug\net9.0\FnvHash.dll
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(14,49): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(14,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(29,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(30,49): warning CS8604: Possible null reference argument for parameter 'text' in 'uint FnvHasher.ComputeHash(string text)'. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+  FnvHashTest -> D:\Code2025\RavenWork\FnvHash\FnvHashTest\bin\Debug\net9.0\FnvHashTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(14,49): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(14,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(29,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(30,49): warning CS8604: Possible null reference argument for parameter 'text' in 'uint FnvHasher.ComputeHash(string text)'. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.82
+
+
+WritePatch: Compile failed.
+FnvHashTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:58:25 PM
+FnvHashTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\FnvHash\FnvHashTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FnvHash -> D:\Code2025\RavenWork\FnvHash\FnvHash\bin\Debug\net9.0\FnvHash.dll
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(14,49): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(14,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(29,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(30,49): warning CS8604: Possible null reference argument for parameter 'text' in 'uint FnvHasher.ComputeHash(string text)'. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+  FnvHashTest -> D:\Code2025\RavenWork\FnvHash\FnvHashTest\bin\Debug\net9.0\FnvHashTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(14,49): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(14,49): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(29,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHasherTests.cs(30,49): warning CS8604: Possible null reference argument for parameter 'text' in 'uint FnvHasher.ComputeHash(string text)'. [D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.82
+
+</CompilerResponse>
+2025-02-23 1:58:26 PM
+FnvHashTest
+
+WritePatch ran compiler. 2025-02-23 1:58:29 PM
+FnvHash
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FnvHash -> D:\Code2025\RavenWork\FnvHash\FnvHash\bin\Debug\net9.0\FnvHash.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.26
+
+
+WritePatch: Code is Complete.
+FnvHash
+
+WritePatch ran compiler. 2025-02-23 1:58:37 PM
+FnvHashTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FnvHash -> D:\Code2025\RavenWork\FnvHash\FnvHash\bin\Debug\net9.0\FnvHash.dll
+  FnvHashTest -> D:\Code2025\RavenWork\FnvHash\FnvHashTest\bin\Debug\net9.0\FnvHashTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.71
+
+
+WritePatch: Code is Complete.
+FnvHashTest
+
+TestResult:
+[OUTPUT 2025-02-23 1:58:49 PM]   FnvHash -> D:\Code2025\RavenWork\FnvHash\FnvHash\bin\Debug\net9.0\FnvHash.dll
+[OUTPUT 2025-02-23 1:58:54 PM]   Passed ComputeHash_HelloString_ReturnsExpectedHash [7 ms]
+[OUTPUT 2025-02-23 1:58:53 PM] Test Parallelization enabled for D:\Code2025\RavenWork\FnvHash\FnvHashTest\bin\Debug\net9.0\FnvHashTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 1:58:51 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 1:58:50 PM] Test run for D:\Code2025\RavenWork\FnvHash\FnvHashTest\bin\Debug\net9.0\FnvHashTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 1:58:50 PM]   FnvHashTest -> D:\Code2025\RavenWork\FnvHash\FnvHashTest\bin\Debug\net9.0\FnvHashTest.dll
+[OUTPUT 2025-02-23 1:58:49 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:58:52 PM] D:\Code2025\RavenWork\FnvHash\FnvHashTest\bin\Debug\net9.0\FnvHashTest.dll
+[OUTPUT 2025-02-23 1:58:52 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 1:58:51 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 1:58:48 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 1:58:53 PM] All tests passed successfully.
+[INFO 2025-02-23 1:58:53 PM] Test process completed. Duration: 5.10 seconds.
+[INFO 2025-02-23 1:58:53 PM] Process exited with code 0.
+[INFO 2025-02-23 1:58:48 PM] Command: dotnet test "D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:58:48 PM] Starting test for project: D:\Code2025\RavenWork\FnvHash\FnvHashTest\FnvHashTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
