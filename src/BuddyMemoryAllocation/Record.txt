@@ -1,0 +1,156 @@
+<ActRecord>
+  <ProjectName>BuddyMemoryAllocation</ProjectName>
+  <ProjectDescription>Buddy memory allocation: Allocates memory with less fragmentation</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Buddy memory allocation: Allocates memory with less fragmentation</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\BuddyMemoryAllocation</SolutionFolderPath>
+  <ProjectFolderName>BuddyMemoryAllocation</ProjectFolderName>
+  <ProjectName>BuddyMemoryAllocation</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:07:42 AM
+BuddyMemoryAllocation</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:09:04 AM
+BuddyMemoryAllocation</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BuddyMemoryAllocation -> D:\Code2025\RavenWork\BuddyMemoryAllocation\BuddyMemoryAllocation\bin\Debug\net9.0\BuddyMemoryAllocation.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+]]></string>
+    <string>WritePatch: Code is Complete.
+BuddyMemoryAllocation</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:09:18 AM
+BuddyMemoryAllocationTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:10:04 AM
+BuddyMemoryAllocationTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\BuddyMemoryAllocation\BuddyMemoryAllocationTest\BuddyMemoryAllocationTest.csproj (in 198 ms).
+  1 of 2 projects are up-to-date for restore.
+  BuddyMemoryAllocation -> D:\Code2025\RavenWork\BuddyMemoryAllocation\BuddyMemoryAllocation\bin\Debug\net9.0\BuddyMemoryAllocation.dll
+  BuddyMemoryAllocationTest -> D:\Code2025\RavenWork\BuddyMemoryAllocation\BuddyMemoryAllocationTest\bin\Debug\net9.0\BuddyMemoryAllocationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.43
+]]></string>
+    <string>WritePatch: Code is Complete.
+BuddyMemoryAllocationTest</string>
+    <string>[INFO 2025-02-23 10:10:18 AM] Starting test for project: D:\Code2025\RavenWork\BuddyMemoryAllocation\BuddyMemoryAllocationTest\BuddyMemoryAllocationTest.csproj</string>
+    <string>[INFO 2025-02-23 10:10:18 AM] Starting test for project: D:\Code2025\RavenWork\BuddyMemoryAllocation\BuddyMemoryAllocationTest\BuddyMemoryAllocationTest.csproj</string>
+    <string>[INFO 2025-02-23 10:10:18 AM] Starting test for project: D:\Code2025\RavenWork\BuddyMemoryAllocation\BuddyMemoryAllocationTest\BuddyMemoryAllocationTest.csproj</string>
+    <string>[INFO 2025-02-23 10:10:18 AM] Starting test for project: D:\Code2025\RavenWork\BuddyMemoryAllocation\BuddyMemoryAllocationTest\BuddyMemoryAllocationTest.csproj</string>
+    <string>[INFO 2025-02-23 10:10:18 AM] Starting test for project: D:\Code2025\RavenWork\BuddyMemoryAllocation\BuddyMemoryAllocationTest\BuddyMemoryAllocationTest.csproj</string>
+    <string>[INFO 2025-02-23 10:10:18 AM] Starting test for project: D:\Code2025\RavenWork\BuddyMemoryAllocation\BuddyMemoryAllocationTest\BuddyMemoryAllocationTest.csproj</string>
+    <string>[INFO 2025-02-23 10:10:18 AM] Starting test for project: D:\Code2025\RavenWork\BuddyMemoryAllocation\BuddyMemoryAllocationTest\BuddyMemoryAllocationTest.csproj</string>
+    <string>[INFO 2025-02-23 10:10:18 AM] Starting test for project: D:\Code2025\RavenWork\BuddyMemoryAllocation\BuddyMemoryAllocationTest\BuddyMemoryAllocationTest.csproj</string>
+    <string>[INFO 2025-02-23 10:10:18 AM] Starting test for project: D:\Code2025\RavenWork\BuddyMemoryAllocation\BuddyMemoryAllocationTest\BuddyMemoryAllocationTest.csproj</string>
+    <string>[INFO 2025-02-23 10:10:18 AM] Starting test for project: D:\Code2025\RavenWork\BuddyMemoryAllocation\BuddyMemoryAllocationTest\BuddyMemoryAllocationTest.csproj</string>
+    <string>[INFO 2025-02-23 10:10:18 AM] Starting test for project: D:\Code2025\RavenWork\BuddyMemoryAllocation\BuddyMemoryAllocationTest\BuddyMemoryAllocationTest.csproj</string>
+    <string>[INFO 2025-02-23 10:10:18 AM] Starting test for project: D:\Code2025\RavenWork\BuddyMemoryAllocation\BuddyMemoryAllocationTest\BuddyMemoryAllocationTest.csproj</string>
+    <string>[INFO 2025-02-23 10:10:18 AM] Starting test for project: D:\Code2025\RavenWork\BuddyMemoryAllocation\BuddyMemoryAllocationTest\BuddyMemoryAllocationTest.csproj</string>
+    <string>[INFO 2025-02-23 10:10:18 AM] Starting test for project: D:\Code2025\RavenWork\BuddyMemoryAllocation\BuddyMemoryAllocationTest\BuddyMemoryAllocationTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 10:10:19 AM]   BuddyMemoryAllocation -> D:\Code2025\RavenWork\BuddyMemoryAllocation\BuddyMemoryAllocation\bin\Debug\net9.0\BuddyMemoryAllocation.dll
+[OUTPUT 2025-02-23 10:10:21 AM]   Passed TestFreeMerge [4 ms]
+[OUTPUT 2025-02-23 10:10:21 AM]   Passed TestAllocateZeroAndNegative [4 ms]
+[OUTPUT 2025-02-23 10:10:19 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:10:21 AM] Test Parallelization enabled for D:\Code2025\RavenWork\BuddyMemoryAllocation\BuddyMemoryAllocationTest\bin\Debug\net9.0\BuddyMemoryAllocationTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:10:20 AM] D:\Code2025\RavenWork\BuddyMemoryAllocation\BuddyMemoryAllocationTest\bin\Debug\net9.0\BuddyMemoryAllocationTest.dll
+[OUTPUT 2025-02-23 10:10:20 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:10:20 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:10:20 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:10:20 AM] Test run for D:\Code2025\RavenWork\BuddyMemoryAllocation\BuddyMemoryAllocationTest\bin\Debug\net9.0\BuddyMemoryAllocationTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:10:19 AM]   BuddyMemoryAllocationTest -> D:\Code2025\RavenWork\BuddyMemoryAllocation\BuddyMemoryAllocationTest\bin\Debug\net9.0\BuddyMemoryAllocationTest.dll
+[OUTPUT 2025-02-23 10:10:19 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 10:10:21 AM] All tests passed successfully.
+[INFO 2025-02-23 10:10:21 AM] Test process completed. Duration: 3.21 seconds.
+[INFO 2025-02-23 10:10:21 AM] Process exited with code 0.
+[INFO 2025-02-23 10:10:18 AM] Command: dotnet test "D:\Code2025\RavenWork\BuddyMemoryAllocation\BuddyMemoryAllocationTest\BuddyMemoryAllocationTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:10:18 AM] Starting test for project: D:\Code2025\RavenWork\BuddyMemoryAllocation\BuddyMemoryAllocationTest\BuddyMemoryAllocationTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 10:07:42 AM
+BuddyMemoryAllocation
+
+WritePatch ran compiler. 2025-02-23 10:09:04 AM
+BuddyMemoryAllocation
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BuddyMemoryAllocation -> D:\Code2025\RavenWork\BuddyMemoryAllocation\BuddyMemoryAllocation\bin\Debug\net9.0\BuddyMemoryAllocation.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+
+
+WritePatch: Code is Complete.
+BuddyMemoryAllocation
+
+WritePatch Started CycleStep. 2025-02-23 10:09:18 AM
+BuddyMemoryAllocationTest
+
+WritePatch ran compiler. 2025-02-23 10:10:04 AM
+BuddyMemoryAllocationTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\BuddyMemoryAllocation\BuddyMemoryAllocationTest\BuddyMemoryAllocationTest.csproj (in 198 ms).
+  1 of 2 projects are up-to-date for restore.
+  BuddyMemoryAllocation -> D:\Code2025\RavenWork\BuddyMemoryAllocation\BuddyMemoryAllocation\bin\Debug\net9.0\BuddyMemoryAllocation.dll
+  BuddyMemoryAllocationTest -> D:\Code2025\RavenWork\BuddyMemoryAllocation\BuddyMemoryAllocationTest\bin\Debug\net9.0\BuddyMemoryAllocationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.43
+
+
+WritePatch: Code is Complete.
+BuddyMemoryAllocationTest
+
+TestResult:
+[OUTPUT 2025-02-23 10:10:19 AM]   BuddyMemoryAllocation -> D:\Code2025\RavenWork\BuddyMemoryAllocation\BuddyMemoryAllocation\bin\Debug\net9.0\BuddyMemoryAllocation.dll
+[OUTPUT 2025-02-23 10:10:21 AM]   Passed TestFreeMerge [4 ms]
+[OUTPUT 2025-02-23 10:10:21 AM]   Passed TestAllocateZeroAndNegative [4 ms]
+[OUTPUT 2025-02-23 10:10:19 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:10:21 AM] Test Parallelization enabled for D:\Code2025\RavenWork\BuddyMemoryAllocation\BuddyMemoryAllocationTest\bin\Debug\net9.0\BuddyMemoryAllocationTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:10:20 AM] D:\Code2025\RavenWork\BuddyMemoryAllocation\BuddyMemoryAllocationTest\bin\Debug\net9.0\BuddyMemoryAllocationTest.dll
+[OUTPUT 2025-02-23 10:10:20 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:10:20 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:10:20 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:10:20 AM] Test run for D:\Code2025\RavenWork\BuddyMemoryAllocation\BuddyMemoryAllocationTest\bin\Debug\net9.0\BuddyMemoryAllocationTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:10:19 AM]   BuddyMemoryAllocationTest -> D:\Code2025\RavenWork\BuddyMemoryAllocation\BuddyMemoryAllocationTest\bin\Debug\net9.0\BuddyMemoryAllocationTest.dll
+[OUTPUT 2025-02-23 10:10:19 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 10:10:21 AM] All tests passed successfully.
+[INFO 2025-02-23 10:10:21 AM] Test process completed. Duration: 3.21 seconds.
+[INFO 2025-02-23 10:10:21 AM] Process exited with code 0.
+[INFO 2025-02-23 10:10:18 AM] Command: dotnet test "D:\Code2025\RavenWork\BuddyMemoryAllocation\BuddyMemoryAllocationTest\BuddyMemoryAllocationTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:10:18 AM] Starting test for project: D:\Code2025\RavenWork\BuddyMemoryAllocation\BuddyMemoryAllocationTest\BuddyMemoryAllocationTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
