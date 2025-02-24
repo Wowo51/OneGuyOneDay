@@ -1,0 +1,441 @@
+<ActRecord>
+  <ProjectName>QrAlgorithmEigenvalues</ProjectName>
+  <ProjectDescription>QR algorithm – An algorithm for computing all eigenvalues (and, optionally, eigenvectors) of a matrix.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>QR algorithm – An algorithm for computing all eigenvalues (and, optionally, eigenvectors) of a matrix.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\QrAlgorithmEigenvalues</SolutionFolderPath>
+  <ProjectFolderName>QrAlgorithmEigenvalues</ProjectFolderName>
+  <ProjectName>QrAlgorithmEigenvalues</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:07:16 AM
+QrAlgorithmEigenvalues</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:10:13 AM
+QrAlgorithmEigenvalues</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvalues\QRAlgorithm.cs(9,29): warning CS8618: Non-nullable property 'Eigenvalues' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvalues\QrAlgorithmEigenvalues.csproj]
+  QrAlgorithmEigenvalues -> D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvalues\bin\Debug\net9.0\QrAlgorithmEigenvalues.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvalues\QRAlgorithm.cs(9,29): warning CS8618: Non-nullable property 'Eigenvalues' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvalues\QrAlgorithmEigenvalues.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+]]></string>
+    <string>WritePatch: Compile failed.
+QrAlgorithmEigenvalues</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:10:14 AM
+QrAlgorithmEigenvalues</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:10:14 AM
+QrAlgorithmEigenvalues</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:10:58 AM
+QrAlgorithmEigenvalues</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  QrAlgorithmEigenvalues -> D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvalues\bin\Debug\net9.0\QrAlgorithmEigenvalues.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.73
+]]></string>
+    <string>WritePatch: Code is Complete.
+QrAlgorithmEigenvalues</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:11:20 AM
+QrAlgorithmEigenvaluesTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:12:44 AM
+QrAlgorithmEigenvaluesTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\QrAlgorithmEigenvaluesTest.csproj (in 183 ms).
+  1 of 2 projects are up-to-date for restore.
+  QrAlgorithmEigenvalues -> D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvalues\bin\Debug\net9.0\QrAlgorithmEigenvalues.dll
+D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\QRAlgorithmTests.cs(14,112): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\QrAlgorithmEigenvaluesTest.csproj]
+  QrAlgorithmEigenvaluesTest -> D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\bin\Debug\net9.0\QrAlgorithmEigenvaluesTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\QRAlgorithmTests.cs(14,112): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\QrAlgorithmEigenvaluesTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.42
+]]></string>
+    <string>WritePatch: Compile failed.
+QrAlgorithmEigenvaluesTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:12:45 AM
+QrAlgorithmEigenvaluesTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:12:45 AM
+QrAlgorithmEigenvaluesTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:15:10 AM
+QrAlgorithmEigenvaluesTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  QrAlgorithmEigenvalues -> D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvalues\bin\Debug\net9.0\QrAlgorithmEigenvalues.dll
+D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\QRAlgorithmTests.cs(14,112): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\QrAlgorithmEigenvaluesTest.csproj]
+  QrAlgorithmEigenvaluesTest -> D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\bin\Debug\net9.0\QrAlgorithmEigenvaluesTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\QRAlgorithmTests.cs(14,112): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\QrAlgorithmEigenvaluesTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.91
+]]></string>
+    <string>WritePatch: Compile failed.
+QrAlgorithmEigenvaluesTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:15:11 AM
+QrAlgorithmEigenvaluesTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:15:11 AM
+QrAlgorithmEigenvaluesTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:16:13 AM
+QrAlgorithmEigenvaluesTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  QrAlgorithmEigenvalues -> D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvalues\bin\Debug\net9.0\QrAlgorithmEigenvalues.dll
+  QrAlgorithmEigenvaluesTest -> D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\bin\Debug\net9.0\QrAlgorithmEigenvaluesTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+]]></string>
+    <string>WritePatch: Code is not Complete.
+QrAlgorithmEigenvaluesTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:16:41 AM
+QrAlgorithmEigenvaluesTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  QrAlgorithmEigenvalues -> D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvalues\bin\Debug\net9.0\QrAlgorithmEigenvalues.dll
+  QrAlgorithmEigenvaluesTest -> D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\bin\Debug\net9.0\QrAlgorithmEigenvaluesTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+
+</CompilerResponse>
+2025-02-23 7:16:41 AM
+QrAlgorithmEigenvaluesTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 7:16:42 AM
+QrAlgorithmEigenvalues</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  QrAlgorithmEigenvalues -> D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvalues\bin\Debug\net9.0\QrAlgorithmEigenvalues.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.71
+]]></string>
+    <string>WritePatch: Code is Complete.
+QrAlgorithmEigenvalues</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:17:26 AM
+QrAlgorithmEigenvaluesTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  QrAlgorithmEigenvalues -> D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvalues\bin\Debug\net9.0\QrAlgorithmEigenvalues.dll
+  QrAlgorithmEigenvaluesTest -> D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\bin\Debug\net9.0\QrAlgorithmEigenvaluesTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+]]></string>
+    <string>WritePatch: Code is Complete.
+QrAlgorithmEigenvaluesTest</string>
+    <string>[INFO 2025-02-23 7:18:07 AM] Starting test for project: D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\QrAlgorithmEigenvaluesTest.csproj</string>
+    <string>[INFO 2025-02-23 7:18:07 AM] Starting test for project: D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\QrAlgorithmEigenvaluesTest.csproj</string>
+    <string>[INFO 2025-02-23 7:18:07 AM] Starting test for project: D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\QrAlgorithmEigenvaluesTest.csproj</string>
+    <string>[INFO 2025-02-23 7:18:07 AM] Starting test for project: D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\QrAlgorithmEigenvaluesTest.csproj</string>
+    <string>[INFO 2025-02-23 7:18:07 AM] Starting test for project: D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\QrAlgorithmEigenvaluesTest.csproj</string>
+    <string>[INFO 2025-02-23 7:18:07 AM] Starting test for project: D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\QrAlgorithmEigenvaluesTest.csproj</string>
+    <string>[INFO 2025-02-23 7:18:07 AM] Starting test for project: D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\QrAlgorithmEigenvaluesTest.csproj</string>
+    <string>[INFO 2025-02-23 7:18:07 AM] Starting test for project: D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\QrAlgorithmEigenvaluesTest.csproj</string>
+    <string>[INFO 2025-02-23 7:18:07 AM] Starting test for project: D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\QrAlgorithmEigenvaluesTest.csproj</string>
+    <string>[INFO 2025-02-23 7:18:07 AM] Starting test for project: D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\QrAlgorithmEigenvaluesTest.csproj</string>
+    <string>[INFO 2025-02-23 7:18:07 AM] Starting test for project: D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\QrAlgorithmEigenvaluesTest.csproj</string>
+    <string>[INFO 2025-02-23 7:18:07 AM] Starting test for project: D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\QrAlgorithmEigenvaluesTest.csproj</string>
+    <string>[INFO 2025-02-23 7:18:07 AM] Starting test for project: D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\QrAlgorithmEigenvaluesTest.csproj</string>
+    <string>[INFO 2025-02-23 7:18:07 AM] Starting test for project: D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\QrAlgorithmEigenvaluesTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 7:18:12 AM]   Passed TestCompute_NonSquareMatrix [4 ms]
+[OUTPUT 2025-02-23 7:18:11 AM]   Passed TestCompute_DiagonalMatrix [4 ms]
+[OUTPUT 2025-02-23 7:18:10 AM] Test Parallelization enabled for D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\bin\Debug\net9.0\QrAlgorithmEigenvaluesTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:18:10 AM] D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\bin\Debug\net9.0\QrAlgorithmEigenvaluesTest.dll
+[OUTPUT 2025-02-23 7:18:10 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:18:10 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:18:08 AM]   QrAlgorithmEigenvalues -> D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvalues\bin\Debug\net9.0\QrAlgorithmEigenvalues.dll
+[OUTPUT 2025-02-23 7:18:09 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:18:09 AM] Test run for D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\bin\Debug\net9.0\QrAlgorithmEigenvaluesTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:18:09 AM]   QrAlgorithmEigenvaluesTest -> D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\bin\Debug\net9.0\QrAlgorithmEigenvaluesTest.dll
+[OUTPUT 2025-02-23 7:18:08 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:18:08 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 7:18:11 AM] All tests passed successfully.
+[INFO 2025-02-23 7:18:11 AM] Test process completed. Duration: 4.31 seconds.
+[INFO 2025-02-23 7:18:11 AM] Process exited with code 0.
+[INFO 2025-02-23 7:18:07 AM] Command: dotnet test "D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\QrAlgorithmEigenvaluesTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:18:07 AM] Starting test for project: D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\QrAlgorithmEigenvaluesTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 7:07:16 AM
+QrAlgorithmEigenvalues
+
+WritePatch ran compiler. 2025-02-23 7:10:13 AM
+QrAlgorithmEigenvalues
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvalues\QRAlgorithm.cs(9,29): warning CS8618: Non-nullable property 'Eigenvalues' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvalues\QrAlgorithmEigenvalues.csproj]
+  QrAlgorithmEigenvalues -> D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvalues\bin\Debug\net9.0\QrAlgorithmEigenvalues.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvalues\QRAlgorithm.cs(9,29): warning CS8618: Non-nullable property 'Eigenvalues' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvalues\QrAlgorithmEigenvalues.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+
+
+WritePatch: Compile failed.
+QrAlgorithmEigenvalues
+
+Finished WritePatch cycle step.
+2025-02-23 7:10:14 AM
+QrAlgorithmEigenvalues
+
+WritePatch Started CycleStep. 2025-02-23 7:10:14 AM
+QrAlgorithmEigenvalues
+
+WritePatch ran compiler. 2025-02-23 7:10:58 AM
+QrAlgorithmEigenvalues
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  QrAlgorithmEigenvalues -> D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvalues\bin\Debug\net9.0\QrAlgorithmEigenvalues.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.73
+
+
+WritePatch: Code is Complete.
+QrAlgorithmEigenvalues
+
+WritePatch Started CycleStep. 2025-02-23 7:11:20 AM
+QrAlgorithmEigenvaluesTest
+
+WritePatch ran compiler. 2025-02-23 7:12:44 AM
+QrAlgorithmEigenvaluesTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\QrAlgorithmEigenvaluesTest.csproj (in 183 ms).
+  1 of 2 projects are up-to-date for restore.
+  QrAlgorithmEigenvalues -> D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvalues\bin\Debug\net9.0\QrAlgorithmEigenvalues.dll
+D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\QRAlgorithmTests.cs(14,112): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\QrAlgorithmEigenvaluesTest.csproj]
+  QrAlgorithmEigenvaluesTest -> D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\bin\Debug\net9.0\QrAlgorithmEigenvaluesTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\QRAlgorithmTests.cs(14,112): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\QrAlgorithmEigenvaluesTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.42
+
+
+WritePatch: Compile failed.
+QrAlgorithmEigenvaluesTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:12:45 AM
+QrAlgorithmEigenvaluesTest
+
+WritePatch Started CycleStep. 2025-02-23 7:12:45 AM
+QrAlgorithmEigenvaluesTest
+
+WritePatch ran compiler. 2025-02-23 7:15:10 AM
+QrAlgorithmEigenvaluesTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  QrAlgorithmEigenvalues -> D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvalues\bin\Debug\net9.0\QrAlgorithmEigenvalues.dll
+D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\QRAlgorithmTests.cs(14,112): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\QrAlgorithmEigenvaluesTest.csproj]
+  QrAlgorithmEigenvaluesTest -> D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\bin\Debug\net9.0\QrAlgorithmEigenvaluesTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\QRAlgorithmTests.cs(14,112): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\QrAlgorithmEigenvaluesTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.91
+
+
+WritePatch: Compile failed.
+QrAlgorithmEigenvaluesTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:15:11 AM
+QrAlgorithmEigenvaluesTest
+
+WritePatch Started CycleStep. 2025-02-23 7:15:11 AM
+QrAlgorithmEigenvaluesTest
+
+WritePatch ran compiler. 2025-02-23 7:16:13 AM
+QrAlgorithmEigenvaluesTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  QrAlgorithmEigenvalues -> D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvalues\bin\Debug\net9.0\QrAlgorithmEigenvalues.dll
+  QrAlgorithmEigenvaluesTest -> D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\bin\Debug\net9.0\QrAlgorithmEigenvaluesTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+
+
+WritePatch: Code is not Complete.
+QrAlgorithmEigenvaluesTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:16:41 AM
+QrAlgorithmEigenvaluesTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  QrAlgorithmEigenvalues -> D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvalues\bin\Debug\net9.0\QrAlgorithmEigenvalues.dll
+  QrAlgorithmEigenvaluesTest -> D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\bin\Debug\net9.0\QrAlgorithmEigenvaluesTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+
+</CompilerResponse>
+2025-02-23 7:16:41 AM
+QrAlgorithmEigenvaluesTest
+
+WritePatch ran compiler. 2025-02-23 7:16:42 AM
+QrAlgorithmEigenvalues
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  QrAlgorithmEigenvalues -> D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvalues\bin\Debug\net9.0\QrAlgorithmEigenvalues.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.71
+
+
+WritePatch: Code is Complete.
+QrAlgorithmEigenvalues
+
+WritePatch ran compiler. 2025-02-23 7:17:26 AM
+QrAlgorithmEigenvaluesTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  QrAlgorithmEigenvalues -> D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvalues\bin\Debug\net9.0\QrAlgorithmEigenvalues.dll
+  QrAlgorithmEigenvaluesTest -> D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\bin\Debug\net9.0\QrAlgorithmEigenvaluesTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+
+
+WritePatch: Code is Complete.
+QrAlgorithmEigenvaluesTest
+
+TestResult:
+[OUTPUT 2025-02-23 7:18:12 AM]   Passed TestCompute_NonSquareMatrix [4 ms]
+[OUTPUT 2025-02-23 7:18:11 AM]   Passed TestCompute_DiagonalMatrix [4 ms]
+[OUTPUT 2025-02-23 7:18:10 AM] Test Parallelization enabled for D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\bin\Debug\net9.0\QrAlgorithmEigenvaluesTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:18:10 AM] D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\bin\Debug\net9.0\QrAlgorithmEigenvaluesTest.dll
+[OUTPUT 2025-02-23 7:18:10 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:18:10 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:18:08 AM]   QrAlgorithmEigenvalues -> D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvalues\bin\Debug\net9.0\QrAlgorithmEigenvalues.dll
+[OUTPUT 2025-02-23 7:18:09 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:18:09 AM] Test run for D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\bin\Debug\net9.0\QrAlgorithmEigenvaluesTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:18:09 AM]   QrAlgorithmEigenvaluesTest -> D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\bin\Debug\net9.0\QrAlgorithmEigenvaluesTest.dll
+[OUTPUT 2025-02-23 7:18:08 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:18:08 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 7:18:11 AM] All tests passed successfully.
+[INFO 2025-02-23 7:18:11 AM] Test process completed. Duration: 4.31 seconds.
+[INFO 2025-02-23 7:18:11 AM] Process exited with code 0.
+[INFO 2025-02-23 7:18:07 AM] Command: dotnet test "D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\QrAlgorithmEigenvaluesTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:18:07 AM] Starting test for project: D:\Code2025\RavenWork\QrAlgorithmEigenvalues\QrAlgorithmEigenvaluesTest\QrAlgorithmEigenvaluesTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
