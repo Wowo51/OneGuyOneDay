@@ -1,0 +1,156 @@
+<ActRecord>
+  <ProjectName>HammingWeight</ProjectName>
+  <ProjectDescription>Hamming weight (population count): Computes the number of 1 bits in a binary word</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Hamming weight (population count): Computes the number of 1 bits in a binary word</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\HammingWeight</SolutionFolderPath>
+  <ProjectFolderName>HammingWeight</ProjectFolderName>
+  <ProjectName>HammingWeight</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:17:35 AM
+HammingWeight</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:17:53 AM
+HammingWeight</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HammingWeight -> D:\Code2025\RavenWork\HammingWeight\HammingWeight\bin\Debug\net9.0\HammingWeight.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.88
+]]></string>
+    <string>WritePatch: Code is Complete.
+HammingWeight</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:18:02 AM
+HammingWeightTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:18:22 AM
+HammingWeightTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\HammingWeight\HammingWeightTest\HammingWeightTest.csproj (in 202 ms).
+  1 of 2 projects are up-to-date for restore.
+  HammingWeight -> D:\Code2025\RavenWork\HammingWeight\HammingWeight\bin\Debug\net9.0\HammingWeight.dll
+  HammingWeightTest -> D:\Code2025\RavenWork\HammingWeight\HammingWeightTest\bin\Debug\net9.0\HammingWeightTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.41
+]]></string>
+    <string>WritePatch: Code is Complete.
+HammingWeightTest</string>
+    <string>[INFO 2025-02-23 10:18:36 AM] Starting test for project: D:\Code2025\RavenWork\HammingWeight\HammingWeightTest\HammingWeightTest.csproj</string>
+    <string>[INFO 2025-02-23 10:18:36 AM] Starting test for project: D:\Code2025\RavenWork\HammingWeight\HammingWeightTest\HammingWeightTest.csproj</string>
+    <string>[INFO 2025-02-23 10:18:36 AM] Starting test for project: D:\Code2025\RavenWork\HammingWeight\HammingWeightTest\HammingWeightTest.csproj</string>
+    <string>[INFO 2025-02-23 10:18:36 AM] Starting test for project: D:\Code2025\RavenWork\HammingWeight\HammingWeightTest\HammingWeightTest.csproj</string>
+    <string>[INFO 2025-02-23 10:18:36 AM] Starting test for project: D:\Code2025\RavenWork\HammingWeight\HammingWeightTest\HammingWeightTest.csproj</string>
+    <string>[INFO 2025-02-23 10:18:36 AM] Starting test for project: D:\Code2025\RavenWork\HammingWeight\HammingWeightTest\HammingWeightTest.csproj</string>
+    <string>[INFO 2025-02-23 10:18:36 AM] Starting test for project: D:\Code2025\RavenWork\HammingWeight\HammingWeightTest\HammingWeightTest.csproj</string>
+    <string>[INFO 2025-02-23 10:18:36 AM] Starting test for project: D:\Code2025\RavenWork\HammingWeight\HammingWeightTest\HammingWeightTest.csproj</string>
+    <string>[INFO 2025-02-23 10:18:36 AM] Starting test for project: D:\Code2025\RavenWork\HammingWeight\HammingWeightTest\HammingWeightTest.csproj</string>
+    <string>[INFO 2025-02-23 10:18:36 AM] Starting test for project: D:\Code2025\RavenWork\HammingWeight\HammingWeightTest\HammingWeightTest.csproj</string>
+    <string>[INFO 2025-02-23 10:18:36 AM] Starting test for project: D:\Code2025\RavenWork\HammingWeight\HammingWeightTest\HammingWeightTest.csproj</string>
+    <string>[INFO 2025-02-23 10:18:36 AM] Starting test for project: D:\Code2025\RavenWork\HammingWeight\HammingWeightTest\HammingWeightTest.csproj</string>
+    <string>[INFO 2025-02-23 10:18:36 AM] Starting test for project: D:\Code2025\RavenWork\HammingWeight\HammingWeightTest\HammingWeightTest.csproj</string>
+    <string>[INFO 2025-02-23 10:18:36 AM] Starting test for project: D:\Code2025\RavenWork\HammingWeight\HammingWeightTest\HammingWeightTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 10:18:39 AM] All tests passed successfully.
+[INFO 2025-02-23 10:18:39 AM] Test process completed. Duration: 3.04 seconds.
+[INFO 2025-02-23 10:18:39 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 10:18:39 AM]   Passed Compute_KnownValues (1,1) [< 1 ms]
+[OUTPUT 2025-02-23 10:18:39 AM]   Passed Compute_KnownValues (4,1) [< 1 ms]
+[OUTPUT 2025-02-23 10:18:38 AM]   HammingWeightTest -> D:\Code2025\RavenWork\HammingWeight\HammingWeightTest\bin\Debug\net9.0\HammingWeightTest.dll
+[OUTPUT 2025-02-23 10:18:39 AM] Test Parallelization enabled for D:\Code2025\RavenWork\HammingWeight\HammingWeightTest\bin\Debug\net9.0\HammingWeightTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:18:39 AM] D:\Code2025\RavenWork\HammingWeight\HammingWeightTest\bin\Debug\net9.0\HammingWeightTest.dll
+[OUTPUT 2025-02-23 10:18:38 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:18:38 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:18:38 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:18:38 AM] Test run for D:\Code2025\RavenWork\HammingWeight\HammingWeightTest\bin\Debug\net9.0\HammingWeightTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:18:37 AM]   HammingWeight -> D:\Code2025\RavenWork\HammingWeight\HammingWeight\bin\Debug\net9.0\HammingWeight.dll
+[OUTPUT 2025-02-23 10:18:37 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:18:37 AM]   Determining projects to restore...
+[INFO 2025-02-23 10:18:36 AM] Command: dotnet test "D:\Code2025\RavenWork\HammingWeight\HammingWeightTest\HammingWeightTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:18:36 AM] Starting test for project: D:\Code2025\RavenWork\HammingWeight\HammingWeightTest\HammingWeightTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 10:17:35 AM
+HammingWeight
+
+WritePatch ran compiler. 2025-02-23 10:17:53 AM
+HammingWeight
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HammingWeight -> D:\Code2025\RavenWork\HammingWeight\HammingWeight\bin\Debug\net9.0\HammingWeight.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.88
+
+
+WritePatch: Code is Complete.
+HammingWeight
+
+WritePatch Started CycleStep. 2025-02-23 10:18:02 AM
+HammingWeightTest
+
+WritePatch ran compiler. 2025-02-23 10:18:22 AM
+HammingWeightTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\HammingWeight\HammingWeightTest\HammingWeightTest.csproj (in 202 ms).
+  1 of 2 projects are up-to-date for restore.
+  HammingWeight -> D:\Code2025\RavenWork\HammingWeight\HammingWeight\bin\Debug\net9.0\HammingWeight.dll
+  HammingWeightTest -> D:\Code2025\RavenWork\HammingWeight\HammingWeightTest\bin\Debug\net9.0\HammingWeightTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.41
+
+
+WritePatch: Code is Complete.
+HammingWeightTest
+
+TestResult:
+[SUCCESS 2025-02-23 10:18:39 AM] All tests passed successfully.
+[INFO 2025-02-23 10:18:39 AM] Test process completed. Duration: 3.04 seconds.
+[INFO 2025-02-23 10:18:39 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 10:18:39 AM]   Passed Compute_KnownValues (1,1) [< 1 ms]
+[OUTPUT 2025-02-23 10:18:39 AM]   Passed Compute_KnownValues (4,1) [< 1 ms]
+[OUTPUT 2025-02-23 10:18:38 AM]   HammingWeightTest -> D:\Code2025\RavenWork\HammingWeight\HammingWeightTest\bin\Debug\net9.0\HammingWeightTest.dll
+[OUTPUT 2025-02-23 10:18:39 AM] Test Parallelization enabled for D:\Code2025\RavenWork\HammingWeight\HammingWeightTest\bin\Debug\net9.0\HammingWeightTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:18:39 AM] D:\Code2025\RavenWork\HammingWeight\HammingWeightTest\bin\Debug\net9.0\HammingWeightTest.dll
+[OUTPUT 2025-02-23 10:18:38 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:18:38 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:18:38 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:18:38 AM] Test run for D:\Code2025\RavenWork\HammingWeight\HammingWeightTest\bin\Debug\net9.0\HammingWeightTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:18:37 AM]   HammingWeight -> D:\Code2025\RavenWork\HammingWeight\HammingWeight\bin\Debug\net9.0\HammingWeight.dll
+[OUTPUT 2025-02-23 10:18:37 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:18:37 AM]   Determining projects to restore...
+[INFO 2025-02-23 10:18:36 AM] Command: dotnet test "D:\Code2025\RavenWork\HammingWeight\HammingWeightTest\HammingWeightTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:18:36 AM] Starting test for project: D:\Code2025\RavenWork\HammingWeight\HammingWeightTest\HammingWeightTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
