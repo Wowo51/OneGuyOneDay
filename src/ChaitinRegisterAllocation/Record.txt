@@ -1,0 +1,447 @@
+<ActRecord>
+  <ProjectName>ChaitinRegisterAllocation</ProjectName>
+  <ProjectDescription><![CDATA[Chaitin's algorithm: A graph‑coloring register allocation algorithm using cost/degree as a spill metric]]></ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification><![CDATA[Chaitin's algorithm: A graph‑coloring register allocation algorithm using cost/degree as a spill metric]]]]><![CDATA[></WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\ChaitinRegisterAllocation</SolutionFolderPath>
+  <ProjectFolderName>ChaitinRegisterAllocation</ProjectFolderName>
+  <ProjectName>ChaitinRegisterAllocation</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:41:55 AM
+ChaitinRegisterAllocation</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:42:50 AM
+ChaitinRegisterAllocation</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocation\InterferenceGraph.cs(33,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocation\ChaitinRegisterAllocation.csproj]
+D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocation\ChaitinRegisterAllocator.cs(19,39): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocation\ChaitinRegisterAllocation.csproj]
+  ChaitinRegisterAllocation -> D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocation\bin\Debug\net9.0\ChaitinRegisterAllocation.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocation\InterferenceGraph.cs(33,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocation\ChaitinRegisterAllocation.csproj]
+D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocation\ChaitinRegisterAllocator.cs(19,39): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocation\ChaitinRegisterAllocation.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.76
+]]></string>
+    <string>WritePatch: Compile failed.
+ChaitinRegisterAllocation</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:42:51 AM
+ChaitinRegisterAllocation</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:42:51 AM
+ChaitinRegisterAllocation</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:43:35 AM
+ChaitinRegisterAllocation</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ChaitinRegisterAllocation -> D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocation\bin\Debug\net9.0\ChaitinRegisterAllocation.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.79
+]]></string>
+    <string>WritePatch: Code is Complete.
+ChaitinRegisterAllocation</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:43:51 AM
+ChaitinRegisterAllocationTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:45:13 AM
+ChaitinRegisterAllocationTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocationTest.csproj (in 205 ms).
+  1 of 2 projects are up-to-date for restore.
+  ChaitinRegisterAllocation -> D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocation\bin\Debug\net9.0\ChaitinRegisterAllocation.dll
+D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocatorTests.cs(105,78): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocationTest.csproj]
+  ChaitinRegisterAllocationTest -> D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\bin\Debug\net9.0\ChaitinRegisterAllocationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocatorTests.cs(105,78): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocationTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.44
+]]></string>
+    <string>WritePatch: Compile failed.
+ChaitinRegisterAllocationTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:45:14 AM
+ChaitinRegisterAllocationTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:45:14 AM
+ChaitinRegisterAllocationTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:45:44 AM
+ChaitinRegisterAllocationTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ChaitinRegisterAllocation -> D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocation\bin\Debug\net9.0\ChaitinRegisterAllocation.dll
+  ChaitinRegisterAllocationTest -> D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\bin\Debug\net9.0\ChaitinRegisterAllocationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.90
+]]></string>
+    <string>WritePatch: Code is not Complete.
+ChaitinRegisterAllocationTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:46:02 AM
+ChaitinRegisterAllocationTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:46:02 AM
+ChaitinRegisterAllocationTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:47:32 AM
+ChaitinRegisterAllocationTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ChaitinRegisterAllocation -> D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocation\bin\Debug\net9.0\ChaitinRegisterAllocation.dll
+D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\GraphStructureTests.cs(48,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocationTest.csproj]
+D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocatorTests.cs(105,78): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocationTest.csproj]
+  ChaitinRegisterAllocationTest -> D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\bin\Debug\net9.0\ChaitinRegisterAllocationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\GraphStructureTests.cs(48,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocationTest.csproj]
+D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocatorTests.cs(105,78): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocationTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.03
+]]></string>
+    <string>WritePatch: Compile failed.
+ChaitinRegisterAllocationTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:47:33 AM
+ChaitinRegisterAllocationTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ChaitinRegisterAllocation -> D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocation\bin\Debug\net9.0\ChaitinRegisterAllocation.dll
+D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\GraphStructureTests.cs(48,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocationTest.csproj]
+D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocatorTests.cs(105,78): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocationTest.csproj]
+  ChaitinRegisterAllocationTest -> D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\bin\Debug\net9.0\ChaitinRegisterAllocationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\GraphStructureTests.cs(48,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocationTest.csproj]
+D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocatorTests.cs(105,78): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocationTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.03
+
+</CompilerResponse>
+2025-02-23 7:47:33 AM
+ChaitinRegisterAllocationTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 7:47:34 AM
+ChaitinRegisterAllocation</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ChaitinRegisterAllocation -> D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocation\bin\Debug\net9.0\ChaitinRegisterAllocation.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.69
+]]></string>
+    <string>WritePatch: Code is Complete.
+ChaitinRegisterAllocation</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:48:21 AM
+ChaitinRegisterAllocationTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ChaitinRegisterAllocation -> D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocation\bin\Debug\net9.0\ChaitinRegisterAllocation.dll
+  ChaitinRegisterAllocationTest -> D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\bin\Debug\net9.0\ChaitinRegisterAllocationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.90
+]]></string>
+    <string>WritePatch: Code is Complete.
+ChaitinRegisterAllocationTest</string>
+    <string>[INFO 2025-02-23 7:48:43 AM] Starting test for project: D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocationTest.csproj</string>
+    <string>[INFO 2025-02-23 7:48:43 AM] Starting test for project: D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocationTest.csproj</string>
+    <string>[INFO 2025-02-23 7:48:43 AM] Starting test for project: D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocationTest.csproj</string>
+    <string>[INFO 2025-02-23 7:48:43 AM] Starting test for project: D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocationTest.csproj</string>
+    <string>[INFO 2025-02-23 7:48:43 AM] Starting test for project: D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocationTest.csproj</string>
+    <string>[INFO 2025-02-23 7:48:43 AM] Starting test for project: D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocationTest.csproj</string>
+    <string>[INFO 2025-02-23 7:48:43 AM] Starting test for project: D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocationTest.csproj</string>
+    <string>[INFO 2025-02-23 7:48:43 AM] Starting test for project: D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocationTest.csproj</string>
+    <string>[INFO 2025-02-23 7:48:43 AM] Starting test for project: D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocationTest.csproj</string>
+    <string>[INFO 2025-02-23 7:48:43 AM] Starting test for project: D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocationTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 7:48:47 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:48:46 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:48:45 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:48:45 AM] Test run for D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\bin\Debug\net9.0\ChaitinRegisterAllocationTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:48:45 AM]   ChaitinRegisterAllocationTest -> D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\bin\Debug\net9.0\ChaitinRegisterAllocationTest.dll
+[OUTPUT 2025-02-23 7:48:45 AM]   ChaitinRegisterAllocation -> D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocation\bin\Debug\net9.0\ChaitinRegisterAllocation.dll
+[OUTPUT 2025-02-23 7:48:44 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:48:44 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 7:48:46 AM] All tests passed successfully.
+[INFO 2025-02-23 7:48:46 AM] Test process completed. Duration: 3.31 seconds.
+[INFO 2025-02-23 7:48:46 AM] Process exited with code 0.
+[INFO 2025-02-23 7:48:43 AM] Command: dotnet test "D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocationTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:48:43 AM] Starting test for project: D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocationTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 7:41:55 AM
+ChaitinRegisterAllocation
+
+WritePatch ran compiler. 2025-02-23 7:42:50 AM
+ChaitinRegisterAllocation
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocation\InterferenceGraph.cs(33,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocation\ChaitinRegisterAllocation.csproj]
+D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocation\ChaitinRegisterAllocator.cs(19,39): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocation\ChaitinRegisterAllocation.csproj]
+  ChaitinRegisterAllocation -> D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocation\bin\Debug\net9.0\ChaitinRegisterAllocation.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocation\InterferenceGraph.cs(33,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocation\ChaitinRegisterAllocation.csproj]
+D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocation\ChaitinRegisterAllocator.cs(19,39): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocation\ChaitinRegisterAllocation.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.76
+
+
+WritePatch: Compile failed.
+ChaitinRegisterAllocation
+
+Finished WritePatch cycle step.
+2025-02-23 7:42:51 AM
+ChaitinRegisterAllocation
+
+WritePatch Started CycleStep. 2025-02-23 7:42:51 AM
+ChaitinRegisterAllocation
+
+WritePatch ran compiler. 2025-02-23 7:43:35 AM
+ChaitinRegisterAllocation
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ChaitinRegisterAllocation -> D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocation\bin\Debug\net9.0\ChaitinRegisterAllocation.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.79
+
+
+WritePatch: Code is Complete.
+ChaitinRegisterAllocation
+
+WritePatch Started CycleStep. 2025-02-23 7:43:51 AM
+ChaitinRegisterAllocationTest
+
+WritePatch ran compiler. 2025-02-23 7:45:13 AM
+ChaitinRegisterAllocationTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocationTest.csproj (in 205 ms).
+  1 of 2 projects are up-to-date for restore.
+  ChaitinRegisterAllocation -> D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocation\bin\Debug\net9.0\ChaitinRegisterAllocation.dll
+D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocatorTests.cs(105,78): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocationTest.csproj]
+  ChaitinRegisterAllocationTest -> D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\bin\Debug\net9.0\ChaitinRegisterAllocationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocatorTests.cs(105,78): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocationTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.44
+
+
+WritePatch: Compile failed.
+ChaitinRegisterAllocationTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:45:14 AM
+ChaitinRegisterAllocationTest
+
+WritePatch Started CycleStep. 2025-02-23 7:45:14 AM
+ChaitinRegisterAllocationTest
+
+WritePatch ran compiler. 2025-02-23 7:45:44 AM
+ChaitinRegisterAllocationTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ChaitinRegisterAllocation -> D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocation\bin\Debug\net9.0\ChaitinRegisterAllocation.dll
+  ChaitinRegisterAllocationTest -> D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\bin\Debug\net9.0\ChaitinRegisterAllocationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.90
+
+
+WritePatch: Code is not Complete.
+ChaitinRegisterAllocationTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:46:02 AM
+ChaitinRegisterAllocationTest
+
+WritePatch Started CycleStep. 2025-02-23 7:46:02 AM
+ChaitinRegisterAllocationTest
+
+WritePatch ran compiler. 2025-02-23 7:47:32 AM
+ChaitinRegisterAllocationTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ChaitinRegisterAllocation -> D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocation\bin\Debug\net9.0\ChaitinRegisterAllocation.dll
+D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\GraphStructureTests.cs(48,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocationTest.csproj]
+D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocatorTests.cs(105,78): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocationTest.csproj]
+  ChaitinRegisterAllocationTest -> D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\bin\Debug\net9.0\ChaitinRegisterAllocationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\GraphStructureTests.cs(48,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocationTest.csproj]
+D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocatorTests.cs(105,78): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocationTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.03
+
+
+WritePatch: Compile failed.
+ChaitinRegisterAllocationTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:47:33 AM
+ChaitinRegisterAllocationTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ChaitinRegisterAllocation -> D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocation\bin\Debug\net9.0\ChaitinRegisterAllocation.dll
+D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\GraphStructureTests.cs(48,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocationTest.csproj]
+D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocatorTests.cs(105,78): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocationTest.csproj]
+  ChaitinRegisterAllocationTest -> D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\bin\Debug\net9.0\ChaitinRegisterAllocationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\GraphStructureTests.cs(48,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocationTest.csproj]
+D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocatorTests.cs(105,78): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocationTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.03
+
+</CompilerResponse>
+2025-02-23 7:47:33 AM
+ChaitinRegisterAllocationTest
+
+WritePatch ran compiler. 2025-02-23 7:47:34 AM
+ChaitinRegisterAllocation
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ChaitinRegisterAllocation -> D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocation\bin\Debug\net9.0\ChaitinRegisterAllocation.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.69
+
+
+WritePatch: Code is Complete.
+ChaitinRegisterAllocation
+
+WritePatch ran compiler. 2025-02-23 7:48:21 AM
+ChaitinRegisterAllocationTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ChaitinRegisterAllocation -> D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocation\bin\Debug\net9.0\ChaitinRegisterAllocation.dll
+  ChaitinRegisterAllocationTest -> D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\bin\Debug\net9.0\ChaitinRegisterAllocationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.90
+
+
+WritePatch: Code is Complete.
+ChaitinRegisterAllocationTest
+
+TestResult:
+[OUTPUT 2025-02-23 7:48:47 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:48:46 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:48:45 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:48:45 AM] Test run for D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\bin\Debug\net9.0\ChaitinRegisterAllocationTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:48:45 AM]   ChaitinRegisterAllocationTest -> D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\bin\Debug\net9.0\ChaitinRegisterAllocationTest.dll
+[OUTPUT 2025-02-23 7:48:45 AM]   ChaitinRegisterAllocation -> D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocation\bin\Debug\net9.0\ChaitinRegisterAllocation.dll
+[OUTPUT 2025-02-23 7:48:44 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:48:44 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 7:48:46 AM] All tests passed successfully.
+[INFO 2025-02-23 7:48:46 AM] Test process completed. Duration: 3.31 seconds.
+[INFO 2025-02-23 7:48:46 AM] Process exited with code 0.
+[INFO 2025-02-23 7:48:43 AM] Command: dotnet test "D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocationTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:48:43 AM] Starting test for project: D:\Code2025\RavenWork\ChaitinRegisterAllocation\ChaitinRegisterAllocationTest\ChaitinRegisterAllocationTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
