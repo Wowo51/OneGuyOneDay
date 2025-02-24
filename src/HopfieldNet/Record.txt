@@ -1,0 +1,403 @@
+<ActRecord>
+  <ProjectName>HopfieldNet</ProjectName>
+  <ProjectDescription>Hopfield net: A recurrent neural network with symmetric connections</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Hopfield net: A recurrent neural network with symmetric connections</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\HopfieldNet</SolutionFolderPath>
+  <ProjectFolderName>HopfieldNet</ProjectFolderName>
+  <ProjectName>HopfieldNet</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:44:50 AM
+HopfieldNet</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:45:24 AM
+HopfieldNet</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HopfieldNet -> D:\Code2025\RavenWork\HopfieldNet\HopfieldNet\bin\Debug\net9.0\HopfieldNet.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.08
+]]></string>
+    <string>WritePatch: Code is Complete.
+HopfieldNet</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:45:44 AM
+HopfieldNetTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:46:27 AM
+HopfieldNetTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj (in 249 ms).
+  1 of 2 projects are up-to-date for restore.
+  HopfieldNet -> D:\Code2025\RavenWork\HopfieldNet\HopfieldNet\bin\Debug\net9.0\HopfieldNet.dll
+D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetworkTests.cs(58,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj]
+D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetworkTests.cs(59,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj]
+  HopfieldNetTest -> D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\bin\Debug\net9.0\HopfieldNetTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetworkTests.cs(58,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj]
+D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetworkTests.cs(59,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.74
+]]></string>
+    <string>WritePatch: Compile failed.
+HopfieldNetTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:46:31 AM
+HopfieldNetTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:46:32 AM
+HopfieldNetTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:47:00 AM
+HopfieldNetTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HopfieldNet -> D:\Code2025\RavenWork\HopfieldNet\HopfieldNet\bin\Debug\net9.0\HopfieldNet.dll
+  HopfieldNetTest -> D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\bin\Debug\net9.0\HopfieldNetTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.27
+]]></string>
+    <string>WritePatch: Code is not Complete.
+HopfieldNetTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:47:26 AM
+HopfieldNetTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:47:27 AM
+HopfieldNetTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:48:13 AM
+HopfieldNetTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HopfieldNet -> D:\Code2025\RavenWork\HopfieldNet\HopfieldNet\bin\Debug\net9.0\HopfieldNet.dll
+D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetworkTests.cs(58,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj]
+D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetworkTests.cs(59,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj]
+  HopfieldNetTest -> D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\bin\Debug\net9.0\HopfieldNetTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetworkTests.cs(58,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj]
+D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetworkTests.cs(59,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.47
+]]></string>
+    <string>WritePatch: Compile failed.
+HopfieldNetTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:48:17 AM
+HopfieldNetTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HopfieldNet -> D:\Code2025\RavenWork\HopfieldNet\HopfieldNet\bin\Debug\net9.0\HopfieldNet.dll
+D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetworkTests.cs(58,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj]
+D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetworkTests.cs(59,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj]
+  HopfieldNetTest -> D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\bin\Debug\net9.0\HopfieldNetTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetworkTests.cs(58,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj]
+D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetworkTests.cs(59,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.47
+
+</CompilerResponse>
+2025-02-23 11:48:18 AM
+HopfieldNetTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 11:48:19 AM
+HopfieldNet</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HopfieldNet -> D:\Code2025\RavenWork\HopfieldNet\HopfieldNet\bin\Debug\net9.0\HopfieldNet.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+]]></string>
+    <string>WritePatch: Code is Complete.
+HopfieldNet</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:48:32 AM
+HopfieldNetTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HopfieldNet -> D:\Code2025\RavenWork\HopfieldNet\HopfieldNet\bin\Debug\net9.0\HopfieldNet.dll
+  HopfieldNetTest -> D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\bin\Debug\net9.0\HopfieldNetTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.23
+]]></string>
+    <string>WritePatch: Code is Complete.
+HopfieldNetTest</string>
+    <string>[INFO 2025-02-23 11:49:12 AM] Starting test for project: D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj</string>
+    <string>[INFO 2025-02-23 11:49:12 AM] Starting test for project: D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj</string>
+    <string>[INFO 2025-02-23 11:49:12 AM] Starting test for project: D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj</string>
+    <string>[INFO 2025-02-23 11:49:12 AM] Starting test for project: D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj</string>
+    <string>[INFO 2025-02-23 11:49:12 AM] Starting test for project: D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj</string>
+    <string>[INFO 2025-02-23 11:49:12 AM] Starting test for project: D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj</string>
+    <string>[INFO 2025-02-23 11:49:12 AM] Starting test for project: D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj</string>
+    <string>[INFO 2025-02-23 11:49:12 AM] Starting test for project: D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj</string>
+    <string>[INFO 2025-02-23 11:49:12 AM] Starting test for project: D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj</string>
+    <string>[INFO 2025-02-23 11:49:12 AM] Starting test for project: D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj</string>
+    <string>[INFO 2025-02-23 11:49:12 AM] Starting test for project: D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj</string>
+    <string>[INFO 2025-02-23 11:49:12 AM] Starting test for project: D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj</string>
+    <string>[INFO 2025-02-23 11:49:12 AM] Starting test for project: D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 11:49:16 AM]   Passed TestTrainWithInvalidPattern [5 ms]
+[OUTPUT 2025-02-23 11:49:15 AM] Test Parallelization enabled for D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\bin\Debug\net9.0\HopfieldNetTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 11:49:15 AM] D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\bin\Debug\net9.0\HopfieldNetTest.dll
+[OUTPUT 2025-02-23 11:49:15 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:49:14 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:49:14 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:49:14 AM] Test run for D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\bin\Debug\net9.0\HopfieldNetTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:49:14 AM]   HopfieldNetTest -> D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\bin\Debug\net9.0\HopfieldNetTest.dll
+[OUTPUT 2025-02-23 11:49:13 AM]   HopfieldNet -> D:\Code2025\RavenWork\HopfieldNet\HopfieldNet\bin\Debug\net9.0\HopfieldNet.dll
+[OUTPUT 2025-02-23 11:49:13 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:49:13 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 11:49:16 AM] All tests passed successfully.
+[INFO 2025-02-23 11:49:16 AM] Test process completed. Duration: 3.84 seconds.
+[INFO 2025-02-23 11:49:16 AM] Process exited with code 0.
+[INFO 2025-02-23 11:49:12 AM] Command: dotnet test "D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:49:12 AM] Starting test for project: D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 11:44:50 AM
+HopfieldNet
+
+WritePatch ran compiler. 2025-02-23 11:45:24 AM
+HopfieldNet
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HopfieldNet -> D:\Code2025\RavenWork\HopfieldNet\HopfieldNet\bin\Debug\net9.0\HopfieldNet.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.08
+
+
+WritePatch: Code is Complete.
+HopfieldNet
+
+WritePatch Started CycleStep. 2025-02-23 11:45:44 AM
+HopfieldNetTest
+
+WritePatch ran compiler. 2025-02-23 11:46:27 AM
+HopfieldNetTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj (in 249 ms).
+  1 of 2 projects are up-to-date for restore.
+  HopfieldNet -> D:\Code2025\RavenWork\HopfieldNet\HopfieldNet\bin\Debug\net9.0\HopfieldNet.dll
+D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetworkTests.cs(58,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj]
+D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetworkTests.cs(59,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj]
+  HopfieldNetTest -> D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\bin\Debug\net9.0\HopfieldNetTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetworkTests.cs(58,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj]
+D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetworkTests.cs(59,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.74
+
+
+WritePatch: Compile failed.
+HopfieldNetTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:46:31 AM
+HopfieldNetTest
+
+WritePatch Started CycleStep. 2025-02-23 11:46:32 AM
+HopfieldNetTest
+
+WritePatch ran compiler. 2025-02-23 11:47:00 AM
+HopfieldNetTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HopfieldNet -> D:\Code2025\RavenWork\HopfieldNet\HopfieldNet\bin\Debug\net9.0\HopfieldNet.dll
+  HopfieldNetTest -> D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\bin\Debug\net9.0\HopfieldNetTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.27
+
+
+WritePatch: Code is not Complete.
+HopfieldNetTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:47:26 AM
+HopfieldNetTest
+
+WritePatch Started CycleStep. 2025-02-23 11:47:27 AM
+HopfieldNetTest
+
+WritePatch ran compiler. 2025-02-23 11:48:13 AM
+HopfieldNetTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HopfieldNet -> D:\Code2025\RavenWork\HopfieldNet\HopfieldNet\bin\Debug\net9.0\HopfieldNet.dll
+D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetworkTests.cs(58,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj]
+D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetworkTests.cs(59,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj]
+  HopfieldNetTest -> D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\bin\Debug\net9.0\HopfieldNetTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetworkTests.cs(58,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj]
+D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetworkTests.cs(59,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.47
+
+
+WritePatch: Compile failed.
+HopfieldNetTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:48:17 AM
+HopfieldNetTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HopfieldNet -> D:\Code2025\RavenWork\HopfieldNet\HopfieldNet\bin\Debug\net9.0\HopfieldNet.dll
+D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetworkTests.cs(58,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj]
+D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetworkTests.cs(59,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj]
+  HopfieldNetTest -> D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\bin\Debug\net9.0\HopfieldNetTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetworkTests.cs(58,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj]
+D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetworkTests.cs(59,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.47
+
+</CompilerResponse>
+2025-02-23 11:48:18 AM
+HopfieldNetTest
+
+WritePatch ran compiler. 2025-02-23 11:48:19 AM
+HopfieldNet
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HopfieldNet -> D:\Code2025\RavenWork\HopfieldNet\HopfieldNet\bin\Debug\net9.0\HopfieldNet.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+
+
+WritePatch: Code is Complete.
+HopfieldNet
+
+WritePatch ran compiler. 2025-02-23 11:48:32 AM
+HopfieldNetTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HopfieldNet -> D:\Code2025\RavenWork\HopfieldNet\HopfieldNet\bin\Debug\net9.0\HopfieldNet.dll
+  HopfieldNetTest -> D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\bin\Debug\net9.0\HopfieldNetTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.23
+
+
+WritePatch: Code is Complete.
+HopfieldNetTest
+
+TestResult:
+[OUTPUT 2025-02-23 11:49:16 AM]   Passed TestTrainWithInvalidPattern [5 ms]
+[OUTPUT 2025-02-23 11:49:15 AM] Test Parallelization enabled for D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\bin\Debug\net9.0\HopfieldNetTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 11:49:15 AM] D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\bin\Debug\net9.0\HopfieldNetTest.dll
+[OUTPUT 2025-02-23 11:49:15 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:49:14 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:49:14 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:49:14 AM] Test run for D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\bin\Debug\net9.0\HopfieldNetTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:49:14 AM]   HopfieldNetTest -> D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\bin\Debug\net9.0\HopfieldNetTest.dll
+[OUTPUT 2025-02-23 11:49:13 AM]   HopfieldNet -> D:\Code2025\RavenWork\HopfieldNet\HopfieldNet\bin\Debug\net9.0\HopfieldNet.dll
+[OUTPUT 2025-02-23 11:49:13 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:49:13 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 11:49:16 AM] All tests passed successfully.
+[INFO 2025-02-23 11:49:16 AM] Test process completed. Duration: 3.84 seconds.
+[INFO 2025-02-23 11:49:16 AM] Process exited with code 0.
+[INFO 2025-02-23 11:49:12 AM] Command: dotnet test "D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:49:12 AM] Starting test for project: D:\Code2025\RavenWork\HopfieldNet\HopfieldNetTest\HopfieldNetTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
