@@ -1,0 +1,409 @@
+<ActRecord>
+  <ProjectName>IntersectionClockSynchronization</ProjectName>
+  <ProjectDescription>Intersection algorithm: For clock synchronization</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Intersection algorithm: For clock synchronization</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\IntersectionClockSynchronization</SolutionFolderPath>
+  <ProjectFolderName>IntersectionClockSynchronization</ProjectFolderName>
+  <ProjectName>IntersectionClockSynchronization</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:26:18 AM
+IntersectionClockSynchronization</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:27:20 AM
+IntersectionClockSynchronization</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  IntersectionClockSynchronization -> D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronization\bin\Debug\net9.0\IntersectionClockSynchronization.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.02
+]]></string>
+    <string>WritePatch: Code is Complete.
+IntersectionClockSynchronization</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:27:29 AM
+IntersectionClockSynchronizationTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:28:13 AM
+IntersectionClockSynchronizationTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj (in 179 ms).
+  1 of 2 projects are up-to-date for restore.
+  IntersectionClockSynchronization -> D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronization\bin\Debug\net9.0\IntersectionClockSynchronization.dll
+D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTests.cs(67,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj]
+  IntersectionClockSynchronizationTest -> D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\bin\Debug\net9.0\IntersectionClockSynchronizationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTests.cs(67,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.34
+]]></string>
+    <string>WritePatch: Compile failed.
+IntersectionClockSynchronizationTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:28:13 AM
+IntersectionClockSynchronizationTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:28:14 AM
+IntersectionClockSynchronizationTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:29:23 AM
+IntersectionClockSynchronizationTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  IntersectionClockSynchronization -> D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronization\bin\Debug\net9.0\IntersectionClockSynchronization.dll
+D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTests.cs(15,69): warning CS8620: Argument of type 'List<TimeInterval?>' cannot be used for parameter 'intervals' of type 'List<TimeInterval>' in 'TimeInterval? IntersectionSynchronizer.ComputeIntersection(List<TimeInterval> intervals)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj]
+D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTests.cs(27,69): warning CS8620: Argument of type 'List<TimeInterval?>' cannot be used for parameter 'intervals' of type 'List<TimeInterval>' in 'TimeInterval? IntersectionSynchronizer.ComputeIntersection(List<TimeInterval> intervals)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj]
+D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTests.cs(42,69): warning CS8620: Argument of type 'List<TimeInterval?>' cannot be used for parameter 'intervals' of type 'List<TimeInterval>' in 'TimeInterval? IntersectionSynchronizer.ComputeIntersection(List<TimeInterval> intervals)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj]
+D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTests.cs(57,69): warning CS8620: Argument of type 'List<TimeInterval?>' cannot be used for parameter 'intervals' of type 'List<TimeInterval>' in 'TimeInterval? IntersectionSynchronizer.ComputeIntersection(List<TimeInterval> intervals)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj]
+D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTests.cs(71,69): warning CS8620: Argument of type 'List<TimeInterval?>' cannot be used for parameter 'intervals' of type 'List<TimeInterval>' in 'TimeInterval? IntersectionSynchronizer.ComputeIntersection(List<TimeInterval> intervals)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj]
+D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTests.cs(89,69): warning CS8620: Argument of type 'List<TimeInterval?>' cannot be used for parameter 'intervals' of type 'List<TimeInterval>' in 'TimeInterval? IntersectionSynchronizer.ComputeIntersection(List<TimeInterval> intervals)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj]
+D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTests.cs(105,69): warning CS8620: Argument of type 'List<TimeInterval?>' cannot be used for parameter 'intervals' of type 'List<TimeInterval>' in 'TimeInterval? IntersectionSynchronizer.ComputeIntersection(List<TimeInterval> intervals)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj]
+  IntersectionClockSynchronizationTest -> D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\bin\Debug\net9.0\IntersectionClockSynchronizationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTests.cs(15,69): warning CS8620: Argument of type 'List<TimeInterval?>' cannot be used for parameter 'intervals' of type 'List<TimeInterval>' in 'TimeInterval? IntersectionSynchronizer.ComputeIntersection(List<TimeInterval> intervals)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj]
+D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTests.cs(27,69): warning CS8620: Argument of type 'List<TimeInterval?>' cannot be used for parameter 'intervals' of type 'List<TimeInterval>' in 'TimeInterval? IntersectionSynchronizer.ComputeIntersection(List<TimeInterval> intervals)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj]
+D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTests.cs(42,69): warning CS8620: Argument of type 'List<TimeInterval?>' cannot be used for parameter 'intervals' of type 'List<TimeInterval>' in 'TimeInterval? IntersectionSynchronizer.ComputeIntersection(List<TimeInterval> intervals)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj]
+D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTests.cs(57,69): warning CS8620: Argument of type 'List<TimeInterval?>' cannot be used for parameter 'intervals' of type 'List<TimeInterval>' in 'TimeInterval? IntersectionSynchronizer.ComputeIntersection(List<TimeInterval> intervals)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj]
+D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTests.cs(71,69): warning CS8620: Argument of type 'List<TimeInterval?>' cannot be used for parameter 'intervals' of type 'List<TimeInterval>' in 'TimeInterval? IntersectionSynchronizer.ComputeIntersection(List<TimeInterval> intervals)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj]
+D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTests.cs(89,69): warning CS8620: Argument of type 'List<TimeInterval?>' cannot be used for parameter 'intervals' of type 'List<TimeInterval>' in 'TimeInterval? IntersectionSynchronizer.ComputeIntersection(List<TimeInterval> intervals)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj]
+D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTests.cs(105,69): warning CS8620: Argument of type 'List<TimeInterval?>' cannot be used for parameter 'intervals' of type 'List<TimeInterval>' in 'TimeInterval? IntersectionSynchronizer.ComputeIntersection(List<TimeInterval> intervals)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj]
+    7 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.06
+]]></string>
+    <string>WritePatch: Compile failed.
+IntersectionClockSynchronizationTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:29:23 AM
+IntersectionClockSynchronizationTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:29:23 AM
+IntersectionClockSynchronizationTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:30:19 AM
+IntersectionClockSynchronizationTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  IntersectionClockSynchronization -> D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronization\bin\Debug\net9.0\IntersectionClockSynchronization.dll
+  IntersectionClockSynchronizationTest -> D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\bin\Debug\net9.0\IntersectionClockSynchronizationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+]]></string>
+    <string>WritePatch: Code is not Complete.
+IntersectionClockSynchronizationTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:31:07 AM
+IntersectionClockSynchronizationTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  IntersectionClockSynchronization -> D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronization\bin\Debug\net9.0\IntersectionClockSynchronization.dll
+  IntersectionClockSynchronizationTest -> D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\bin\Debug\net9.0\IntersectionClockSynchronizationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+
+</CompilerResponse>
+2025-02-23 7:31:07 AM
+IntersectionClockSynchronizationTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 7:31:08 AM
+IntersectionClockSynchronization</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  IntersectionClockSynchronization -> D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronization\bin\Debug\net9.0\IntersectionClockSynchronization.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.69
+]]></string>
+    <string>WritePatch: Code is Complete.
+IntersectionClockSynchronization</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:32:23 AM
+IntersectionClockSynchronizationTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  IntersectionClockSynchronization -> D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronization\bin\Debug\net9.0\IntersectionClockSynchronization.dll
+  IntersectionClockSynchronizationTest -> D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\bin\Debug\net9.0\IntersectionClockSynchronizationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.88
+]]></string>
+    <string>WritePatch: Code is Complete.
+IntersectionClockSynchronizationTest</string>
+    <string>[INFO 2025-02-23 7:32:34 AM] Starting test for project: D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj</string>
+    <string>[INFO 2025-02-23 7:32:34 AM] Starting test for project: D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj</string>
+    <string>[INFO 2025-02-23 7:32:34 AM] Starting test for project: D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj</string>
+    <string>[INFO 2025-02-23 7:32:34 AM] Starting test for project: D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj</string>
+    <string>[INFO 2025-02-23 7:32:34 AM] Starting test for project: D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj</string>
+    <string>[INFO 2025-02-23 7:32:34 AM] Starting test for project: D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj</string>
+    <string>[INFO 2025-02-23 7:32:34 AM] Starting test for project: D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj</string>
+    <string>[INFO 2025-02-23 7:32:34 AM] Starting test for project: D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj</string>
+    <string>[INFO 2025-02-23 7:32:34 AM] Starting test for project: D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj</string>
+    <string>[INFO 2025-02-23 7:32:34 AM] Starting test for project: D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj</string>
+    <string>[INFO 2025-02-23 7:32:34 AM] Starting test for project: D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj</string>
+    <string>[INFO 2025-02-23 7:32:34 AM] Starting test for project: D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj</string>
+    <string>[INFO 2025-02-23 7:32:34 AM] Starting test for project: D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 7:32:37 AM] All tests passed successfully.
+[INFO 2025-02-23 7:32:37 AM] Test process completed. Duration: 3.13 seconds.
+[INFO 2025-02-23 7:32:37 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 7:32:37 AM]   Passed Test_TwoNonOverlappingIntervals [4 ms]
+[OUTPUT 2025-02-23 7:32:37 AM] Test Parallelization enabled for D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\bin\Debug\net9.0\IntersectionClockSynchronizationTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:32:37 AM] D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\bin\Debug\net9.0\IntersectionClockSynchronizationTest.dll
+[OUTPUT 2025-02-23 7:32:36 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:32:36 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:32:36 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:32:35 AM] Test run for D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\bin\Debug\net9.0\IntersectionClockSynchronizationTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:32:35 AM]   IntersectionClockSynchronizationTest -> D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\bin\Debug\net9.0\IntersectionClockSynchronizationTest.dll
+[OUTPUT 2025-02-23 7:32:35 AM]   IntersectionClockSynchronization -> D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronization\bin\Debug\net9.0\IntersectionClockSynchronization.dll
+[OUTPUT 2025-02-23 7:32:35 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:32:34 AM]   Determining projects to restore...
+[INFO 2025-02-23 7:32:34 AM] Command: dotnet test "D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:32:34 AM] Starting test for project: D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 7:26:18 AM
+IntersectionClockSynchronization
+
+WritePatch ran compiler. 2025-02-23 7:27:20 AM
+IntersectionClockSynchronization
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  IntersectionClockSynchronization -> D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronization\bin\Debug\net9.0\IntersectionClockSynchronization.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.02
+
+
+WritePatch: Code is Complete.
+IntersectionClockSynchronization
+
+WritePatch Started CycleStep. 2025-02-23 7:27:29 AM
+IntersectionClockSynchronizationTest
+
+WritePatch ran compiler. 2025-02-23 7:28:13 AM
+IntersectionClockSynchronizationTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj (in 179 ms).
+  1 of 2 projects are up-to-date for restore.
+  IntersectionClockSynchronization -> D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronization\bin\Debug\net9.0\IntersectionClockSynchronization.dll
+D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTests.cs(67,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj]
+  IntersectionClockSynchronizationTest -> D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\bin\Debug\net9.0\IntersectionClockSynchronizationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTests.cs(67,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.34
+
+
+WritePatch: Compile failed.
+IntersectionClockSynchronizationTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:28:13 AM
+IntersectionClockSynchronizationTest
+
+WritePatch Started CycleStep. 2025-02-23 7:28:14 AM
+IntersectionClockSynchronizationTest
+
+WritePatch ran compiler. 2025-02-23 7:29:23 AM
+IntersectionClockSynchronizationTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  IntersectionClockSynchronization -> D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronization\bin\Debug\net9.0\IntersectionClockSynchronization.dll
+D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTests.cs(15,69): warning CS8620: Argument of type 'List<TimeInterval?>' cannot be used for parameter 'intervals' of type 'List<TimeInterval>' in 'TimeInterval? IntersectionSynchronizer.ComputeIntersection(List<TimeInterval> intervals)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj]
+D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTests.cs(27,69): warning CS8620: Argument of type 'List<TimeInterval?>' cannot be used for parameter 'intervals' of type 'List<TimeInterval>' in 'TimeInterval? IntersectionSynchronizer.ComputeIntersection(List<TimeInterval> intervals)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj]
+D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTests.cs(42,69): warning CS8620: Argument of type 'List<TimeInterval?>' cannot be used for parameter 'intervals' of type 'List<TimeInterval>' in 'TimeInterval? IntersectionSynchronizer.ComputeIntersection(List<TimeInterval> intervals)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj]
+D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTests.cs(57,69): warning CS8620: Argument of type 'List<TimeInterval?>' cannot be used for parameter 'intervals' of type 'List<TimeInterval>' in 'TimeInterval? IntersectionSynchronizer.ComputeIntersection(List<TimeInterval> intervals)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj]
+D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTests.cs(71,69): warning CS8620: Argument of type 'List<TimeInterval?>' cannot be used for parameter 'intervals' of type 'List<TimeInterval>' in 'TimeInterval? IntersectionSynchronizer.ComputeIntersection(List<TimeInterval> intervals)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj]
+D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTests.cs(89,69): warning CS8620: Argument of type 'List<TimeInterval?>' cannot be used for parameter 'intervals' of type 'List<TimeInterval>' in 'TimeInterval? IntersectionSynchronizer.ComputeIntersection(List<TimeInterval> intervals)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj]
+D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTests.cs(105,69): warning CS8620: Argument of type 'List<TimeInterval?>' cannot be used for parameter 'intervals' of type 'List<TimeInterval>' in 'TimeInterval? IntersectionSynchronizer.ComputeIntersection(List<TimeInterval> intervals)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj]
+  IntersectionClockSynchronizationTest -> D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\bin\Debug\net9.0\IntersectionClockSynchronizationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTests.cs(15,69): warning CS8620: Argument of type 'List<TimeInterval?>' cannot be used for parameter 'intervals' of type 'List<TimeInterval>' in 'TimeInterval? IntersectionSynchronizer.ComputeIntersection(List<TimeInterval> intervals)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj]
+D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTests.cs(27,69): warning CS8620: Argument of type 'List<TimeInterval?>' cannot be used for parameter 'intervals' of type 'List<TimeInterval>' in 'TimeInterval? IntersectionSynchronizer.ComputeIntersection(List<TimeInterval> intervals)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj]
+D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTests.cs(42,69): warning CS8620: Argument of type 'List<TimeInterval?>' cannot be used for parameter 'intervals' of type 'List<TimeInterval>' in 'TimeInterval? IntersectionSynchronizer.ComputeIntersection(List<TimeInterval> intervals)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj]
+D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTests.cs(57,69): warning CS8620: Argument of type 'List<TimeInterval?>' cannot be used for parameter 'intervals' of type 'List<TimeInterval>' in 'TimeInterval? IntersectionSynchronizer.ComputeIntersection(List<TimeInterval> intervals)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj]
+D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTests.cs(71,69): warning CS8620: Argument of type 'List<TimeInterval?>' cannot be used for parameter 'intervals' of type 'List<TimeInterval>' in 'TimeInterval? IntersectionSynchronizer.ComputeIntersection(List<TimeInterval> intervals)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj]
+D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTests.cs(89,69): warning CS8620: Argument of type 'List<TimeInterval?>' cannot be used for parameter 'intervals' of type 'List<TimeInterval>' in 'TimeInterval? IntersectionSynchronizer.ComputeIntersection(List<TimeInterval> intervals)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj]
+D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTests.cs(105,69): warning CS8620: Argument of type 'List<TimeInterval?>' cannot be used for parameter 'intervals' of type 'List<TimeInterval>' in 'TimeInterval? IntersectionSynchronizer.ComputeIntersection(List<TimeInterval> intervals)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj]
+    7 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.06
+
+
+WritePatch: Compile failed.
+IntersectionClockSynchronizationTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:29:23 AM
+IntersectionClockSynchronizationTest
+
+WritePatch Started CycleStep. 2025-02-23 7:29:23 AM
+IntersectionClockSynchronizationTest
+
+WritePatch ran compiler. 2025-02-23 7:30:19 AM
+IntersectionClockSynchronizationTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  IntersectionClockSynchronization -> D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronization\bin\Debug\net9.0\IntersectionClockSynchronization.dll
+  IntersectionClockSynchronizationTest -> D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\bin\Debug\net9.0\IntersectionClockSynchronizationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+
+
+WritePatch: Code is not Complete.
+IntersectionClockSynchronizationTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:31:07 AM
+IntersectionClockSynchronizationTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  IntersectionClockSynchronization -> D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronization\bin\Debug\net9.0\IntersectionClockSynchronization.dll
+  IntersectionClockSynchronizationTest -> D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\bin\Debug\net9.0\IntersectionClockSynchronizationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+
+</CompilerResponse>
+2025-02-23 7:31:07 AM
+IntersectionClockSynchronizationTest
+
+WritePatch ran compiler. 2025-02-23 7:31:08 AM
+IntersectionClockSynchronization
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  IntersectionClockSynchronization -> D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronization\bin\Debug\net9.0\IntersectionClockSynchronization.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.69
+
+
+WritePatch: Code is Complete.
+IntersectionClockSynchronization
+
+WritePatch ran compiler. 2025-02-23 7:32:23 AM
+IntersectionClockSynchronizationTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  IntersectionClockSynchronization -> D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronization\bin\Debug\net9.0\IntersectionClockSynchronization.dll
+  IntersectionClockSynchronizationTest -> D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\bin\Debug\net9.0\IntersectionClockSynchronizationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.88
+
+
+WritePatch: Code is Complete.
+IntersectionClockSynchronizationTest
+
+TestResult:
+[SUCCESS 2025-02-23 7:32:37 AM] All tests passed successfully.
+[INFO 2025-02-23 7:32:37 AM] Test process completed. Duration: 3.13 seconds.
+[INFO 2025-02-23 7:32:37 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 7:32:37 AM]   Passed Test_TwoNonOverlappingIntervals [4 ms]
+[OUTPUT 2025-02-23 7:32:37 AM] Test Parallelization enabled for D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\bin\Debug\net9.0\IntersectionClockSynchronizationTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:32:37 AM] D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\bin\Debug\net9.0\IntersectionClockSynchronizationTest.dll
+[OUTPUT 2025-02-23 7:32:36 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:32:36 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:32:36 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:32:35 AM] Test run for D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\bin\Debug\net9.0\IntersectionClockSynchronizationTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:32:35 AM]   IntersectionClockSynchronizationTest -> D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\bin\Debug\net9.0\IntersectionClockSynchronizationTest.dll
+[OUTPUT 2025-02-23 7:32:35 AM]   IntersectionClockSynchronization -> D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronization\bin\Debug\net9.0\IntersectionClockSynchronization.dll
+[OUTPUT 2025-02-23 7:32:35 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:32:34 AM]   Determining projects to restore...
+[INFO 2025-02-23 7:32:34 AM] Command: dotnet test "D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:32:34 AM] Starting test for project: D:\Code2025\RavenWork\IntersectionClockSynchronization\IntersectionClockSynchronizationTest\IntersectionClockSynchronizationTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
