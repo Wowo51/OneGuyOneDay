@@ -1,0 +1,403 @@
+<ActRecord>
+  <ProjectName>NeedlemanWunsch</ProjectName>
+  <ProjectDescription>Needleman–Wunsch algorithm: find global alignment between two sequences</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Needleman–Wunsch algorithm: find global alignment between two sequences</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\NeedlemanWunsch</SolutionFolderPath>
+  <ProjectFolderName>NeedlemanWunsch</ProjectFolderName>
+  <ProjectName>NeedlemanWunsch</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:19:25 PM
+NeedlemanWunsch</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:20:06 PM
+NeedlemanWunsch</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  NeedlemanWunsch -> D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunsch\bin\Debug\net9.0\NeedlemanWunsch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.08
+]]></string>
+    <string>WritePatch: Code is Complete.
+NeedlemanWunsch</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:20:23 PM
+NeedlemanWunschTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:22:49 PM
+NeedlemanWunschTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj (in 463 ms).
+  1 of 2 projects are up-to-date for restore.
+  NeedlemanWunsch -> D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunsch\bin\Debug\net9.0\NeedlemanWunsch.dll
+D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\AlignmentTests.cs(63,85): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj]
+D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\AlignmentTests.cs(63,91): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj]
+  NeedlemanWunschTest -> D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\bin\Debug\net9.0\NeedlemanWunschTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\AlignmentTests.cs(63,85): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj]
+D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\AlignmentTests.cs(63,91): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.32
+]]></string>
+    <string>WritePatch: Compile failed.
+NeedlemanWunschTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:22:50 PM
+NeedlemanWunschTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:22:51 PM
+NeedlemanWunschTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:23:35 PM
+NeedlemanWunschTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  NeedlemanWunsch -> D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunsch\bin\Debug\net9.0\NeedlemanWunsch.dll
+  NeedlemanWunschTest -> D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\bin\Debug\net9.0\NeedlemanWunschTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.52
+]]></string>
+    <string>WritePatch: Code is not Complete.
+NeedlemanWunschTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:23:52 PM
+NeedlemanWunschTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:23:52 PM
+NeedlemanWunschTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:25:49 PM
+NeedlemanWunschTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  NeedlemanWunsch -> D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunsch\bin\Debug\net9.0\NeedlemanWunsch.dll
+D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\AlignmentTests.cs(64,85): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj]
+D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\AlignmentTests.cs(64,91): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj]
+  NeedlemanWunschTest -> D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\bin\Debug\net9.0\NeedlemanWunschTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\AlignmentTests.cs(64,85): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj]
+D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\AlignmentTests.cs(64,91): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.38
+]]></string>
+    <string>WritePatch: Compile failed.
+NeedlemanWunschTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:25:51 PM
+NeedlemanWunschTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  NeedlemanWunsch -> D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunsch\bin\Debug\net9.0\NeedlemanWunsch.dll
+D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\AlignmentTests.cs(64,85): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj]
+D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\AlignmentTests.cs(64,91): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj]
+  NeedlemanWunschTest -> D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\bin\Debug\net9.0\NeedlemanWunschTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\AlignmentTests.cs(64,85): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj]
+D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\AlignmentTests.cs(64,91): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.38
+
+</CompilerResponse>
+2025-02-23 7:25:51 PM
+NeedlemanWunschTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 7:25:54 PM
+NeedlemanWunsch</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  NeedlemanWunsch -> D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunsch\bin\Debug\net9.0\NeedlemanWunsch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.49
+]]></string>
+    <string>WritePatch: Code is Complete.
+NeedlemanWunsch</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:26:13 PM
+NeedlemanWunschTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  NeedlemanWunsch -> D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunsch\bin\Debug\net9.0\NeedlemanWunsch.dll
+  NeedlemanWunschTest -> D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\bin\Debug\net9.0\NeedlemanWunschTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.98
+]]></string>
+    <string>WritePatch: Code is Complete.
+NeedlemanWunschTest</string>
+    <string>[INFO 2025-02-23 7:26:29 PM] Starting test for project: D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj</string>
+    <string>[INFO 2025-02-23 7:26:29 PM] Starting test for project: D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj</string>
+    <string>[INFO 2025-02-23 7:26:29 PM] Starting test for project: D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj</string>
+    <string>[INFO 2025-02-23 7:26:29 PM] Starting test for project: D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj</string>
+    <string>[INFO 2025-02-23 7:26:29 PM] Starting test for project: D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj</string>
+    <string>[INFO 2025-02-23 7:26:29 PM] Starting test for project: D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj</string>
+    <string>[INFO 2025-02-23 7:26:29 PM] Starting test for project: D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj</string>
+    <string>[INFO 2025-02-23 7:26:29 PM] Starting test for project: D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj</string>
+    <string>[INFO 2025-02-23 7:26:29 PM] Starting test for project: D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj</string>
+    <string>[INFO 2025-02-23 7:26:29 PM] Starting test for project: D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj</string>
+    <string>[INFO 2025-02-23 7:26:29 PM] Starting test for project: D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj</string>
+    <string>[INFO 2025-02-23 7:26:29 PM] Starting test for project: D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj</string>
+    <string>[INFO 2025-02-23 7:26:29 PM] Starting test for project: D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 7:26:36 PM] All tests passed successfully.
+[INFO 2025-02-23 7:26:36 PM] Test process completed. Duration: 7.20 seconds.
+[INFO 2025-02-23 7:26:36 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 7:26:36 PM] Test Parallelization enabled for D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\bin\Debug\net9.0\NeedlemanWunschTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:26:35 PM] D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\bin\Debug\net9.0\NeedlemanWunschTest.dll
+[OUTPUT 2025-02-23 7:26:34 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:26:34 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:26:32 PM]   NeedlemanWunsch -> D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunsch\bin\Debug\net9.0\NeedlemanWunsch.dll
+[OUTPUT 2025-02-23 7:26:31 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:26:37 PM]   Passed TestSingleCharacterSequences [10 ms]
+[OUTPUT 2025-02-23 7:26:33 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:26:33 PM] Test run for D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\bin\Debug\net9.0\NeedlemanWunschTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:26:32 PM]   NeedlemanWunschTest -> D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\bin\Debug\net9.0\NeedlemanWunschTest.dll
+[OUTPUT 2025-02-23 7:26:31 PM]   Determining projects to restore...
+[INFO 2025-02-23 7:26:29 PM] Command: dotnet test "D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:26:29 PM] Starting test for project: D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 7:19:25 PM
+NeedlemanWunsch
+
+WritePatch ran compiler. 2025-02-23 7:20:06 PM
+NeedlemanWunsch
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  NeedlemanWunsch -> D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunsch\bin\Debug\net9.0\NeedlemanWunsch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.08
+
+
+WritePatch: Code is Complete.
+NeedlemanWunsch
+
+WritePatch Started CycleStep. 2025-02-23 7:20:23 PM
+NeedlemanWunschTest
+
+WritePatch ran compiler. 2025-02-23 7:22:49 PM
+NeedlemanWunschTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj (in 463 ms).
+  1 of 2 projects are up-to-date for restore.
+  NeedlemanWunsch -> D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunsch\bin\Debug\net9.0\NeedlemanWunsch.dll
+D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\AlignmentTests.cs(63,85): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj]
+D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\AlignmentTests.cs(63,91): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj]
+  NeedlemanWunschTest -> D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\bin\Debug\net9.0\NeedlemanWunschTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\AlignmentTests.cs(63,85): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj]
+D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\AlignmentTests.cs(63,91): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.32
+
+
+WritePatch: Compile failed.
+NeedlemanWunschTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:22:50 PM
+NeedlemanWunschTest
+
+WritePatch Started CycleStep. 2025-02-23 7:22:51 PM
+NeedlemanWunschTest
+
+WritePatch ran compiler. 2025-02-23 7:23:35 PM
+NeedlemanWunschTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  NeedlemanWunsch -> D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunsch\bin\Debug\net9.0\NeedlemanWunsch.dll
+  NeedlemanWunschTest -> D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\bin\Debug\net9.0\NeedlemanWunschTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.52
+
+
+WritePatch: Code is not Complete.
+NeedlemanWunschTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:23:52 PM
+NeedlemanWunschTest
+
+WritePatch Started CycleStep. 2025-02-23 7:23:52 PM
+NeedlemanWunschTest
+
+WritePatch ran compiler. 2025-02-23 7:25:49 PM
+NeedlemanWunschTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  NeedlemanWunsch -> D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunsch\bin\Debug\net9.0\NeedlemanWunsch.dll
+D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\AlignmentTests.cs(64,85): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj]
+D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\AlignmentTests.cs(64,91): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj]
+  NeedlemanWunschTest -> D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\bin\Debug\net9.0\NeedlemanWunschTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\AlignmentTests.cs(64,85): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj]
+D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\AlignmentTests.cs(64,91): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.38
+
+
+WritePatch: Compile failed.
+NeedlemanWunschTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:25:51 PM
+NeedlemanWunschTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  NeedlemanWunsch -> D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunsch\bin\Debug\net9.0\NeedlemanWunsch.dll
+D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\AlignmentTests.cs(64,85): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj]
+D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\AlignmentTests.cs(64,91): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj]
+  NeedlemanWunschTest -> D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\bin\Debug\net9.0\NeedlemanWunschTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\AlignmentTests.cs(64,85): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj]
+D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\AlignmentTests.cs(64,91): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.38
+
+</CompilerResponse>
+2025-02-23 7:25:51 PM
+NeedlemanWunschTest
+
+WritePatch ran compiler. 2025-02-23 7:25:54 PM
+NeedlemanWunsch
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  NeedlemanWunsch -> D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunsch\bin\Debug\net9.0\NeedlemanWunsch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.49
+
+
+WritePatch: Code is Complete.
+NeedlemanWunsch
+
+WritePatch ran compiler. 2025-02-23 7:26:13 PM
+NeedlemanWunschTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  NeedlemanWunsch -> D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunsch\bin\Debug\net9.0\NeedlemanWunsch.dll
+  NeedlemanWunschTest -> D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\bin\Debug\net9.0\NeedlemanWunschTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.98
+
+
+WritePatch: Code is Complete.
+NeedlemanWunschTest
+
+TestResult:
+[SUCCESS 2025-02-23 7:26:36 PM] All tests passed successfully.
+[INFO 2025-02-23 7:26:36 PM] Test process completed. Duration: 7.20 seconds.
+[INFO 2025-02-23 7:26:36 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 7:26:36 PM] Test Parallelization enabled for D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\bin\Debug\net9.0\NeedlemanWunschTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:26:35 PM] D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\bin\Debug\net9.0\NeedlemanWunschTest.dll
+[OUTPUT 2025-02-23 7:26:34 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:26:34 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:26:32 PM]   NeedlemanWunsch -> D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunsch\bin\Debug\net9.0\NeedlemanWunsch.dll
+[OUTPUT 2025-02-23 7:26:31 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:26:37 PM]   Passed TestSingleCharacterSequences [10 ms]
+[OUTPUT 2025-02-23 7:26:33 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:26:33 PM] Test run for D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\bin\Debug\net9.0\NeedlemanWunschTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:26:32 PM]   NeedlemanWunschTest -> D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\bin\Debug\net9.0\NeedlemanWunschTest.dll
+[OUTPUT 2025-02-23 7:26:31 PM]   Determining projects to restore...
+[INFO 2025-02-23 7:26:29 PM] Command: dotnet test "D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:26:29 PM] Starting test for project: D:\Code2025\RavenWork\NeedlemanWunsch\NeedlemanWunschTest\NeedlemanWunschTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
