@@ -1,0 +1,380 @@
+<ActRecord>
+  <ProjectName>VectorQuantization</ProjectName>
+  <ProjectDescription>Vector quantization: Often used in lossy data compression</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Vector quantization: Often used in lossy data compression</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\VectorQuantization</SolutionFolderPath>
+  <ProjectFolderName>VectorQuantization</ProjectFolderName>
+  <ProjectName>VectorQuantization</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:19:56 PM
+VectorQuantization</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:21:20 PM
+VectorQuantization</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  VectorQuantization -> D:\Code2025\RavenWork\VectorQuantization\VectorQuantization\bin\Debug\net9.0\VectorQuantization.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.94
+]]></string>
+    <string>WritePatch: Code is Complete.
+VectorQuantization</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:21:37 PM
+VectorQuantizationTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:23:18 PM
+VectorQuantizationTest</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj (in 268 ms).
+  1 of 2 projects are up-to-date for restore.
+  VectorQuantization -> D:\Code2025\RavenWork\VectorQuantization\VectorQuantization\bin\Debug\net9.0\VectorQuantization.dll
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(15,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(23,46): error CS0029: Cannot implicitly convert type 'System.Collections.Generic.List<int>' to 'System.Collections.Generic.List<double[]>' [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(23,65): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(25,110): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(15,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(23,65): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(25,110): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(23,46): error CS0029: Cannot implicitly convert type 'System.Collections.Generic.List<int>' to 'System.Collections.Generic.List<double[]>' [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+    3 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:02.09
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+VectorQuantizationTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:23:19 PM
+VectorQuantizationTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:23:20 PM
+VectorQuantizationTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:24:37 PM
+VectorQuantizationTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  VectorQuantization -> D:\Code2025\RavenWork\VectorQuantization\VectorQuantization\bin\Debug\net9.0\VectorQuantization.dll
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(15,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(23,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(25,110): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+  VectorQuantizationTest -> D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\bin\Debug\net9.0\VectorQuantizationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(15,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(23,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(25,110): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.10
+]]></string>
+    <string>WritePatch: Compile failed.
+VectorQuantizationTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:24:41 PM
+VectorQuantizationTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:24:42 PM
+VectorQuantizationTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 2:25:19 PM
+VectorQuantizationTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  VectorQuantization -> D:\Code2025\RavenWork\VectorQuantization\VectorQuantization\bin\Debug\net9.0\VectorQuantization.dll
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(15,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(23,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(25,110): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+  VectorQuantizationTest -> D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\bin\Debug\net9.0\VectorQuantizationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(15,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(23,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(25,110): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.10
+
+</CompilerResponse>
+2025-02-23 2:25:20 PM
+VectorQuantizationTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 2:25:23 PM
+VectorQuantization</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  VectorQuantization -> D:\Code2025\RavenWork\VectorQuantization\VectorQuantization\bin\Debug\net9.0\VectorQuantization.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.21
+]]></string>
+    <string>WritePatch: Code is Complete.
+VectorQuantization</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:25:45 PM
+VectorQuantizationTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  VectorQuantization -> D:\Code2025\RavenWork\VectorQuantization\VectorQuantization\bin\Debug\net9.0\VectorQuantization.dll
+  VectorQuantizationTest -> D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\bin\Debug\net9.0\VectorQuantizationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.41
+]]></string>
+    <string>WritePatch: Code is Complete.
+VectorQuantizationTest</string>
+    <string>[INFO 2025-02-23 2:26:06 PM] Starting test for project: D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj</string>
+    <string>[INFO 2025-02-23 2:26:06 PM] Starting test for project: D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj</string>
+    <string>[INFO 2025-02-23 2:26:06 PM] Starting test for project: D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj</string>
+    <string>[INFO 2025-02-23 2:26:06 PM] Starting test for project: D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj</string>
+    <string>[INFO 2025-02-23 2:26:06 PM] Starting test for project: D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj</string>
+    <string>[INFO 2025-02-23 2:26:06 PM] Starting test for project: D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj</string>
+    <string>[INFO 2025-02-23 2:26:06 PM] Starting test for project: D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj</string>
+    <string>[INFO 2025-02-23 2:26:06 PM] Starting test for project: D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj</string>
+    <string>[INFO 2025-02-23 2:26:06 PM] Starting test for project: D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj</string>
+    <string>[INFO 2025-02-23 2:26:06 PM] Starting test for project: D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj</string>
+    <string>[INFO 2025-02-23 2:26:06 PM] Starting test for project: D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 2:26:11 PM] All tests passed successfully.
+[INFO 2025-02-23 2:26:11 PM] Test process completed. Duration: 5.73 seconds.
+[INFO 2025-02-23 2:26:11 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 2:26:12 PM] D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\bin\Debug\net9.0\VectorQuantizationTest.dll
+[OUTPUT 2025-02-23 2:26:11 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 2:26:11 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 2:26:10 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 2:26:08 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 2:26:10 PM] Test run for D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\bin\Debug\net9.0\VectorQuantizationTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 2:26:09 PM]   VectorQuantizationTest -> D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\bin\Debug\net9.0\VectorQuantizationTest.dll
+[OUTPUT 2025-02-23 2:26:08 PM]   VectorQuantization -> D:\Code2025\RavenWork\VectorQuantization\VectorQuantization\bin\Debug\net9.0\VectorQuantization.dll
+[OUTPUT 2025-02-23 2:26:07 PM]   Determining projects to restore...
+[INFO 2025-02-23 2:26:06 PM] Command: dotnet test "D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 2:26:06 PM] Starting test for project: D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 2:19:56 PM
+VectorQuantization
+
+WritePatch ran compiler. 2025-02-23 2:21:20 PM
+VectorQuantization
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  VectorQuantization -> D:\Code2025\RavenWork\VectorQuantization\VectorQuantization\bin\Debug\net9.0\VectorQuantization.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.94
+
+
+WritePatch: Code is Complete.
+VectorQuantization
+
+WritePatch Started CycleStep. 2025-02-23 2:21:37 PM
+VectorQuantizationTest
+
+WritePatch ran compiler. 2025-02-23 2:23:18 PM
+VectorQuantizationTest
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj (in 268 ms).
+  1 of 2 projects are up-to-date for restore.
+  VectorQuantization -> D:\Code2025\RavenWork\VectorQuantization\VectorQuantization\bin\Debug\net9.0\VectorQuantization.dll
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(15,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(23,46): error CS0029: Cannot implicitly convert type 'System.Collections.Generic.List<int>' to 'System.Collections.Generic.List<double[]>' [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(23,65): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(25,110): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(15,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(23,65): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(25,110): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(23,46): error CS0029: Cannot implicitly convert type 'System.Collections.Generic.List<int>' to 'System.Collections.Generic.List<double[]>' [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+    3 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:02.09
+
+
+Errors:
+
+WritePatch: Compile failed.
+VectorQuantizationTest
+
+Finished WritePatch cycle step.
+2025-02-23 2:23:19 PM
+VectorQuantizationTest
+
+WritePatch Started CycleStep. 2025-02-23 2:23:20 PM
+VectorQuantizationTest
+
+WritePatch ran compiler. 2025-02-23 2:24:37 PM
+VectorQuantizationTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  VectorQuantization -> D:\Code2025\RavenWork\VectorQuantization\VectorQuantization\bin\Debug\net9.0\VectorQuantization.dll
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(15,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(23,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(25,110): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+  VectorQuantizationTest -> D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\bin\Debug\net9.0\VectorQuantizationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(15,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(23,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(25,110): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.10
+
+
+WritePatch: Compile failed.
+VectorQuantizationTest
+
+Finished WritePatch cycle step.
+2025-02-23 2:24:41 PM
+VectorQuantizationTest
+
+WritePatch Started CycleStep. 2025-02-23 2:24:42 PM
+VectorQuantizationTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 2:25:19 PM
+VectorQuantizationTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  VectorQuantization -> D:\Code2025\RavenWork\VectorQuantization\VectorQuantization\bin\Debug\net9.0\VectorQuantization.dll
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(15,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(23,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(25,110): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+  VectorQuantizationTest -> D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\bin\Debug\net9.0\VectorQuantizationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(15,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(23,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizerTests.cs(25,110): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.10
+
+</CompilerResponse>
+2025-02-23 2:25:20 PM
+VectorQuantizationTest
+
+WritePatch ran compiler. 2025-02-23 2:25:23 PM
+VectorQuantization
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  VectorQuantization -> D:\Code2025\RavenWork\VectorQuantization\VectorQuantization\bin\Debug\net9.0\VectorQuantization.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.21
+
+
+WritePatch: Code is Complete.
+VectorQuantization
+
+WritePatch ran compiler. 2025-02-23 2:25:45 PM
+VectorQuantizationTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  VectorQuantization -> D:\Code2025\RavenWork\VectorQuantization\VectorQuantization\bin\Debug\net9.0\VectorQuantization.dll
+  VectorQuantizationTest -> D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\bin\Debug\net9.0\VectorQuantizationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.41
+
+
+WritePatch: Code is Complete.
+VectorQuantizationTest
+
+TestResult:
+[SUCCESS 2025-02-23 2:26:11 PM] All tests passed successfully.
+[INFO 2025-02-23 2:26:11 PM] Test process completed. Duration: 5.73 seconds.
+[INFO 2025-02-23 2:26:11 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 2:26:12 PM] D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\bin\Debug\net9.0\VectorQuantizationTest.dll
+[OUTPUT 2025-02-23 2:26:11 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 2:26:11 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 2:26:10 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 2:26:08 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 2:26:10 PM] Test run for D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\bin\Debug\net9.0\VectorQuantizationTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 2:26:09 PM]   VectorQuantizationTest -> D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\bin\Debug\net9.0\VectorQuantizationTest.dll
+[OUTPUT 2025-02-23 2:26:08 PM]   VectorQuantization -> D:\Code2025\RavenWork\VectorQuantization\VectorQuantization\bin\Debug\net9.0\VectorQuantization.dll
+[OUTPUT 2025-02-23 2:26:07 PM]   Determining projects to restore...
+[INFO 2025-02-23 2:26:06 PM] Command: dotnet test "D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 2:26:06 PM] Starting test for project: D:\Code2025\RavenWork\VectorQuantization\VectorQuantizationTest\VectorQuantizationTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
