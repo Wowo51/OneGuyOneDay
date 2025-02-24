@@ -1,0 +1,442 @@
+<ActRecord>
+  <ProjectName>FaugereF4Algorithm</ProjectName>
+  <ProjectDescription>Faugère F4 algorithm – Finds a Gröbner basis (with related methods such as F5 also noted).</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Faugère F4 algorithm – Finds a Gröbner basis (with related methods such as F5 also noted).</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\FaugereF4Algorithm</SolutionFolderPath>
+  <ProjectFolderName>FaugereF4Algorithm</ProjectFolderName>
+  <ProjectName>FaugereF4Algorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:49:41 AM
+FaugereF4Algorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:52:00 AM
+FaugereF4Algorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4Algorithm\Polynomial.cs(142,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4Algorithm\FaugereF4Algorithm.csproj]
+D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4Algorithm\Polynomial.cs(52,20): warning CS8767: Nullability of reference types in type of parameter 'other' of 'int Monomial.CompareTo(Monomial other)' doesn't match implicitly implemented member 'int IComparable<Monomial>.CompareTo(Monomial? other)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4Algorithm\FaugereF4Algorithm.csproj]
+  FaugereF4Algorithm -> D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4Algorithm\bin\Debug\net9.0\FaugereF4Algorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4Algorithm\Polynomial.cs(142,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4Algorithm\FaugereF4Algorithm.csproj]
+D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4Algorithm\Polynomial.cs(52,20): warning CS8767: Nullability of reference types in type of parameter 'other' of 'int Monomial.CompareTo(Monomial other)' doesn't match implicitly implemented member 'int IComparable<Monomial>.CompareTo(Monomial? other)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4Algorithm\FaugereF4Algorithm.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.90
+]]></string>
+    <string>WritePatch: Compile failed.
+FaugereF4Algorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:52:00 AM
+FaugereF4Algorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:52:01 AM
+FaugereF4Algorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:53:06 AM
+FaugereF4Algorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FaugereF4Algorithm -> D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4Algorithm\bin\Debug\net9.0\FaugereF4Algorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+]]></string>
+    <string>WritePatch: Code is not Complete.
+FaugereF4Algorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:53:21 AM
+FaugereF4Algorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:53:22 AM
+FaugereF4Algorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:55:22 AM
+FaugereF4Algorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FaugereF4Algorithm -> D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4Algorithm\bin\Debug\net9.0\FaugereF4Algorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+]]></string>
+    <string>WritePatch: Code is not Complete.
+FaugereF4Algorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:55:37 AM
+FaugereF4Algorithm</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4Algorithm
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FaugereF4Algorithm -> D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4Algorithm\bin\Debug\net9.0\FaugereF4Algorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+
+</CompilerResponse>
+2025-02-23 10:55:37 AM
+FaugereF4Algorithm]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 10:55:39 AM
+FaugereF4Algorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FaugereF4Algorithm -> D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4Algorithm\bin\Debug\net9.0\FaugereF4Algorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+]]></string>
+    <string>WritePatch: Code is not Complete.
+FaugereF4Algorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:56:16 AM
+FaugereF4Algorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:57:11 AM
+FaugereF4Algorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FaugereF4Algorithm -> D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4Algorithm\bin\Debug\net9.0\FaugereF4Algorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.88
+]]></string>
+    <string>WritePatch: Code is not Complete.
+FaugereF4Algorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:57:30 AM
+FaugereF4Algorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:57:30 AM
+FaugereF4Algorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:59:11 AM
+FaugereF4Algorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FaugereF4Algorithm -> D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4Algorithm\bin\Debug\net9.0\FaugereF4Algorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+]]></string>
+    <string>WritePatch: Code is Complete.
+FaugereF4Algorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:00:11 AM
+FaugereF4AlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:01:06 AM
+FaugereF4AlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4AlgorithmTest\FaugereF4AlgorithmTest.csproj (in 223 ms).
+  1 of 2 projects are up-to-date for restore.
+  FaugereF4Algorithm -> D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4Algorithm\bin\Debug\net9.0\FaugereF4Algorithm.dll
+  FaugereF4AlgorithmTest -> D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4AlgorithmTest\bin\Debug\net9.0\FaugereF4AlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.60
+]]></string>
+    <string>WritePatch: Code is Complete.
+FaugereF4AlgorithmTest</string>
+    <string>[INFO 2025-02-23 11:01:34 AM] Starting test for project: D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4AlgorithmTest\FaugereF4AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:01:34 AM] Starting test for project: D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4AlgorithmTest\FaugereF4AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:01:34 AM] Starting test for project: D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4AlgorithmTest\FaugereF4AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:01:34 AM] Starting test for project: D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4AlgorithmTest\FaugereF4AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:01:34 AM] Starting test for project: D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4AlgorithmTest\FaugereF4AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:01:34 AM] Starting test for project: D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4AlgorithmTest\FaugereF4AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:01:34 AM] Starting test for project: D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4AlgorithmTest\FaugereF4AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:01:34 AM] Starting test for project: D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4AlgorithmTest\FaugereF4AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:01:34 AM] Starting test for project: D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4AlgorithmTest\FaugereF4AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:01:34 AM] Starting test for project: D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4AlgorithmTest\FaugereF4AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:01:34 AM] Starting test for project: D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4AlgorithmTest\FaugereF4AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:01:34 AM] Starting test for project: D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4AlgorithmTest\FaugereF4AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:01:34 AM] Starting test for project: D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4AlgorithmTest\FaugereF4AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:01:34 AM] Starting test for project: D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4AlgorithmTest\FaugereF4AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:01:34 AM] Starting test for project: D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4AlgorithmTest\FaugereF4AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:01:34 AM] Starting test for project: D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4AlgorithmTest\FaugereF4AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:01:34 AM] Starting test for project: D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4AlgorithmTest\FaugereF4AlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:01:34 AM] Starting test for project: D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4AlgorithmTest\FaugereF4AlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 11:01:39 AM]   Passed TestPolynomialArithmetic [50 ms]
+[OUTPUT 2025-02-23 11:01:39 AM]   Passed TestReduction [50 ms]
+[OUTPUT 2025-02-23 11:01:38 AM]   Passed TestComputeGroebnerBasisF5_Basic [44 ms]
+[OUTPUT 2025-02-23 11:01:36 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:01:36 AM] Test run for D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4AlgorithmTest\bin\Debug\net9.0\FaugereF4AlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:01:35 AM]   FaugereF4AlgorithmTest -> D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4AlgorithmTest\bin\Debug\net9.0\FaugereF4AlgorithmTest.dll
+[OUTPUT 2025-02-23 11:01:35 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:01:40 AM] Test Run Successful.
+[OUTPUT 2025-02-23 11:01:40 AM]   Passed TestSyntheticDataGeneration [3 s]
+[OUTPUT 2025-02-23 11:01:38 AM]   Passed TestComputeGroebnerBasis_Basic [44 ms]
+[OUTPUT 2025-02-23 11:01:37 AM] Test Parallelization enabled for D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4AlgorithmTest\bin\Debug\net9.0\FaugereF4AlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 11:01:37 AM] D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4AlgorithmTest\bin\Debug\net9.0\FaugereF4AlgorithmTest.dll
+[OUTPUT 2025-02-23 11:01:37 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:01:36 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:01:35 AM]   FaugereF4Algorithm -> D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4Algorithm\bin\Debug\net9.0\FaugereF4Algorithm.dll
+[OUTPUT 2025-02-23 11:01:34 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 11:01:40 AM] All tests passed successfully.
+[INFO 2025-02-23 11:01:40 AM] Test process completed. Duration: 6.67 seconds.
+[INFO 2025-02-23 11:01:40 AM] Process exited with code 0.
+[INFO 2025-02-23 11:01:34 AM] Command: dotnet test "D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4AlgorithmTest\FaugereF4AlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:01:34 AM] Starting test for project: D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4AlgorithmTest\FaugereF4AlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 10:49:41 AM
+FaugereF4Algorithm
+
+WritePatch ran compiler. 2025-02-23 10:52:00 AM
+FaugereF4Algorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4Algorithm\Polynomial.cs(142,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4Algorithm\FaugereF4Algorithm.csproj]
+D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4Algorithm\Polynomial.cs(52,20): warning CS8767: Nullability of reference types in type of parameter 'other' of 'int Monomial.CompareTo(Monomial other)' doesn't match implicitly implemented member 'int IComparable<Monomial>.CompareTo(Monomial? other)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4Algorithm\FaugereF4Algorithm.csproj]
+  FaugereF4Algorithm -> D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4Algorithm\bin\Debug\net9.0\FaugereF4Algorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4Algorithm\Polynomial.cs(142,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4Algorithm\FaugereF4Algorithm.csproj]
+D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4Algorithm\Polynomial.cs(52,20): warning CS8767: Nullability of reference types in type of parameter 'other' of 'int Monomial.CompareTo(Monomial other)' doesn't match implicitly implemented member 'int IComparable<Monomial>.CompareTo(Monomial? other)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4Algorithm\FaugereF4Algorithm.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.90
+
+
+WritePatch: Compile failed.
+FaugereF4Algorithm
+
+Finished WritePatch cycle step.
+2025-02-23 10:52:00 AM
+FaugereF4Algorithm
+
+WritePatch Started CycleStep. 2025-02-23 10:52:01 AM
+FaugereF4Algorithm
+
+WritePatch ran compiler. 2025-02-23 10:53:06 AM
+FaugereF4Algorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FaugereF4Algorithm -> D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4Algorithm\bin\Debug\net9.0\FaugereF4Algorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+
+
+WritePatch: Code is not Complete.
+FaugereF4Algorithm
+
+Finished WritePatch cycle step.
+2025-02-23 10:53:21 AM
+FaugereF4Algorithm
+
+WritePatch Started CycleStep. 2025-02-23 10:53:22 AM
+FaugereF4Algorithm
+
+WritePatch ran compiler. 2025-02-23 10:55:22 AM
+FaugereF4Algorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FaugereF4Algorithm -> D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4Algorithm\bin\Debug\net9.0\FaugereF4Algorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+
+
+WritePatch: Code is not Complete.
+FaugereF4Algorithm
+
+Finished WritePatch cycle step.
+2025-02-23 10:55:37 AM
+FaugereF4Algorithm
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4Algorithm
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FaugereF4Algorithm -> D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4Algorithm\bin\Debug\net9.0\FaugereF4Algorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+
+</CompilerResponse>
+2025-02-23 10:55:37 AM
+FaugereF4Algorithm
+
+WritePatch ran compiler. 2025-02-23 10:55:39 AM
+FaugereF4Algorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FaugereF4Algorithm -> D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4Algorithm\bin\Debug\net9.0\FaugereF4Algorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+
+
+WritePatch: Code is not Complete.
+FaugereF4Algorithm
+
+WritePatch Started CycleStep. 2025-02-23 10:56:16 AM
+FaugereF4Algorithm
+
+WritePatch ran compiler. 2025-02-23 10:57:11 AM
+FaugereF4Algorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FaugereF4Algorithm -> D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4Algorithm\bin\Debug\net9.0\FaugereF4Algorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.88
+
+
+WritePatch: Code is not Complete.
+FaugereF4Algorithm
+
+Finished WritePatch cycle step.
+2025-02-23 10:57:30 AM
+FaugereF4Algorithm
+
+WritePatch Started CycleStep. 2025-02-23 10:57:30 AM
+FaugereF4Algorithm
+
+WritePatch ran compiler. 2025-02-23 10:59:11 AM
+FaugereF4Algorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FaugereF4Algorithm -> D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4Algorithm\bin\Debug\net9.0\FaugereF4Algorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+
+
+WritePatch: Code is Complete.
+FaugereF4Algorithm
+
+WritePatch Started CycleStep. 2025-02-23 11:00:11 AM
+FaugereF4AlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 11:01:06 AM
+FaugereF4AlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4AlgorithmTest\FaugereF4AlgorithmTest.csproj (in 223 ms).
+  1 of 2 projects are up-to-date for restore.
+  FaugereF4Algorithm -> D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4Algorithm\bin\Debug\net9.0\FaugereF4Algorithm.dll
+  FaugereF4AlgorithmTest -> D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4AlgorithmTest\bin\Debug\net9.0\FaugereF4AlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.60
+
+
+WritePatch: Code is Complete.
+FaugereF4AlgorithmTest
+
+TestResult:
+[OUTPUT 2025-02-23 11:01:39 AM]   Passed TestPolynomialArithmetic [50 ms]
+[OUTPUT 2025-02-23 11:01:39 AM]   Passed TestReduction [50 ms]
+[OUTPUT 2025-02-23 11:01:38 AM]   Passed TestComputeGroebnerBasisF5_Basic [44 ms]
+[OUTPUT 2025-02-23 11:01:36 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:01:36 AM] Test run for D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4AlgorithmTest\bin\Debug\net9.0\FaugereF4AlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:01:35 AM]   FaugereF4AlgorithmTest -> D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4AlgorithmTest\bin\Debug\net9.0\FaugereF4AlgorithmTest.dll
+[OUTPUT 2025-02-23 11:01:35 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:01:40 AM] Test Run Successful.
+[OUTPUT 2025-02-23 11:01:40 AM]   Passed TestSyntheticDataGeneration [3 s]
+[OUTPUT 2025-02-23 11:01:38 AM]   Passed TestComputeGroebnerBasis_Basic [44 ms]
+[OUTPUT 2025-02-23 11:01:37 AM] Test Parallelization enabled for D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4AlgorithmTest\bin\Debug\net9.0\FaugereF4AlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 11:01:37 AM] D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4AlgorithmTest\bin\Debug\net9.0\FaugereF4AlgorithmTest.dll
+[OUTPUT 2025-02-23 11:01:37 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:01:36 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:01:35 AM]   FaugereF4Algorithm -> D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4Algorithm\bin\Debug\net9.0\FaugereF4Algorithm.dll
+[OUTPUT 2025-02-23 11:01:34 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 11:01:40 AM] All tests passed successfully.
+[INFO 2025-02-23 11:01:40 AM] Test process completed. Duration: 6.67 seconds.
+[INFO 2025-02-23 11:01:40 AM] Process exited with code 0.
+[INFO 2025-02-23 11:01:34 AM] Command: dotnet test "D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4AlgorithmTest\FaugereF4AlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:01:34 AM] Starting test for project: D:\Code2025\RavenWork\FaugereF4Algorithm\FaugereF4AlgorithmTest\FaugereF4AlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
