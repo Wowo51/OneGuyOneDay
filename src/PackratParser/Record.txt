@@ -1,0 +1,692 @@
+<ActRecord>
+  <ProjectName>PackratParser</ProjectName>
+  <ProjectDescription>Packrat parser: A linear‑time parser for parsing expression grammars</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Packrat parser: A linear‑time parser for parsing expression grammars</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\PackratParser</SolutionFolderPath>
+  <ProjectFolderName>PackratParser</ProjectFolderName>
+  <ProjectName>PackratParser</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:52:57 PM
+PackratParser</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:54:03 PM
+PackratParser</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\ParserContext.cs(9,44): error CS0053: Inconsistent accessibility: property type 'Dictionary<ParserContext.MemoKey, Result>' is less accessible than property 'ParserContext.Memo' [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\ParserContext.cs(44,25): warning CS8767: Nullability of reference types in type of parameter 'x' of 'bool MemoKeyComparer.Equals(MemoKey x, MemoKey y)' doesn't match implicitly implemented member 'bool IEqualityComparer<MemoKey>.Equals(MemoKey? x, MemoKey? y)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\ParserContext.cs(44,25): warning CS8767: Nullability of reference types in type of parameter 'y' of 'bool MemoKeyComparer.Equals(MemoKey x, MemoKey y)' doesn't match implicitly implemented member 'bool IEqualityComparer<MemoKey>.Equals(MemoKey? x, MemoKey? y)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\ParserContext.cs(44,25): warning CS8767: Nullability of reference types in type of parameter 'x' of 'bool MemoKeyComparer.Equals(MemoKey x, MemoKey y)' doesn't match implicitly implemented member 'bool IEqualityComparer<MemoKey>.Equals(MemoKey? x, MemoKey? y)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\ParserContext.cs(44,25): warning CS8767: Nullability of reference types in type of parameter 'y' of 'bool MemoKeyComparer.Equals(MemoKey x, MemoKey y)' doesn't match implicitly implemented member 'bool IEqualityComparer<MemoKey>.Equals(MemoKey? x, MemoKey? y)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\ParserContext.cs(9,44): error CS0053: Inconsistent accessibility: property type 'Dictionary<ParserContext.MemoKey, Result>' is less accessible than property 'ParserContext.Memo' [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+    2 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.72
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+PackratParser</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:54:04 PM
+PackratParser</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:54:05 PM
+PackratParser</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:54:37 PM
+PackratParser</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Result.cs(16,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Expressions\LiteralExpression.cs(20,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Expressions\LiteralExpression.cs(29,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Expressions\SequenceExpression.cs(26,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Expressions\ChoiceExpression.cs(28,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Parser.cs(9,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+  PackratParser -> D:\Code2025\RavenWork\PackratParser\PackratParser\bin\Debug\net9.0\PackratParser.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Result.cs(16,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Expressions\LiteralExpression.cs(20,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Expressions\LiteralExpression.cs(29,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Expressions\SequenceExpression.cs(26,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Expressions\ChoiceExpression.cs(28,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Parser.cs(9,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+    6 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.45
+]]></string>
+    <string>WritePatch: Compile failed.
+PackratParser</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:54:37 PM
+PackratParser</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:54:38 PM
+PackratParser</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:54:59 PM
+PackratParser</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Expressions\ZeroOrMoreExpression.cs(29,32): warning CS8604: Possible null reference argument for parameter 'item' in 'void List<object>.Add(object item)'. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Expressions\SequenceExpression.cs(29,32): warning CS8604: Possible null reference argument for parameter 'item' in 'void List<object>.Add(object item)'. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+  PackratParser -> D:\Code2025\RavenWork\PackratParser\PackratParser\bin\Debug\net9.0\PackratParser.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Expressions\ZeroOrMoreExpression.cs(29,32): warning CS8604: Possible null reference argument for parameter 'item' in 'void List<object>.Add(object item)'. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Expressions\SequenceExpression.cs(29,32): warning CS8604: Possible null reference argument for parameter 'item' in 'void List<object>.Add(object item)'. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.21
+]]></string>
+    <string>WritePatch: Compile failed.
+PackratParser</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:55:01 PM
+PackratParser</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\PackratParser\PackratParser
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Expressions\ZeroOrMoreExpression.cs(29,32): warning CS8604: Possible null reference argument for parameter 'item' in 'void List<object>.Add(object item)'. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Expressions\SequenceExpression.cs(29,32): warning CS8604: Possible null reference argument for parameter 'item' in 'void List<object>.Add(object item)'. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+  PackratParser -> D:\Code2025\RavenWork\PackratParser\PackratParser\bin\Debug\net9.0\PackratParser.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Expressions\ZeroOrMoreExpression.cs(29,32): warning CS8604: Possible null reference argument for parameter 'item' in 'void List<object>.Add(object item)'. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Expressions\SequenceExpression.cs(29,32): warning CS8604: Possible null reference argument for parameter 'item' in 'void List<object>.Add(object item)'. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.21
+
+</CompilerResponse>
+2025-02-23 2:55:01 PM
+PackratParser]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 2:55:03 PM
+PackratParser</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PackratParser -> D:\Code2025\RavenWork\PackratParser\PackratParser\bin\Debug\net9.0\PackratParser.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.16
+]]></string>
+    <string>WritePatch: Code is Complete.
+PackratParser</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:55:16 PM
+PackratParserTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:56:32 PM
+PackratParserTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj (in 382 ms).
+  1 of 2 projects are up-to-date for restore.
+  PackratParser -> D:\Code2025\RavenWork\PackratParser\PackratParser\bin\Debug\net9.0\PackratParser.dll
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(56,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(71,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(82,42): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(93,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(116,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+  PackratParserTest -> D:\Code2025\RavenWork\PackratParser\PackratParserTest\bin\Debug\net9.0\PackratParserTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(56,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(71,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(82,42): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(93,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(116,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+    5 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.14
+]]></string>
+    <string>WritePatch: Compile failed.
+PackratParserTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:56:32 PM
+PackratParserTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:56:33 PM
+PackratParserTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:57:04 PM
+PackratParserTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PackratParser -> D:\Code2025\RavenWork\PackratParser\PackratParser\bin\Debug\net9.0\PackratParser.dll
+  PackratParserTest -> D:\Code2025\RavenWork\PackratParser\PackratParserTest\bin\Debug\net9.0\PackratParserTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.47
+]]></string>
+    <string>WritePatch: Code is not Complete.
+PackratParserTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:57:14 PM
+PackratParserTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:57:15 PM
+PackratParserTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:58:11 PM
+PackratParserTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PackratParser -> D:\Code2025\RavenWork\PackratParser\PackratParser\bin\Debug\net9.0\PackratParser.dll
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ExtraParserTests.cs(20,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(56,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(71,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(82,42): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(93,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ExtraParserTests.cs(83,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(116,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+  PackratParserTest -> D:\Code2025\RavenWork\PackratParser\PackratParserTest\bin\Debug\net9.0\PackratParserTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ExtraParserTests.cs(20,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(56,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(71,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(82,42): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(93,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ExtraParserTests.cs(83,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(116,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+    7 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.70
+]]></string>
+    <string>WritePatch: Compile failed.
+PackratParserTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:58:12 PM
+PackratParserTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\PackratParser\PackratParserTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PackratParser -> D:\Code2025\RavenWork\PackratParser\PackratParser\bin\Debug\net9.0\PackratParser.dll
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ExtraParserTests.cs(20,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(56,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(71,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(82,42): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(93,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ExtraParserTests.cs(83,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(116,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+  PackratParserTest -> D:\Code2025\RavenWork\PackratParser\PackratParserTest\bin\Debug\net9.0\PackratParserTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ExtraParserTests.cs(20,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(56,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(71,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(82,42): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(93,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ExtraParserTests.cs(83,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(116,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+    7 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.70
+
+</CompilerResponse>
+2025-02-23 2:58:12 PM
+PackratParserTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 2:58:14 PM
+PackratParser</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PackratParser -> D:\Code2025\RavenWork\PackratParser\PackratParser\bin\Debug\net9.0\PackratParser.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.07
+]]></string>
+    <string>WritePatch: Code is Complete.
+PackratParser</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:58:27 PM
+PackratParserTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PackratParser -> D:\Code2025\RavenWork\PackratParser\PackratParser\bin\Debug\net9.0\PackratParser.dll
+  PackratParserTest -> D:\Code2025\RavenWork\PackratParser\PackratParserTest\bin\Debug\net9.0\PackratParserTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.35
+]]></string>
+    <string>WritePatch: Code is Complete.
+PackratParserTest</string>
+    <string>[INFO 2025-02-23 2:58:42 PM] Starting test for project: D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj</string>
+    <string>[INFO 2025-02-23 2:58:42 PM] Starting test for project: D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj</string>
+    <string>[INFO 2025-02-23 2:58:42 PM] Starting test for project: D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj</string>
+    <string>[INFO 2025-02-23 2:58:42 PM] Starting test for project: D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj</string>
+    <string>[INFO 2025-02-23 2:58:42 PM] Starting test for project: D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj</string>
+    <string>[INFO 2025-02-23 2:58:42 PM] Starting test for project: D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj</string>
+    <string>[INFO 2025-02-23 2:58:42 PM] Starting test for project: D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj</string>
+    <string>[INFO 2025-02-23 2:58:42 PM] Starting test for project: D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj</string>
+    <string>[INFO 2025-02-23 2:58:42 PM] Starting test for project: D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj</string>
+    <string>[INFO 2025-02-23 2:58:42 PM] Starting test for project: D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj</string>
+    <string>[INFO 2025-02-23 2:58:42 PM] Starting test for project: D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 2:58:47 PM] D:\Code2025\RavenWork\PackratParser\PackratParserTest\bin\Debug\net9.0\PackratParserTest.dll
+[OUTPUT 2025-02-23 2:58:47 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 2:58:47 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 2:58:46 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 2:58:45 PM] Test run for D:\Code2025\RavenWork\PackratParser\PackratParserTest\bin\Debug\net9.0\PackratParserTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 2:58:45 PM]   PackratParserTest -> D:\Code2025\RavenWork\PackratParser\PackratParserTest\bin\Debug\net9.0\PackratParserTest.dll
+[OUTPUT 2025-02-23 2:58:44 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 2:58:44 PM]   PackratParser -> D:\Code2025\RavenWork\PackratParser\PackratParser\bin\Debug\net9.0\PackratParser.dll
+[OUTPUT 2025-02-23 2:58:44 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 2:58:47 PM] All tests passed successfully.
+[INFO 2025-02-23 2:58:47 PM] Test process completed. Duration: 5.23 seconds.
+[INFO 2025-02-23 2:58:47 PM] Process exited with code 0.
+[INFO 2025-02-23 2:58:42 PM] Command: dotnet test "D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 2:58:42 PM] Starting test for project: D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 2:52:57 PM
+PackratParser
+
+WritePatch ran compiler. 2025-02-23 2:54:03 PM
+PackratParser
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\ParserContext.cs(9,44): error CS0053: Inconsistent accessibility: property type 'Dictionary<ParserContext.MemoKey, Result>' is less accessible than property 'ParserContext.Memo' [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\ParserContext.cs(44,25): warning CS8767: Nullability of reference types in type of parameter 'x' of 'bool MemoKeyComparer.Equals(MemoKey x, MemoKey y)' doesn't match implicitly implemented member 'bool IEqualityComparer<MemoKey>.Equals(MemoKey? x, MemoKey? y)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\ParserContext.cs(44,25): warning CS8767: Nullability of reference types in type of parameter 'y' of 'bool MemoKeyComparer.Equals(MemoKey x, MemoKey y)' doesn't match implicitly implemented member 'bool IEqualityComparer<MemoKey>.Equals(MemoKey? x, MemoKey? y)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\ParserContext.cs(44,25): warning CS8767: Nullability of reference types in type of parameter 'x' of 'bool MemoKeyComparer.Equals(MemoKey x, MemoKey y)' doesn't match implicitly implemented member 'bool IEqualityComparer<MemoKey>.Equals(MemoKey? x, MemoKey? y)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\ParserContext.cs(44,25): warning CS8767: Nullability of reference types in type of parameter 'y' of 'bool MemoKeyComparer.Equals(MemoKey x, MemoKey y)' doesn't match implicitly implemented member 'bool IEqualityComparer<MemoKey>.Equals(MemoKey? x, MemoKey? y)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\ParserContext.cs(9,44): error CS0053: Inconsistent accessibility: property type 'Dictionary<ParserContext.MemoKey, Result>' is less accessible than property 'ParserContext.Memo' [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+    2 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.72
+
+
+Errors:
+
+WritePatch: Compile failed.
+PackratParser
+
+Finished WritePatch cycle step.
+2025-02-23 2:54:04 PM
+PackratParser
+
+WritePatch Started CycleStep. 2025-02-23 2:54:05 PM
+PackratParser
+
+WritePatch ran compiler. 2025-02-23 2:54:37 PM
+PackratParser
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Result.cs(16,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Expressions\LiteralExpression.cs(20,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Expressions\LiteralExpression.cs(29,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Expressions\SequenceExpression.cs(26,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Expressions\ChoiceExpression.cs(28,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Parser.cs(9,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+  PackratParser -> D:\Code2025\RavenWork\PackratParser\PackratParser\bin\Debug\net9.0\PackratParser.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Result.cs(16,70): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Expressions\LiteralExpression.cs(20,56): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Expressions\LiteralExpression.cs(29,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Expressions\SequenceExpression.cs(26,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Expressions\ChoiceExpression.cs(28,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Parser.cs(9,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+    6 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.45
+
+
+WritePatch: Compile failed.
+PackratParser
+
+Finished WritePatch cycle step.
+2025-02-23 2:54:37 PM
+PackratParser
+
+WritePatch Started CycleStep. 2025-02-23 2:54:38 PM
+PackratParser
+
+WritePatch ran compiler. 2025-02-23 2:54:59 PM
+PackratParser
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Expressions\ZeroOrMoreExpression.cs(29,32): warning CS8604: Possible null reference argument for parameter 'item' in 'void List<object>.Add(object item)'. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Expressions\SequenceExpression.cs(29,32): warning CS8604: Possible null reference argument for parameter 'item' in 'void List<object>.Add(object item)'. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+  PackratParser -> D:\Code2025\RavenWork\PackratParser\PackratParser\bin\Debug\net9.0\PackratParser.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Expressions\ZeroOrMoreExpression.cs(29,32): warning CS8604: Possible null reference argument for parameter 'item' in 'void List<object>.Add(object item)'. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Expressions\SequenceExpression.cs(29,32): warning CS8604: Possible null reference argument for parameter 'item' in 'void List<object>.Add(object item)'. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.21
+
+
+WritePatch: Compile failed.
+PackratParser
+
+Finished WritePatch cycle step.
+2025-02-23 2:55:01 PM
+PackratParser
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\PackratParser\PackratParser
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Expressions\ZeroOrMoreExpression.cs(29,32): warning CS8604: Possible null reference argument for parameter 'item' in 'void List<object>.Add(object item)'. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Expressions\SequenceExpression.cs(29,32): warning CS8604: Possible null reference argument for parameter 'item' in 'void List<object>.Add(object item)'. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+  PackratParser -> D:\Code2025\RavenWork\PackratParser\PackratParser\bin\Debug\net9.0\PackratParser.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Expressions\ZeroOrMoreExpression.cs(29,32): warning CS8604: Possible null reference argument for parameter 'item' in 'void List<object>.Add(object item)'. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser\Expressions\SequenceExpression.cs(29,32): warning CS8604: Possible null reference argument for parameter 'item' in 'void List<object>.Add(object item)'. [D:\Code2025\RavenWork\PackratParser\PackratParser\PackratParser.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.21
+
+</CompilerResponse>
+2025-02-23 2:55:01 PM
+PackratParser
+
+WritePatch ran compiler. 2025-02-23 2:55:03 PM
+PackratParser
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PackratParser -> D:\Code2025\RavenWork\PackratParser\PackratParser\bin\Debug\net9.0\PackratParser.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.16
+
+
+WritePatch: Code is Complete.
+PackratParser
+
+WritePatch Started CycleStep. 2025-02-23 2:55:16 PM
+PackratParserTest
+
+WritePatch ran compiler. 2025-02-23 2:56:32 PM
+PackratParserTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj (in 382 ms).
+  1 of 2 projects are up-to-date for restore.
+  PackratParser -> D:\Code2025\RavenWork\PackratParser\PackratParser\bin\Debug\net9.0\PackratParser.dll
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(56,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(71,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(82,42): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(93,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(116,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+  PackratParserTest -> D:\Code2025\RavenWork\PackratParser\PackratParserTest\bin\Debug\net9.0\PackratParserTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(56,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(71,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(82,42): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(93,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(116,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+    5 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.14
+
+
+WritePatch: Compile failed.
+PackratParserTest
+
+Finished WritePatch cycle step.
+2025-02-23 2:56:32 PM
+PackratParserTest
+
+WritePatch Started CycleStep. 2025-02-23 2:56:33 PM
+PackratParserTest
+
+WritePatch ran compiler. 2025-02-23 2:57:04 PM
+PackratParserTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PackratParser -> D:\Code2025\RavenWork\PackratParser\PackratParser\bin\Debug\net9.0\PackratParser.dll
+  PackratParserTest -> D:\Code2025\RavenWork\PackratParser\PackratParserTest\bin\Debug\net9.0\PackratParserTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.47
+
+
+WritePatch: Code is not Complete.
+PackratParserTest
+
+Finished WritePatch cycle step.
+2025-02-23 2:57:14 PM
+PackratParserTest
+
+WritePatch Started CycleStep. 2025-02-23 2:57:15 PM
+PackratParserTest
+
+WritePatch ran compiler. 2025-02-23 2:58:11 PM
+PackratParserTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PackratParser -> D:\Code2025\RavenWork\PackratParser\PackratParser\bin\Debug\net9.0\PackratParser.dll
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ExtraParserTests.cs(20,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(56,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(71,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(82,42): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(93,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ExtraParserTests.cs(83,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(116,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+  PackratParserTest -> D:\Code2025\RavenWork\PackratParser\PackratParserTest\bin\Debug\net9.0\PackratParserTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ExtraParserTests.cs(20,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(56,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(71,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(82,42): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(93,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ExtraParserTests.cs(83,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(116,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+    7 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.70
+
+
+WritePatch: Compile failed.
+PackratParserTest
+
+Finished WritePatch cycle step.
+2025-02-23 2:58:12 PM
+PackratParserTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\PackratParser\PackratParserTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PackratParser -> D:\Code2025\RavenWork\PackratParser\PackratParser\bin\Debug\net9.0\PackratParser.dll
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ExtraParserTests.cs(20,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(56,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(71,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(82,42): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(93,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ExtraParserTests.cs(83,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(116,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+  PackratParserTest -> D:\Code2025\RavenWork\PackratParser\PackratParserTest\bin\Debug\net9.0\PackratParserTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ExtraParserTests.cs(20,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(56,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(71,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(82,42): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(93,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ExtraParserTests.cs(83,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+D:\Code2025\RavenWork\PackratParser\PackratParserTest\ParserTests.cs(116,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj]
+    7 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.70
+
+</CompilerResponse>
+2025-02-23 2:58:12 PM
+PackratParserTest
+
+WritePatch ran compiler. 2025-02-23 2:58:14 PM
+PackratParser
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PackratParser -> D:\Code2025\RavenWork\PackratParser\PackratParser\bin\Debug\net9.0\PackratParser.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.07
+
+
+WritePatch: Code is Complete.
+PackratParser
+
+WritePatch ran compiler. 2025-02-23 2:58:27 PM
+PackratParserTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PackratParser -> D:\Code2025\RavenWork\PackratParser\PackratParser\bin\Debug\net9.0\PackratParser.dll
+  PackratParserTest -> D:\Code2025\RavenWork\PackratParser\PackratParserTest\bin\Debug\net9.0\PackratParserTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.35
+
+
+WritePatch: Code is Complete.
+PackratParserTest
+
+TestResult:
+[OUTPUT 2025-02-23 2:58:47 PM] D:\Code2025\RavenWork\PackratParser\PackratParserTest\bin\Debug\net9.0\PackratParserTest.dll
+[OUTPUT 2025-02-23 2:58:47 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 2:58:47 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 2:58:46 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 2:58:45 PM] Test run for D:\Code2025\RavenWork\PackratParser\PackratParserTest\bin\Debug\net9.0\PackratParserTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 2:58:45 PM]   PackratParserTest -> D:\Code2025\RavenWork\PackratParser\PackratParserTest\bin\Debug\net9.0\PackratParserTest.dll
+[OUTPUT 2025-02-23 2:58:44 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 2:58:44 PM]   PackratParser -> D:\Code2025\RavenWork\PackratParser\PackratParser\bin\Debug\net9.0\PackratParser.dll
+[OUTPUT 2025-02-23 2:58:44 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 2:58:47 PM] All tests passed successfully.
+[INFO 2025-02-23 2:58:47 PM] Test process completed. Duration: 5.23 seconds.
+[INFO 2025-02-23 2:58:47 PM] Process exited with code 0.
+[INFO 2025-02-23 2:58:42 PM] Command: dotnet test "D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 2:58:42 PM] Starting test for project: D:\Code2025\RavenWork\PackratParser\PackratParserTest\PackratParserTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
