@@ -1,0 +1,361 @@
+<ActRecord>
+  <ProjectName>KnuthMorrisPratt</ProjectName>
+  <ProjectDescription>Knuth–Morris–Pratt algorithm: substring search which bypasses reexamination of matched characters</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Knuth–Morris–Pratt algorithm: substring search which bypasses reexamination of matched characters</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\KnuthMorrisPratt</SolutionFolderPath>
+  <ProjectFolderName>KnuthMorrisPratt</ProjectFolderName>
+  <ProjectName>KnuthMorrisPratt</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:53:18 AM
+KnuthMorrisPratt</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:53:48 AM
+KnuthMorrisPratt</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KnuthMorrisPratt -> D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPratt\bin\Debug\net9.0\KnuthMorrisPratt.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.91
+]]></string>
+    <string>WritePatch: Code is Complete.
+KnuthMorrisPratt</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:53:54 AM
+KnuthMorrisPrattTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:55:14 AM
+KnuthMorrisPrattTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj (in 629 ms).
+  1 of 2 projects are up-to-date for restore.
+  KnuthMorrisPratt -> D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPratt\bin\Debug\net9.0\KnuthMorrisPratt.dll
+D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KMPAlgorithmTests.cs(14,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj]
+D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KMPAlgorithmTests.cs(22,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj]
+  KnuthMorrisPrattTest -> D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\bin\Debug\net9.0\KnuthMorrisPrattTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KMPAlgorithmTests.cs(14,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj]
+D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KMPAlgorithmTests.cs(22,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.89
+]]></string>
+    <string>WritePatch: Compile failed.
+KnuthMorrisPrattTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:55:15 AM
+KnuthMorrisPrattTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:55:15 AM
+KnuthMorrisPrattTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 10:56:00 AM
+KnuthMorrisPrattTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:56:01 AM
+KnuthMorrisPrattTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:57:15 AM
+KnuthMorrisPrattTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KnuthMorrisPratt -> D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPratt\bin\Debug\net9.0\KnuthMorrisPratt.dll
+D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KMPAlgorithmTests.cs(14,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj]
+D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KMPAlgorithmTests.cs(22,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj]
+  KnuthMorrisPrattTest -> D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\bin\Debug\net9.0\KnuthMorrisPrattTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KMPAlgorithmTests.cs(14,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj]
+D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KMPAlgorithmTests.cs(22,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.17
+]]></string>
+    <string>WritePatch: Compile failed.
+KnuthMorrisPrattTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:57:15 AM
+KnuthMorrisPrattTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KnuthMorrisPratt -> D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPratt\bin\Debug\net9.0\KnuthMorrisPratt.dll
+D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KMPAlgorithmTests.cs(14,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj]
+D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KMPAlgorithmTests.cs(22,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj]
+  KnuthMorrisPrattTest -> D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\bin\Debug\net9.0\KnuthMorrisPrattTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KMPAlgorithmTests.cs(14,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj]
+D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KMPAlgorithmTests.cs(22,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.17
+
+</CompilerResponse>
+2025-02-23 10:57:16 AM
+KnuthMorrisPrattTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 10:57:17 AM
+KnuthMorrisPratt</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KnuthMorrisPratt -> D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPratt\bin\Debug\net9.0\KnuthMorrisPratt.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.86
+]]></string>
+    <string>WritePatch: Code is Complete.
+KnuthMorrisPratt</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:57:26 AM
+KnuthMorrisPrattTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KnuthMorrisPratt -> D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPratt\bin\Debug\net9.0\KnuthMorrisPratt.dll
+  KnuthMorrisPrattTest -> D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\bin\Debug\net9.0\KnuthMorrisPrattTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.07
+]]></string>
+    <string>WritePatch: Code is Complete.
+KnuthMorrisPrattTest</string>
+    <string>[INFO 2025-02-23 10:57:44 AM] Starting test for project: D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj</string>
+    <string>[INFO 2025-02-23 10:57:44 AM] Starting test for project: D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj</string>
+    <string>[INFO 2025-02-23 10:57:44 AM] Starting test for project: D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj</string>
+    <string>[INFO 2025-02-23 10:57:44 AM] Starting test for project: D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj</string>
+    <string>[INFO 2025-02-23 10:57:44 AM] Starting test for project: D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj</string>
+    <string>[INFO 2025-02-23 10:57:44 AM] Starting test for project: D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj</string>
+    <string>[INFO 2025-02-23 10:57:44 AM] Starting test for project: D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj</string>
+    <string>[INFO 2025-02-23 10:57:44 AM] Starting test for project: D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj</string>
+    <string>[INFO 2025-02-23 10:57:44 AM] Starting test for project: D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj</string>
+    <string>[INFO 2025-02-23 10:57:44 AM] Starting test for project: D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj</string>
+    <string>[INFO 2025-02-23 10:57:44 AM] Starting test for project: D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj</string>
+    <string>[INFO 2025-02-23 10:57:44 AM] Starting test for project: D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 10:57:47 AM] All tests passed successfully.
+[INFO 2025-02-23 10:57:47 AM] Test process completed. Duration: 3.13 seconds.
+[INFO 2025-02-23 10:57:47 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 10:57:47 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:57:46 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:57:46 AM] Test run for D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\bin\Debug\net9.0\KnuthMorrisPrattTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:57:46 AM]   KnuthMorrisPrattTest -> D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\bin\Debug\net9.0\KnuthMorrisPrattTest.dll
+[OUTPUT 2025-02-23 10:57:45 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:57:48 AM] Test Parallelization enabled for D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\bin\Debug\net9.0\KnuthMorrisPrattTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:57:47 AM] D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\bin\Debug\net9.0\KnuthMorrisPrattTest.dll
+[OUTPUT 2025-02-23 10:57:47 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:57:46 AM]   KnuthMorrisPratt -> D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPratt\bin\Debug\net9.0\KnuthMorrisPratt.dll
+[OUTPUT 2025-02-23 10:57:45 AM]   Determining projects to restore...
+[INFO 2025-02-23 10:57:44 AM] Command: dotnet test "D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:57:44 AM] Starting test for project: D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 10:53:18 AM
+KnuthMorrisPratt
+
+WritePatch ran compiler. 2025-02-23 10:53:48 AM
+KnuthMorrisPratt
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KnuthMorrisPratt -> D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPratt\bin\Debug\net9.0\KnuthMorrisPratt.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.91
+
+
+WritePatch: Code is Complete.
+KnuthMorrisPratt
+
+WritePatch Started CycleStep. 2025-02-23 10:53:54 AM
+KnuthMorrisPrattTest
+
+WritePatch ran compiler. 2025-02-23 10:55:14 AM
+KnuthMorrisPrattTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj (in 629 ms).
+  1 of 2 projects are up-to-date for restore.
+  KnuthMorrisPratt -> D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPratt\bin\Debug\net9.0\KnuthMorrisPratt.dll
+D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KMPAlgorithmTests.cs(14,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj]
+D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KMPAlgorithmTests.cs(22,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj]
+  KnuthMorrisPrattTest -> D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\bin\Debug\net9.0\KnuthMorrisPrattTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KMPAlgorithmTests.cs(14,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj]
+D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KMPAlgorithmTests.cs(22,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.89
+
+
+WritePatch: Compile failed.
+KnuthMorrisPrattTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:55:15 AM
+KnuthMorrisPrattTest
+
+WritePatch Started CycleStep. 2025-02-23 10:55:15 AM
+KnuthMorrisPrattTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 10:56:00 AM
+KnuthMorrisPrattTest
+
+WritePatch Started CycleStep. 2025-02-23 10:56:01 AM
+KnuthMorrisPrattTest
+
+WritePatch ran compiler. 2025-02-23 10:57:15 AM
+KnuthMorrisPrattTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KnuthMorrisPratt -> D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPratt\bin\Debug\net9.0\KnuthMorrisPratt.dll
+D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KMPAlgorithmTests.cs(14,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj]
+D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KMPAlgorithmTests.cs(22,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj]
+  KnuthMorrisPrattTest -> D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\bin\Debug\net9.0\KnuthMorrisPrattTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KMPAlgorithmTests.cs(14,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj]
+D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KMPAlgorithmTests.cs(22,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.17
+
+
+WritePatch: Compile failed.
+KnuthMorrisPrattTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:57:15 AM
+KnuthMorrisPrattTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KnuthMorrisPratt -> D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPratt\bin\Debug\net9.0\KnuthMorrisPratt.dll
+D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KMPAlgorithmTests.cs(14,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj]
+D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KMPAlgorithmTests.cs(22,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj]
+  KnuthMorrisPrattTest -> D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\bin\Debug\net9.0\KnuthMorrisPrattTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KMPAlgorithmTests.cs(14,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj]
+D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KMPAlgorithmTests.cs(22,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.17
+
+</CompilerResponse>
+2025-02-23 10:57:16 AM
+KnuthMorrisPrattTest
+
+WritePatch ran compiler. 2025-02-23 10:57:17 AM
+KnuthMorrisPratt
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KnuthMorrisPratt -> D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPratt\bin\Debug\net9.0\KnuthMorrisPratt.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.86
+
+
+WritePatch: Code is Complete.
+KnuthMorrisPratt
+
+WritePatch ran compiler. 2025-02-23 10:57:26 AM
+KnuthMorrisPrattTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KnuthMorrisPratt -> D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPratt\bin\Debug\net9.0\KnuthMorrisPratt.dll
+  KnuthMorrisPrattTest -> D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\bin\Debug\net9.0\KnuthMorrisPrattTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.07
+
+
+WritePatch: Code is Complete.
+KnuthMorrisPrattTest
+
+TestResult:
+[SUCCESS 2025-02-23 10:57:47 AM] All tests passed successfully.
+[INFO 2025-02-23 10:57:47 AM] Test process completed. Duration: 3.13 seconds.
+[INFO 2025-02-23 10:57:47 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 10:57:47 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:57:46 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:57:46 AM] Test run for D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\bin\Debug\net9.0\KnuthMorrisPrattTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:57:46 AM]   KnuthMorrisPrattTest -> D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\bin\Debug\net9.0\KnuthMorrisPrattTest.dll
+[OUTPUT 2025-02-23 10:57:45 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:57:48 AM] Test Parallelization enabled for D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\bin\Debug\net9.0\KnuthMorrisPrattTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:57:47 AM] D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\bin\Debug\net9.0\KnuthMorrisPrattTest.dll
+[OUTPUT 2025-02-23 10:57:47 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:57:46 AM]   KnuthMorrisPratt -> D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPratt\bin\Debug\net9.0\KnuthMorrisPratt.dll
+[OUTPUT 2025-02-23 10:57:45 AM]   Determining projects to restore...
+[INFO 2025-02-23 10:57:44 AM] Command: dotnet test "D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:57:44 AM] Starting test for project: D:\Code2025\RavenWork\KnuthMorrisPratt\KnuthMorrisPrattTest\KnuthMorrisPrattTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
