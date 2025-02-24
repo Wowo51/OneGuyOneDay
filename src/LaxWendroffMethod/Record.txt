@@ -1,0 +1,123 @@
+<ActRecord>
+  <ProjectName>LaxWendroffMethod</ProjectName>
+  <ProjectDescription>Lax–Wendroff method for wave equations – A finite difference method for hyperbolic partial differential equations.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Lax–Wendroff method for wave equations – A finite difference method for hyperbolic partial differential equations.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\LaxWendroffMethod</SolutionFolderPath>
+  <ProjectFolderName>LaxWendroffMethod</ProjectFolderName>
+  <ProjectName>LaxWendroffMethod</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:45:04 PM
+LaxWendroffMethod</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:45:53 PM
+LaxWendroffMethod</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LaxWendroffMethod -> D:\Code2025\RavenWork\LaxWendroffMethod\LaxWendroffMethod\bin\Debug\net9.0\LaxWendroffMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+]]></string>
+    <string>WritePatch: Code is Complete.
+LaxWendroffMethod</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:46:52 PM
+LaxWendroffMethodTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:47:56 PM
+LaxWendroffMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LaxWendroffMethod\LaxWendroffMethodTest\LaxWendroffMethodTest.csproj (in 225 ms).
+  1 of 2 projects are up-to-date for restore.
+  LaxWendroffMethod -> D:\Code2025\RavenWork\LaxWendroffMethod\LaxWendroffMethod\bin\Debug\net9.0\LaxWendroffMethod.dll
+  LaxWendroffMethodTest -> D:\Code2025\RavenWork\LaxWendroffMethod\LaxWendroffMethodTest\bin\Debug\net9.0\LaxWendroffMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.60
+]]></string>
+    <string>WritePatch: Code is Complete.
+LaxWendroffMethodTest</string>
+    <string>[INFO 2025-02-23 12:48:34 PM] Starting test for project: D:\Code2025\RavenWork\LaxWendroffMethod\LaxWendroffMethodTest\LaxWendroffMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 12:48:34 PM] Starting test for project: D:\Code2025\RavenWork\LaxWendroffMethod\LaxWendroffMethodTest\LaxWendroffMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 12:48:34 PM] Starting test for project: D:\Code2025\RavenWork\LaxWendroffMethod\LaxWendroffMethodTest\LaxWendroffMethodTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 12:48:57 PM] All tests passed successfully.
+[INFO 2025-02-23 12:48:57 PM] Test process completed. Duration: 22.31 seconds.
+[INFO 2025-02-23 12:48:57 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 12:48:54 PM]   Determining projects to restore...
+[INFO 2025-02-23 12:48:34 PM] Command: dotnet test "D:\Code2025\RavenWork\LaxWendroffMethod\LaxWendroffMethodTest\LaxWendroffMethodTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 12:48:34 PM] Starting test for project: D:\Code2025\RavenWork\LaxWendroffMethod\LaxWendroffMethodTest\LaxWendroffMethodTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 12:45:04 PM
+LaxWendroffMethod
+
+WritePatch ran compiler. 2025-02-23 12:45:53 PM
+LaxWendroffMethod
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LaxWendroffMethod -> D:\Code2025\RavenWork\LaxWendroffMethod\LaxWendroffMethod\bin\Debug\net9.0\LaxWendroffMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+
+
+WritePatch: Code is Complete.
+LaxWendroffMethod
+
+WritePatch Started CycleStep. 2025-02-23 12:46:52 PM
+LaxWendroffMethodTest
+
+WritePatch ran compiler. 2025-02-23 12:47:56 PM
+LaxWendroffMethodTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LaxWendroffMethod\LaxWendroffMethodTest\LaxWendroffMethodTest.csproj (in 225 ms).
+  1 of 2 projects are up-to-date for restore.
+  LaxWendroffMethod -> D:\Code2025\RavenWork\LaxWendroffMethod\LaxWendroffMethod\bin\Debug\net9.0\LaxWendroffMethod.dll
+  LaxWendroffMethodTest -> D:\Code2025\RavenWork\LaxWendroffMethod\LaxWendroffMethodTest\bin\Debug\net9.0\LaxWendroffMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.60
+
+
+WritePatch: Code is Complete.
+LaxWendroffMethodTest
+
+TestResult:
+[SUCCESS 2025-02-23 12:48:57 PM] All tests passed successfully.
+[INFO 2025-02-23 12:48:57 PM] Test process completed. Duration: 22.31 seconds.
+[INFO 2025-02-23 12:48:57 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 12:48:54 PM]   Determining projects to restore...
+[INFO 2025-02-23 12:48:34 PM] Command: dotnet test "D:\Code2025\RavenWork\LaxWendroffMethod\LaxWendroffMethodTest\LaxWendroffMethodTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 12:48:34 PM] Starting test for project: D:\Code2025\RavenWork\LaxWendroffMethod\LaxWendroffMethodTest\LaxWendroffMethodTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
