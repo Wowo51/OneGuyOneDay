@@ -1,0 +1,362 @@
+<ActRecord>
+  <ProjectName>Spiht</ProjectName>
+  <ProjectDescription>Set Partitioning in Hierarchical Trees (SPIHT)</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Set Partitioning in Hierarchical Trees (SPIHT)</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\Spiht</SolutionFolderPath>
+  <ProjectFolderName>Spiht</ProjectFolderName>
+  <ProjectName>Spiht</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:14:04 AM
+Spiht</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:15:50 AM
+Spiht</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Spiht -> D:\Code2025\RavenWork\Spiht\Spiht\bin\Debug\net9.0\Spiht.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+]]></string>
+    <string>WritePatch: Code is Complete.
+Spiht</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:16:24 AM
+SpihtTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:18:30 AM
+SpihtTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj (in 260 ms).
+  1 of 2 projects are up-to-date for restore.
+  Spiht -> D:\Code2025\RavenWork\Spiht\Spiht\bin\Debug\net9.0\Spiht.dll
+D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtUnitTests.cs(14,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj]
+D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtUnitTests.cs(58,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj]
+  SpihtTest -> D:\Code2025\RavenWork\Spiht\SpihtTest\bin\Debug\net9.0\SpihtTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtUnitTests.cs(14,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj]
+D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtUnitTests.cs(58,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.72
+]]></string>
+    <string>WritePatch: Compile failed.
+SpihtTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:18:31 AM
+SpihtTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:18:31 AM
+SpihtTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:20:44 AM
+SpihtTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Spiht -> D:\Code2025\RavenWork\Spiht\Spiht\bin\Debug\net9.0\Spiht.dll
+D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtUnitTests.cs(14,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj]
+D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtUnitTests.cs(58,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj]
+  SpihtTest -> D:\Code2025\RavenWork\Spiht\SpihtTest\bin\Debug\net9.0\SpihtTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtUnitTests.cs(14,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj]
+D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtUnitTests.cs(58,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.31
+]]></string>
+    <string>WritePatch: Compile failed.
+SpihtTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:20:45 AM
+SpihtTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:20:45 AM
+SpihtTest</string>
+    <string>Exception: The request was canceled due to the configured HttpClient.Timeout of 200 seconds elapsing.</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\Spiht\SpihtTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Spiht -> D:\Code2025\RavenWork\Spiht\Spiht\bin\Debug\net9.0\Spiht.dll
+D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtUnitTests.cs(14,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj]
+D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtUnitTests.cs(58,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj]
+  SpihtTest -> D:\Code2025\RavenWork\Spiht\SpihtTest\bin\Debug\net9.0\SpihtTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtUnitTests.cs(14,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj]
+D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtUnitTests.cs(58,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.31
+
+</CompilerResponse>
+2025-02-23 11:24:06 AM
+SpihtTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 11:24:07 AM
+Spiht</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Spiht -> D:\Code2025\RavenWork\Spiht\Spiht\bin\Debug\net9.0\Spiht.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+]]></string>
+    <string>WritePatch: Code is Complete.
+Spiht</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:24:36 AM
+SpihtTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Spiht -> D:\Code2025\RavenWork\Spiht\Spiht\bin\Debug\net9.0\Spiht.dll
+  SpihtTest -> D:\Code2025\RavenWork\Spiht\SpihtTest\bin\Debug\net9.0\SpihtTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.13
+]]></string>
+    <string>WritePatch: Code is Complete.
+SpihtTest</string>
+    <string>[INFO 2025-02-23 11:25:06 AM] Starting test for project: D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj</string>
+    <string>[INFO 2025-02-23 11:25:06 AM] Starting test for project: D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj</string>
+    <string>[INFO 2025-02-23 11:25:06 AM] Starting test for project: D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj</string>
+    <string>[INFO 2025-02-23 11:25:06 AM] Starting test for project: D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj</string>
+    <string>[INFO 2025-02-23 11:25:06 AM] Starting test for project: D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj</string>
+    <string>[INFO 2025-02-23 11:25:06 AM] Starting test for project: D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj</string>
+    <string>[INFO 2025-02-23 11:25:06 AM] Starting test for project: D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj</string>
+    <string>[INFO 2025-02-23 11:25:06 AM] Starting test for project: D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj</string>
+    <string>[INFO 2025-02-23 11:25:06 AM] Starting test for project: D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj</string>
+    <string>[INFO 2025-02-23 11:25:06 AM] Starting test for project: D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj</string>
+    <string>[INFO 2025-02-23 11:25:06 AM] Starting test for project: D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj</string>
+    <string>[INFO 2025-02-23 11:25:06 AM] Starting test for project: D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj</string>
+    <string>[INFO 2025-02-23 11:25:06 AM] Starting test for project: D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 11:25:07 AM] Test run for D:\Code2025\RavenWork\Spiht\SpihtTest\bin\Debug\net9.0\SpihtTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:25:07 AM]   SpihtTest -> D:\Code2025\RavenWork\Spiht\SpihtTest\bin\Debug\net9.0\SpihtTest.dll
+[OUTPUT 2025-02-23 11:25:07 AM]   Spiht -> D:\Code2025\RavenWork\Spiht\Spiht\bin\Debug\net9.0\Spiht.dll
+[SUCCESS 2025-02-23 11:25:09 AM] All tests passed successfully.
+[INFO 2025-02-23 11:25:09 AM] Test process completed. Duration: 3.37 seconds.
+[INFO 2025-02-23 11:25:09 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 11:25:09 AM] Test Parallelization enabled for D:\Code2025\RavenWork\Spiht\SpihtTest\bin\Debug\net9.0\SpihtTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 11:25:08 AM] D:\Code2025\RavenWork\Spiht\SpihtTest\bin\Debug\net9.0\SpihtTest.dll
+[OUTPUT 2025-02-23 11:25:08 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:25:08 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:25:08 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:25:07 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:25:06 AM]   Determining projects to restore...
+[OUTPUT 2025-02-23 11:25:09 AM]   Passed Decode_NullInput_ReturnsZeroMatrix [6 ms]
+[INFO 2025-02-23 11:25:06 AM] Command: dotnet test "D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:25:06 AM] Starting test for project: D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 11:14:04 AM
+Spiht
+
+WritePatch ran compiler. 2025-02-23 11:15:50 AM
+Spiht
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Spiht -> D:\Code2025\RavenWork\Spiht\Spiht\bin\Debug\net9.0\Spiht.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+
+
+WritePatch: Code is Complete.
+Spiht
+
+WritePatch Started CycleStep. 2025-02-23 11:16:24 AM
+SpihtTest
+
+WritePatch ran compiler. 2025-02-23 11:18:30 AM
+SpihtTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj (in 260 ms).
+  1 of 2 projects are up-to-date for restore.
+  Spiht -> D:\Code2025\RavenWork\Spiht\Spiht\bin\Debug\net9.0\Spiht.dll
+D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtUnitTests.cs(14,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj]
+D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtUnitTests.cs(58,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj]
+  SpihtTest -> D:\Code2025\RavenWork\Spiht\SpihtTest\bin\Debug\net9.0\SpihtTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtUnitTests.cs(14,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj]
+D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtUnitTests.cs(58,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.72
+
+
+WritePatch: Compile failed.
+SpihtTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:18:31 AM
+SpihtTest
+
+WritePatch Started CycleStep. 2025-02-23 11:18:31 AM
+SpihtTest
+
+WritePatch ran compiler. 2025-02-23 11:20:44 AM
+SpihtTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Spiht -> D:\Code2025\RavenWork\Spiht\Spiht\bin\Debug\net9.0\Spiht.dll
+D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtUnitTests.cs(14,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj]
+D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtUnitTests.cs(58,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj]
+  SpihtTest -> D:\Code2025\RavenWork\Spiht\SpihtTest\bin\Debug\net9.0\SpihtTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtUnitTests.cs(14,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj]
+D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtUnitTests.cs(58,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.31
+
+
+WritePatch: Compile failed.
+SpihtTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:20:45 AM
+SpihtTest
+
+WritePatch Started CycleStep. 2025-02-23 11:20:45 AM
+SpihtTest
+
+Exception: The request was canceled due to the configured HttpClient.Timeout of 200 seconds elapsing.
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\Spiht\SpihtTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Spiht -> D:\Code2025\RavenWork\Spiht\Spiht\bin\Debug\net9.0\Spiht.dll
+D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtUnitTests.cs(14,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj]
+D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtUnitTests.cs(58,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj]
+  SpihtTest -> D:\Code2025\RavenWork\Spiht\SpihtTest\bin\Debug\net9.0\SpihtTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtUnitTests.cs(14,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj]
+D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtUnitTests.cs(58,47): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.31
+
+</CompilerResponse>
+2025-02-23 11:24:06 AM
+SpihtTest
+
+WritePatch ran compiler. 2025-02-23 11:24:07 AM
+Spiht
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Spiht -> D:\Code2025\RavenWork\Spiht\Spiht\bin\Debug\net9.0\Spiht.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+
+
+WritePatch: Code is Complete.
+Spiht
+
+WritePatch ran compiler. 2025-02-23 11:24:36 AM
+SpihtTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Spiht -> D:\Code2025\RavenWork\Spiht\Spiht\bin\Debug\net9.0\Spiht.dll
+  SpihtTest -> D:\Code2025\RavenWork\Spiht\SpihtTest\bin\Debug\net9.0\SpihtTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.13
+
+
+WritePatch: Code is Complete.
+SpihtTest
+
+TestResult:
+[OUTPUT 2025-02-23 11:25:07 AM] Test run for D:\Code2025\RavenWork\Spiht\SpihtTest\bin\Debug\net9.0\SpihtTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:25:07 AM]   SpihtTest -> D:\Code2025\RavenWork\Spiht\SpihtTest\bin\Debug\net9.0\SpihtTest.dll
+[OUTPUT 2025-02-23 11:25:07 AM]   Spiht -> D:\Code2025\RavenWork\Spiht\Spiht\bin\Debug\net9.0\Spiht.dll
+[SUCCESS 2025-02-23 11:25:09 AM] All tests passed successfully.
+[INFO 2025-02-23 11:25:09 AM] Test process completed. Duration: 3.37 seconds.
+[INFO 2025-02-23 11:25:09 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 11:25:09 AM] Test Parallelization enabled for D:\Code2025\RavenWork\Spiht\SpihtTest\bin\Debug\net9.0\SpihtTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 11:25:08 AM] D:\Code2025\RavenWork\Spiht\SpihtTest\bin\Debug\net9.0\SpihtTest.dll
+[OUTPUT 2025-02-23 11:25:08 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:25:08 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:25:08 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:25:07 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:25:06 AM]   Determining projects to restore...
+[OUTPUT 2025-02-23 11:25:09 AM]   Passed Decode_NullInput_ReturnsZeroMatrix [6 ms]
+[INFO 2025-02-23 11:25:06 AM] Command: dotnet test "D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:25:06 AM] Starting test for project: D:\Code2025\RavenWork\Spiht\SpihtTest\SpihtTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
