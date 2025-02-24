@@ -1,0 +1,382 @@
+<ActRecord>
+  <ProjectName>TruncationSelection</ProjectName>
+  <ProjectDescription>Truncation selection – A selection method that chooses the top fraction of individuals based on fitness.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Truncation selection – A selection method that chooses the top fraction of individuals based on fitness.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\TruncationSelection</SolutionFolderPath>
+  <ProjectFolderName>TruncationSelection</ProjectFolderName>
+  <ProjectName>TruncationSelection</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:48:49 AM
+TruncationSelection</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:50:05 AM
+TruncationSelection</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TruncationSelection -> D:\Code2025\RavenWork\TruncationSelection\TruncationSelection\bin\Debug\net9.0\TruncationSelection.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.00
+]]></string>
+    <string>WritePatch: Code is Complete.
+TruncationSelection</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:50:23 AM
+TruncationSelectionTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:52:45 AM
+TruncationSelectionTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectionTest.csproj (in 199 ms).
+  1 of 2 projects are up-to-date for restore.
+  TruncationSelection -> D:\Code2025\RavenWork\TruncationSelection\TruncationSelection\bin\Debug\net9.0\TruncationSelection.dll
+D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectorTests.cs(16,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectionTest.csproj]
+  TruncationSelectionTest -> D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\bin\Debug\net9.0\TruncationSelectionTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectorTests.cs(16,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectionTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.51
+]]></string>
+    <string>WritePatch: Compile failed.
+TruncationSelectionTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:52:46 AM
+TruncationSelectionTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:52:47 AM
+TruncationSelectionTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:53:15 AM
+TruncationSelectionTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TruncationSelection -> D:\Code2025\RavenWork\TruncationSelection\TruncationSelection\bin\Debug\net9.0\TruncationSelection.dll
+  TruncationSelectionTest -> D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\bin\Debug\net9.0\TruncationSelectionTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+]]></string>
+    <string>WritePatch: Code is not Complete.
+TruncationSelectionTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:54:22 AM
+TruncationSelectionTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:54:23 AM
+TruncationSelectionTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:55:16 AM
+TruncationSelectionTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TruncationSelection -> D:\Code2025\RavenWork\TruncationSelection\TruncationSelection\bin\Debug\net9.0\TruncationSelection.dll
+D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectorTests.cs(16,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectionTest.csproj]
+  TruncationSelectionTest -> D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\bin\Debug\net9.0\TruncationSelectionTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectorTests.cs(16,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectionTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+]]></string>
+    <string>WritePatch: Compile failed.
+TruncationSelectionTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:55:17 AM
+TruncationSelectionTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TruncationSelection -> D:\Code2025\RavenWork\TruncationSelection\TruncationSelection\bin\Debug\net9.0\TruncationSelection.dll
+D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectorTests.cs(16,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectionTest.csproj]
+  TruncationSelectionTest -> D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\bin\Debug\net9.0\TruncationSelectionTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectorTests.cs(16,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectionTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+
+</CompilerResponse>
+2025-02-23 7:55:17 AM
+TruncationSelectionTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 7:55:18 AM
+TruncationSelection</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TruncationSelection -> D:\Code2025\RavenWork\TruncationSelection\TruncationSelection\bin\Debug\net9.0\TruncationSelection.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.67
+]]></string>
+    <string>WritePatch: Code is Complete.
+TruncationSelection</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:55:34 AM
+TruncationSelectionTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TruncationSelection -> D:\Code2025\RavenWork\TruncationSelection\TruncationSelection\bin\Debug\net9.0\TruncationSelection.dll
+  TruncationSelectionTest -> D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\bin\Debug\net9.0\TruncationSelectionTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.88
+]]></string>
+    <string>WritePatch: Code is Complete.
+TruncationSelectionTest</string>
+    <string>[INFO 2025-02-23 7:55:47 AM] Starting test for project: D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectionTest.csproj</string>
+    <string>[INFO 2025-02-23 7:55:47 AM] Starting test for project: D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectionTest.csproj</string>
+    <string>[INFO 2025-02-23 7:55:47 AM] Starting test for project: D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectionTest.csproj</string>
+    <string>[INFO 2025-02-23 7:55:47 AM] Starting test for project: D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectionTest.csproj</string>
+    <string>[INFO 2025-02-23 7:55:47 AM] Starting test for project: D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectionTest.csproj</string>
+    <string>[INFO 2025-02-23 7:55:47 AM] Starting test for project: D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectionTest.csproj</string>
+    <string>[INFO 2025-02-23 7:55:47 AM] Starting test for project: D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectionTest.csproj</string>
+    <string>[INFO 2025-02-23 7:55:47 AM] Starting test for project: D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectionTest.csproj</string>
+    <string>[INFO 2025-02-23 7:55:47 AM] Starting test for project: D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectionTest.csproj</string>
+    <string>[INFO 2025-02-23 7:55:47 AM] Starting test for project: D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectionTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 7:55:50 AM] All tests passed successfully.
+[INFO 2025-02-23 7:55:50 AM] Test process completed. Duration: 3.07 seconds.
+[INFO 2025-02-23 7:55:50 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 7:55:49 AM]   TruncationSelection -> D:\Code2025\RavenWork\TruncationSelection\TruncationSelection\bin\Debug\net9.0\TruncationSelection.dll
+[OUTPUT 2025-02-23 7:55:48 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:55:51 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:55:50 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:55:49 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:55:49 AM] Test run for D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\bin\Debug\net9.0\TruncationSelectionTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:55:49 AM]   TruncationSelectionTest -> D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\bin\Debug\net9.0\TruncationSelectionTest.dll
+[OUTPUT 2025-02-23 7:55:48 AM]   Determining projects to restore...
+[INFO 2025-02-23 7:55:47 AM] Command: dotnet test "D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectionTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:55:47 AM] Starting test for project: D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectionTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 7:48:49 AM
+TruncationSelection
+
+WritePatch ran compiler. 2025-02-23 7:50:05 AM
+TruncationSelection
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TruncationSelection -> D:\Code2025\RavenWork\TruncationSelection\TruncationSelection\bin\Debug\net9.0\TruncationSelection.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.00
+
+
+WritePatch: Code is Complete.
+TruncationSelection
+
+WritePatch Started CycleStep. 2025-02-23 7:50:23 AM
+TruncationSelectionTest
+
+WritePatch ran compiler. 2025-02-23 7:52:45 AM
+TruncationSelectionTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectionTest.csproj (in 199 ms).
+  1 of 2 projects are up-to-date for restore.
+  TruncationSelection -> D:\Code2025\RavenWork\TruncationSelection\TruncationSelection\bin\Debug\net9.0\TruncationSelection.dll
+D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectorTests.cs(16,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectionTest.csproj]
+  TruncationSelectionTest -> D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\bin\Debug\net9.0\TruncationSelectionTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectorTests.cs(16,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectionTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.51
+
+
+WritePatch: Compile failed.
+TruncationSelectionTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:52:46 AM
+TruncationSelectionTest
+
+WritePatch Started CycleStep. 2025-02-23 7:52:47 AM
+TruncationSelectionTest
+
+WritePatch ran compiler. 2025-02-23 7:53:15 AM
+TruncationSelectionTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TruncationSelection -> D:\Code2025\RavenWork\TruncationSelection\TruncationSelection\bin\Debug\net9.0\TruncationSelection.dll
+  TruncationSelectionTest -> D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\bin\Debug\net9.0\TruncationSelectionTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+
+
+WritePatch: Code is not Complete.
+TruncationSelectionTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:54:22 AM
+TruncationSelectionTest
+
+WritePatch Started CycleStep. 2025-02-23 7:54:23 AM
+TruncationSelectionTest
+
+WritePatch ran compiler. 2025-02-23 7:55:16 AM
+TruncationSelectionTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TruncationSelection -> D:\Code2025\RavenWork\TruncationSelection\TruncationSelection\bin\Debug\net9.0\TruncationSelection.dll
+D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectorTests.cs(16,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectionTest.csproj]
+  TruncationSelectionTest -> D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\bin\Debug\net9.0\TruncationSelectionTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectorTests.cs(16,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectionTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+
+
+WritePatch: Compile failed.
+TruncationSelectionTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:55:17 AM
+TruncationSelectionTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TruncationSelection -> D:\Code2025\RavenWork\TruncationSelection\TruncationSelection\bin\Debug\net9.0\TruncationSelection.dll
+D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectorTests.cs(16,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectionTest.csproj]
+  TruncationSelectionTest -> D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\bin\Debug\net9.0\TruncationSelectionTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectorTests.cs(16,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectionTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+
+</CompilerResponse>
+2025-02-23 7:55:17 AM
+TruncationSelectionTest
+
+WritePatch ran compiler. 2025-02-23 7:55:18 AM
+TruncationSelection
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TruncationSelection -> D:\Code2025\RavenWork\TruncationSelection\TruncationSelection\bin\Debug\net9.0\TruncationSelection.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.67
+
+
+WritePatch: Code is Complete.
+TruncationSelection
+
+WritePatch ran compiler. 2025-02-23 7:55:34 AM
+TruncationSelectionTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TruncationSelection -> D:\Code2025\RavenWork\TruncationSelection\TruncationSelection\bin\Debug\net9.0\TruncationSelection.dll
+  TruncationSelectionTest -> D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\bin\Debug\net9.0\TruncationSelectionTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.88
+
+
+WritePatch: Code is Complete.
+TruncationSelectionTest
+
+TestResult:
+[SUCCESS 2025-02-23 7:55:50 AM] All tests passed successfully.
+[INFO 2025-02-23 7:55:50 AM] Test process completed. Duration: 3.07 seconds.
+[INFO 2025-02-23 7:55:50 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 7:55:49 AM]   TruncationSelection -> D:\Code2025\RavenWork\TruncationSelection\TruncationSelection\bin\Debug\net9.0\TruncationSelection.dll
+[OUTPUT 2025-02-23 7:55:48 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:55:51 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:55:50 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:55:49 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:55:49 AM] Test run for D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\bin\Debug\net9.0\TruncationSelectionTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:55:49 AM]   TruncationSelectionTest -> D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\bin\Debug\net9.0\TruncationSelectionTest.dll
+[OUTPUT 2025-02-23 7:55:48 AM]   Determining projects to restore...
+[INFO 2025-02-23 7:55:47 AM] Command: dotnet test "D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectionTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:55:47 AM] Starting test for project: D:\Code2025\RavenWork\TruncationSelection\TruncationSelectionTest\TruncationSelectionTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
