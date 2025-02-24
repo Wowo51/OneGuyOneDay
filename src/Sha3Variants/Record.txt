@@ -1,0 +1,593 @@
+<ActRecord>
+  <ProjectName>Sha3Variants</ProjectName>
+  <ProjectDescription>SHA‑3 (SHA3‑224, SHA3‑256, SHA3‑384, SHA3‑512, SHAKE128, SHAKE256)</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>SHA‑3 (SHA3‑224, SHA3‑256, SHA3‑384, SHA3‑512, SHAKE128, SHAKE256)</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\Sha3Variants</SolutionFolderPath>
+  <ProjectFolderName>Sha3Variants</ProjectFolderName>
+  <ProjectName>Sha3Variants</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:50:31 AM
+Sha3Variants</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:52:00 AM
+Sha3Variants</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\Sha3Variants\Shake256.cs(9,23): warning CS0108: 'Shake256.ComputeHash(byte[], int)' hides inherited member 'ShakeHash.ComputeHash(byte[], int)'. Use the new keyword if hiding was intended. [D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\Sha3Variants.csproj]
+D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\Sha3Variants\Shake128.cs(9,23): warning CS0108: 'Shake128.ComputeHash(byte[], int)' hides inherited member 'ShakeHash.ComputeHash(byte[], int)'. Use the new keyword if hiding was intended. [D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\Sha3Variants.csproj]
+  Sha3Variants -> D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\bin\Debug\net9.0\Sha3Variants.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\Sha3Variants\Shake256.cs(9,23): warning CS0108: 'Shake256.ComputeHash(byte[], int)' hides inherited member 'ShakeHash.ComputeHash(byte[], int)'. Use the new keyword if hiding was intended. [D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\Sha3Variants.csproj]
+D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\Sha3Variants\Shake128.cs(9,23): warning CS0108: 'Shake128.ComputeHash(byte[], int)' hides inherited member 'ShakeHash.ComputeHash(byte[], int)'. Use the new keyword if hiding was intended. [D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\Sha3Variants.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.16
+]]></string>
+    <string>WritePatch: Compile failed.
+Sha3Variants</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:52:01 AM
+Sha3Variants</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:52:01 AM
+Sha3Variants</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:52:33 AM
+Sha3Variants</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Sha3Variants -> D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\bin\Debug\net9.0\Sha3Variants.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.02
+]]></string>
+    <string>WritePatch: Code is not Complete.
+Sha3Variants</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:52:47 AM
+Sha3Variants</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:52:47 AM
+Sha3Variants</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:53:36 AM
+Sha3Variants</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Sha3Variants -> D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\bin\Debug\net9.0\Sha3Variants.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+]]></string>
+    <string>WritePatch: Code is not Complete.
+Sha3Variants</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:53:48 AM
+Sha3Variants</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\Sha3Variants\Sha3Variants
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Sha3Variants -> D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\bin\Debug\net9.0\Sha3Variants.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+
+</CompilerResponse>
+2025-02-23 11:53:48 AM
+Sha3Variants]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 11:53:49 AM
+Sha3Variants</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Sha3Variants -> D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\bin\Debug\net9.0\Sha3Variants.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+]]></string>
+    <string>WritePatch: Code is Complete.
+Sha3Variants</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:56:19 AM
+Sha3VariantsTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:56:56 AM
+Sha3VariantsTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj (in 232 ms).
+  1 of 2 projects are up-to-date for restore.
+  Sha3Variants -> D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\bin\Debug\net9.0\Sha3Variants.dll
+D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTests.cs(36,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj]
+D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTests.cs(103,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj]
+  Sha3VariantsTest -> D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\bin\Debug\net9.0\Sha3VariantsTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTests.cs(36,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj]
+D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTests.cs(103,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.64
+]]></string>
+    <string>WritePatch: Compile failed.
+Sha3VariantsTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:56:57 AM
+Sha3VariantsTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:56:57 AM
+Sha3VariantsTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:57:31 AM
+Sha3VariantsTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Sha3Variants -> D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\bin\Debug\net9.0\Sha3Variants.dll
+  Sha3VariantsTest -> D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\bin\Debug\net9.0\Sha3VariantsTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.29
+]]></string>
+    <string>WritePatch: Code is not Complete.
+Sha3VariantsTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:57:46 AM
+Sha3VariantsTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:57:46 AM
+Sha3VariantsTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:59:38 AM
+Sha3VariantsTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Sha3Variants -> D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\bin\Debug\net9.0\Sha3Variants.dll
+D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTests.cs(36,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj]
+D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTests.cs(103,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj]
+  Sha3VariantsTest -> D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\bin\Debug\net9.0\Sha3VariantsTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTests.cs(36,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj]
+D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTests.cs(103,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.17
+]]></string>
+    <string>WritePatch: Compile failed.
+Sha3VariantsTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:59:38 AM
+Sha3VariantsTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Sha3Variants -> D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\bin\Debug\net9.0\Sha3Variants.dll
+D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTests.cs(36,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj]
+D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTests.cs(103,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj]
+  Sha3VariantsTest -> D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\bin\Debug\net9.0\Sha3VariantsTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTests.cs(36,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj]
+D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTests.cs(103,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.17
+
+</CompilerResponse>
+2025-02-23 11:59:38 AM
+Sha3VariantsTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 11:59:40 AM
+Sha3Variants</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Sha3Variants -> D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\bin\Debug\net9.0\Sha3Variants.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.06
+]]></string>
+    <string>WritePatch: Code is Complete.
+Sha3Variants</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:59:53 AM
+Sha3VariantsTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Sha3Variants -> D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\bin\Debug\net9.0\Sha3Variants.dll
+  Sha3VariantsTest -> D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\bin\Debug\net9.0\Sha3VariantsTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+]]></string>
+    <string>WritePatch: Code is Complete.
+Sha3VariantsTest</string>
+    <string>[INFO 2025-02-23 12:00:12 PM] Starting test for project: D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj</string>
+    <string>[INFO 2025-02-23 12:00:12 PM] Starting test for project: D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj</string>
+    <string>[INFO 2025-02-23 12:00:12 PM] Starting test for project: D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj</string>
+    <string>[INFO 2025-02-23 12:00:12 PM] Starting test for project: D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj</string>
+    <string>[INFO 2025-02-23 12:00:12 PM] Starting test for project: D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj</string>
+    <string>[INFO 2025-02-23 12:00:12 PM] Starting test for project: D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj</string>
+    <string>[INFO 2025-02-23 12:00:12 PM] Starting test for project: D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj</string>
+    <string>[INFO 2025-02-23 12:00:12 PM] Starting test for project: D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj</string>
+    <string>[INFO 2025-02-23 12:00:12 PM] Starting test for project: D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj</string>
+    <string>[INFO 2025-02-23 12:00:12 PM] Starting test for project: D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj</string>
+    <string>[INFO 2025-02-23 12:00:12 PM] Starting test for project: D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj</string>
+    <string>[INFO 2025-02-23 12:00:12 PM] Starting test for project: D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj</string>
+    <string>[INFO 2025-02-23 12:00:12 PM] Starting test for project: D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj</string>
+    <string>[INFO 2025-02-23 12:00:12 PM] Starting test for project: D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 12:00:16 PM]   Passed Sha3_384_RandomInputTest [5 ms]
+[OUTPUT 2025-02-23 12:00:15 PM]   Passed ShakeDifferentInputProducesDifferentHashTest [5 ms]
+[OUTPUT 2025-02-23 12:00:15 PM] Test Parallelization enabled for D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\bin\Debug\net9.0\Sha3VariantsTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 12:00:15 PM] D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\bin\Debug\net9.0\Sha3VariantsTest.dll
+[OUTPUT 2025-02-23 12:00:14 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 12:00:14 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 12:00:14 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 12:00:14 PM] Test run for D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\bin\Debug\net9.0\Sha3VariantsTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 12:00:14 PM]   Sha3VariantsTest -> D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\bin\Debug\net9.0\Sha3VariantsTest.dll
+[OUTPUT 2025-02-23 12:00:13 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 12:00:13 PM]   Sha3Variants -> D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\bin\Debug\net9.0\Sha3Variants.dll
+[OUTPUT 2025-02-23 12:00:13 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 12:00:15 PM] All tests passed successfully.
+[INFO 2025-02-23 12:00:15 PM] Test process completed. Duration: 3.39 seconds.
+[INFO 2025-02-23 12:00:15 PM] Process exited with code 0.
+[INFO 2025-02-23 12:00:12 PM] Command: dotnet test "D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 12:00:12 PM] Starting test for project: D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 11:50:31 AM
+Sha3Variants
+
+WritePatch ran compiler. 2025-02-23 11:52:00 AM
+Sha3Variants
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\Sha3Variants\Shake256.cs(9,23): warning CS0108: 'Shake256.ComputeHash(byte[], int)' hides inherited member 'ShakeHash.ComputeHash(byte[], int)'. Use the new keyword if hiding was intended. [D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\Sha3Variants.csproj]
+D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\Sha3Variants\Shake128.cs(9,23): warning CS0108: 'Shake128.ComputeHash(byte[], int)' hides inherited member 'ShakeHash.ComputeHash(byte[], int)'. Use the new keyword if hiding was intended. [D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\Sha3Variants.csproj]
+  Sha3Variants -> D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\bin\Debug\net9.0\Sha3Variants.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\Sha3Variants\Shake256.cs(9,23): warning CS0108: 'Shake256.ComputeHash(byte[], int)' hides inherited member 'ShakeHash.ComputeHash(byte[], int)'. Use the new keyword if hiding was intended. [D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\Sha3Variants.csproj]
+D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\Sha3Variants\Shake128.cs(9,23): warning CS0108: 'Shake128.ComputeHash(byte[], int)' hides inherited member 'ShakeHash.ComputeHash(byte[], int)'. Use the new keyword if hiding was intended. [D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\Sha3Variants.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.16
+
+
+WritePatch: Compile failed.
+Sha3Variants
+
+Finished WritePatch cycle step.
+2025-02-23 11:52:01 AM
+Sha3Variants
+
+WritePatch Started CycleStep. 2025-02-23 11:52:01 AM
+Sha3Variants
+
+WritePatch ran compiler. 2025-02-23 11:52:33 AM
+Sha3Variants
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Sha3Variants -> D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\bin\Debug\net9.0\Sha3Variants.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.02
+
+
+WritePatch: Code is not Complete.
+Sha3Variants
+
+Finished WritePatch cycle step.
+2025-02-23 11:52:47 AM
+Sha3Variants
+
+WritePatch Started CycleStep. 2025-02-23 11:52:47 AM
+Sha3Variants
+
+WritePatch ran compiler. 2025-02-23 11:53:36 AM
+Sha3Variants
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Sha3Variants -> D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\bin\Debug\net9.0\Sha3Variants.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+
+
+WritePatch: Code is not Complete.
+Sha3Variants
+
+Finished WritePatch cycle step.
+2025-02-23 11:53:48 AM
+Sha3Variants
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\Sha3Variants\Sha3Variants
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Sha3Variants -> D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\bin\Debug\net9.0\Sha3Variants.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+
+</CompilerResponse>
+2025-02-23 11:53:48 AM
+Sha3Variants
+
+WritePatch ran compiler. 2025-02-23 11:53:49 AM
+Sha3Variants
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Sha3Variants -> D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\bin\Debug\net9.0\Sha3Variants.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+
+
+WritePatch: Code is Complete.
+Sha3Variants
+
+WritePatch Started CycleStep. 2025-02-23 11:56:19 AM
+Sha3VariantsTest
+
+WritePatch ran compiler. 2025-02-23 11:56:56 AM
+Sha3VariantsTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj (in 232 ms).
+  1 of 2 projects are up-to-date for restore.
+  Sha3Variants -> D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\bin\Debug\net9.0\Sha3Variants.dll
+D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTests.cs(36,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj]
+D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTests.cs(103,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj]
+  Sha3VariantsTest -> D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\bin\Debug\net9.0\Sha3VariantsTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTests.cs(36,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj]
+D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTests.cs(103,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.64
+
+
+WritePatch: Compile failed.
+Sha3VariantsTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:56:57 AM
+Sha3VariantsTest
+
+WritePatch Started CycleStep. 2025-02-23 11:56:57 AM
+Sha3VariantsTest
+
+WritePatch ran compiler. 2025-02-23 11:57:31 AM
+Sha3VariantsTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Sha3Variants -> D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\bin\Debug\net9.0\Sha3Variants.dll
+  Sha3VariantsTest -> D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\bin\Debug\net9.0\Sha3VariantsTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.29
+
+
+WritePatch: Code is not Complete.
+Sha3VariantsTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:57:46 AM
+Sha3VariantsTest
+
+WritePatch Started CycleStep. 2025-02-23 11:57:46 AM
+Sha3VariantsTest
+
+WritePatch ran compiler. 2025-02-23 11:59:38 AM
+Sha3VariantsTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Sha3Variants -> D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\bin\Debug\net9.0\Sha3Variants.dll
+D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTests.cs(36,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj]
+D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTests.cs(103,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj]
+  Sha3VariantsTest -> D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\bin\Debug\net9.0\Sha3VariantsTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTests.cs(36,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj]
+D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTests.cs(103,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.17
+
+
+WritePatch: Compile failed.
+Sha3VariantsTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:59:38 AM
+Sha3VariantsTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Sha3Variants -> D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\bin\Debug\net9.0\Sha3Variants.dll
+D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTests.cs(36,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj]
+D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTests.cs(103,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj]
+  Sha3VariantsTest -> D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\bin\Debug\net9.0\Sha3VariantsTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTests.cs(36,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj]
+D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTests.cs(103,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.17
+
+</CompilerResponse>
+2025-02-23 11:59:38 AM
+Sha3VariantsTest
+
+WritePatch ran compiler. 2025-02-23 11:59:40 AM
+Sha3Variants
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Sha3Variants -> D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\bin\Debug\net9.0\Sha3Variants.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.06
+
+
+WritePatch: Code is Complete.
+Sha3Variants
+
+WritePatch ran compiler. 2025-02-23 11:59:53 AM
+Sha3VariantsTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Sha3Variants -> D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\bin\Debug\net9.0\Sha3Variants.dll
+  Sha3VariantsTest -> D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\bin\Debug\net9.0\Sha3VariantsTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+
+
+WritePatch: Code is Complete.
+Sha3VariantsTest
+
+TestResult:
+[OUTPUT 2025-02-23 12:00:16 PM]   Passed Sha3_384_RandomInputTest [5 ms]
+[OUTPUT 2025-02-23 12:00:15 PM]   Passed ShakeDifferentInputProducesDifferentHashTest [5 ms]
+[OUTPUT 2025-02-23 12:00:15 PM] Test Parallelization enabled for D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\bin\Debug\net9.0\Sha3VariantsTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 12:00:15 PM] D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\bin\Debug\net9.0\Sha3VariantsTest.dll
+[OUTPUT 2025-02-23 12:00:14 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 12:00:14 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 12:00:14 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 12:00:14 PM] Test run for D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\bin\Debug\net9.0\Sha3VariantsTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 12:00:14 PM]   Sha3VariantsTest -> D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\bin\Debug\net9.0\Sha3VariantsTest.dll
+[OUTPUT 2025-02-23 12:00:13 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 12:00:13 PM]   Sha3Variants -> D:\Code2025\RavenWork\Sha3Variants\Sha3Variants\bin\Debug\net9.0\Sha3Variants.dll
+[OUTPUT 2025-02-23 12:00:13 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 12:00:15 PM] All tests passed successfully.
+[INFO 2025-02-23 12:00:15 PM] Test process completed. Duration: 3.39 seconds.
+[INFO 2025-02-23 12:00:15 PM] Process exited with code 0.
+[INFO 2025-02-23 12:00:12 PM] Command: dotnet test "D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 12:00:12 PM] Starting test for project: D:\Code2025\RavenWork\Sha3Variants\Sha3VariantsTest\Sha3VariantsTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
