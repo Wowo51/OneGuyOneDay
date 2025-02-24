@@ -1,0 +1,237 @@
+<ActRecord>
+  <ProjectName>RandomForest</ProjectName>
+  <ProjectDescription>Random forest: An ensemble of decision trees for classification</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Random forest: An ensemble of decision trees for classification</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\RandomForest</SolutionFolderPath>
+  <ProjectFolderName>RandomForest</ProjectFolderName>
+  <ProjectName>RandomForest</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:18:49 AM
+RandomForest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:19:36 AM
+RandomForest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RandomForest -> D:\Code2025\RavenWork\RandomForest\RandomForest\bin\Debug\net9.0\RandomForest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.96
+]]></string>
+    <string>WritePatch: Code is Complete.
+RandomForest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:19:49 AM
+RandomForestTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:20:35 AM
+RandomForestTest</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj (in 224 ms).
+  1 of 2 projects are up-to-date for restore.
+  RandomForest -> D:\Code2025\RavenWork\RandomForest\RandomForest\bin\Debug\net9.0\RandomForest.dll
+D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestUnitTests.cs(116,13): error CS0118: 'RandomForest' is a namespace but is used like a type [D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj]
+D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestUnitTests.cs(116,39): error CS0118: 'RandomForest' is a namespace but is used like a type [D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj]
+D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestUnitTests.cs(132,13): error CS0118: 'RandomForest' is a namespace but is used like a type [D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj]
+D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestUnitTests.cs(132,39): error CS0118: 'RandomForest' is a namespace but is used like a type [D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj]
+D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestUnitTests.cs(147,13): error CS0118: 'RandomForest' is a namespace but is used like a type [D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj]
+D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestUnitTests.cs(147,39): error CS0118: 'RandomForest' is a namespace but is used like a type [D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestUnitTests.cs(116,13): error CS0118: 'RandomForest' is a namespace but is used like a type [D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj]
+D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestUnitTests.cs(116,39): error CS0118: 'RandomForest' is a namespace but is used like a type [D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj]
+D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestUnitTests.cs(132,13): error CS0118: 'RandomForest' is a namespace but is used like a type [D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj]
+D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestUnitTests.cs(132,39): error CS0118: 'RandomForest' is a namespace but is used like a type [D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj]
+D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestUnitTests.cs(147,13): error CS0118: 'RandomForest' is a namespace but is used like a type [D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj]
+D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestUnitTests.cs(147,39): error CS0118: 'RandomForest' is a namespace but is used like a type [D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj]
+    0 Warning(s)
+    6 Error(s)
+
+Time Elapsed 00:00:01.40
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+RandomForestTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:20:35 AM
+RandomForestTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:20:36 AM
+RandomForestTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:21:31 AM
+RandomForestTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RandomForest -> D:\Code2025\RavenWork\RandomForest\RandomForest\bin\Debug\net9.0\RandomForest.dll
+  RandomForestTest -> D:\Code2025\RavenWork\RandomForest\RandomForestTest\bin\Debug\net9.0\RandomForestTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.18
+]]></string>
+    <string>WritePatch: Code is Complete.
+RandomForestTest</string>
+    <string>[INFO 2025-02-23 10:21:54 AM] Starting test for project: D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj</string>
+    <string>[INFO 2025-02-23 10:21:54 AM] Starting test for project: D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj</string>
+    <string>[INFO 2025-02-23 10:21:54 AM] Starting test for project: D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj</string>
+    <string>[INFO 2025-02-23 10:21:54 AM] Starting test for project: D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj</string>
+    <string>[INFO 2025-02-23 10:21:54 AM] Starting test for project: D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj</string>
+    <string>[INFO 2025-02-23 10:21:54 AM] Starting test for project: D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj</string>
+    <string>[INFO 2025-02-23 10:21:54 AM] Starting test for project: D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj</string>
+    <string>[INFO 2025-02-23 10:21:54 AM] Starting test for project: D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj</string>
+    <string>[INFO 2025-02-23 10:21:54 AM] Starting test for project: D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj</string>
+    <string>[INFO 2025-02-23 10:21:54 AM] Starting test for project: D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj</string>
+    <string>[INFO 2025-02-23 10:21:54 AM] Starting test for project: D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj</string>
+    <string>[INFO 2025-02-23 10:21:54 AM] Starting test for project: D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj</string>
+    <string>[INFO 2025-02-23 10:21:54 AM] Starting test for project: D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj</string>
+    <string>[INFO 2025-02-23 10:21:54 AM] Starting test for project: D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 10:21:57 AM]   Passed TestRandomForest_WithEmptyData_ReturnsZero [4 ms]
+[OUTPUT 2025-02-23 10:21:57 AM]   Passed TestRandomForest_WithUniformData_ReturnsUniformLabel [4 ms]
+[OUTPUT 2025-02-23 10:21:57 AM] Test Parallelization enabled for D:\Code2025\RavenWork\RandomForest\RandomForestTest\bin\Debug\net9.0\RandomForestTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:21:55 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:21:56 AM] D:\Code2025\RavenWork\RandomForest\RandomForestTest\bin\Debug\net9.0\RandomForestTest.dll
+[OUTPUT 2025-02-23 10:21:56 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:21:56 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:21:56 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:21:55 AM] Test run for D:\Code2025\RavenWork\RandomForest\RandomForestTest\bin\Debug\net9.0\RandomForestTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:21:55 AM]   RandomForestTest -> D:\Code2025\RavenWork\RandomForest\RandomForestTest\bin\Debug\net9.0\RandomForestTest.dll
+[OUTPUT 2025-02-23 10:21:55 AM]   RandomForest -> D:\Code2025\RavenWork\RandomForest\RandomForest\bin\Debug\net9.0\RandomForest.dll
+[OUTPUT 2025-02-23 10:21:55 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 10:21:57 AM] All tests passed successfully.
+[INFO 2025-02-23 10:21:57 AM] Test process completed. Duration: 3.05 seconds.
+[INFO 2025-02-23 10:21:57 AM] Process exited with code 0.
+[INFO 2025-02-23 10:21:54 AM] Command: dotnet test "D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:21:54 AM] Starting test for project: D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 10:18:49 AM
+RandomForest
+
+WritePatch ran compiler. 2025-02-23 10:19:36 AM
+RandomForest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RandomForest -> D:\Code2025\RavenWork\RandomForest\RandomForest\bin\Debug\net9.0\RandomForest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.96
+
+
+WritePatch: Code is Complete.
+RandomForest
+
+WritePatch Started CycleStep. 2025-02-23 10:19:49 AM
+RandomForestTest
+
+WritePatch ran compiler. 2025-02-23 10:20:35 AM
+RandomForestTest
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj (in 224 ms).
+  1 of 2 projects are up-to-date for restore.
+  RandomForest -> D:\Code2025\RavenWork\RandomForest\RandomForest\bin\Debug\net9.0\RandomForest.dll
+D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestUnitTests.cs(116,13): error CS0118: 'RandomForest' is a namespace but is used like a type [D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj]
+D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestUnitTests.cs(116,39): error CS0118: 'RandomForest' is a namespace but is used like a type [D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj]
+D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestUnitTests.cs(132,13): error CS0118: 'RandomForest' is a namespace but is used like a type [D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj]
+D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestUnitTests.cs(132,39): error CS0118: 'RandomForest' is a namespace but is used like a type [D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj]
+D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestUnitTests.cs(147,13): error CS0118: 'RandomForest' is a namespace but is used like a type [D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj]
+D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestUnitTests.cs(147,39): error CS0118: 'RandomForest' is a namespace but is used like a type [D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestUnitTests.cs(116,13): error CS0118: 'RandomForest' is a namespace but is used like a type [D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj]
+D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestUnitTests.cs(116,39): error CS0118: 'RandomForest' is a namespace but is used like a type [D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj]
+D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestUnitTests.cs(132,13): error CS0118: 'RandomForest' is a namespace but is used like a type [D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj]
+D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestUnitTests.cs(132,39): error CS0118: 'RandomForest' is a namespace but is used like a type [D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj]
+D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestUnitTests.cs(147,13): error CS0118: 'RandomForest' is a namespace but is used like a type [D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj]
+D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestUnitTests.cs(147,39): error CS0118: 'RandomForest' is a namespace but is used like a type [D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj]
+    0 Warning(s)
+    6 Error(s)
+
+Time Elapsed 00:00:01.40
+
+
+Errors:
+
+WritePatch: Compile failed.
+RandomForestTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:20:35 AM
+RandomForestTest
+
+WritePatch Started CycleStep. 2025-02-23 10:20:36 AM
+RandomForestTest
+
+WritePatch ran compiler. 2025-02-23 10:21:31 AM
+RandomForestTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RandomForest -> D:\Code2025\RavenWork\RandomForest\RandomForest\bin\Debug\net9.0\RandomForest.dll
+  RandomForestTest -> D:\Code2025\RavenWork\RandomForest\RandomForestTest\bin\Debug\net9.0\RandomForestTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.18
+
+
+WritePatch: Code is Complete.
+RandomForestTest
+
+TestResult:
+[OUTPUT 2025-02-23 10:21:57 AM]   Passed TestRandomForest_WithEmptyData_ReturnsZero [4 ms]
+[OUTPUT 2025-02-23 10:21:57 AM]   Passed TestRandomForest_WithUniformData_ReturnsUniformLabel [4 ms]
+[OUTPUT 2025-02-23 10:21:57 AM] Test Parallelization enabled for D:\Code2025\RavenWork\RandomForest\RandomForestTest\bin\Debug\net9.0\RandomForestTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:21:55 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:21:56 AM] D:\Code2025\RavenWork\RandomForest\RandomForestTest\bin\Debug\net9.0\RandomForestTest.dll
+[OUTPUT 2025-02-23 10:21:56 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:21:56 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:21:56 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:21:55 AM] Test run for D:\Code2025\RavenWork\RandomForest\RandomForestTest\bin\Debug\net9.0\RandomForestTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:21:55 AM]   RandomForestTest -> D:\Code2025\RavenWork\RandomForest\RandomForestTest\bin\Debug\net9.0\RandomForestTest.dll
+[OUTPUT 2025-02-23 10:21:55 AM]   RandomForest -> D:\Code2025\RavenWork\RandomForest\RandomForest\bin\Debug\net9.0\RandomForest.dll
+[OUTPUT 2025-02-23 10:21:55 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 10:21:57 AM] All tests passed successfully.
+[INFO 2025-02-23 10:21:57 AM] Test process completed. Duration: 3.05 seconds.
+[INFO 2025-02-23 10:21:57 AM] Process exited with code 0.
+[INFO 2025-02-23 10:21:54 AM] Command: dotnet test "D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:21:54 AM] Starting test for project: D:\Code2025\RavenWork\RandomForest\RandomForestTest\RandomForestTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
