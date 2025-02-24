@@ -1,0 +1,210 @@
+<ActRecord>
+  <ProjectName>LevenbergMarquardtAlgorithm</ProjectName>
+  <ProjectDescription>Levenberg–Marquardt algorithm – A method that combines Gauss–Newton and gradient descent approaches to solve nonlinear least squares problems.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Levenberg–Marquardt algorithm – A method that combines Gauss–Newton and gradient descent approaches to solve nonlinear least squares problems.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>LevenbergMarquardtAlgorithm</ProjectFolderName>
+  <ProjectName>LevenbergMarquardtAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:39:20 PM
+LevenbergMarquardtAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:40:18 PM
+LevenbergMarquardtAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithm\LinearAlgebra.cs(41,28): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithm.csproj]
+D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithm\LinearAlgebra.cs(65,28): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithm.csproj]
+  LevenbergMarquardtAlgorithm -> D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithm\bin\Debug\net9.0\LevenbergMarquardtAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithm\LinearAlgebra.cs(41,28): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithm.csproj]
+D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithm\LinearAlgebra.cs(65,28): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithm.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.72
+]]></string>
+    <string>WritePatch: Compile failed.
+LevenbergMarquardtAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 4:40:19 PM
+LevenbergMarquardtAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:40:20 PM
+LevenbergMarquardtAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:41:04 PM
+LevenbergMarquardtAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LevenbergMarquardtAlgorithm -> D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithm\bin\Debug\net9.0\LevenbergMarquardtAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.97
+]]></string>
+    <string>WritePatch: Code is Complete.
+LevenbergMarquardtAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 4:41:20 PM
+LevenbergMarquardtAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 4:42:23 PM
+LevenbergMarquardtAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithmTest\LevenbergMarquardtAlgorithmTest.csproj (in 459 ms).
+  1 of 2 projects are up-to-date for restore.
+  LevenbergMarquardtAlgorithm -> D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithm\bin\Debug\net9.0\LevenbergMarquardtAlgorithm.dll
+  LevenbergMarquardtAlgorithmTest -> D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithmTest\bin\Debug\net9.0\LevenbergMarquardtAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.27
+]]></string>
+    <string>WritePatch: Code is Complete.
+LevenbergMarquardtAlgorithmTest</string>
+    <string>[INFO 2025-02-23 4:42:46 PM] Starting test for project: D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithmTest\LevenbergMarquardtAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 4:42:46 PM] Starting test for project: D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithmTest\LevenbergMarquardtAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 4:42:46 PM] Starting test for project: D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithmTest\LevenbergMarquardtAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 4:42:46 PM] Starting test for project: D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithmTest\LevenbergMarquardtAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 4:42:46 PM] Starting test for project: D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithmTest\LevenbergMarquardtAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 4:42:46 PM] Starting test for project: D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithmTest\LevenbergMarquardtAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 4:42:46 PM] Starting test for project: D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithmTest\LevenbergMarquardtAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 4:42:46 PM] Starting test for project: D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithmTest\LevenbergMarquardtAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 4:42:46 PM] Starting test for project: D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithmTest\LevenbergMarquardtAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 4:42:46 PM] Starting test for project: D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithmTest\LevenbergMarquardtAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 4:42:46 PM] Starting test for project: D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithmTest\LevenbergMarquardtAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 4:42:46 PM] Starting test for project: D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithmTest\LevenbergMarquardtAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 4:42:46 PM] Starting test for project: D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithmTest\LevenbergMarquardtAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 4:42:53 PM]   Passed TestSolverLinearSmall [9 ms]
+[OUTPUT 2025-02-23 4:42:50 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 4:42:50 PM] Test run for D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithmTest\bin\Debug\net9.0\LevenbergMarquardtAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 4:42:49 PM]   LevenbergMarquardtAlgorithmTest -> D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithmTest\bin\Debug\net9.0\LevenbergMarquardtAlgorithmTest.dll
+[OUTPUT 2025-02-23 4:42:48 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 4:42:52 PM] Test Parallelization enabled for D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithmTest\bin\Debug\net9.0\LevenbergMarquardtAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 4:42:52 PM] D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithmTest\bin\Debug\net9.0\LevenbergMarquardtAlgorithmTest.dll
+[OUTPUT 2025-02-23 4:42:51 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 4:42:51 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 4:42:49 PM]   LevenbergMarquardtAlgorithm -> D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithm\bin\Debug\net9.0\LevenbergMarquardtAlgorithm.dll
+[OUTPUT 2025-02-23 4:42:48 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 4:42:53 PM] All tests passed successfully.
+[INFO 2025-02-23 4:42:53 PM] Test process completed. Duration: 6.40 seconds.
+[INFO 2025-02-23 4:42:53 PM] Process exited with code 0.
+[INFO 2025-02-23 4:42:46 PM] Command: dotnet test "D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithmTest\LevenbergMarquardtAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 4:42:46 PM] Starting test for project: D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithmTest\LevenbergMarquardtAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 4:39:20 PM
+LevenbergMarquardtAlgorithm
+
+WritePatch ran compiler. 2025-02-23 4:40:18 PM
+LevenbergMarquardtAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithm\LinearAlgebra.cs(41,28): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithm.csproj]
+D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithm\LinearAlgebra.cs(65,28): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithm.csproj]
+  LevenbergMarquardtAlgorithm -> D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithm\bin\Debug\net9.0\LevenbergMarquardtAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithm\LinearAlgebra.cs(41,28): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithm.csproj]
+D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithm\LinearAlgebra.cs(65,28): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithm.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.72
+
+
+WritePatch: Compile failed.
+LevenbergMarquardtAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 4:40:19 PM
+LevenbergMarquardtAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 4:40:20 PM
+LevenbergMarquardtAlgorithm
+
+WritePatch ran compiler. 2025-02-23 4:41:04 PM
+LevenbergMarquardtAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LevenbergMarquardtAlgorithm -> D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithm\bin\Debug\net9.0\LevenbergMarquardtAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.97
+
+
+WritePatch: Code is Complete.
+LevenbergMarquardtAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 4:41:20 PM
+LevenbergMarquardtAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 4:42:23 PM
+LevenbergMarquardtAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithmTest\LevenbergMarquardtAlgorithmTest.csproj (in 459 ms).
+  1 of 2 projects are up-to-date for restore.
+  LevenbergMarquardtAlgorithm -> D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithm\bin\Debug\net9.0\LevenbergMarquardtAlgorithm.dll
+  LevenbergMarquardtAlgorithmTest -> D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithmTest\bin\Debug\net9.0\LevenbergMarquardtAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.27
+
+
+WritePatch: Code is Complete.
+LevenbergMarquardtAlgorithmTest
+
+TestResult:
+[OUTPUT 2025-02-23 4:42:53 PM]   Passed TestSolverLinearSmall [9 ms]
+[OUTPUT 2025-02-23 4:42:50 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 4:42:50 PM] Test run for D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithmTest\bin\Debug\net9.0\LevenbergMarquardtAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 4:42:49 PM]   LevenbergMarquardtAlgorithmTest -> D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithmTest\bin\Debug\net9.0\LevenbergMarquardtAlgorithmTest.dll
+[OUTPUT 2025-02-23 4:42:48 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 4:42:52 PM] Test Parallelization enabled for D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithmTest\bin\Debug\net9.0\LevenbergMarquardtAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 4:42:52 PM] D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithmTest\bin\Debug\net9.0\LevenbergMarquardtAlgorithmTest.dll
+[OUTPUT 2025-02-23 4:42:51 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 4:42:51 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 4:42:49 PM]   LevenbergMarquardtAlgorithm -> D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithm\bin\Debug\net9.0\LevenbergMarquardtAlgorithm.dll
+[OUTPUT 2025-02-23 4:42:48 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 4:42:53 PM] All tests passed successfully.
+[INFO 2025-02-23 4:42:53 PM] Test process completed. Duration: 6.40 seconds.
+[INFO 2025-02-23 4:42:53 PM] Process exited with code 0.
+[INFO 2025-02-23 4:42:46 PM] Command: dotnet test "D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithmTest\LevenbergMarquardtAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 4:42:46 PM] Starting test for project: D:\Code2025\RavenWork\LevenbergMarquardtAlgorithm\LevenbergMarquardtAlgorithmTest\LevenbergMarquardtAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
