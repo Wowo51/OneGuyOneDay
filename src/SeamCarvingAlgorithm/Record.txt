@@ -1,0 +1,329 @@
+<ActRecord>
+  <ProjectName>SeamCarvingAlgorithm</ProjectName>
+  <ProjectDescription>Seam carving: A content‑aware image resizing algorithm</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Seam carving: A content‑aware image resizing algorithm</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\SeamCarvingAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>SeamCarvingAlgorithm</ProjectFolderName>
+  <ProjectName>SeamCarvingAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:49:05 AM
+SeamCarvingAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:50:21 AM
+SeamCarvingAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(30,16): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(11,27): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(30,16): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(11,27): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.21
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+SeamCarvingAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:50:22 AM
+SeamCarvingAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:50:22 AM
+SeamCarvingAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:51:26 AM
+SeamCarvingAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs(18,23): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs(48,16): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(8,17): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs(53,44): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs(26,17): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs(20,24): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(20,25): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs(45,26): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(87,13): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(88,13): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(89,13): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(90,13): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(160,13): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(160,38): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(179,13): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(179,40): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+  SeamCarvingAlgorithm -> D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\bin\Debug\net9.0\SeamCarvingAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs(18,23): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs(48,16): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(8,17): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs(53,44): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs(26,17): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs(20,24): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(20,25): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs(45,26): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(87,13): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(88,13): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(89,13): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(90,13): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(160,13): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(160,38): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(179,13): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(179,40): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+    16 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.72
+]]></string>
+    <string>WritePatch: Compile failed.
+SeamCarvingAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:51:29 AM
+SeamCarvingAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:51:29 AM
+SeamCarvingAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:52:28 AM
+SeamCarvingAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SeamCarvingAlgorithm -> D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\bin\Debug\net9.0\SeamCarvingAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.42
+]]></string>
+    <string>WritePatch: Code is Complete.
+SeamCarvingAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:53:00 AM
+SeamCarvingAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:53:54 AM
+SeamCarvingAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithmTest\SeamCarvingAlgorithmTest.csproj (in 295 ms).
+  1 of 2 projects are up-to-date for restore.
+  SeamCarvingAlgorithm -> D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\bin\Debug\net9.0\SeamCarvingAlgorithm.dll
+  SeamCarvingAlgorithmTest -> D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithmTest\bin\Debug\net9.0\SeamCarvingAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.38
+]]></string>
+    <string>WritePatch: Code is Complete.
+SeamCarvingAlgorithmTest</string>
+    <string>[INFO 2025-02-23 8:54:13 AM] Starting test for project: D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithmTest\SeamCarvingAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:54:13 AM] Starting test for project: D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithmTest\SeamCarvingAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:54:13 AM] Starting test for project: D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithmTest\SeamCarvingAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:54:13 AM] Starting test for project: D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithmTest\SeamCarvingAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:54:13 AM] Starting test for project: D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithmTest\SeamCarvingAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:54:13 AM] Starting test for project: D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithmTest\SeamCarvingAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:54:13 AM] Starting test for project: D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithmTest\SeamCarvingAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:54:13 AM] Starting test for project: D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithmTest\SeamCarvingAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:54:13 AM] Starting test for project: D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithmTest\SeamCarvingAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:54:13 AM] Starting test for project: D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithmTest\SeamCarvingAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:54:13 AM] Starting test for project: D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithmTest\SeamCarvingAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:54:13 AM] Starting test for project: D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithmTest\SeamCarvingAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:54:13 AM] Starting test for project: D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithmTest\SeamCarvingAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 8:54:19 AM] All tests passed successfully.
+[INFO 2025-02-23 8:54:19 AM] Test process completed. Duration: 5.80 seconds.
+[INFO 2025-02-23 8:54:19 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 8:54:19 AM] Test Parallelization enabled for D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithmTest\bin\Debug\net9.0\SeamCarvingAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 8:54:17 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:54:17 AM] Test run for D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithmTest\bin\Debug\net9.0\SeamCarvingAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:54:16 AM]   SeamCarvingAlgorithmTest -> D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithmTest\bin\Debug\net9.0\SeamCarvingAlgorithmTest.dll
+[OUTPUT 2025-02-23 8:54:15 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:54:20 AM]   Passed Test_ResizeNoChange [6 ms]
+[OUTPUT 2025-02-23 8:54:18 AM] D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithmTest\bin\Debug\net9.0\SeamCarvingAlgorithmTest.dll
+[OUTPUT 2025-02-23 8:54:18 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 8:54:17 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:54:16 AM]   SeamCarvingAlgorithm -> D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\bin\Debug\net9.0\SeamCarvingAlgorithm.dll
+[OUTPUT 2025-02-23 8:54:15 AM]   Determining projects to restore...
+[INFO 2025-02-23 8:54:13 AM] Command: dotnet test "D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithmTest\SeamCarvingAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:54:13 AM] Starting test for project: D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithmTest\SeamCarvingAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 8:49:05 AM
+SeamCarvingAlgorithm
+
+WritePatch ran compiler. 2025-02-23 8:50:21 AM
+SeamCarvingAlgorithm
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(30,16): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(11,27): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(30,16): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(11,27): error CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.21
+
+
+Errors:
+
+WritePatch: Compile failed.
+SeamCarvingAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 8:50:22 AM
+SeamCarvingAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 8:50:22 AM
+SeamCarvingAlgorithm
+
+WritePatch ran compiler. 2025-02-23 8:51:26 AM
+SeamCarvingAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs(18,23): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs(48,16): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(8,17): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs(53,44): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs(26,17): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs(20,24): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(20,25): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs(45,26): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(87,13): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(88,13): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(89,13): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(90,13): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(160,13): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(160,38): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(179,13): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(179,40): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+  SeamCarvingAlgorithm -> D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\bin\Debug\net9.0\SeamCarvingAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs(18,23): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs(48,16): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(8,17): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs(53,44): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs(26,17): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs(20,24): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(20,25): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs(45,26): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(87,13): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(88,13): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(89,13): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(90,13): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(160,13): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(160,38): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(179,13): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarver.cs(179,40): warning CS0436: The type 'Color' in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs' conflicts with the imported type 'Color' in 'System.Drawing.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Using the type defined in 'D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\FakeDrawing.cs'. [D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\SeamCarvingAlgorithm.csproj]
+    16 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.72
+
+
+WritePatch: Compile failed.
+SeamCarvingAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 8:51:29 AM
+SeamCarvingAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 8:51:29 AM
+SeamCarvingAlgorithm
+
+WritePatch ran compiler. 2025-02-23 8:52:28 AM
+SeamCarvingAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SeamCarvingAlgorithm -> D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\bin\Debug\net9.0\SeamCarvingAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.42
+
+
+WritePatch: Code is Complete.
+SeamCarvingAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 8:53:00 AM
+SeamCarvingAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 8:53:54 AM
+SeamCarvingAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithmTest\SeamCarvingAlgorithmTest.csproj (in 295 ms).
+  1 of 2 projects are up-to-date for restore.
+  SeamCarvingAlgorithm -> D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\bin\Debug\net9.0\SeamCarvingAlgorithm.dll
+  SeamCarvingAlgorithmTest -> D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithmTest\bin\Debug\net9.0\SeamCarvingAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.38
+
+
+WritePatch: Code is Complete.
+SeamCarvingAlgorithmTest
+
+TestResult:
+[SUCCESS 2025-02-23 8:54:19 AM] All tests passed successfully.
+[INFO 2025-02-23 8:54:19 AM] Test process completed. Duration: 5.80 seconds.
+[INFO 2025-02-23 8:54:19 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 8:54:19 AM] Test Parallelization enabled for D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithmTest\bin\Debug\net9.0\SeamCarvingAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 8:54:17 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:54:17 AM] Test run for D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithmTest\bin\Debug\net9.0\SeamCarvingAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:54:16 AM]   SeamCarvingAlgorithmTest -> D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithmTest\bin\Debug\net9.0\SeamCarvingAlgorithmTest.dll
+[OUTPUT 2025-02-23 8:54:15 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:54:20 AM]   Passed Test_ResizeNoChange [6 ms]
+[OUTPUT 2025-02-23 8:54:18 AM] D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithmTest\bin\Debug\net9.0\SeamCarvingAlgorithmTest.dll
+[OUTPUT 2025-02-23 8:54:18 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 8:54:17 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:54:16 AM]   SeamCarvingAlgorithm -> D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithm\bin\Debug\net9.0\SeamCarvingAlgorithm.dll
+[OUTPUT 2025-02-23 8:54:15 AM]   Determining projects to restore...
+[INFO 2025-02-23 8:54:13 AM] Command: dotnet test "D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithmTest\SeamCarvingAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:54:13 AM] Starting test for project: D:\Code2025\RavenWork\SeamCarvingAlgorithm\SeamCarvingAlgorithmTest\SeamCarvingAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
