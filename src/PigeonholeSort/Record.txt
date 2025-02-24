@@ -1,0 +1,338 @@
+<ActRecord>
+  <ProjectName>PigeonholeSort</ProjectName>
+  <ProjectDescription>Pigeonhole sort</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Pigeonhole sort</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\PigeonholeSort</SolutionFolderPath>
+  <ProjectFolderName>PigeonholeSort</ProjectFolderName>
+  <ProjectName>PigeonholeSort</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:58:58 PM
+PigeonholeSort</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:59:57 PM
+PigeonholeSort</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PigeonholeSort -> D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSort\bin\Debug\net9.0\PigeonholeSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+]]></string>
+    <string>WritePatch: Code is Complete.
+PigeonholeSort</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:00:51 PM
+PigeonholeSortTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:01:59 PM
+PigeonholeSortTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSortTest.csproj (in 221 ms).
+  1 of 2 projects are up-to-date for restore.
+  PigeonholeSort -> D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSort\bin\Debug\net9.0\PigeonholeSort.dll
+D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSorterTests.cs(13,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSortTest.csproj]
+D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSorterTests.cs(14,35): warning CS8604: Possible null reference argument for parameter 'array' in 'void PigeonholeSorter.Sort(int[] array)'. [D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSortTest.csproj]
+  PigeonholeSortTest -> D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\bin\Debug\net9.0\PigeonholeSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSorterTests.cs(13,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSortTest.csproj]
+D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSorterTests.cs(14,35): warning CS8604: Possible null reference argument for parameter 'array' in 'void PigeonholeSorter.Sort(int[] array)'. [D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSortTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.61
+]]></string>
+    <string>WritePatch: Compile failed.
+PigeonholeSortTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:02:47 PM
+PigeonholeSortTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:02:51 PM
+PigeonholeSortTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:03:46 PM
+PigeonholeSortTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PigeonholeSort -> D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSort\bin\Debug\net9.0\PigeonholeSort.dll
+D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSorterTests.cs(14,35): warning CS8604: Possible null reference argument for parameter 'array' in 'void PigeonholeSorter.Sort(int[] array)'. [D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSortTest.csproj]
+  PigeonholeSortTest -> D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\bin\Debug\net9.0\PigeonholeSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSorterTests.cs(14,35): warning CS8604: Possible null reference argument for parameter 'array' in 'void PigeonholeSorter.Sort(int[] array)'. [D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSortTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.18
+]]></string>
+    <string>WritePatch: Compile failed.
+PigeonholeSortTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:04:57 PM
+PigeonholeSortTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:05:11 PM
+PigeonholeSortTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 1:05:52 PM
+PigeonholeSortTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PigeonholeSort -> D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSort\bin\Debug\net9.0\PigeonholeSort.dll
+D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSorterTests.cs(14,35): warning CS8604: Possible null reference argument for parameter 'array' in 'void PigeonholeSorter.Sort(int[] array)'. [D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSortTest.csproj]
+  PigeonholeSortTest -> D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\bin\Debug\net9.0\PigeonholeSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSorterTests.cs(14,35): warning CS8604: Possible null reference argument for parameter 'array' in 'void PigeonholeSorter.Sort(int[] array)'. [D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSortTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.18
+
+</CompilerResponse>
+2025-02-23 1:06:02 PM
+PigeonholeSortTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 1:06:22 PM
+PigeonholeSort</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PigeonholeSort -> D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSort\bin\Debug\net9.0\PigeonholeSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.82
+]]></string>
+    <string>WritePatch: Code is Complete.
+PigeonholeSort</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:06:59 PM
+PigeonholeSortTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PigeonholeSort -> D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSort\bin\Debug\net9.0\PigeonholeSort.dll
+  PigeonholeSortTest -> D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\bin\Debug\net9.0\PigeonholeSortTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.17
+]]></string>
+    <string>WritePatch: Code is Complete.
+PigeonholeSortTest</string>
+    <string>[INFO 2025-02-23 1:07:14 PM] Starting test for project: D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSortTest.csproj</string>
+    <string>[INFO 2025-02-23 1:07:14 PM] Starting test for project: D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSortTest.csproj</string>
+    <string>[INFO 2025-02-23 1:07:14 PM] Starting test for project: D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSortTest.csproj</string>
+    <string>[INFO 2025-02-23 1:07:14 PM] Starting test for project: D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSortTest.csproj</string>
+    <string>[INFO 2025-02-23 1:07:14 PM] Starting test for project: D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSortTest.csproj</string>
+    <string>[INFO 2025-02-23 1:07:14 PM] Starting test for project: D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSortTest.csproj</string>
+    <string>[INFO 2025-02-23 1:07:14 PM] Starting test for project: D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSortTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 1:07:19 PM] Test run for D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\bin\Debug\net9.0\PigeonholeSortTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 1:07:17 PM]   PigeonholeSortTest -> D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\bin\Debug\net9.0\PigeonholeSortTest.dll
+[OUTPUT 2025-02-23 1:07:17 PM]   PigeonholeSort -> D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSort\bin\Debug\net9.0\PigeonholeSort.dll
+[OUTPUT 2025-02-23 1:07:16 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:07:15 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 1:07:18 PM] All tests passed successfully.
+[INFO 2025-02-23 1:07:18 PM] Test process completed. Duration: 4.40 seconds.
+[INFO 2025-02-23 1:07:18 PM] Process exited with code 0.
+[INFO 2025-02-23 1:07:14 PM] Command: dotnet test "D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSortTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:07:14 PM] Starting test for project: D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSortTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 12:58:58 PM
+PigeonholeSort
+
+WritePatch ran compiler. 2025-02-23 12:59:57 PM
+PigeonholeSort
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PigeonholeSort -> D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSort\bin\Debug\net9.0\PigeonholeSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+
+
+WritePatch: Code is Complete.
+PigeonholeSort
+
+WritePatch Started CycleStep. 2025-02-23 1:00:51 PM
+PigeonholeSortTest
+
+WritePatch ran compiler. 2025-02-23 1:01:59 PM
+PigeonholeSortTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSortTest.csproj (in 221 ms).
+  1 of 2 projects are up-to-date for restore.
+  PigeonholeSort -> D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSort\bin\Debug\net9.0\PigeonholeSort.dll
+D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSorterTests.cs(13,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSortTest.csproj]
+D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSorterTests.cs(14,35): warning CS8604: Possible null reference argument for parameter 'array' in 'void PigeonholeSorter.Sort(int[] array)'. [D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSortTest.csproj]
+  PigeonholeSortTest -> D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\bin\Debug\net9.0\PigeonholeSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSorterTests.cs(13,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSortTest.csproj]
+D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSorterTests.cs(14,35): warning CS8604: Possible null reference argument for parameter 'array' in 'void PigeonholeSorter.Sort(int[] array)'. [D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSortTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.61
+
+
+WritePatch: Compile failed.
+PigeonholeSortTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:02:47 PM
+PigeonholeSortTest
+
+WritePatch Started CycleStep. 2025-02-23 1:02:51 PM
+PigeonholeSortTest
+
+WritePatch ran compiler. 2025-02-23 1:03:46 PM
+PigeonholeSortTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PigeonholeSort -> D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSort\bin\Debug\net9.0\PigeonholeSort.dll
+D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSorterTests.cs(14,35): warning CS8604: Possible null reference argument for parameter 'array' in 'void PigeonholeSorter.Sort(int[] array)'. [D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSortTest.csproj]
+  PigeonholeSortTest -> D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\bin\Debug\net9.0\PigeonholeSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSorterTests.cs(14,35): warning CS8604: Possible null reference argument for parameter 'array' in 'void PigeonholeSorter.Sort(int[] array)'. [D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSortTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.18
+
+
+WritePatch: Compile failed.
+PigeonholeSortTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:04:57 PM
+PigeonholeSortTest
+
+WritePatch Started CycleStep. 2025-02-23 1:05:11 PM
+PigeonholeSortTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 1:05:52 PM
+PigeonholeSortTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PigeonholeSort -> D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSort\bin\Debug\net9.0\PigeonholeSort.dll
+D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSorterTests.cs(14,35): warning CS8604: Possible null reference argument for parameter 'array' in 'void PigeonholeSorter.Sort(int[] array)'. [D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSortTest.csproj]
+  PigeonholeSortTest -> D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\bin\Debug\net9.0\PigeonholeSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSorterTests.cs(14,35): warning CS8604: Possible null reference argument for parameter 'array' in 'void PigeonholeSorter.Sort(int[] array)'. [D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSortTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.18
+
+</CompilerResponse>
+2025-02-23 1:06:02 PM
+PigeonholeSortTest
+
+WritePatch ran compiler. 2025-02-23 1:06:22 PM
+PigeonholeSort
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PigeonholeSort -> D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSort\bin\Debug\net9.0\PigeonholeSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.82
+
+
+WritePatch: Code is Complete.
+PigeonholeSort
+
+WritePatch ran compiler. 2025-02-23 1:06:59 PM
+PigeonholeSortTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PigeonholeSort -> D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSort\bin\Debug\net9.0\PigeonholeSort.dll
+  PigeonholeSortTest -> D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\bin\Debug\net9.0\PigeonholeSortTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.17
+
+
+WritePatch: Code is Complete.
+PigeonholeSortTest
+
+TestResult:
+[OUTPUT 2025-02-23 1:07:19 PM] Test run for D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\bin\Debug\net9.0\PigeonholeSortTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 1:07:17 PM]   PigeonholeSortTest -> D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\bin\Debug\net9.0\PigeonholeSortTest.dll
+[OUTPUT 2025-02-23 1:07:17 PM]   PigeonholeSort -> D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSort\bin\Debug\net9.0\PigeonholeSort.dll
+[OUTPUT 2025-02-23 1:07:16 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:07:15 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 1:07:18 PM] All tests passed successfully.
+[INFO 2025-02-23 1:07:18 PM] Test process completed. Duration: 4.40 seconds.
+[INFO 2025-02-23 1:07:18 PM] Process exited with code 0.
+[INFO 2025-02-23 1:07:14 PM] Command: dotnet test "D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSortTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:07:14 PM] Starting test for project: D:\Code2025\RavenWork\PigeonholeSort\PigeonholeSortTest\PigeonholeSortTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
