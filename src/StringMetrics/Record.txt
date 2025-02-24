@@ -1,0 +1,412 @@
+<ActRecord>
+  <ProjectName>StringMetrics</ProjectName>
+  <ProjectDescription>String metrics: computes a similarity or dissimilarity (distance) score between two pairs of text strings</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>String metrics: computes a similarity or dissimilarity (distance) score between two pairs of text strings</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\StringMetrics</SolutionFolderPath>
+  <ProjectFolderName>StringMetrics</ProjectFolderName>
+  <ProjectName>StringMetrics</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:15:13 PM
+StringMetrics</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:15:34 PM
+StringMetrics</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StringMetrics -> D:\Code2025\RavenWork\StringMetrics\StringMetrics\bin\Debug\net9.0\StringMetrics.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.07
+]]></string>
+    <string>WritePatch: Code is Complete.
+StringMetrics</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:15:48 PM
+StringMetricsTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:16:22 PM
+StringMetricsTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj (in 226 ms).
+  1 of 2 projects are up-to-date for restore.
+  StringMetrics -> D:\Code2025\RavenWork\StringMetrics\StringMetrics\bin\Debug\net9.0\StringMetrics.dll
+D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricCalculatorTests.cs(20,78): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj]
+D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricCalculatorTests.cs(27,85): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj]
+D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricCalculatorTests.cs(48,84): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj]
+D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricCalculatorTests.cs(48,90): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj]
+  StringMetricsTest -> D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\bin\Debug\net9.0\StringMetricsTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricCalculatorTests.cs(20,78): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj]
+D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricCalculatorTests.cs(27,85): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj]
+D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricCalculatorTests.cs(48,84): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj]
+D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricCalculatorTests.cs(48,90): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.61
+]]></string>
+    <string>WritePatch: Compile failed.
+StringMetricsTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:16:23 PM
+StringMetricsTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:16:23 PM
+StringMetricsTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:17:13 PM
+StringMetricsTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StringMetrics -> D:\Code2025\RavenWork\StringMetrics\StringMetrics\bin\Debug\net9.0\StringMetrics.dll
+D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricCalculatorTests.cs(20,78): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj]
+D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricCalculatorTests.cs(27,85): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj]
+D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricCalculatorTests.cs(48,84): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj]
+D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricCalculatorTests.cs(48,90): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj]
+  StringMetricsTest -> D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\bin\Debug\net9.0\StringMetricsTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricCalculatorTests.cs(20,78): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj]
+D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricCalculatorTests.cs(27,85): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj]
+D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricCalculatorTests.cs(48,84): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj]
+D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricCalculatorTests.cs(48,90): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.18
+]]></string>
+    <string>WritePatch: Compile failed.
+StringMetricsTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:17:13 PM
+StringMetricsTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:17:13 PM
+StringMetricsTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:17:47 PM
+StringMetricsTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StringMetrics -> D:\Code2025\RavenWork\StringMetrics\StringMetrics\bin\Debug\net9.0\StringMetrics.dll
+  StringMetricsTest -> D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\bin\Debug\net9.0\StringMetricsTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.52
+]]></string>
+    <string>WritePatch: Code is not Complete.
+StringMetricsTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:18:05 PM
+StringMetricsTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\StringMetrics\StringMetricsTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StringMetrics -> D:\Code2025\RavenWork\StringMetrics\StringMetrics\bin\Debug\net9.0\StringMetrics.dll
+  StringMetricsTest -> D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\bin\Debug\net9.0\StringMetricsTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.52
+
+</CompilerResponse>
+2025-02-23 1:18:05 PM
+StringMetricsTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 1:18:06 PM
+StringMetrics</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StringMetrics -> D:\Code2025\RavenWork\StringMetrics\StringMetrics\bin\Debug\net9.0\StringMetrics.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.91
+]]></string>
+    <string>WritePatch: Code is Complete.
+StringMetrics</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:18:21 PM
+StringMetricsTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StringMetrics -> D:\Code2025\RavenWork\StringMetrics\StringMetrics\bin\Debug\net9.0\StringMetrics.dll
+  StringMetricsTest -> D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\bin\Debug\net9.0\StringMetricsTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.20
+]]></string>
+    <string>WritePatch: Code is Complete.
+StringMetricsTest</string>
+    <string>[INFO 2025-02-23 1:18:40 PM] Starting test for project: D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj</string>
+    <string>[INFO 2025-02-23 1:18:40 PM] Starting test for project: D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj</string>
+    <string>[INFO 2025-02-23 1:18:40 PM] Starting test for project: D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj</string>
+    <string>[INFO 2025-02-23 1:18:40 PM] Starting test for project: D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj</string>
+    <string>[INFO 2025-02-23 1:18:40 PM] Starting test for project: D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj</string>
+    <string>[INFO 2025-02-23 1:18:40 PM] Starting test for project: D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj</string>
+    <string>[INFO 2025-02-23 1:18:40 PM] Starting test for project: D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj</string>
+    <string>[INFO 2025-02-23 1:18:40 PM] Starting test for project: D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj</string>
+    <string>[INFO 2025-02-23 1:18:40 PM] Starting test for project: D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj</string>
+    <string>[INFO 2025-02-23 1:18:40 PM] Starting test for project: D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj</string>
+    <string>[INFO 2025-02-23 1:18:40 PM] Starting test for project: D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj</string>
+    <string>[INFO 2025-02-23 1:18:40 PM] Starting test for project: D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj</string>
+    <string>[INFO 2025-02-23 1:18:40 PM] Starting test for project: D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj</string>
+    <string>[INFO 2025-02-23 1:18:40 PM] Starting test for project: D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 1:18:43 PM] All tests passed successfully.
+[INFO 2025-02-23 1:18:43 PM] Test process completed. Duration: 3.35 seconds.
+[INFO 2025-02-23 1:18:43 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 1:18:43 PM]   Passed Test_ComputeNormalizedSimilarity_Different [5 ms]
+[OUTPUT 2025-02-23 1:18:43 PM]   Passed Test_ComputeLevenshteinDistance_SecondNull [5 ms]
+[OUTPUT 2025-02-23 1:18:43 PM] Test Parallelization enabled for D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\bin\Debug\net9.0\StringMetricsTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 1:18:42 PM] D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\bin\Debug\net9.0\StringMetricsTest.dll
+[OUTPUT 2025-02-23 1:18:41 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 1:18:41 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 1:18:41 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 1:18:41 PM] Test run for D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\bin\Debug\net9.0\StringMetricsTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 1:18:41 PM]   StringMetrics -> D:\Code2025\RavenWork\StringMetrics\StringMetrics\bin\Debug\net9.0\StringMetrics.dll
+[OUTPUT 2025-02-23 1:18:41 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:18:41 PM]   StringMetricsTest -> D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\bin\Debug\net9.0\StringMetricsTest.dll
+[OUTPUT 2025-02-23 1:18:40 PM]   Determining projects to restore...
+[INFO 2025-02-23 1:18:40 PM] Command: dotnet test "D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:18:40 PM] Starting test for project: D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 1:15:13 PM
+StringMetrics
+
+WritePatch ran compiler. 2025-02-23 1:15:34 PM
+StringMetrics
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StringMetrics -> D:\Code2025\RavenWork\StringMetrics\StringMetrics\bin\Debug\net9.0\StringMetrics.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.07
+
+
+WritePatch: Code is Complete.
+StringMetrics
+
+WritePatch Started CycleStep. 2025-02-23 1:15:48 PM
+StringMetricsTest
+
+WritePatch ran compiler. 2025-02-23 1:16:22 PM
+StringMetricsTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj (in 226 ms).
+  1 of 2 projects are up-to-date for restore.
+  StringMetrics -> D:\Code2025\RavenWork\StringMetrics\StringMetrics\bin\Debug\net9.0\StringMetrics.dll
+D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricCalculatorTests.cs(20,78): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj]
+D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricCalculatorTests.cs(27,85): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj]
+D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricCalculatorTests.cs(48,84): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj]
+D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricCalculatorTests.cs(48,90): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj]
+  StringMetricsTest -> D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\bin\Debug\net9.0\StringMetricsTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricCalculatorTests.cs(20,78): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj]
+D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricCalculatorTests.cs(27,85): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj]
+D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricCalculatorTests.cs(48,84): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj]
+D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricCalculatorTests.cs(48,90): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.61
+
+
+WritePatch: Compile failed.
+StringMetricsTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:16:23 PM
+StringMetricsTest
+
+WritePatch Started CycleStep. 2025-02-23 1:16:23 PM
+StringMetricsTest
+
+WritePatch ran compiler. 2025-02-23 1:17:13 PM
+StringMetricsTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StringMetrics -> D:\Code2025\RavenWork\StringMetrics\StringMetrics\bin\Debug\net9.0\StringMetrics.dll
+D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricCalculatorTests.cs(20,78): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj]
+D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricCalculatorTests.cs(27,85): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj]
+D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricCalculatorTests.cs(48,84): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj]
+D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricCalculatorTests.cs(48,90): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj]
+  StringMetricsTest -> D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\bin\Debug\net9.0\StringMetricsTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricCalculatorTests.cs(20,78): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj]
+D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricCalculatorTests.cs(27,85): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj]
+D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricCalculatorTests.cs(48,84): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj]
+D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricCalculatorTests.cs(48,90): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.18
+
+
+WritePatch: Compile failed.
+StringMetricsTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:17:13 PM
+StringMetricsTest
+
+WritePatch Started CycleStep. 2025-02-23 1:17:13 PM
+StringMetricsTest
+
+WritePatch ran compiler. 2025-02-23 1:17:47 PM
+StringMetricsTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StringMetrics -> D:\Code2025\RavenWork\StringMetrics\StringMetrics\bin\Debug\net9.0\StringMetrics.dll
+  StringMetricsTest -> D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\bin\Debug\net9.0\StringMetricsTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.52
+
+
+WritePatch: Code is not Complete.
+StringMetricsTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:18:05 PM
+StringMetricsTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\StringMetrics\StringMetricsTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StringMetrics -> D:\Code2025\RavenWork\StringMetrics\StringMetrics\bin\Debug\net9.0\StringMetrics.dll
+  StringMetricsTest -> D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\bin\Debug\net9.0\StringMetricsTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.52
+
+</CompilerResponse>
+2025-02-23 1:18:05 PM
+StringMetricsTest
+
+WritePatch ran compiler. 2025-02-23 1:18:06 PM
+StringMetrics
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StringMetrics -> D:\Code2025\RavenWork\StringMetrics\StringMetrics\bin\Debug\net9.0\StringMetrics.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.91
+
+
+WritePatch: Code is Complete.
+StringMetrics
+
+WritePatch ran compiler. 2025-02-23 1:18:21 PM
+StringMetricsTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StringMetrics -> D:\Code2025\RavenWork\StringMetrics\StringMetrics\bin\Debug\net9.0\StringMetrics.dll
+  StringMetricsTest -> D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\bin\Debug\net9.0\StringMetricsTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.20
+
+
+WritePatch: Code is Complete.
+StringMetricsTest
+
+TestResult:
+[SUCCESS 2025-02-23 1:18:43 PM] All tests passed successfully.
+[INFO 2025-02-23 1:18:43 PM] Test process completed. Duration: 3.35 seconds.
+[INFO 2025-02-23 1:18:43 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 1:18:43 PM]   Passed Test_ComputeNormalizedSimilarity_Different [5 ms]
+[OUTPUT 2025-02-23 1:18:43 PM]   Passed Test_ComputeLevenshteinDistance_SecondNull [5 ms]
+[OUTPUT 2025-02-23 1:18:43 PM] Test Parallelization enabled for D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\bin\Debug\net9.0\StringMetricsTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 1:18:42 PM] D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\bin\Debug\net9.0\StringMetricsTest.dll
+[OUTPUT 2025-02-23 1:18:41 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 1:18:41 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 1:18:41 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 1:18:41 PM] Test run for D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\bin\Debug\net9.0\StringMetricsTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 1:18:41 PM]   StringMetrics -> D:\Code2025\RavenWork\StringMetrics\StringMetrics\bin\Debug\net9.0\StringMetrics.dll
+[OUTPUT 2025-02-23 1:18:41 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:18:41 PM]   StringMetricsTest -> D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\bin\Debug\net9.0\StringMetricsTest.dll
+[OUTPUT 2025-02-23 1:18:40 PM]   Determining projects to restore...
+[INFO 2025-02-23 1:18:40 PM] Command: dotnet test "D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:18:40 PM] Starting test for project: D:\Code2025\RavenWork\StringMetrics\StringMetricsTest\StringMetricsTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
