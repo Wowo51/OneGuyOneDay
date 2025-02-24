@@ -1,0 +1,391 @@
+<ActRecord>
+  <ProjectName>DixonAlgorithm</ProjectName>
+  <ProjectDescription>Dixon’s algorithm – A factorization method based on solving systems of congruences.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Dixon’s algorithm – A factorization method based on solving systems of congruences.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\DixonAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>DixonAlgorithm</ProjectFolderName>
+  <ProjectName>DixonAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:12:44 AM
+DixonAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:14:37 AM
+DixonAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithm\Dixon.cs(195,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithm\DixonAlgorithm.csproj]
+  DixonAlgorithm -> D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithm\bin\Debug\net9.0\DixonAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithm\Dixon.cs(195,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithm\DixonAlgorithm.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.75
+]]></string>
+    <string>WritePatch: Compile failed.
+DixonAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:14:37 AM
+DixonAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:14:38 AM
+DixonAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:16:01 AM
+DixonAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DixonAlgorithm -> D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithm\bin\Debug\net9.0\DixonAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.72
+]]></string>
+    <string>WritePatch: Code is Complete.
+DixonAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:16:40 AM
+DixonAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:18:09 AM
+DixonAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\DixonAlgorithmTest.csproj (in 228 ms).
+  1 of 2 projects are up-to-date for restore.
+  DixonAlgorithm -> D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithm\bin\Debug\net9.0\DixonAlgorithm.dll
+  DixonAlgorithmTest -> D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\bin\Debug\net9.0\DixonAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.56
+]]></string>
+    <string>WritePatch: Code is Complete.
+DixonAlgorithmTest</string>
+    <string>[INFO 2025-02-23 7:18:30 AM] Starting test for project: D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\DixonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:18:30 AM] Starting test for project: D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\DixonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:18:30 AM] Starting test for project: D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\DixonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:18:30 AM] Starting test for project: D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\DixonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:18:30 AM] Starting test for project: D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\DixonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:18:30 AM] Starting test for project: D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\DixonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:18:30 AM] Starting test for project: D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\DixonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:18:30 AM] Starting test for project: D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\DixonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:18:30 AM] Starting test for project: D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\DixonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:18:30 AM] Starting test for project: D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\DixonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:18:30 AM] Starting test for project: D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\DixonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:18:30 AM] Starting test for project: D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\DixonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:18:30 AM] Starting test for project: D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\DixonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:18:30 AM] Starting test for project: D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\DixonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:18:30 AM] Starting test for project: D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\DixonAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[INFO] Check 'TestResults' folder for more details.
+[LAST OUTPUT] Test Run Failed.
+[LAST OUTPUT] Test Parallelization enabled for D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\bin\Debug\net9.0\DixonAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[LAST OUTPUT] D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\bin\Debug\net9.0\DixonAlgorithmTest.dll
+[LAST OUTPUT] A total of 1 test files matched the specified pattern.
+[LAST OUTPUT] Starting test execution, please wait...
+[LAST OUTPUT] VSTest version 17.12.0 (x64)
+[LAST OUTPUT] Test run for D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\bin\Debug\net9.0\DixonAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[LAST OUTPUT]   DixonAlgorithmTest -> D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\bin\Debug\net9.0\DixonAlgorithmTest.dll
+[LAST OUTPUT]   DixonAlgorithm -> D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithm\bin\Debug\net9.0\DixonAlgorithm.dll
+[LAST OUTPUT]   All projects are up-to-date for restore.
+[ERROR 2025-02-23 7:18:33 AM] Process exited with code 1. Possible causes:
+[INFO 2025-02-23 7:18:33 AM] Test process completed. Duration: 3.00 seconds.
+[INFO 2025-02-23 7:18:33 AM] Process exited with code 1.
+[OUTPUT 2025-02-23 7:18:32 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:18:31 AM] Test run for D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\bin\Debug\net9.0\DixonAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:18:31 AM]   DixonAlgorithmTest -> D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\bin\Debug\net9.0\DixonAlgorithmTest.dll
+[OUTPUT 2025-02-23 7:18:31 AM]   DixonAlgorithm -> D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithm\bin\Debug\net9.0\DixonAlgorithm.dll
+[OUTPUT 2025-02-23 7:18:33 AM]   Passed TestPrimeNumber [5 ms]
+[OUTPUT 2025-02-23 7:18:33 AM]   Passed TestEvenNumbers [5 ms]
+[OUTPUT 2025-02-23 7:18:33 AM] Test Parallelization enabled for D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\bin\Debug\net9.0\DixonAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:18:32 AM] D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\bin\Debug\net9.0\DixonAlgorithmTest.dll
+[OUTPUT 2025-02-23 7:18:32 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:18:32 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:18:31 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:18:31 AM]   Determining projects to restore...
+[ERROR 2025-02-23 7:18:33 AM] Test Run Failed.
+[INFO 2025-02-23 7:18:30 AM] Command: dotnet test "D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\DixonAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:18:30 AM] Starting test for project: D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\DixonAlgorithmTest.csproj]]></string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:18:48 AM
+DixonAlgorithm</string>
+    <string>Exception: The request was canceled due to the configured HttpClient.Timeout of 200 seconds elapsing.</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:22:08 AM
+DixonAlgorithm</string>
+    <string>Exception: The request was canceled due to the configured HttpClient.Timeout of 200 seconds elapsing.</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:25:29 AM
+DixonAlgorithm</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 7:27:22 AM
+DixonAlgorithm</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithm
+</FolderPath>
+2025-02-23 7:27:22 AM
+DixonAlgorithm]]></string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:27:22 AM
+DixonAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:30:15 AM
+DixonAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DixonAlgorithm -> D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithm\bin\Debug\net9.0\DixonAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.75
+]]></string>
+    <string>WritePatch: Code is Complete.
+DixonAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:31:28 AM
+DixonAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:34:18 AM
+DixonAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DixonAlgorithm -> D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithm\bin\Debug\net9.0\DixonAlgorithm.dll
+  DixonAlgorithmTest -> D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\bin\Debug\net9.0\DixonAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+]]></string>
+    <string>WritePatch: Code is Complete.
+DixonAlgorithmTest</string>
+    <string>[INFO 2025-02-23 7:34:38 AM] Starting test for project: D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\DixonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:34:38 AM] Starting test for project: D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\DixonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:34:38 AM] Starting test for project: D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\DixonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:34:38 AM] Starting test for project: D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\DixonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:34:38 AM] Starting test for project: D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\DixonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:34:38 AM] Starting test for project: D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\DixonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:34:38 AM] Starting test for project: D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\DixonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:34:38 AM] Starting test for project: D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\DixonAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:34:38 AM] Starting test for project: D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\DixonAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 7:34:40 AM] All tests passed successfully.
+[INFO 2025-02-23 7:34:40 AM] Test process completed. Duration: 2.05 seconds.
+[INFO 2025-02-23 7:34:40 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 7:34:40 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:34:40 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:34:40 AM] Test run for D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\bin\Debug\net9.0\DixonAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:34:40 AM]   DixonAlgorithmTest -> D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\bin\Debug\net9.0\DixonAlgorithmTest.dll
+[OUTPUT 2025-02-23 7:34:39 AM]   DixonAlgorithm -> D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithm\bin\Debug\net9.0\DixonAlgorithm.dll
+[OUTPUT 2025-02-23 7:34:39 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:34:39 AM]   Determining projects to restore...
+[INFO 2025-02-23 7:34:38 AM] Command: dotnet test "D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\DixonAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:34:38 AM] Starting test for project: D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\DixonAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 7:12:44 AM
+DixonAlgorithm
+
+WritePatch ran compiler. 2025-02-23 7:14:37 AM
+DixonAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithm\Dixon.cs(195,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithm\DixonAlgorithm.csproj]
+  DixonAlgorithm -> D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithm\bin\Debug\net9.0\DixonAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithm\Dixon.cs(195,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithm\DixonAlgorithm.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.75
+
+
+WritePatch: Compile failed.
+DixonAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 7:14:37 AM
+DixonAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 7:14:38 AM
+DixonAlgorithm
+
+WritePatch ran compiler. 2025-02-23 7:16:01 AM
+DixonAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DixonAlgorithm -> D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithm\bin\Debug\net9.0\DixonAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.72
+
+
+WritePatch: Code is Complete.
+DixonAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 7:16:40 AM
+DixonAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 7:18:09 AM
+DixonAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\DixonAlgorithmTest.csproj (in 228 ms).
+  1 of 2 projects are up-to-date for restore.
+  DixonAlgorithm -> D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithm\bin\Debug\net9.0\DixonAlgorithm.dll
+  DixonAlgorithmTest -> D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\bin\Debug\net9.0\DixonAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.56
+
+
+WritePatch: Code is Complete.
+DixonAlgorithmTest
+
+TestResult:
+[INFO] Check 'TestResults' folder for more details.
+[LAST OUTPUT] Test Run Failed.
+[LAST OUTPUT] Test Parallelization enabled for D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\bin\Debug\net9.0\DixonAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[LAST OUTPUT] D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\bin\Debug\net9.0\DixonAlgorithmTest.dll
+[LAST OUTPUT] A total of 1 test files matched the specified pattern.
+[LAST OUTPUT] Starting test execution, please wait...
+[LAST OUTPUT] VSTest version 17.12.0 (x64)
+[LAST OUTPUT] Test run for D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\bin\Debug\net9.0\DixonAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[LAST OUTPUT]   DixonAlgorithmTest -> D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\bin\Debug\net9.0\DixonAlgorithmTest.dll
+[LAST OUTPUT]   DixonAlgorithm -> D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithm\bin\Debug\net9.0\DixonAlgorithm.dll
+[LAST OUTPUT]   All projects are up-to-date for restore.
+[ERROR 2025-02-23 7:18:33 AM] Process exited with code 1. Possible causes:
+[INFO 2025-02-23 7:18:33 AM] Test process completed. Duration: 3.00 seconds.
+[INFO 2025-02-23 7:18:33 AM] Process exited with code 1.
+[OUTPUT 2025-02-23 7:18:32 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:18:31 AM] Test run for D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\bin\Debug\net9.0\DixonAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:18:31 AM]   DixonAlgorithmTest -> D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\bin\Debug\net9.0\DixonAlgorithmTest.dll
+[OUTPUT 2025-02-23 7:18:31 AM]   DixonAlgorithm -> D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithm\bin\Debug\net9.0\DixonAlgorithm.dll
+[OUTPUT 2025-02-23 7:18:33 AM]   Passed TestPrimeNumber [5 ms]
+[OUTPUT 2025-02-23 7:18:33 AM]   Passed TestEvenNumbers [5 ms]
+[OUTPUT 2025-02-23 7:18:33 AM] Test Parallelization enabled for D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\bin\Debug\net9.0\DixonAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:18:32 AM] D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\bin\Debug\net9.0\DixonAlgorithmTest.dll
+[OUTPUT 2025-02-23 7:18:32 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:18:32 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:18:31 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:18:31 AM]   Determining projects to restore...
+[ERROR 2025-02-23 7:18:33 AM] Test Run Failed.
+[INFO 2025-02-23 7:18:30 AM] Command: dotnet test "D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\DixonAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:18:30 AM] Starting test for project: D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\DixonAlgorithmTest.csproj
+
+WritePatch Started CycleStep. 2025-02-23 7:18:48 AM
+DixonAlgorithm
+
+Exception: The request was canceled due to the configured HttpClient.Timeout of 200 seconds elapsing.
+
+WritePatch Started CycleStep. 2025-02-23 7:22:08 AM
+DixonAlgorithm
+
+Exception: The request was canceled due to the configured HttpClient.Timeout of 200 seconds elapsing.
+
+WritePatch Started CycleStep. 2025-02-23 7:25:29 AM
+DixonAlgorithm
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 7:27:22 AM
+DixonAlgorithm
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithm
+</FolderPath>
+2025-02-23 7:27:22 AM
+DixonAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 7:27:22 AM
+DixonAlgorithm
+
+WritePatch ran compiler. 2025-02-23 7:30:15 AM
+DixonAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DixonAlgorithm -> D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithm\bin\Debug\net9.0\DixonAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.75
+
+
+WritePatch: Code is Complete.
+DixonAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 7:31:28 AM
+DixonAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 7:34:18 AM
+DixonAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DixonAlgorithm -> D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithm\bin\Debug\net9.0\DixonAlgorithm.dll
+  DixonAlgorithmTest -> D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\bin\Debug\net9.0\DixonAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+
+
+WritePatch: Code is Complete.
+DixonAlgorithmTest
+
+TestResult:
+[SUCCESS 2025-02-23 7:34:40 AM] All tests passed successfully.
+[INFO 2025-02-23 7:34:40 AM] Test process completed. Duration: 2.05 seconds.
+[INFO 2025-02-23 7:34:40 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 7:34:40 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:34:40 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:34:40 AM] Test run for D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\bin\Debug\net9.0\DixonAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:34:40 AM]   DixonAlgorithmTest -> D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\bin\Debug\net9.0\DixonAlgorithmTest.dll
+[OUTPUT 2025-02-23 7:34:39 AM]   DixonAlgorithm -> D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithm\bin\Debug\net9.0\DixonAlgorithm.dll
+[OUTPUT 2025-02-23 7:34:39 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:34:39 AM]   Determining projects to restore...
+[INFO 2025-02-23 7:34:38 AM] Command: dotnet test "D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\DixonAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:34:38 AM] Starting test for project: D:\Code2025\RavenWork\DixonAlgorithm\DixonAlgorithmTest\DixonAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
