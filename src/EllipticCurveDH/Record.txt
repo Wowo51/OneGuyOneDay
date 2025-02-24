@@ -1,0 +1,447 @@
+<ActRecord>
+  <ProjectName>EllipticCurveDH</ProjectName>
+  <ProjectDescription>Elliptic‑curve Diffie–Hellman (ECDH)</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Elliptic‑curve Diffie–Hellman (ECDH)</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\EllipticCurveDH</SolutionFolderPath>
+  <ProjectFolderName>EllipticCurveDH</ProjectFolderName>
+  <ProjectName>EllipticCurveDH</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:50:33 AM
+EllipticCurveDH</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:51:22 AM
+EllipticCurveDH</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDH\EllipticCurveDH\ECDHKeyExchange.cs(37,25): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDH\EllipticCurveDH.csproj]
+  EllipticCurveDH -> D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDH\bin\Debug\net9.0\EllipticCurveDH.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDH\EllipticCurveDH\ECDHKeyExchange.cs(37,25): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDH\EllipticCurveDH.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.08
+]]></string>
+    <string>WritePatch: Compile failed.
+EllipticCurveDH</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:51:22 AM
+EllipticCurveDH</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:51:23 AM
+EllipticCurveDH</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:51:46 AM
+EllipticCurveDH</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EllipticCurveDH -> D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDH\bin\Debug\net9.0\EllipticCurveDH.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.04
+]]></string>
+    <string>WritePatch: Code is Complete.
+EllipticCurveDH</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:51:58 AM
+EllipticCurveDHTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:52:30 AM
+EllipticCurveDHTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\EllipticCurveDHTest.csproj (in 276 ms).
+  1 of 2 projects are up-to-date for restore.
+  EllipticCurveDH -> D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDH\bin\Debug\net9.0\EllipticCurveDH.dll
+D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\ECDHKeyExchangeTests.cs(40,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\EllipticCurveDHTest.csproj]
+  EllipticCurveDHTest -> D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\bin\Debug\net9.0\EllipticCurveDHTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\ECDHKeyExchangeTests.cs(40,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\EllipticCurveDHTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.77
+]]></string>
+    <string>WritePatch: Compile failed.
+EllipticCurveDHTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:52:31 AM
+EllipticCurveDHTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:52:31 AM
+EllipticCurveDHTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:52:52 AM
+EllipticCurveDHTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EllipticCurveDH -> D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDH\bin\Debug\net9.0\EllipticCurveDH.dll
+  EllipticCurveDHTest -> D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\bin\Debug\net9.0\EllipticCurveDHTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.26
+]]></string>
+    <string>WritePatch: Code is not Complete.
+EllipticCurveDHTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:53:06 AM
+EllipticCurveDHTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:53:06 AM
+EllipticCurveDHTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:53:51 AM
+EllipticCurveDHTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EllipticCurveDH -> D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDH\bin\Debug\net9.0\EllipticCurveDH.dll
+D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\ECDHKeyExchangeTests.cs(40,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\EllipticCurveDHTest.csproj]
+  EllipticCurveDHTest -> D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\bin\Debug\net9.0\EllipticCurveDHTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\ECDHKeyExchangeTests.cs(40,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\EllipticCurveDHTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.33
+]]></string>
+    <string>WritePatch: Compile failed.
+EllipticCurveDHTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:53:52 AM
+EllipticCurveDHTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EllipticCurveDH -> D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDH\bin\Debug\net9.0\EllipticCurveDH.dll
+D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\ECDHKeyExchangeTests.cs(40,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\EllipticCurveDHTest.csproj]
+  EllipticCurveDHTest -> D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\bin\Debug\net9.0\EllipticCurveDHTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\ECDHKeyExchangeTests.cs(40,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\EllipticCurveDHTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.33
+
+</CompilerResponse>
+2025-02-23 11:53:52 AM
+EllipticCurveDHTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 11:53:53 AM
+EllipticCurveDH</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EllipticCurveDH -> D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDH\bin\Debug\net9.0\EllipticCurveDH.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+]]></string>
+    <string>WritePatch: Code is Complete.
+EllipticCurveDH</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:55:52 AM
+EllipticCurveDHTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EllipticCurveDH -> D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDH\bin\Debug\net9.0\EllipticCurveDH.dll
+  EllipticCurveDHTest -> D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\bin\Debug\net9.0\EllipticCurveDHTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.09
+]]></string>
+    <string>WritePatch: Code is Complete.
+EllipticCurveDHTest</string>
+    <string>[INFO 2025-02-23 11:56:03 AM] Starting test for project: D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\EllipticCurveDHTest.csproj</string>
+    <string>[INFO 2025-02-23 11:56:03 AM] Starting test for project: D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\EllipticCurveDHTest.csproj</string>
+    <string>[INFO 2025-02-23 11:56:03 AM] Starting test for project: D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\EllipticCurveDHTest.csproj</string>
+    <string>[INFO 2025-02-23 11:56:03 AM] Starting test for project: D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\EllipticCurveDHTest.csproj</string>
+    <string>[INFO 2025-02-23 11:56:03 AM] Starting test for project: D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\EllipticCurveDHTest.csproj</string>
+    <string>[INFO 2025-02-23 11:56:03 AM] Starting test for project: D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\EllipticCurveDHTest.csproj</string>
+    <string>[INFO 2025-02-23 11:56:03 AM] Starting test for project: D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\EllipticCurveDHTest.csproj</string>
+    <string>[INFO 2025-02-23 11:56:03 AM] Starting test for project: D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\EllipticCurveDHTest.csproj</string>
+    <string>[INFO 2025-02-23 11:56:03 AM] Starting test for project: D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\EllipticCurveDHTest.csproj</string>
+    <string>[INFO 2025-02-23 11:56:03 AM] Starting test for project: D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\EllipticCurveDHTest.csproj</string>
+    <string>[INFO 2025-02-23 11:56:03 AM] Starting test for project: D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\EllipticCurveDHTest.csproj</string>
+    <string>[INFO 2025-02-23 11:56:03 AM] Starting test for project: D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\EllipticCurveDHTest.csproj</string>
+    <string>[INFO 2025-02-23 11:56:03 AM] Starting test for project: D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\EllipticCurveDHTest.csproj</string>
+    <string>[INFO 2025-02-23 11:56:03 AM] Starting test for project: D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\EllipticCurveDHTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 11:56:07 AM]   Passed TestDeriveSharedSecretRandomInvalidInputs [22 ms]
+[OUTPUT 2025-02-23 11:56:07 AM]   Passed TestPublicKeyNotNull [21 ms]
+[OUTPUT 2025-02-23 11:56:06 AM] Test Parallelization enabled for D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\bin\Debug\net9.0\EllipticCurveDHTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 11:56:05 AM] D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\bin\Debug\net9.0\EllipticCurveDHTest.dll
+[OUTPUT 2025-02-23 11:56:05 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:56:05 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:56:04 AM]   EllipticCurveDH -> D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDH\bin\Debug\net9.0\EllipticCurveDH.dll
+[OUTPUT 2025-02-23 11:56:05 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:56:04 AM] Test run for D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\bin\Debug\net9.0\EllipticCurveDHTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:56:04 AM]   EllipticCurveDHTest -> D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\bin\Debug\net9.0\EllipticCurveDHTest.dll
+[OUTPUT 2025-02-23 11:56:04 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:56:03 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 11:56:07 AM] All tests passed successfully.
+[INFO 2025-02-23 11:56:07 AM] Test process completed. Duration: 4.53 seconds.
+[INFO 2025-02-23 11:56:07 AM] Process exited with code 0.
+[INFO 2025-02-23 11:56:03 AM] Command: dotnet test "D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\EllipticCurveDHTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:56:03 AM] Starting test for project: D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\EllipticCurveDHTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 11:50:33 AM
+EllipticCurveDH
+
+WritePatch ran compiler. 2025-02-23 11:51:22 AM
+EllipticCurveDH
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDH\EllipticCurveDH\ECDHKeyExchange.cs(37,25): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDH\EllipticCurveDH.csproj]
+  EllipticCurveDH -> D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDH\bin\Debug\net9.0\EllipticCurveDH.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDH\EllipticCurveDH\ECDHKeyExchange.cs(37,25): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDH\EllipticCurveDH.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.08
+
+
+WritePatch: Compile failed.
+EllipticCurveDH
+
+Finished WritePatch cycle step.
+2025-02-23 11:51:22 AM
+EllipticCurveDH
+
+WritePatch Started CycleStep. 2025-02-23 11:51:23 AM
+EllipticCurveDH
+
+WritePatch ran compiler. 2025-02-23 11:51:46 AM
+EllipticCurveDH
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EllipticCurveDH -> D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDH\bin\Debug\net9.0\EllipticCurveDH.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.04
+
+
+WritePatch: Code is Complete.
+EllipticCurveDH
+
+WritePatch Started CycleStep. 2025-02-23 11:51:58 AM
+EllipticCurveDHTest
+
+WritePatch ran compiler. 2025-02-23 11:52:30 AM
+EllipticCurveDHTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\EllipticCurveDHTest.csproj (in 276 ms).
+  1 of 2 projects are up-to-date for restore.
+  EllipticCurveDH -> D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDH\bin\Debug\net9.0\EllipticCurveDH.dll
+D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\ECDHKeyExchangeTests.cs(40,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\EllipticCurveDHTest.csproj]
+  EllipticCurveDHTest -> D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\bin\Debug\net9.0\EllipticCurveDHTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\ECDHKeyExchangeTests.cs(40,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\EllipticCurveDHTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.77
+
+
+WritePatch: Compile failed.
+EllipticCurveDHTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:52:31 AM
+EllipticCurveDHTest
+
+WritePatch Started CycleStep. 2025-02-23 11:52:31 AM
+EllipticCurveDHTest
+
+WritePatch ran compiler. 2025-02-23 11:52:52 AM
+EllipticCurveDHTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EllipticCurveDH -> D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDH\bin\Debug\net9.0\EllipticCurveDH.dll
+  EllipticCurveDHTest -> D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\bin\Debug\net9.0\EllipticCurveDHTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.26
+
+
+WritePatch: Code is not Complete.
+EllipticCurveDHTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:53:06 AM
+EllipticCurveDHTest
+
+WritePatch Started CycleStep. 2025-02-23 11:53:06 AM
+EllipticCurveDHTest
+
+WritePatch ran compiler. 2025-02-23 11:53:51 AM
+EllipticCurveDHTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EllipticCurveDH -> D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDH\bin\Debug\net9.0\EllipticCurveDH.dll
+D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\ECDHKeyExchangeTests.cs(40,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\EllipticCurveDHTest.csproj]
+  EllipticCurveDHTest -> D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\bin\Debug\net9.0\EllipticCurveDHTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\ECDHKeyExchangeTests.cs(40,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\EllipticCurveDHTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.33
+
+
+WritePatch: Compile failed.
+EllipticCurveDHTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:53:52 AM
+EllipticCurveDHTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EllipticCurveDH -> D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDH\bin\Debug\net9.0\EllipticCurveDH.dll
+D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\ECDHKeyExchangeTests.cs(40,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\EllipticCurveDHTest.csproj]
+  EllipticCurveDHTest -> D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\bin\Debug\net9.0\EllipticCurveDHTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\ECDHKeyExchangeTests.cs(40,64): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\EllipticCurveDHTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.33
+
+</CompilerResponse>
+2025-02-23 11:53:52 AM
+EllipticCurveDHTest
+
+WritePatch ran compiler. 2025-02-23 11:53:53 AM
+EllipticCurveDH
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EllipticCurveDH -> D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDH\bin\Debug\net9.0\EllipticCurveDH.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+
+
+WritePatch: Code is Complete.
+EllipticCurveDH
+
+WritePatch ran compiler. 2025-02-23 11:55:52 AM
+EllipticCurveDHTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EllipticCurveDH -> D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDH\bin\Debug\net9.0\EllipticCurveDH.dll
+  EllipticCurveDHTest -> D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\bin\Debug\net9.0\EllipticCurveDHTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.09
+
+
+WritePatch: Code is Complete.
+EllipticCurveDHTest
+
+TestResult:
+[OUTPUT 2025-02-23 11:56:07 AM]   Passed TestDeriveSharedSecretRandomInvalidInputs [22 ms]
+[OUTPUT 2025-02-23 11:56:07 AM]   Passed TestPublicKeyNotNull [21 ms]
+[OUTPUT 2025-02-23 11:56:06 AM] Test Parallelization enabled for D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\bin\Debug\net9.0\EllipticCurveDHTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 11:56:05 AM] D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\bin\Debug\net9.0\EllipticCurveDHTest.dll
+[OUTPUT 2025-02-23 11:56:05 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:56:05 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:56:04 AM]   EllipticCurveDH -> D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDH\bin\Debug\net9.0\EllipticCurveDH.dll
+[OUTPUT 2025-02-23 11:56:05 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:56:04 AM] Test run for D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\bin\Debug\net9.0\EllipticCurveDHTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:56:04 AM]   EllipticCurveDHTest -> D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\bin\Debug\net9.0\EllipticCurveDHTest.dll
+[OUTPUT 2025-02-23 11:56:04 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:56:03 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 11:56:07 AM] All tests passed successfully.
+[INFO 2025-02-23 11:56:07 AM] Test process completed. Duration: 4.53 seconds.
+[INFO 2025-02-23 11:56:07 AM] Process exited with code 0.
+[INFO 2025-02-23 11:56:03 AM] Command: dotnet test "D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\EllipticCurveDHTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:56:03 AM] Starting test for project: D:\Code2025\RavenWork\EllipticCurveDH\EllipticCurveDHTest\EllipticCurveDHTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
