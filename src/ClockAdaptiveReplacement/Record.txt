@@ -1,0 +1,380 @@
+<ActRecord>
+  <ProjectName>ClockAdaptiveReplacement</ProjectName>
+  <ProjectDescription>Clock with Adaptive Replacement (CAR): A page replacement algorithm comparable to ARC</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Clock with Adaptive Replacement (CAR): A page replacement algorithm comparable to ARC</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\ClockAdaptiveReplacement</SolutionFolderPath>
+  <ProjectFolderName>ClockAdaptiveReplacement</ProjectFolderName>
+  <ProjectName>ClockAdaptiveReplacement</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:07:41 AM
+ClockAdaptiveReplacement</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:09:01 AM
+ClockAdaptiveReplacement</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(11,71): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(20,40): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(23,26): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(15,16): warning CS8618: Non-nullable field '_clockHand' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(42,21): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(123,51): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(135,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(152,34): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(155,38): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(159,34): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(167,38): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(184,38): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(196,26): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(201,47): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(205,24): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(224,51): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(232,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(244,51): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(252,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+  ClockAdaptiveReplacement -> D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\bin\Debug\net9.0\ClockAdaptiveReplacement.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(11,71): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(20,40): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(23,26): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(15,16): warning CS8618: Non-nullable field '_clockHand' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(42,21): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(123,51): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(135,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(152,34): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(155,38): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(159,34): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(167,38): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(184,38): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(196,26): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(201,47): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(205,24): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(224,51): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(232,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(244,51): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(252,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+    19 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+]]></string>
+    <string>WritePatch: Compile failed.
+ClockAdaptiveReplacement</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:09:02 AM
+ClockAdaptiveReplacement</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:09:02 AM
+ClockAdaptiveReplacement</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:09:54 AM
+ClockAdaptiveReplacement</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(43,21): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+  ClockAdaptiveReplacement -> D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\bin\Debug\net9.0\ClockAdaptiveReplacement.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(43,21): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.04
+]]></string>
+    <string>WritePatch: Compile failed.
+ClockAdaptiveReplacement</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:09:55 AM
+ClockAdaptiveReplacement</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:09:56 AM
+ClockAdaptiveReplacement</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 11:11:08 AM
+ClockAdaptiveReplacement</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(43,21): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+  ClockAdaptiveReplacement -> D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\bin\Debug\net9.0\ClockAdaptiveReplacement.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(43,21): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.04
+
+</CompilerResponse>
+2025-02-23 11:11:08 AM
+ClockAdaptiveReplacement]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 11:11:10 AM
+ClockAdaptiveReplacement</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ClockAdaptiveReplacement -> D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\bin\Debug\net9.0\ClockAdaptiveReplacement.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+]]></string>
+    <string>WritePatch: Code is Complete.
+ClockAdaptiveReplacement</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:12:07 AM
+ClockAdaptiveReplacementTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:12:44 AM
+ClockAdaptiveReplacementTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacementTest\ClockAdaptiveReplacementTest.csproj (in 222 ms).
+  1 of 2 projects are up-to-date for restore.
+  ClockAdaptiveReplacement -> D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\bin\Debug\net9.0\ClockAdaptiveReplacement.dll
+  ClockAdaptiveReplacementTest -> D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacementTest\bin\Debug\net9.0\ClockAdaptiveReplacementTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.53
+]]></string>
+    <string>WritePatch: Code is Complete.
+ClockAdaptiveReplacementTest</string>
+    <string>[INFO 2025-02-23 11:13:10 AM] Starting test for project: D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacementTest\ClockAdaptiveReplacementTest.csproj</string>
+    <string>[INFO 2025-02-23 11:13:10 AM] Starting test for project: D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacementTest\ClockAdaptiveReplacementTest.csproj</string>
+    <string>[INFO 2025-02-23 11:13:10 AM] Starting test for project: D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacementTest\ClockAdaptiveReplacementTest.csproj</string>
+    <string>[INFO 2025-02-23 11:13:10 AM] Starting test for project: D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacementTest\ClockAdaptiveReplacementTest.csproj</string>
+    <string>[INFO 2025-02-23 11:13:10 AM] Starting test for project: D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacementTest\ClockAdaptiveReplacementTest.csproj</string>
+    <string>[INFO 2025-02-23 11:13:10 AM] Starting test for project: D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacementTest\ClockAdaptiveReplacementTest.csproj</string>
+    <string>[INFO 2025-02-23 11:13:10 AM] Starting test for project: D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacementTest\ClockAdaptiveReplacementTest.csproj</string>
+    <string>[INFO 2025-02-23 11:13:10 AM] Starting test for project: D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacementTest\ClockAdaptiveReplacementTest.csproj</string>
+    <string>[INFO 2025-02-23 11:13:10 AM] Starting test for project: D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacementTest\ClockAdaptiveReplacementTest.csproj</string>
+    <string>[INFO 2025-02-23 11:13:10 AM] Starting test for project: D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacementTest\ClockAdaptiveReplacementTest.csproj</string>
+    <string>[INFO 2025-02-23 11:13:10 AM] Starting test for project: D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacementTest\ClockAdaptiveReplacementTest.csproj</string>
+    <string>[INFO 2025-02-23 11:13:10 AM] Starting test for project: D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacementTest\ClockAdaptiveReplacementTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 11:13:14 AM] All tests passed successfully.
+[INFO 2025-02-23 11:13:14 AM] Test process completed. Duration: 3.74 seconds.
+[INFO 2025-02-23 11:13:14 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 11:13:12 AM]   ClockAdaptiveReplacement -> D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\bin\Debug\net9.0\ClockAdaptiveReplacement.dll
+[OUTPUT 2025-02-23 11:13:12 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:13:14 AM] Test Parallelization enabled for D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacementTest\bin\Debug\net9.0\ClockAdaptiveReplacementTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 11:13:14 AM] D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacementTest\bin\Debug\net9.0\ClockAdaptiveReplacementTest.dll
+[OUTPUT 2025-02-23 11:13:14 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:13:13 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:13:13 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:13:13 AM] Test run for D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacementTest\bin\Debug\net9.0\ClockAdaptiveReplacementTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:13:12 AM]   ClockAdaptiveReplacementTest -> D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacementTest\bin\Debug\net9.0\ClockAdaptiveReplacementTest.dll
+[OUTPUT 2025-02-23 11:13:11 AM]   Determining projects to restore...
+[INFO 2025-02-23 11:13:10 AM] Command: dotnet test "D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacementTest\ClockAdaptiveReplacementTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:13:10 AM] Starting test for project: D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacementTest\ClockAdaptiveReplacementTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 11:07:41 AM
+ClockAdaptiveReplacement
+
+WritePatch ran compiler. 2025-02-23 11:09:01 AM
+ClockAdaptiveReplacement
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(11,71): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(20,40): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(23,26): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(15,16): warning CS8618: Non-nullable field '_clockHand' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(42,21): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(123,51): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(135,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(152,34): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(155,38): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(159,34): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(167,38): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(184,38): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(196,26): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(201,47): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(205,24): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(224,51): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(232,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(244,51): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(252,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+  ClockAdaptiveReplacement -> D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\bin\Debug\net9.0\ClockAdaptiveReplacement.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(11,71): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(20,40): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(23,26): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(15,16): warning CS8618: Non-nullable field '_clockHand' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(42,21): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(123,51): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(135,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(152,34): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(155,38): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(159,34): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(167,38): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(184,38): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(196,26): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(201,47): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(205,24): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(224,51): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(232,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(244,51): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(252,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+    19 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+
+
+WritePatch: Compile failed.
+ClockAdaptiveReplacement
+
+Finished WritePatch cycle step.
+2025-02-23 11:09:02 AM
+ClockAdaptiveReplacement
+
+WritePatch Started CycleStep. 2025-02-23 11:09:02 AM
+ClockAdaptiveReplacement
+
+WritePatch ran compiler. 2025-02-23 11:09:54 AM
+ClockAdaptiveReplacement
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(43,21): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+  ClockAdaptiveReplacement -> D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\bin\Debug\net9.0\ClockAdaptiveReplacement.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(43,21): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.04
+
+
+WritePatch: Compile failed.
+ClockAdaptiveReplacement
+
+Finished WritePatch cycle step.
+2025-02-23 11:09:55 AM
+ClockAdaptiveReplacement
+
+WritePatch Started CycleStep. 2025-02-23 11:09:56 AM
+ClockAdaptiveReplacement
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 11:11:08 AM
+ClockAdaptiveReplacement
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(43,21): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+  ClockAdaptiveReplacement -> D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\bin\Debug\net9.0\ClockAdaptiveReplacement.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\CARCache.cs(43,21): warning CS8601: Possible null reference assignment. [D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\ClockAdaptiveReplacement.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.04
+
+</CompilerResponse>
+2025-02-23 11:11:08 AM
+ClockAdaptiveReplacement
+
+WritePatch ran compiler. 2025-02-23 11:11:10 AM
+ClockAdaptiveReplacement
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ClockAdaptiveReplacement -> D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\bin\Debug\net9.0\ClockAdaptiveReplacement.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+
+
+WritePatch: Code is Complete.
+ClockAdaptiveReplacement
+
+WritePatch Started CycleStep. 2025-02-23 11:12:07 AM
+ClockAdaptiveReplacementTest
+
+WritePatch ran compiler. 2025-02-23 11:12:44 AM
+ClockAdaptiveReplacementTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacementTest\ClockAdaptiveReplacementTest.csproj (in 222 ms).
+  1 of 2 projects are up-to-date for restore.
+  ClockAdaptiveReplacement -> D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\bin\Debug\net9.0\ClockAdaptiveReplacement.dll
+  ClockAdaptiveReplacementTest -> D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacementTest\bin\Debug\net9.0\ClockAdaptiveReplacementTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.53
+
+
+WritePatch: Code is Complete.
+ClockAdaptiveReplacementTest
+
+TestResult:
+[SUCCESS 2025-02-23 11:13:14 AM] All tests passed successfully.
+[INFO 2025-02-23 11:13:14 AM] Test process completed. Duration: 3.74 seconds.
+[INFO 2025-02-23 11:13:14 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 11:13:12 AM]   ClockAdaptiveReplacement -> D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacement\bin\Debug\net9.0\ClockAdaptiveReplacement.dll
+[OUTPUT 2025-02-23 11:13:12 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:13:14 AM] Test Parallelization enabled for D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacementTest\bin\Debug\net9.0\ClockAdaptiveReplacementTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 11:13:14 AM] D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacementTest\bin\Debug\net9.0\ClockAdaptiveReplacementTest.dll
+[OUTPUT 2025-02-23 11:13:14 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:13:13 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:13:13 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:13:13 AM] Test run for D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacementTest\bin\Debug\net9.0\ClockAdaptiveReplacementTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:13:12 AM]   ClockAdaptiveReplacementTest -> D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacementTest\bin\Debug\net9.0\ClockAdaptiveReplacementTest.dll
+[OUTPUT 2025-02-23 11:13:11 AM]   Determining projects to restore...
+[INFO 2025-02-23 11:13:10 AM] Command: dotnet test "D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacementTest\ClockAdaptiveReplacementTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:13:10 AM] Starting test for project: D:\Code2025\RavenWork\ClockAdaptiveReplacement\ClockAdaptiveReplacementTest\ClockAdaptiveReplacementTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
