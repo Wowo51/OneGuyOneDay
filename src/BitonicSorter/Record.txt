@@ -1,0 +1,365 @@
+<ActRecord>
+  <ProjectName>BitonicSorter</ProjectName>
+  <ProjectDescription>Bitonic sorter</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Bitonic sorter</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\BitonicSorter</SolutionFolderPath>
+  <ProjectFolderName>BitonicSorter</ProjectFolderName>
+  <ProjectName>BitonicSorter</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:01:18 PM
+BitonicSorter</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:02:04 PM
+BitonicSorter</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BitonicSorter -> D:\Code2025\RavenWork\BitonicSorter\BitonicSorter\bin\Debug\net9.0\BitonicSorter.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+]]></string>
+    <string>WritePatch: Code is Complete.
+BitonicSorter</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:03:02 PM
+BitonicSorterTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:04:38 PM
+BitonicSorterTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\BitonicSorterTest.csproj (in 234 ms).
+  1 of 2 projects are up-to-date for restore.
+  BitonicSorter -> D:\Code2025\RavenWork\BitonicSorter\BitonicSorter\bin\Debug\net9.0\BitonicSorter.dll
+D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\BitonicSorterTests.cs(29,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\BitonicSorterTest.csproj]
+D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\BitonicSorterTests.cs(30,46): warning CS8604: Possible null reference argument for parameter 'array' in 'void BitonicSorter.Sort<int>(int[] array, bool ascending = true)'. [D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\BitonicSorterTest.csproj]
+  BitonicSorterTest -> D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\bin\Debug\net9.0\BitonicSorterTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\BitonicSorterTests.cs(29,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\BitonicSorterTest.csproj]
+D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\BitonicSorterTests.cs(30,46): warning CS8604: Possible null reference argument for parameter 'array' in 'void BitonicSorter.Sort<int>(int[] array, bool ascending = true)'. [D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\BitonicSorterTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.59
+]]></string>
+    <string>WritePatch: Compile failed.
+BitonicSorterTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:05:25 PM
+BitonicSorterTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:05:34 PM
+BitonicSorterTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:06:31 PM
+BitonicSorterTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BitonicSorter -> D:\Code2025\RavenWork\BitonicSorter\BitonicSorter\bin\Debug\net9.0\BitonicSorter.dll
+D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\BitonicSorterTests.cs(30,46): warning CS8604: Possible null reference argument for parameter 'array' in 'void BitonicSorter.Sort<int>(int[] array, bool ascending = true)'. [D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\BitonicSorterTest.csproj]
+  BitonicSorterTest -> D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\bin\Debug\net9.0\BitonicSorterTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\BitonicSorterTests.cs(30,46): warning CS8604: Possible null reference argument for parameter 'array' in 'void BitonicSorter.Sort<int>(int[] array, bool ascending = true)'. [D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\BitonicSorterTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.21
+]]></string>
+    <string>WritePatch: Compile failed.
+BitonicSorterTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:06:42 PM
+BitonicSorterTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:06:42 PM
+BitonicSorterTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:07:19 PM
+BitonicSorterTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BitonicSorter -> D:\Code2025\RavenWork\BitonicSorter\BitonicSorter\bin\Debug\net9.0\BitonicSorter.dll
+  BitonicSorterTest -> D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\bin\Debug\net9.0\BitonicSorterTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+]]></string>
+    <string>WritePatch: Code is not Complete.
+BitonicSorterTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:07:31 PM
+BitonicSorterTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BitonicSorter -> D:\Code2025\RavenWork\BitonicSorter\BitonicSorter\bin\Debug\net9.0\BitonicSorter.dll
+  BitonicSorterTest -> D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\bin\Debug\net9.0\BitonicSorterTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+
+</CompilerResponse>
+2025-02-23 1:07:32 PM
+BitonicSorterTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 1:07:34 PM
+BitonicSorter</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BitonicSorter -> D:\Code2025\RavenWork\BitonicSorter\BitonicSorter\bin\Debug\net9.0\BitonicSorter.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.96
+]]></string>
+    <string>WritePatch: Code is Complete.
+BitonicSorter</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:07:51 PM
+BitonicSorterTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BitonicSorter -> D:\Code2025\RavenWork\BitonicSorter\BitonicSorter\bin\Debug\net9.0\BitonicSorter.dll
+  BitonicSorterTest -> D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\bin\Debug\net9.0\BitonicSorterTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.06
+]]></string>
+    <string>WritePatch: Code is Complete.
+BitonicSorterTest</string>
+    <string>[INFO 2025-02-23 1:08:22 PM] Starting test for project: D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\BitonicSorterTest.csproj</string>
+    <string>[INFO 2025-02-23 1:08:22 PM] Starting test for project: D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\BitonicSorterTest.csproj</string>
+    <string>[INFO 2025-02-23 1:08:22 PM] Starting test for project: D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\BitonicSorterTest.csproj</string>
+    <string>[INFO 2025-02-23 1:08:22 PM] Starting test for project: D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\BitonicSorterTest.csproj</string>
+    <string>[INFO 2025-02-23 1:08:22 PM] Starting test for project: D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\BitonicSorterTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 1:08:29 PM]   BitonicSorter -> D:\Code2025\RavenWork\BitonicSorter\BitonicSorter\bin\Debug\net9.0\BitonicSorter.dll
+[OUTPUT 2025-02-23 1:08:26 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:08:24 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 1:08:27 PM] All tests passed successfully.
+[INFO 2025-02-23 1:08:27 PM] Test process completed. Duration: 4.96 seconds.
+[INFO 2025-02-23 1:08:27 PM] Process exited with code 0.
+[INFO 2025-02-23 1:08:22 PM] Command: dotnet test "D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\BitonicSorterTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:08:22 PM] Starting test for project: D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\BitonicSorterTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 1:01:18 PM
+BitonicSorter
+
+WritePatch ran compiler. 2025-02-23 1:02:04 PM
+BitonicSorter
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BitonicSorter -> D:\Code2025\RavenWork\BitonicSorter\BitonicSorter\bin\Debug\net9.0\BitonicSorter.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+
+
+WritePatch: Code is Complete.
+BitonicSorter
+
+WritePatch Started CycleStep. 2025-02-23 1:03:02 PM
+BitonicSorterTest
+
+WritePatch ran compiler. 2025-02-23 1:04:38 PM
+BitonicSorterTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\BitonicSorterTest.csproj (in 234 ms).
+  1 of 2 projects are up-to-date for restore.
+  BitonicSorter -> D:\Code2025\RavenWork\BitonicSorter\BitonicSorter\bin\Debug\net9.0\BitonicSorter.dll
+D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\BitonicSorterTests.cs(29,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\BitonicSorterTest.csproj]
+D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\BitonicSorterTests.cs(30,46): warning CS8604: Possible null reference argument for parameter 'array' in 'void BitonicSorter.Sort<int>(int[] array, bool ascending = true)'. [D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\BitonicSorterTest.csproj]
+  BitonicSorterTest -> D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\bin\Debug\net9.0\BitonicSorterTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\BitonicSorterTests.cs(29,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\BitonicSorterTest.csproj]
+D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\BitonicSorterTests.cs(30,46): warning CS8604: Possible null reference argument for parameter 'array' in 'void BitonicSorter.Sort<int>(int[] array, bool ascending = true)'. [D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\BitonicSorterTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.59
+
+
+WritePatch: Compile failed.
+BitonicSorterTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:05:25 PM
+BitonicSorterTest
+
+WritePatch Started CycleStep. 2025-02-23 1:05:34 PM
+BitonicSorterTest
+
+WritePatch ran compiler. 2025-02-23 1:06:31 PM
+BitonicSorterTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BitonicSorter -> D:\Code2025\RavenWork\BitonicSorter\BitonicSorter\bin\Debug\net9.0\BitonicSorter.dll
+D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\BitonicSorterTests.cs(30,46): warning CS8604: Possible null reference argument for parameter 'array' in 'void BitonicSorter.Sort<int>(int[] array, bool ascending = true)'. [D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\BitonicSorterTest.csproj]
+  BitonicSorterTest -> D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\bin\Debug\net9.0\BitonicSorterTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\BitonicSorterTests.cs(30,46): warning CS8604: Possible null reference argument for parameter 'array' in 'void BitonicSorter.Sort<int>(int[] array, bool ascending = true)'. [D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\BitonicSorterTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.21
+
+
+WritePatch: Compile failed.
+BitonicSorterTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:06:42 PM
+BitonicSorterTest
+
+WritePatch Started CycleStep. 2025-02-23 1:06:42 PM
+BitonicSorterTest
+
+WritePatch ran compiler. 2025-02-23 1:07:19 PM
+BitonicSorterTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BitonicSorter -> D:\Code2025\RavenWork\BitonicSorter\BitonicSorter\bin\Debug\net9.0\BitonicSorter.dll
+  BitonicSorterTest -> D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\bin\Debug\net9.0\BitonicSorterTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+
+
+WritePatch: Code is not Complete.
+BitonicSorterTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:07:31 PM
+BitonicSorterTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BitonicSorter -> D:\Code2025\RavenWork\BitonicSorter\BitonicSorter\bin\Debug\net9.0\BitonicSorter.dll
+  BitonicSorterTest -> D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\bin\Debug\net9.0\BitonicSorterTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+
+</CompilerResponse>
+2025-02-23 1:07:32 PM
+BitonicSorterTest
+
+WritePatch ran compiler. 2025-02-23 1:07:34 PM
+BitonicSorter
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BitonicSorter -> D:\Code2025\RavenWork\BitonicSorter\BitonicSorter\bin\Debug\net9.0\BitonicSorter.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.96
+
+
+WritePatch: Code is Complete.
+BitonicSorter
+
+WritePatch ran compiler. 2025-02-23 1:07:51 PM
+BitonicSorterTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BitonicSorter -> D:\Code2025\RavenWork\BitonicSorter\BitonicSorter\bin\Debug\net9.0\BitonicSorter.dll
+  BitonicSorterTest -> D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\bin\Debug\net9.0\BitonicSorterTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.06
+
+
+WritePatch: Code is Complete.
+BitonicSorterTest
+
+TestResult:
+[OUTPUT 2025-02-23 1:08:29 PM]   BitonicSorter -> D:\Code2025\RavenWork\BitonicSorter\BitonicSorter\bin\Debug\net9.0\BitonicSorter.dll
+[OUTPUT 2025-02-23 1:08:26 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:08:24 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 1:08:27 PM] All tests passed successfully.
+[INFO 2025-02-23 1:08:27 PM] Test process completed. Duration: 4.96 seconds.
+[INFO 2025-02-23 1:08:27 PM] Process exited with code 0.
+[INFO 2025-02-23 1:08:22 PM] Command: dotnet test "D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\BitonicSorterTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:08:22 PM] Starting test for project: D:\Code2025\RavenWork\BitonicSorter\BitonicSorterTest\BitonicSorterTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
