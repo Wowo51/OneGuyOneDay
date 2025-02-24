@@ -1,0 +1,413 @@
+<ActRecord>
+  <ProjectName>RuzzoTompaAlgorithm</ProjectName>
+  <ProjectDescription>Ruzzo–Tompa algorithm: Find all non‑overlapping, contiguous, maximal scoring subsequences in a sequence of real numbers</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Ruzzo–Tompa algorithm: Find all non‑overlapping, contiguous, maximal scoring subsequences in a sequence of real numbers</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\RuzzoTompaAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>RuzzoTompaAlgorithm</ProjectFolderName>
+  <ProjectName>RuzzoTompaAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:46:09 PM
+RuzzoTompaAlgorithm</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 6:48:45 PM
+RuzzoTompaAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:48:45 PM
+RuzzoTompaAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:49:21 PM
+RuzzoTompaAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RuzzoTompaAlgorithm -> D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithm\bin\Debug\net9.0\RuzzoTompaAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.82
+]]></string>
+    <string>WritePatch: Code is Complete.
+RuzzoTompaAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:50:34 PM
+RuzzoTompaAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:51:23 PM
+RuzzoTompaAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj (in 392 ms).
+  1 of 2 projects are up-to-date for restore.
+  RuzzoTompaAlgorithm -> D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithm\bin\Debug\net9.0\RuzzoTompaAlgorithm.dll
+D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTests.cs(14,41): error CS0234: The type or namespace name 'FindMaximalSubsequences' does not exist in the namespace 'RuzzoTompaAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj]
+D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTests.cs(23,41): error CS0234: The type or namespace name 'FindMaximalSubsequences' does not exist in the namespace 'RuzzoTompaAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj]
+D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTests.cs(37,41): error CS0234: The type or namespace name 'FindMaximalSubsequences' does not exist in the namespace 'RuzzoTompaAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj]
+D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTests.cs(51,41): error CS0234: The type or namespace name 'FindMaximalSubsequences' does not exist in the namespace 'RuzzoTompaAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj]
+D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTests.cs(73,41): error CS0234: The type or namespace name 'FindMaximalSubsequences' does not exist in the namespace 'RuzzoTompaAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj]
+D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTests.cs(97,41): error CS0234: The type or namespace name 'FindMaximalSubsequences' does not exist in the namespace 'RuzzoTompaAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj]
+D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTests.cs(116,41): error CS0234: The type or namespace name 'FindMaximalSubsequences' does not exist in the namespace 'RuzzoTompaAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTests.cs(14,41): error CS0234: The type or namespace name 'FindMaximalSubsequences' does not exist in the namespace 'RuzzoTompaAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj]
+D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTests.cs(23,41): error CS0234: The type or namespace name 'FindMaximalSubsequences' does not exist in the namespace 'RuzzoTompaAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj]
+D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTests.cs(37,41): error CS0234: The type or namespace name 'FindMaximalSubsequences' does not exist in the namespace 'RuzzoTompaAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj]
+D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTests.cs(51,41): error CS0234: The type or namespace name 'FindMaximalSubsequences' does not exist in the namespace 'RuzzoTompaAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj]
+D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTests.cs(73,41): error CS0234: The type or namespace name 'FindMaximalSubsequences' does not exist in the namespace 'RuzzoTompaAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj]
+D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTests.cs(97,41): error CS0234: The type or namespace name 'FindMaximalSubsequences' does not exist in the namespace 'RuzzoTompaAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj]
+D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTests.cs(116,41): error CS0234: The type or namespace name 'FindMaximalSubsequences' does not exist in the namespace 'RuzzoTompaAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj]
+    0 Warning(s)
+    7 Error(s)
+
+Time Elapsed 00:00:02.92
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+RuzzoTompaAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:51:25 PM
+RuzzoTompaAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:51:25 PM
+RuzzoTompaAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:52:12 PM
+RuzzoTompaAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RuzzoTompaAlgorithm -> D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithm\bin\Debug\net9.0\RuzzoTompaAlgorithm.dll
+D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTests.cs(15,65): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj]
+  RuzzoTompaAlgorithmTest -> D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\bin\Debug\net9.0\RuzzoTompaAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTests.cs(15,65): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.33
+]]></string>
+    <string>WritePatch: Compile failed.
+RuzzoTompaAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:52:13 PM
+RuzzoTompaAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:52:14 PM
+RuzzoTompaAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:52:51 PM
+RuzzoTompaAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RuzzoTompaAlgorithm -> D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithm\bin\Debug\net9.0\RuzzoTompaAlgorithm.dll
+  RuzzoTompaAlgorithmTest -> D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\bin\Debug\net9.0\RuzzoTompaAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.04
+]]></string>
+    <string>WritePatch: Code is not Complete.
+RuzzoTompaAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:53:05 PM
+RuzzoTompaAlgorithmTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RuzzoTompaAlgorithm -> D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithm\bin\Debug\net9.0\RuzzoTompaAlgorithm.dll
+  RuzzoTompaAlgorithmTest -> D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\bin\Debug\net9.0\RuzzoTompaAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.04
+
+</CompilerResponse>
+2025-02-23 6:53:05 PM
+RuzzoTompaAlgorithmTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 6:53:07 PM
+RuzzoTompaAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RuzzoTompaAlgorithm -> D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithm\bin\Debug\net9.0\RuzzoTompaAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.42
+]]></string>
+    <string>WritePatch: Code is Complete.
+RuzzoTompaAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:54:32 PM
+RuzzoTompaAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RuzzoTompaAlgorithm -> D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithm\bin\Debug\net9.0\RuzzoTompaAlgorithm.dll
+  RuzzoTompaAlgorithmTest -> D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\bin\Debug\net9.0\RuzzoTompaAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.93
+]]></string>
+    <string>WritePatch: Code is Complete.
+RuzzoTompaAlgorithmTest</string>
+    <string>[INFO 2025-02-23 6:54:50 PM] Starting test for project: D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:54:50 PM] Starting test for project: D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:54:50 PM] Starting test for project: D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:54:50 PM] Starting test for project: D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:54:50 PM] Starting test for project: D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:54:50 PM] Starting test for project: D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:54:50 PM] Starting test for project: D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:54:50 PM] Starting test for project: D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:54:50 PM] Starting test for project: D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 6:54:53 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 6:54:58 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:54:56 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:54:56 PM] Test run for D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\bin\Debug\net9.0\RuzzoTompaAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:54:55 PM]   RuzzoTompaAlgorithmTest -> D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\bin\Debug\net9.0\RuzzoTompaAlgorithmTest.dll
+[OUTPUT 2025-02-23 6:54:54 PM]   RuzzoTompaAlgorithm -> D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithm\bin\Debug\net9.0\RuzzoTompaAlgorithm.dll
+[OUTPUT 2025-02-23 6:54:52 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 6:54:57 PM] All tests passed successfully.
+[INFO 2025-02-23 6:54:57 PM] Test process completed. Duration: 7.14 seconds.
+[INFO 2025-02-23 6:54:57 PM] Process exited with code 0.
+[INFO 2025-02-23 6:54:50 PM] Command: dotnet test "D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:54:50 PM] Starting test for project: D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 6:46:09 PM
+RuzzoTompaAlgorithm
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 6:48:45 PM
+RuzzoTompaAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 6:48:45 PM
+RuzzoTompaAlgorithm
+
+WritePatch ran compiler. 2025-02-23 6:49:21 PM
+RuzzoTompaAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RuzzoTompaAlgorithm -> D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithm\bin\Debug\net9.0\RuzzoTompaAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.82
+
+
+WritePatch: Code is Complete.
+RuzzoTompaAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 6:50:34 PM
+RuzzoTompaAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 6:51:23 PM
+RuzzoTompaAlgorithmTest
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj (in 392 ms).
+  1 of 2 projects are up-to-date for restore.
+  RuzzoTompaAlgorithm -> D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithm\bin\Debug\net9.0\RuzzoTompaAlgorithm.dll
+D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTests.cs(14,41): error CS0234: The type or namespace name 'FindMaximalSubsequences' does not exist in the namespace 'RuzzoTompaAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj]
+D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTests.cs(23,41): error CS0234: The type or namespace name 'FindMaximalSubsequences' does not exist in the namespace 'RuzzoTompaAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj]
+D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTests.cs(37,41): error CS0234: The type or namespace name 'FindMaximalSubsequences' does not exist in the namespace 'RuzzoTompaAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj]
+D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTests.cs(51,41): error CS0234: The type or namespace name 'FindMaximalSubsequences' does not exist in the namespace 'RuzzoTompaAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj]
+D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTests.cs(73,41): error CS0234: The type or namespace name 'FindMaximalSubsequences' does not exist in the namespace 'RuzzoTompaAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj]
+D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTests.cs(97,41): error CS0234: The type or namespace name 'FindMaximalSubsequences' does not exist in the namespace 'RuzzoTompaAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj]
+D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTests.cs(116,41): error CS0234: The type or namespace name 'FindMaximalSubsequences' does not exist in the namespace 'RuzzoTompaAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTests.cs(14,41): error CS0234: The type or namespace name 'FindMaximalSubsequences' does not exist in the namespace 'RuzzoTompaAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj]
+D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTests.cs(23,41): error CS0234: The type or namespace name 'FindMaximalSubsequences' does not exist in the namespace 'RuzzoTompaAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj]
+D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTests.cs(37,41): error CS0234: The type or namespace name 'FindMaximalSubsequences' does not exist in the namespace 'RuzzoTompaAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj]
+D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTests.cs(51,41): error CS0234: The type or namespace name 'FindMaximalSubsequences' does not exist in the namespace 'RuzzoTompaAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj]
+D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTests.cs(73,41): error CS0234: The type or namespace name 'FindMaximalSubsequences' does not exist in the namespace 'RuzzoTompaAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj]
+D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTests.cs(97,41): error CS0234: The type or namespace name 'FindMaximalSubsequences' does not exist in the namespace 'RuzzoTompaAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj]
+D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTests.cs(116,41): error CS0234: The type or namespace name 'FindMaximalSubsequences' does not exist in the namespace 'RuzzoTompaAlgorithm' (are you missing an assembly reference?) [D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj]
+    0 Warning(s)
+    7 Error(s)
+
+Time Elapsed 00:00:02.92
+
+
+Errors:
+
+WritePatch: Compile failed.
+RuzzoTompaAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 6:51:25 PM
+RuzzoTompaAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 6:51:25 PM
+RuzzoTompaAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 6:52:12 PM
+RuzzoTompaAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RuzzoTompaAlgorithm -> D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithm\bin\Debug\net9.0\RuzzoTompaAlgorithm.dll
+D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTests.cs(15,65): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj]
+  RuzzoTompaAlgorithmTest -> D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\bin\Debug\net9.0\RuzzoTompaAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTests.cs(15,65): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.33
+
+
+WritePatch: Compile failed.
+RuzzoTompaAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 6:52:13 PM
+RuzzoTompaAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 6:52:14 PM
+RuzzoTompaAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 6:52:51 PM
+RuzzoTompaAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RuzzoTompaAlgorithm -> D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithm\bin\Debug\net9.0\RuzzoTompaAlgorithm.dll
+  RuzzoTompaAlgorithmTest -> D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\bin\Debug\net9.0\RuzzoTompaAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.04
+
+
+WritePatch: Code is not Complete.
+RuzzoTompaAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 6:53:05 PM
+RuzzoTompaAlgorithmTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RuzzoTompaAlgorithm -> D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithm\bin\Debug\net9.0\RuzzoTompaAlgorithm.dll
+  RuzzoTompaAlgorithmTest -> D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\bin\Debug\net9.0\RuzzoTompaAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.04
+
+</CompilerResponse>
+2025-02-23 6:53:05 PM
+RuzzoTompaAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 6:53:07 PM
+RuzzoTompaAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RuzzoTompaAlgorithm -> D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithm\bin\Debug\net9.0\RuzzoTompaAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.42
+
+
+WritePatch: Code is Complete.
+RuzzoTompaAlgorithm
+
+WritePatch ran compiler. 2025-02-23 6:54:32 PM
+RuzzoTompaAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RuzzoTompaAlgorithm -> D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithm\bin\Debug\net9.0\RuzzoTompaAlgorithm.dll
+  RuzzoTompaAlgorithmTest -> D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\bin\Debug\net9.0\RuzzoTompaAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.93
+
+
+WritePatch: Code is Complete.
+RuzzoTompaAlgorithmTest
+
+TestResult:
+[OUTPUT 2025-02-23 6:54:53 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 6:54:58 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:54:56 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:54:56 PM] Test run for D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\bin\Debug\net9.0\RuzzoTompaAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:54:55 PM]   RuzzoTompaAlgorithmTest -> D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\bin\Debug\net9.0\RuzzoTompaAlgorithmTest.dll
+[OUTPUT 2025-02-23 6:54:54 PM]   RuzzoTompaAlgorithm -> D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithm\bin\Debug\net9.0\RuzzoTompaAlgorithm.dll
+[OUTPUT 2025-02-23 6:54:52 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 6:54:57 PM] All tests passed successfully.
+[INFO 2025-02-23 6:54:57 PM] Test process completed. Duration: 7.14 seconds.
+[INFO 2025-02-23 6:54:57 PM] Process exited with code 0.
+[INFO 2025-02-23 6:54:50 PM] Command: dotnet test "D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:54:50 PM] Starting test for project: D:\Code2025\RavenWork\RuzzoTompaAlgorithm\RuzzoTompaAlgorithmTest\RuzzoTompaAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
