@@ -1,0 +1,386 @@
+<ActRecord>
+  <ProjectName>SelectionSort</ProjectName>
+  <ProjectDescription>Selection sort: pick the smallest of the remaining elements, add it to the end of the sorted list</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Selection sort: pick the smallest of the remaining elements, add it to the end of the sorted list</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\SelectionSort</SolutionFolderPath>
+  <ProjectFolderName>SelectionSort</ProjectFolderName>
+  <ProjectName>SelectionSort</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:59:50 AM
+SelectionSort</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:00:16 AM
+SelectionSort</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SelectionSort -> D:\Code2025\RavenWork\SelectionSort\SelectionSort\bin\Debug\net9.0\SelectionSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+]]></string>
+    <string>WritePatch: Code is Complete.
+SelectionSort</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:00:25 AM
+SelectionSortTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:00:51 AM
+SelectionSortTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SelectionSortTest.csproj (in 252 ms).
+  1 of 2 projects are up-to-date for restore.
+  SelectionSort -> D:\Code2025\RavenWork\SelectionSort\SelectionSort\bin\Debug\net9.0\SelectionSort.dll
+D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SorterTests.cs(36,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SelectionSortTest.csproj]
+D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SorterTests.cs(39,38): warning CS8604: Possible null reference argument for parameter 'array' in 'void Sorter.SelectionSort<int>(int[] array)'. [D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SelectionSortTest.csproj]
+  SelectionSortTest -> D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\bin\Debug\net9.0\SelectionSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SorterTests.cs(36,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SelectionSortTest.csproj]
+D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SorterTests.cs(39,38): warning CS8604: Possible null reference argument for parameter 'array' in 'void Sorter.SelectionSort<int>(int[] array)'. [D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SelectionSortTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.72
+]]></string>
+    <string>WritePatch: Compile failed.
+SelectionSortTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:00:52 AM
+SelectionSortTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:00:52 AM
+SelectionSortTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:02:05 AM
+SelectionSortTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SelectionSort -> D:\Code2025\RavenWork\SelectionSort\SelectionSort\bin\Debug\net9.0\SelectionSort.dll
+D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SorterTests.cs(39,38): warning CS8604: Possible null reference argument for parameter 'array' in 'void Sorter.SelectionSort<int>(int[] array)'. [D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SelectionSortTest.csproj]
+  SelectionSortTest -> D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\bin\Debug\net9.0\SelectionSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SorterTests.cs(39,38): warning CS8604: Possible null reference argument for parameter 'array' in 'void Sorter.SelectionSort<int>(int[] array)'. [D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SelectionSortTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.23
+]]></string>
+    <string>WritePatch: Compile failed.
+SelectionSortTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:02:06 AM
+SelectionSortTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:02:06 AM
+SelectionSortTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:02:25 AM
+SelectionSortTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SelectionSort -> D:\Code2025\RavenWork\SelectionSort\SelectionSort\bin\Debug\net9.0\SelectionSort.dll
+  SelectionSortTest -> D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\bin\Debug\net9.0\SelectionSortTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.29
+]]></string>
+    <string>WritePatch: Code is not Complete.
+SelectionSortTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:02:36 AM
+SelectionSortTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\SelectionSort\SelectionSortTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SelectionSort -> D:\Code2025\RavenWork\SelectionSort\SelectionSort\bin\Debug\net9.0\SelectionSort.dll
+  SelectionSortTest -> D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\bin\Debug\net9.0\SelectionSortTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.29
+
+</CompilerResponse>
+2025-02-23 11:02:36 AM
+SelectionSortTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 11:02:37 AM
+SelectionSort</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SelectionSort -> D:\Code2025\RavenWork\SelectionSort\SelectionSort\bin\Debug\net9.0\SelectionSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.91
+]]></string>
+    <string>WritePatch: Code is Complete.
+SelectionSort</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:02:47 AM
+SelectionSortTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SelectionSort -> D:\Code2025\RavenWork\SelectionSort\SelectionSort\bin\Debug\net9.0\SelectionSort.dll
+  SelectionSortTest -> D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\bin\Debug\net9.0\SelectionSortTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.17
+]]></string>
+    <string>WritePatch: Code is Complete.
+SelectionSortTest</string>
+    <string>[INFO 2025-02-23 11:03:01 AM] Starting test for project: D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SelectionSortTest.csproj</string>
+    <string>[INFO 2025-02-23 11:03:01 AM] Starting test for project: D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SelectionSortTest.csproj</string>
+    <string>[INFO 2025-02-23 11:03:01 AM] Starting test for project: D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SelectionSortTest.csproj</string>
+    <string>[INFO 2025-02-23 11:03:01 AM] Starting test for project: D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SelectionSortTest.csproj</string>
+    <string>[INFO 2025-02-23 11:03:01 AM] Starting test for project: D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SelectionSortTest.csproj</string>
+    <string>[INFO 2025-02-23 11:03:01 AM] Starting test for project: D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SelectionSortTest.csproj</string>
+    <string>[INFO 2025-02-23 11:03:01 AM] Starting test for project: D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SelectionSortTest.csproj</string>
+    <string>[INFO 2025-02-23 11:03:01 AM] Starting test for project: D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SelectionSortTest.csproj</string>
+    <string>[INFO 2025-02-23 11:03:01 AM] Starting test for project: D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SelectionSortTest.csproj</string>
+    <string>[INFO 2025-02-23 11:03:01 AM] Starting test for project: D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SelectionSortTest.csproj</string>
+    <string>[INFO 2025-02-23 11:03:01 AM] Starting test for project: D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SelectionSortTest.csproj</string>
+    <string>[INFO 2025-02-23 11:03:01 AM] Starting test for project: D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SelectionSortTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 11:03:05 AM] Test Parallelization enabled for D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\bin\Debug\net9.0\SelectionSortTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 11:03:02 AM]   SelectionSort -> D:\Code2025\RavenWork\SelectionSort\SelectionSort\bin\Debug\net9.0\SelectionSort.dll
+[OUTPUT 2025-02-23 11:03:04 AM] D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\bin\Debug\net9.0\SelectionSortTest.dll
+[OUTPUT 2025-02-23 11:03:04 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:03:03 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:03:03 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:03:03 AM] Test run for D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\bin\Debug\net9.0\SelectionSortTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:03:02 AM]   SelectionSortTest -> D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\bin\Debug\net9.0\SelectionSortTest.dll
+[OUTPUT 2025-02-23 11:03:02 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:03:02 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 11:03:04 AM] All tests passed successfully.
+[INFO 2025-02-23 11:03:04 AM] Test process completed. Duration: 3.84 seconds.
+[INFO 2025-02-23 11:03:04 AM] Process exited with code 0.
+[INFO 2025-02-23 11:03:01 AM] Command: dotnet test "D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SelectionSortTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:03:01 AM] Starting test for project: D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SelectionSortTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 10:59:50 AM
+SelectionSort
+
+WritePatch ran compiler. 2025-02-23 11:00:16 AM
+SelectionSort
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SelectionSort -> D:\Code2025\RavenWork\SelectionSort\SelectionSort\bin\Debug\net9.0\SelectionSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+
+
+WritePatch: Code is Complete.
+SelectionSort
+
+WritePatch Started CycleStep. 2025-02-23 11:00:25 AM
+SelectionSortTest
+
+WritePatch ran compiler. 2025-02-23 11:00:51 AM
+SelectionSortTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SelectionSortTest.csproj (in 252 ms).
+  1 of 2 projects are up-to-date for restore.
+  SelectionSort -> D:\Code2025\RavenWork\SelectionSort\SelectionSort\bin\Debug\net9.0\SelectionSort.dll
+D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SorterTests.cs(36,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SelectionSortTest.csproj]
+D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SorterTests.cs(39,38): warning CS8604: Possible null reference argument for parameter 'array' in 'void Sorter.SelectionSort<int>(int[] array)'. [D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SelectionSortTest.csproj]
+  SelectionSortTest -> D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\bin\Debug\net9.0\SelectionSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SorterTests.cs(36,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SelectionSortTest.csproj]
+D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SorterTests.cs(39,38): warning CS8604: Possible null reference argument for parameter 'array' in 'void Sorter.SelectionSort<int>(int[] array)'. [D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SelectionSortTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.72
+
+
+WritePatch: Compile failed.
+SelectionSortTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:00:52 AM
+SelectionSortTest
+
+WritePatch Started CycleStep. 2025-02-23 11:00:52 AM
+SelectionSortTest
+
+WritePatch ran compiler. 2025-02-23 11:02:05 AM
+SelectionSortTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SelectionSort -> D:\Code2025\RavenWork\SelectionSort\SelectionSort\bin\Debug\net9.0\SelectionSort.dll
+D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SorterTests.cs(39,38): warning CS8604: Possible null reference argument for parameter 'array' in 'void Sorter.SelectionSort<int>(int[] array)'. [D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SelectionSortTest.csproj]
+  SelectionSortTest -> D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\bin\Debug\net9.0\SelectionSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SorterTests.cs(39,38): warning CS8604: Possible null reference argument for parameter 'array' in 'void Sorter.SelectionSort<int>(int[] array)'. [D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SelectionSortTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.23
+
+
+WritePatch: Compile failed.
+SelectionSortTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:02:06 AM
+SelectionSortTest
+
+WritePatch Started CycleStep. 2025-02-23 11:02:06 AM
+SelectionSortTest
+
+WritePatch ran compiler. 2025-02-23 11:02:25 AM
+SelectionSortTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SelectionSort -> D:\Code2025\RavenWork\SelectionSort\SelectionSort\bin\Debug\net9.0\SelectionSort.dll
+  SelectionSortTest -> D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\bin\Debug\net9.0\SelectionSortTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.29
+
+
+WritePatch: Code is not Complete.
+SelectionSortTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:02:36 AM
+SelectionSortTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\SelectionSort\SelectionSortTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SelectionSort -> D:\Code2025\RavenWork\SelectionSort\SelectionSort\bin\Debug\net9.0\SelectionSort.dll
+  SelectionSortTest -> D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\bin\Debug\net9.0\SelectionSortTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.29
+
+</CompilerResponse>
+2025-02-23 11:02:36 AM
+SelectionSortTest
+
+WritePatch ran compiler. 2025-02-23 11:02:37 AM
+SelectionSort
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SelectionSort -> D:\Code2025\RavenWork\SelectionSort\SelectionSort\bin\Debug\net9.0\SelectionSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.91
+
+
+WritePatch: Code is Complete.
+SelectionSort
+
+WritePatch ran compiler. 2025-02-23 11:02:47 AM
+SelectionSortTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SelectionSort -> D:\Code2025\RavenWork\SelectionSort\SelectionSort\bin\Debug\net9.0\SelectionSort.dll
+  SelectionSortTest -> D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\bin\Debug\net9.0\SelectionSortTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.17
+
+
+WritePatch: Code is Complete.
+SelectionSortTest
+
+TestResult:
+[OUTPUT 2025-02-23 11:03:05 AM] Test Parallelization enabled for D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\bin\Debug\net9.0\SelectionSortTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 11:03:02 AM]   SelectionSort -> D:\Code2025\RavenWork\SelectionSort\SelectionSort\bin\Debug\net9.0\SelectionSort.dll
+[OUTPUT 2025-02-23 11:03:04 AM] D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\bin\Debug\net9.0\SelectionSortTest.dll
+[OUTPUT 2025-02-23 11:03:04 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:03:03 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:03:03 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:03:03 AM] Test run for D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\bin\Debug\net9.0\SelectionSortTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:03:02 AM]   SelectionSortTest -> D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\bin\Debug\net9.0\SelectionSortTest.dll
+[OUTPUT 2025-02-23 11:03:02 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:03:02 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 11:03:04 AM] All tests passed successfully.
+[INFO 2025-02-23 11:03:04 AM] Test process completed. Duration: 3.84 seconds.
+[INFO 2025-02-23 11:03:04 AM] Process exited with code 0.
+[INFO 2025-02-23 11:03:01 AM] Command: dotnet test "D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SelectionSortTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:03:01 AM] Starting test for project: D:\Code2025\RavenWork\SelectionSort\SelectionSortTest\SelectionSortTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
