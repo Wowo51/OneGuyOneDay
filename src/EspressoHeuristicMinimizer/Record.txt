@@ -1,0 +1,412 @@
+<ActRecord>
+  <ProjectName>EspressoHeuristicMinimizer</ProjectName>
+  <ProjectDescription>Espresso heuristic logic minimizer: A fast algorithm for Boolean function minimization</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Espresso heuristic logic minimizer: A fast algorithm for Boolean function minimization</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\EspressoHeuristicMinimizer</SolutionFolderPath>
+  <ProjectFolderName>EspressoHeuristicMinimizer</ProjectFolderName>
+  <ProjectName>EspressoHeuristicMinimizer</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 3:15:42 PM
+EspressoHeuristicMinimizer</string>
+    <string>WritePatch ran compiler. 2025-02-23 3:16:45 PM
+EspressoHeuristicMinimizer</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\BooleanCube.cs(87,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer.csproj]
+D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\BooleanCube.cs(92,21): warning CS8767: Nullability of reference types in type of parameter 'other' of 'bool BooleanCube.Equals(BooleanCube other)' doesn't match implicitly implemented member 'bool IEquatable<BooleanCube>.Equals(BooleanCube? other)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer.csproj]
+D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoMinimizer.cs(22,38): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer.csproj]
+D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\BooleanCube.cs(53,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer.csproj]
+D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\BooleanCube.cs(89,27): warning CS8604: Possible null reference argument for parameter 'other' in 'bool BooleanCube.Equals(BooleanCube other)'. [D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer.csproj]
+  EspressoHeuristicMinimizer -> D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\bin\Debug\net9.0\EspressoHeuristicMinimizer.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\BooleanCube.cs(87,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer.csproj]
+D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\BooleanCube.cs(92,21): warning CS8767: Nullability of reference types in type of parameter 'other' of 'bool BooleanCube.Equals(BooleanCube other)' doesn't match implicitly implemented member 'bool IEquatable<BooleanCube>.Equals(BooleanCube? other)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer.csproj]
+D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoMinimizer.cs(22,38): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer.csproj]
+D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\BooleanCube.cs(53,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer.csproj]
+D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\BooleanCube.cs(89,27): warning CS8604: Possible null reference argument for parameter 'other' in 'bool BooleanCube.Equals(BooleanCube other)'. [D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer.csproj]
+    5 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.45
+]]></string>
+    <string>WritePatch: Compile failed.
+EspressoHeuristicMinimizer</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 3:16:46 PM
+EspressoHeuristicMinimizer</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 3:16:46 PM
+EspressoHeuristicMinimizer</string>
+    <string>WritePatch ran compiler. 2025-02-23 3:17:44 PM
+EspressoHeuristicMinimizer</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EspressoHeuristicMinimizer -> D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\bin\Debug\net9.0\EspressoHeuristicMinimizer.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.82
+]]></string>
+    <string>WritePatch: Code is Complete.
+EspressoHeuristicMinimizer</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 3:18:10 PM
+EspressoHeuristicMinimizerTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 3:18:52 PM
+EspressoHeuristicMinimizerTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\EspressoHeuristicMinimizerTest.csproj (in 371 ms).
+  1 of 2 projects are up-to-date for restore.
+  EspressoHeuristicMinimizer -> D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\bin\Debug\net9.0\EspressoHeuristicMinimizer.dll
+D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\EspressoMinimizerTests.cs(83,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\EspressoHeuristicMinimizerTest.csproj]
+  EspressoHeuristicMinimizerTest -> D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\bin\Debug\net9.0\EspressoHeuristicMinimizerTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\EspressoMinimizerTests.cs(83,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\EspressoHeuristicMinimizerTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.19
+]]></string>
+    <string>WritePatch: Compile failed.
+EspressoHeuristicMinimizerTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 3:18:53 PM
+EspressoHeuristicMinimizerTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 3:18:53 PM
+EspressoHeuristicMinimizerTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 3:19:26 PM
+EspressoHeuristicMinimizerTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EspressoHeuristicMinimizer -> D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\bin\Debug\net9.0\EspressoHeuristicMinimizer.dll
+  EspressoHeuristicMinimizerTest -> D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\bin\Debug\net9.0\EspressoHeuristicMinimizerTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.61
+]]></string>
+    <string>WritePatch: Code is not Complete.
+EspressoHeuristicMinimizerTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 3:19:44 PM
+EspressoHeuristicMinimizerTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 3:19:44 PM
+EspressoHeuristicMinimizerTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 3:20:23 PM
+EspressoHeuristicMinimizerTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EspressoHeuristicMinimizer -> D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\bin\Debug\net9.0\EspressoHeuristicMinimizer.dll
+  EspressoHeuristicMinimizerTest -> D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\bin\Debug\net9.0\EspressoHeuristicMinimizerTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.61
+
+</CompilerResponse>
+2025-02-23 3:20:23 PM
+EspressoHeuristicMinimizerTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 3:20:25 PM
+EspressoHeuristicMinimizer</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EspressoHeuristicMinimizer -> D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\bin\Debug\net9.0\EspressoHeuristicMinimizer.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.18
+]]></string>
+    <string>WritePatch: Code is Complete.
+EspressoHeuristicMinimizer</string>
+    <string>WritePatch ran compiler. 2025-02-23 3:21:02 PM
+EspressoHeuristicMinimizerTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EspressoHeuristicMinimizer -> D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\bin\Debug\net9.0\EspressoHeuristicMinimizer.dll
+  EspressoHeuristicMinimizerTest -> D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\bin\Debug\net9.0\EspressoHeuristicMinimizerTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.84
+]]></string>
+    <string>WritePatch: Code is Complete.
+EspressoHeuristicMinimizerTest</string>
+    <string>[INFO 2025-02-23 3:21:16 PM] Starting test for project: D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\EspressoHeuristicMinimizerTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:16 PM] Starting test for project: D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\EspressoHeuristicMinimizerTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:16 PM] Starting test for project: D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\EspressoHeuristicMinimizerTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:16 PM] Starting test for project: D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\EspressoHeuristicMinimizerTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:16 PM] Starting test for project: D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\EspressoHeuristicMinimizerTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:16 PM] Starting test for project: D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\EspressoHeuristicMinimizerTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:16 PM] Starting test for project: D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\EspressoHeuristicMinimizerTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:16 PM] Starting test for project: D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\EspressoHeuristicMinimizerTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:16 PM] Starting test for project: D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\EspressoHeuristicMinimizerTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:16 PM] Starting test for project: D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\EspressoHeuristicMinimizerTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:16 PM] Starting test for project: D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\EspressoHeuristicMinimizerTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:16 PM] Starting test for project: D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\EspressoHeuristicMinimizerTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:16 PM] Starting test for project: D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\EspressoHeuristicMinimizerTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:16 PM] Starting test for project: D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\EspressoHeuristicMinimizerTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 3:21:22 PM] All tests passed successfully.
+[INFO 2025-02-23 3:21:22 PM] Test process completed. Duration: 5.22 seconds.
+[INFO 2025-02-23 3:21:22 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 3:21:22 PM]   Passed EspressoMinimizer_GetPrimeImplicants_Test [8 ms]
+[OUTPUT 2025-02-23 3:21:22 PM]   Passed EspressoMinimizer_LargeDataSet_Test [9 ms]
+[OUTPUT 2025-02-23 3:21:19 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 3:21:19 PM] Test run for D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\bin\Debug\net9.0\EspressoHeuristicMinimizerTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 3:21:19 PM]   EspressoHeuristicMinimizerTest -> D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\bin\Debug\net9.0\EspressoHeuristicMinimizerTest.dll
+[OUTPUT 2025-02-23 3:21:18 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 3:21:21 PM] Test Parallelization enabled for D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\bin\Debug\net9.0\EspressoHeuristicMinimizerTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 3:21:20 PM] D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\bin\Debug\net9.0\EspressoHeuristicMinimizerTest.dll
+[OUTPUT 2025-02-23 3:21:20 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 3:21:20 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 3:21:19 PM]   EspressoHeuristicMinimizer -> D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\bin\Debug\net9.0\EspressoHeuristicMinimizer.dll
+[OUTPUT 2025-02-23 3:21:18 PM]   Determining projects to restore...
+[INFO 2025-02-23 3:21:16 PM] Command: dotnet test "D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\EspressoHeuristicMinimizerTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 3:21:16 PM] Starting test for project: D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\EspressoHeuristicMinimizerTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 3:15:42 PM
+EspressoHeuristicMinimizer
+
+WritePatch ran compiler. 2025-02-23 3:16:45 PM
+EspressoHeuristicMinimizer
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\BooleanCube.cs(87,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer.csproj]
+D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\BooleanCube.cs(92,21): warning CS8767: Nullability of reference types in type of parameter 'other' of 'bool BooleanCube.Equals(BooleanCube other)' doesn't match implicitly implemented member 'bool IEquatable<BooleanCube>.Equals(BooleanCube? other)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer.csproj]
+D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoMinimizer.cs(22,38): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer.csproj]
+D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\BooleanCube.cs(53,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer.csproj]
+D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\BooleanCube.cs(89,27): warning CS8604: Possible null reference argument for parameter 'other' in 'bool BooleanCube.Equals(BooleanCube other)'. [D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer.csproj]
+  EspressoHeuristicMinimizer -> D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\bin\Debug\net9.0\EspressoHeuristicMinimizer.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\BooleanCube.cs(87,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer.csproj]
+D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\BooleanCube.cs(92,21): warning CS8767: Nullability of reference types in type of parameter 'other' of 'bool BooleanCube.Equals(BooleanCube other)' doesn't match implicitly implemented member 'bool IEquatable<BooleanCube>.Equals(BooleanCube? other)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer.csproj]
+D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoMinimizer.cs(22,38): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer.csproj]
+D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\BooleanCube.cs(53,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer.csproj]
+D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\BooleanCube.cs(89,27): warning CS8604: Possible null reference argument for parameter 'other' in 'bool BooleanCube.Equals(BooleanCube other)'. [D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer.csproj]
+    5 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.45
+
+
+WritePatch: Compile failed.
+EspressoHeuristicMinimizer
+
+Finished WritePatch cycle step.
+2025-02-23 3:16:46 PM
+EspressoHeuristicMinimizer
+
+WritePatch Started CycleStep. 2025-02-23 3:16:46 PM
+EspressoHeuristicMinimizer
+
+WritePatch ran compiler. 2025-02-23 3:17:44 PM
+EspressoHeuristicMinimizer
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EspressoHeuristicMinimizer -> D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\bin\Debug\net9.0\EspressoHeuristicMinimizer.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.82
+
+
+WritePatch: Code is Complete.
+EspressoHeuristicMinimizer
+
+WritePatch Started CycleStep. 2025-02-23 3:18:10 PM
+EspressoHeuristicMinimizerTest
+
+WritePatch ran compiler. 2025-02-23 3:18:52 PM
+EspressoHeuristicMinimizerTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\EspressoHeuristicMinimizerTest.csproj (in 371 ms).
+  1 of 2 projects are up-to-date for restore.
+  EspressoHeuristicMinimizer -> D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\bin\Debug\net9.0\EspressoHeuristicMinimizer.dll
+D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\EspressoMinimizerTests.cs(83,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\EspressoHeuristicMinimizerTest.csproj]
+  EspressoHeuristicMinimizerTest -> D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\bin\Debug\net9.0\EspressoHeuristicMinimizerTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\EspressoMinimizerTests.cs(83,62): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\EspressoHeuristicMinimizerTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.19
+
+
+WritePatch: Compile failed.
+EspressoHeuristicMinimizerTest
+
+Finished WritePatch cycle step.
+2025-02-23 3:18:53 PM
+EspressoHeuristicMinimizerTest
+
+WritePatch Started CycleStep. 2025-02-23 3:18:53 PM
+EspressoHeuristicMinimizerTest
+
+WritePatch ran compiler. 2025-02-23 3:19:26 PM
+EspressoHeuristicMinimizerTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EspressoHeuristicMinimizer -> D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\bin\Debug\net9.0\EspressoHeuristicMinimizer.dll
+  EspressoHeuristicMinimizerTest -> D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\bin\Debug\net9.0\EspressoHeuristicMinimizerTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.61
+
+
+WritePatch: Code is not Complete.
+EspressoHeuristicMinimizerTest
+
+Finished WritePatch cycle step.
+2025-02-23 3:19:44 PM
+EspressoHeuristicMinimizerTest
+
+WritePatch Started CycleStep. 2025-02-23 3:19:44 PM
+EspressoHeuristicMinimizerTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 3:20:23 PM
+EspressoHeuristicMinimizerTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EspressoHeuristicMinimizer -> D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\bin\Debug\net9.0\EspressoHeuristicMinimizer.dll
+  EspressoHeuristicMinimizerTest -> D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\bin\Debug\net9.0\EspressoHeuristicMinimizerTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.61
+
+</CompilerResponse>
+2025-02-23 3:20:23 PM
+EspressoHeuristicMinimizerTest
+
+WritePatch ran compiler. 2025-02-23 3:20:25 PM
+EspressoHeuristicMinimizer
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EspressoHeuristicMinimizer -> D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\bin\Debug\net9.0\EspressoHeuristicMinimizer.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.18
+
+
+WritePatch: Code is Complete.
+EspressoHeuristicMinimizer
+
+WritePatch ran compiler. 2025-02-23 3:21:02 PM
+EspressoHeuristicMinimizerTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EspressoHeuristicMinimizer -> D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\bin\Debug\net9.0\EspressoHeuristicMinimizer.dll
+  EspressoHeuristicMinimizerTest -> D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\bin\Debug\net9.0\EspressoHeuristicMinimizerTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.84
+
+
+WritePatch: Code is Complete.
+EspressoHeuristicMinimizerTest
+
+TestResult:
+[SUCCESS 2025-02-23 3:21:22 PM] All tests passed successfully.
+[INFO 2025-02-23 3:21:22 PM] Test process completed. Duration: 5.22 seconds.
+[INFO 2025-02-23 3:21:22 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 3:21:22 PM]   Passed EspressoMinimizer_GetPrimeImplicants_Test [8 ms]
+[OUTPUT 2025-02-23 3:21:22 PM]   Passed EspressoMinimizer_LargeDataSet_Test [9 ms]
+[OUTPUT 2025-02-23 3:21:19 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 3:21:19 PM] Test run for D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\bin\Debug\net9.0\EspressoHeuristicMinimizerTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 3:21:19 PM]   EspressoHeuristicMinimizerTest -> D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\bin\Debug\net9.0\EspressoHeuristicMinimizerTest.dll
+[OUTPUT 2025-02-23 3:21:18 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 3:21:21 PM] Test Parallelization enabled for D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\bin\Debug\net9.0\EspressoHeuristicMinimizerTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 3:21:20 PM] D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\bin\Debug\net9.0\EspressoHeuristicMinimizerTest.dll
+[OUTPUT 2025-02-23 3:21:20 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 3:21:20 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 3:21:19 PM]   EspressoHeuristicMinimizer -> D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizer\bin\Debug\net9.0\EspressoHeuristicMinimizer.dll
+[OUTPUT 2025-02-23 3:21:18 PM]   Determining projects to restore...
+[INFO 2025-02-23 3:21:16 PM] Command: dotnet test "D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\EspressoHeuristicMinimizerTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 3:21:16 PM] Starting test for project: D:\Code2025\RavenWork\EspressoHeuristicMinimizer\EspressoHeuristicMinimizerTest\EspressoHeuristicMinimizerTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
