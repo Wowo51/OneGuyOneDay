@@ -1,0 +1,624 @@
+<ActRecord>
+  <ProjectName>AdaptiveReplacementCache</ProjectName>
+  <ProjectDescription>Adaptive replacement cache: A page replacement algorithm with better performance than LRU</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Adaptive replacement cache: A page replacement algorithm with better performance than LRU</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\AdaptiveReplacementCache</SolutionFolderPath>
+  <ProjectFolderName>AdaptiveReplacementCache</ProjectFolderName>
+  <ProjectName>AdaptiveReplacementCache</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:43:51 PM
+AdaptiveReplacementCache</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:44:44 PM
+AdaptiveReplacementCache</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(10,42): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(15,56): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(16,56): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(17,56): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(18,56): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(28,37): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(33,39): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(34,39): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(35,39): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(36,39): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(43,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(67,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(117,55): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(130,51): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(149,59): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(170,47): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(185,51): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+  AdaptiveReplacementCache -> D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\bin\Debug\net9.0\AdaptiveReplacementCache.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(10,42): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(15,56): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(16,56): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(17,56): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(18,56): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(28,37): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(33,39): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(34,39): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(35,39): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(36,39): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(43,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(67,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(117,55): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(130,51): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(149,59): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(170,47): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(185,51): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+    17 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.91
+]]></string>
+    <string>WritePatch: Compile failed.
+AdaptiveReplacementCache</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:44:45 PM
+AdaptiveReplacementCache</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:44:46 PM
+AdaptiveReplacementCache</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 1:45:44 PM
+AdaptiveReplacementCache</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:45:44 PM
+AdaptiveReplacementCache</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:47:08 PM
+AdaptiveReplacementCache</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(6,18): error CS0101: The namespace 'AdaptiveReplacementCache' already contains a definition for 'AdaptiveReplacementCache' [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(19,16): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'AdaptiveReplacementCache' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(39,23): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'Get' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(70,21): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'Put' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(166,22): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'Replace' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(6,18): error CS0101: The namespace 'AdaptiveReplacementCache' already contains a definition for 'AdaptiveReplacementCache' [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(19,16): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'AdaptiveReplacementCache' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(39,23): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'Get' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(70,21): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'Put' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(166,22): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'Replace' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+    0 Warning(s)
+    5 Error(s)
+
+Time Elapsed 00:00:01.09
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+AdaptiveReplacementCache</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:47:09 PM
+AdaptiveReplacementCache</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(6,18): error CS0101: The namespace 'AdaptiveReplacementCache' already contains a definition for 'AdaptiveReplacementCache' [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(19,16): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'AdaptiveReplacementCache' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(39,23): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'Get' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(70,21): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'Put' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(166,22): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'Replace' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(6,18): error CS0101: The namespace 'AdaptiveReplacementCache' already contains a definition for 'AdaptiveReplacementCache' [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(19,16): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'AdaptiveReplacementCache' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(39,23): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'Get' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(70,21): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'Put' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(166,22): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'Replace' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+    0 Warning(s)
+    5 Error(s)
+
+Time Elapsed 00:00:01.09
+
+
+Errors:
+</CompilerResponse>
+2025-02-23 1:47:09 PM
+AdaptiveReplacementCache]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 1:47:11 PM
+AdaptiveReplacementCache</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(6,18): error CS0101: The namespace 'AdaptiveReplacementCache' already contains a definition for 'AdaptiveReplacementCache' [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(19,16): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'AdaptiveReplacementCache' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(39,23): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'Get' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(70,21): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'Put' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(166,22): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'Replace' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(6,18): error CS0101: The namespace 'AdaptiveReplacementCache' already contains a definition for 'AdaptiveReplacementCache' [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(19,16): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'AdaptiveReplacementCache' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(39,23): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'Get' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(70,21): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'Put' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(166,22): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'Replace' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+    0 Warning(s)
+    5 Error(s)
+
+Time Elapsed 00:00:01.00
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+AdaptiveReplacementCache</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:47:12 PM
+AdaptiveReplacementCache</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:47:41 PM
+AdaptiveReplacementCache</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(107,55): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(120,51): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(139,59): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(160,47): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(175,51): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+  AdaptiveReplacementCache -> D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\bin\Debug\net9.0\AdaptiveReplacementCache.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(107,55): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(120,51): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(139,59): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(160,47): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(175,51): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+    5 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.41
+]]></string>
+    <string>WritePatch: Compile failed.
+AdaptiveReplacementCache</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:47:43 PM
+AdaptiveReplacementCache</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:47:43 PM
+AdaptiveReplacementCache</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 1:48:33 PM
+AdaptiveReplacementCache</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:48:34 PM
+AdaptiveReplacementCache</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:49:46 PM
+AdaptiveReplacementCache</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AdaptiveReplacementCache -> D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\bin\Debug\net9.0\AdaptiveReplacementCache.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.51
+]]></string>
+    <string>WritePatch: Code is Complete.
+AdaptiveReplacementCache</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:50:58 PM
+AdaptiveReplacementCacheTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:51:50 PM
+AdaptiveReplacementCacheTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\AdaptiveReplacementCacheTest.csproj (in 389 ms).
+  1 of 2 projects are up-to-date for restore.
+  AdaptiveReplacementCache -> D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\bin\Debug\net9.0\AdaptiveReplacementCache.dll
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\AdaptiveReplacementCacheTests.cs(49,34): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\AdaptiveReplacementCacheTest.csproj]
+  AdaptiveReplacementCacheTest -> D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\bin\Debug\net9.0\AdaptiveReplacementCacheTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\AdaptiveReplacementCacheTests.cs(49,34): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\AdaptiveReplacementCacheTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.30
+]]></string>
+    <string>WritePatch: Compile failed.
+AdaptiveReplacementCacheTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:51:52 PM
+AdaptiveReplacementCacheTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:51:52 PM
+AdaptiveReplacementCacheTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:52:48 PM
+AdaptiveReplacementCacheTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AdaptiveReplacementCache -> D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\bin\Debug\net9.0\AdaptiveReplacementCache.dll
+  AdaptiveReplacementCacheTest -> D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\bin\Debug\net9.0\AdaptiveReplacementCacheTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.95
+]]></string>
+    <string>WritePatch: Code is Complete.
+AdaptiveReplacementCacheTest</string>
+    <string>[INFO 2025-02-23 1:53:00 PM] Starting test for project: D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\AdaptiveReplacementCacheTest.csproj</string>
+    <string>[INFO 2025-02-23 1:53:00 PM] Starting test for project: D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\AdaptiveReplacementCacheTest.csproj</string>
+    <string>[INFO 2025-02-23 1:53:00 PM] Starting test for project: D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\AdaptiveReplacementCacheTest.csproj</string>
+    <string>[INFO 2025-02-23 1:53:00 PM] Starting test for project: D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\AdaptiveReplacementCacheTest.csproj</string>
+    <string>[INFO 2025-02-23 1:53:00 PM] Starting test for project: D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\AdaptiveReplacementCacheTest.csproj</string>
+    <string>[INFO 2025-02-23 1:53:00 PM] Starting test for project: D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\AdaptiveReplacementCacheTest.csproj</string>
+    <string>[INFO 2025-02-23 1:53:00 PM] Starting test for project: D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\AdaptiveReplacementCacheTest.csproj</string>
+    <string>[INFO 2025-02-23 1:53:00 PM] Starting test for project: D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\AdaptiveReplacementCacheTest.csproj</string>
+    <string>[INFO 2025-02-23 1:53:00 PM] Starting test for project: D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\AdaptiveReplacementCacheTest.csproj</string>
+    <string>[INFO 2025-02-23 1:53:00 PM] Starting test for project: D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\AdaptiveReplacementCacheTest.csproj</string>
+    <string>[INFO 2025-02-23 1:53:00 PM] Starting test for project: D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\AdaptiveReplacementCacheTest.csproj</string>
+    <string>[INFO 2025-02-23 1:53:00 PM] Starting test for project: D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\AdaptiveReplacementCacheTest.csproj</string>
+    <string>[INFO 2025-02-23 1:53:00 PM] Starting test for project: D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\AdaptiveReplacementCacheTest.csproj</string>
+    <string>[INFO 2025-02-23 1:53:00 PM] Starting test for project: D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\AdaptiveReplacementCacheTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 1:53:05 PM] All tests passed successfully.
+[INFO 2025-02-23 1:53:05 PM] Test process completed. Duration: 5.10 seconds.
+[INFO 2025-02-23 1:53:05 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 1:53:05 PM]   Passed TestBasicPutAndGet [14 ms]
+[OUTPUT 2025-02-23 1:53:05 PM] Test Parallelization enabled for D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\bin\Debug\net9.0\AdaptiveReplacementCacheTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 1:53:03 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 1:53:03 PM] Test run for D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\bin\Debug\net9.0\AdaptiveReplacementCacheTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 1:53:02 PM]   AdaptiveReplacementCache -> D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\bin\Debug\net9.0\AdaptiveReplacementCache.dll
+[OUTPUT 2025-02-23 1:53:01 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 1:53:06 PM]   Passed TestLargeDataSet [14 ms]
+[OUTPUT 2025-02-23 1:53:03 PM] D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\bin\Debug\net9.0\AdaptiveReplacementCacheTest.dll
+[OUTPUT 2025-02-23 1:53:03 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 1:53:03 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 1:53:02 PM]   AdaptiveReplacementCacheTest -> D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\bin\Debug\net9.0\AdaptiveReplacementCacheTest.dll
+[OUTPUT 2025-02-23 1:53:02 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 1:53:00 PM] Command: dotnet test "D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\AdaptiveReplacementCacheTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:53:00 PM] Starting test for project: D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\AdaptiveReplacementCacheTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 1:43:51 PM
+AdaptiveReplacementCache
+
+WritePatch ran compiler. 2025-02-23 1:44:44 PM
+AdaptiveReplacementCache
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(10,42): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(15,56): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(16,56): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(17,56): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(18,56): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(28,37): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(33,39): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(34,39): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(35,39): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(36,39): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(43,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(67,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(117,55): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(130,51): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(149,59): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(170,47): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(185,51): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+  AdaptiveReplacementCache -> D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\bin\Debug\net9.0\AdaptiveReplacementCache.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(10,42): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(15,56): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(16,56): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(17,56): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(18,56): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(28,37): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(33,39): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(34,39): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(35,39): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(36,39): warning CS8714: The type 'TKey' cannot be used as type parameter 'TKey' in the generic type or method 'Dictionary<TKey, TValue>'. Nullability of type argument 'TKey' doesn't match 'notnull' constraint. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(43,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(67,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(117,55): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(130,51): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(149,59): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(170,47): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(185,51): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+    17 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.91
+
+
+WritePatch: Compile failed.
+AdaptiveReplacementCache
+
+Finished WritePatch cycle step.
+2025-02-23 1:44:45 PM
+AdaptiveReplacementCache
+
+WritePatch Started CycleStep. 2025-02-23 1:44:46 PM
+AdaptiveReplacementCache
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 1:45:44 PM
+AdaptiveReplacementCache
+
+WritePatch Started CycleStep. 2025-02-23 1:45:44 PM
+AdaptiveReplacementCache
+
+WritePatch ran compiler. 2025-02-23 1:47:08 PM
+AdaptiveReplacementCache
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(6,18): error CS0101: The namespace 'AdaptiveReplacementCache' already contains a definition for 'AdaptiveReplacementCache' [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(19,16): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'AdaptiveReplacementCache' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(39,23): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'Get' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(70,21): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'Put' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(166,22): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'Replace' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(6,18): error CS0101: The namespace 'AdaptiveReplacementCache' already contains a definition for 'AdaptiveReplacementCache' [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(19,16): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'AdaptiveReplacementCache' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(39,23): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'Get' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(70,21): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'Put' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(166,22): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'Replace' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+    0 Warning(s)
+    5 Error(s)
+
+Time Elapsed 00:00:01.09
+
+
+Errors:
+
+WritePatch: Compile failed.
+AdaptiveReplacementCache
+
+Finished WritePatch cycle step.
+2025-02-23 1:47:09 PM
+AdaptiveReplacementCache
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(6,18): error CS0101: The namespace 'AdaptiveReplacementCache' already contains a definition for 'AdaptiveReplacementCache' [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(19,16): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'AdaptiveReplacementCache' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(39,23): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'Get' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(70,21): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'Put' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(166,22): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'Replace' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(6,18): error CS0101: The namespace 'AdaptiveReplacementCache' already contains a definition for 'AdaptiveReplacementCache' [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(19,16): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'AdaptiveReplacementCache' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(39,23): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'Get' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(70,21): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'Put' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(166,22): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'Replace' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+    0 Warning(s)
+    5 Error(s)
+
+Time Elapsed 00:00:01.09
+
+
+Errors:
+</CompilerResponse>
+2025-02-23 1:47:09 PM
+AdaptiveReplacementCache
+
+WritePatch ran compiler. 2025-02-23 1:47:11 PM
+AdaptiveReplacementCache
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(6,18): error CS0101: The namespace 'AdaptiveReplacementCache' already contains a definition for 'AdaptiveReplacementCache' [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(19,16): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'AdaptiveReplacementCache' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(39,23): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'Get' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(70,21): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'Put' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(166,22): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'Replace' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(6,18): error CS0101: The namespace 'AdaptiveReplacementCache' already contains a definition for 'AdaptiveReplacementCache' [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(19,16): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'AdaptiveReplacementCache' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(39,23): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'Get' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(70,21): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'Put' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(166,22): error CS0111: Type 'AdaptiveReplacementCache<TKey, TValue>' already defines a member called 'Replace' with the same parameter types [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+    0 Warning(s)
+    5 Error(s)
+
+Time Elapsed 00:00:01.00
+
+
+Errors:
+
+WritePatch: Compile failed.
+AdaptiveReplacementCache
+
+WritePatch Started CycleStep. 2025-02-23 1:47:12 PM
+AdaptiveReplacementCache
+
+WritePatch ran compiler. 2025-02-23 1:47:41 PM
+AdaptiveReplacementCache
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(107,55): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(120,51): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(139,59): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(160,47): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(175,51): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+  AdaptiveReplacementCache -> D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\bin\Debug\net9.0\AdaptiveReplacementCache.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(107,55): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(120,51): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(139,59): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(160,47): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.cs(175,51): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\AdaptiveReplacementCache.csproj]
+    5 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.41
+
+
+WritePatch: Compile failed.
+AdaptiveReplacementCache
+
+Finished WritePatch cycle step.
+2025-02-23 1:47:43 PM
+AdaptiveReplacementCache
+
+WritePatch Started CycleStep. 2025-02-23 1:47:43 PM
+AdaptiveReplacementCache
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 1:48:33 PM
+AdaptiveReplacementCache
+
+WritePatch Started CycleStep. 2025-02-23 1:48:34 PM
+AdaptiveReplacementCache
+
+WritePatch ran compiler. 2025-02-23 1:49:46 PM
+AdaptiveReplacementCache
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AdaptiveReplacementCache -> D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\bin\Debug\net9.0\AdaptiveReplacementCache.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.51
+
+
+WritePatch: Code is Complete.
+AdaptiveReplacementCache
+
+WritePatch Started CycleStep. 2025-02-23 1:50:58 PM
+AdaptiveReplacementCacheTest
+
+WritePatch ran compiler. 2025-02-23 1:51:50 PM
+AdaptiveReplacementCacheTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\AdaptiveReplacementCacheTest.csproj (in 389 ms).
+  1 of 2 projects are up-to-date for restore.
+  AdaptiveReplacementCache -> D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\bin\Debug\net9.0\AdaptiveReplacementCache.dll
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\AdaptiveReplacementCacheTests.cs(49,34): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\AdaptiveReplacementCacheTest.csproj]
+  AdaptiveReplacementCacheTest -> D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\bin\Debug\net9.0\AdaptiveReplacementCacheTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\AdaptiveReplacementCacheTests.cs(49,34): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\AdaptiveReplacementCacheTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.30
+
+
+WritePatch: Compile failed.
+AdaptiveReplacementCacheTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:51:52 PM
+AdaptiveReplacementCacheTest
+
+WritePatch Started CycleStep. 2025-02-23 1:51:52 PM
+AdaptiveReplacementCacheTest
+
+WritePatch ran compiler. 2025-02-23 1:52:48 PM
+AdaptiveReplacementCacheTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AdaptiveReplacementCache -> D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\bin\Debug\net9.0\AdaptiveReplacementCache.dll
+  AdaptiveReplacementCacheTest -> D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\bin\Debug\net9.0\AdaptiveReplacementCacheTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.95
+
+
+WritePatch: Code is Complete.
+AdaptiveReplacementCacheTest
+
+TestResult:
+[SUCCESS 2025-02-23 1:53:05 PM] All tests passed successfully.
+[INFO 2025-02-23 1:53:05 PM] Test process completed. Duration: 5.10 seconds.
+[INFO 2025-02-23 1:53:05 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 1:53:05 PM]   Passed TestBasicPutAndGet [14 ms]
+[OUTPUT 2025-02-23 1:53:05 PM] Test Parallelization enabled for D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\bin\Debug\net9.0\AdaptiveReplacementCacheTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 1:53:03 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 1:53:03 PM] Test run for D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\bin\Debug\net9.0\AdaptiveReplacementCacheTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 1:53:02 PM]   AdaptiveReplacementCache -> D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCache\bin\Debug\net9.0\AdaptiveReplacementCache.dll
+[OUTPUT 2025-02-23 1:53:01 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 1:53:06 PM]   Passed TestLargeDataSet [14 ms]
+[OUTPUT 2025-02-23 1:53:03 PM] D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\bin\Debug\net9.0\AdaptiveReplacementCacheTest.dll
+[OUTPUT 2025-02-23 1:53:03 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 1:53:03 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 1:53:02 PM]   AdaptiveReplacementCacheTest -> D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\bin\Debug\net9.0\AdaptiveReplacementCacheTest.dll
+[OUTPUT 2025-02-23 1:53:02 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 1:53:00 PM] Command: dotnet test "D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\AdaptiveReplacementCacheTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:53:00 PM] Starting test for project: D:\Code2025\RavenWork\AdaptiveReplacementCache\AdaptiveReplacementCacheTest\AdaptiveReplacementCacheTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
