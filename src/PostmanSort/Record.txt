@@ -1,0 +1,402 @@
+<ActRecord>
+  <ProjectName>PostmanSort</ProjectName>
+  <ProjectDescription>Postman sort: variant of Bucket sort which takes advantage of hierarchical structure</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Postman sort: variant of Bucket sort which takes advantage of hierarchical structure</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\PostmanSort</SolutionFolderPath>
+  <ProjectFolderName>PostmanSort</ProjectFolderName>
+  <ProjectName>PostmanSort</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:59:31 PM
+PostmanSort</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:00:38 PM
+PostmanSort</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PostmanSort -> D:\Code2025\RavenWork\PostmanSort\PostmanSort\bin\Debug\net9.0\PostmanSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+]]></string>
+    <string>WritePatch: Code is Complete.
+PostmanSort</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:02:16 PM
+PostmanSortTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:03:13 PM
+PostmanSortTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj (in 227 ms).
+  1 of 2 projects are up-to-date for restore.
+  PostmanSort -> D:\Code2025\RavenWork\PostmanSort\PostmanSort\bin\Debug\net9.0\PostmanSort.dll
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(13,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(14,32): warning CS8604: Possible null reference argument for parameter 'array' in 'void PostmanSorter.Sort(string[] array)'. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(65,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(67,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(73,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(74,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+  PostmanSortTest -> D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\bin\Debug\net9.0\PostmanSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(13,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(14,32): warning CS8604: Possible null reference argument for parameter 'array' in 'void PostmanSorter.Sort(string[] array)'. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(65,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(67,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(73,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(74,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+    6 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.62
+]]></string>
+    <string>WritePatch: Compile failed.
+PostmanSortTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:04:20 PM
+PostmanSortTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:04:44 PM
+PostmanSortTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 1:06:19 PM
+PostmanSortTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:06:41 PM
+PostmanSortTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:07:40 PM
+PostmanSortTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PostmanSort -> D:\Code2025\RavenWork\PostmanSort\PostmanSort\bin\Debug\net9.0\PostmanSort.dll
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(14,32): warning CS8604: Possible null reference argument for parameter 'array' in 'void PostmanSorter.Sort(string[] array)'. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(14,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(22,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(33,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(48,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(70,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(102,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+  PostmanSortTest -> D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\bin\Debug\net9.0\PostmanSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(14,32): warning CS8604: Possible null reference argument for parameter 'array' in 'void PostmanSorter.Sort(string[] array)'. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(14,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(22,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(33,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(48,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(70,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(102,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+    7 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.25
+]]></string>
+    <string>WritePatch: Compile failed.
+PostmanSortTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:07:43 PM
+PostmanSortTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PostmanSort -> D:\Code2025\RavenWork\PostmanSort\PostmanSort\bin\Debug\net9.0\PostmanSort.dll
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(14,32): warning CS8604: Possible null reference argument for parameter 'array' in 'void PostmanSorter.Sort(string[] array)'. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(14,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(22,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(33,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(48,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(70,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(102,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+  PostmanSortTest -> D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\bin\Debug\net9.0\PostmanSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(14,32): warning CS8604: Possible null reference argument for parameter 'array' in 'void PostmanSorter.Sort(string[] array)'. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(14,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(22,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(33,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(48,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(70,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(102,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+    7 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.25
+
+</CompilerResponse>
+2025-02-23 1:07:43 PM
+PostmanSortTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 1:07:45 PM
+PostmanSort</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PostmanSort -> D:\Code2025\RavenWork\PostmanSort\PostmanSort\bin\Debug\net9.0\PostmanSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+]]></string>
+    <string>WritePatch: Code is Complete.
+PostmanSort</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:08:04 PM
+PostmanSortTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PostmanSort -> D:\Code2025\RavenWork\PostmanSort\PostmanSort\bin\Debug\net9.0\PostmanSort.dll
+  PostmanSortTest -> D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\bin\Debug\net9.0\PostmanSortTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.06
+]]></string>
+    <string>WritePatch: Code is Complete.
+PostmanSortTest</string>
+    <string>[INFO 2025-02-23 1:09:33 PM] Starting test for project: D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj</string>
+    <string>[INFO 2025-02-23 1:09:33 PM] Starting test for project: D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj</string>
+    <string>[INFO 2025-02-23 1:09:33 PM] Starting test for project: D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj</string>
+    <string>[INFO 2025-02-23 1:09:33 PM] Starting test for project: D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj</string>
+    <string>[INFO 2025-02-23 1:09:33 PM] Starting test for project: D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj</string>
+    <string>[INFO 2025-02-23 1:09:33 PM] Starting test for project: D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj</string>
+    <string>[INFO 2025-02-23 1:09:33 PM] Starting test for project: D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 1:09:37 PM] All tests passed successfully.
+[INFO 2025-02-23 1:09:37 PM] Test process completed. Duration: 4.38 seconds.
+[INFO 2025-02-23 1:09:37 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 1:09:38 PM] Test run for D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\bin\Debug\net9.0\PostmanSortTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 1:09:37 PM]   PostmanSortTest -> D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\bin\Debug\net9.0\PostmanSortTest.dll
+[OUTPUT 2025-02-23 1:09:36 PM]   PostmanSort -> D:\Code2025\RavenWork\PostmanSort\PostmanSort\bin\Debug\net9.0\PostmanSort.dll
+[OUTPUT 2025-02-23 1:09:36 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:09:35 PM]   Determining projects to restore...
+[INFO 2025-02-23 1:09:33 PM] Command: dotnet test "D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:09:33 PM] Starting test for project: D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 12:59:31 PM
+PostmanSort
+
+WritePatch ran compiler. 2025-02-23 1:00:38 PM
+PostmanSort
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PostmanSort -> D:\Code2025\RavenWork\PostmanSort\PostmanSort\bin\Debug\net9.0\PostmanSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+
+
+WritePatch: Code is Complete.
+PostmanSort
+
+WritePatch Started CycleStep. 2025-02-23 1:02:16 PM
+PostmanSortTest
+
+WritePatch ran compiler. 2025-02-23 1:03:13 PM
+PostmanSortTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj (in 227 ms).
+  1 of 2 projects are up-to-date for restore.
+  PostmanSort -> D:\Code2025\RavenWork\PostmanSort\PostmanSort\bin\Debug\net9.0\PostmanSort.dll
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(13,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(14,32): warning CS8604: Possible null reference argument for parameter 'array' in 'void PostmanSorter.Sort(string[] array)'. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(65,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(67,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(73,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(74,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+  PostmanSortTest -> D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\bin\Debug\net9.0\PostmanSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(13,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(14,32): warning CS8604: Possible null reference argument for parameter 'array' in 'void PostmanSorter.Sort(string[] array)'. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(65,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(67,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(73,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(74,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+    6 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.62
+
+
+WritePatch: Compile failed.
+PostmanSortTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:04:20 PM
+PostmanSortTest
+
+WritePatch Started CycleStep. 2025-02-23 1:04:44 PM
+PostmanSortTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 1:06:19 PM
+PostmanSortTest
+
+WritePatch Started CycleStep. 2025-02-23 1:06:41 PM
+PostmanSortTest
+
+WritePatch ran compiler. 2025-02-23 1:07:40 PM
+PostmanSortTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PostmanSort -> D:\Code2025\RavenWork\PostmanSort\PostmanSort\bin\Debug\net9.0\PostmanSort.dll
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(14,32): warning CS8604: Possible null reference argument for parameter 'array' in 'void PostmanSorter.Sort(string[] array)'. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(14,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(22,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(33,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(48,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(70,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(102,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+  PostmanSortTest -> D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\bin\Debug\net9.0\PostmanSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(14,32): warning CS8604: Possible null reference argument for parameter 'array' in 'void PostmanSorter.Sort(string[] array)'. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(14,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(22,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(33,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(48,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(70,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(102,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+    7 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.25
+
+
+WritePatch: Compile failed.
+PostmanSortTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:07:43 PM
+PostmanSortTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PostmanSort -> D:\Code2025\RavenWork\PostmanSort\PostmanSort\bin\Debug\net9.0\PostmanSort.dll
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(14,32): warning CS8604: Possible null reference argument for parameter 'array' in 'void PostmanSorter.Sort(string[] array)'. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(14,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(22,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(33,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(48,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(70,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(102,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+  PostmanSortTest -> D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\bin\Debug\net9.0\PostmanSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(14,32): warning CS8604: Possible null reference argument for parameter 'array' in 'void PostmanSorter.Sort(string[] array)'. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(14,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(22,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(33,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(48,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(70,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSorterTests.cs(102,32): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'array' of type 'string[]' in 'void PostmanSorter.Sort(string[] array)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj]
+    7 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.25
+
+</CompilerResponse>
+2025-02-23 1:07:43 PM
+PostmanSortTest
+
+WritePatch ran compiler. 2025-02-23 1:07:45 PM
+PostmanSort
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PostmanSort -> D:\Code2025\RavenWork\PostmanSort\PostmanSort\bin\Debug\net9.0\PostmanSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+
+
+WritePatch: Code is Complete.
+PostmanSort
+
+WritePatch ran compiler. 2025-02-23 1:08:04 PM
+PostmanSortTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PostmanSort -> D:\Code2025\RavenWork\PostmanSort\PostmanSort\bin\Debug\net9.0\PostmanSort.dll
+  PostmanSortTest -> D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\bin\Debug\net9.0\PostmanSortTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.06
+
+
+WritePatch: Code is Complete.
+PostmanSortTest
+
+TestResult:
+[SUCCESS 2025-02-23 1:09:37 PM] All tests passed successfully.
+[INFO 2025-02-23 1:09:37 PM] Test process completed. Duration: 4.38 seconds.
+[INFO 2025-02-23 1:09:37 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 1:09:38 PM] Test run for D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\bin\Debug\net9.0\PostmanSortTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 1:09:37 PM]   PostmanSortTest -> D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\bin\Debug\net9.0\PostmanSortTest.dll
+[OUTPUT 2025-02-23 1:09:36 PM]   PostmanSort -> D:\Code2025\RavenWork\PostmanSort\PostmanSort\bin\Debug\net9.0\PostmanSort.dll
+[OUTPUT 2025-02-23 1:09:36 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:09:35 PM]   Determining projects to restore...
+[INFO 2025-02-23 1:09:33 PM] Command: dotnet test "D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:09:33 PM] Starting test for project: D:\Code2025\RavenWork\PostmanSort\PostmanSortTest\PostmanSortTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
