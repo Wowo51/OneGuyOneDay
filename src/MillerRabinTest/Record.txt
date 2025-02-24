@@ -1,0 +1,251 @@
+<ActRecord>
+  <ProjectName>MillerRabinTest</ProjectName>
+  <ProjectDescription>Miller–Rabin primality test – A widely used probabilistic algorithm to test for primality.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Miller–Rabin primality test – A widely used probabilistic algorithm to test for primality.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\MillerRabinTest</SolutionFolderPath>
+  <ProjectFolderName>MillerRabinTest</ProjectFolderName>
+  <ProjectName>MillerRabinTest</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:56:01 AM
+MillerRabinTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:57:15 AM
+MillerRabinTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTest\Program.cs(11,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTest\MillerRabinTest.csproj]
+D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTest\Program.cs(12,82): warning CS8604: Possible null reference argument for parameter 'value' in 'BigInteger BigInteger.Parse(string value)'. [D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTest\MillerRabinTest.csproj]
+  MillerRabinTest -> D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTest\bin\Debug\net9.0\MillerRabinTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTest\Program.cs(11,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTest\MillerRabinTest.csproj]
+D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTest\Program.cs(12,82): warning CS8604: Possible null reference argument for parameter 'value' in 'BigInteger BigInteger.Parse(string value)'. [D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTest\MillerRabinTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+]]></string>
+    <string>WritePatch: Compile failed.
+MillerRabinTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:57:15 AM
+MillerRabinTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:57:16 AM
+MillerRabinTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:57:30 AM
+MillerRabinTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  MillerRabinTest -> D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTest\bin\Debug\net9.0\MillerRabinTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+]]></string>
+    <string>WritePatch: Code is not Complete.
+MillerRabinTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:57:43 AM
+MillerRabinTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:57:44 AM
+MillerRabinTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:58:15 AM
+MillerRabinTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  MillerRabinTest -> D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTest\bin\Debug\net9.0\MillerRabinTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.78
+]]></string>
+    <string>WritePatch: Code is Complete.
+MillerRabinTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:58:30 AM
+MillerRabinTestTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:59:14 AM
+MillerRabinTestTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTestTest\MillerRabinTestTest.csproj (in 191 ms).
+  1 of 2 projects are up-to-date for restore.
+  MillerRabinTest -> D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTest\bin\Debug\net9.0\MillerRabinTest.dll
+  MillerRabinTestTest -> D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTestTest\bin\Debug\net9.0\MillerRabinTestTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.32
+]]></string>
+    <string>WritePatch: Code is Complete.
+MillerRabinTestTest</string>
+    <string>[INFO 2025-02-23 7:59:30 AM] Starting test for project: D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTestTest\MillerRabinTestTest.csproj</string>
+    <string>[INFO 2025-02-23 7:59:30 AM] Starting test for project: D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTestTest\MillerRabinTestTest.csproj</string>
+    <string>[INFO 2025-02-23 7:59:30 AM] Starting test for project: D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTestTest\MillerRabinTestTest.csproj</string>
+    <string>[INFO 2025-02-23 7:59:30 AM] Starting test for project: D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTestTest\MillerRabinTestTest.csproj</string>
+    <string>[INFO 2025-02-23 7:59:30 AM] Starting test for project: D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTestTest\MillerRabinTestTest.csproj</string>
+    <string>[INFO 2025-02-23 7:59:30 AM] Starting test for project: D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTestTest\MillerRabinTestTest.csproj</string>
+    <string>[INFO 2025-02-23 7:59:30 AM] Starting test for project: D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTestTest\MillerRabinTestTest.csproj</string>
+    <string>[INFO 2025-02-23 7:59:30 AM] Starting test for project: D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTestTest\MillerRabinTestTest.csproj</string>
+    <string>[INFO 2025-02-23 7:59:30 AM] Starting test for project: D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTestTest\MillerRabinTestTest.csproj</string>
+    <string>[INFO 2025-02-23 7:59:30 AM] Starting test for project: D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTestTest\MillerRabinTestTest.csproj</string>
+    <string>[INFO 2025-02-23 7:59:30 AM] Starting test for project: D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTestTest\MillerRabinTestTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 7:59:34 AM] All tests passed successfully.
+[INFO 2025-02-23 7:59:34 AM] Test process completed. Duration: 4.11 seconds.
+[INFO 2025-02-23 7:59:34 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 7:59:34 AM] D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTestTest\bin\Debug\net9.0\MillerRabinTestTest.dll
+[OUTPUT 2025-02-23 7:59:34 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:59:33 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:59:32 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:59:32 AM] Test run for D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTestTest\bin\Debug\net9.0\MillerRabinTestTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:59:32 AM]   MillerRabinTestTest -> D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTestTest\bin\Debug\net9.0\MillerRabinTestTest.dll
+[OUTPUT 2025-02-23 7:59:31 AM]   MillerRabinTest -> D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTest\bin\Debug\net9.0\MillerRabinTest.dll
+[OUTPUT 2025-02-23 7:59:31 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:59:31 AM]   Determining projects to restore...
+[INFO 2025-02-23 7:59:30 AM] Command: dotnet test "D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTestTest\MillerRabinTestTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:59:30 AM] Starting test for project: D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTestTest\MillerRabinTestTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 7:56:01 AM
+MillerRabinTest
+
+WritePatch ran compiler. 2025-02-23 7:57:15 AM
+MillerRabinTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTest\Program.cs(11,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTest\MillerRabinTest.csproj]
+D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTest\Program.cs(12,82): warning CS8604: Possible null reference argument for parameter 'value' in 'BigInteger BigInteger.Parse(string value)'. [D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTest\MillerRabinTest.csproj]
+  MillerRabinTest -> D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTest\bin\Debug\net9.0\MillerRabinTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTest\Program.cs(11,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTest\MillerRabinTest.csproj]
+D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTest\Program.cs(12,82): warning CS8604: Possible null reference argument for parameter 'value' in 'BigInteger BigInteger.Parse(string value)'. [D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTest\MillerRabinTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+
+
+WritePatch: Compile failed.
+MillerRabinTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:57:15 AM
+MillerRabinTest
+
+WritePatch Started CycleStep. 2025-02-23 7:57:16 AM
+MillerRabinTest
+
+WritePatch ran compiler. 2025-02-23 7:57:30 AM
+MillerRabinTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  MillerRabinTest -> D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTest\bin\Debug\net9.0\MillerRabinTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+
+
+WritePatch: Code is not Complete.
+MillerRabinTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:57:43 AM
+MillerRabinTest
+
+WritePatch Started CycleStep. 2025-02-23 7:57:44 AM
+MillerRabinTest
+
+WritePatch ran compiler. 2025-02-23 7:58:15 AM
+MillerRabinTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  MillerRabinTest -> D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTest\bin\Debug\net9.0\MillerRabinTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.78
+
+
+WritePatch: Code is Complete.
+MillerRabinTest
+
+WritePatch Started CycleStep. 2025-02-23 7:58:30 AM
+MillerRabinTestTest
+
+WritePatch ran compiler. 2025-02-23 7:59:14 AM
+MillerRabinTestTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTestTest\MillerRabinTestTest.csproj (in 191 ms).
+  1 of 2 projects are up-to-date for restore.
+  MillerRabinTest -> D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTest\bin\Debug\net9.0\MillerRabinTest.dll
+  MillerRabinTestTest -> D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTestTest\bin\Debug\net9.0\MillerRabinTestTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.32
+
+
+WritePatch: Code is Complete.
+MillerRabinTestTest
+
+TestResult:
+[SUCCESS 2025-02-23 7:59:34 AM] All tests passed successfully.
+[INFO 2025-02-23 7:59:34 AM] Test process completed. Duration: 4.11 seconds.
+[INFO 2025-02-23 7:59:34 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 7:59:34 AM] D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTestTest\bin\Debug\net9.0\MillerRabinTestTest.dll
+[OUTPUT 2025-02-23 7:59:34 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:59:33 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:59:32 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:59:32 AM] Test run for D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTestTest\bin\Debug\net9.0\MillerRabinTestTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:59:32 AM]   MillerRabinTestTest -> D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTestTest\bin\Debug\net9.0\MillerRabinTestTest.dll
+[OUTPUT 2025-02-23 7:59:31 AM]   MillerRabinTest -> D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTest\bin\Debug\net9.0\MillerRabinTest.dll
+[OUTPUT 2025-02-23 7:59:31 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:59:31 AM]   Determining projects to restore...
+[INFO 2025-02-23 7:59:30 AM] Command: dotnet test "D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTestTest\MillerRabinTestTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:59:30 AM] Starting test for project: D:\Code2025\RavenWork\MillerRabinTest\MillerRabinTestTest\MillerRabinTestTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
