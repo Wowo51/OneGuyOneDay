@@ -1,0 +1,343 @@
+<ActRecord>
+  <ProjectName>ShuntingYardAlgorithm</ProjectName>
+  <ProjectDescription>Shunting‑yard algorithm: Converts an infix mathematical expression to postfix form</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Shunting‑yard algorithm: Converts an infix mathematical expression to postfix form</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\ShuntingYardAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>ShuntingYardAlgorithm</ProjectFolderName>
+  <ProjectName>ShuntingYardAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:41:50 AM
+ShuntingYardAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:42:26 AM
+ShuntingYardAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ShuntingYardAlgorithm -> D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithm\bin\Debug\net9.0\ShuntingYardAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.76
+]]></string>
+    <string>WritePatch: Code is Complete.
+ShuntingYardAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:42:43 AM
+ShuntingYardAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:43:38 AM
+ShuntingYardAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\ShuntingYardAlgorithmTest.csproj (in 181 ms).
+  1 of 2 projects are up-to-date for restore.
+  ShuntingYardAlgorithm -> D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithm\bin\Debug\net9.0\ShuntingYardAlgorithm.dll
+D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\ShuntingYardAlgorithmTests.cs(14,68): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\ShuntingYardAlgorithmTest.csproj]
+  ShuntingYardAlgorithmTest -> D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\bin\Debug\net9.0\ShuntingYardAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\ShuntingYardAlgorithmTests.cs(14,68): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\ShuntingYardAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.28
+]]></string>
+    <string>WritePatch: Compile failed.
+ShuntingYardAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:43:38 AM
+ShuntingYardAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:43:38 AM
+ShuntingYardAlgorithmTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 6:44:16 AM
+ShuntingYardAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:44:16 AM
+ShuntingYardAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:44:48 AM
+ShuntingYardAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ShuntingYardAlgorithm -> D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithm\bin\Debug\net9.0\ShuntingYardAlgorithm.dll
+  ShuntingYardAlgorithmTest -> D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\bin\Debug\net9.0\ShuntingYardAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.80
+]]></string>
+    <string>WritePatch: Code is not Complete.
+ShuntingYardAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:45:04 AM
+ShuntingYardAlgorithmTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ShuntingYardAlgorithm -> D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithm\bin\Debug\net9.0\ShuntingYardAlgorithm.dll
+  ShuntingYardAlgorithmTest -> D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\bin\Debug\net9.0\ShuntingYardAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.80
+
+</CompilerResponse>
+2025-02-23 6:45:04 AM
+ShuntingYardAlgorithmTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 6:45:05 AM
+ShuntingYardAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ShuntingYardAlgorithm -> D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithm\bin\Debug\net9.0\ShuntingYardAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.63
+]]></string>
+    <string>WritePatch: Code is Complete.
+ShuntingYardAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:45:17 AM
+ShuntingYardAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ShuntingYardAlgorithm -> D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithm\bin\Debug\net9.0\ShuntingYardAlgorithm.dll
+  ShuntingYardAlgorithmTest -> D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\bin\Debug\net9.0\ShuntingYardAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.84
+]]></string>
+    <string>WritePatch: Code is Complete.
+ShuntingYardAlgorithmTest</string>
+    <string>[INFO 2025-02-23 6:45:35 AM] Starting test for project: D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\ShuntingYardAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:45:35 AM] Starting test for project: D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\ShuntingYardAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:45:35 AM] Starting test for project: D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\ShuntingYardAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:45:35 AM] Starting test for project: D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\ShuntingYardAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:45:35 AM] Starting test for project: D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\ShuntingYardAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:45:35 AM] Starting test for project: D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\ShuntingYardAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:45:35 AM] Starting test for project: D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\ShuntingYardAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:45:35 AM] Starting test for project: D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\ShuntingYardAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:45:35 AM] Starting test for project: D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\ShuntingYardAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:45:35 AM] Starting test for project: D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\ShuntingYardAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:45:35 AM] Starting test for project: D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\ShuntingYardAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:45:35 AM] Starting test for project: D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\ShuntingYardAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:45:35 AM] Starting test for project: D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\ShuntingYardAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 6:45:35 AM] Starting test for project: D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\ShuntingYardAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 6:45:37 AM] Test Parallelization enabled for D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\bin\Debug\net9.0\ShuntingYardAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 6:45:35 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 6:45:37 AM]   Passed ConvertToPostfix_OperatorPrecedence_ReturnsCorrectPostfix [4 ms]
+[OUTPUT 2025-02-23 6:45:37 AM]   Passed ConvertToPostfix_SingleNumber_ReturnsSameNumber [4 ms]
+[OUTPUT 2025-02-23 6:45:37 AM] D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\bin\Debug\net9.0\ShuntingYardAlgorithmTest.dll
+[OUTPUT 2025-02-23 6:45:37 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:45:36 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:45:36 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:45:36 AM] Test run for D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\bin\Debug\net9.0\ShuntingYardAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:45:36 AM]   ShuntingYardAlgorithmTest -> D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\bin\Debug\net9.0\ShuntingYardAlgorithmTest.dll
+[OUTPUT 2025-02-23 6:45:36 AM]   ShuntingYardAlgorithm -> D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithm\bin\Debug\net9.0\ShuntingYardAlgorithm.dll
+[OUTPUT 2025-02-23 6:45:35 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 6:45:37 AM] All tests passed successfully.
+[INFO 2025-02-23 6:45:37 AM] Test process completed. Duration: 2.63 seconds.
+[INFO 2025-02-23 6:45:37 AM] Process exited with code 0.
+[INFO 2025-02-23 6:45:35 AM] Command: dotnet test "D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\ShuntingYardAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:45:35 AM] Starting test for project: D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\ShuntingYardAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 6:41:50 AM
+ShuntingYardAlgorithm
+
+WritePatch ran compiler. 2025-02-23 6:42:26 AM
+ShuntingYardAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ShuntingYardAlgorithm -> D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithm\bin\Debug\net9.0\ShuntingYardAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.76
+
+
+WritePatch: Code is Complete.
+ShuntingYardAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 6:42:43 AM
+ShuntingYardAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 6:43:38 AM
+ShuntingYardAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\ShuntingYardAlgorithmTest.csproj (in 181 ms).
+  1 of 2 projects are up-to-date for restore.
+  ShuntingYardAlgorithm -> D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithm\bin\Debug\net9.0\ShuntingYardAlgorithm.dll
+D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\ShuntingYardAlgorithmTests.cs(14,68): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\ShuntingYardAlgorithmTest.csproj]
+  ShuntingYardAlgorithmTest -> D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\bin\Debug\net9.0\ShuntingYardAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\ShuntingYardAlgorithmTests.cs(14,68): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\ShuntingYardAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.28
+
+
+WritePatch: Compile failed.
+ShuntingYardAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 6:43:38 AM
+ShuntingYardAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 6:43:38 AM
+ShuntingYardAlgorithmTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 6:44:16 AM
+ShuntingYardAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 6:44:16 AM
+ShuntingYardAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 6:44:48 AM
+ShuntingYardAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ShuntingYardAlgorithm -> D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithm\bin\Debug\net9.0\ShuntingYardAlgorithm.dll
+  ShuntingYardAlgorithmTest -> D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\bin\Debug\net9.0\ShuntingYardAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.80
+
+
+WritePatch: Code is not Complete.
+ShuntingYardAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 6:45:04 AM
+ShuntingYardAlgorithmTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ShuntingYardAlgorithm -> D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithm\bin\Debug\net9.0\ShuntingYardAlgorithm.dll
+  ShuntingYardAlgorithmTest -> D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\bin\Debug\net9.0\ShuntingYardAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.80
+
+</CompilerResponse>
+2025-02-23 6:45:04 AM
+ShuntingYardAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 6:45:05 AM
+ShuntingYardAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ShuntingYardAlgorithm -> D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithm\bin\Debug\net9.0\ShuntingYardAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.63
+
+
+WritePatch: Code is Complete.
+ShuntingYardAlgorithm
+
+WritePatch ran compiler. 2025-02-23 6:45:17 AM
+ShuntingYardAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ShuntingYardAlgorithm -> D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithm\bin\Debug\net9.0\ShuntingYardAlgorithm.dll
+  ShuntingYardAlgorithmTest -> D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\bin\Debug\net9.0\ShuntingYardAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.84
+
+
+WritePatch: Code is Complete.
+ShuntingYardAlgorithmTest
+
+TestResult:
+[OUTPUT 2025-02-23 6:45:37 AM] Test Parallelization enabled for D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\bin\Debug\net9.0\ShuntingYardAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 6:45:35 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 6:45:37 AM]   Passed ConvertToPostfix_OperatorPrecedence_ReturnsCorrectPostfix [4 ms]
+[OUTPUT 2025-02-23 6:45:37 AM]   Passed ConvertToPostfix_SingleNumber_ReturnsSameNumber [4 ms]
+[OUTPUT 2025-02-23 6:45:37 AM] D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\bin\Debug\net9.0\ShuntingYardAlgorithmTest.dll
+[OUTPUT 2025-02-23 6:45:37 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:45:36 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:45:36 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:45:36 AM] Test run for D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\bin\Debug\net9.0\ShuntingYardAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:45:36 AM]   ShuntingYardAlgorithmTest -> D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\bin\Debug\net9.0\ShuntingYardAlgorithmTest.dll
+[OUTPUT 2025-02-23 6:45:36 AM]   ShuntingYardAlgorithm -> D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithm\bin\Debug\net9.0\ShuntingYardAlgorithm.dll
+[OUTPUT 2025-02-23 6:45:35 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 6:45:37 AM] All tests passed successfully.
+[INFO 2025-02-23 6:45:37 AM] Test process completed. Duration: 2.63 seconds.
+[INFO 2025-02-23 6:45:37 AM] Process exited with code 0.
+[INFO 2025-02-23 6:45:35 AM] Command: dotnet test "D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\ShuntingYardAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:45:35 AM] Starting test for project: D:\Code2025\RavenWork\ShuntingYardAlgorithm\ShuntingYardAlgorithmTest\ShuntingYardAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
