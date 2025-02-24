@@ -1,0 +1,384 @@
+<ActRecord>
+  <ProjectName>LempelZivWelch</ProjectName>
+  <ProjectDescription>Lempel–Ziv–Welch (LZW)</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Lempel–Ziv–Welch (LZW)</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\LempelZivWelch</SolutionFolderPath>
+  <ProjectFolderName>LempelZivWelch</ProjectFolderName>
+  <ProjectName>LempelZivWelch</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:06:33 AM
+LempelZivWelch</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:07:09 AM
+LempelZivWelch</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LempelZivWelch -> D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelch\bin\Debug\net9.0\LempelZivWelch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.79
+]]></string>
+    <string>WritePatch: Code is Complete.
+LempelZivWelch</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:07:32 AM
+LempelZivWelchTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:08:24 AM
+LempelZivWelchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LempelZivWelchTest.csproj (in 311 ms).
+  1 of 2 projects are up-to-date for restore.
+  LempelZivWelch -> D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelch\bin\Debug\net9.0\LempelZivWelch.dll
+D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LzwTests.cs(15,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LempelZivWelchTest.csproj]
+D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LzwTests.cs(31,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LempelZivWelchTest.csproj]
+  LempelZivWelchTest -> D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\bin\Debug\net9.0\LempelZivWelchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LzwTests.cs(15,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LempelZivWelchTest.csproj]
+D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LzwTests.cs(31,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LempelZivWelchTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.10
+]]></string>
+    <string>WritePatch: Compile failed.
+LempelZivWelchTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:08:26 AM
+LempelZivWelchTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:08:26 AM
+LempelZivWelchTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:09:07 AM
+LempelZivWelchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LempelZivWelch -> D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelch\bin\Debug\net9.0\LempelZivWelch.dll
+D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LzwTests.cs(15,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LempelZivWelchTest.csproj]
+D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LzwTests.cs(31,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LempelZivWelchTest.csproj]
+  LempelZivWelchTest -> D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\bin\Debug\net9.0\LempelZivWelchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LzwTests.cs(15,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LempelZivWelchTest.csproj]
+D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LzwTests.cs(31,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LempelZivWelchTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.53
+]]></string>
+    <string>WritePatch: Compile failed.
+LempelZivWelchTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:09:09 AM
+LempelZivWelchTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:09:10 AM
+LempelZivWelchTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:09:35 AM
+LempelZivWelchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LempelZivWelch -> D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelch\bin\Debug\net9.0\LempelZivWelch.dll
+  LempelZivWelchTest -> D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\bin\Debug\net9.0\LempelZivWelchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.55
+]]></string>
+    <string>WritePatch: Code is not Complete.
+LempelZivWelchTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:10:28 AM
+LempelZivWelchTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LempelZivWelch -> D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelch\bin\Debug\net9.0\LempelZivWelch.dll
+  LempelZivWelchTest -> D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\bin\Debug\net9.0\LempelZivWelchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.55
+
+</CompilerResponse>
+2025-02-23 9:10:28 AM
+LempelZivWelchTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 9:10:30 AM
+LempelZivWelch</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LempelZivWelch -> D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelch\bin\Debug\net9.0\LempelZivWelch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.82
+]]></string>
+    <string>WritePatch: Code is Complete.
+LempelZivWelch</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:10:54 AM
+LempelZivWelchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LempelZivWelch -> D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelch\bin\Debug\net9.0\LempelZivWelch.dll
+  LempelZivWelchTest -> D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\bin\Debug\net9.0\LempelZivWelchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.14
+]]></string>
+    <string>WritePatch: Code is Complete.
+LempelZivWelchTest</string>
+    <string>[INFO 2025-02-23 9:11:08 AM] Starting test for project: D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LempelZivWelchTest.csproj</string>
+    <string>[INFO 2025-02-23 9:11:08 AM] Starting test for project: D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LempelZivWelchTest.csproj</string>
+    <string>[INFO 2025-02-23 9:11:08 AM] Starting test for project: D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LempelZivWelchTest.csproj</string>
+    <string>[INFO 2025-02-23 9:11:08 AM] Starting test for project: D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LempelZivWelchTest.csproj</string>
+    <string>[INFO 2025-02-23 9:11:08 AM] Starting test for project: D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LempelZivWelchTest.csproj</string>
+    <string>[INFO 2025-02-23 9:11:08 AM] Starting test for project: D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LempelZivWelchTest.csproj</string>
+    <string>[INFO 2025-02-23 9:11:08 AM] Starting test for project: D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LempelZivWelchTest.csproj</string>
+    <string>[INFO 2025-02-23 9:11:08 AM] Starting test for project: D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LempelZivWelchTest.csproj</string>
+    <string>[INFO 2025-02-23 9:11:08 AM] Starting test for project: D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LempelZivWelchTest.csproj</string>
+    <string>[INFO 2025-02-23 9:11:08 AM] Starting test for project: D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LempelZivWelchTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 9:11:14 AM] All tests passed successfully.
+[INFO 2025-02-23 9:11:14 AM] Test process completed. Duration: 5.98 seconds.
+[INFO 2025-02-23 9:11:14 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 9:11:10 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 9:11:13 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 9:11:13 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 9:11:12 AM] Test run for D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\bin\Debug\net9.0\LempelZivWelchTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 9:11:11 AM]   LempelZivWelchTest -> D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\bin\Debug\net9.0\LempelZivWelchTest.dll
+[OUTPUT 2025-02-23 9:11:11 AM]   LempelZivWelch -> D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelch\bin\Debug\net9.0\LempelZivWelch.dll
+[OUTPUT 2025-02-23 9:11:10 AM]   Determining projects to restore...
+[OUTPUT 2025-02-23 9:11:15 AM] A total of 1 test files matched the specified pattern.
+[INFO 2025-02-23 9:11:08 AM] Command: dotnet test "D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LempelZivWelchTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 9:11:08 AM] Starting test for project: D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LempelZivWelchTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 9:06:33 AM
+LempelZivWelch
+
+WritePatch ran compiler. 2025-02-23 9:07:09 AM
+LempelZivWelch
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LempelZivWelch -> D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelch\bin\Debug\net9.0\LempelZivWelch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.79
+
+
+WritePatch: Code is Complete.
+LempelZivWelch
+
+WritePatch Started CycleStep. 2025-02-23 9:07:32 AM
+LempelZivWelchTest
+
+WritePatch ran compiler. 2025-02-23 9:08:24 AM
+LempelZivWelchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LempelZivWelchTest.csproj (in 311 ms).
+  1 of 2 projects are up-to-date for restore.
+  LempelZivWelch -> D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelch\bin\Debug\net9.0\LempelZivWelch.dll
+D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LzwTests.cs(15,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LempelZivWelchTest.csproj]
+D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LzwTests.cs(31,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LempelZivWelchTest.csproj]
+  LempelZivWelchTest -> D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\bin\Debug\net9.0\LempelZivWelchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LzwTests.cs(15,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LempelZivWelchTest.csproj]
+D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LzwTests.cs(31,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LempelZivWelchTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.10
+
+
+WritePatch: Compile failed.
+LempelZivWelchTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:08:26 AM
+LempelZivWelchTest
+
+WritePatch Started CycleStep. 2025-02-23 9:08:26 AM
+LempelZivWelchTest
+
+WritePatch ran compiler. 2025-02-23 9:09:07 AM
+LempelZivWelchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LempelZivWelch -> D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelch\bin\Debug\net9.0\LempelZivWelch.dll
+D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LzwTests.cs(15,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LempelZivWelchTest.csproj]
+D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LzwTests.cs(31,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LempelZivWelchTest.csproj]
+  LempelZivWelchTest -> D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\bin\Debug\net9.0\LempelZivWelchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LzwTests.cs(15,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LempelZivWelchTest.csproj]
+D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LzwTests.cs(31,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LempelZivWelchTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.53
+
+
+WritePatch: Compile failed.
+LempelZivWelchTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:09:09 AM
+LempelZivWelchTest
+
+WritePatch Started CycleStep. 2025-02-23 9:09:10 AM
+LempelZivWelchTest
+
+WritePatch ran compiler. 2025-02-23 9:09:35 AM
+LempelZivWelchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LempelZivWelch -> D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelch\bin\Debug\net9.0\LempelZivWelch.dll
+  LempelZivWelchTest -> D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\bin\Debug\net9.0\LempelZivWelchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.55
+
+
+WritePatch: Code is not Complete.
+LempelZivWelchTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:10:28 AM
+LempelZivWelchTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LempelZivWelch -> D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelch\bin\Debug\net9.0\LempelZivWelch.dll
+  LempelZivWelchTest -> D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\bin\Debug\net9.0\LempelZivWelchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.55
+
+</CompilerResponse>
+2025-02-23 9:10:28 AM
+LempelZivWelchTest
+
+WritePatch ran compiler. 2025-02-23 9:10:30 AM
+LempelZivWelch
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LempelZivWelch -> D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelch\bin\Debug\net9.0\LempelZivWelch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.82
+
+
+WritePatch: Code is Complete.
+LempelZivWelch
+
+WritePatch ran compiler. 2025-02-23 9:10:54 AM
+LempelZivWelchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LempelZivWelch -> D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelch\bin\Debug\net9.0\LempelZivWelch.dll
+  LempelZivWelchTest -> D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\bin\Debug\net9.0\LempelZivWelchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.14
+
+
+WritePatch: Code is Complete.
+LempelZivWelchTest
+
+TestResult:
+[SUCCESS 2025-02-23 9:11:14 AM] All tests passed successfully.
+[INFO 2025-02-23 9:11:14 AM] Test process completed. Duration: 5.98 seconds.
+[INFO 2025-02-23 9:11:14 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 9:11:10 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 9:11:13 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 9:11:13 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 9:11:12 AM] Test run for D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\bin\Debug\net9.0\LempelZivWelchTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 9:11:11 AM]   LempelZivWelchTest -> D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\bin\Debug\net9.0\LempelZivWelchTest.dll
+[OUTPUT 2025-02-23 9:11:11 AM]   LempelZivWelch -> D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelch\bin\Debug\net9.0\LempelZivWelch.dll
+[OUTPUT 2025-02-23 9:11:10 AM]   Determining projects to restore...
+[OUTPUT 2025-02-23 9:11:15 AM] A total of 1 test files matched the specified pattern.
+[INFO 2025-02-23 9:11:08 AM] Command: dotnet test "D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LempelZivWelchTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 9:11:08 AM] Starting test for project: D:\Code2025\RavenWork\LempelZivWelch\LempelZivWelchTest\LempelZivWelchTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
