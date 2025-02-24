@@ -1,0 +1,407 @@
+<ActRecord>
+  <ProjectName>StochasticUniversalSampling</ProjectName>
+  <ProjectDescription>Stochastic universal sampling – A selection algorithm that ensures a more even selection of individuals proportional to their fitness.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Stochastic universal sampling – A selection algorithm that ensures a more even selection of individuals proportional to their fitness.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\StochasticUniversalSampling</SolutionFolderPath>
+  <ProjectFolderName>StochasticUniversalSampling</ProjectFolderName>
+  <ProjectName>StochasticUniversalSampling</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:38:37 AM
+StochasticUniversalSampling</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 10:39:04 AM
+StochasticUniversalSampling</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:39:04 AM
+StochasticUniversalSampling</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:39:39 AM
+StochasticUniversalSampling</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StochasticUniversalSampling -> D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSampling\bin\Debug\net9.0\StochasticUniversalSampling.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.09
+]]></string>
+    <string>WritePatch: Code is Complete.
+StochasticUniversalSampling</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:40:09 AM
+StochasticUniversalSamplingTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:41:02 AM
+StochasticUniversalSamplingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj (in 205 ms).
+  1 of 2 projects are up-to-date for restore.
+  StochasticUniversalSampling -> D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSampling\bin\Debug\net9.0\StochasticUniversalSampling.dll
+D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplerTests.cs(14,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj]
+D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplerTests.cs(28,83): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj]
+  StochasticUniversalSamplingTest -> D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\bin\Debug\net9.0\StochasticUniversalSamplingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplerTests.cs(14,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj]
+D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplerTests.cs(28,83): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.46
+]]></string>
+    <string>WritePatch: Compile failed.
+StochasticUniversalSamplingTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:41:03 AM
+StochasticUniversalSamplingTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:41:03 AM
+StochasticUniversalSamplingTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:42:22 AM
+StochasticUniversalSamplingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StochasticUniversalSampling -> D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSampling\bin\Debug\net9.0\StochasticUniversalSampling.dll
+  StochasticUniversalSamplingTest -> D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\bin\Debug\net9.0\StochasticUniversalSamplingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.99
+]]></string>
+    <string>WritePatch: Code is not Complete.
+StochasticUniversalSamplingTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:43:07 AM
+StochasticUniversalSamplingTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:43:07 AM
+StochasticUniversalSamplingTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:44:02 AM
+StochasticUniversalSamplingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StochasticUniversalSampling -> D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSampling\bin\Debug\net9.0\StochasticUniversalSampling.dll
+D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplerTests.cs(14,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj]
+D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplerTests.cs(28,83): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj]
+  StochasticUniversalSamplingTest -> D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\bin\Debug\net9.0\StochasticUniversalSamplingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplerTests.cs(14,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj]
+D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplerTests.cs(28,83): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.14
+]]></string>
+    <string>WritePatch: Compile failed.
+StochasticUniversalSamplingTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:44:03 AM
+StochasticUniversalSamplingTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StochasticUniversalSampling -> D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSampling\bin\Debug\net9.0\StochasticUniversalSampling.dll
+D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplerTests.cs(14,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj]
+D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplerTests.cs(28,83): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj]
+  StochasticUniversalSamplingTest -> D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\bin\Debug\net9.0\StochasticUniversalSamplingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplerTests.cs(14,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj]
+D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplerTests.cs(28,83): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.14
+
+</CompilerResponse>
+2025-02-23 10:44:04 AM
+StochasticUniversalSamplingTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 10:44:05 AM
+StochasticUniversalSampling</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StochasticUniversalSampling -> D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSampling\bin\Debug\net9.0\StochasticUniversalSampling.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+]]></string>
+    <string>WritePatch: Code is Complete.
+StochasticUniversalSampling</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:44:14 AM
+StochasticUniversalSamplingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StochasticUniversalSampling -> D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSampling\bin\Debug\net9.0\StochasticUniversalSampling.dll
+  StochasticUniversalSamplingTest -> D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\bin\Debug\net9.0\StochasticUniversalSamplingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.00
+]]></string>
+    <string>WritePatch: Code is Complete.
+StochasticUniversalSamplingTest</string>
+    <string>[INFO 2025-02-23 10:44:35 AM] Starting test for project: D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj</string>
+    <string>[INFO 2025-02-23 10:44:35 AM] Starting test for project: D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj</string>
+    <string>[INFO 2025-02-23 10:44:35 AM] Starting test for project: D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj</string>
+    <string>[INFO 2025-02-23 10:44:35 AM] Starting test for project: D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj</string>
+    <string>[INFO 2025-02-23 10:44:35 AM] Starting test for project: D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj</string>
+    <string>[INFO 2025-02-23 10:44:35 AM] Starting test for project: D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj</string>
+    <string>[INFO 2025-02-23 10:44:35 AM] Starting test for project: D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj</string>
+    <string>[INFO 2025-02-23 10:44:35 AM] Starting test for project: D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj</string>
+    <string>[INFO 2025-02-23 10:44:35 AM] Starting test for project: D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj</string>
+    <string>[INFO 2025-02-23 10:44:35 AM] Starting test for project: D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj</string>
+    <string>[INFO 2025-02-23 10:44:35 AM] Starting test for project: D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 10:44:38 AM] All tests passed successfully.
+[INFO 2025-02-23 10:44:38 AM] Test process completed. Duration: 3.23 seconds.
+[INFO 2025-02-23 10:44:38 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 10:44:37 AM]   StochasticUniversalSampling -> D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSampling\bin\Debug\net9.0\StochasticUniversalSampling.dll
+[OUTPUT 2025-02-23 10:44:38 AM] D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\bin\Debug\net9.0\StochasticUniversalSamplingTest.dll
+[OUTPUT 2025-02-23 10:44:38 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:44:38 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:44:38 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:44:37 AM] Test run for D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\bin\Debug\net9.0\StochasticUniversalSamplingTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:44:37 AM]   StochasticUniversalSamplingTest -> D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\bin\Debug\net9.0\StochasticUniversalSamplingTest.dll
+[OUTPUT 2025-02-23 10:44:36 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:44:36 AM]   Determining projects to restore...
+[INFO 2025-02-23 10:44:35 AM] Command: dotnet test "D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:44:35 AM] Starting test for project: D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 10:38:37 AM
+StochasticUniversalSampling
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 10:39:04 AM
+StochasticUniversalSampling
+
+WritePatch Started CycleStep. 2025-02-23 10:39:04 AM
+StochasticUniversalSampling
+
+WritePatch ran compiler. 2025-02-23 10:39:39 AM
+StochasticUniversalSampling
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StochasticUniversalSampling -> D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSampling\bin\Debug\net9.0\StochasticUniversalSampling.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.09
+
+
+WritePatch: Code is Complete.
+StochasticUniversalSampling
+
+WritePatch Started CycleStep. 2025-02-23 10:40:09 AM
+StochasticUniversalSamplingTest
+
+WritePatch ran compiler. 2025-02-23 10:41:02 AM
+StochasticUniversalSamplingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj (in 205 ms).
+  1 of 2 projects are up-to-date for restore.
+  StochasticUniversalSampling -> D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSampling\bin\Debug\net9.0\StochasticUniversalSampling.dll
+D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplerTests.cs(14,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj]
+D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplerTests.cs(28,83): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj]
+  StochasticUniversalSamplingTest -> D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\bin\Debug\net9.0\StochasticUniversalSamplingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplerTests.cs(14,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj]
+D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplerTests.cs(28,83): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.46
+
+
+WritePatch: Compile failed.
+StochasticUniversalSamplingTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:41:03 AM
+StochasticUniversalSamplingTest
+
+WritePatch Started CycleStep. 2025-02-23 10:41:03 AM
+StochasticUniversalSamplingTest
+
+WritePatch ran compiler. 2025-02-23 10:42:22 AM
+StochasticUniversalSamplingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StochasticUniversalSampling -> D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSampling\bin\Debug\net9.0\StochasticUniversalSampling.dll
+  StochasticUniversalSamplingTest -> D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\bin\Debug\net9.0\StochasticUniversalSamplingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.99
+
+
+WritePatch: Code is not Complete.
+StochasticUniversalSamplingTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:43:07 AM
+StochasticUniversalSamplingTest
+
+WritePatch Started CycleStep. 2025-02-23 10:43:07 AM
+StochasticUniversalSamplingTest
+
+WritePatch ran compiler. 2025-02-23 10:44:02 AM
+StochasticUniversalSamplingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StochasticUniversalSampling -> D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSampling\bin\Debug\net9.0\StochasticUniversalSampling.dll
+D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplerTests.cs(14,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj]
+D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplerTests.cs(28,83): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj]
+  StochasticUniversalSamplingTest -> D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\bin\Debug\net9.0\StochasticUniversalSamplingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplerTests.cs(14,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj]
+D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplerTests.cs(28,83): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.14
+
+
+WritePatch: Compile failed.
+StochasticUniversalSamplingTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:44:03 AM
+StochasticUniversalSamplingTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StochasticUniversalSampling -> D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSampling\bin\Debug\net9.0\StochasticUniversalSampling.dll
+D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplerTests.cs(14,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj]
+D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplerTests.cs(28,83): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj]
+  StochasticUniversalSamplingTest -> D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\bin\Debug\net9.0\StochasticUniversalSamplingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplerTests.cs(14,71): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj]
+D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplerTests.cs(28,83): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.14
+
+</CompilerResponse>
+2025-02-23 10:44:04 AM
+StochasticUniversalSamplingTest
+
+WritePatch ran compiler. 2025-02-23 10:44:05 AM
+StochasticUniversalSampling
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StochasticUniversalSampling -> D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSampling\bin\Debug\net9.0\StochasticUniversalSampling.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+
+
+WritePatch: Code is Complete.
+StochasticUniversalSampling
+
+WritePatch ran compiler. 2025-02-23 10:44:14 AM
+StochasticUniversalSamplingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  StochasticUniversalSampling -> D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSampling\bin\Debug\net9.0\StochasticUniversalSampling.dll
+  StochasticUniversalSamplingTest -> D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\bin\Debug\net9.0\StochasticUniversalSamplingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.00
+
+
+WritePatch: Code is Complete.
+StochasticUniversalSamplingTest
+
+TestResult:
+[SUCCESS 2025-02-23 10:44:38 AM] All tests passed successfully.
+[INFO 2025-02-23 10:44:38 AM] Test process completed. Duration: 3.23 seconds.
+[INFO 2025-02-23 10:44:38 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 10:44:37 AM]   StochasticUniversalSampling -> D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSampling\bin\Debug\net9.0\StochasticUniversalSampling.dll
+[OUTPUT 2025-02-23 10:44:38 AM] D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\bin\Debug\net9.0\StochasticUniversalSamplingTest.dll
+[OUTPUT 2025-02-23 10:44:38 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:44:38 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:44:38 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:44:37 AM] Test run for D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\bin\Debug\net9.0\StochasticUniversalSamplingTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:44:37 AM]   StochasticUniversalSamplingTest -> D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\bin\Debug\net9.0\StochasticUniversalSamplingTest.dll
+[OUTPUT 2025-02-23 10:44:36 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:44:36 AM]   Determining projects to restore...
+[INFO 2025-02-23 10:44:35 AM] Command: dotnet test "D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:44:35 AM] Starting test for project: D:\Code2025\RavenWork\StochasticUniversalSampling\StochasticUniversalSamplingTest\StochasticUniversalSamplingTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
