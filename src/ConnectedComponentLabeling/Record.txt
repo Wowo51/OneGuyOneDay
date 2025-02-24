@@ -1,0 +1,397 @@
+<ActRecord>
+  <ProjectName>ConnectedComponentLabeling</ProjectName>
+  <ProjectDescription>Connected‑component labeling: Finds and labels disjoint regions in an image</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Connected‑component labeling: Finds and labels disjoint regions in an image</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\ConnectedComponentLabeling</SolutionFolderPath>
+  <ProjectFolderName>ConnectedComponentLabeling</ProjectFolderName>
+  <ProjectName>ConnectedComponentLabeling</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:36:38 AM
+ConnectedComponentLabeling</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:37:36 AM
+ConnectedComponentLabeling</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ConnectedComponentLabeling -> D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabeling\bin\Debug\net9.0\ConnectedComponentLabeling.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.76
+]]></string>
+    <string>WritePatch: Code is Complete.
+ConnectedComponentLabeling</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:37:44 AM
+ConnectedComponentLabelingTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:38:37 AM
+ConnectedComponentLabelingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelingTest.csproj (in 171 ms).
+  1 of 2 projects are up-to-date for restore.
+  ConnectedComponentLabeling -> D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabeling\bin\Debug\net9.0\ConnectedComponentLabeling.dll
+D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelerTests.cs(13,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelingTest.csproj]
+  ConnectedComponentLabelingTest -> D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\bin\Debug\net9.0\ConnectedComponentLabelingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelerTests.cs(13,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelingTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.22
+]]></string>
+    <string>WritePatch: Compile failed.
+ConnectedComponentLabelingTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:38:37 AM
+ConnectedComponentLabelingTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:38:38 AM
+ConnectedComponentLabelingTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:40:20 AM
+ConnectedComponentLabelingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ConnectedComponentLabeling -> D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabeling\bin\Debug\net9.0\ConnectedComponentLabeling.dll
+  ConnectedComponentLabelingTest -> D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\bin\Debug\net9.0\ConnectedComponentLabelingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.92
+]]></string>
+    <string>WritePatch: Code is not Complete.
+ConnectedComponentLabelingTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:40:33 AM
+ConnectedComponentLabelingTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:40:33 AM
+ConnectedComponentLabelingTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:42:21 AM
+ConnectedComponentLabelingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ConnectedComponentLabeling -> D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabeling\bin\Debug\net9.0\ConnectedComponentLabeling.dll
+D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelerTests.cs(13,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelingTest.csproj]
+  ConnectedComponentLabelingTest -> D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\bin\Debug\net9.0\ConnectedComponentLabelingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelerTests.cs(13,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelingTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87
+]]></string>
+    <string>WritePatch: Compile failed.
+ConnectedComponentLabelingTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:42:21 AM
+ConnectedComponentLabelingTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ConnectedComponentLabeling -> D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabeling\bin\Debug\net9.0\ConnectedComponentLabeling.dll
+D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelerTests.cs(13,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelingTest.csproj]
+  ConnectedComponentLabelingTest -> D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\bin\Debug\net9.0\ConnectedComponentLabelingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelerTests.cs(13,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelingTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87
+
+</CompilerResponse>
+2025-02-23 6:42:21 AM
+ConnectedComponentLabelingTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 6:42:22 AM
+ConnectedComponentLabeling</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ConnectedComponentLabeling -> D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabeling\bin\Debug\net9.0\ConnectedComponentLabeling.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.68
+]]></string>
+    <string>WritePatch: Code is Complete.
+ConnectedComponentLabeling</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:42:34 AM
+ConnectedComponentLabelingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ConnectedComponentLabeling -> D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabeling\bin\Debug\net9.0\ConnectedComponentLabeling.dll
+  ConnectedComponentLabelingTest -> D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\bin\Debug\net9.0\ConnectedComponentLabelingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+]]></string>
+    <string>WritePatch: Code is Complete.
+ConnectedComponentLabelingTest</string>
+    <string>[INFO 2025-02-23 6:42:46 AM] Starting test for project: D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:42:46 AM] Starting test for project: D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:42:46 AM] Starting test for project: D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:42:46 AM] Starting test for project: D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:42:46 AM] Starting test for project: D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:42:46 AM] Starting test for project: D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:42:46 AM] Starting test for project: D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:42:46 AM] Starting test for project: D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:42:46 AM] Starting test for project: D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:42:46 AM] Starting test for project: D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:42:46 AM] Starting test for project: D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:42:46 AM] Starting test for project: D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:42:46 AM] Starting test for project: D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:42:46 AM] Starting test for project: D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelingTest.csproj</string>
+    <string>[INFO 2025-02-23 6:42:46 AM] Starting test for project: D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelingTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 6:42:48 AM] All tests passed successfully.
+[INFO 2025-02-23 6:42:48 AM] Test process completed. Duration: 2.51 seconds.
+[INFO 2025-02-23 6:42:48 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 6:42:49 AM]   Passed LabelComponents_SimplePattern_ReturnsExpectedLabels [3 ms]
+[OUTPUT 2025-02-23 6:42:48 AM]   Passed LabelComponents_DiagonalTrue_NotConnected [3 ms]
+[OUTPUT 2025-02-23 6:42:48 AM]   Passed LabelComponents_OnePixelTrue_ReturnsSingleLabel [3 ms]
+[OUTPUT 2025-02-23 6:42:48 AM] Test Parallelization enabled for D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\bin\Debug\net9.0\ConnectedComponentLabelingTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 6:42:47 AM] D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\bin\Debug\net9.0\ConnectedComponentLabelingTest.dll
+[OUTPUT 2025-02-23 6:42:47 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:42:47 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:42:47 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:42:47 AM] Test run for D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\bin\Debug\net9.0\ConnectedComponentLabelingTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:42:47 AM]   ConnectedComponentLabelingTest -> D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\bin\Debug\net9.0\ConnectedComponentLabelingTest.dll
+[OUTPUT 2025-02-23 6:42:47 AM]   ConnectedComponentLabeling -> D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabeling\bin\Debug\net9.0\ConnectedComponentLabeling.dll
+[OUTPUT 2025-02-23 6:42:47 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 6:42:46 AM]   Determining projects to restore...
+[INFO 2025-02-23 6:42:46 AM] Command: dotnet test "D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelingTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:42:46 AM] Starting test for project: D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelingTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 6:36:38 AM
+ConnectedComponentLabeling
+
+WritePatch ran compiler. 2025-02-23 6:37:36 AM
+ConnectedComponentLabeling
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ConnectedComponentLabeling -> D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabeling\bin\Debug\net9.0\ConnectedComponentLabeling.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.76
+
+
+WritePatch: Code is Complete.
+ConnectedComponentLabeling
+
+WritePatch Started CycleStep. 2025-02-23 6:37:44 AM
+ConnectedComponentLabelingTest
+
+WritePatch ran compiler. 2025-02-23 6:38:37 AM
+ConnectedComponentLabelingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelingTest.csproj (in 171 ms).
+  1 of 2 projects are up-to-date for restore.
+  ConnectedComponentLabeling -> D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabeling\bin\Debug\net9.0\ConnectedComponentLabeling.dll
+D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelerTests.cs(13,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelingTest.csproj]
+  ConnectedComponentLabelingTest -> D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\bin\Debug\net9.0\ConnectedComponentLabelingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelerTests.cs(13,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelingTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.22
+
+
+WritePatch: Compile failed.
+ConnectedComponentLabelingTest
+
+Finished WritePatch cycle step.
+2025-02-23 6:38:37 AM
+ConnectedComponentLabelingTest
+
+WritePatch Started CycleStep. 2025-02-23 6:38:38 AM
+ConnectedComponentLabelingTest
+
+WritePatch ran compiler. 2025-02-23 6:40:20 AM
+ConnectedComponentLabelingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ConnectedComponentLabeling -> D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabeling\bin\Debug\net9.0\ConnectedComponentLabeling.dll
+  ConnectedComponentLabelingTest -> D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\bin\Debug\net9.0\ConnectedComponentLabelingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.92
+
+
+WritePatch: Code is not Complete.
+ConnectedComponentLabelingTest
+
+Finished WritePatch cycle step.
+2025-02-23 6:40:33 AM
+ConnectedComponentLabelingTest
+
+WritePatch Started CycleStep. 2025-02-23 6:40:33 AM
+ConnectedComponentLabelingTest
+
+WritePatch ran compiler. 2025-02-23 6:42:21 AM
+ConnectedComponentLabelingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ConnectedComponentLabeling -> D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabeling\bin\Debug\net9.0\ConnectedComponentLabeling.dll
+D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelerTests.cs(13,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelingTest.csproj]
+  ConnectedComponentLabelingTest -> D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\bin\Debug\net9.0\ConnectedComponentLabelingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelerTests.cs(13,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelingTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87
+
+
+WritePatch: Compile failed.
+ConnectedComponentLabelingTest
+
+Finished WritePatch cycle step.
+2025-02-23 6:42:21 AM
+ConnectedComponentLabelingTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ConnectedComponentLabeling -> D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabeling\bin\Debug\net9.0\ConnectedComponentLabeling.dll
+D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelerTests.cs(13,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelingTest.csproj]
+  ConnectedComponentLabelingTest -> D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\bin\Debug\net9.0\ConnectedComponentLabelingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelerTests.cs(13,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelingTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87
+
+</CompilerResponse>
+2025-02-23 6:42:21 AM
+ConnectedComponentLabelingTest
+
+WritePatch ran compiler. 2025-02-23 6:42:22 AM
+ConnectedComponentLabeling
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ConnectedComponentLabeling -> D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabeling\bin\Debug\net9.0\ConnectedComponentLabeling.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.68
+
+
+WritePatch: Code is Complete.
+ConnectedComponentLabeling
+
+WritePatch ran compiler. 2025-02-23 6:42:34 AM
+ConnectedComponentLabelingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ConnectedComponentLabeling -> D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabeling\bin\Debug\net9.0\ConnectedComponentLabeling.dll
+  ConnectedComponentLabelingTest -> D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\bin\Debug\net9.0\ConnectedComponentLabelingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+
+
+WritePatch: Code is Complete.
+ConnectedComponentLabelingTest
+
+TestResult:
+[SUCCESS 2025-02-23 6:42:48 AM] All tests passed successfully.
+[INFO 2025-02-23 6:42:48 AM] Test process completed. Duration: 2.51 seconds.
+[INFO 2025-02-23 6:42:48 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 6:42:49 AM]   Passed LabelComponents_SimplePattern_ReturnsExpectedLabels [3 ms]
+[OUTPUT 2025-02-23 6:42:48 AM]   Passed LabelComponents_DiagonalTrue_NotConnected [3 ms]
+[OUTPUT 2025-02-23 6:42:48 AM]   Passed LabelComponents_OnePixelTrue_ReturnsSingleLabel [3 ms]
+[OUTPUT 2025-02-23 6:42:48 AM] Test Parallelization enabled for D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\bin\Debug\net9.0\ConnectedComponentLabelingTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 6:42:47 AM] D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\bin\Debug\net9.0\ConnectedComponentLabelingTest.dll
+[OUTPUT 2025-02-23 6:42:47 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:42:47 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:42:47 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:42:47 AM] Test run for D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\bin\Debug\net9.0\ConnectedComponentLabelingTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:42:47 AM]   ConnectedComponentLabelingTest -> D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\bin\Debug\net9.0\ConnectedComponentLabelingTest.dll
+[OUTPUT 2025-02-23 6:42:47 AM]   ConnectedComponentLabeling -> D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabeling\bin\Debug\net9.0\ConnectedComponentLabeling.dll
+[OUTPUT 2025-02-23 6:42:47 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 6:42:46 AM]   Determining projects to restore...
+[INFO 2025-02-23 6:42:46 AM] Command: dotnet test "D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelingTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:42:46 AM] Starting test for project: D:\Code2025\RavenWork\ConnectedComponentLabeling\ConnectedComponentLabelingTest\ConnectedComponentLabelingTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
