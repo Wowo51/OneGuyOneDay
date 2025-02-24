@@ -1,0 +1,387 @@
+<ActRecord>
+  <ProjectName>FastFoldingAlgorithm</ProjectName>
+  <ProjectDescription>Fast folding algorithm: Detects approximately periodic events within time series data</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Fast folding algorithm: Detects approximately periodic events within time series data</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\FastFoldingAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>FastFoldingAlgorithm</ProjectFolderName>
+  <ProjectName>FastFoldingAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:06:45 PM
+FastFoldingAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:07:45 PM
+FastFoldingAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FastFoldingAlgorithm -> D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithm\bin\Debug\net9.0\FastFoldingAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.63
+]]></string>
+    <string>WritePatch: Code is Complete.
+FastFoldingAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:08:05 PM
+FastFoldingAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:09:09 PM
+FastFoldingAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FastFoldingAlgorithmTest.csproj (in 312 ms).
+  1 of 2 projects are up-to-date for restore.
+  FastFoldingAlgorithm -> D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithm\bin\Debug\net9.0\FastFoldingAlgorithm.dll
+D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FoldingAlgorithmTests.cs(21,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FastFoldingAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FoldingAlgorithmTests.cs(22,73): warning CS8604: Possible null reference argument for parameter 'timeSeries' in 'List<int> FoldingAlgorithm.DetectApproximatePeriod(double[] timeSeries, int minPeriod, int maxPeriod, double threshold)'. [D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FastFoldingAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FoldingAlgorithmTests.cs(11,34): warning CS8618: Non-nullable field 'foldingAlgorithm' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FastFoldingAlgorithmTest.csproj]
+  FastFoldingAlgorithmTest -> D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\bin\Debug\net9.0\FastFoldingAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FoldingAlgorithmTests.cs(21,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FastFoldingAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FoldingAlgorithmTests.cs(22,73): warning CS8604: Possible null reference argument for parameter 'timeSeries' in 'List<int> FoldingAlgorithm.DetectApproximatePeriod(double[] timeSeries, int minPeriod, int maxPeriod, double threshold)'. [D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FastFoldingAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FoldingAlgorithmTests.cs(11,34): warning CS8618: Non-nullable field 'foldingAlgorithm' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FastFoldingAlgorithmTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.47
+]]></string>
+    <string>WritePatch: Compile failed.
+FastFoldingAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:09:10 PM
+FastFoldingAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:09:11 PM
+FastFoldingAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:10:27 PM
+FastFoldingAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FastFoldingAlgorithm -> D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithm\bin\Debug\net9.0\FastFoldingAlgorithm.dll
+D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FoldingAlgorithmTests.cs(22,73): warning CS8604: Possible null reference argument for parameter 'timeSeries' in 'List<int> FoldingAlgorithm.DetectApproximatePeriod(double[] timeSeries, int minPeriod, int maxPeriod, double threshold)'. [D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FastFoldingAlgorithmTest.csproj]
+  FastFoldingAlgorithmTest -> D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\bin\Debug\net9.0\FastFoldingAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FoldingAlgorithmTests.cs(22,73): warning CS8604: Possible null reference argument for parameter 'timeSeries' in 'List<int> FoldingAlgorithm.DetectApproximatePeriod(double[] timeSeries, int minPeriod, int maxPeriod, double threshold)'. [D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FastFoldingAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.93
+]]></string>
+    <string>WritePatch: Compile failed.
+FastFoldingAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:10:28 PM
+FastFoldingAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:10:28 PM
+FastFoldingAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:11:25 PM
+FastFoldingAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FastFoldingAlgorithm -> D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithm\bin\Debug\net9.0\FastFoldingAlgorithm.dll
+  FastFoldingAlgorithmTest -> D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\bin\Debug\net9.0\FastFoldingAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.52
+]]></string>
+    <string>WritePatch: Code is not Complete.
+FastFoldingAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:11:48 PM
+FastFoldingAlgorithmTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FastFoldingAlgorithm -> D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithm\bin\Debug\net9.0\FastFoldingAlgorithm.dll
+  FastFoldingAlgorithmTest -> D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\bin\Debug\net9.0\FastFoldingAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.52
+
+</CompilerResponse>
+2025-02-23 2:11:49 PM
+FastFoldingAlgorithmTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 2:11:51 PM
+FastFoldingAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FastFoldingAlgorithm -> D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithm\bin\Debug\net9.0\FastFoldingAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.33
+]]></string>
+    <string>WritePatch: Code is Complete.
+FastFoldingAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:12:19 PM
+FastFoldingAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FastFoldingAlgorithm -> D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithm\bin\Debug\net9.0\FastFoldingAlgorithm.dll
+  FastFoldingAlgorithmTest -> D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\bin\Debug\net9.0\FastFoldingAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.26
+]]></string>
+    <string>WritePatch: Code is Complete.
+FastFoldingAlgorithmTest</string>
+    <string>[INFO 2025-02-23 2:12:41 PM] Starting test for project: D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FastFoldingAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:12:41 PM] Starting test for project: D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FastFoldingAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:12:41 PM] Starting test for project: D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FastFoldingAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:12:41 PM] Starting test for project: D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FastFoldingAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:12:41 PM] Starting test for project: D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FastFoldingAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:12:41 PM] Starting test for project: D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FastFoldingAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:12:41 PM] Starting test for project: D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FastFoldingAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:12:41 PM] Starting test for project: D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FastFoldingAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:12:41 PM] Starting test for project: D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FastFoldingAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:12:41 PM] Starting test for project: D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FastFoldingAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:12:41 PM] Starting test for project: D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FastFoldingAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 2:12:47 PM] D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\bin\Debug\net9.0\FastFoldingAlgorithmTest.dll
+[OUTPUT 2025-02-23 2:12:46 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 2:12:45 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 2:12:44 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 2:12:44 PM] Test run for D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\bin\Debug\net9.0\FastFoldingAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 2:12:43 PM]   FastFoldingAlgorithmTest -> D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\bin\Debug\net9.0\FastFoldingAlgorithmTest.dll
+[OUTPUT 2025-02-23 2:12:43 PM]   FastFoldingAlgorithm -> D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithm\bin\Debug\net9.0\FastFoldingAlgorithm.dll
+[OUTPUT 2025-02-23 2:12:42 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 2:12:42 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 2:12:46 PM] All tests passed successfully.
+[INFO 2025-02-23 2:12:46 PM] Test process completed. Duration: 5.20 seconds.
+[INFO 2025-02-23 2:12:46 PM] Process exited with code 0.
+[INFO 2025-02-23 2:12:41 PM] Command: dotnet test "D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FastFoldingAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 2:12:41 PM] Starting test for project: D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FastFoldingAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 2:06:45 PM
+FastFoldingAlgorithm
+
+WritePatch ran compiler. 2025-02-23 2:07:45 PM
+FastFoldingAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FastFoldingAlgorithm -> D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithm\bin\Debug\net9.0\FastFoldingAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.63
+
+
+WritePatch: Code is Complete.
+FastFoldingAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 2:08:05 PM
+FastFoldingAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 2:09:09 PM
+FastFoldingAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FastFoldingAlgorithmTest.csproj (in 312 ms).
+  1 of 2 projects are up-to-date for restore.
+  FastFoldingAlgorithm -> D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithm\bin\Debug\net9.0\FastFoldingAlgorithm.dll
+D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FoldingAlgorithmTests.cs(21,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FastFoldingAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FoldingAlgorithmTests.cs(22,73): warning CS8604: Possible null reference argument for parameter 'timeSeries' in 'List<int> FoldingAlgorithm.DetectApproximatePeriod(double[] timeSeries, int minPeriod, int maxPeriod, double threshold)'. [D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FastFoldingAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FoldingAlgorithmTests.cs(11,34): warning CS8618: Non-nullable field 'foldingAlgorithm' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FastFoldingAlgorithmTest.csproj]
+  FastFoldingAlgorithmTest -> D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\bin\Debug\net9.0\FastFoldingAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FoldingAlgorithmTests.cs(21,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FastFoldingAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FoldingAlgorithmTests.cs(22,73): warning CS8604: Possible null reference argument for parameter 'timeSeries' in 'List<int> FoldingAlgorithm.DetectApproximatePeriod(double[] timeSeries, int minPeriod, int maxPeriod, double threshold)'. [D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FastFoldingAlgorithmTest.csproj]
+D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FoldingAlgorithmTests.cs(11,34): warning CS8618: Non-nullable field 'foldingAlgorithm' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FastFoldingAlgorithmTest.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.47
+
+
+WritePatch: Compile failed.
+FastFoldingAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 2:09:10 PM
+FastFoldingAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 2:09:11 PM
+FastFoldingAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 2:10:27 PM
+FastFoldingAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FastFoldingAlgorithm -> D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithm\bin\Debug\net9.0\FastFoldingAlgorithm.dll
+D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FoldingAlgorithmTests.cs(22,73): warning CS8604: Possible null reference argument for parameter 'timeSeries' in 'List<int> FoldingAlgorithm.DetectApproximatePeriod(double[] timeSeries, int minPeriod, int maxPeriod, double threshold)'. [D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FastFoldingAlgorithmTest.csproj]
+  FastFoldingAlgorithmTest -> D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\bin\Debug\net9.0\FastFoldingAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FoldingAlgorithmTests.cs(22,73): warning CS8604: Possible null reference argument for parameter 'timeSeries' in 'List<int> FoldingAlgorithm.DetectApproximatePeriod(double[] timeSeries, int minPeriod, int maxPeriod, double threshold)'. [D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FastFoldingAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.93
+
+
+WritePatch: Compile failed.
+FastFoldingAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 2:10:28 PM
+FastFoldingAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 2:10:28 PM
+FastFoldingAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 2:11:25 PM
+FastFoldingAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FastFoldingAlgorithm -> D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithm\bin\Debug\net9.0\FastFoldingAlgorithm.dll
+  FastFoldingAlgorithmTest -> D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\bin\Debug\net9.0\FastFoldingAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.52
+
+
+WritePatch: Code is not Complete.
+FastFoldingAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 2:11:48 PM
+FastFoldingAlgorithmTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FastFoldingAlgorithm -> D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithm\bin\Debug\net9.0\FastFoldingAlgorithm.dll
+  FastFoldingAlgorithmTest -> D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\bin\Debug\net9.0\FastFoldingAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.52
+
+</CompilerResponse>
+2025-02-23 2:11:49 PM
+FastFoldingAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 2:11:51 PM
+FastFoldingAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FastFoldingAlgorithm -> D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithm\bin\Debug\net9.0\FastFoldingAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.33
+
+
+WritePatch: Code is Complete.
+FastFoldingAlgorithm
+
+WritePatch ran compiler. 2025-02-23 2:12:19 PM
+FastFoldingAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FastFoldingAlgorithm -> D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithm\bin\Debug\net9.0\FastFoldingAlgorithm.dll
+  FastFoldingAlgorithmTest -> D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\bin\Debug\net9.0\FastFoldingAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.26
+
+
+WritePatch: Code is Complete.
+FastFoldingAlgorithmTest
+
+TestResult:
+[OUTPUT 2025-02-23 2:12:47 PM] D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\bin\Debug\net9.0\FastFoldingAlgorithmTest.dll
+[OUTPUT 2025-02-23 2:12:46 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 2:12:45 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 2:12:44 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 2:12:44 PM] Test run for D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\bin\Debug\net9.0\FastFoldingAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 2:12:43 PM]   FastFoldingAlgorithmTest -> D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\bin\Debug\net9.0\FastFoldingAlgorithmTest.dll
+[OUTPUT 2025-02-23 2:12:43 PM]   FastFoldingAlgorithm -> D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithm\bin\Debug\net9.0\FastFoldingAlgorithm.dll
+[OUTPUT 2025-02-23 2:12:42 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 2:12:42 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 2:12:46 PM] All tests passed successfully.
+[INFO 2025-02-23 2:12:46 PM] Test process completed. Duration: 5.20 seconds.
+[INFO 2025-02-23 2:12:46 PM] Process exited with code 0.
+[INFO 2025-02-23 2:12:41 PM] Command: dotnet test "D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FastFoldingAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 2:12:41 PM] Starting test for project: D:\Code2025\RavenWork\FastFoldingAlgorithm\FastFoldingAlgorithmTest\FastFoldingAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
