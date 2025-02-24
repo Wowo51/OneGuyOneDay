@@ -1,0 +1,228 @@
+<ActRecord>
+  <ProjectName>ChaseDependency</ProjectName>
+  <ProjectDescription>The Chase: Used in database theory for dependency checking</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>The Chase: Used in database theory for dependency checking</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\ChaseDependency</SolutionFolderPath>
+  <ProjectFolderName>ChaseDependency</ProjectFolderName>
+  <ProjectName>ChaseDependency</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:36:38 AM
+ChaseDependency</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:38:30 AM
+ChaseDependency</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency\Atom.cs(21,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency.csproj]
+D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency\ChaseProcessor.cs(88,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency.csproj]
+D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency\ChaseProcessor.cs(93,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency.csproj]
+D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency\ChaseProcessor.cs(107,36): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency.csproj]
+D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency\ChaseProcessor.cs(119,32): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency.csproj]
+  ChaseDependency -> D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\bin\Debug\net9.0\ChaseDependency.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency\Atom.cs(21,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency.csproj]
+D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency\ChaseProcessor.cs(88,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency.csproj]
+D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency\ChaseProcessor.cs(93,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency.csproj]
+D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency\ChaseProcessor.cs(107,36): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency.csproj]
+D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency\ChaseProcessor.cs(119,32): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency.csproj]
+    5 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.74
+]]></string>
+    <string>WritePatch: Compile failed.
+ChaseDependency</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:38:30 AM
+ChaseDependency</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:38:30 AM
+ChaseDependency</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:41:41 AM
+ChaseDependency</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ChaseDependency -> D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\bin\Debug\net9.0\ChaseDependency.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.70
+]]></string>
+    <string>WritePatch: Code is Complete.
+ChaseDependency</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:42:06 AM
+ChaseDependencyTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:43:00 AM
+ChaseDependencyTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\ChaseDependency\ChaseDependencyTest\ChaseDependencyTest.csproj (in 173 ms).
+  1 of 2 projects are up-to-date for restore.
+  ChaseDependency -> D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\bin\Debug\net9.0\ChaseDependency.dll
+  ChaseDependencyTest -> D:\Code2025\RavenWork\ChaseDependency\ChaseDependencyTest\bin\Debug\net9.0\ChaseDependencyTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.28
+]]></string>
+    <string>WritePatch: Code is Complete.
+ChaseDependencyTest</string>
+    <string>[INFO 2025-02-23 6:43:14 AM] Starting test for project: D:\Code2025\RavenWork\ChaseDependency\ChaseDependencyTest\ChaseDependencyTest.csproj</string>
+    <string>[INFO 2025-02-23 6:43:14 AM] Starting test for project: D:\Code2025\RavenWork\ChaseDependency\ChaseDependencyTest\ChaseDependencyTest.csproj</string>
+    <string>[INFO 2025-02-23 6:43:14 AM] Starting test for project: D:\Code2025\RavenWork\ChaseDependency\ChaseDependencyTest\ChaseDependencyTest.csproj</string>
+    <string>[INFO 2025-02-23 6:43:14 AM] Starting test for project: D:\Code2025\RavenWork\ChaseDependency\ChaseDependencyTest\ChaseDependencyTest.csproj</string>
+    <string>[INFO 2025-02-23 6:43:14 AM] Starting test for project: D:\Code2025\RavenWork\ChaseDependency\ChaseDependencyTest\ChaseDependencyTest.csproj</string>
+    <string>[INFO 2025-02-23 6:43:14 AM] Starting test for project: D:\Code2025\RavenWork\ChaseDependency\ChaseDependencyTest\ChaseDependencyTest.csproj</string>
+    <string>[INFO 2025-02-23 6:43:14 AM] Starting test for project: D:\Code2025\RavenWork\ChaseDependency\ChaseDependencyTest\ChaseDependencyTest.csproj</string>
+    <string>[INFO 2025-02-23 6:43:14 AM] Starting test for project: D:\Code2025\RavenWork\ChaseDependency\ChaseDependencyTest\ChaseDependencyTest.csproj</string>
+    <string>[INFO 2025-02-23 6:43:14 AM] Starting test for project: D:\Code2025\RavenWork\ChaseDependency\ChaseDependencyTest\ChaseDependencyTest.csproj</string>
+    <string>[INFO 2025-02-23 6:43:14 AM] Starting test for project: D:\Code2025\RavenWork\ChaseDependency\ChaseDependencyTest\ChaseDependencyTest.csproj</string>
+    <string>[INFO 2025-02-23 6:43:14 AM] Starting test for project: D:\Code2025\RavenWork\ChaseDependency\ChaseDependencyTest\ChaseDependencyTest.csproj</string>
+    <string>[INFO 2025-02-23 6:43:14 AM] Starting test for project: D:\Code2025\RavenWork\ChaseDependency\ChaseDependencyTest\ChaseDependencyTest.csproj</string>
+    <string>[INFO 2025-02-23 6:43:14 AM] Starting test for project: D:\Code2025\RavenWork\ChaseDependency\ChaseDependencyTest\ChaseDependencyTest.csproj</string>
+    <string>[INFO 2025-02-23 6:43:14 AM] Starting test for project: D:\Code2025\RavenWork\ChaseDependency\ChaseDependencyTest\ChaseDependencyTest.csproj</string>
+    <string>[INFO 2025-02-23 6:43:14 AM] Starting test for project: D:\Code2025\RavenWork\ChaseDependency\ChaseDependencyTest\ChaseDependencyTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 6:43:15 AM] D:\Code2025\RavenWork\ChaseDependency\ChaseDependencyTest\bin\Debug\net9.0\ChaseDependencyTest.dll
+[OUTPUT 2025-02-23 6:43:15 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:43:15 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:43:15 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:43:15 AM] Test run for D:\Code2025\RavenWork\ChaseDependency\ChaseDependencyTest\bin\Debug\net9.0\ChaseDependencyTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:43:15 AM]   ChaseDependencyTest -> D:\Code2025\RavenWork\ChaseDependency\ChaseDependencyTest\bin\Debug\net9.0\ChaseDependencyTest.dll
+[OUTPUT 2025-02-23 6:43:17 AM]   Passed TestLargeDatabaseChase [4 ms]
+[OUTPUT 2025-02-23 6:43:17 AM]   Passed TestNoChangeWhenDependencyNotApplicable [4 ms]
+[OUTPUT 2025-02-23 6:43:16 AM]   Passed TestSimpleChase [4 ms]
+[OUTPUT 2025-02-23 6:43:16 AM] Test Parallelization enabled for D:\Code2025\RavenWork\ChaseDependency\ChaseDependencyTest\bin\Debug\net9.0\ChaseDependencyTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 6:43:15 AM]   ChaseDependency -> D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\bin\Debug\net9.0\ChaseDependency.dll
+[OUTPUT 2025-02-23 6:43:15 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 6:43:14 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 6:43:17 AM] All tests passed successfully.
+[INFO 2025-02-23 6:43:17 AM] Test process completed. Duration: 2.70 seconds.
+[INFO 2025-02-23 6:43:17 AM] Process exited with code 0.
+[INFO 2025-02-23 6:43:14 AM] Command: dotnet test "D:\Code2025\RavenWork\ChaseDependency\ChaseDependencyTest\ChaseDependencyTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:43:14 AM] Starting test for project: D:\Code2025\RavenWork\ChaseDependency\ChaseDependencyTest\ChaseDependencyTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 6:36:38 AM
+ChaseDependency
+
+WritePatch ran compiler. 2025-02-23 6:38:30 AM
+ChaseDependency
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency\Atom.cs(21,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency.csproj]
+D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency\ChaseProcessor.cs(88,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency.csproj]
+D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency\ChaseProcessor.cs(93,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency.csproj]
+D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency\ChaseProcessor.cs(107,36): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency.csproj]
+D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency\ChaseProcessor.cs(119,32): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency.csproj]
+  ChaseDependency -> D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\bin\Debug\net9.0\ChaseDependency.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency\Atom.cs(21,30): warning CS8765: Nullability of type of parameter 'obj' doesn't match overridden member (possibly because of nullability attributes). [D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency.csproj]
+D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency\ChaseProcessor.cs(88,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency.csproj]
+D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency\ChaseProcessor.cs(93,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency.csproj]
+D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency\ChaseProcessor.cs(107,36): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency.csproj]
+D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency\ChaseProcessor.cs(119,32): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\ChaseDependency.csproj]
+    5 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.74
+
+
+WritePatch: Compile failed.
+ChaseDependency
+
+Finished WritePatch cycle step.
+2025-02-23 6:38:30 AM
+ChaseDependency
+
+WritePatch Started CycleStep. 2025-02-23 6:38:30 AM
+ChaseDependency
+
+WritePatch ran compiler. 2025-02-23 6:41:41 AM
+ChaseDependency
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ChaseDependency -> D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\bin\Debug\net9.0\ChaseDependency.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.70
+
+
+WritePatch: Code is Complete.
+ChaseDependency
+
+WritePatch Started CycleStep. 2025-02-23 6:42:06 AM
+ChaseDependencyTest
+
+WritePatch ran compiler. 2025-02-23 6:43:00 AM
+ChaseDependencyTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\ChaseDependency\ChaseDependencyTest\ChaseDependencyTest.csproj (in 173 ms).
+  1 of 2 projects are up-to-date for restore.
+  ChaseDependency -> D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\bin\Debug\net9.0\ChaseDependency.dll
+  ChaseDependencyTest -> D:\Code2025\RavenWork\ChaseDependency\ChaseDependencyTest\bin\Debug\net9.0\ChaseDependencyTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.28
+
+
+WritePatch: Code is Complete.
+ChaseDependencyTest
+
+TestResult:
+[OUTPUT 2025-02-23 6:43:15 AM] D:\Code2025\RavenWork\ChaseDependency\ChaseDependencyTest\bin\Debug\net9.0\ChaseDependencyTest.dll
+[OUTPUT 2025-02-23 6:43:15 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:43:15 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:43:15 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:43:15 AM] Test run for D:\Code2025\RavenWork\ChaseDependency\ChaseDependencyTest\bin\Debug\net9.0\ChaseDependencyTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:43:15 AM]   ChaseDependencyTest -> D:\Code2025\RavenWork\ChaseDependency\ChaseDependencyTest\bin\Debug\net9.0\ChaseDependencyTest.dll
+[OUTPUT 2025-02-23 6:43:17 AM]   Passed TestLargeDatabaseChase [4 ms]
+[OUTPUT 2025-02-23 6:43:17 AM]   Passed TestNoChangeWhenDependencyNotApplicable [4 ms]
+[OUTPUT 2025-02-23 6:43:16 AM]   Passed TestSimpleChase [4 ms]
+[OUTPUT 2025-02-23 6:43:16 AM] Test Parallelization enabled for D:\Code2025\RavenWork\ChaseDependency\ChaseDependencyTest\bin\Debug\net9.0\ChaseDependencyTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 6:43:15 AM]   ChaseDependency -> D:\Code2025\RavenWork\ChaseDependency\ChaseDependency\bin\Debug\net9.0\ChaseDependency.dll
+[OUTPUT 2025-02-23 6:43:15 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 6:43:14 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 6:43:17 AM] All tests passed successfully.
+[INFO 2025-02-23 6:43:17 AM] Test process completed. Duration: 2.70 seconds.
+[INFO 2025-02-23 6:43:17 AM] Process exited with code 0.
+[INFO 2025-02-23 6:43:14 AM] Command: dotnet test "D:\Code2025\RavenWork\ChaseDependency\ChaseDependencyTest\ChaseDependencyTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:43:14 AM] Starting test for project: D:\Code2025\RavenWork\ChaseDependency\ChaseDependencyTest\ChaseDependencyTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
