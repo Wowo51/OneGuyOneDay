@@ -1,0 +1,426 @@
+<ActRecord>
+  <ProjectName>WardsMethod</ProjectName>
+  <ProjectDescription><![CDATA[Ward's method: An agglomerative clustering algorithm (extended to more general Lance–Williams algorithms)]]></ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification><![CDATA[Ward's method: An agglomerative clustering algorithm (extended to more general Lance–Williams algorithms)]]]]><![CDATA[></WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\WardsMethod</SolutionFolderPath>
+  <ProjectFolderName>WardsMethod</ProjectFolderName>
+  <ProjectName>WardsMethod</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:25:36 AM
+WardsMethod</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:28:13 AM
+WardsMethod</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  WardsMethod -> D:\Code2025\RavenWork\WardsMethod\WardsMethod\bin\Debug\net9.0\WardsMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.88
+]]></string>
+    <string>WritePatch: Code is Complete.
+WardsMethod</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:28:56 AM
+WardsMethodTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:30:08 AM
+WardsMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj (in 183 ms).
+  1 of 2 projects are up-to-date for restore.
+  WardsMethod -> D:\Code2025\RavenWork\WardsMethod\WardsMethod\bin\Debug\net9.0\WardsMethod.dll
+D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardClusteringTests.cs(33,43): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj]
+  WardsMethodTest -> D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\bin\Debug\net9.0\WardsMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardClusteringTests.cs(33,43): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.32
+]]></string>
+    <string>WritePatch: Compile failed.
+WardsMethodTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:30:09 AM
+WardsMethodTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:30:09 AM
+WardsMethodTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:30:41 AM
+WardsMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  WardsMethod -> D:\Code2025\RavenWork\WardsMethod\WardsMethod\bin\Debug\net9.0\WardsMethod.dll
+  WardsMethodTest -> D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\bin\Debug\net9.0\WardsMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.02
+]]></string>
+    <string>WritePatch: Code is not Complete.
+WardsMethodTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:30:59 AM
+WardsMethodTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:31:00 AM
+WardsMethodTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:32:11 AM
+WardsMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  WardsMethod -> D:\Code2025\RavenWork\WardsMethod\WardsMethod\bin\Debug\net9.0\WardsMethod.dll
+D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardClusteringTests.cs(33,43): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj]
+D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardClusteringTests.cs(180,48): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj]
+  WardsMethodTest -> D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\bin\Debug\net9.0\WardsMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardClusteringTests.cs(33,43): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj]
+D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardClusteringTests.cs(180,48): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.08
+]]></string>
+    <string>WritePatch: Compile failed.
+WardsMethodTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:32:13 AM
+WardsMethodTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\WardsMethod\WardsMethodTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  WardsMethod -> D:\Code2025\RavenWork\WardsMethod\WardsMethod\bin\Debug\net9.0\WardsMethod.dll
+D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardClusteringTests.cs(33,43): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj]
+D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardClusteringTests.cs(180,48): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj]
+  WardsMethodTest -> D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\bin\Debug\net9.0\WardsMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardClusteringTests.cs(33,43): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj]
+D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardClusteringTests.cs(180,48): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.08
+
+</CompilerResponse>
+2025-02-23 8:32:13 AM
+WardsMethodTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 8:32:14 AM
+WardsMethod</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  WardsMethod -> D:\Code2025\RavenWork\WardsMethod\WardsMethod\bin\Debug\net9.0\WardsMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.70
+]]></string>
+    <string>WritePatch: Code is Complete.
+WardsMethod</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:32:59 AM
+WardsMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  WardsMethod -> D:\Code2025\RavenWork\WardsMethod\WardsMethod\bin\Debug\net9.0\WardsMethod.dll
+  WardsMethodTest -> D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\bin\Debug\net9.0\WardsMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.08
+]]></string>
+    <string>WritePatch: Code is Complete.
+WardsMethodTest</string>
+    <string>[INFO 2025-02-23 8:33:18 AM] Starting test for project: D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 8:33:18 AM] Starting test for project: D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 8:33:18 AM] Starting test for project: D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 8:33:18 AM] Starting test for project: D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 8:33:18 AM] Starting test for project: D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 8:33:18 AM] Starting test for project: D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 8:33:18 AM] Starting test for project: D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 8:33:18 AM] Starting test for project: D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 8:33:18 AM] Starting test for project: D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 8:33:18 AM] Starting test for project: D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 8:33:18 AM] Starting test for project: D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 8:33:18 AM] Starting test for project: D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 8:33:18 AM] Starting test for project: D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 8:33:18 AM] Starting test for project: D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 8:33:18 AM] Starting test for project: D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 8:33:18 AM] Starting test for project: D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 8:33:18 AM] Starting test for project: D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 8:33:18 AM] Starting test for project: D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 8:33:18 AM] Starting test for project: D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 8:33:18 AM] Starting test for project: D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 8:33:18 AM] Starting test for project: D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 8:33:18 AM] Starting test for project: D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 8:33:22 AM]   Passed MergeClusters_WithEmptyCluster_Test [4 ms]
+[OUTPUT 2025-02-23 8:33:24 AM]   Passed ComputeCentroid_ValidPoints_ReturnsCorrectCentroid [4 ms]
+[OUTPUT 2025-02-23 8:33:24 AM]   Passed ClusterConstructor_NullDataPoints_InitializesEmptyDataPoints [4 ms]
+[OUTPUT 2025-02-23 8:33:23 AM]   Passed WardClustering_CalculateIncrease [4 ms]
+[OUTPUT 2025-02-23 8:33:23 AM]   Passed WardClustering_PerformClustering_SingleClusterRemains [4 ms]
+[OUTPUT 2025-02-23 8:33:23 AM]   Passed WardClustering_MergeClusters_Test [4 ms]
+[OUTPUT 2025-02-23 8:33:23 AM]   Passed WardClustering_NullDataPoints_ProducesEmptyClusters [4 ms]
+[OUTPUT 2025-02-23 8:33:22 AM]   Passed ComputeCentroid_EmptyPoints_ReturnsEmptyArray [4 ms]
+[OUTPUT 2025-02-23 8:33:22 AM] Test Parallelization enabled for D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\bin\Debug\net9.0\WardsMethodTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 8:33:21 AM] D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\bin\Debug\net9.0\WardsMethodTest.dll
+[OUTPUT 2025-02-23 8:33:21 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 8:34:17 AM] Test Run Successful.
+[OUTPUT 2025-02-23 8:34:17 AM]   Passed WardClustering_SyntheticLargeDataset_Test [55 s]
+[OUTPUT 2025-02-23 8:33:20 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:33:20 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:33:20 AM] Test run for D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\bin\Debug\net9.0\WardsMethodTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:33:19 AM]   WardsMethodTest -> D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\bin\Debug\net9.0\WardsMethodTest.dll
+[OUTPUT 2025-02-23 8:33:19 AM]   WardsMethod -> D:\Code2025\RavenWork\WardsMethod\WardsMethod\bin\Debug\net9.0\WardsMethod.dll
+[OUTPUT 2025-02-23 8:33:19 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:33:19 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 8:34:17 AM] All tests passed successfully.
+[INFO 2025-02-23 8:34:17 AM] Test process completed. Duration: 59.05 seconds.
+[INFO 2025-02-23 8:34:17 AM] Process exited with code 0.
+[INFO 2025-02-23 8:33:18 AM] Command: dotnet test "D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:33:18 AM] Starting test for project: D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 8:25:36 AM
+WardsMethod
+
+WritePatch ran compiler. 2025-02-23 8:28:13 AM
+WardsMethod
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  WardsMethod -> D:\Code2025\RavenWork\WardsMethod\WardsMethod\bin\Debug\net9.0\WardsMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.88
+
+
+WritePatch: Code is Complete.
+WardsMethod
+
+WritePatch Started CycleStep. 2025-02-23 8:28:56 AM
+WardsMethodTest
+
+WritePatch ran compiler. 2025-02-23 8:30:08 AM
+WardsMethodTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj (in 183 ms).
+  1 of 2 projects are up-to-date for restore.
+  WardsMethod -> D:\Code2025\RavenWork\WardsMethod\WardsMethod\bin\Debug\net9.0\WardsMethod.dll
+D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardClusteringTests.cs(33,43): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj]
+  WardsMethodTest -> D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\bin\Debug\net9.0\WardsMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardClusteringTests.cs(33,43): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.32
+
+
+WritePatch: Compile failed.
+WardsMethodTest
+
+Finished WritePatch cycle step.
+2025-02-23 8:30:09 AM
+WardsMethodTest
+
+WritePatch Started CycleStep. 2025-02-23 8:30:09 AM
+WardsMethodTest
+
+WritePatch ran compiler. 2025-02-23 8:30:41 AM
+WardsMethodTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  WardsMethod -> D:\Code2025\RavenWork\WardsMethod\WardsMethod\bin\Debug\net9.0\WardsMethod.dll
+  WardsMethodTest -> D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\bin\Debug\net9.0\WardsMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.02
+
+
+WritePatch: Code is not Complete.
+WardsMethodTest
+
+Finished WritePatch cycle step.
+2025-02-23 8:30:59 AM
+WardsMethodTest
+
+WritePatch Started CycleStep. 2025-02-23 8:31:00 AM
+WardsMethodTest
+
+WritePatch ran compiler. 2025-02-23 8:32:11 AM
+WardsMethodTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  WardsMethod -> D:\Code2025\RavenWork\WardsMethod\WardsMethod\bin\Debug\net9.0\WardsMethod.dll
+D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardClusteringTests.cs(33,43): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj]
+D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardClusteringTests.cs(180,48): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj]
+  WardsMethodTest -> D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\bin\Debug\net9.0\WardsMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardClusteringTests.cs(33,43): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj]
+D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardClusteringTests.cs(180,48): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.08
+
+
+WritePatch: Compile failed.
+WardsMethodTest
+
+Finished WritePatch cycle step.
+2025-02-23 8:32:13 AM
+WardsMethodTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\WardsMethod\WardsMethodTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  WardsMethod -> D:\Code2025\RavenWork\WardsMethod\WardsMethod\bin\Debug\net9.0\WardsMethod.dll
+D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardClusteringTests.cs(33,43): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj]
+D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardClusteringTests.cs(180,48): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj]
+  WardsMethodTest -> D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\bin\Debug\net9.0\WardsMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardClusteringTests.cs(33,43): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj]
+D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardClusteringTests.cs(180,48): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.08
+
+</CompilerResponse>
+2025-02-23 8:32:13 AM
+WardsMethodTest
+
+WritePatch ran compiler. 2025-02-23 8:32:14 AM
+WardsMethod
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  WardsMethod -> D:\Code2025\RavenWork\WardsMethod\WardsMethod\bin\Debug\net9.0\WardsMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.70
+
+
+WritePatch: Code is Complete.
+WardsMethod
+
+WritePatch ran compiler. 2025-02-23 8:32:59 AM
+WardsMethodTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  WardsMethod -> D:\Code2025\RavenWork\WardsMethod\WardsMethod\bin\Debug\net9.0\WardsMethod.dll
+  WardsMethodTest -> D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\bin\Debug\net9.0\WardsMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.08
+
+
+WritePatch: Code is Complete.
+WardsMethodTest
+
+TestResult:
+[OUTPUT 2025-02-23 8:33:22 AM]   Passed MergeClusters_WithEmptyCluster_Test [4 ms]
+[OUTPUT 2025-02-23 8:33:24 AM]   Passed ComputeCentroid_ValidPoints_ReturnsCorrectCentroid [4 ms]
+[OUTPUT 2025-02-23 8:33:24 AM]   Passed ClusterConstructor_NullDataPoints_InitializesEmptyDataPoints [4 ms]
+[OUTPUT 2025-02-23 8:33:23 AM]   Passed WardClustering_CalculateIncrease [4 ms]
+[OUTPUT 2025-02-23 8:33:23 AM]   Passed WardClustering_PerformClustering_SingleClusterRemains [4 ms]
+[OUTPUT 2025-02-23 8:33:23 AM]   Passed WardClustering_MergeClusters_Test [4 ms]
+[OUTPUT 2025-02-23 8:33:23 AM]   Passed WardClustering_NullDataPoints_ProducesEmptyClusters [4 ms]
+[OUTPUT 2025-02-23 8:33:22 AM]   Passed ComputeCentroid_EmptyPoints_ReturnsEmptyArray [4 ms]
+[OUTPUT 2025-02-23 8:33:22 AM] Test Parallelization enabled for D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\bin\Debug\net9.0\WardsMethodTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 8:33:21 AM] D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\bin\Debug\net9.0\WardsMethodTest.dll
+[OUTPUT 2025-02-23 8:33:21 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 8:34:17 AM] Test Run Successful.
+[OUTPUT 2025-02-23 8:34:17 AM]   Passed WardClustering_SyntheticLargeDataset_Test [55 s]
+[OUTPUT 2025-02-23 8:33:20 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:33:20 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:33:20 AM] Test run for D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\bin\Debug\net9.0\WardsMethodTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:33:19 AM]   WardsMethodTest -> D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\bin\Debug\net9.0\WardsMethodTest.dll
+[OUTPUT 2025-02-23 8:33:19 AM]   WardsMethod -> D:\Code2025\RavenWork\WardsMethod\WardsMethod\bin\Debug\net9.0\WardsMethod.dll
+[OUTPUT 2025-02-23 8:33:19 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:33:19 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 8:34:17 AM] All tests passed successfully.
+[INFO 2025-02-23 8:34:17 AM] Test process completed. Duration: 59.05 seconds.
+[INFO 2025-02-23 8:34:17 AM] Process exited with code 0.
+[INFO 2025-02-23 8:33:18 AM] Command: dotnet test "D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:33:18 AM] Starting test for project: D:\Code2025\RavenWork\WardsMethod\WardsMethodTest\WardsMethodTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
