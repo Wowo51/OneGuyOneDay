@@ -1,0 +1,392 @@
+<ActRecord>
+  <ProjectName>QuickSortDivide</ProjectName>
+  <ProjectDescription>Quicksort: divide list into two, with all items on the first list coming before all items on the second list; then sort the two lists. Often the method of choice</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Quicksort: divide list into two, with all items on the first list coming before all items on the second list; then sort the two lists. Often the method of choice</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\QuickSortDivide</SolutionFolderPath>
+  <ProjectFolderName>QuickSortDivide</ProjectFolderName>
+  <ProjectName>QuickSortDivide</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:02:08 PM
+QuickSortDivide</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:02:33 PM
+QuickSortDivide</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  QuickSortDivide -> D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivide\bin\Debug\net9.0\QuickSortDivide.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.04
+]]></string>
+    <string>WritePatch: Code is Complete.
+QuickSortDivide</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:02:49 PM
+QuickSortDivideTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:03:20 PM
+QuickSortDivideTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSortDivideTest.csproj (in 398 ms).
+  1 of 2 projects are up-to-date for restore.
+  QuickSortDivide -> D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivide\bin\Debug\net9.0\QuickSortDivide.dll
+D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSorterTests.cs(14,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSortDivideTest.csproj]
+D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSorterTests.cs(15,54): warning CS8604: Possible null reference argument for parameter 'list' in 'List<int> QuickSorter.QuickSort<int>(List<int> list)'. [D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSortDivideTest.csproj]
+  QuickSortDivideTest -> D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\bin\Debug\net9.0\QuickSortDivideTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSorterTests.cs(14,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSortDivideTest.csproj]
+D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSorterTests.cs(15,54): warning CS8604: Possible null reference argument for parameter 'list' in 'List<int> QuickSorter.QuickSort<int>(List<int> list)'. [D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSortDivideTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.17
+]]></string>
+    <string>WritePatch: Compile failed.
+QuickSortDivideTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:03:22 PM
+QuickSortDivideTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:03:22 PM
+QuickSortDivideTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:04:04 PM
+QuickSortDivideTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  QuickSortDivide -> D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivide\bin\Debug\net9.0\QuickSortDivide.dll
+D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSorterTests.cs(15,54): warning CS8604: Possible null reference argument for parameter 'list' in 'List<int> QuickSorter.QuickSort<int>(List<int> list)'. [D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSortDivideTest.csproj]
+  QuickSortDivideTest -> D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\bin\Debug\net9.0\QuickSortDivideTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSorterTests.cs(15,54): warning CS8604: Possible null reference argument for parameter 'list' in 'List<int> QuickSorter.QuickSort<int>(List<int> list)'. [D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSortDivideTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.58
+]]></string>
+    <string>WritePatch: Compile failed.
+QuickSortDivideTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:04:06 PM
+QuickSortDivideTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:04:06 PM
+QuickSortDivideTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:04:38 PM
+QuickSortDivideTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  QuickSortDivide -> D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivide\bin\Debug\net9.0\QuickSortDivide.dll
+  QuickSortDivideTest -> D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\bin\Debug\net9.0\QuickSortDivideTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.00
+]]></string>
+    <string>WritePatch: Code is not Complete.
+QuickSortDivideTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:04:52 PM
+QuickSortDivideTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  QuickSortDivide -> D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivide\bin\Debug\net9.0\QuickSortDivide.dll
+  QuickSortDivideTest -> D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\bin\Debug\net9.0\QuickSortDivideTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.00
+
+</CompilerResponse>
+2025-02-23 6:04:52 PM
+QuickSortDivideTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 6:04:55 PM
+QuickSortDivide</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  QuickSortDivide -> D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivide\bin\Debug\net9.0\QuickSortDivide.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.73
+]]></string>
+    <string>WritePatch: Code is Complete.
+QuickSortDivide</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:05:11 PM
+QuickSortDivideTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  QuickSortDivide -> D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivide\bin\Debug\net9.0\QuickSortDivide.dll
+  QuickSortDivideTest -> D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\bin\Debug\net9.0\QuickSortDivideTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.40
+]]></string>
+    <string>WritePatch: Code is Complete.
+QuickSortDivideTest</string>
+    <string>[INFO 2025-02-23 6:05:24 PM] Starting test for project: D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSortDivideTest.csproj</string>
+    <string>[INFO 2025-02-23 6:05:24 PM] Starting test for project: D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSortDivideTest.csproj</string>
+    <string>[INFO 2025-02-23 6:05:24 PM] Starting test for project: D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSortDivideTest.csproj</string>
+    <string>[INFO 2025-02-23 6:05:24 PM] Starting test for project: D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSortDivideTest.csproj</string>
+    <string>[INFO 2025-02-23 6:05:24 PM] Starting test for project: D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSortDivideTest.csproj</string>
+    <string>[INFO 2025-02-23 6:05:24 PM] Starting test for project: D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSortDivideTest.csproj</string>
+    <string>[INFO 2025-02-23 6:05:24 PM] Starting test for project: D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSortDivideTest.csproj</string>
+    <string>[INFO 2025-02-23 6:05:24 PM] Starting test for project: D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSortDivideTest.csproj</string>
+    <string>[INFO 2025-02-23 6:05:24 PM] Starting test for project: D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSortDivideTest.csproj</string>
+    <string>[INFO 2025-02-23 6:05:24 PM] Starting test for project: D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSortDivideTest.csproj</string>
+    <string>[INFO 2025-02-23 6:05:24 PM] Starting test for project: D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSortDivideTest.csproj</string>
+    <string>[INFO 2025-02-23 6:05:24 PM] Starting test for project: D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSortDivideTest.csproj</string>
+    <string>[INFO 2025-02-23 6:05:24 PM] Starting test for project: D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSortDivideTest.csproj</string>
+    <string>[INFO 2025-02-23 6:05:24 PM] Starting test for project: D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSortDivideTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 6:05:32 PM] Test Parallelization enabled for D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\bin\Debug\net9.0\QuickSortDivideTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 6:05:33 PM]   Passed QuickSort_AlreadySorted_ReturnsSameOrder [9 ms]
+[OUTPUT 2025-02-23 6:05:32 PM]   Passed QuickSort_ListWithDuplicates_SortsCorrectly [9 ms]
+[OUTPUT 2025-02-23 6:05:30 PM] D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\bin\Debug\net9.0\QuickSortDivideTest.dll
+[OUTPUT 2025-02-23 6:05:30 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:05:30 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:05:29 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:05:29 PM] Test run for D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\bin\Debug\net9.0\QuickSortDivideTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:05:28 PM]   QuickSortDivideTest -> D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\bin\Debug\net9.0\QuickSortDivideTest.dll
+[OUTPUT 2025-02-23 6:05:28 PM]   QuickSortDivide -> D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivide\bin\Debug\net9.0\QuickSortDivide.dll
+[OUTPUT 2025-02-23 6:05:27 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 6:05:26 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 6:05:33 PM] All tests passed successfully.
+[INFO 2025-02-23 6:05:33 PM] Test process completed. Duration: 8.12 seconds.
+[INFO 2025-02-23 6:05:33 PM] Process exited with code 0.
+[INFO 2025-02-23 6:05:24 PM] Command: dotnet test "D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSortDivideTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:05:24 PM] Starting test for project: D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSortDivideTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 6:02:08 PM
+QuickSortDivide
+
+WritePatch ran compiler. 2025-02-23 6:02:33 PM
+QuickSortDivide
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  QuickSortDivide -> D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivide\bin\Debug\net9.0\QuickSortDivide.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.04
+
+
+WritePatch: Code is Complete.
+QuickSortDivide
+
+WritePatch Started CycleStep. 2025-02-23 6:02:49 PM
+QuickSortDivideTest
+
+WritePatch ran compiler. 2025-02-23 6:03:20 PM
+QuickSortDivideTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSortDivideTest.csproj (in 398 ms).
+  1 of 2 projects are up-to-date for restore.
+  QuickSortDivide -> D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivide\bin\Debug\net9.0\QuickSortDivide.dll
+D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSorterTests.cs(14,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSortDivideTest.csproj]
+D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSorterTests.cs(15,54): warning CS8604: Possible null reference argument for parameter 'list' in 'List<int> QuickSorter.QuickSort<int>(List<int> list)'. [D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSortDivideTest.csproj]
+  QuickSortDivideTest -> D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\bin\Debug\net9.0\QuickSortDivideTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSorterTests.cs(14,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSortDivideTest.csproj]
+D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSorterTests.cs(15,54): warning CS8604: Possible null reference argument for parameter 'list' in 'List<int> QuickSorter.QuickSort<int>(List<int> list)'. [D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSortDivideTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.17
+
+
+WritePatch: Compile failed.
+QuickSortDivideTest
+
+Finished WritePatch cycle step.
+2025-02-23 6:03:22 PM
+QuickSortDivideTest
+
+WritePatch Started CycleStep. 2025-02-23 6:03:22 PM
+QuickSortDivideTest
+
+WritePatch ran compiler. 2025-02-23 6:04:04 PM
+QuickSortDivideTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  QuickSortDivide -> D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivide\bin\Debug\net9.0\QuickSortDivide.dll
+D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSorterTests.cs(15,54): warning CS8604: Possible null reference argument for parameter 'list' in 'List<int> QuickSorter.QuickSort<int>(List<int> list)'. [D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSortDivideTest.csproj]
+  QuickSortDivideTest -> D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\bin\Debug\net9.0\QuickSortDivideTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSorterTests.cs(15,54): warning CS8604: Possible null reference argument for parameter 'list' in 'List<int> QuickSorter.QuickSort<int>(List<int> list)'. [D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSortDivideTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.58
+
+
+WritePatch: Compile failed.
+QuickSortDivideTest
+
+Finished WritePatch cycle step.
+2025-02-23 6:04:06 PM
+QuickSortDivideTest
+
+WritePatch Started CycleStep. 2025-02-23 6:04:06 PM
+QuickSortDivideTest
+
+WritePatch ran compiler. 2025-02-23 6:04:38 PM
+QuickSortDivideTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  QuickSortDivide -> D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivide\bin\Debug\net9.0\QuickSortDivide.dll
+  QuickSortDivideTest -> D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\bin\Debug\net9.0\QuickSortDivideTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.00
+
+
+WritePatch: Code is not Complete.
+QuickSortDivideTest
+
+Finished WritePatch cycle step.
+2025-02-23 6:04:52 PM
+QuickSortDivideTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  QuickSortDivide -> D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivide\bin\Debug\net9.0\QuickSortDivide.dll
+  QuickSortDivideTest -> D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\bin\Debug\net9.0\QuickSortDivideTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.00
+
+</CompilerResponse>
+2025-02-23 6:04:52 PM
+QuickSortDivideTest
+
+WritePatch ran compiler. 2025-02-23 6:04:55 PM
+QuickSortDivide
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  QuickSortDivide -> D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivide\bin\Debug\net9.0\QuickSortDivide.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.73
+
+
+WritePatch: Code is Complete.
+QuickSortDivide
+
+WritePatch ran compiler. 2025-02-23 6:05:11 PM
+QuickSortDivideTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  QuickSortDivide -> D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivide\bin\Debug\net9.0\QuickSortDivide.dll
+  QuickSortDivideTest -> D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\bin\Debug\net9.0\QuickSortDivideTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.40
+
+
+WritePatch: Code is Complete.
+QuickSortDivideTest
+
+TestResult:
+[OUTPUT 2025-02-23 6:05:32 PM] Test Parallelization enabled for D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\bin\Debug\net9.0\QuickSortDivideTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 6:05:33 PM]   Passed QuickSort_AlreadySorted_ReturnsSameOrder [9 ms]
+[OUTPUT 2025-02-23 6:05:32 PM]   Passed QuickSort_ListWithDuplicates_SortsCorrectly [9 ms]
+[OUTPUT 2025-02-23 6:05:30 PM] D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\bin\Debug\net9.0\QuickSortDivideTest.dll
+[OUTPUT 2025-02-23 6:05:30 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:05:30 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:05:29 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:05:29 PM] Test run for D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\bin\Debug\net9.0\QuickSortDivideTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:05:28 PM]   QuickSortDivideTest -> D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\bin\Debug\net9.0\QuickSortDivideTest.dll
+[OUTPUT 2025-02-23 6:05:28 PM]   QuickSortDivide -> D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivide\bin\Debug\net9.0\QuickSortDivide.dll
+[OUTPUT 2025-02-23 6:05:27 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 6:05:26 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 6:05:33 PM] All tests passed successfully.
+[INFO 2025-02-23 6:05:33 PM] Test process completed. Duration: 8.12 seconds.
+[INFO 2025-02-23 6:05:33 PM] Process exited with code 0.
+[INFO 2025-02-23 6:05:24 PM] Command: dotnet test "D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSortDivideTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:05:24 PM] Starting test for project: D:\Code2025\RavenWork\QuickSortDivide\QuickSortDivideTest\QuickSortDivideTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
