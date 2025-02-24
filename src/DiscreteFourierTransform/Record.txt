@@ -1,0 +1,394 @@
+<ActRecord>
+  <ProjectName>DiscreteFourierTransform</ProjectName>
+  <ProjectDescription>Discrete Fourier transform (DFT): Determines the frequencies contained in a signal segment</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Discrete Fourier transform (DFT): Determines the frequencies contained in a signal segment</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\DiscreteFourierTransform</SolutionFolderPath>
+  <ProjectFolderName>DiscreteFourierTransform</ProjectFolderName>
+  <ProjectName>DiscreteFourierTransform</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:36:38 AM
+DiscreteFourierTransform</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:37:14 AM
+DiscreteFourierTransform</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DiscreteFourierTransform -> D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransform\bin\Debug\net9.0\DiscreteFourierTransform.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.86
+]]></string>
+    <string>WritePatch: Code is Complete.
+DiscreteFourierTransform</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:37:25 AM
+DiscreteFourierTransformTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:38:29 AM
+DiscreteFourierTransformTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\DiscreteFourierTransformTest.csproj (in 174 ms).
+  1 of 2 projects are up-to-date for restore.
+  DiscreteFourierTransform -> D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransform\bin\Debug\net9.0\DiscreteFourierTransform.dll
+D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\DFTTests.cs(29,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\DiscreteFourierTransformTest.csproj]
+  DiscreteFourierTransformTest -> D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\bin\Debug\net9.0\DiscreteFourierTransformTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\DFTTests.cs(29,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\DiscreteFourierTransformTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.23
+]]></string>
+    <string>WritePatch: Compile failed.
+DiscreteFourierTransformTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:38:29 AM
+DiscreteFourierTransformTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:38:29 AM
+DiscreteFourierTransformTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:39:25 AM
+DiscreteFourierTransformTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DiscreteFourierTransform -> D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransform\bin\Debug\net9.0\DiscreteFourierTransform.dll
+D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\DFTTests.cs(29,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\DiscreteFourierTransformTest.csproj]
+  DiscreteFourierTransformTest -> D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\bin\Debug\net9.0\DiscreteFourierTransformTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\DFTTests.cs(29,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\DiscreteFourierTransformTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+]]></string>
+    <string>WritePatch: Compile failed.
+DiscreteFourierTransformTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:39:25 AM
+DiscreteFourierTransformTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:39:25 AM
+DiscreteFourierTransformTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:40:01 AM
+DiscreteFourierTransformTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DiscreteFourierTransform -> D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransform\bin\Debug\net9.0\DiscreteFourierTransform.dll
+  DiscreteFourierTransformTest -> D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\bin\Debug\net9.0\DiscreteFourierTransformTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.82
+]]></string>
+    <string>WritePatch: Code is not Complete.
+DiscreteFourierTransformTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:40:13 AM
+DiscreteFourierTransformTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DiscreteFourierTransform -> D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransform\bin\Debug\net9.0\DiscreteFourierTransform.dll
+  DiscreteFourierTransformTest -> D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\bin\Debug\net9.0\DiscreteFourierTransformTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.82
+
+</CompilerResponse>
+2025-02-23 6:40:13 AM
+DiscreteFourierTransformTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 6:40:14 AM
+DiscreteFourierTransform</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DiscreteFourierTransform -> D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransform\bin\Debug\net9.0\DiscreteFourierTransform.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.66
+]]></string>
+    <string>WritePatch: Code is Complete.
+DiscreteFourierTransform</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:40:25 AM
+DiscreteFourierTransformTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DiscreteFourierTransform -> D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransform\bin\Debug\net9.0\DiscreteFourierTransform.dll
+  DiscreteFourierTransformTest -> D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\bin\Debug\net9.0\DiscreteFourierTransformTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+]]></string>
+    <string>WritePatch: Code is Complete.
+DiscreteFourierTransformTest</string>
+    <string>[INFO 2025-02-23 6:40:38 AM] Starting test for project: D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\DiscreteFourierTransformTest.csproj</string>
+    <string>[INFO 2025-02-23 6:40:38 AM] Starting test for project: D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\DiscreteFourierTransformTest.csproj</string>
+    <string>[INFO 2025-02-23 6:40:38 AM] Starting test for project: D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\DiscreteFourierTransformTest.csproj</string>
+    <string>[INFO 2025-02-23 6:40:38 AM] Starting test for project: D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\DiscreteFourierTransformTest.csproj</string>
+    <string>[INFO 2025-02-23 6:40:38 AM] Starting test for project: D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\DiscreteFourierTransformTest.csproj</string>
+    <string>[INFO 2025-02-23 6:40:38 AM] Starting test for project: D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\DiscreteFourierTransformTest.csproj</string>
+    <string>[INFO 2025-02-23 6:40:38 AM] Starting test for project: D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\DiscreteFourierTransformTest.csproj</string>
+    <string>[INFO 2025-02-23 6:40:38 AM] Starting test for project: D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\DiscreteFourierTransformTest.csproj</string>
+    <string>[INFO 2025-02-23 6:40:38 AM] Starting test for project: D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\DiscreteFourierTransformTest.csproj</string>
+    <string>[INFO 2025-02-23 6:40:38 AM] Starting test for project: D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\DiscreteFourierTransformTest.csproj</string>
+    <string>[INFO 2025-02-23 6:40:38 AM] Starting test for project: D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\DiscreteFourierTransformTest.csproj</string>
+    <string>[INFO 2025-02-23 6:40:38 AM] Starting test for project: D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\DiscreteFourierTransformTest.csproj</string>
+    <string>[INFO 2025-02-23 6:40:38 AM] Starting test for project: D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\DiscreteFourierTransformTest.csproj</string>
+    <string>[INFO 2025-02-23 6:40:38 AM] Starting test for project: D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\DiscreteFourierTransformTest.csproj</string>
+    <string>[INFO 2025-02-23 6:40:38 AM] Starting test for project: D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\DiscreteFourierTransformTest.csproj</string>
+    <string>[INFO 2025-02-23 6:40:38 AM] Starting test for project: D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\DiscreteFourierTransformTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 6:40:40 AM] All tests passed successfully.
+[INFO 2025-02-23 6:40:40 AM] Test process completed. Duration: 2.55 seconds.
+[INFO 2025-02-23 6:40:40 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 6:40:39 AM]   DiscreteFourierTransformTest -> D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\bin\Debug\net9.0\DiscreteFourierTransformTest.dll
+[OUTPUT 2025-02-23 6:40:38 AM]   DiscreteFourierTransform -> D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransform\bin\Debug\net9.0\DiscreteFourierTransform.dll
+[OUTPUT 2025-02-23 6:40:40 AM]   Passed Compute_TwoElementSignal_ReturnsExpected [10 ms]
+[OUTPUT 2025-02-23 6:40:40 AM]   Passed Compute_SingleValue_ReturnsSameValue [10 ms]
+[OUTPUT 2025-02-23 6:40:40 AM]   Passed Compute_NullSignal_ReturnsEmptyArray [4 ms]
+[OUTPUT 2025-02-23 6:40:40 AM]   Passed Compute_EmptySignal_ReturnsEmptyArray [4 ms]
+[OUTPUT 2025-02-23 6:40:40 AM] Test Parallelization enabled for D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\bin\Debug\net9.0\DiscreteFourierTransformTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 6:40:39 AM] D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\bin\Debug\net9.0\DiscreteFourierTransformTest.dll
+[OUTPUT 2025-02-23 6:40:39 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:40:39 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:40:39 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:40:39 AM] Test run for D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\bin\Debug\net9.0\DiscreteFourierTransformTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:40:38 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 6:40:38 AM]   Determining projects to restore...
+[INFO 2025-02-23 6:40:38 AM] Command: dotnet test "D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\DiscreteFourierTransformTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:40:38 AM] Starting test for project: D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\DiscreteFourierTransformTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 6:36:38 AM
+DiscreteFourierTransform
+
+WritePatch ran compiler. 2025-02-23 6:37:14 AM
+DiscreteFourierTransform
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DiscreteFourierTransform -> D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransform\bin\Debug\net9.0\DiscreteFourierTransform.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.86
+
+
+WritePatch: Code is Complete.
+DiscreteFourierTransform
+
+WritePatch Started CycleStep. 2025-02-23 6:37:25 AM
+DiscreteFourierTransformTest
+
+WritePatch ran compiler. 2025-02-23 6:38:29 AM
+DiscreteFourierTransformTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\DiscreteFourierTransformTest.csproj (in 174 ms).
+  1 of 2 projects are up-to-date for restore.
+  DiscreteFourierTransform -> D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransform\bin\Debug\net9.0\DiscreteFourierTransform.dll
+D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\DFTTests.cs(29,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\DiscreteFourierTransformTest.csproj]
+  DiscreteFourierTransformTest -> D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\bin\Debug\net9.0\DiscreteFourierTransformTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\DFTTests.cs(29,44): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\DiscreteFourierTransformTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.23
+
+
+WritePatch: Compile failed.
+DiscreteFourierTransformTest
+
+Finished WritePatch cycle step.
+2025-02-23 6:38:29 AM
+DiscreteFourierTransformTest
+
+WritePatch Started CycleStep. 2025-02-23 6:38:29 AM
+DiscreteFourierTransformTest
+
+WritePatch ran compiler. 2025-02-23 6:39:25 AM
+DiscreteFourierTransformTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DiscreteFourierTransform -> D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransform\bin\Debug\net9.0\DiscreteFourierTransform.dll
+D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\DFTTests.cs(29,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\DiscreteFourierTransformTest.csproj]
+  DiscreteFourierTransformTest -> D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\bin\Debug\net9.0\DiscreteFourierTransformTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\DFTTests.cs(29,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\DiscreteFourierTransformTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+
+
+WritePatch: Compile failed.
+DiscreteFourierTransformTest
+
+Finished WritePatch cycle step.
+2025-02-23 6:39:25 AM
+DiscreteFourierTransformTest
+
+WritePatch Started CycleStep. 2025-02-23 6:39:25 AM
+DiscreteFourierTransformTest
+
+WritePatch ran compiler. 2025-02-23 6:40:01 AM
+DiscreteFourierTransformTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DiscreteFourierTransform -> D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransform\bin\Debug\net9.0\DiscreteFourierTransform.dll
+  DiscreteFourierTransformTest -> D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\bin\Debug\net9.0\DiscreteFourierTransformTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.82
+
+
+WritePatch: Code is not Complete.
+DiscreteFourierTransformTest
+
+Finished WritePatch cycle step.
+2025-02-23 6:40:13 AM
+DiscreteFourierTransformTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DiscreteFourierTransform -> D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransform\bin\Debug\net9.0\DiscreteFourierTransform.dll
+  DiscreteFourierTransformTest -> D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\bin\Debug\net9.0\DiscreteFourierTransformTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.82
+
+</CompilerResponse>
+2025-02-23 6:40:13 AM
+DiscreteFourierTransformTest
+
+WritePatch ran compiler. 2025-02-23 6:40:14 AM
+DiscreteFourierTransform
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DiscreteFourierTransform -> D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransform\bin\Debug\net9.0\DiscreteFourierTransform.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.66
+
+
+WritePatch: Code is Complete.
+DiscreteFourierTransform
+
+WritePatch ran compiler. 2025-02-23 6:40:25 AM
+DiscreteFourierTransformTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DiscreteFourierTransform -> D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransform\bin\Debug\net9.0\DiscreteFourierTransform.dll
+  DiscreteFourierTransformTest -> D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\bin\Debug\net9.0\DiscreteFourierTransformTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+
+
+WritePatch: Code is Complete.
+DiscreteFourierTransformTest
+
+TestResult:
+[SUCCESS 2025-02-23 6:40:40 AM] All tests passed successfully.
+[INFO 2025-02-23 6:40:40 AM] Test process completed. Duration: 2.55 seconds.
+[INFO 2025-02-23 6:40:40 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 6:40:39 AM]   DiscreteFourierTransformTest -> D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\bin\Debug\net9.0\DiscreteFourierTransformTest.dll
+[OUTPUT 2025-02-23 6:40:38 AM]   DiscreteFourierTransform -> D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransform\bin\Debug\net9.0\DiscreteFourierTransform.dll
+[OUTPUT 2025-02-23 6:40:40 AM]   Passed Compute_TwoElementSignal_ReturnsExpected [10 ms]
+[OUTPUT 2025-02-23 6:40:40 AM]   Passed Compute_SingleValue_ReturnsSameValue [10 ms]
+[OUTPUT 2025-02-23 6:40:40 AM]   Passed Compute_NullSignal_ReturnsEmptyArray [4 ms]
+[OUTPUT 2025-02-23 6:40:40 AM]   Passed Compute_EmptySignal_ReturnsEmptyArray [4 ms]
+[OUTPUT 2025-02-23 6:40:40 AM] Test Parallelization enabled for D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\bin\Debug\net9.0\DiscreteFourierTransformTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 6:40:39 AM] D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\bin\Debug\net9.0\DiscreteFourierTransformTest.dll
+[OUTPUT 2025-02-23 6:40:39 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 6:40:39 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 6:40:39 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 6:40:39 AM] Test run for D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\bin\Debug\net9.0\DiscreteFourierTransformTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 6:40:38 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 6:40:38 AM]   Determining projects to restore...
+[INFO 2025-02-23 6:40:38 AM] Command: dotnet test "D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\DiscreteFourierTransformTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 6:40:38 AM] Starting test for project: D:\Code2025\RavenWork\DiscreteFourierTransform\DiscreteFourierTransformTest\DiscreteFourierTransformTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
