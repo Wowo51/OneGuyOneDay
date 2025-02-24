@@ -1,0 +1,511 @@
+<ActRecord>
+  <ProjectName>PatienceSorting</ProjectName>
+  <ProjectDescription>Patience sorting</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Patience sorting</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\PatienceSorting</SolutionFolderPath>
+  <ProjectFolderName>PatienceSorting</ProjectFolderName>
+  <ProjectName>PatienceSorting</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:58:52 PM
+PatienceSorting</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:59:40 PM
+PatienceSorting</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\PatienceSorting\PatienceSorting\PatienceSorter.cs(51,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PatienceSorting\PatienceSorting\PatienceSorting.csproj]
+  PatienceSorting -> D:\Code2025\RavenWork\PatienceSorting\PatienceSorting\bin\Debug\net9.0\PatienceSorting.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PatienceSorting\PatienceSorting\PatienceSorter.cs(51,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PatienceSorting\PatienceSorting\PatienceSorting.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.91
+]]></string>
+    <string>WritePatch: Compile failed.
+PatienceSorting</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:59:42 PM
+PatienceSorting</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:59:42 PM
+PatienceSorting</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:00:48 PM
+PatienceSorting</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PatienceSorting -> D:\Code2025\RavenWork\PatienceSorting\PatienceSorting\bin\Debug\net9.0\PatienceSorting.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.75
+]]></string>
+    <string>WritePatch: Code is Complete.
+PatienceSorting</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:01:04 PM
+PatienceSortingTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:01:36 PM
+PatienceSortingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj (in 455 ms).
+  1 of 2 projects are up-to-date for restore.
+  PatienceSorting -> D:\Code2025\RavenWork\PatienceSorting\PatienceSorting\bin\Debug\net9.0\PatienceSorting.dll
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(14,32): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.IList<int>' to 'System.Collections.Generic.List<int>'. An explicit conversion exists (are you missing a cast?) [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(14,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(23,32): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.IList<int>' to 'System.Collections.Generic.List<int>'. An explicit conversion exists (are you missing a cast?) [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(35,32): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.IList<int>' to 'System.Collections.Generic.List<int>'. An explicit conversion exists (are you missing a cast?) [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(51,32): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.IList<int>' to 'System.Collections.Generic.List<int>'. An explicit conversion exists (are you missing a cast?) [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(66,32): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.IList<int>' to 'System.Collections.Generic.List<int>'. An explicit conversion exists (are you missing a cast?) [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(88,32): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.IList<int>' to 'System.Collections.Generic.List<int>'. An explicit conversion exists (are you missing a cast?) [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(110,32): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.IList<int>' to 'System.Collections.Generic.List<int>'. An explicit conversion exists (are you missing a cast?) [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(135,32): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.IList<int>' to 'System.Collections.Generic.List<int>'. An explicit conversion exists (are you missing a cast?) [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(14,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(14,32): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.IList<int>' to 'System.Collections.Generic.List<int>'. An explicit conversion exists (are you missing a cast?) [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(23,32): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.IList<int>' to 'System.Collections.Generic.List<int>'. An explicit conversion exists (are you missing a cast?) [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(35,32): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.IList<int>' to 'System.Collections.Generic.List<int>'. An explicit conversion exists (are you missing a cast?) [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(51,32): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.IList<int>' to 'System.Collections.Generic.List<int>'. An explicit conversion exists (are you missing a cast?) [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(66,32): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.IList<int>' to 'System.Collections.Generic.List<int>'. An explicit conversion exists (are you missing a cast?) [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(88,32): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.IList<int>' to 'System.Collections.Generic.List<int>'. An explicit conversion exists (are you missing a cast?) [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(110,32): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.IList<int>' to 'System.Collections.Generic.List<int>'. An explicit conversion exists (are you missing a cast?) [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(135,32): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.IList<int>' to 'System.Collections.Generic.List<int>'. An explicit conversion exists (are you missing a cast?) [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+    1 Warning(s)
+    8 Error(s)
+
+Time Elapsed 00:00:02.92
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+PatienceSortingTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:01:38 PM
+PatienceSortingTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:01:38 PM
+PatienceSortingTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:03:03 PM
+PatienceSortingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PatienceSorting -> D:\Code2025\RavenWork\PatienceSorting\PatienceSorting\bin\Debug\net9.0\PatienceSorting.dll
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(14,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(52,46): error CS1503: Argument 2: cannot convert from 'System.Collections.Generic.IList<int>' to 'System.Collections.ICollection?' [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(75,49): error CS1503: Argument 2: cannot convert from 'System.Collections.Generic.IList<int>' to 'System.Collections.ICollection?' [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(96,49): error CS1503: Argument 2: cannot convert from 'System.Collections.Generic.IList<int>' to 'System.Collections.ICollection?' [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(119,49): error CS1503: Argument 2: cannot convert from 'System.Collections.Generic.IList<int>' to 'System.Collections.ICollection?' [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(136,49): error CS1503: Argument 2: cannot convert from 'System.Collections.Generic.IList<int>' to 'System.Collections.ICollection?' [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(14,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(52,46): error CS1503: Argument 2: cannot convert from 'System.Collections.Generic.IList<int>' to 'System.Collections.ICollection?' [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(75,49): error CS1503: Argument 2: cannot convert from 'System.Collections.Generic.IList<int>' to 'System.Collections.ICollection?' [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(96,49): error CS1503: Argument 2: cannot convert from 'System.Collections.Generic.IList<int>' to 'System.Collections.ICollection?' [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(119,49): error CS1503: Argument 2: cannot convert from 'System.Collections.Generic.IList<int>' to 'System.Collections.ICollection?' [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(136,49): error CS1503: Argument 2: cannot convert from 'System.Collections.Generic.IList<int>' to 'System.Collections.ICollection?' [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+    1 Warning(s)
+    5 Error(s)
+
+Time Elapsed 00:00:02.55
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+PatienceSortingTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:03:06 PM
+PatienceSortingTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:03:06 PM
+PatienceSortingTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:03:56 PM
+PatienceSortingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PatienceSorting -> D:\Code2025\RavenWork\PatienceSorting\PatienceSorting\bin\Debug\net9.0\PatienceSorting.dll
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(15,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+  PatienceSortingTest -> D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\bin\Debug\net9.0\PatienceSortingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(15,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.70
+]]></string>
+    <string>WritePatch: Compile failed.
+PatienceSortingTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:03:57 PM
+PatienceSortingTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PatienceSorting -> D:\Code2025\RavenWork\PatienceSorting\PatienceSorting\bin\Debug\net9.0\PatienceSorting.dll
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(15,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+  PatienceSortingTest -> D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\bin\Debug\net9.0\PatienceSortingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(15,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.70
+
+</CompilerResponse>
+2025-02-23 7:03:58 PM
+PatienceSortingTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 7:04:00 PM
+PatienceSorting</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PatienceSorting -> D:\Code2025\RavenWork\PatienceSorting\PatienceSorting\bin\Debug\net9.0\PatienceSorting.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.50
+]]></string>
+    <string>WritePatch: Code is Complete.
+PatienceSorting</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:04:25 PM
+PatienceSortingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PatienceSorting -> D:\Code2025\RavenWork\PatienceSorting\PatienceSorting\bin\Debug\net9.0\PatienceSorting.dll
+  PatienceSortingTest -> D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\bin\Debug\net9.0\PatienceSortingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.70
+]]></string>
+    <string>WritePatch: Code is Complete.
+PatienceSortingTest</string>
+    <string>[INFO 2025-02-23 7:04:35 PM] Starting test for project: D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj</string>
+    <string>[INFO 2025-02-23 7:04:35 PM] Starting test for project: D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj</string>
+    <string>[INFO 2025-02-23 7:04:35 PM] Starting test for project: D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj</string>
+    <string>[INFO 2025-02-23 7:04:35 PM] Starting test for project: D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj</string>
+    <string>[INFO 2025-02-23 7:04:35 PM] Starting test for project: D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj</string>
+    <string>[INFO 2025-02-23 7:04:35 PM] Starting test for project: D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj</string>
+    <string>[INFO 2025-02-23 7:04:35 PM] Starting test for project: D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj</string>
+    <string>[INFO 2025-02-23 7:04:35 PM] Starting test for project: D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj</string>
+    <string>[INFO 2025-02-23 7:04:35 PM] Starting test for project: D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj</string>
+    <string>[INFO 2025-02-23 7:04:35 PM] Starting test for project: D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj</string>
+    <string>[INFO 2025-02-23 7:04:35 PM] Starting test for project: D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj</string>
+    <string>[INFO 2025-02-23 7:04:35 PM] Starting test for project: D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 7:04:43 PM] Test Parallelization enabled for D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\bin\Debug\net9.0\PatienceSortingTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:04:40 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:04:40 PM] Test run for D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\bin\Debug\net9.0\PatienceSortingTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:04:39 PM]   PatienceSortingTest -> D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\bin\Debug\net9.0\PatienceSortingTest.dll
+[OUTPUT 2025-02-23 7:04:39 PM]   PatienceSorting -> D:\Code2025\RavenWork\PatienceSorting\PatienceSorting\bin\Debug\net9.0\PatienceSorting.dll
+[OUTPUT 2025-02-23 7:04:41 PM] D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\bin\Debug\net9.0\PatienceSortingTest.dll
+[OUTPUT 2025-02-23 7:04:41 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:04:40 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:04:38 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:04:37 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 7:04:42 PM] All tests passed successfully.
+[INFO 2025-02-23 7:04:42 PM] Test process completed. Duration: 6.46 seconds.
+[INFO 2025-02-23 7:04:42 PM] Process exited with code 0.
+[INFO 2025-02-23 7:04:35 PM] Command: dotnet test "D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:04:35 PM] Starting test for project: D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 6:58:52 PM
+PatienceSorting
+
+WritePatch ran compiler. 2025-02-23 6:59:40 PM
+PatienceSorting
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\PatienceSorting\PatienceSorting\PatienceSorter.cs(51,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PatienceSorting\PatienceSorting\PatienceSorting.csproj]
+  PatienceSorting -> D:\Code2025\RavenWork\PatienceSorting\PatienceSorting\bin\Debug\net9.0\PatienceSorting.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PatienceSorting\PatienceSorting\PatienceSorter.cs(51,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PatienceSorting\PatienceSorting\PatienceSorting.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.91
+
+
+WritePatch: Compile failed.
+PatienceSorting
+
+Finished WritePatch cycle step.
+2025-02-23 6:59:42 PM
+PatienceSorting
+
+WritePatch Started CycleStep. 2025-02-23 6:59:42 PM
+PatienceSorting
+
+WritePatch ran compiler. 2025-02-23 7:00:48 PM
+PatienceSorting
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PatienceSorting -> D:\Code2025\RavenWork\PatienceSorting\PatienceSorting\bin\Debug\net9.0\PatienceSorting.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.75
+
+
+WritePatch: Code is Complete.
+PatienceSorting
+
+WritePatch Started CycleStep. 2025-02-23 7:01:04 PM
+PatienceSortingTest
+
+WritePatch ran compiler. 2025-02-23 7:01:36 PM
+PatienceSortingTest
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj (in 455 ms).
+  1 of 2 projects are up-to-date for restore.
+  PatienceSorting -> D:\Code2025\RavenWork\PatienceSorting\PatienceSorting\bin\Debug\net9.0\PatienceSorting.dll
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(14,32): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.IList<int>' to 'System.Collections.Generic.List<int>'. An explicit conversion exists (are you missing a cast?) [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(14,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(23,32): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.IList<int>' to 'System.Collections.Generic.List<int>'. An explicit conversion exists (are you missing a cast?) [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(35,32): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.IList<int>' to 'System.Collections.Generic.List<int>'. An explicit conversion exists (are you missing a cast?) [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(51,32): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.IList<int>' to 'System.Collections.Generic.List<int>'. An explicit conversion exists (are you missing a cast?) [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(66,32): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.IList<int>' to 'System.Collections.Generic.List<int>'. An explicit conversion exists (are you missing a cast?) [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(88,32): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.IList<int>' to 'System.Collections.Generic.List<int>'. An explicit conversion exists (are you missing a cast?) [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(110,32): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.IList<int>' to 'System.Collections.Generic.List<int>'. An explicit conversion exists (are you missing a cast?) [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(135,32): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.IList<int>' to 'System.Collections.Generic.List<int>'. An explicit conversion exists (are you missing a cast?) [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(14,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(14,32): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.IList<int>' to 'System.Collections.Generic.List<int>'. An explicit conversion exists (are you missing a cast?) [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(23,32): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.IList<int>' to 'System.Collections.Generic.List<int>'. An explicit conversion exists (are you missing a cast?) [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(35,32): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.IList<int>' to 'System.Collections.Generic.List<int>'. An explicit conversion exists (are you missing a cast?) [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(51,32): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.IList<int>' to 'System.Collections.Generic.List<int>'. An explicit conversion exists (are you missing a cast?) [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(66,32): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.IList<int>' to 'System.Collections.Generic.List<int>'. An explicit conversion exists (are you missing a cast?) [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(88,32): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.IList<int>' to 'System.Collections.Generic.List<int>'. An explicit conversion exists (are you missing a cast?) [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(110,32): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.IList<int>' to 'System.Collections.Generic.List<int>'. An explicit conversion exists (are you missing a cast?) [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(135,32): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.IList<int>' to 'System.Collections.Generic.List<int>'. An explicit conversion exists (are you missing a cast?) [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+    1 Warning(s)
+    8 Error(s)
+
+Time Elapsed 00:00:02.92
+
+
+Errors:
+
+WritePatch: Compile failed.
+PatienceSortingTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:01:38 PM
+PatienceSortingTest
+
+WritePatch Started CycleStep. 2025-02-23 7:01:38 PM
+PatienceSortingTest
+
+WritePatch ran compiler. 2025-02-23 7:03:03 PM
+PatienceSortingTest
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PatienceSorting -> D:\Code2025\RavenWork\PatienceSorting\PatienceSorting\bin\Debug\net9.0\PatienceSorting.dll
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(14,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(52,46): error CS1503: Argument 2: cannot convert from 'System.Collections.Generic.IList<int>' to 'System.Collections.ICollection?' [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(75,49): error CS1503: Argument 2: cannot convert from 'System.Collections.Generic.IList<int>' to 'System.Collections.ICollection?' [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(96,49): error CS1503: Argument 2: cannot convert from 'System.Collections.Generic.IList<int>' to 'System.Collections.ICollection?' [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(119,49): error CS1503: Argument 2: cannot convert from 'System.Collections.Generic.IList<int>' to 'System.Collections.ICollection?' [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(136,49): error CS1503: Argument 2: cannot convert from 'System.Collections.Generic.IList<int>' to 'System.Collections.ICollection?' [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(14,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(52,46): error CS1503: Argument 2: cannot convert from 'System.Collections.Generic.IList<int>' to 'System.Collections.ICollection?' [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(75,49): error CS1503: Argument 2: cannot convert from 'System.Collections.Generic.IList<int>' to 'System.Collections.ICollection?' [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(96,49): error CS1503: Argument 2: cannot convert from 'System.Collections.Generic.IList<int>' to 'System.Collections.ICollection?' [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(119,49): error CS1503: Argument 2: cannot convert from 'System.Collections.Generic.IList<int>' to 'System.Collections.ICollection?' [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(136,49): error CS1503: Argument 2: cannot convert from 'System.Collections.Generic.IList<int>' to 'System.Collections.ICollection?' [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+    1 Warning(s)
+    5 Error(s)
+
+Time Elapsed 00:00:02.55
+
+
+Errors:
+
+WritePatch: Compile failed.
+PatienceSortingTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:03:06 PM
+PatienceSortingTest
+
+WritePatch Started CycleStep. 2025-02-23 7:03:06 PM
+PatienceSortingTest
+
+WritePatch ran compiler. 2025-02-23 7:03:56 PM
+PatienceSortingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PatienceSorting -> D:\Code2025\RavenWork\PatienceSorting\PatienceSorting\bin\Debug\net9.0\PatienceSorting.dll
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(15,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+  PatienceSortingTest -> D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\bin\Debug\net9.0\PatienceSortingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(15,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.70
+
+
+WritePatch: Compile failed.
+PatienceSortingTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:03:57 PM
+PatienceSortingTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PatienceSorting -> D:\Code2025\RavenWork\PatienceSorting\PatienceSorting\bin\Debug\net9.0\PatienceSorting.dll
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(15,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+  PatienceSortingTest -> D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\bin\Debug\net9.0\PatienceSortingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSorterTests.cs(15,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.70
+
+</CompilerResponse>
+2025-02-23 7:03:58 PM
+PatienceSortingTest
+
+WritePatch ran compiler. 2025-02-23 7:04:00 PM
+PatienceSorting
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PatienceSorting -> D:\Code2025\RavenWork\PatienceSorting\PatienceSorting\bin\Debug\net9.0\PatienceSorting.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.50
+
+
+WritePatch: Code is Complete.
+PatienceSorting
+
+WritePatch ran compiler. 2025-02-23 7:04:25 PM
+PatienceSortingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PatienceSorting -> D:\Code2025\RavenWork\PatienceSorting\PatienceSorting\bin\Debug\net9.0\PatienceSorting.dll
+  PatienceSortingTest -> D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\bin\Debug\net9.0\PatienceSortingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.70
+
+
+WritePatch: Code is Complete.
+PatienceSortingTest
+
+TestResult:
+[OUTPUT 2025-02-23 7:04:43 PM] Test Parallelization enabled for D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\bin\Debug\net9.0\PatienceSortingTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:04:40 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:04:40 PM] Test run for D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\bin\Debug\net9.0\PatienceSortingTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:04:39 PM]   PatienceSortingTest -> D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\bin\Debug\net9.0\PatienceSortingTest.dll
+[OUTPUT 2025-02-23 7:04:39 PM]   PatienceSorting -> D:\Code2025\RavenWork\PatienceSorting\PatienceSorting\bin\Debug\net9.0\PatienceSorting.dll
+[OUTPUT 2025-02-23 7:04:41 PM] D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\bin\Debug\net9.0\PatienceSortingTest.dll
+[OUTPUT 2025-02-23 7:04:41 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:04:40 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:04:38 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:04:37 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 7:04:42 PM] All tests passed successfully.
+[INFO 2025-02-23 7:04:42 PM] Test process completed. Duration: 6.46 seconds.
+[INFO 2025-02-23 7:04:42 PM] Process exited with code 0.
+[INFO 2025-02-23 7:04:35 PM] Command: dotnet test "D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:04:35 PM] Starting test for project: D:\Code2025\RavenWork\PatienceSorting\PatienceSortingTest\PatienceSortingTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
