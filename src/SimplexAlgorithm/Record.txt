@@ -1,0 +1,349 @@
+<ActRecord>
+  <ProjectName>SimplexAlgorithm</ProjectName>
+  <ProjectDescription>Simplex algorithm – A procedure for solving linear programming problems by moving along the vertices of the feasible region.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Simplex algorithm – A procedure for solving linear programming problems by moving along the vertices of the feasible region.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\SimplexAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>SimplexAlgorithm</ProjectFolderName>
+  <ProjectName>SimplexAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:46:35 AM
+SimplexAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:47:20 AM
+SimplexAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SimplexAlgorithm -> D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithm\bin\Debug\net9.0\SimplexAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+]]></string>
+    <string>WritePatch: Code is Complete.
+SimplexAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:48:00 AM
+SimplexAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:50:06 AM
+SimplexAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj (in 203 ms).
+  1 of 2 projects are up-to-date for restore.
+  SimplexAlgorithm -> D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithm\bin\Debug\net9.0\SimplexAlgorithm.dll
+D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexSolverTests.cs(13,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexSolverTests.cs(22,51): warning CS8604: Possible null reference argument for parameter 'A' in 'double[] SimplexSolver.Solve(double[,] A, double[] b, double[] c)'. [D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexSolverTests.cs(35,26): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexSolverTests.cs(40,54): warning CS8604: Possible null reference argument for parameter 'b' in 'double[] SimplexSolver.Solve(double[,] A, double[] b, double[] c)'. [D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexSolverTests.cs(57,26): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexSolverTests.cs(58,57): warning CS8604: Possible null reference argument for parameter 'c' in 'double[] SimplexSolver.Solve(double[,] A, double[] b, double[] c)'. [D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj]
+  SimplexAlgorithmTest -> D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\bin\Debug\net9.0\SimplexAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexSolverTests.cs(13,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexSolverTests.cs(22,51): warning CS8604: Possible null reference argument for parameter 'A' in 'double[] SimplexSolver.Solve(double[,] A, double[] b, double[] c)'. [D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexSolverTests.cs(35,26): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexSolverTests.cs(40,54): warning CS8604: Possible null reference argument for parameter 'b' in 'double[] SimplexSolver.Solve(double[,] A, double[] b, double[] c)'. [D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexSolverTests.cs(57,26): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexSolverTests.cs(58,57): warning CS8604: Possible null reference argument for parameter 'c' in 'double[] SimplexSolver.Solve(double[,] A, double[] b, double[] c)'. [D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj]
+    6 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.52
+]]></string>
+    <string>WritePatch: Compile failed.
+SimplexAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:50:07 AM
+SimplexAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:50:07 AM
+SimplexAlgorithmTest</string>
+    <string>Exception: The request was canceled due to the configured HttpClient.Timeout of 200 seconds elapsing.</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:53:28 AM
+SimplexAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:54:13 AM
+SimplexAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SimplexAlgorithm -> D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithm\bin\Debug\net9.0\SimplexAlgorithm.dll
+  SimplexAlgorithmTest -> D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\bin\Debug\net9.0\SimplexAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+]]></string>
+    <string>WritePatch: Code is not Complete.
+SimplexAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:54:49 AM
+SimplexAlgorithmTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SimplexAlgorithm -> D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithm\bin\Debug\net9.0\SimplexAlgorithm.dll
+  SimplexAlgorithmTest -> D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\bin\Debug\net9.0\SimplexAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+
+</CompilerResponse>
+2025-02-23 7:54:50 AM
+SimplexAlgorithmTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 7:54:51 AM
+SimplexAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SimplexAlgorithm -> D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithm\bin\Debug\net9.0\SimplexAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.67
+]]></string>
+    <string>WritePatch: Code is Complete.
+SimplexAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:55:46 AM
+SimplexAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SimplexAlgorithm -> D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithm\bin\Debug\net9.0\SimplexAlgorithm.dll
+  SimplexAlgorithmTest -> D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\bin\Debug\net9.0\SimplexAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+]]></string>
+    <string>WritePatch: Code is Complete.
+SimplexAlgorithmTest</string>
+    <string>[INFO 2025-02-23 7:56:24 AM] Starting test for project: D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:56:24 AM] Starting test for project: D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:56:24 AM] Starting test for project: D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:56:24 AM] Starting test for project: D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:56:24 AM] Starting test for project: D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:56:24 AM] Starting test for project: D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:56:24 AM] Starting test for project: D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:56:24 AM] Starting test for project: D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:56:24 AM] Starting test for project: D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 7:56:24 AM] Starting test for project: D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 7:56:27 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:56:27 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:56:26 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:56:26 AM] Test run for D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\bin\Debug\net9.0\SimplexAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:56:26 AM]   SimplexAlgorithmTest -> D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\bin\Debug\net9.0\SimplexAlgorithmTest.dll
+[OUTPUT 2025-02-23 7:56:25 AM]   SimplexAlgorithm -> D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithm\bin\Debug\net9.0\SimplexAlgorithm.dll
+[OUTPUT 2025-02-23 7:56:25 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:56:24 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 7:56:27 AM] All tests passed successfully.
+[INFO 2025-02-23 7:56:27 AM] Test process completed. Duration: 3.08 seconds.
+[INFO 2025-02-23 7:56:27 AM] Process exited with code 0.
+[INFO 2025-02-23 7:56:24 AM] Command: dotnet test "D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:56:24 AM] Starting test for project: D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 7:46:35 AM
+SimplexAlgorithm
+
+WritePatch ran compiler. 2025-02-23 7:47:20 AM
+SimplexAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SimplexAlgorithm -> D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithm\bin\Debug\net9.0\SimplexAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+
+
+WritePatch: Code is Complete.
+SimplexAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 7:48:00 AM
+SimplexAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 7:50:06 AM
+SimplexAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj (in 203 ms).
+  1 of 2 projects are up-to-date for restore.
+  SimplexAlgorithm -> D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithm\bin\Debug\net9.0\SimplexAlgorithm.dll
+D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexSolverTests.cs(13,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexSolverTests.cs(22,51): warning CS8604: Possible null reference argument for parameter 'A' in 'double[] SimplexSolver.Solve(double[,] A, double[] b, double[] c)'. [D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexSolverTests.cs(35,26): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexSolverTests.cs(40,54): warning CS8604: Possible null reference argument for parameter 'b' in 'double[] SimplexSolver.Solve(double[,] A, double[] b, double[] c)'. [D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexSolverTests.cs(57,26): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexSolverTests.cs(58,57): warning CS8604: Possible null reference argument for parameter 'c' in 'double[] SimplexSolver.Solve(double[,] A, double[] b, double[] c)'. [D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj]
+  SimplexAlgorithmTest -> D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\bin\Debug\net9.0\SimplexAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexSolverTests.cs(13,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexSolverTests.cs(22,51): warning CS8604: Possible null reference argument for parameter 'A' in 'double[] SimplexSolver.Solve(double[,] A, double[] b, double[] c)'. [D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexSolverTests.cs(35,26): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexSolverTests.cs(40,54): warning CS8604: Possible null reference argument for parameter 'b' in 'double[] SimplexSolver.Solve(double[,] A, double[] b, double[] c)'. [D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexSolverTests.cs(57,26): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj]
+D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexSolverTests.cs(58,57): warning CS8604: Possible null reference argument for parameter 'c' in 'double[] SimplexSolver.Solve(double[,] A, double[] b, double[] c)'. [D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj]
+    6 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.52
+
+
+WritePatch: Compile failed.
+SimplexAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:50:07 AM
+SimplexAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 7:50:07 AM
+SimplexAlgorithmTest
+
+Exception: The request was canceled due to the configured HttpClient.Timeout of 200 seconds elapsing.
+
+WritePatch Started CycleStep. 2025-02-23 7:53:28 AM
+SimplexAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 7:54:13 AM
+SimplexAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SimplexAlgorithm -> D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithm\bin\Debug\net9.0\SimplexAlgorithm.dll
+  SimplexAlgorithmTest -> D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\bin\Debug\net9.0\SimplexAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+
+
+WritePatch: Code is not Complete.
+SimplexAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:54:49 AM
+SimplexAlgorithmTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SimplexAlgorithm -> D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithm\bin\Debug\net9.0\SimplexAlgorithm.dll
+  SimplexAlgorithmTest -> D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\bin\Debug\net9.0\SimplexAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+
+</CompilerResponse>
+2025-02-23 7:54:50 AM
+SimplexAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 7:54:51 AM
+SimplexAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SimplexAlgorithm -> D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithm\bin\Debug\net9.0\SimplexAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.67
+
+
+WritePatch: Code is Complete.
+SimplexAlgorithm
+
+WritePatch ran compiler. 2025-02-23 7:55:46 AM
+SimplexAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SimplexAlgorithm -> D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithm\bin\Debug\net9.0\SimplexAlgorithm.dll
+  SimplexAlgorithmTest -> D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\bin\Debug\net9.0\SimplexAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+
+
+WritePatch: Code is Complete.
+SimplexAlgorithmTest
+
+TestResult:
+[OUTPUT 2025-02-23 7:56:27 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:56:27 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:56:26 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:56:26 AM] Test run for D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\bin\Debug\net9.0\SimplexAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:56:26 AM]   SimplexAlgorithmTest -> D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\bin\Debug\net9.0\SimplexAlgorithmTest.dll
+[OUTPUT 2025-02-23 7:56:25 AM]   SimplexAlgorithm -> D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithm\bin\Debug\net9.0\SimplexAlgorithm.dll
+[OUTPUT 2025-02-23 7:56:25 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:56:24 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 7:56:27 AM] All tests passed successfully.
+[INFO 2025-02-23 7:56:27 AM] Test process completed. Duration: 3.08 seconds.
+[INFO 2025-02-23 7:56:27 AM] Process exited with code 0.
+[INFO 2025-02-23 7:56:24 AM] Command: dotnet test "D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:56:24 AM] Starting test for project: D:\Code2025\RavenWork\SimplexAlgorithm\SimplexAlgorithmTest\SimplexAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
