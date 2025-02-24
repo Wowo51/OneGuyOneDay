@@ -1,0 +1,395 @@
+<ActRecord>
+  <ProjectName>BootstrapAggregating</ProjectName>
+  <ProjectDescription>Bootstrap aggregating (bagging): Improves stability and accuracy by averaging predictions</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Bootstrap aggregating (bagging): Improves stability and accuracy by averaging predictions</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\BootstrapAggregating</SolutionFolderPath>
+  <ProjectFolderName>BootstrapAggregating</ProjectFolderName>
+  <ProjectName>BootstrapAggregating</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:18:17 AM
+BootstrapAggregating</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:19:48 AM
+BootstrapAggregating</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BootstrapAggregating -> D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregating\bin\Debug\net9.0\BootstrapAggregating.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+]]></string>
+    <string>WritePatch: Code is Complete.
+BootstrapAggregating</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:20:00 AM
+BootstrapAggregatingTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:22:43 AM
+BootstrapAggregatingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj (in 185 ms).
+  1 of 2 projects are up-to-date for restore.
+  BootstrapAggregating -> D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregating\bin\Debug\net9.0\BootstrapAggregating.dll
+D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatorTests.cs(69,48): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj]
+D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatorTests.cs(98,28): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj]
+  BootstrapAggregatingTest -> D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\bin\Debug\net9.0\BootstrapAggregatingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatorTests.cs(69,48): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj]
+D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatorTests.cs(98,28): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.32
+]]></string>
+    <string>WritePatch: Compile failed.
+BootstrapAggregatingTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:22:44 AM
+BootstrapAggregatingTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:22:45 AM
+BootstrapAggregatingTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:25:57 AM
+BootstrapAggregatingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BootstrapAggregating -> D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregating\bin\Debug\net9.0\BootstrapAggregating.dll
+D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatorTests.cs(68,70): warning CS8620: Argument of type 'List<IPredictor?>' cannot be used for parameter 'predictors' of type 'IList<IPredictor>' in 'BootstrapAggregator.BootstrapAggregator(IList<IPredictor> predictors)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj]
+D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatorTests.cs(69,48): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj]
+D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatorTests.cs(77,70): warning CS8620: Argument of type 'List<IPredictor?>' cannot be used for parameter 'predictors' of type 'IList<IPredictor>' in 'BootstrapAggregator.BootstrapAggregator(IList<IPredictor> predictors)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj]
+D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatorTests.cs(88,70): warning CS8620: Argument of type 'List<IPredictor?>' cannot be used for parameter 'predictors' of type 'IList<IPredictor>' in 'BootstrapAggregator.BootstrapAggregator(IList<IPredictor> predictors)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj]
+D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatorTests.cs(100,70): warning CS8620: Argument of type 'List<IPredictor?>' cannot be used for parameter 'predictors' of type 'IList<IPredictor>' in 'BootstrapAggregator.BootstrapAggregator(IList<IPredictor> predictors)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj]
+D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatorTests.cs(110,70): warning CS8620: Argument of type 'List<IPredictor?>' cannot be used for parameter 'predictors' of type 'IList<IPredictor>' in 'BootstrapAggregator.BootstrapAggregator(IList<IPredictor> predictors)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj]
+D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatorTests.cs(128,70): warning CS8620: Argument of type 'List<IPredictor?>' cannot be used for parameter 'predictors' of type 'IList<IPredictor>' in 'BootstrapAggregator.BootstrapAggregator(IList<IPredictor> predictors)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj]
+  BootstrapAggregatingTest -> D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\bin\Debug\net9.0\BootstrapAggregatingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatorTests.cs(68,70): warning CS8620: Argument of type 'List<IPredictor?>' cannot be used for parameter 'predictors' of type 'IList<IPredictor>' in 'BootstrapAggregator.BootstrapAggregator(IList<IPredictor> predictors)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj]
+D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatorTests.cs(69,48): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj]
+D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatorTests.cs(77,70): warning CS8620: Argument of type 'List<IPredictor?>' cannot be used for parameter 'predictors' of type 'IList<IPredictor>' in 'BootstrapAggregator.BootstrapAggregator(IList<IPredictor> predictors)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj]
+D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatorTests.cs(88,70): warning CS8620: Argument of type 'List<IPredictor?>' cannot be used for parameter 'predictors' of type 'IList<IPredictor>' in 'BootstrapAggregator.BootstrapAggregator(IList<IPredictor> predictors)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj]
+D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatorTests.cs(100,70): warning CS8620: Argument of type 'List<IPredictor?>' cannot be used for parameter 'predictors' of type 'IList<IPredictor>' in 'BootstrapAggregator.BootstrapAggregator(IList<IPredictor> predictors)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj]
+D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatorTests.cs(110,70): warning CS8620: Argument of type 'List<IPredictor?>' cannot be used for parameter 'predictors' of type 'IList<IPredictor>' in 'BootstrapAggregator.BootstrapAggregator(IList<IPredictor> predictors)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj]
+D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatorTests.cs(128,70): warning CS8620: Argument of type 'List<IPredictor?>' cannot be used for parameter 'predictors' of type 'IList<IPredictor>' in 'BootstrapAggregator.BootstrapAggregator(IList<IPredictor> predictors)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj]
+    7 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.96
+]]></string>
+    <string>WritePatch: Compile failed.
+BootstrapAggregatingTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:25:58 AM
+BootstrapAggregatingTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:25:58 AM
+BootstrapAggregatingTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:27:14 AM
+BootstrapAggregatingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BootstrapAggregating -> D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregating\bin\Debug\net9.0\BootstrapAggregating.dll
+  BootstrapAggregatingTest -> D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\bin\Debug\net9.0\BootstrapAggregatingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+]]></string>
+    <string>WritePatch: Code is not Complete.
+BootstrapAggregatingTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:27:31 AM
+BootstrapAggregatingTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BootstrapAggregating -> D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregating\bin\Debug\net9.0\BootstrapAggregating.dll
+  BootstrapAggregatingTest -> D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\bin\Debug\net9.0\BootstrapAggregatingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+
+</CompilerResponse>
+2025-02-23 8:27:32 AM
+BootstrapAggregatingTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 8:27:34 AM
+BootstrapAggregating</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BootstrapAggregating -> D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregating\bin\Debug\net9.0\BootstrapAggregating.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.70
+]]></string>
+    <string>WritePatch: Code is Complete.
+BootstrapAggregating</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:27:45 AM
+BootstrapAggregatingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BootstrapAggregating -> D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregating\bin\Debug\net9.0\BootstrapAggregating.dll
+  BootstrapAggregatingTest -> D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\bin\Debug\net9.0\BootstrapAggregatingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.08
+]]></string>
+    <string>WritePatch: Code is Complete.
+BootstrapAggregatingTest</string>
+    <string>[INFO 2025-02-23 8:28:03 AM] Starting test for project: D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj</string>
+    <string>[INFO 2025-02-23 8:28:03 AM] Starting test for project: D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj</string>
+    <string>[INFO 2025-02-23 8:28:03 AM] Starting test for project: D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj</string>
+    <string>[INFO 2025-02-23 8:28:03 AM] Starting test for project: D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj</string>
+    <string>[INFO 2025-02-23 8:28:03 AM] Starting test for project: D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj</string>
+    <string>[INFO 2025-02-23 8:28:03 AM] Starting test for project: D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj</string>
+    <string>[INFO 2025-02-23 8:28:03 AM] Starting test for project: D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 8:28:07 AM] Test run for D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\bin\Debug\net9.0\BootstrapAggregatingTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:28:07 AM]   BootstrapAggregatingTest -> D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\bin\Debug\net9.0\BootstrapAggregatingTest.dll
+[OUTPUT 2025-02-23 8:28:06 AM]   BootstrapAggregating -> D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregating\bin\Debug\net9.0\BootstrapAggregating.dll
+[OUTPUT 2025-02-23 8:28:05 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:28:04 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 8:28:07 AM] All tests passed successfully.
+[INFO 2025-02-23 8:28:07 AM] Test process completed. Duration: 3.85 seconds.
+[INFO 2025-02-23 8:28:07 AM] Process exited with code 0.
+[INFO 2025-02-23 8:28:03 AM] Command: dotnet test "D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:28:03 AM] Starting test for project: D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 8:18:17 AM
+BootstrapAggregating
+
+WritePatch ran compiler. 2025-02-23 8:19:48 AM
+BootstrapAggregating
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BootstrapAggregating -> D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregating\bin\Debug\net9.0\BootstrapAggregating.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+
+
+WritePatch: Code is Complete.
+BootstrapAggregating
+
+WritePatch Started CycleStep. 2025-02-23 8:20:00 AM
+BootstrapAggregatingTest
+
+WritePatch ran compiler. 2025-02-23 8:22:43 AM
+BootstrapAggregatingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj (in 185 ms).
+  1 of 2 projects are up-to-date for restore.
+  BootstrapAggregating -> D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregating\bin\Debug\net9.0\BootstrapAggregating.dll
+D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatorTests.cs(69,48): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj]
+D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatorTests.cs(98,28): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj]
+  BootstrapAggregatingTest -> D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\bin\Debug\net9.0\BootstrapAggregatingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatorTests.cs(69,48): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj]
+D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatorTests.cs(98,28): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.32
+
+
+WritePatch: Compile failed.
+BootstrapAggregatingTest
+
+Finished WritePatch cycle step.
+2025-02-23 8:22:44 AM
+BootstrapAggregatingTest
+
+WritePatch Started CycleStep. 2025-02-23 8:22:45 AM
+BootstrapAggregatingTest
+
+WritePatch ran compiler. 2025-02-23 8:25:57 AM
+BootstrapAggregatingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BootstrapAggregating -> D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregating\bin\Debug\net9.0\BootstrapAggregating.dll
+D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatorTests.cs(68,70): warning CS8620: Argument of type 'List<IPredictor?>' cannot be used for parameter 'predictors' of type 'IList<IPredictor>' in 'BootstrapAggregator.BootstrapAggregator(IList<IPredictor> predictors)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj]
+D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatorTests.cs(69,48): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj]
+D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatorTests.cs(77,70): warning CS8620: Argument of type 'List<IPredictor?>' cannot be used for parameter 'predictors' of type 'IList<IPredictor>' in 'BootstrapAggregator.BootstrapAggregator(IList<IPredictor> predictors)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj]
+D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatorTests.cs(88,70): warning CS8620: Argument of type 'List<IPredictor?>' cannot be used for parameter 'predictors' of type 'IList<IPredictor>' in 'BootstrapAggregator.BootstrapAggregator(IList<IPredictor> predictors)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj]
+D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatorTests.cs(100,70): warning CS8620: Argument of type 'List<IPredictor?>' cannot be used for parameter 'predictors' of type 'IList<IPredictor>' in 'BootstrapAggregator.BootstrapAggregator(IList<IPredictor> predictors)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj]
+D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatorTests.cs(110,70): warning CS8620: Argument of type 'List<IPredictor?>' cannot be used for parameter 'predictors' of type 'IList<IPredictor>' in 'BootstrapAggregator.BootstrapAggregator(IList<IPredictor> predictors)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj]
+D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatorTests.cs(128,70): warning CS8620: Argument of type 'List<IPredictor?>' cannot be used for parameter 'predictors' of type 'IList<IPredictor>' in 'BootstrapAggregator.BootstrapAggregator(IList<IPredictor> predictors)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj]
+  BootstrapAggregatingTest -> D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\bin\Debug\net9.0\BootstrapAggregatingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatorTests.cs(68,70): warning CS8620: Argument of type 'List<IPredictor?>' cannot be used for parameter 'predictors' of type 'IList<IPredictor>' in 'BootstrapAggregator.BootstrapAggregator(IList<IPredictor> predictors)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj]
+D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatorTests.cs(69,48): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj]
+D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatorTests.cs(77,70): warning CS8620: Argument of type 'List<IPredictor?>' cannot be used for parameter 'predictors' of type 'IList<IPredictor>' in 'BootstrapAggregator.BootstrapAggregator(IList<IPredictor> predictors)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj]
+D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatorTests.cs(88,70): warning CS8620: Argument of type 'List<IPredictor?>' cannot be used for parameter 'predictors' of type 'IList<IPredictor>' in 'BootstrapAggregator.BootstrapAggregator(IList<IPredictor> predictors)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj]
+D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatorTests.cs(100,70): warning CS8620: Argument of type 'List<IPredictor?>' cannot be used for parameter 'predictors' of type 'IList<IPredictor>' in 'BootstrapAggregator.BootstrapAggregator(IList<IPredictor> predictors)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj]
+D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatorTests.cs(110,70): warning CS8620: Argument of type 'List<IPredictor?>' cannot be used for parameter 'predictors' of type 'IList<IPredictor>' in 'BootstrapAggregator.BootstrapAggregator(IList<IPredictor> predictors)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj]
+D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatorTests.cs(128,70): warning CS8620: Argument of type 'List<IPredictor?>' cannot be used for parameter 'predictors' of type 'IList<IPredictor>' in 'BootstrapAggregator.BootstrapAggregator(IList<IPredictor> predictors)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj]
+    7 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.96
+
+
+WritePatch: Compile failed.
+BootstrapAggregatingTest
+
+Finished WritePatch cycle step.
+2025-02-23 8:25:58 AM
+BootstrapAggregatingTest
+
+WritePatch Started CycleStep. 2025-02-23 8:25:58 AM
+BootstrapAggregatingTest
+
+WritePatch ran compiler. 2025-02-23 8:27:14 AM
+BootstrapAggregatingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BootstrapAggregating -> D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregating\bin\Debug\net9.0\BootstrapAggregating.dll
+  BootstrapAggregatingTest -> D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\bin\Debug\net9.0\BootstrapAggregatingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+
+
+WritePatch: Code is not Complete.
+BootstrapAggregatingTest
+
+Finished WritePatch cycle step.
+2025-02-23 8:27:31 AM
+BootstrapAggregatingTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BootstrapAggregating -> D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregating\bin\Debug\net9.0\BootstrapAggregating.dll
+  BootstrapAggregatingTest -> D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\bin\Debug\net9.0\BootstrapAggregatingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+
+</CompilerResponse>
+2025-02-23 8:27:32 AM
+BootstrapAggregatingTest
+
+WritePatch ran compiler. 2025-02-23 8:27:34 AM
+BootstrapAggregating
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BootstrapAggregating -> D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregating\bin\Debug\net9.0\BootstrapAggregating.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.70
+
+
+WritePatch: Code is Complete.
+BootstrapAggregating
+
+WritePatch ran compiler. 2025-02-23 8:27:45 AM
+BootstrapAggregatingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BootstrapAggregating -> D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregating\bin\Debug\net9.0\BootstrapAggregating.dll
+  BootstrapAggregatingTest -> D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\bin\Debug\net9.0\BootstrapAggregatingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.08
+
+
+WritePatch: Code is Complete.
+BootstrapAggregatingTest
+
+TestResult:
+[OUTPUT 2025-02-23 8:28:07 AM] Test run for D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\bin\Debug\net9.0\BootstrapAggregatingTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:28:07 AM]   BootstrapAggregatingTest -> D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\bin\Debug\net9.0\BootstrapAggregatingTest.dll
+[OUTPUT 2025-02-23 8:28:06 AM]   BootstrapAggregating -> D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregating\bin\Debug\net9.0\BootstrapAggregating.dll
+[OUTPUT 2025-02-23 8:28:05 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:28:04 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 8:28:07 AM] All tests passed successfully.
+[INFO 2025-02-23 8:28:07 AM] Test process completed. Duration: 3.85 seconds.
+[INFO 2025-02-23 8:28:07 AM] Process exited with code 0.
+[INFO 2025-02-23 8:28:03 AM] Command: dotnet test "D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:28:03 AM] Starting test for project: D:\Code2025\RavenWork\BootstrapAggregating\BootstrapAggregatingTest\BootstrapAggregatingTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
