@@ -1,0 +1,570 @@
+<ActRecord>
+  <ProjectName>KargersAlgorithm</ProjectName>
+  <ProjectDescription>Karger’s Algorithm: Uses a randomized (Monte Carlo) approach to approximate the minimum cut of a connected graph.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Karger’s Algorithm: Uses a randomized (Monte Carlo) approach to approximate the minimum cut of a connected graph.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\KargersAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>KargersAlgorithm</ProjectFolderName>
+  <ProjectName>KargersAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:22:19 PM
+KargersAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:23:55 PM
+KargersAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KargersAlgorithm -> D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithm\bin\Debug\net9.0\KargersAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.09
+]]></string>
+    <string>WritePatch: Code is Complete.
+KargersAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:24:15 PM
+KargersAlgorithmTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 8:25:51 PM
+KargersAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:25:52 PM
+KargersAlgorithmTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 8:26:46 PM
+KargersAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:26:46 PM
+KargersAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:28:18 PM
+KargersAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj (in 445 ms).
+  1 of 2 projects are up-to-date for restore.
+  KargersAlgorithm -> D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithm\bin\Debug\net9.0\KargersAlgorithm.dll
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(24,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(44,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(68,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(99,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(115,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(123,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(122,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(164,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(122,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(24,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(44,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(68,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(99,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(115,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(123,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(164,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+    1 Warning(s)
+    7 Error(s)
+
+Time Elapsed 00:00:03.62
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+KargersAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:28:19 PM
+KargersAlgorithmTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj (in 445 ms).
+  1 of 2 projects are up-to-date for restore.
+  KargersAlgorithm -> D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithm\bin\Debug\net9.0\KargersAlgorithm.dll
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(24,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(44,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(68,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(99,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(115,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(123,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(122,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(164,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(122,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(24,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(44,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(68,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(99,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(115,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(123,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(164,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+    1 Warning(s)
+    7 Error(s)
+
+Time Elapsed 00:00:03.62
+
+
+Errors:
+</CompilerResponse>
+2025-02-23 8:28:20 PM
+KargersAlgorithmTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 8:28:23 PM
+KargersAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KargersAlgorithm -> D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithm\bin\Debug\net9.0\KargersAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.11
+]]></string>
+    <string>WritePatch: Code is Complete.
+KargersAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:28:38 PM
+KargersAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KargersAlgorithm -> D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithm\bin\Debug\net9.0\KargersAlgorithm.dll
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(24,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(44,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(68,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(99,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(115,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(123,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(122,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(164,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(122,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(24,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(44,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(68,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(99,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(115,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(123,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(164,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+    1 Warning(s)
+    7 Error(s)
+
+Time Elapsed 00:00:02.28
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+KargersAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:28:39 PM
+KargersAlgorithmTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 8:30:05 PM
+KargersAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:30:05 PM
+KargersAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:31:31 PM
+KargersAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KargersAlgorithm -> D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithm\bin\Debug\net9.0\KargersAlgorithm.dll
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(24,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(44,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(68,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(99,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(115,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(123,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(122,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(164,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(122,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(24,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(44,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(68,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(99,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(115,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(123,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(164,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+    1 Warning(s)
+    7 Error(s)
+
+Time Elapsed 00:00:02.81
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+KargersAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:31:33 PM
+KargersAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:31:34 PM
+KargersAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:32:55 PM
+KargersAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KargersAlgorithm -> D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithm\bin\Debug\net9.0\KargersAlgorithm.dll
+  KargersAlgorithmTest -> D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\bin\Debug\net9.0\KargersAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.17
+]]></string>
+    <string>WritePatch: Code is Complete.
+KargersAlgorithmTest</string>
+    <string>[INFO 2025-02-23 8:33:31 PM] Starting test for project: D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:33:31 PM] Starting test for project: D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:33:31 PM] Starting test for project: D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:33:31 PM] Starting test for project: D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:33:31 PM] Starting test for project: D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:33:31 PM] Starting test for project: D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:33:31 PM] Starting test for project: D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:33:31 PM] Starting test for project: D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:33:31 PM] Starting test for project: D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:33:31 PM] Starting test for project: D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:33:31 PM] Starting test for project: D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:33:31 PM] Starting test for project: D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:33:31 PM] Starting test for project: D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:33:31 PM] Starting test for project: D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:33:31 PM] Starting test for project: D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:33:31 PM] Starting test for project: D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:33:31 PM] Starting test for project: D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 8:33:33 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:33:43 PM]   Passed TestGraphWithKnownMinCut [23 ms]
+[OUTPUT 2025-02-23 8:33:42 PM]   Passed TestGraphCloneEqual [19 ms]
+[OUTPUT 2025-02-23 8:33:41 PM]   Passed TestGraphCloneDeepCopy [19 ms]
+[OUTPUT 2025-02-23 8:33:40 PM]   Passed TestTwoVertexNoEdgeGraph [19 ms]
+[OUTPUT 2025-02-23 8:33:40 PM]   Passed TestSingleEdgeGraph [19 ms]
+[OUTPUT 2025-02-23 8:33:39 PM] Test Parallelization enabled for D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\bin\Debug\net9.0\KargersAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 8:33:37 PM] D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\bin\Debug\net9.0\KargersAlgorithmTest.dll
+[OUTPUT 2025-02-23 8:33:37 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 8:33:36 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:33:36 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:33:35 PM] Test run for D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\bin\Debug\net9.0\KargersAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:33:35 PM]   KargersAlgorithmTest -> D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\bin\Debug\net9.0\KargersAlgorithmTest.dll
+[OUTPUT 2025-02-23 8:33:34 PM]   KargersAlgorithm -> D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithm\bin\Debug\net9.0\KargersAlgorithm.dll
+[OUTPUT 2025-02-23 8:33:33 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 8:33:42 PM] All tests passed successfully.
+[INFO 2025-02-23 8:33:42 PM] Test process completed. Duration: 10.26 seconds.
+[INFO 2025-02-23 8:33:42 PM] Process exited with code 0.
+[INFO 2025-02-23 8:33:31 PM] Command: dotnet test "D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:33:31 PM] Starting test for project: D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 8:22:19 PM
+KargersAlgorithm
+
+WritePatch ran compiler. 2025-02-23 8:23:55 PM
+KargersAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KargersAlgorithm -> D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithm\bin\Debug\net9.0\KargersAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.09
+
+
+WritePatch: Code is Complete.
+KargersAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 8:24:15 PM
+KargersAlgorithmTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 8:25:51 PM
+KargersAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 8:25:52 PM
+KargersAlgorithmTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 8:26:46 PM
+KargersAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 8:26:46 PM
+KargersAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 8:28:18 PM
+KargersAlgorithmTest
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj (in 445 ms).
+  1 of 2 projects are up-to-date for restore.
+  KargersAlgorithm -> D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithm\bin\Debug\net9.0\KargersAlgorithm.dll
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(24,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(44,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(68,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(99,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(115,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(123,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(122,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(164,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(122,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(24,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(44,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(68,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(99,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(115,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(123,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(164,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+    1 Warning(s)
+    7 Error(s)
+
+Time Elapsed 00:00:03.62
+
+
+Errors:
+
+WritePatch: Compile failed.
+KargersAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 8:28:19 PM
+KargersAlgorithmTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj (in 445 ms).
+  1 of 2 projects are up-to-date for restore.
+  KargersAlgorithm -> D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithm\bin\Debug\net9.0\KargersAlgorithm.dll
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(24,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(44,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(68,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(99,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(115,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(123,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(122,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(164,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(122,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(24,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(44,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(68,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(99,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(115,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(123,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(164,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+    1 Warning(s)
+    7 Error(s)
+
+Time Elapsed 00:00:03.62
+
+
+Errors:
+</CompilerResponse>
+2025-02-23 8:28:20 PM
+KargersAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 8:28:23 PM
+KargersAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KargersAlgorithm -> D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithm\bin\Debug\net9.0\KargersAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.11
+
+
+WritePatch: Code is Complete.
+KargersAlgorithm
+
+WritePatch ran compiler. 2025-02-23 8:28:38 PM
+KargersAlgorithmTest
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KargersAlgorithm -> D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithm\bin\Debug\net9.0\KargersAlgorithm.dll
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(24,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(44,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(68,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(99,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(115,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(123,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(122,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(164,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(122,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(24,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(44,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(68,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(99,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(115,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(123,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(164,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+    1 Warning(s)
+    7 Error(s)
+
+Time Elapsed 00:00:02.28
+
+
+Errors:
+
+WritePatch: Compile failed.
+KargersAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 8:28:39 PM
+KargersAlgorithmTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 8:30:05 PM
+KargersAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 8:30:05 PM
+KargersAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 8:31:31 PM
+KargersAlgorithmTest
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KargersAlgorithm -> D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithm\bin\Debug\net9.0\KargersAlgorithm.dll
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(24,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(44,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(68,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(99,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(115,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(123,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(122,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(164,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(122,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(24,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(44,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(68,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(99,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(115,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(123,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargerAlgorithmTests.cs(164,39): error CS0117: 'KargerAlgorithm' does not contain a definition for 'KargerAlgorithm' [D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj]
+    1 Warning(s)
+    7 Error(s)
+
+Time Elapsed 00:00:02.81
+
+
+Errors:
+
+WritePatch: Compile failed.
+KargersAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 8:31:33 PM
+KargersAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 8:31:34 PM
+KargersAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 8:32:55 PM
+KargersAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KargersAlgorithm -> D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithm\bin\Debug\net9.0\KargersAlgorithm.dll
+  KargersAlgorithmTest -> D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\bin\Debug\net9.0\KargersAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.17
+
+
+WritePatch: Code is Complete.
+KargersAlgorithmTest
+
+TestResult:
+[OUTPUT 2025-02-23 8:33:33 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:33:43 PM]   Passed TestGraphWithKnownMinCut [23 ms]
+[OUTPUT 2025-02-23 8:33:42 PM]   Passed TestGraphCloneEqual [19 ms]
+[OUTPUT 2025-02-23 8:33:41 PM]   Passed TestGraphCloneDeepCopy [19 ms]
+[OUTPUT 2025-02-23 8:33:40 PM]   Passed TestTwoVertexNoEdgeGraph [19 ms]
+[OUTPUT 2025-02-23 8:33:40 PM]   Passed TestSingleEdgeGraph [19 ms]
+[OUTPUT 2025-02-23 8:33:39 PM] Test Parallelization enabled for D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\bin\Debug\net9.0\KargersAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 8:33:37 PM] D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\bin\Debug\net9.0\KargersAlgorithmTest.dll
+[OUTPUT 2025-02-23 8:33:37 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 8:33:36 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:33:36 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:33:35 PM] Test run for D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\bin\Debug\net9.0\KargersAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:33:35 PM]   KargersAlgorithmTest -> D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\bin\Debug\net9.0\KargersAlgorithmTest.dll
+[OUTPUT 2025-02-23 8:33:34 PM]   KargersAlgorithm -> D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithm\bin\Debug\net9.0\KargersAlgorithm.dll
+[OUTPUT 2025-02-23 8:33:33 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 8:33:42 PM] All tests passed successfully.
+[INFO 2025-02-23 8:33:42 PM] Test process completed. Duration: 10.26 seconds.
+[INFO 2025-02-23 8:33:42 PM] Process exited with code 0.
+[INFO 2025-02-23 8:33:31 PM] Command: dotnet test "D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:33:31 PM] Starting test for project: D:\Code2025\RavenWork\KargersAlgorithm\KargersAlgorithmTest\KargersAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
