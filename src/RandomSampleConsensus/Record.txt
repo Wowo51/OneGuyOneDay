@@ -1,0 +1,649 @@
+<ActRecord>
+  <ProjectName>RandomSampleConsensus</ProjectName>
+  <ProjectDescription>RANSAC (RANdom SAmple Consensus): An iterative method to estimate model parameters from data containing outliers</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>RANSAC (RANdom SAmple Consensus): An iterative method to estimate model parameters from data containing outliers</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\RandomSampleConsensus</SolutionFolderPath>
+  <ProjectFolderName>RandomSampleConsensus</ProjectFolderName>
+  <ProjectName>RandomSampleConsensus</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:59:44 AM
+RandomSampleConsensus</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:00:11 PM
+RandomSampleConsensus</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\RansacEstimator.cs(27,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\RandomSampleConsensus.csproj]
+D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\RansacEstimator.cs(30,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\RandomSampleConsensus.csproj]
+D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\RansacEstimator.cs(62,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\RandomSampleConsensus.csproj]
+  RandomSampleConsensus -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\bin\Debug\net9.0\RandomSampleConsensus.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\RansacEstimator.cs(27,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\RandomSampleConsensus.csproj]
+D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\RansacEstimator.cs(30,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\RandomSampleConsensus.csproj]
+D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\RansacEstimator.cs(62,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\RandomSampleConsensus.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.06
+]]></string>
+    <string>WritePatch: Compile failed.
+RandomSampleConsensus</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 12:00:12 PM
+RandomSampleConsensus</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:00:12 PM
+RandomSampleConsensus</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:00:58 PM
+RandomSampleConsensus</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RandomSampleConsensus -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\bin\Debug\net9.0\RandomSampleConsensus.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+]]></string>
+    <string>WritePatch: Code is Complete.
+RandomSampleConsensus</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:01:10 PM
+RandomSampleConsensusTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:01:46 PM
+RandomSampleConsensusTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj (in 230 ms).
+  1 of 2 projects are up-to-date for restore.
+  RandomSampleConsensus -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\bin\Debug\net9.0\RandomSampleConsensus.dll
+D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusUnitTests.cs(15,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj]
+D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusUnitTests.cs(16,48): warning CS8604: Possible null reference argument for parameter 'data' in 'double RansacEstimator<double, double>.Estimate(List<double> data, ModelEstimatorDelegate modelEstimator, ErrorEvaluatorDelegate errorEvaluator)'. [D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj]
+  RandomSampleConsensusTest -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\bin\Debug\net9.0\RandomSampleConsensusTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusUnitTests.cs(15,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj]
+D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusUnitTests.cs(16,48): warning CS8604: Possible null reference argument for parameter 'data' in 'double RansacEstimator<double, double>.Estimate(List<double> data, ModelEstimatorDelegate modelEstimator, ErrorEvaluatorDelegate errorEvaluator)'. [D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.62
+]]></string>
+    <string>WritePatch: Compile failed.
+RandomSampleConsensusTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 12:01:47 PM
+RandomSampleConsensusTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:01:47 PM
+RandomSampleConsensusTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:02:40 PM
+RandomSampleConsensusTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RandomSampleConsensus -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\bin\Debug\net9.0\RandomSampleConsensus.dll
+D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusUnitTests.cs(16,48): warning CS8604: Possible null reference argument for parameter 'data' in 'double RansacEstimator<double, double>.Estimate(List<double> data, ModelEstimatorDelegate modelEstimator, ErrorEvaluatorDelegate errorEvaluator)'. [D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj]
+  RandomSampleConsensusTest -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\bin\Debug\net9.0\RandomSampleConsensusTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusUnitTests.cs(16,48): warning CS8604: Possible null reference argument for parameter 'data' in 'double RansacEstimator<double, double>.Estimate(List<double> data, ModelEstimatorDelegate modelEstimator, ErrorEvaluatorDelegate errorEvaluator)'. [D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.32
+]]></string>
+    <string>WritePatch: Compile failed.
+RandomSampleConsensusTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 12:02:41 PM
+RandomSampleConsensusTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:02:41 PM
+RandomSampleConsensusTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 12:05:58 PM
+RandomSampleConsensusTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RandomSampleConsensus -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\bin\Debug\net9.0\RandomSampleConsensus.dll
+D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusUnitTests.cs(16,48): warning CS8604: Possible null reference argument for parameter 'data' in 'double RansacEstimator<double, double>.Estimate(List<double> data, ModelEstimatorDelegate modelEstimator, ErrorEvaluatorDelegate errorEvaluator)'. [D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj]
+  RandomSampleConsensusTest -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\bin\Debug\net9.0\RandomSampleConsensusTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusUnitTests.cs(16,48): warning CS8604: Possible null reference argument for parameter 'data' in 'double RansacEstimator<double, double>.Estimate(List<double> data, ModelEstimatorDelegate modelEstimator, ErrorEvaluatorDelegate errorEvaluator)'. [D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.32
+
+</CompilerResponse>
+2025-02-23 12:05:58 PM
+RandomSampleConsensusTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 12:05:59 PM
+RandomSampleConsensus</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RandomSampleConsensus -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\bin\Debug\net9.0\RandomSampleConsensus.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+]]></string>
+    <string>WritePatch: Code is Complete.
+RandomSampleConsensus</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:06:28 PM
+RandomSampleConsensusTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RandomSampleConsensus -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\bin\Debug\net9.0\RandomSampleConsensus.dll
+  RandomSampleConsensusTest -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\bin\Debug\net9.0\RandomSampleConsensusTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.07
+]]></string>
+    <string>WritePatch: Code is not Complete.
+RandomSampleConsensusTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:07:02 PM
+RandomSampleConsensusTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:07:47 PM
+RandomSampleConsensusTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RandomSampleConsensus -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\bin\Debug\net9.0\RandomSampleConsensus.dll
+D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusUnitTests.cs(16,48): warning CS8604: Possible null reference argument for parameter 'data' in 'double RansacEstimator<double, double>.Estimate(List<double> data, ModelEstimatorDelegate modelEstimator, ErrorEvaluatorDelegate errorEvaluator)'. [D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj]
+  RandomSampleConsensusTest -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\bin\Debug\net9.0\RandomSampleConsensusTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusUnitTests.cs(16,48): warning CS8604: Possible null reference argument for parameter 'data' in 'double RansacEstimator<double, double>.Estimate(List<double> data, ModelEstimatorDelegate modelEstimator, ErrorEvaluatorDelegate errorEvaluator)'. [D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.18
+]]></string>
+    <string>WritePatch: Compile failed.
+RandomSampleConsensusTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 12:07:47 PM
+RandomSampleConsensusTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:07:48 PM
+RandomSampleConsensusTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 12:08:07 PM
+RandomSampleConsensusTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:08:07 PM
+RandomSampleConsensusTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:08:28 PM
+RandomSampleConsensusTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RandomSampleConsensus -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\bin\Debug\net9.0\RandomSampleConsensus.dll
+  RandomSampleConsensusTest -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\bin\Debug\net9.0\RandomSampleConsensusTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+]]></string>
+    <string>WritePatch: Code is not Complete.
+RandomSampleConsensusTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 12:09:14 PM
+RandomSampleConsensusTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RandomSampleConsensus -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\bin\Debug\net9.0\RandomSampleConsensus.dll
+  RandomSampleConsensusTest -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\bin\Debug\net9.0\RandomSampleConsensusTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+
+</CompilerResponse>
+2025-02-23 12:09:14 PM
+RandomSampleConsensusTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 12:09:15 PM
+RandomSampleConsensus</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RandomSampleConsensus -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\bin\Debug\net9.0\RandomSampleConsensus.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.84
+]]></string>
+    <string>WritePatch: Code is Complete.
+RandomSampleConsensus</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:10:40 PM
+RandomSampleConsensusTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RandomSampleConsensus -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\bin\Debug\net9.0\RandomSampleConsensus.dll
+  RandomSampleConsensusTest -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\bin\Debug\net9.0\RandomSampleConsensusTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.11
+]]></string>
+    <string>WritePatch: Code is Complete.
+RandomSampleConsensusTest</string>
+    <string>[INFO 2025-02-23 12:10:53 PM] Starting test for project: D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj</string>
+    <string>[INFO 2025-02-23 12:10:53 PM] Starting test for project: D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj</string>
+    <string>[INFO 2025-02-23 12:10:53 PM] Starting test for project: D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj</string>
+    <string>[INFO 2025-02-23 12:10:53 PM] Starting test for project: D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj</string>
+    <string>[INFO 2025-02-23 12:10:53 PM] Starting test for project: D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj</string>
+    <string>[INFO 2025-02-23 12:10:53 PM] Starting test for project: D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj</string>
+    <string>[INFO 2025-02-23 12:10:53 PM] Starting test for project: D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj</string>
+    <string>[INFO 2025-02-23 12:10:53 PM] Starting test for project: D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj</string>
+    <string>[INFO 2025-02-23 12:10:53 PM] Starting test for project: D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj</string>
+    <string>[INFO 2025-02-23 12:10:53 PM] Starting test for project: D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj</string>
+    <string>[INFO 2025-02-23 12:10:53 PM] Starting test for project: D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj</string>
+    <string>[INFO 2025-02-23 12:10:53 PM] Starting test for project: D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj</string>
+    <string>[INFO 2025-02-23 12:10:53 PM] Starting test for project: D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj</string>
+    <string>[INFO 2025-02-23 12:10:53 PM] Starting test for project: D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 12:10:56 PM] All tests passed successfully.
+[INFO 2025-02-23 12:10:56 PM] Test process completed. Duration: 3.42 seconds.
+[INFO 2025-02-23 12:10:56 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 12:10:56 PM] Test Parallelization enabled for D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\bin\Debug\net9.0\RandomSampleConsensusTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 12:10:56 PM]   Passed Estimate_ReturnsCorrectModel_ForConstantData [6 ms]
+[OUTPUT 2025-02-23 12:10:56 PM]   Passed Estimate_ReturnsDefault_WhenNoConsensusFound [6 ms]
+[OUTPUT 2025-02-23 12:10:55 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 12:10:54 PM] Test run for D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\bin\Debug\net9.0\RandomSampleConsensusTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 12:10:54 PM]   RandomSampleConsensusTest -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\bin\Debug\net9.0\RandomSampleConsensusTest.dll
+[OUTPUT 2025-02-23 12:10:54 PM]   RandomSampleConsensus -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\bin\Debug\net9.0\RandomSampleConsensus.dll
+[OUTPUT 2025-02-23 12:10:55 PM] D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\bin\Debug\net9.0\RandomSampleConsensusTest.dll
+[OUTPUT 2025-02-23 12:10:55 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 12:10:55 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 12:10:54 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 12:10:53 PM]   Determining projects to restore...
+[INFO 2025-02-23 12:10:53 PM] Command: dotnet test "D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 12:10:53 PM] Starting test for project: D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 11:59:44 AM
+RandomSampleConsensus
+
+WritePatch ran compiler. 2025-02-23 12:00:11 PM
+RandomSampleConsensus
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\RansacEstimator.cs(27,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\RandomSampleConsensus.csproj]
+D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\RansacEstimator.cs(30,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\RandomSampleConsensus.csproj]
+D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\RansacEstimator.cs(62,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\RandomSampleConsensus.csproj]
+  RandomSampleConsensus -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\bin\Debug\net9.0\RandomSampleConsensus.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\RansacEstimator.cs(27,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\RandomSampleConsensus.csproj]
+D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\RansacEstimator.cs(30,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\RandomSampleConsensus.csproj]
+D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\RansacEstimator.cs(62,20): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\RandomSampleConsensus.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.06
+
+
+WritePatch: Compile failed.
+RandomSampleConsensus
+
+Finished WritePatch cycle step.
+2025-02-23 12:00:12 PM
+RandomSampleConsensus
+
+WritePatch Started CycleStep. 2025-02-23 12:00:12 PM
+RandomSampleConsensus
+
+WritePatch ran compiler. 2025-02-23 12:00:58 PM
+RandomSampleConsensus
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RandomSampleConsensus -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\bin\Debug\net9.0\RandomSampleConsensus.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+
+
+WritePatch: Code is Complete.
+RandomSampleConsensus
+
+WritePatch Started CycleStep. 2025-02-23 12:01:10 PM
+RandomSampleConsensusTest
+
+WritePatch ran compiler. 2025-02-23 12:01:46 PM
+RandomSampleConsensusTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj (in 230 ms).
+  1 of 2 projects are up-to-date for restore.
+  RandomSampleConsensus -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\bin\Debug\net9.0\RandomSampleConsensus.dll
+D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusUnitTests.cs(15,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj]
+D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusUnitTests.cs(16,48): warning CS8604: Possible null reference argument for parameter 'data' in 'double RansacEstimator<double, double>.Estimate(List<double> data, ModelEstimatorDelegate modelEstimator, ErrorEvaluatorDelegate errorEvaluator)'. [D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj]
+  RandomSampleConsensusTest -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\bin\Debug\net9.0\RandomSampleConsensusTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusUnitTests.cs(15,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj]
+D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusUnitTests.cs(16,48): warning CS8604: Possible null reference argument for parameter 'data' in 'double RansacEstimator<double, double>.Estimate(List<double> data, ModelEstimatorDelegate modelEstimator, ErrorEvaluatorDelegate errorEvaluator)'. [D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.62
+
+
+WritePatch: Compile failed.
+RandomSampleConsensusTest
+
+Finished WritePatch cycle step.
+2025-02-23 12:01:47 PM
+RandomSampleConsensusTest
+
+WritePatch Started CycleStep. 2025-02-23 12:01:47 PM
+RandomSampleConsensusTest
+
+WritePatch ran compiler. 2025-02-23 12:02:40 PM
+RandomSampleConsensusTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RandomSampleConsensus -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\bin\Debug\net9.0\RandomSampleConsensus.dll
+D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusUnitTests.cs(16,48): warning CS8604: Possible null reference argument for parameter 'data' in 'double RansacEstimator<double, double>.Estimate(List<double> data, ModelEstimatorDelegate modelEstimator, ErrorEvaluatorDelegate errorEvaluator)'. [D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj]
+  RandomSampleConsensusTest -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\bin\Debug\net9.0\RandomSampleConsensusTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusUnitTests.cs(16,48): warning CS8604: Possible null reference argument for parameter 'data' in 'double RansacEstimator<double, double>.Estimate(List<double> data, ModelEstimatorDelegate modelEstimator, ErrorEvaluatorDelegate errorEvaluator)'. [D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.32
+
+
+WritePatch: Compile failed.
+RandomSampleConsensusTest
+
+Finished WritePatch cycle step.
+2025-02-23 12:02:41 PM
+RandomSampleConsensusTest
+
+WritePatch Started CycleStep. 2025-02-23 12:02:41 PM
+RandomSampleConsensusTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 12:05:58 PM
+RandomSampleConsensusTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RandomSampleConsensus -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\bin\Debug\net9.0\RandomSampleConsensus.dll
+D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusUnitTests.cs(16,48): warning CS8604: Possible null reference argument for parameter 'data' in 'double RansacEstimator<double, double>.Estimate(List<double> data, ModelEstimatorDelegate modelEstimator, ErrorEvaluatorDelegate errorEvaluator)'. [D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj]
+  RandomSampleConsensusTest -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\bin\Debug\net9.0\RandomSampleConsensusTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusUnitTests.cs(16,48): warning CS8604: Possible null reference argument for parameter 'data' in 'double RansacEstimator<double, double>.Estimate(List<double> data, ModelEstimatorDelegate modelEstimator, ErrorEvaluatorDelegate errorEvaluator)'. [D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.32
+
+</CompilerResponse>
+2025-02-23 12:05:58 PM
+RandomSampleConsensusTest
+
+WritePatch ran compiler. 2025-02-23 12:05:59 PM
+RandomSampleConsensus
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RandomSampleConsensus -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\bin\Debug\net9.0\RandomSampleConsensus.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+
+
+WritePatch: Code is Complete.
+RandomSampleConsensus
+
+WritePatch ran compiler. 2025-02-23 12:06:28 PM
+RandomSampleConsensusTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RandomSampleConsensus -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\bin\Debug\net9.0\RandomSampleConsensus.dll
+  RandomSampleConsensusTest -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\bin\Debug\net9.0\RandomSampleConsensusTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.07
+
+
+WritePatch: Code is not Complete.
+RandomSampleConsensusTest
+
+WritePatch Started CycleStep. 2025-02-23 12:07:02 PM
+RandomSampleConsensusTest
+
+WritePatch ran compiler. 2025-02-23 12:07:47 PM
+RandomSampleConsensusTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RandomSampleConsensus -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\bin\Debug\net9.0\RandomSampleConsensus.dll
+D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusUnitTests.cs(16,48): warning CS8604: Possible null reference argument for parameter 'data' in 'double RansacEstimator<double, double>.Estimate(List<double> data, ModelEstimatorDelegate modelEstimator, ErrorEvaluatorDelegate errorEvaluator)'. [D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj]
+  RandomSampleConsensusTest -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\bin\Debug\net9.0\RandomSampleConsensusTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusUnitTests.cs(16,48): warning CS8604: Possible null reference argument for parameter 'data' in 'double RansacEstimator<double, double>.Estimate(List<double> data, ModelEstimatorDelegate modelEstimator, ErrorEvaluatorDelegate errorEvaluator)'. [D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.18
+
+
+WritePatch: Compile failed.
+RandomSampleConsensusTest
+
+Finished WritePatch cycle step.
+2025-02-23 12:07:47 PM
+RandomSampleConsensusTest
+
+WritePatch Started CycleStep. 2025-02-23 12:07:48 PM
+RandomSampleConsensusTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 12:08:07 PM
+RandomSampleConsensusTest
+
+WritePatch Started CycleStep. 2025-02-23 12:08:07 PM
+RandomSampleConsensusTest
+
+WritePatch ran compiler. 2025-02-23 12:08:28 PM
+RandomSampleConsensusTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RandomSampleConsensus -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\bin\Debug\net9.0\RandomSampleConsensus.dll
+  RandomSampleConsensusTest -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\bin\Debug\net9.0\RandomSampleConsensusTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+
+
+WritePatch: Code is not Complete.
+RandomSampleConsensusTest
+
+Finished WritePatch cycle step.
+2025-02-23 12:09:14 PM
+RandomSampleConsensusTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RandomSampleConsensus -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\bin\Debug\net9.0\RandomSampleConsensus.dll
+  RandomSampleConsensusTest -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\bin\Debug\net9.0\RandomSampleConsensusTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+
+</CompilerResponse>
+2025-02-23 12:09:14 PM
+RandomSampleConsensusTest
+
+WritePatch ran compiler. 2025-02-23 12:09:15 PM
+RandomSampleConsensus
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RandomSampleConsensus -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\bin\Debug\net9.0\RandomSampleConsensus.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.84
+
+
+WritePatch: Code is Complete.
+RandomSampleConsensus
+
+WritePatch ran compiler. 2025-02-23 12:10:40 PM
+RandomSampleConsensusTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RandomSampleConsensus -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\bin\Debug\net9.0\RandomSampleConsensus.dll
+  RandomSampleConsensusTest -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\bin\Debug\net9.0\RandomSampleConsensusTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.11
+
+
+WritePatch: Code is Complete.
+RandomSampleConsensusTest
+
+TestResult:
+[SUCCESS 2025-02-23 12:10:56 PM] All tests passed successfully.
+[INFO 2025-02-23 12:10:56 PM] Test process completed. Duration: 3.42 seconds.
+[INFO 2025-02-23 12:10:56 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 12:10:56 PM] Test Parallelization enabled for D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\bin\Debug\net9.0\RandomSampleConsensusTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 12:10:56 PM]   Passed Estimate_ReturnsCorrectModel_ForConstantData [6 ms]
+[OUTPUT 2025-02-23 12:10:56 PM]   Passed Estimate_ReturnsDefault_WhenNoConsensusFound [6 ms]
+[OUTPUT 2025-02-23 12:10:55 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 12:10:54 PM] Test run for D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\bin\Debug\net9.0\RandomSampleConsensusTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 12:10:54 PM]   RandomSampleConsensusTest -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\bin\Debug\net9.0\RandomSampleConsensusTest.dll
+[OUTPUT 2025-02-23 12:10:54 PM]   RandomSampleConsensus -> D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensus\bin\Debug\net9.0\RandomSampleConsensus.dll
+[OUTPUT 2025-02-23 12:10:55 PM] D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\bin\Debug\net9.0\RandomSampleConsensusTest.dll
+[OUTPUT 2025-02-23 12:10:55 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 12:10:55 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 12:10:54 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 12:10:53 PM]   Determining projects to restore...
+[INFO 2025-02-23 12:10:53 PM] Command: dotnet test "D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 12:10:53 PM] Starting test for project: D:\Code2025\RavenWork\RandomSampleConsensus\RandomSampleConsensusTest\RandomSampleConsensusTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
