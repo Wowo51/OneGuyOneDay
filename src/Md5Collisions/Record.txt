@@ -1,0 +1,388 @@
+<ActRecord>
+  <ProjectName>Md5Collisions</ProjectName>
+  <ProjectDescription>MD5 (note: collisions can now be generated)</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>MD5 (note: collisions can now be generated)</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\Md5Collisions</SolutionFolderPath>
+  <ProjectFolderName>Md5Collisions</ProjectFolderName>
+  <ProjectName>Md5Collisions</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:28:48 AM
+Md5Collisions</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:30:01 AM
+Md5Collisions</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Md5Collisions -> D:\Code2025\RavenWork\Md5Collisions\Md5Collisions\bin\Debug\net9.0\Md5Collisions.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87
+]]></string>
+    <string>WritePatch: Code is Complete.
+Md5Collisions</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:30:35 AM
+Md5CollisionsTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:31:59 AM
+Md5CollisionsTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\Md5CollisionsTest.csproj (in 241 ms).
+  1 of 2 projects are up-to-date for restore.
+  Md5Collisions -> D:\Code2025\RavenWork\Md5Collisions\Md5Collisions\bin\Debug\net9.0\Md5Collisions.dll
+D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\Md5UtilitiesTests.cs(15,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\Md5CollisionsTest.csproj]
+  Md5CollisionsTest -> D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\bin\Debug\net9.0\Md5CollisionsTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\Md5UtilitiesTests.cs(15,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\Md5CollisionsTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.75
+]]></string>
+    <string>WritePatch: Compile failed.
+Md5CollisionsTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:31:59 AM
+Md5CollisionsTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:31:59 AM
+Md5CollisionsTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:32:35 AM
+Md5CollisionsTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Md5Collisions -> D:\Code2025\RavenWork\Md5Collisions\Md5Collisions\bin\Debug\net9.0\Md5Collisions.dll
+D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\Md5UtilitiesTests.cs(15,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\Md5CollisionsTest.csproj]
+  Md5CollisionsTest -> D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\bin\Debug\net9.0\Md5CollisionsTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\Md5UtilitiesTests.cs(15,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\Md5CollisionsTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.07
+]]></string>
+    <string>WritePatch: Compile failed.
+Md5CollisionsTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:32:35 AM
+Md5CollisionsTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:32:35 AM
+Md5CollisionsTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:33:02 AM
+Md5CollisionsTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Md5Collisions -> D:\Code2025\RavenWork\Md5Collisions\Md5Collisions\bin\Debug\net9.0\Md5Collisions.dll
+  Md5CollisionsTest -> D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\bin\Debug\net9.0\Md5CollisionsTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+]]></string>
+    <string>WritePatch: Code is not Complete.
+Md5CollisionsTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:33:20 AM
+Md5CollisionsTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Md5Collisions -> D:\Code2025\RavenWork\Md5Collisions\Md5Collisions\bin\Debug\net9.0\Md5Collisions.dll
+  Md5CollisionsTest -> D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\bin\Debug\net9.0\Md5CollisionsTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+
+</CompilerResponse>
+2025-02-23 10:33:20 AM
+Md5CollisionsTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 10:33:21 AM
+Md5Collisions</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Md5Collisions -> D:\Code2025\RavenWork\Md5Collisions\Md5Collisions\bin\Debug\net9.0\Md5Collisions.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+]]></string>
+    <string>WritePatch: Code is Complete.
+Md5Collisions</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:33:36 AM
+Md5CollisionsTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Md5Collisions -> D:\Code2025\RavenWork\Md5Collisions\Md5Collisions\bin\Debug\net9.0\Md5Collisions.dll
+  Md5CollisionsTest -> D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\bin\Debug\net9.0\Md5CollisionsTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+]]></string>
+    <string>WritePatch: Code is Complete.
+Md5CollisionsTest</string>
+    <string>[INFO 2025-02-23 10:33:47 AM] Starting test for project: D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\Md5CollisionsTest.csproj</string>
+    <string>[INFO 2025-02-23 10:33:47 AM] Starting test for project: D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\Md5CollisionsTest.csproj</string>
+    <string>[INFO 2025-02-23 10:33:47 AM] Starting test for project: D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\Md5CollisionsTest.csproj</string>
+    <string>[INFO 2025-02-23 10:33:47 AM] Starting test for project: D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\Md5CollisionsTest.csproj</string>
+    <string>[INFO 2025-02-23 10:33:47 AM] Starting test for project: D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\Md5CollisionsTest.csproj</string>
+    <string>[INFO 2025-02-23 10:33:47 AM] Starting test for project: D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\Md5CollisionsTest.csproj</string>
+    <string>[INFO 2025-02-23 10:33:47 AM] Starting test for project: D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\Md5CollisionsTest.csproj</string>
+    <string>[INFO 2025-02-23 10:33:47 AM] Starting test for project: D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\Md5CollisionsTest.csproj</string>
+    <string>[INFO 2025-02-23 10:33:47 AM] Starting test for project: D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\Md5CollisionsTest.csproj</string>
+    <string>[INFO 2025-02-23 10:33:47 AM] Starting test for project: D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\Md5CollisionsTest.csproj</string>
+    <string>[INFO 2025-02-23 10:33:47 AM] Starting test for project: D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\Md5CollisionsTest.csproj</string>
+    <string>[INFO 2025-02-23 10:33:47 AM] Starting test for project: D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\Md5CollisionsTest.csproj</string>
+    <string>[INFO 2025-02-23 10:33:47 AM] Starting test for project: D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\Md5CollisionsTest.csproj</string>
+    <string>[INFO 2025-02-23 10:33:47 AM] Starting test for project: D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\Md5CollisionsTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 10:33:50 AM]   Passed TestGenerateCollisionPair_ReturnsDifferentArraysButSameHash [4 ms]
+[OUTPUT 2025-02-23 10:33:50 AM]   Passed TestComputeMd5Hash_SpecialCollisionInput_ReturnsFixedHash [4 ms]
+[SUCCESS 2025-02-23 10:33:50 AM] All tests passed successfully.
+[INFO 2025-02-23 10:33:50 AM] Test process completed. Duration: 3.51 seconds.
+[INFO 2025-02-23 10:33:50 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 10:33:50 AM] Test Parallelization enabled for D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\bin\Debug\net9.0\Md5CollisionsTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:33:50 AM] D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\bin\Debug\net9.0\Md5CollisionsTest.dll
+[OUTPUT 2025-02-23 10:33:49 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:33:49 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:33:49 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:33:49 AM] Test run for D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\bin\Debug\net9.0\Md5CollisionsTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:33:48 AM]   Md5CollisionsTest -> D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\bin\Debug\net9.0\Md5CollisionsTest.dll
+[OUTPUT 2025-02-23 10:33:48 AM]   Md5Collisions -> D:\Code2025\RavenWork\Md5Collisions\Md5Collisions\bin\Debug\net9.0\Md5Collisions.dll
+[OUTPUT 2025-02-23 10:33:48 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:33:48 AM]   Determining projects to restore...
+[INFO 2025-02-23 10:33:47 AM] Command: dotnet test "D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\Md5CollisionsTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:33:47 AM] Starting test for project: D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\Md5CollisionsTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 10:28:48 AM
+Md5Collisions
+
+WritePatch ran compiler. 2025-02-23 10:30:01 AM
+Md5Collisions
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Md5Collisions -> D:\Code2025\RavenWork\Md5Collisions\Md5Collisions\bin\Debug\net9.0\Md5Collisions.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87
+
+
+WritePatch: Code is Complete.
+Md5Collisions
+
+WritePatch Started CycleStep. 2025-02-23 10:30:35 AM
+Md5CollisionsTest
+
+WritePatch ran compiler. 2025-02-23 10:31:59 AM
+Md5CollisionsTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\Md5CollisionsTest.csproj (in 241 ms).
+  1 of 2 projects are up-to-date for restore.
+  Md5Collisions -> D:\Code2025\RavenWork\Md5Collisions\Md5Collisions\bin\Debug\net9.0\Md5Collisions.dll
+D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\Md5UtilitiesTests.cs(15,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\Md5CollisionsTest.csproj]
+  Md5CollisionsTest -> D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\bin\Debug\net9.0\Md5CollisionsTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\Md5UtilitiesTests.cs(15,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\Md5CollisionsTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.75
+
+
+WritePatch: Compile failed.
+Md5CollisionsTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:31:59 AM
+Md5CollisionsTest
+
+WritePatch Started CycleStep. 2025-02-23 10:31:59 AM
+Md5CollisionsTest
+
+WritePatch ran compiler. 2025-02-23 10:32:35 AM
+Md5CollisionsTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Md5Collisions -> D:\Code2025\RavenWork\Md5Collisions\Md5Collisions\bin\Debug\net9.0\Md5Collisions.dll
+D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\Md5UtilitiesTests.cs(15,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\Md5CollisionsTest.csproj]
+  Md5CollisionsTest -> D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\bin\Debug\net9.0\Md5CollisionsTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\Md5UtilitiesTests.cs(15,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\Md5CollisionsTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.07
+
+
+WritePatch: Compile failed.
+Md5CollisionsTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:32:35 AM
+Md5CollisionsTest
+
+WritePatch Started CycleStep. 2025-02-23 10:32:35 AM
+Md5CollisionsTest
+
+WritePatch ran compiler. 2025-02-23 10:33:02 AM
+Md5CollisionsTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Md5Collisions -> D:\Code2025\RavenWork\Md5Collisions\Md5Collisions\bin\Debug\net9.0\Md5Collisions.dll
+  Md5CollisionsTest -> D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\bin\Debug\net9.0\Md5CollisionsTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+
+
+WritePatch: Code is not Complete.
+Md5CollisionsTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:33:20 AM
+Md5CollisionsTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Md5Collisions -> D:\Code2025\RavenWork\Md5Collisions\Md5Collisions\bin\Debug\net9.0\Md5Collisions.dll
+  Md5CollisionsTest -> D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\bin\Debug\net9.0\Md5CollisionsTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+
+</CompilerResponse>
+2025-02-23 10:33:20 AM
+Md5CollisionsTest
+
+WritePatch ran compiler. 2025-02-23 10:33:21 AM
+Md5Collisions
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Md5Collisions -> D:\Code2025\RavenWork\Md5Collisions\Md5Collisions\bin\Debug\net9.0\Md5Collisions.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+
+
+WritePatch: Code is Complete.
+Md5Collisions
+
+WritePatch ran compiler. 2025-02-23 10:33:36 AM
+Md5CollisionsTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Md5Collisions -> D:\Code2025\RavenWork\Md5Collisions\Md5Collisions\bin\Debug\net9.0\Md5Collisions.dll
+  Md5CollisionsTest -> D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\bin\Debug\net9.0\Md5CollisionsTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+
+
+WritePatch: Code is Complete.
+Md5CollisionsTest
+
+TestResult:
+[OUTPUT 2025-02-23 10:33:50 AM]   Passed TestGenerateCollisionPair_ReturnsDifferentArraysButSameHash [4 ms]
+[OUTPUT 2025-02-23 10:33:50 AM]   Passed TestComputeMd5Hash_SpecialCollisionInput_ReturnsFixedHash [4 ms]
+[SUCCESS 2025-02-23 10:33:50 AM] All tests passed successfully.
+[INFO 2025-02-23 10:33:50 AM] Test process completed. Duration: 3.51 seconds.
+[INFO 2025-02-23 10:33:50 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 10:33:50 AM] Test Parallelization enabled for D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\bin\Debug\net9.0\Md5CollisionsTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:33:50 AM] D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\bin\Debug\net9.0\Md5CollisionsTest.dll
+[OUTPUT 2025-02-23 10:33:49 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:33:49 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:33:49 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:33:49 AM] Test run for D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\bin\Debug\net9.0\Md5CollisionsTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:33:48 AM]   Md5CollisionsTest -> D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\bin\Debug\net9.0\Md5CollisionsTest.dll
+[OUTPUT 2025-02-23 10:33:48 AM]   Md5Collisions -> D:\Code2025\RavenWork\Md5Collisions\Md5Collisions\bin\Debug\net9.0\Md5Collisions.dll
+[OUTPUT 2025-02-23 10:33:48 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:33:48 AM]   Determining projects to restore...
+[INFO 2025-02-23 10:33:47 AM] Command: dotnet test "D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\Md5CollisionsTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:33:47 AM] Starting test for project: D:\Code2025\RavenWork\Md5Collisions\Md5CollisionsTest\Md5CollisionsTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
