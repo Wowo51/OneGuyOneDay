@@ -1,0 +1,156 @@
+<ActRecord>
+  <ProjectName>SupportVectorMachine</ProjectName>
+  <ProjectDescription>Support Vector Machine (SVM): Divides data by finding a maximum‑margin hyperplane</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Support Vector Machine (SVM): Divides data by finding a maximum‑margin hyperplane</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\SupportVectorMachine</SolutionFolderPath>
+  <ProjectFolderName>SupportVectorMachine</ProjectFolderName>
+  <ProjectName>SupportVectorMachine</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 3:04:14 PM
+SupportVectorMachine</string>
+    <string>WritePatch ran compiler. 2025-02-23 3:04:50 PM
+SupportVectorMachine</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SupportVectorMachine -> D:\Code2025\RavenWork\SupportVectorMachine\SupportVectorMachine\bin\Debug\net9.0\SupportVectorMachine.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.36
+]]></string>
+    <string>WritePatch: Code is Complete.
+SupportVectorMachine</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 3:05:08 PM
+SupportVectorMachineTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 3:06:01 PM
+SupportVectorMachineTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\SupportVectorMachine\SupportVectorMachineTest\SupportVectorMachineTest.csproj (in 343 ms).
+  1 of 2 projects are up-to-date for restore.
+  SupportVectorMachine -> D:\Code2025\RavenWork\SupportVectorMachine\SupportVectorMachine\bin\Debug\net9.0\SupportVectorMachine.dll
+  SupportVectorMachineTest -> D:\Code2025\RavenWork\SupportVectorMachine\SupportVectorMachineTest\bin\Debug\net9.0\SupportVectorMachineTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.77
+]]></string>
+    <string>WritePatch: Code is Complete.
+SupportVectorMachineTest</string>
+    <string>[INFO 2025-02-23 3:06:14 PM] Starting test for project: D:\Code2025\RavenWork\SupportVectorMachine\SupportVectorMachineTest\SupportVectorMachineTest.csproj</string>
+    <string>[INFO 2025-02-23 3:06:14 PM] Starting test for project: D:\Code2025\RavenWork\SupportVectorMachine\SupportVectorMachineTest\SupportVectorMachineTest.csproj</string>
+    <string>[INFO 2025-02-23 3:06:14 PM] Starting test for project: D:\Code2025\RavenWork\SupportVectorMachine\SupportVectorMachineTest\SupportVectorMachineTest.csproj</string>
+    <string>[INFO 2025-02-23 3:06:14 PM] Starting test for project: D:\Code2025\RavenWork\SupportVectorMachine\SupportVectorMachineTest\SupportVectorMachineTest.csproj</string>
+    <string>[INFO 2025-02-23 3:06:14 PM] Starting test for project: D:\Code2025\RavenWork\SupportVectorMachine\SupportVectorMachineTest\SupportVectorMachineTest.csproj</string>
+    <string>[INFO 2025-02-23 3:06:14 PM] Starting test for project: D:\Code2025\RavenWork\SupportVectorMachine\SupportVectorMachineTest\SupportVectorMachineTest.csproj</string>
+    <string>[INFO 2025-02-23 3:06:14 PM] Starting test for project: D:\Code2025\RavenWork\SupportVectorMachine\SupportVectorMachineTest\SupportVectorMachineTest.csproj</string>
+    <string>[INFO 2025-02-23 3:06:14 PM] Starting test for project: D:\Code2025\RavenWork\SupportVectorMachine\SupportVectorMachineTest\SupportVectorMachineTest.csproj</string>
+    <string>[INFO 2025-02-23 3:06:14 PM] Starting test for project: D:\Code2025\RavenWork\SupportVectorMachine\SupportVectorMachineTest\SupportVectorMachineTest.csproj</string>
+    <string>[INFO 2025-02-23 3:06:14 PM] Starting test for project: D:\Code2025\RavenWork\SupportVectorMachine\SupportVectorMachineTest\SupportVectorMachineTest.csproj</string>
+    <string>[INFO 2025-02-23 3:06:14 PM] Starting test for project: D:\Code2025\RavenWork\SupportVectorMachine\SupportVectorMachineTest\SupportVectorMachineTest.csproj</string>
+    <string>[INFO 2025-02-23 3:06:14 PM] Starting test for project: D:\Code2025\RavenWork\SupportVectorMachine\SupportVectorMachineTest\SupportVectorMachineTest.csproj</string>
+    <string>[INFO 2025-02-23 3:06:14 PM] Starting test for project: D:\Code2025\RavenWork\SupportVectorMachine\SupportVectorMachineTest\SupportVectorMachineTest.csproj</string>
+    <string>[INFO 2025-02-23 3:06:14 PM] Starting test for project: D:\Code2025\RavenWork\SupportVectorMachine\SupportVectorMachineTest\SupportVectorMachineTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 3:06:18 PM] Test Parallelization enabled for D:\Code2025\RavenWork\SupportVectorMachine\SupportVectorMachineTest\bin\Debug\net9.0\SupportVectorMachineTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 3:06:19 PM]   Passed TestGetWeightsAndBias [5 ms]
+[OUTPUT 2025-02-23 3:06:18 PM]   Passed TestSimpleTraining [5 ms]
+[OUTPUT 2025-02-23 3:06:16 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 3:06:16 PM] Test run for D:\Code2025\RavenWork\SupportVectorMachine\SupportVectorMachineTest\bin\Debug\net9.0\SupportVectorMachineTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 3:06:16 PM]   SupportVectorMachineTest -> D:\Code2025\RavenWork\SupportVectorMachine\SupportVectorMachineTest\bin\Debug\net9.0\SupportVectorMachineTest.dll
+[OUTPUT 2025-02-23 3:06:15 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 3:06:17 PM] D:\Code2025\RavenWork\SupportVectorMachine\SupportVectorMachineTest\bin\Debug\net9.0\SupportVectorMachineTest.dll
+[OUTPUT 2025-02-23 3:06:17 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 3:06:17 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 3:06:15 PM]   SupportVectorMachine -> D:\Code2025\RavenWork\SupportVectorMachine\SupportVectorMachine\bin\Debug\net9.0\SupportVectorMachine.dll
+[OUTPUT 2025-02-23 3:06:14 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 3:06:18 PM] All tests passed successfully.
+[INFO 2025-02-23 3:06:18 PM] Test process completed. Duration: 4.67 seconds.
+[INFO 2025-02-23 3:06:18 PM] Process exited with code 0.
+[INFO 2025-02-23 3:06:14 PM] Command: dotnet test "D:\Code2025\RavenWork\SupportVectorMachine\SupportVectorMachineTest\SupportVectorMachineTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 3:06:14 PM] Starting test for project: D:\Code2025\RavenWork\SupportVectorMachine\SupportVectorMachineTest\SupportVectorMachineTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 3:04:14 PM
+SupportVectorMachine
+
+WritePatch ran compiler. 2025-02-23 3:04:50 PM
+SupportVectorMachine
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SupportVectorMachine -> D:\Code2025\RavenWork\SupportVectorMachine\SupportVectorMachine\bin\Debug\net9.0\SupportVectorMachine.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.36
+
+
+WritePatch: Code is Complete.
+SupportVectorMachine
+
+WritePatch Started CycleStep. 2025-02-23 3:05:08 PM
+SupportVectorMachineTest
+
+WritePatch ran compiler. 2025-02-23 3:06:01 PM
+SupportVectorMachineTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\SupportVectorMachine\SupportVectorMachineTest\SupportVectorMachineTest.csproj (in 343 ms).
+  1 of 2 projects are up-to-date for restore.
+  SupportVectorMachine -> D:\Code2025\RavenWork\SupportVectorMachine\SupportVectorMachine\bin\Debug\net9.0\SupportVectorMachine.dll
+  SupportVectorMachineTest -> D:\Code2025\RavenWork\SupportVectorMachine\SupportVectorMachineTest\bin\Debug\net9.0\SupportVectorMachineTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.77
+
+
+WritePatch: Code is Complete.
+SupportVectorMachineTest
+
+TestResult:
+[OUTPUT 2025-02-23 3:06:18 PM] Test Parallelization enabled for D:\Code2025\RavenWork\SupportVectorMachine\SupportVectorMachineTest\bin\Debug\net9.0\SupportVectorMachineTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 3:06:19 PM]   Passed TestGetWeightsAndBias [5 ms]
+[OUTPUT 2025-02-23 3:06:18 PM]   Passed TestSimpleTraining [5 ms]
+[OUTPUT 2025-02-23 3:06:16 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 3:06:16 PM] Test run for D:\Code2025\RavenWork\SupportVectorMachine\SupportVectorMachineTest\bin\Debug\net9.0\SupportVectorMachineTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 3:06:16 PM]   SupportVectorMachineTest -> D:\Code2025\RavenWork\SupportVectorMachine\SupportVectorMachineTest\bin\Debug\net9.0\SupportVectorMachineTest.dll
+[OUTPUT 2025-02-23 3:06:15 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 3:06:17 PM] D:\Code2025\RavenWork\SupportVectorMachine\SupportVectorMachineTest\bin\Debug\net9.0\SupportVectorMachineTest.dll
+[OUTPUT 2025-02-23 3:06:17 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 3:06:17 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 3:06:15 PM]   SupportVectorMachine -> D:\Code2025\RavenWork\SupportVectorMachine\SupportVectorMachine\bin\Debug\net9.0\SupportVectorMachine.dll
+[OUTPUT 2025-02-23 3:06:14 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 3:06:18 PM] All tests passed successfully.
+[INFO 2025-02-23 3:06:18 PM] Test process completed. Duration: 4.67 seconds.
+[INFO 2025-02-23 3:06:18 PM] Process exited with code 0.
+[INFO 2025-02-23 3:06:14 PM] Command: dotnet test "D:\Code2025\RavenWork\SupportVectorMachine\SupportVectorMachineTest\SupportVectorMachineTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 3:06:14 PM] Starting test for project: D:\Code2025\RavenWork\SupportVectorMachine\SupportVectorMachineTest\SupportVectorMachineTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
