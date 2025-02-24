@@ -1,0 +1,541 @@
+<ActRecord>
+  <ProjectName>WarnsdorffsRule</ProjectName>
+  <ProjectDescription>Warnsdorff’s Rule: A heuristic for solving the Knight’s Tour problem by choosing the next move that has the fewest onward moves.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Warnsdorff’s Rule: A heuristic for solving the Knight’s Tour problem by choosing the next move that has the fewest onward moves.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\WarnsdorffsRule</SolutionFolderPath>
+  <ProjectFolderName>WarnsdorffsRule</ProjectFolderName>
+  <ProjectName>WarnsdorffsRule</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:02:53 PM
+WarnsdorffsRule</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 8:05:28 PM
+WarnsdorffsRule</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:05:28 PM
+WarnsdorffsRule</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:06:29 PM
+WarnsdorffsRule</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  WarnsdorffsRule -> D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRule\bin\Debug\net9.0\WarnsdorffsRule.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.00
+]]></string>
+    <string>WritePatch: Code is Complete.
+WarnsdorffsRule</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:06:47 PM
+WarnsdorffsRuleTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:08:08 PM
+WarnsdorffsRuleTest</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj (in 581 ms).
+  1 of 2 projects are up-to-date for restore.
+  WarnsdorffsRule -> D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRule\bin\Debug\net9.0\WarnsdorffsRule.dll
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,41): error CS1525: Invalid expression term '' [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,41): error CS1056: Unexpected character '\' [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,42): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,98): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,120): error CS1026: ) expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,128): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,129): error CS1513: } expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,139): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,140): error CS1513: } expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,148): error CS1001: Identifier expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,148): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,148): error CS1010: Newline in constant [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,151): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(86,1): error CS1022: Type or namespace definition, or end-of-file expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,41): error CS1525: Invalid expression term '' [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,41): error CS1056: Unexpected character '\' [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,42): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,98): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,120): error CS1026: ) expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,128): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,129): error CS1513: } expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,139): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,140): error CS1513: } expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,148): error CS1001: Identifier expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,148): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,148): error CS1010: Newline in constant [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,151): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(86,1): error CS1022: Type or namespace definition, or end-of-file expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+    0 Warning(s)
+    14 Error(s)
+
+Time Elapsed 00:00:04.21
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+WarnsdorffsRuleTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:08:09 PM
+WarnsdorffsRuleTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:08:10 PM
+WarnsdorffsRuleTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 8:08:48 PM
+WarnsdorffsRuleTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:08:48 PM
+WarnsdorffsRuleTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 8:09:25 PM
+WarnsdorffsRuleTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj (in 581 ms).
+  1 of 2 projects are up-to-date for restore.
+  WarnsdorffsRule -> D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRule\bin\Debug\net9.0\WarnsdorffsRule.dll
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,41): error CS1525: Invalid expression term '' [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,41): error CS1056: Unexpected character '\' [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,42): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,98): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,120): error CS1026: ) expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,128): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,129): error CS1513: } expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,139): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,140): error CS1513: } expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,148): error CS1001: Identifier expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,148): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,148): error CS1010: Newline in constant [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,151): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(86,1): error CS1022: Type or namespace definition, or end-of-file expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,41): error CS1525: Invalid expression term '' [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,41): error CS1056: Unexpected character '\' [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,42): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,98): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,120): error CS1026: ) expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,128): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,129): error CS1513: } expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,139): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,140): error CS1513: } expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,148): error CS1001: Identifier expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,148): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,148): error CS1010: Newline in constant [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,151): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(86,1): error CS1022: Type or namespace definition, or end-of-file expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+    0 Warning(s)
+    14 Error(s)
+
+Time Elapsed 00:00:04.21
+
+
+Errors:
+</CompilerResponse>
+2025-02-23 8:09:25 PM
+WarnsdorffsRuleTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 8:09:28 PM
+WarnsdorffsRule</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  WarnsdorffsRule -> D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRule\bin\Debug\net9.0\WarnsdorffsRule.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.58
+]]></string>
+    <string>WritePatch: Code is Complete.
+WarnsdorffsRule</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:10:07 PM
+WarnsdorffsRuleTest</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  WarnsdorffsRule -> D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRule\bin\Debug\net9.0\WarnsdorffsRule.dll
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,41): error CS1525: Invalid expression term '' [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,41): error CS1056: Unexpected character '\' [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,42): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,98): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,120): error CS1026: ) expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,128): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,129): error CS1513: } expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,139): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,140): error CS1513: } expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,148): error CS1001: Identifier expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,148): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,148): error CS1010: Newline in constant [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,151): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(86,1): error CS1022: Type or namespace definition, or end-of-file expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,41): error CS1525: Invalid expression term '' [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,41): error CS1056: Unexpected character '\' [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,42): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,98): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,120): error CS1026: ) expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,128): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,129): error CS1513: } expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,139): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,140): error CS1513: } expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,148): error CS1001: Identifier expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,148): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,148): error CS1010: Newline in constant [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,151): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(86,1): error CS1022: Type or namespace definition, or end-of-file expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+    0 Warning(s)
+    14 Error(s)
+
+Time Elapsed 00:00:02.19
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+WarnsdorffsRuleTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:10:08 PM
+WarnsdorffsRuleTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:12:48 PM
+WarnsdorffsRuleTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  WarnsdorffsRule -> D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRule\bin\Debug\net9.0\WarnsdorffsRule.dll
+  WarnsdorffsRuleTest -> D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\bin\Debug\net9.0\WarnsdorffsRuleTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.46
+]]></string>
+    <string>WritePatch: Code is Complete.
+WarnsdorffsRuleTest</string>
+    <string>[INFO 2025-02-23 8:13:07 PM] Starting test for project: D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 8:13:07 PM] Starting test for project: D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 8:13:07 PM] Starting test for project: D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 8:13:07 PM] Starting test for project: D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 8:13:07 PM] Starting test for project: D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 8:13:07 PM] Starting test for project: D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 8:13:07 PM] Starting test for project: D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 8:13:07 PM] Starting test for project: D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 8:13:07 PM] Starting test for project: D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 8:13:07 PM] Starting test for project: D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 8:13:07 PM] Starting test for project: D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 8:13:07 PM] Starting test for project: D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 8:13:07 PM] Starting test for project: D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 8:13:14 PM] Test Parallelization enabled for D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\bin\Debug\net9.0\WarnsdorffsRuleTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 8:13:13 PM] D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\bin\Debug\net9.0\WarnsdorffsRuleTest.dll
+[OUTPUT 2025-02-23 8:13:12 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 8:13:12 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:13:12 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:13:10 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:13:15 PM]   Passed Test_MultipleBoardSizes (1,0,0,True) [< 1 ms]
+[OUTPUT 2025-02-23 8:13:11 PM] Test run for D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\bin\Debug\net9.0\WarnsdorffsRuleTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:13:11 PM]   WarnsdorffsRuleTest -> D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\bin\Debug\net9.0\WarnsdorffsRuleTest.dll
+[OUTPUT 2025-02-23 8:13:10 PM]   WarnsdorffsRule -> D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRule\bin\Debug\net9.0\WarnsdorffsRule.dll
+[OUTPUT 2025-02-23 8:13:09 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 8:13:15 PM] All tests passed successfully.
+[INFO 2025-02-23 8:13:15 PM] Test process completed. Duration: 7.24 seconds.
+[INFO 2025-02-23 8:13:15 PM] Process exited with code 0.
+[INFO 2025-02-23 8:13:07 PM] Command: dotnet test "D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:13:07 PM] Starting test for project: D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 8:02:53 PM
+WarnsdorffsRule
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 8:05:28 PM
+WarnsdorffsRule
+
+WritePatch Started CycleStep. 2025-02-23 8:05:28 PM
+WarnsdorffsRule
+
+WritePatch ran compiler. 2025-02-23 8:06:29 PM
+WarnsdorffsRule
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  WarnsdorffsRule -> D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRule\bin\Debug\net9.0\WarnsdorffsRule.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.00
+
+
+WritePatch: Code is Complete.
+WarnsdorffsRule
+
+WritePatch Started CycleStep. 2025-02-23 8:06:47 PM
+WarnsdorffsRuleTest
+
+WritePatch ran compiler. 2025-02-23 8:08:08 PM
+WarnsdorffsRuleTest
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj (in 581 ms).
+  1 of 2 projects are up-to-date for restore.
+  WarnsdorffsRule -> D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRule\bin\Debug\net9.0\WarnsdorffsRule.dll
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,41): error CS1525: Invalid expression term '' [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,41): error CS1056: Unexpected character '\' [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,42): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,98): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,120): error CS1026: ) expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,128): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,129): error CS1513: } expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,139): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,140): error CS1513: } expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,148): error CS1001: Identifier expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,148): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,148): error CS1010: Newline in constant [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,151): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(86,1): error CS1022: Type or namespace definition, or end-of-file expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,41): error CS1525: Invalid expression term '' [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,41): error CS1056: Unexpected character '\' [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,42): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,98): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,120): error CS1026: ) expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,128): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,129): error CS1513: } expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,139): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,140): error CS1513: } expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,148): error CS1001: Identifier expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,148): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,148): error CS1010: Newline in constant [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,151): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(86,1): error CS1022: Type or namespace definition, or end-of-file expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+    0 Warning(s)
+    14 Error(s)
+
+Time Elapsed 00:00:04.21
+
+
+Errors:
+
+WritePatch: Compile failed.
+WarnsdorffsRuleTest
+
+Finished WritePatch cycle step.
+2025-02-23 8:08:09 PM
+WarnsdorffsRuleTest
+
+WritePatch Started CycleStep. 2025-02-23 8:08:10 PM
+WarnsdorffsRuleTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 8:08:48 PM
+WarnsdorffsRuleTest
+
+WritePatch Started CycleStep. 2025-02-23 8:08:48 PM
+WarnsdorffsRuleTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 8:09:25 PM
+WarnsdorffsRuleTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj (in 581 ms).
+  1 of 2 projects are up-to-date for restore.
+  WarnsdorffsRule -> D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRule\bin\Debug\net9.0\WarnsdorffsRule.dll
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,41): error CS1525: Invalid expression term '' [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,41): error CS1056: Unexpected character '\' [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,42): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,98): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,120): error CS1026: ) expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,128): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,129): error CS1513: } expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,139): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,140): error CS1513: } expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,148): error CS1001: Identifier expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,148): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,148): error CS1010: Newline in constant [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,151): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(86,1): error CS1022: Type or namespace definition, or end-of-file expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,41): error CS1525: Invalid expression term '' [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,41): error CS1056: Unexpected character '\' [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,42): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,98): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,120): error CS1026: ) expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,128): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,129): error CS1513: } expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,139): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,140): error CS1513: } expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,148): error CS1001: Identifier expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,148): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,148): error CS1010: Newline in constant [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,151): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(86,1): error CS1022: Type or namespace definition, or end-of-file expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+    0 Warning(s)
+    14 Error(s)
+
+Time Elapsed 00:00:04.21
+
+
+Errors:
+</CompilerResponse>
+2025-02-23 8:09:25 PM
+WarnsdorffsRuleTest
+
+WritePatch ran compiler. 2025-02-23 8:09:28 PM
+WarnsdorffsRule
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  WarnsdorffsRule -> D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRule\bin\Debug\net9.0\WarnsdorffsRule.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.58
+
+
+WritePatch: Code is Complete.
+WarnsdorffsRule
+
+WritePatch ran compiler. 2025-02-23 8:10:07 PM
+WarnsdorffsRuleTest
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  WarnsdorffsRule -> D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRule\bin\Debug\net9.0\WarnsdorffsRule.dll
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,41): error CS1525: Invalid expression term '' [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,41): error CS1056: Unexpected character '\' [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,42): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,98): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,120): error CS1026: ) expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,128): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,129): error CS1513: } expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,139): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,140): error CS1513: } expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,148): error CS1001: Identifier expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,148): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,148): error CS1010: Newline in constant [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,151): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(86,1): error CS1022: Type or namespace definition, or end-of-file expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,41): error CS1525: Invalid expression term '' [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,41): error CS1056: Unexpected character '\' [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,42): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,98): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,120): error CS1026: ) expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,128): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,129): error CS1513: } expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,139): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,140): error CS1513: } expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,148): error CS1001: Identifier expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,148): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,148): error CS1010: Newline in constant [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(73,151): error CS1002: ; expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\KnightTourSolverTests.cs(86,1): error CS1022: Type or namespace definition, or end-of-file expected [D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj]
+    0 Warning(s)
+    14 Error(s)
+
+Time Elapsed 00:00:02.19
+
+
+Errors:
+
+WritePatch: Compile failed.
+WarnsdorffsRuleTest
+
+WritePatch Started CycleStep. 2025-02-23 8:10:08 PM
+WarnsdorffsRuleTest
+
+WritePatch ran compiler. 2025-02-23 8:12:48 PM
+WarnsdorffsRuleTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  WarnsdorffsRule -> D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRule\bin\Debug\net9.0\WarnsdorffsRule.dll
+  WarnsdorffsRuleTest -> D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\bin\Debug\net9.0\WarnsdorffsRuleTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.46
+
+
+WritePatch: Code is Complete.
+WarnsdorffsRuleTest
+
+TestResult:
+[OUTPUT 2025-02-23 8:13:14 PM] Test Parallelization enabled for D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\bin\Debug\net9.0\WarnsdorffsRuleTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 8:13:13 PM] D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\bin\Debug\net9.0\WarnsdorffsRuleTest.dll
+[OUTPUT 2025-02-23 8:13:12 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 8:13:12 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:13:12 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:13:10 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:13:15 PM]   Passed Test_MultipleBoardSizes (1,0,0,True) [< 1 ms]
+[OUTPUT 2025-02-23 8:13:11 PM] Test run for D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\bin\Debug\net9.0\WarnsdorffsRuleTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:13:11 PM]   WarnsdorffsRuleTest -> D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\bin\Debug\net9.0\WarnsdorffsRuleTest.dll
+[OUTPUT 2025-02-23 8:13:10 PM]   WarnsdorffsRule -> D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRule\bin\Debug\net9.0\WarnsdorffsRule.dll
+[OUTPUT 2025-02-23 8:13:09 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 8:13:15 PM] All tests passed successfully.
+[INFO 2025-02-23 8:13:15 PM] Test process completed. Duration: 7.24 seconds.
+[INFO 2025-02-23 8:13:15 PM] Process exited with code 0.
+[INFO 2025-02-23 8:13:07 PM] Command: dotnet test "D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:13:07 PM] Starting test for project: D:\Code2025\RavenWork\WarnsdorffsRule\WarnsdorffsRuleTest\WarnsdorffsRuleTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
