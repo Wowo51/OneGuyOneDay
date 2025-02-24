@@ -1,0 +1,356 @@
+<ActRecord>
+  <ProjectName>FisherYatesShuffle</ProjectName>
+  <ProjectDescription>Fisher–Yates shuffle (also known as the Knuth shuffle): randomly shuffle a finite set</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Fisher–Yates shuffle (also known as the Knuth shuffle): randomly shuffle a finite set</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\FisherYatesShuffle</SolutionFolderPath>
+  <ProjectFolderName>FisherYatesShuffle</ProjectFolderName>
+  <ProjectName>FisherYatesShuffle</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:25:51 PM
+FisherYatesShuffle</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:26:28 PM
+FisherYatesShuffle</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FisherYatesShuffle -> D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffle\bin\Debug\net9.0\FisherYatesShuffle.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.69
+]]></string>
+    <string>WritePatch: Code is Complete.
+FisherYatesShuffle</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:26:43 PM
+FisherYatesShuffleTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:27:34 PM
+FisherYatesShuffleTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTest.csproj (in 887 ms).
+  1 of 2 projects are up-to-date for restore.
+  FisherYatesShuffle -> D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffle\bin\Debug\net9.0\FisherYatesShuffle.dll
+D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTests.cs(15,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTest.csproj]
+D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTests.cs(16,44): warning CS8604: Possible null reference argument for parameter 'list' in 'void ShuffleExtensions.Shuffle<int>(IList<int> list)'. [D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTest.csproj]
+  FisherYatesShuffleTest -> D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\bin\Debug\net9.0\FisherYatesShuffleTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTests.cs(15,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTest.csproj]
+D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTests.cs(16,44): warning CS8604: Possible null reference argument for parameter 'list' in 'void ShuffleExtensions.Shuffle<int>(IList<int> list)'. [D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.03
+]]></string>
+    <string>WritePatch: Compile failed.
+FisherYatesShuffleTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:27:35 PM
+FisherYatesShuffleTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:27:36 PM
+FisherYatesShuffleTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 7:28:01 PM
+FisherYatesShuffleTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:28:02 PM
+FisherYatesShuffleTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:28:31 PM
+FisherYatesShuffleTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FisherYatesShuffle -> D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffle\bin\Debug\net9.0\FisherYatesShuffle.dll
+D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTests.cs(16,44): warning CS8604: Possible null reference argument for parameter 'list' in 'void ShuffleExtensions.Shuffle<int>(IList<int> list)'. [D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTest.csproj]
+  FisherYatesShuffleTest -> D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\bin\Debug\net9.0\FisherYatesShuffleTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTests.cs(16,44): warning CS8604: Possible null reference argument for parameter 'list' in 'void ShuffleExtensions.Shuffle<int>(IList<int> list)'. [D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.40
+]]></string>
+    <string>WritePatch: Compile failed.
+FisherYatesShuffleTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:28:33 PM
+FisherYatesShuffleTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FisherYatesShuffle -> D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffle\bin\Debug\net9.0\FisherYatesShuffle.dll
+D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTests.cs(16,44): warning CS8604: Possible null reference argument for parameter 'list' in 'void ShuffleExtensions.Shuffle<int>(IList<int> list)'. [D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTest.csproj]
+  FisherYatesShuffleTest -> D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\bin\Debug\net9.0\FisherYatesShuffleTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTests.cs(16,44): warning CS8604: Possible null reference argument for parameter 'list' in 'void ShuffleExtensions.Shuffle<int>(IList<int> list)'. [D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.40
+
+</CompilerResponse>
+2025-02-23 7:28:33 PM
+FisherYatesShuffleTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 7:28:36 PM
+FisherYatesShuffle</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FisherYatesShuffle -> D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffle\bin\Debug\net9.0\FisherYatesShuffle.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.56
+]]></string>
+    <string>WritePatch: Code is Complete.
+FisherYatesShuffle</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:28:56 PM
+FisherYatesShuffleTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FisherYatesShuffle -> D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffle\bin\Debug\net9.0\FisherYatesShuffle.dll
+  FisherYatesShuffleTest -> D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\bin\Debug\net9.0\FisherYatesShuffleTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.99
+]]></string>
+    <string>WritePatch: Code is Complete.
+FisherYatesShuffleTest</string>
+    <string>[INFO 2025-02-23 7:29:31 PM] Starting test for project: D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTest.csproj</string>
+    <string>[INFO 2025-02-23 7:29:31 PM] Starting test for project: D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTest.csproj</string>
+    <string>[INFO 2025-02-23 7:29:31 PM] Starting test for project: D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTest.csproj</string>
+    <string>[INFO 2025-02-23 7:29:31 PM] Starting test for project: D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTest.csproj</string>
+    <string>[INFO 2025-02-23 7:29:31 PM] Starting test for project: D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTest.csproj</string>
+    <string>[INFO 2025-02-23 7:29:31 PM] Starting test for project: D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTest.csproj</string>
+    <string>[INFO 2025-02-23 7:29:31 PM] Starting test for project: D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTest.csproj</string>
+    <string>[INFO 2025-02-23 7:29:31 PM] Starting test for project: D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTest.csproj</string>
+    <string>[INFO 2025-02-23 7:29:31 PM] Starting test for project: D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTest.csproj</string>
+    <string>[INFO 2025-02-23 7:29:31 PM] Starting test for project: D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTest.csproj</string>
+    <string>[INFO 2025-02-23 7:29:31 PM] Starting test for project: D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTest.csproj</string>
+    <string>[INFO 2025-02-23 7:29:31 PM] Starting test for project: D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 7:29:40 PM]   Passed Shuffle_NullList_DoesNotThrow [11 ms]
+[OUTPUT 2025-02-23 7:29:39 PM] Test Parallelization enabled for D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\bin\Debug\net9.0\FisherYatesShuffleTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:29:37 PM] D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\bin\Debug\net9.0\FisherYatesShuffleTest.dll
+[OUTPUT 2025-02-23 7:29:36 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:29:36 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:29:35 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:29:35 PM] Test run for D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\bin\Debug\net9.0\FisherYatesShuffleTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:29:34 PM]   FisherYatesShuffleTest -> D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\bin\Debug\net9.0\FisherYatesShuffleTest.dll
+[OUTPUT 2025-02-23 7:29:34 PM]   FisherYatesShuffle -> D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffle\bin\Debug\net9.0\FisherYatesShuffle.dll
+[OUTPUT 2025-02-23 7:29:33 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:29:32 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 7:29:39 PM] All tests passed successfully.
+[INFO 2025-02-23 7:29:39 PM] Test process completed. Duration: 8.22 seconds.
+[INFO 2025-02-23 7:29:39 PM] Process exited with code 0.
+[INFO 2025-02-23 7:29:31 PM] Command: dotnet test "D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:29:31 PM] Starting test for project: D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTest.csproj]]></string>
+    <string>[INFO 2025-02-23 7:29:31 PM] Starting test for project: D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTest.csproj</string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 7:25:51 PM
+FisherYatesShuffle
+
+WritePatch ran compiler. 2025-02-23 7:26:28 PM
+FisherYatesShuffle
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FisherYatesShuffle -> D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffle\bin\Debug\net9.0\FisherYatesShuffle.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.69
+
+
+WritePatch: Code is Complete.
+FisherYatesShuffle
+
+WritePatch Started CycleStep. 2025-02-23 7:26:43 PM
+FisherYatesShuffleTest
+
+WritePatch ran compiler. 2025-02-23 7:27:34 PM
+FisherYatesShuffleTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTest.csproj (in 887 ms).
+  1 of 2 projects are up-to-date for restore.
+  FisherYatesShuffle -> D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffle\bin\Debug\net9.0\FisherYatesShuffle.dll
+D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTests.cs(15,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTest.csproj]
+D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTests.cs(16,44): warning CS8604: Possible null reference argument for parameter 'list' in 'void ShuffleExtensions.Shuffle<int>(IList<int> list)'. [D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTest.csproj]
+  FisherYatesShuffleTest -> D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\bin\Debug\net9.0\FisherYatesShuffleTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTests.cs(15,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTest.csproj]
+D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTests.cs(16,44): warning CS8604: Possible null reference argument for parameter 'list' in 'void ShuffleExtensions.Shuffle<int>(IList<int> list)'. [D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.03
+
+
+WritePatch: Compile failed.
+FisherYatesShuffleTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:27:35 PM
+FisherYatesShuffleTest
+
+WritePatch Started CycleStep. 2025-02-23 7:27:36 PM
+FisherYatesShuffleTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 7:28:01 PM
+FisherYatesShuffleTest
+
+WritePatch Started CycleStep. 2025-02-23 7:28:02 PM
+FisherYatesShuffleTest
+
+WritePatch ran compiler. 2025-02-23 7:28:31 PM
+FisherYatesShuffleTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FisherYatesShuffle -> D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffle\bin\Debug\net9.0\FisherYatesShuffle.dll
+D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTests.cs(16,44): warning CS8604: Possible null reference argument for parameter 'list' in 'void ShuffleExtensions.Shuffle<int>(IList<int> list)'. [D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTest.csproj]
+  FisherYatesShuffleTest -> D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\bin\Debug\net9.0\FisherYatesShuffleTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTests.cs(16,44): warning CS8604: Possible null reference argument for parameter 'list' in 'void ShuffleExtensions.Shuffle<int>(IList<int> list)'. [D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.40
+
+
+WritePatch: Compile failed.
+FisherYatesShuffleTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:28:33 PM
+FisherYatesShuffleTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FisherYatesShuffle -> D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffle\bin\Debug\net9.0\FisherYatesShuffle.dll
+D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTests.cs(16,44): warning CS8604: Possible null reference argument for parameter 'list' in 'void ShuffleExtensions.Shuffle<int>(IList<int> list)'. [D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTest.csproj]
+  FisherYatesShuffleTest -> D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\bin\Debug\net9.0\FisherYatesShuffleTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTests.cs(16,44): warning CS8604: Possible null reference argument for parameter 'list' in 'void ShuffleExtensions.Shuffle<int>(IList<int> list)'. [D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.40
+
+</CompilerResponse>
+2025-02-23 7:28:33 PM
+FisherYatesShuffleTest
+
+WritePatch ran compiler. 2025-02-23 7:28:36 PM
+FisherYatesShuffle
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FisherYatesShuffle -> D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffle\bin\Debug\net9.0\FisherYatesShuffle.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.56
+
+
+WritePatch: Code is Complete.
+FisherYatesShuffle
+
+WritePatch ran compiler. 2025-02-23 7:28:56 PM
+FisherYatesShuffleTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FisherYatesShuffle -> D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffle\bin\Debug\net9.0\FisherYatesShuffle.dll
+  FisherYatesShuffleTest -> D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\bin\Debug\net9.0\FisherYatesShuffleTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.99
+
+
+WritePatch: Code is Complete.
+FisherYatesShuffleTest
+
+TestResult:
+[OUTPUT 2025-02-23 7:29:40 PM]   Passed Shuffle_NullList_DoesNotThrow [11 ms]
+[OUTPUT 2025-02-23 7:29:39 PM] Test Parallelization enabled for D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\bin\Debug\net9.0\FisherYatesShuffleTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:29:37 PM] D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\bin\Debug\net9.0\FisherYatesShuffleTest.dll
+[OUTPUT 2025-02-23 7:29:36 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:29:36 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:29:35 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:29:35 PM] Test run for D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\bin\Debug\net9.0\FisherYatesShuffleTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:29:34 PM]   FisherYatesShuffleTest -> D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\bin\Debug\net9.0\FisherYatesShuffleTest.dll
+[OUTPUT 2025-02-23 7:29:34 PM]   FisherYatesShuffle -> D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffle\bin\Debug\net9.0\FisherYatesShuffle.dll
+[OUTPUT 2025-02-23 7:29:33 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:29:32 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 7:29:39 PM] All tests passed successfully.
+[INFO 2025-02-23 7:29:39 PM] Test process completed. Duration: 8.22 seconds.
+[INFO 2025-02-23 7:29:39 PM] Process exited with code 0.
+[INFO 2025-02-23 7:29:31 PM] Command: dotnet test "D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:29:31 PM] Starting test for project: D:\Code2025\RavenWork\FisherYatesShuffle\FisherYatesShuffleTest\FisherYatesShuffleTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
