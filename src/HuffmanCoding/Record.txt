@@ -1,0 +1,247 @@
+<ActRecord>
+  <ProjectName>HuffmanCoding</ProjectName>
+  <ProjectDescription>Huffman coding: Lossless compression based on symbol frequencies</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Huffman coding: Lossless compression based on symbol frequencies</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\HuffmanCoding</SolutionFolderPath>
+  <ProjectFolderName>HuffmanCoding</ProjectFolderName>
+  <ProjectName>HuffmanCoding</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:34:51 AM
+HuffmanCoding</string>
+    <string>Exception: The request was canceled due to the configured HttpClient.Timeout of 200 seconds elapsing.</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:38:11 AM
+HuffmanCoding</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:39:45 AM
+HuffmanCoding</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HuffmanCoding -> D:\Code2025\RavenWork\HuffmanCoding\HuffmanCoding\bin\Debug\net9.0\HuffmanCoding.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+]]></string>
+    <string>WritePatch: Code is Complete.
+HuffmanCoding</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:39:58 AM
+HuffmanCodingTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:40:39 AM
+HuffmanCodingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj (in 186 ms).
+  1 of 2 projects are up-to-date for restore.
+  HuffmanCoding -> D:\Code2025\RavenWork\HuffmanCoding\HuffmanCoding\bin\Debug\net9.0\HuffmanCoding.dll
+D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTests.cs(16,33): error CS0234: The type or namespace name 'Compress' does not exist in the namespace 'HuffmanCoding' (are you missing an assembly reference?) [D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj]
+D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTests.cs(17,35): error CS0234: The type or namespace name 'Decompress' does not exist in the namespace 'HuffmanCoding' (are you missing an assembly reference?) [D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj]
+D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTests.cs(26,33): error CS0234: The type or namespace name 'Compress' does not exist in the namespace 'HuffmanCoding' (are you missing an assembly reference?) [D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj]
+D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTests.cs(27,35): error CS0234: The type or namespace name 'Decompress' does not exist in the namespace 'HuffmanCoding' (are you missing an assembly reference?) [D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj]
+D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTests.cs(36,33): error CS0234: The type or namespace name 'Compress' does not exist in the namespace 'HuffmanCoding' (are you missing an assembly reference?) [D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj]
+D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTests.cs(37,35): error CS0234: The type or namespace name 'Decompress' does not exist in the namespace 'HuffmanCoding' (are you missing an assembly reference?) [D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj]
+D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTests.cs(46,33): error CS0234: The type or namespace name 'Compress' does not exist in the namespace 'HuffmanCoding' (are you missing an assembly reference?) [D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj]
+D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTests.cs(47,35): error CS0234: The type or namespace name 'Decompress' does not exist in the namespace 'HuffmanCoding' (are you missing an assembly reference?) [D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTests.cs(16,33): error CS0234: The type or namespace name 'Compress' does not exist in the namespace 'HuffmanCoding' (are you missing an assembly reference?) [D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj]
+D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTests.cs(17,35): error CS0234: The type or namespace name 'Decompress' does not exist in the namespace 'HuffmanCoding' (are you missing an assembly reference?) [D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj]
+D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTests.cs(26,33): error CS0234: The type or namespace name 'Compress' does not exist in the namespace 'HuffmanCoding' (are you missing an assembly reference?) [D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj]
+D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTests.cs(27,35): error CS0234: The type or namespace name 'Decompress' does not exist in the namespace 'HuffmanCoding' (are you missing an assembly reference?) [D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj]
+D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTests.cs(36,33): error CS0234: The type or namespace name 'Compress' does not exist in the namespace 'HuffmanCoding' (are you missing an assembly reference?) [D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj]
+D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTests.cs(37,35): error CS0234: The type or namespace name 'Decompress' does not exist in the namespace 'HuffmanCoding' (are you missing an assembly reference?) [D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj]
+D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTests.cs(46,33): error CS0234: The type or namespace name 'Compress' does not exist in the namespace 'HuffmanCoding' (are you missing an assembly reference?) [D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj]
+D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTests.cs(47,35): error CS0234: The type or namespace name 'Decompress' does not exist in the namespace 'HuffmanCoding' (are you missing an assembly reference?) [D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj]
+    0 Warning(s)
+    8 Error(s)
+
+Time Elapsed 00:00:01.17
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+HuffmanCodingTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:40:40 AM
+HuffmanCodingTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:40:41 AM
+HuffmanCodingTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:41:29 AM
+HuffmanCodingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HuffmanCoding -> D:\Code2025\RavenWork\HuffmanCoding\HuffmanCoding\bin\Debug\net9.0\HuffmanCoding.dll
+  HuffmanCodingTest -> D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\bin\Debug\net9.0\HuffmanCodingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.09
+]]></string>
+    <string>WritePatch: Code is Complete.
+HuffmanCodingTest</string>
+    <string>[INFO 2025-02-23 7:41:42 AM] Starting test for project: D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj</string>
+    <string>[INFO 2025-02-23 7:41:42 AM] Starting test for project: D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj</string>
+    <string>[INFO 2025-02-23 7:41:42 AM] Starting test for project: D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj</string>
+    <string>[INFO 2025-02-23 7:41:42 AM] Starting test for project: D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj</string>
+    <string>[INFO 2025-02-23 7:41:42 AM] Starting test for project: D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj</string>
+    <string>[INFO 2025-02-23 7:41:42 AM] Starting test for project: D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj</string>
+    <string>[INFO 2025-02-23 7:41:42 AM] Starting test for project: D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj</string>
+    <string>[INFO 2025-02-23 7:41:42 AM] Starting test for project: D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj</string>
+    <string>[INFO 2025-02-23 7:41:42 AM] Starting test for project: D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj</string>
+    <string>[INFO 2025-02-23 7:41:42 AM] Starting test for project: D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj</string>
+    <string>[INFO 2025-02-23 7:41:42 AM] Starting test for project: D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj</string>
+    <string>[INFO 2025-02-23 7:41:42 AM] Starting test for project: D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 7:41:46 AM] All tests passed successfully.
+[INFO 2025-02-23 7:41:46 AM] Test process completed. Duration: 3.39 seconds.
+[INFO 2025-02-23 7:41:46 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 7:41:46 AM] Test Parallelization enabled for D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\bin\Debug\net9.0\HuffmanCodingTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:41:46 AM] D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\bin\Debug\net9.0\HuffmanCodingTest.dll
+[OUTPUT 2025-02-23 7:41:45 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:41:45 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:41:45 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:41:45 AM] Test run for D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\bin\Debug\net9.0\HuffmanCodingTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:41:44 AM]   HuffmanCodingTest -> D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\bin\Debug\net9.0\HuffmanCodingTest.dll
+[OUTPUT 2025-02-23 7:41:44 AM]   HuffmanCoding -> D:\Code2025\RavenWork\HuffmanCoding\HuffmanCoding\bin\Debug\net9.0\HuffmanCoding.dll
+[OUTPUT 2025-02-23 7:41:44 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:41:43 AM]   Determining projects to restore...
+[INFO 2025-02-23 7:41:42 AM] Command: dotnet test "D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:41:42 AM] Starting test for project: D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 7:34:51 AM
+HuffmanCoding
+
+Exception: The request was canceled due to the configured HttpClient.Timeout of 200 seconds elapsing.
+
+WritePatch Started CycleStep. 2025-02-23 7:38:11 AM
+HuffmanCoding
+
+WritePatch ran compiler. 2025-02-23 7:39:45 AM
+HuffmanCoding
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HuffmanCoding -> D:\Code2025\RavenWork\HuffmanCoding\HuffmanCoding\bin\Debug\net9.0\HuffmanCoding.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+
+
+WritePatch: Code is Complete.
+HuffmanCoding
+
+WritePatch Started CycleStep. 2025-02-23 7:39:58 AM
+HuffmanCodingTest
+
+WritePatch ran compiler. 2025-02-23 7:40:39 AM
+HuffmanCodingTest
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj (in 186 ms).
+  1 of 2 projects are up-to-date for restore.
+  HuffmanCoding -> D:\Code2025\RavenWork\HuffmanCoding\HuffmanCoding\bin\Debug\net9.0\HuffmanCoding.dll
+D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTests.cs(16,33): error CS0234: The type or namespace name 'Compress' does not exist in the namespace 'HuffmanCoding' (are you missing an assembly reference?) [D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj]
+D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTests.cs(17,35): error CS0234: The type or namespace name 'Decompress' does not exist in the namespace 'HuffmanCoding' (are you missing an assembly reference?) [D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj]
+D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTests.cs(26,33): error CS0234: The type or namespace name 'Compress' does not exist in the namespace 'HuffmanCoding' (are you missing an assembly reference?) [D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj]
+D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTests.cs(27,35): error CS0234: The type or namespace name 'Decompress' does not exist in the namespace 'HuffmanCoding' (are you missing an assembly reference?) [D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj]
+D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTests.cs(36,33): error CS0234: The type or namespace name 'Compress' does not exist in the namespace 'HuffmanCoding' (are you missing an assembly reference?) [D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj]
+D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTests.cs(37,35): error CS0234: The type or namespace name 'Decompress' does not exist in the namespace 'HuffmanCoding' (are you missing an assembly reference?) [D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj]
+D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTests.cs(46,33): error CS0234: The type or namespace name 'Compress' does not exist in the namespace 'HuffmanCoding' (are you missing an assembly reference?) [D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj]
+D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTests.cs(47,35): error CS0234: The type or namespace name 'Decompress' does not exist in the namespace 'HuffmanCoding' (are you missing an assembly reference?) [D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTests.cs(16,33): error CS0234: The type or namespace name 'Compress' does not exist in the namespace 'HuffmanCoding' (are you missing an assembly reference?) [D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj]
+D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTests.cs(17,35): error CS0234: The type or namespace name 'Decompress' does not exist in the namespace 'HuffmanCoding' (are you missing an assembly reference?) [D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj]
+D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTests.cs(26,33): error CS0234: The type or namespace name 'Compress' does not exist in the namespace 'HuffmanCoding' (are you missing an assembly reference?) [D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj]
+D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTests.cs(27,35): error CS0234: The type or namespace name 'Decompress' does not exist in the namespace 'HuffmanCoding' (are you missing an assembly reference?) [D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj]
+D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTests.cs(36,33): error CS0234: The type or namespace name 'Compress' does not exist in the namespace 'HuffmanCoding' (are you missing an assembly reference?) [D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj]
+D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTests.cs(37,35): error CS0234: The type or namespace name 'Decompress' does not exist in the namespace 'HuffmanCoding' (are you missing an assembly reference?) [D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj]
+D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTests.cs(46,33): error CS0234: The type or namespace name 'Compress' does not exist in the namespace 'HuffmanCoding' (are you missing an assembly reference?) [D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj]
+D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTests.cs(47,35): error CS0234: The type or namespace name 'Decompress' does not exist in the namespace 'HuffmanCoding' (are you missing an assembly reference?) [D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj]
+    0 Warning(s)
+    8 Error(s)
+
+Time Elapsed 00:00:01.17
+
+
+Errors:
+
+WritePatch: Compile failed.
+HuffmanCodingTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:40:40 AM
+HuffmanCodingTest
+
+WritePatch Started CycleStep. 2025-02-23 7:40:41 AM
+HuffmanCodingTest
+
+WritePatch ran compiler. 2025-02-23 7:41:29 AM
+HuffmanCodingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HuffmanCoding -> D:\Code2025\RavenWork\HuffmanCoding\HuffmanCoding\bin\Debug\net9.0\HuffmanCoding.dll
+  HuffmanCodingTest -> D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\bin\Debug\net9.0\HuffmanCodingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.09
+
+
+WritePatch: Code is Complete.
+HuffmanCodingTest
+
+TestResult:
+[SUCCESS 2025-02-23 7:41:46 AM] All tests passed successfully.
+[INFO 2025-02-23 7:41:46 AM] Test process completed. Duration: 3.39 seconds.
+[INFO 2025-02-23 7:41:46 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 7:41:46 AM] Test Parallelization enabled for D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\bin\Debug\net9.0\HuffmanCodingTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:41:46 AM] D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\bin\Debug\net9.0\HuffmanCodingTest.dll
+[OUTPUT 2025-02-23 7:41:45 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:41:45 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:41:45 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:41:45 AM] Test run for D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\bin\Debug\net9.0\HuffmanCodingTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:41:44 AM]   HuffmanCodingTest -> D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\bin\Debug\net9.0\HuffmanCodingTest.dll
+[OUTPUT 2025-02-23 7:41:44 AM]   HuffmanCoding -> D:\Code2025\RavenWork\HuffmanCoding\HuffmanCoding\bin\Debug\net9.0\HuffmanCoding.dll
+[OUTPUT 2025-02-23 7:41:44 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:41:43 AM]   Determining projects to restore...
+[INFO 2025-02-23 7:41:42 AM] Command: dotnet test "D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:41:42 AM] Starting test for project: D:\Code2025\RavenWork\HuffmanCoding\HuffmanCodingTest\HuffmanCodingTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
