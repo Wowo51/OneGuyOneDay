@@ -1,0 +1,519 @@
+<ActRecord>
+  <ProjectName>CykAlgorithm</ProjectName>
+  <ProjectDescription>CYK algorithm: An O(n³) algorithm for parsing context‑free grammars in Chomsky normal form</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>CYK algorithm: An O(n³) algorithm for parsing context‑free grammars in Chomsky normal form</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\CykAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>CykAlgorithm</ProjectFolderName>
+  <ProjectName>CykAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:43:56 PM
+CykAlgorithm</string>
+    <string><![CDATA[API Error: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+]]></string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:44:47 PM
+CykAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:45:53 PM
+CykAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithm\CykParser.cs(30,36): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithm\CykAlgorithm.csproj]
+  CykAlgorithm -> D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithm\bin\Debug\net9.0\CykAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithm\CykParser.cs(30,36): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithm\CykAlgorithm.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.49
+]]></string>
+    <string>WritePatch: Compile failed.
+CykAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:45:54 PM
+CykAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:45:54 PM
+CykAlgorithm</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 2:46:21 PM
+CykAlgorithm</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithm
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithm\CykParser.cs(30,36): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithm\CykAlgorithm.csproj]
+  CykAlgorithm -> D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithm\bin\Debug\net9.0\CykAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithm\CykParser.cs(30,36): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithm\CykAlgorithm.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.49
+
+</CompilerResponse>
+2025-02-23 2:46:21 PM
+CykAlgorithm]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 2:46:24 PM
+CykAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CykAlgorithm -> D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithm\bin\Debug\net9.0\CykAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.55
+]]></string>
+    <string>WritePatch: Code is Complete.
+CykAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:46:45 PM
+CykAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:47:44 PM
+CykAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTest.csproj (in 312 ms).
+  1 of 2 projects are up-to-date for restore.
+  CykAlgorithm -> D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithm\bin\Debug\net9.0\CykAlgorithm.dll
+D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTests.cs(57,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTest.csproj]
+D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTests.cs(58,49): warning CS8604: Possible null reference argument for parameter 'input' in 'bool CykParser.Parse(Grammar grammar, string input)'. [D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTest.csproj]
+  CykAlgorithmTest -> D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\bin\Debug\net9.0\CykAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTests.cs(57,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTest.csproj]
+D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTests.cs(58,49): warning CS8604: Possible null reference argument for parameter 'input' in 'bool CykParser.Parse(Grammar grammar, string input)'. [D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.27
+]]></string>
+    <string>WritePatch: Compile failed.
+CykAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:47:45 PM
+CykAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:47:45 PM
+CykAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:48:54 PM
+CykAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CykAlgorithm -> D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithm\bin\Debug\net9.0\CykAlgorithm.dll
+D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTests.cs(58,49): warning CS8604: Possible null reference argument for parameter 'input' in 'bool CykParser.Parse(Grammar grammar, string input)'. [D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTest.csproj]
+  CykAlgorithmTest -> D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\bin\Debug\net9.0\CykAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTests.cs(58,49): warning CS8604: Possible null reference argument for parameter 'input' in 'bool CykParser.Parse(Grammar grammar, string input)'. [D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.00
+]]></string>
+    <string>WritePatch: Compile failed.
+CykAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:48:55 PM
+CykAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:48:55 PM
+CykAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:49:26 PM
+CykAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CykAlgorithm -> D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithm\bin\Debug\net9.0\CykAlgorithm.dll
+  CykAlgorithmTest -> D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\bin\Debug\net9.0\CykAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.42
+]]></string>
+    <string>WritePatch: Code is not Complete.
+CykAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:49:41 PM
+CykAlgorithmTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CykAlgorithm -> D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithm\bin\Debug\net9.0\CykAlgorithm.dll
+  CykAlgorithmTest -> D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\bin\Debug\net9.0\CykAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.42
+
+</CompilerResponse>
+2025-02-23 2:49:41 PM
+CykAlgorithmTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 2:49:43 PM
+CykAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CykAlgorithm -> D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithm\bin\Debug\net9.0\CykAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.14
+]]></string>
+    <string>WritePatch: Code is Complete.
+CykAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:50:00 PM
+CykAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CykAlgorithm -> D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithm\bin\Debug\net9.0\CykAlgorithm.dll
+  CykAlgorithmTest -> D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\bin\Debug\net9.0\CykAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.54
+]]></string>
+    <string>WritePatch: Code is Complete.
+CykAlgorithmTest</string>
+    <string>[INFO 2025-02-23 2:50:16 PM] Starting test for project: D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:50:16 PM] Starting test for project: D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:50:16 PM] Starting test for project: D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:50:16 PM] Starting test for project: D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:50:16 PM] Starting test for project: D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:50:16 PM] Starting test for project: D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:50:16 PM] Starting test for project: D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:50:16 PM] Starting test for project: D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:50:16 PM] Starting test for project: D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:50:16 PM] Starting test for project: D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:50:16 PM] Starting test for project: D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:50:16 PM] Starting test for project: D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:50:16 PM] Starting test for project: D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 2:50:16 PM] Starting test for project: D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 2:50:22 PM] All tests passed successfully.
+[INFO 2025-02-23 2:50:22 PM] Test process completed. Duration: 6.00 seconds.
+[INFO 2025-02-23 2:50:22 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 2:50:23 PM]   Passed TestParse_ValidInput [7 ms]
+[OUTPUT 2025-02-23 2:50:22 PM]   Passed TestParse_NullInput [6 ms]
+[OUTPUT 2025-02-23 2:50:22 PM] Test Parallelization enabled for D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\bin\Debug\net9.0\CykAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 2:50:21 PM] D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\bin\Debug\net9.0\CykAlgorithmTest.dll
+[OUTPUT 2025-02-23 2:50:20 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 2:50:18 PM]   CykAlgorithm -> D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithm\bin\Debug\net9.0\CykAlgorithm.dll
+[OUTPUT 2025-02-23 2:50:18 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 2:50:20 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 2:50:20 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 2:50:19 PM] Test run for D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\bin\Debug\net9.0\CykAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 2:50:19 PM]   CykAlgorithmTest -> D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\bin\Debug\net9.0\CykAlgorithmTest.dll
+[OUTPUT 2025-02-23 2:50:18 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 2:50:16 PM] Command: dotnet test "D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 2:50:16 PM] Starting test for project: D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 2:43:56 PM
+CykAlgorithm
+
+API Error: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+
+WritePatch Started CycleStep. 2025-02-23 2:44:47 PM
+CykAlgorithm
+
+WritePatch ran compiler. 2025-02-23 2:45:53 PM
+CykAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithm\CykParser.cs(30,36): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithm\CykAlgorithm.csproj]
+  CykAlgorithm -> D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithm\bin\Debug\net9.0\CykAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithm\CykParser.cs(30,36): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithm\CykAlgorithm.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.49
+
+
+WritePatch: Compile failed.
+CykAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 2:45:54 PM
+CykAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 2:45:54 PM
+CykAlgorithm
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 2:46:21 PM
+CykAlgorithm
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithm
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithm\CykParser.cs(30,36): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithm\CykAlgorithm.csproj]
+  CykAlgorithm -> D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithm\bin\Debug\net9.0\CykAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithm\CykParser.cs(30,36): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithm\CykAlgorithm.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.49
+
+</CompilerResponse>
+2025-02-23 2:46:21 PM
+CykAlgorithm
+
+WritePatch ran compiler. 2025-02-23 2:46:24 PM
+CykAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CykAlgorithm -> D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithm\bin\Debug\net9.0\CykAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.55
+
+
+WritePatch: Code is Complete.
+CykAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 2:46:45 PM
+CykAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 2:47:44 PM
+CykAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTest.csproj (in 312 ms).
+  1 of 2 projects are up-to-date for restore.
+  CykAlgorithm -> D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithm\bin\Debug\net9.0\CykAlgorithm.dll
+D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTests.cs(57,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTest.csproj]
+D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTests.cs(58,49): warning CS8604: Possible null reference argument for parameter 'input' in 'bool CykParser.Parse(Grammar grammar, string input)'. [D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTest.csproj]
+  CykAlgorithmTest -> D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\bin\Debug\net9.0\CykAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTests.cs(57,28): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTest.csproj]
+D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTests.cs(58,49): warning CS8604: Possible null reference argument for parameter 'input' in 'bool CykParser.Parse(Grammar grammar, string input)'. [D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.27
+
+
+WritePatch: Compile failed.
+CykAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 2:47:45 PM
+CykAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 2:47:45 PM
+CykAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 2:48:54 PM
+CykAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CykAlgorithm -> D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithm\bin\Debug\net9.0\CykAlgorithm.dll
+D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTests.cs(58,49): warning CS8604: Possible null reference argument for parameter 'input' in 'bool CykParser.Parse(Grammar grammar, string input)'. [D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTest.csproj]
+  CykAlgorithmTest -> D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\bin\Debug\net9.0\CykAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTests.cs(58,49): warning CS8604: Possible null reference argument for parameter 'input' in 'bool CykParser.Parse(Grammar grammar, string input)'. [D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.00
+
+
+WritePatch: Compile failed.
+CykAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 2:48:55 PM
+CykAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 2:48:55 PM
+CykAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 2:49:26 PM
+CykAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CykAlgorithm -> D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithm\bin\Debug\net9.0\CykAlgorithm.dll
+  CykAlgorithmTest -> D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\bin\Debug\net9.0\CykAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.42
+
+
+WritePatch: Code is not Complete.
+CykAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 2:49:41 PM
+CykAlgorithmTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CykAlgorithm -> D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithm\bin\Debug\net9.0\CykAlgorithm.dll
+  CykAlgorithmTest -> D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\bin\Debug\net9.0\CykAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.42
+
+</CompilerResponse>
+2025-02-23 2:49:41 PM
+CykAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 2:49:43 PM
+CykAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CykAlgorithm -> D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithm\bin\Debug\net9.0\CykAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.14
+
+
+WritePatch: Code is Complete.
+CykAlgorithm
+
+WritePatch ran compiler. 2025-02-23 2:50:00 PM
+CykAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CykAlgorithm -> D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithm\bin\Debug\net9.0\CykAlgorithm.dll
+  CykAlgorithmTest -> D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\bin\Debug\net9.0\CykAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.54
+
+
+WritePatch: Code is Complete.
+CykAlgorithmTest
+
+TestResult:
+[SUCCESS 2025-02-23 2:50:22 PM] All tests passed successfully.
+[INFO 2025-02-23 2:50:22 PM] Test process completed. Duration: 6.00 seconds.
+[INFO 2025-02-23 2:50:22 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 2:50:23 PM]   Passed TestParse_ValidInput [7 ms]
+[OUTPUT 2025-02-23 2:50:22 PM]   Passed TestParse_NullInput [6 ms]
+[OUTPUT 2025-02-23 2:50:22 PM] Test Parallelization enabled for D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\bin\Debug\net9.0\CykAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 2:50:21 PM] D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\bin\Debug\net9.0\CykAlgorithmTest.dll
+[OUTPUT 2025-02-23 2:50:20 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 2:50:18 PM]   CykAlgorithm -> D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithm\bin\Debug\net9.0\CykAlgorithm.dll
+[OUTPUT 2025-02-23 2:50:18 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 2:50:20 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 2:50:20 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 2:50:19 PM] Test run for D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\bin\Debug\net9.0\CykAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 2:50:19 PM]   CykAlgorithmTest -> D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\bin\Debug\net9.0\CykAlgorithmTest.dll
+[OUTPUT 2025-02-23 2:50:18 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 2:50:16 PM] Command: dotnet test "D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 2:50:16 PM] Starting test for project: D:\Code2025\RavenWork\CykAlgorithm\CykAlgorithmTest\CykAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
