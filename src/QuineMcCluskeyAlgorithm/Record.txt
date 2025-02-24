@@ -1,0 +1,270 @@
+<ActRecord>
+  <ProjectName>QuineMcCluskeyAlgorithm</ProjectName>
+  <ProjectDescription>Quine–McCluskey algorithm: A programmable method for simplifying Boolean equations</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Quine–McCluskey algorithm: A programmable method for simplifying Boolean equations</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>QuineMcCluskeyAlgorithm</ProjectFolderName>
+  <ProjectName>QuineMcCluskeyAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:18:19 AM
+QuineMcCluskeyAlgorithm</string>
+    <string>Exception: The request was canceled due to the configured HttpClient.Timeout of 200 seconds elapsing.</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:21:39 AM
+QuineMcCluskeyAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:24:18 AM
+QuineMcCluskeyAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\BooleanTermComparer.cs(8,21): warning CS8767: Nullability of reference types in type of parameter 'x' of 'bool BooleanTermComparer.Equals(BooleanTerm x, BooleanTerm y)' doesn't match implicitly implemented member 'bool IEqualityComparer<BooleanTerm>.Equals(BooleanTerm? x, BooleanTerm? y)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm.csproj]
+D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\BooleanTermComparer.cs(8,21): warning CS8767: Nullability of reference types in type of parameter 'y' of 'bool BooleanTermComparer.Equals(BooleanTerm x, BooleanTerm y)' doesn't match implicitly implemented member 'bool IEqualityComparer<BooleanTerm>.Equals(BooleanTerm? x, BooleanTerm? y)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm.csproj]
+D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskey.cs(78,56): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm.csproj]
+D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskey.cs(181,40): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm.csproj]
+  QuineMcCluskeyAlgorithm -> D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\bin\Debug\net9.0\QuineMcCluskeyAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\BooleanTermComparer.cs(8,21): warning CS8767: Nullability of reference types in type of parameter 'x' of 'bool BooleanTermComparer.Equals(BooleanTerm x, BooleanTerm y)' doesn't match implicitly implemented member 'bool IEqualityComparer<BooleanTerm>.Equals(BooleanTerm? x, BooleanTerm? y)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm.csproj]
+D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\BooleanTermComparer.cs(8,21): warning CS8767: Nullability of reference types in type of parameter 'y' of 'bool BooleanTermComparer.Equals(BooleanTerm x, BooleanTerm y)' doesn't match implicitly implemented member 'bool IEqualityComparer<BooleanTerm>.Equals(BooleanTerm? x, BooleanTerm? y)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm.csproj]
+D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskey.cs(78,56): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm.csproj]
+D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskey.cs(181,40): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.79
+]]></string>
+    <string>WritePatch: Compile failed.
+QuineMcCluskeyAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:24:19 AM
+QuineMcCluskeyAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:24:20 AM
+QuineMcCluskeyAlgorithm</string>
+    <string>Exception: The request was canceled due to the configured HttpClient.Timeout of 200 seconds elapsing.</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\BooleanTermComparer.cs(8,21): warning CS8767: Nullability of reference types in type of parameter 'x' of 'bool BooleanTermComparer.Equals(BooleanTerm x, BooleanTerm y)' doesn't match implicitly implemented member 'bool IEqualityComparer<BooleanTerm>.Equals(BooleanTerm? x, BooleanTerm? y)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm.csproj]
+D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\BooleanTermComparer.cs(8,21): warning CS8767: Nullability of reference types in type of parameter 'y' of 'bool BooleanTermComparer.Equals(BooleanTerm x, BooleanTerm y)' doesn't match implicitly implemented member 'bool IEqualityComparer<BooleanTerm>.Equals(BooleanTerm? x, BooleanTerm? y)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm.csproj]
+D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskey.cs(78,56): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm.csproj]
+D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskey.cs(181,40): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm.csproj]
+  QuineMcCluskeyAlgorithm -> D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\bin\Debug\net9.0\QuineMcCluskeyAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\BooleanTermComparer.cs(8,21): warning CS8767: Nullability of reference types in type of parameter 'x' of 'bool BooleanTermComparer.Equals(BooleanTerm x, BooleanTerm y)' doesn't match implicitly implemented member 'bool IEqualityComparer<BooleanTerm>.Equals(BooleanTerm? x, BooleanTerm? y)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm.csproj]
+D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\BooleanTermComparer.cs(8,21): warning CS8767: Nullability of reference types in type of parameter 'y' of 'bool BooleanTermComparer.Equals(BooleanTerm x, BooleanTerm y)' doesn't match implicitly implemented member 'bool IEqualityComparer<BooleanTerm>.Equals(BooleanTerm? x, BooleanTerm? y)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm.csproj]
+D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskey.cs(78,56): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm.csproj]
+D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskey.cs(181,40): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.79
+
+</CompilerResponse>
+2025-02-23 8:27:40 AM
+QuineMcCluskeyAlgorithm]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 8:27:41 AM
+QuineMcCluskeyAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  QuineMcCluskeyAlgorithm -> D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\bin\Debug\net9.0\QuineMcCluskeyAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.69
+]]></string>
+    <string>WritePatch: Code is Complete.
+QuineMcCluskeyAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:28:12 AM
+QuineMcCluskeyAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:29:27 AM
+QuineMcCluskeyAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithmTest\QuineMcCluskeyAlgorithmTest.csproj (in 184 ms).
+  1 of 2 projects are up-to-date for restore.
+  QuineMcCluskeyAlgorithm -> D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\bin\Debug\net9.0\QuineMcCluskeyAlgorithm.dll
+  QuineMcCluskeyAlgorithmTest -> D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithmTest\bin\Debug\net9.0\QuineMcCluskeyAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.27
+]]></string>
+    <string>WritePatch: Code is Complete.
+QuineMcCluskeyAlgorithmTest</string>
+    <string>[INFO 2025-02-23 8:29:44 AM] Starting test for project: D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithmTest\QuineMcCluskeyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:29:44 AM] Starting test for project: D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithmTest\QuineMcCluskeyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:29:44 AM] Starting test for project: D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithmTest\QuineMcCluskeyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:29:44 AM] Starting test for project: D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithmTest\QuineMcCluskeyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:29:44 AM] Starting test for project: D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithmTest\QuineMcCluskeyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:29:44 AM] Starting test for project: D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithmTest\QuineMcCluskeyAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 8:29:44 AM] Starting test for project: D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithmTest\QuineMcCluskeyAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 8:29:47 AM] Test run for D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithmTest\bin\Debug\net9.0\QuineMcCluskeyAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:29:46 AM]   QuineMcCluskeyAlgorithmTest -> D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithmTest\bin\Debug\net9.0\QuineMcCluskeyAlgorithmTest.dll
+[OUTPUT 2025-02-23 8:29:46 AM]   QuineMcCluskeyAlgorithm -> D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\bin\Debug\net9.0\QuineMcCluskeyAlgorithm.dll
+[OUTPUT 2025-02-23 8:29:46 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:29:45 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 8:29:47 AM] All tests passed successfully.
+[INFO 2025-02-23 8:29:47 AM] Test process completed. Duration: 3.34 seconds.
+[INFO 2025-02-23 8:29:47 AM] Process exited with code 0.
+[INFO 2025-02-23 8:29:44 AM] Command: dotnet test "D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithmTest\QuineMcCluskeyAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:29:44 AM] Starting test for project: D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithmTest\QuineMcCluskeyAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 8:18:19 AM
+QuineMcCluskeyAlgorithm
+
+Exception: The request was canceled due to the configured HttpClient.Timeout of 200 seconds elapsing.
+
+WritePatch Started CycleStep. 2025-02-23 8:21:39 AM
+QuineMcCluskeyAlgorithm
+
+WritePatch ran compiler. 2025-02-23 8:24:18 AM
+QuineMcCluskeyAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\BooleanTermComparer.cs(8,21): warning CS8767: Nullability of reference types in type of parameter 'x' of 'bool BooleanTermComparer.Equals(BooleanTerm x, BooleanTerm y)' doesn't match implicitly implemented member 'bool IEqualityComparer<BooleanTerm>.Equals(BooleanTerm? x, BooleanTerm? y)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm.csproj]
+D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\BooleanTermComparer.cs(8,21): warning CS8767: Nullability of reference types in type of parameter 'y' of 'bool BooleanTermComparer.Equals(BooleanTerm x, BooleanTerm y)' doesn't match implicitly implemented member 'bool IEqualityComparer<BooleanTerm>.Equals(BooleanTerm? x, BooleanTerm? y)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm.csproj]
+D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskey.cs(78,56): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm.csproj]
+D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskey.cs(181,40): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm.csproj]
+  QuineMcCluskeyAlgorithm -> D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\bin\Debug\net9.0\QuineMcCluskeyAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\BooleanTermComparer.cs(8,21): warning CS8767: Nullability of reference types in type of parameter 'x' of 'bool BooleanTermComparer.Equals(BooleanTerm x, BooleanTerm y)' doesn't match implicitly implemented member 'bool IEqualityComparer<BooleanTerm>.Equals(BooleanTerm? x, BooleanTerm? y)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm.csproj]
+D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\BooleanTermComparer.cs(8,21): warning CS8767: Nullability of reference types in type of parameter 'y' of 'bool BooleanTermComparer.Equals(BooleanTerm x, BooleanTerm y)' doesn't match implicitly implemented member 'bool IEqualityComparer<BooleanTerm>.Equals(BooleanTerm? x, BooleanTerm? y)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm.csproj]
+D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskey.cs(78,56): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm.csproj]
+D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskey.cs(181,40): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.79
+
+
+WritePatch: Compile failed.
+QuineMcCluskeyAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 8:24:19 AM
+QuineMcCluskeyAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 8:24:20 AM
+QuineMcCluskeyAlgorithm
+
+Exception: The request was canceled due to the configured HttpClient.Timeout of 200 seconds elapsing.
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\BooleanTermComparer.cs(8,21): warning CS8767: Nullability of reference types in type of parameter 'x' of 'bool BooleanTermComparer.Equals(BooleanTerm x, BooleanTerm y)' doesn't match implicitly implemented member 'bool IEqualityComparer<BooleanTerm>.Equals(BooleanTerm? x, BooleanTerm? y)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm.csproj]
+D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\BooleanTermComparer.cs(8,21): warning CS8767: Nullability of reference types in type of parameter 'y' of 'bool BooleanTermComparer.Equals(BooleanTerm x, BooleanTerm y)' doesn't match implicitly implemented member 'bool IEqualityComparer<BooleanTerm>.Equals(BooleanTerm? x, BooleanTerm? y)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm.csproj]
+D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskey.cs(78,56): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm.csproj]
+D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskey.cs(181,40): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm.csproj]
+  QuineMcCluskeyAlgorithm -> D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\bin\Debug\net9.0\QuineMcCluskeyAlgorithm.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\BooleanTermComparer.cs(8,21): warning CS8767: Nullability of reference types in type of parameter 'x' of 'bool BooleanTermComparer.Equals(BooleanTerm x, BooleanTerm y)' doesn't match implicitly implemented member 'bool IEqualityComparer<BooleanTerm>.Equals(BooleanTerm? x, BooleanTerm? y)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm.csproj]
+D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\BooleanTermComparer.cs(8,21): warning CS8767: Nullability of reference types in type of parameter 'y' of 'bool BooleanTermComparer.Equals(BooleanTerm x, BooleanTerm y)' doesn't match implicitly implemented member 'bool IEqualityComparer<BooleanTerm>.Equals(BooleanTerm? x, BooleanTerm? y)' (possibly because of nullability attributes). [D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm.csproj]
+D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskey.cs(78,56): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm.csproj]
+D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskey.cs(181,40): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.79
+
+</CompilerResponse>
+2025-02-23 8:27:40 AM
+QuineMcCluskeyAlgorithm
+
+WritePatch ran compiler. 2025-02-23 8:27:41 AM
+QuineMcCluskeyAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  QuineMcCluskeyAlgorithm -> D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\bin\Debug\net9.0\QuineMcCluskeyAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.69
+
+
+WritePatch: Code is Complete.
+QuineMcCluskeyAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 8:28:12 AM
+QuineMcCluskeyAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 8:29:27 AM
+QuineMcCluskeyAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithmTest\QuineMcCluskeyAlgorithmTest.csproj (in 184 ms).
+  1 of 2 projects are up-to-date for restore.
+  QuineMcCluskeyAlgorithm -> D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\bin\Debug\net9.0\QuineMcCluskeyAlgorithm.dll
+  QuineMcCluskeyAlgorithmTest -> D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithmTest\bin\Debug\net9.0\QuineMcCluskeyAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.27
+
+
+WritePatch: Code is Complete.
+QuineMcCluskeyAlgorithmTest
+
+TestResult:
+[OUTPUT 2025-02-23 8:29:47 AM] Test run for D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithmTest\bin\Debug\net9.0\QuineMcCluskeyAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:29:46 AM]   QuineMcCluskeyAlgorithmTest -> D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithmTest\bin\Debug\net9.0\QuineMcCluskeyAlgorithmTest.dll
+[OUTPUT 2025-02-23 8:29:46 AM]   QuineMcCluskeyAlgorithm -> D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithm\bin\Debug\net9.0\QuineMcCluskeyAlgorithm.dll
+[OUTPUT 2025-02-23 8:29:46 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:29:45 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 8:29:47 AM] All tests passed successfully.
+[INFO 2025-02-23 8:29:47 AM] Test process completed. Duration: 3.34 seconds.
+[INFO 2025-02-23 8:29:47 AM] Process exited with code 0.
+[INFO 2025-02-23 8:29:44 AM] Command: dotnet test "D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithmTest\QuineMcCluskeyAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:29:44 AM] Starting test for project: D:\Code2025\RavenWork\QuineMcCluskeyAlgorithm\QuineMcCluskeyAlgorithmTest\QuineMcCluskeyAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
