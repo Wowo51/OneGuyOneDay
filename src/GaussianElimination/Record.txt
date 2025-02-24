@@ -1,0 +1,153 @@
+<ActRecord>
+  <ProjectName>GaussianElimination</ProjectName>
+  <ProjectDescription>Gaussian elimination – A direct method for solving linear systems by eliminating variables step by step.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Gaussian elimination – A direct method for solving linear systems by eliminating variables step by step.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\GaussianElimination</SolutionFolderPath>
+  <ProjectFolderName>GaussianElimination</ProjectFolderName>
+  <ProjectName>GaussianElimination</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 5:20:31 PM
+GaussianElimination</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:21:09 PM
+GaussianElimination</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GaussianElimination -> D:\Code2025\RavenWork\GaussianElimination\GaussianElimination\bin\Debug\net9.0\GaussianElimination.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.73
+]]></string>
+    <string>WritePatch: Code is Complete.
+GaussianElimination</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 5:21:23 PM
+GaussianEliminationTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:22:06 PM
+GaussianEliminationTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\GaussianElimination\GaussianEliminationTest\GaussianEliminationTest.csproj (in 402 ms).
+  1 of 2 projects are up-to-date for restore.
+  GaussianElimination -> D:\Code2025\RavenWork\GaussianElimination\GaussianElimination\bin\Debug\net9.0\GaussianElimination.dll
+  GaussianEliminationTest -> D:\Code2025\RavenWork\GaussianElimination\GaussianEliminationTest\bin\Debug\net9.0\GaussianEliminationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.83
+]]></string>
+    <string>WritePatch: Code is Complete.
+GaussianEliminationTest</string>
+    <string>[INFO 2025-02-23 5:22:22 PM] Starting test for project: D:\Code2025\RavenWork\GaussianElimination\GaussianEliminationTest\GaussianEliminationTest.csproj</string>
+    <string>[INFO 2025-02-23 5:22:22 PM] Starting test for project: D:\Code2025\RavenWork\GaussianElimination\GaussianEliminationTest\GaussianEliminationTest.csproj</string>
+    <string>[INFO 2025-02-23 5:22:22 PM] Starting test for project: D:\Code2025\RavenWork\GaussianElimination\GaussianEliminationTest\GaussianEliminationTest.csproj</string>
+    <string>[INFO 2025-02-23 5:22:22 PM] Starting test for project: D:\Code2025\RavenWork\GaussianElimination\GaussianEliminationTest\GaussianEliminationTest.csproj</string>
+    <string>[INFO 2025-02-23 5:22:22 PM] Starting test for project: D:\Code2025\RavenWork\GaussianElimination\GaussianEliminationTest\GaussianEliminationTest.csproj</string>
+    <string>[INFO 2025-02-23 5:22:22 PM] Starting test for project: D:\Code2025\RavenWork\GaussianElimination\GaussianEliminationTest\GaussianEliminationTest.csproj</string>
+    <string>[INFO 2025-02-23 5:22:22 PM] Starting test for project: D:\Code2025\RavenWork\GaussianElimination\GaussianEliminationTest\GaussianEliminationTest.csproj</string>
+    <string>[INFO 2025-02-23 5:22:22 PM] Starting test for project: D:\Code2025\RavenWork\GaussianElimination\GaussianEliminationTest\GaussianEliminationTest.csproj</string>
+    <string>[INFO 2025-02-23 5:22:22 PM] Starting test for project: D:\Code2025\RavenWork\GaussianElimination\GaussianEliminationTest\GaussianEliminationTest.csproj</string>
+    <string>[INFO 2025-02-23 5:22:22 PM] Starting test for project: D:\Code2025\RavenWork\GaussianElimination\GaussianEliminationTest\GaussianEliminationTest.csproj</string>
+    <string>[INFO 2025-02-23 5:22:22 PM] Starting test for project: D:\Code2025\RavenWork\GaussianElimination\GaussianEliminationTest\GaussianEliminationTest.csproj</string>
+    <string>[INFO 2025-02-23 5:22:22 PM] Starting test for project: D:\Code2025\RavenWork\GaussianElimination\GaussianEliminationTest\GaussianEliminationTest.csproj</string>
+    <string>[INFO 2025-02-23 5:22:22 PM] Starting test for project: D:\Code2025\RavenWork\GaussianElimination\GaussianEliminationTest\GaussianEliminationTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 5:22:31 PM]   Passed Test2x2UniqueSolution [9 ms]
+[OUTPUT 2025-02-23 5:22:30 PM] Test Parallelization enabled for D:\Code2025\RavenWork\GaussianElimination\GaussianEliminationTest\bin\Debug\net9.0\GaussianEliminationTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 5:22:30 PM] D:\Code2025\RavenWork\GaussianElimination\GaussianEliminationTest\bin\Debug\net9.0\GaussianEliminationTest.dll
+[OUTPUT 2025-02-23 5:22:29 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 5:22:29 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 5:22:28 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 5:22:28 PM] Test run for D:\Code2025\RavenWork\GaussianElimination\GaussianEliminationTest\bin\Debug\net9.0\GaussianEliminationTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 5:22:27 PM]   GaussianEliminationTest -> D:\Code2025\RavenWork\GaussianElimination\GaussianEliminationTest\bin\Debug\net9.0\GaussianEliminationTest.dll
+[OUTPUT 2025-02-23 5:22:27 PM]   GaussianElimination -> D:\Code2025\RavenWork\GaussianElimination\GaussianElimination\bin\Debug\net9.0\GaussianElimination.dll
+[SUCCESS 2025-02-23 5:22:30 PM] All tests passed successfully.
+[INFO 2025-02-23 5:22:30 PM] Test process completed. Duration: 8.00 seconds.
+[INFO 2025-02-23 5:22:30 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 5:22:26 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 5:22:25 PM]   Determining projects to restore...
+[INFO 2025-02-23 5:22:22 PM] Command: dotnet test "D:\Code2025\RavenWork\GaussianElimination\GaussianEliminationTest\GaussianEliminationTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 5:22:22 PM] Starting test for project: D:\Code2025\RavenWork\GaussianElimination\GaussianEliminationTest\GaussianEliminationTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 5:20:31 PM
+GaussianElimination
+
+WritePatch ran compiler. 2025-02-23 5:21:09 PM
+GaussianElimination
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GaussianElimination -> D:\Code2025\RavenWork\GaussianElimination\GaussianElimination\bin\Debug\net9.0\GaussianElimination.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.73
+
+
+WritePatch: Code is Complete.
+GaussianElimination
+
+WritePatch Started CycleStep. 2025-02-23 5:21:23 PM
+GaussianEliminationTest
+
+WritePatch ran compiler. 2025-02-23 5:22:06 PM
+GaussianEliminationTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\GaussianElimination\GaussianEliminationTest\GaussianEliminationTest.csproj (in 402 ms).
+  1 of 2 projects are up-to-date for restore.
+  GaussianElimination -> D:\Code2025\RavenWork\GaussianElimination\GaussianElimination\bin\Debug\net9.0\GaussianElimination.dll
+  GaussianEliminationTest -> D:\Code2025\RavenWork\GaussianElimination\GaussianEliminationTest\bin\Debug\net9.0\GaussianEliminationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.83
+
+
+WritePatch: Code is Complete.
+GaussianEliminationTest
+
+TestResult:
+[OUTPUT 2025-02-23 5:22:31 PM]   Passed Test2x2UniqueSolution [9 ms]
+[OUTPUT 2025-02-23 5:22:30 PM] Test Parallelization enabled for D:\Code2025\RavenWork\GaussianElimination\GaussianEliminationTest\bin\Debug\net9.0\GaussianEliminationTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 5:22:30 PM] D:\Code2025\RavenWork\GaussianElimination\GaussianEliminationTest\bin\Debug\net9.0\GaussianEliminationTest.dll
+[OUTPUT 2025-02-23 5:22:29 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 5:22:29 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 5:22:28 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 5:22:28 PM] Test run for D:\Code2025\RavenWork\GaussianElimination\GaussianEliminationTest\bin\Debug\net9.0\GaussianEliminationTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 5:22:27 PM]   GaussianEliminationTest -> D:\Code2025\RavenWork\GaussianElimination\GaussianEliminationTest\bin\Debug\net9.0\GaussianEliminationTest.dll
+[OUTPUT 2025-02-23 5:22:27 PM]   GaussianElimination -> D:\Code2025\RavenWork\GaussianElimination\GaussianElimination\bin\Debug\net9.0\GaussianElimination.dll
+[SUCCESS 2025-02-23 5:22:30 PM] All tests passed successfully.
+[INFO 2025-02-23 5:22:30 PM] Test process completed. Duration: 8.00 seconds.
+[INFO 2025-02-23 5:22:30 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 5:22:26 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 5:22:25 PM]   Determining projects to restore...
+[INFO 2025-02-23 5:22:22 PM] Command: dotnet test "D:\Code2025\RavenWork\GaussianElimination\GaussianEliminationTest\GaussianEliminationTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 5:22:22 PM] Starting test for project: D:\Code2025\RavenWork\GaussianElimination\GaussianEliminationTest\GaussianEliminationTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
