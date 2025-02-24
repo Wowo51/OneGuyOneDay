@@ -1,0 +1,391 @@
+<ActRecord>
+  <ProjectName>PartialLeastSquares</ProjectName>
+  <ProjectDescription>Partial least squares regression: Finds a linear model describing some predicted variables in terms of other observable variables</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Partial least squares regression: Finds a linear model describing some predicted variables in terms of other observable variables</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\PartialLeastSquares</SolutionFolderPath>
+  <ProjectFolderName>PartialLeastSquares</ProjectFolderName>
+  <ProjectName>PartialLeastSquares</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:56:15 AM
+PartialLeastSquares</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:57:36 AM
+PartialLeastSquares</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquares\PLSRegression.cs(9,16): warning CS8618: Non-nullable field '_coefficients' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquares\PartialLeastSquares.csproj]
+  PartialLeastSquares -> D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquares\bin\Debug\net9.0\PartialLeastSquares.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquares\PLSRegression.cs(9,16): warning CS8618: Non-nullable field '_coefficients' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquares\PartialLeastSquares.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+]]></string>
+    <string>WritePatch: Compile failed.
+PartialLeastSquares</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:57:36 AM
+PartialLeastSquares</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:57:36 AM
+PartialLeastSquares</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:58:15 AM
+PartialLeastSquares</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PartialLeastSquares -> D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquares\bin\Debug\net9.0\PartialLeastSquares.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+]]></string>
+    <string>WritePatch: Code is Complete.
+PartialLeastSquares</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:58:37 AM
+PartialLeastSquaresTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:01:37 PM
+PartialLeastSquaresTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\PartialLeastSquaresTest.csproj (in 232 ms).
+  1 of 2 projects are up-to-date for restore.
+  PartialLeastSquares -> D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquares\bin\Debug\net9.0\PartialLeastSquares.dll
+D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\PLSRegressionTests.cs(32,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\PartialLeastSquaresTest.csproj]
+  PartialLeastSquaresTest -> D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\bin\Debug\net9.0\PartialLeastSquaresTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\PLSRegressionTests.cs(32,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\PartialLeastSquaresTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.62
+]]></string>
+    <string>WritePatch: Compile failed.
+PartialLeastSquaresTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 12:01:37 PM
+PartialLeastSquaresTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:01:37 PM
+PartialLeastSquaresTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:02:18 PM
+PartialLeastSquaresTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PartialLeastSquares -> D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquares\bin\Debug\net9.0\PartialLeastSquares.dll
+  PartialLeastSquaresTest -> D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\bin\Debug\net9.0\PartialLeastSquaresTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.14
+]]></string>
+    <string>WritePatch: Code is not Complete.
+PartialLeastSquaresTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 12:02:31 PM
+PartialLeastSquaresTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:02:31 PM
+PartialLeastSquaresTest</string>
+    <string>Exception: The request was canceled due to the configured HttpClient.Timeout of 200 seconds elapsing.</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PartialLeastSquares -> D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquares\bin\Debug\net9.0\PartialLeastSquares.dll
+  PartialLeastSquaresTest -> D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\bin\Debug\net9.0\PartialLeastSquaresTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.14
+
+</CompilerResponse>
+2025-02-23 12:05:51 PM
+PartialLeastSquaresTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 12:05:53 PM
+PartialLeastSquares</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PartialLeastSquares -> D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquares\bin\Debug\net9.0\PartialLeastSquares.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.96
+]]></string>
+    <string>WritePatch: Code is Complete.
+PartialLeastSquares</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:07:28 PM
+PartialLeastSquaresTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PartialLeastSquares -> D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquares\bin\Debug\net9.0\PartialLeastSquares.dll
+  PartialLeastSquaresTest -> D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\bin\Debug\net9.0\PartialLeastSquaresTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.08
+]]></string>
+    <string>WritePatch: Code is Complete.
+PartialLeastSquaresTest</string>
+    <string>[INFO 2025-02-23 12:08:01 PM] Starting test for project: D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\PartialLeastSquaresTest.csproj</string>
+    <string>[INFO 2025-02-23 12:08:01 PM] Starting test for project: D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\PartialLeastSquaresTest.csproj</string>
+    <string>[INFO 2025-02-23 12:08:01 PM] Starting test for project: D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\PartialLeastSquaresTest.csproj</string>
+    <string>[INFO 2025-02-23 12:08:01 PM] Starting test for project: D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\PartialLeastSquaresTest.csproj</string>
+    <string>[INFO 2025-02-23 12:08:01 PM] Starting test for project: D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\PartialLeastSquaresTest.csproj</string>
+    <string>[INFO 2025-02-23 12:08:01 PM] Starting test for project: D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\PartialLeastSquaresTest.csproj</string>
+    <string>[INFO 2025-02-23 12:08:01 PM] Starting test for project: D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\PartialLeastSquaresTest.csproj</string>
+    <string>[INFO 2025-02-23 12:08:01 PM] Starting test for project: D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\PartialLeastSquaresTest.csproj</string>
+    <string>[INFO 2025-02-23 12:08:01 PM] Starting test for project: D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\PartialLeastSquaresTest.csproj</string>
+    <string>[INFO 2025-02-23 12:08:01 PM] Starting test for project: D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\PartialLeastSquaresTest.csproj</string>
+    <string>[INFO 2025-02-23 12:08:01 PM] Starting test for project: D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\PartialLeastSquaresTest.csproj</string>
+    <string>[INFO 2025-02-23 12:08:01 PM] Starting test for project: D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\PartialLeastSquaresTest.csproj</string>
+    <string>[INFO 2025-02-23 12:08:01 PM] Starting test for project: D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\PartialLeastSquaresTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 12:08:05 PM] All tests passed successfully.
+[INFO 2025-02-23 12:08:05 PM] Test process completed. Duration: 3.57 seconds.
+[INFO 2025-02-23 12:08:05 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 12:08:05 PM] Test Parallelization enabled for D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\bin\Debug\net9.0\PartialLeastSquaresTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 12:08:04 PM] D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\bin\Debug\net9.0\PartialLeastSquaresTest.dll
+[OUTPUT 2025-02-23 12:08:04 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 12:08:02 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 12:08:05 PM]   Passed TestPLSRegression_Simple [< 1 ms]
+[OUTPUT 2025-02-23 12:08:04 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 12:08:04 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 12:08:03 PM] Test run for D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\bin\Debug\net9.0\PartialLeastSquaresTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 12:08:03 PM]   PartialLeastSquaresTest -> D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\bin\Debug\net9.0\PartialLeastSquaresTest.dll
+[OUTPUT 2025-02-23 12:08:03 PM]   PartialLeastSquares -> D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquares\bin\Debug\net9.0\PartialLeastSquares.dll
+[OUTPUT 2025-02-23 12:08:02 PM]   Determining projects to restore...
+[INFO 2025-02-23 12:08:01 PM] Command: dotnet test "D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\PartialLeastSquaresTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 12:08:01 PM] Starting test for project: D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\PartialLeastSquaresTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 11:56:15 AM
+PartialLeastSquares
+
+WritePatch ran compiler. 2025-02-23 11:57:36 AM
+PartialLeastSquares
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquares\PLSRegression.cs(9,16): warning CS8618: Non-nullable field '_coefficients' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquares\PartialLeastSquares.csproj]
+  PartialLeastSquares -> D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquares\bin\Debug\net9.0\PartialLeastSquares.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquares\PLSRegression.cs(9,16): warning CS8618: Non-nullable field '_coefficients' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquares\PartialLeastSquares.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+
+
+WritePatch: Compile failed.
+PartialLeastSquares
+
+Finished WritePatch cycle step.
+2025-02-23 11:57:36 AM
+PartialLeastSquares
+
+WritePatch Started CycleStep. 2025-02-23 11:57:36 AM
+PartialLeastSquares
+
+WritePatch ran compiler. 2025-02-23 11:58:15 AM
+PartialLeastSquares
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PartialLeastSquares -> D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquares\bin\Debug\net9.0\PartialLeastSquares.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+
+
+WritePatch: Code is Complete.
+PartialLeastSquares
+
+WritePatch Started CycleStep. 2025-02-23 11:58:37 AM
+PartialLeastSquaresTest
+
+WritePatch ran compiler. 2025-02-23 12:01:37 PM
+PartialLeastSquaresTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\PartialLeastSquaresTest.csproj (in 232 ms).
+  1 of 2 projects are up-to-date for restore.
+  PartialLeastSquares -> D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquares\bin\Debug\net9.0\PartialLeastSquares.dll
+D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\PLSRegressionTests.cs(32,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\PartialLeastSquaresTest.csproj]
+  PartialLeastSquaresTest -> D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\bin\Debug\net9.0\PartialLeastSquaresTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\PLSRegressionTests.cs(32,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\PartialLeastSquaresTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.62
+
+
+WritePatch: Compile failed.
+PartialLeastSquaresTest
+
+Finished WritePatch cycle step.
+2025-02-23 12:01:37 PM
+PartialLeastSquaresTest
+
+WritePatch Started CycleStep. 2025-02-23 12:01:37 PM
+PartialLeastSquaresTest
+
+WritePatch ran compiler. 2025-02-23 12:02:18 PM
+PartialLeastSquaresTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PartialLeastSquares -> D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquares\bin\Debug\net9.0\PartialLeastSquares.dll
+  PartialLeastSquaresTest -> D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\bin\Debug\net9.0\PartialLeastSquaresTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.14
+
+
+WritePatch: Code is not Complete.
+PartialLeastSquaresTest
+
+Finished WritePatch cycle step.
+2025-02-23 12:02:31 PM
+PartialLeastSquaresTest
+
+WritePatch Started CycleStep. 2025-02-23 12:02:31 PM
+PartialLeastSquaresTest
+
+Exception: The request was canceled due to the configured HttpClient.Timeout of 200 seconds elapsing.
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PartialLeastSquares -> D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquares\bin\Debug\net9.0\PartialLeastSquares.dll
+  PartialLeastSquaresTest -> D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\bin\Debug\net9.0\PartialLeastSquaresTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.14
+
+</CompilerResponse>
+2025-02-23 12:05:51 PM
+PartialLeastSquaresTest
+
+WritePatch ran compiler. 2025-02-23 12:05:53 PM
+PartialLeastSquares
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PartialLeastSquares -> D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquares\bin\Debug\net9.0\PartialLeastSquares.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.96
+
+
+WritePatch: Code is Complete.
+PartialLeastSquares
+
+WritePatch ran compiler. 2025-02-23 12:07:28 PM
+PartialLeastSquaresTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PartialLeastSquares -> D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquares\bin\Debug\net9.0\PartialLeastSquares.dll
+  PartialLeastSquaresTest -> D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\bin\Debug\net9.0\PartialLeastSquaresTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.08
+
+
+WritePatch: Code is Complete.
+PartialLeastSquaresTest
+
+TestResult:
+[SUCCESS 2025-02-23 12:08:05 PM] All tests passed successfully.
+[INFO 2025-02-23 12:08:05 PM] Test process completed. Duration: 3.57 seconds.
+[INFO 2025-02-23 12:08:05 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 12:08:05 PM] Test Parallelization enabled for D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\bin\Debug\net9.0\PartialLeastSquaresTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 12:08:04 PM] D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\bin\Debug\net9.0\PartialLeastSquaresTest.dll
+[OUTPUT 2025-02-23 12:08:04 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 12:08:02 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 12:08:05 PM]   Passed TestPLSRegression_Simple [< 1 ms]
+[OUTPUT 2025-02-23 12:08:04 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 12:08:04 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 12:08:03 PM] Test run for D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\bin\Debug\net9.0\PartialLeastSquaresTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 12:08:03 PM]   PartialLeastSquaresTest -> D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\bin\Debug\net9.0\PartialLeastSquaresTest.dll
+[OUTPUT 2025-02-23 12:08:03 PM]   PartialLeastSquares -> D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquares\bin\Debug\net9.0\PartialLeastSquares.dll
+[OUTPUT 2025-02-23 12:08:02 PM]   Determining projects to restore...
+[INFO 2025-02-23 12:08:01 PM] Command: dotnet test "D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\PartialLeastSquaresTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 12:08:01 PM] Starting test for project: D:\Code2025\RavenWork\PartialLeastSquares\PartialLeastSquaresTest\PartialLeastSquaresTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
