@@ -1,0 +1,422 @@
+<ActRecord>
+  <ProjectName>EllipticCurveCryptography</ProjectName>
+  <ProjectDescription>Elliptic curve cryptography</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Elliptic curve cryptography</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\EllipticCurveCryptography</SolutionFolderPath>
+  <ProjectFolderName>EllipticCurveCryptography</ProjectFolderName>
+  <ProjectName>EllipticCurveCryptography</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:56:49 AM
+EllipticCurveCryptography</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:57:44 AM
+EllipticCurveCryptography</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurve.cs(30,28): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurve.cs(31,28): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\ECCryptography.cs(25,17): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\ECCryptography.cs(25,30): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\ECCryptography.cs(27,22): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\ECCryptography.cs(27,34): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\ECCryptography.cs(42,35): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\ECCryptography.cs(42,47): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\ECCryptography.cs(70,17): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\ECCryptography.cs(75,59): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+  EllipticCurveCryptography -> D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\bin\Debug\net9.0\EllipticCurveCryptography.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurve.cs(30,28): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurve.cs(31,28): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\ECCryptography.cs(25,17): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\ECCryptography.cs(25,30): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\ECCryptography.cs(27,22): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\ECCryptography.cs(27,34): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\ECCryptography.cs(42,35): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\ECCryptography.cs(42,47): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\ECCryptography.cs(70,17): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\ECCryptography.cs(75,59): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+    10 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.99
+]]></string>
+    <string>WritePatch: Compile failed.
+EllipticCurveCryptography</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:57:45 AM
+EllipticCurveCryptography</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:57:45 AM
+EllipticCurveCryptography</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:58:38 AM
+EllipticCurveCryptography</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EllipticCurveCryptography -> D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\bin\Debug\net9.0\EllipticCurveCryptography.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.13
+]]></string>
+    <string>WritePatch: Code is Complete.
+EllipticCurveCryptography</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:59:08 AM
+EllipticCurveCryptographyTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:00:01 PM
+EllipticCurveCryptographyTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj (in 235 ms).
+  1 of 2 projects are up-to-date for restore.
+  EllipticCurveCryptography -> D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\bin\Debug\net9.0\EllipticCurveCryptography.dll
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\ECCryptographyTests.cs(34,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\ECCryptographyTests.cs(35,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\ECCryptographyTests.cs(36,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\ECCryptographyTests.cs(36,63): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj]
+  EllipticCurveCryptographyTest -> D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\bin\Debug\net9.0\EllipticCurveCryptographyTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\ECCryptographyTests.cs(34,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\ECCryptographyTests.cs(35,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\ECCryptographyTests.cs(36,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\ECCryptographyTests.cs(36,63): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.64
+]]></string>
+    <string>WritePatch: Compile failed.
+EllipticCurveCryptographyTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 12:00:02 PM
+EllipticCurveCryptographyTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:00:02 PM
+EllipticCurveCryptographyTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 12:00:36 PM
+EllipticCurveCryptographyTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:00:36 PM
+EllipticCurveCryptographyTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 12:02:07 PM
+EllipticCurveCryptographyTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj (in 235 ms).
+  1 of 2 projects are up-to-date for restore.
+  EllipticCurveCryptography -> D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\bin\Debug\net9.0\EllipticCurveCryptography.dll
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\ECCryptographyTests.cs(34,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\ECCryptographyTests.cs(35,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\ECCryptographyTests.cs(36,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\ECCryptographyTests.cs(36,63): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj]
+  EllipticCurveCryptographyTest -> D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\bin\Debug\net9.0\EllipticCurveCryptographyTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\ECCryptographyTests.cs(34,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\ECCryptographyTests.cs(35,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\ECCryptographyTests.cs(36,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\ECCryptographyTests.cs(36,63): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.64
+
+</CompilerResponse>
+2025-02-23 12:02:07 PM
+EllipticCurveCryptographyTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 12:02:09 PM
+EllipticCurveCryptography</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EllipticCurveCryptography -> D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\bin\Debug\net9.0\EllipticCurveCryptography.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.84
+]]></string>
+    <string>WritePatch: Code is Complete.
+EllipticCurveCryptography</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:02:51 PM
+EllipticCurveCryptographyTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EllipticCurveCryptography -> D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\bin\Debug\net9.0\EllipticCurveCryptography.dll
+  EllipticCurveCryptographyTest -> D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\bin\Debug\net9.0\EllipticCurveCryptographyTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+]]></string>
+    <string>WritePatch: Code is Complete.
+EllipticCurveCryptographyTest</string>
+    <string>[INFO 2025-02-23 12:03:22 PM] Starting test for project: D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj</string>
+    <string>[INFO 2025-02-23 12:03:22 PM] Starting test for project: D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj</string>
+    <string>[INFO 2025-02-23 12:03:22 PM] Starting test for project: D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj</string>
+    <string>[INFO 2025-02-23 12:03:22 PM] Starting test for project: D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj</string>
+    <string>[INFO 2025-02-23 12:03:22 PM] Starting test for project: D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj</string>
+    <string>[INFO 2025-02-23 12:03:22 PM] Starting test for project: D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj</string>
+    <string>[INFO 2025-02-23 12:03:22 PM] Starting test for project: D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj</string>
+    <string>[INFO 2025-02-23 12:03:22 PM] Starting test for project: D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj</string>
+    <string>[INFO 2025-02-23 12:03:22 PM] Starting test for project: D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj</string>
+    <string>[INFO 2025-02-23 12:03:22 PM] Starting test for project: D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj</string>
+    <string>[INFO 2025-02-23 12:03:22 PM] Starting test for project: D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj</string>
+    <string>[INFO 2025-02-23 12:03:22 PM] Starting test for project: D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj</string>
+    <string>[INFO 2025-02-23 12:03:22 PM] Starting test for project: D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 12:03:25 PM]   Passed TestMultiply [6 ms]
+[OUTPUT 2025-02-23 12:03:25 PM] Test Parallelization enabled for D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\bin\Debug\net9.0\EllipticCurveCryptographyTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 12:03:25 PM] D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\bin\Debug\net9.0\EllipticCurveCryptographyTest.dll
+[OUTPUT 2025-02-23 12:03:24 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 12:03:24 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 12:03:23 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 12:03:24 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 12:03:24 PM] Test run for D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\bin\Debug\net9.0\EllipticCurveCryptographyTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 12:03:23 PM]   EllipticCurveCryptographyTest -> D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\bin\Debug\net9.0\EllipticCurveCryptographyTest.dll
+[OUTPUT 2025-02-23 12:03:23 PM]   EllipticCurveCryptography -> D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\bin\Debug\net9.0\EllipticCurveCryptography.dll
+[OUTPUT 2025-02-23 12:03:23 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 12:03:25 PM] All tests passed successfully.
+[INFO 2025-02-23 12:03:25 PM] Test process completed. Duration: 3.34 seconds.
+[INFO 2025-02-23 12:03:25 PM] Process exited with code 0.
+[INFO 2025-02-23 12:03:22 PM] Command: dotnet test "D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 12:03:22 PM] Starting test for project: D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 11:56:49 AM
+EllipticCurveCryptography
+
+WritePatch ran compiler. 2025-02-23 11:57:44 AM
+EllipticCurveCryptography
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurve.cs(30,28): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurve.cs(31,28): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\ECCryptography.cs(25,17): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\ECCryptography.cs(25,30): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\ECCryptography.cs(27,22): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\ECCryptography.cs(27,34): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\ECCryptography.cs(42,35): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\ECCryptography.cs(42,47): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\ECCryptography.cs(70,17): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\ECCryptography.cs(75,59): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+  EllipticCurveCryptography -> D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\bin\Debug\net9.0\EllipticCurveCryptography.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurve.cs(30,28): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurve.cs(31,28): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\ECCryptography.cs(25,17): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\ECCryptography.cs(25,30): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\ECCryptography.cs(27,22): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\ECCryptography.cs(27,34): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\ECCryptography.cs(42,35): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\ECCryptography.cs(42,47): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\ECCryptography.cs(70,17): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography\ECCryptography.cs(75,59): warning CS8629: Nullable value type may be null. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\EllipticCurveCryptography.csproj]
+    10 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.99
+
+
+WritePatch: Compile failed.
+EllipticCurveCryptography
+
+Finished WritePatch cycle step.
+2025-02-23 11:57:45 AM
+EllipticCurveCryptography
+
+WritePatch Started CycleStep. 2025-02-23 11:57:45 AM
+EllipticCurveCryptography
+
+WritePatch ran compiler. 2025-02-23 11:58:38 AM
+EllipticCurveCryptography
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EllipticCurveCryptography -> D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\bin\Debug\net9.0\EllipticCurveCryptography.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.13
+
+
+WritePatch: Code is Complete.
+EllipticCurveCryptography
+
+WritePatch Started CycleStep. 2025-02-23 11:59:08 AM
+EllipticCurveCryptographyTest
+
+WritePatch ran compiler. 2025-02-23 12:00:01 PM
+EllipticCurveCryptographyTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj (in 235 ms).
+  1 of 2 projects are up-to-date for restore.
+  EllipticCurveCryptography -> D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\bin\Debug\net9.0\EllipticCurveCryptography.dll
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\ECCryptographyTests.cs(34,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\ECCryptographyTests.cs(35,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\ECCryptographyTests.cs(36,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\ECCryptographyTests.cs(36,63): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj]
+  EllipticCurveCryptographyTest -> D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\bin\Debug\net9.0\EllipticCurveCryptographyTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\ECCryptographyTests.cs(34,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\ECCryptographyTests.cs(35,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\ECCryptographyTests.cs(36,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\ECCryptographyTests.cs(36,63): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.64
+
+
+WritePatch: Compile failed.
+EllipticCurveCryptographyTest
+
+Finished WritePatch cycle step.
+2025-02-23 12:00:02 PM
+EllipticCurveCryptographyTest
+
+WritePatch Started CycleStep. 2025-02-23 12:00:02 PM
+EllipticCurveCryptographyTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 12:00:36 PM
+EllipticCurveCryptographyTest
+
+WritePatch Started CycleStep. 2025-02-23 12:00:36 PM
+EllipticCurveCryptographyTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 12:02:07 PM
+EllipticCurveCryptographyTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj (in 235 ms).
+  1 of 2 projects are up-to-date for restore.
+  EllipticCurveCryptography -> D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\bin\Debug\net9.0\EllipticCurveCryptography.dll
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\ECCryptographyTests.cs(34,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\ECCryptographyTests.cs(35,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\ECCryptographyTests.cs(36,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\ECCryptographyTests.cs(36,63): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj]
+  EllipticCurveCryptographyTest -> D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\bin\Debug\net9.0\EllipticCurveCryptographyTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\ECCryptographyTests.cs(34,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\ECCryptographyTests.cs(35,60): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\ECCryptographyTests.cs(36,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj]
+D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\ECCryptographyTests.cs(36,63): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.64
+
+</CompilerResponse>
+2025-02-23 12:02:07 PM
+EllipticCurveCryptographyTest
+
+WritePatch ran compiler. 2025-02-23 12:02:09 PM
+EllipticCurveCryptography
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EllipticCurveCryptography -> D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\bin\Debug\net9.0\EllipticCurveCryptography.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.84
+
+
+WritePatch: Code is Complete.
+EllipticCurveCryptography
+
+WritePatch ran compiler. 2025-02-23 12:02:51 PM
+EllipticCurveCryptographyTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EllipticCurveCryptography -> D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\bin\Debug\net9.0\EllipticCurveCryptography.dll
+  EllipticCurveCryptographyTest -> D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\bin\Debug\net9.0\EllipticCurveCryptographyTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+
+
+WritePatch: Code is Complete.
+EllipticCurveCryptographyTest
+
+TestResult:
+[OUTPUT 2025-02-23 12:03:25 PM]   Passed TestMultiply [6 ms]
+[OUTPUT 2025-02-23 12:03:25 PM] Test Parallelization enabled for D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\bin\Debug\net9.0\EllipticCurveCryptographyTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 12:03:25 PM] D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\bin\Debug\net9.0\EllipticCurveCryptographyTest.dll
+[OUTPUT 2025-02-23 12:03:24 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 12:03:24 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 12:03:23 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 12:03:24 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 12:03:24 PM] Test run for D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\bin\Debug\net9.0\EllipticCurveCryptographyTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 12:03:23 PM]   EllipticCurveCryptographyTest -> D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\bin\Debug\net9.0\EllipticCurveCryptographyTest.dll
+[OUTPUT 2025-02-23 12:03:23 PM]   EllipticCurveCryptography -> D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptography\bin\Debug\net9.0\EllipticCurveCryptography.dll
+[OUTPUT 2025-02-23 12:03:23 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 12:03:25 PM] All tests passed successfully.
+[INFO 2025-02-23 12:03:25 PM] Test process completed. Duration: 3.34 seconds.
+[INFO 2025-02-23 12:03:25 PM] Process exited with code 0.
+[INFO 2025-02-23 12:03:22 PM] Command: dotnet test "D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 12:03:22 PM] Starting test for project: D:\Code2025\RavenWork\EllipticCurveCryptography\EllipticCurveCryptographyTest\EllipticCurveCryptographyTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
