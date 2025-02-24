@@ -1,0 +1,403 @@
+<ActRecord>
+  <ProjectName>Bogosort</ProjectName>
+  <ProjectDescription>Bogosort</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Bogosort</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\Bogosort</SolutionFolderPath>
+  <ProjectFolderName>Bogosort</ProjectFolderName>
+  <ProjectName>Bogosort</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:08:29 PM
+Bogosort</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:09:05 PM
+Bogosort</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Bogosort -> D:\Code2025\RavenWork\Bogosort\Bogosort\bin\Debug\net9.0\Bogosort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.92
+]]></string>
+    <string>WritePatch: Code is Complete.
+Bogosort</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:09:19 PM
+BogosortTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:10:07 PM
+BogosortTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj (in 420 ms).
+  1 of 2 projects are up-to-date for restore.
+  Bogosort -> D:\Code2025\RavenWork\Bogosort\Bogosort\bin\Debug\net9.0\Bogosort.dll
+D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTests.cs(13,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj]
+D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTests.cs(14,41): warning CS8604: Possible null reference argument for parameter 'array' in 'void BogosortAlgorithm.Sort<int>(int[] array)'. [D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj]
+  BogosortTest -> D:\Code2025\RavenWork\Bogosort\BogosortTest\bin\Debug\net9.0\BogosortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTests.cs(13,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj]
+D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTests.cs(14,41): warning CS8604: Possible null reference argument for parameter 'array' in 'void BogosortAlgorithm.Sort<int>(int[] array)'. [D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.81
+]]></string>
+    <string>WritePatch: Compile failed.
+BogosortTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:10:08 PM
+BogosortTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:10:09 PM
+BogosortTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:10:35 PM
+BogosortTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Bogosort -> D:\Code2025\RavenWork\Bogosort\Bogosort\bin\Debug\net9.0\Bogosort.dll
+  BogosortTest -> D:\Code2025\RavenWork\Bogosort\BogosortTest\bin\Debug\net9.0\BogosortTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.92
+]]></string>
+    <string>WritePatch: Code is not Complete.
+BogosortTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:10:54 PM
+BogosortTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:10:55 PM
+BogosortTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:11:59 PM
+BogosortTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Bogosort -> D:\Code2025\RavenWork\Bogosort\Bogosort\bin\Debug\net9.0\Bogosort.dll
+D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTests.cs(13,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj]
+D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTests.cs(14,41): warning CS8604: Possible null reference argument for parameter 'array' in 'void BogosortAlgorithm.Sort<int>(int[] array)'. [D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj]
+  BogosortTest -> D:\Code2025\RavenWork\Bogosort\BogosortTest\bin\Debug\net9.0\BogosortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTests.cs(13,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj]
+D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTests.cs(14,41): warning CS8604: Possible null reference argument for parameter 'array' in 'void BogosortAlgorithm.Sort<int>(int[] array)'. [D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.25
+]]></string>
+    <string>WritePatch: Compile failed.
+BogosortTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:12:00 PM
+BogosortTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\Bogosort\BogosortTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Bogosort -> D:\Code2025\RavenWork\Bogosort\Bogosort\bin\Debug\net9.0\Bogosort.dll
+D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTests.cs(13,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj]
+D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTests.cs(14,41): warning CS8604: Possible null reference argument for parameter 'array' in 'void BogosortAlgorithm.Sort<int>(int[] array)'. [D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj]
+  BogosortTest -> D:\Code2025\RavenWork\Bogosort\BogosortTest\bin\Debug\net9.0\BogosortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTests.cs(13,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj]
+D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTests.cs(14,41): warning CS8604: Possible null reference argument for parameter 'array' in 'void BogosortAlgorithm.Sort<int>(int[] array)'. [D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.25
+
+</CompilerResponse>
+2025-02-23 7:12:00 PM
+BogosortTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 7:12:03 PM
+Bogosort</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Bogosort -> D:\Code2025\RavenWork\Bogosort\Bogosort\bin\Debug\net9.0\Bogosort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.62
+]]></string>
+    <string>WritePatch: Code is Complete.
+Bogosort</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:12:17 PM
+BogosortTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Bogosort -> D:\Code2025\RavenWork\Bogosort\Bogosort\bin\Debug\net9.0\Bogosort.dll
+  BogosortTest -> D:\Code2025\RavenWork\Bogosort\BogosortTest\bin\Debug\net9.0\BogosortTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.76
+]]></string>
+    <string>WritePatch: Code is Complete.
+BogosortTest</string>
+    <string>[INFO 2025-02-23 7:12:42 PM] Starting test for project: D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj</string>
+    <string>[INFO 2025-02-23 7:12:42 PM] Starting test for project: D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj</string>
+    <string>[INFO 2025-02-23 7:12:42 PM] Starting test for project: D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj</string>
+    <string>[INFO 2025-02-23 7:12:42 PM] Starting test for project: D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj</string>
+    <string>[INFO 2025-02-23 7:12:42 PM] Starting test for project: D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj</string>
+    <string>[INFO 2025-02-23 7:12:42 PM] Starting test for project: D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj</string>
+    <string>[INFO 2025-02-23 7:12:42 PM] Starting test for project: D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj</string>
+    <string>[INFO 2025-02-23 7:12:42 PM] Starting test for project: D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj</string>
+    <string>[INFO 2025-02-23 7:12:42 PM] Starting test for project: D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj</string>
+    <string>[INFO 2025-02-23 7:12:42 PM] Starting test for project: D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj</string>
+    <string>[INFO 2025-02-23 7:12:42 PM] Starting test for project: D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj</string>
+    <string>[INFO 2025-02-23 7:12:42 PM] Starting test for project: D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj</string>
+    <string>[INFO 2025-02-23 7:12:42 PM] Starting test for project: D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 7:12:50 PM]   Passed TestSort_Synthetic_RandomStrings [9 ms]
+[OUTPUT 2025-02-23 7:12:46 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:12:46 PM] Test run for D:\Code2025\RavenWork\Bogosort\BogosortTest\bin\Debug\net9.0\BogosortTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:12:45 PM]   BogosortTest -> D:\Code2025\RavenWork\Bogosort\BogosortTest\bin\Debug\net9.0\BogosortTest.dll
+[OUTPUT 2025-02-23 7:12:44 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:12:49 PM] Test Parallelization enabled for D:\Code2025\RavenWork\Bogosort\BogosortTest\bin\Debug\net9.0\BogosortTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:12:48 PM] D:\Code2025\RavenWork\Bogosort\BogosortTest\bin\Debug\net9.0\BogosortTest.dll
+[OUTPUT 2025-02-23 7:12:47 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:12:47 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:12:45 PM]   Bogosort -> D:\Code2025\RavenWork\Bogosort\Bogosort\bin\Debug\net9.0\Bogosort.dll
+[OUTPUT 2025-02-23 7:12:44 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 7:12:50 PM] All tests passed successfully.
+[INFO 2025-02-23 7:12:50 PM] Test process completed. Duration: 7.32 seconds.
+[INFO 2025-02-23 7:12:50 PM] Process exited with code 0.
+[INFO 2025-02-23 7:12:42 PM] Command: dotnet test "D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:12:42 PM] Starting test for project: D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 7:08:29 PM
+Bogosort
+
+WritePatch ran compiler. 2025-02-23 7:09:05 PM
+Bogosort
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Bogosort -> D:\Code2025\RavenWork\Bogosort\Bogosort\bin\Debug\net9.0\Bogosort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.92
+
+
+WritePatch: Code is Complete.
+Bogosort
+
+WritePatch Started CycleStep. 2025-02-23 7:09:19 PM
+BogosortTest
+
+WritePatch ran compiler. 2025-02-23 7:10:07 PM
+BogosortTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj (in 420 ms).
+  1 of 2 projects are up-to-date for restore.
+  Bogosort -> D:\Code2025\RavenWork\Bogosort\Bogosort\bin\Debug\net9.0\Bogosort.dll
+D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTests.cs(13,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj]
+D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTests.cs(14,41): warning CS8604: Possible null reference argument for parameter 'array' in 'void BogosortAlgorithm.Sort<int>(int[] array)'. [D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj]
+  BogosortTest -> D:\Code2025\RavenWork\Bogosort\BogosortTest\bin\Debug\net9.0\BogosortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTests.cs(13,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj]
+D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTests.cs(14,41): warning CS8604: Possible null reference argument for parameter 'array' in 'void BogosortAlgorithm.Sort<int>(int[] array)'. [D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.81
+
+
+WritePatch: Compile failed.
+BogosortTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:10:08 PM
+BogosortTest
+
+WritePatch Started CycleStep. 2025-02-23 7:10:09 PM
+BogosortTest
+
+WritePatch ran compiler. 2025-02-23 7:10:35 PM
+BogosortTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Bogosort -> D:\Code2025\RavenWork\Bogosort\Bogosort\bin\Debug\net9.0\Bogosort.dll
+  BogosortTest -> D:\Code2025\RavenWork\Bogosort\BogosortTest\bin\Debug\net9.0\BogosortTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.92
+
+
+WritePatch: Code is not Complete.
+BogosortTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:10:54 PM
+BogosortTest
+
+WritePatch Started CycleStep. 2025-02-23 7:10:55 PM
+BogosortTest
+
+WritePatch ran compiler. 2025-02-23 7:11:59 PM
+BogosortTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Bogosort -> D:\Code2025\RavenWork\Bogosort\Bogosort\bin\Debug\net9.0\Bogosort.dll
+D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTests.cs(13,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj]
+D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTests.cs(14,41): warning CS8604: Possible null reference argument for parameter 'array' in 'void BogosortAlgorithm.Sort<int>(int[] array)'. [D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj]
+  BogosortTest -> D:\Code2025\RavenWork\Bogosort\BogosortTest\bin\Debug\net9.0\BogosortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTests.cs(13,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj]
+D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTests.cs(14,41): warning CS8604: Possible null reference argument for parameter 'array' in 'void BogosortAlgorithm.Sort<int>(int[] array)'. [D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.25
+
+
+WritePatch: Compile failed.
+BogosortTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:12:00 PM
+BogosortTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\Bogosort\BogosortTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Bogosort -> D:\Code2025\RavenWork\Bogosort\Bogosort\bin\Debug\net9.0\Bogosort.dll
+D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTests.cs(13,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj]
+D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTests.cs(14,41): warning CS8604: Possible null reference argument for parameter 'array' in 'void BogosortAlgorithm.Sort<int>(int[] array)'. [D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj]
+  BogosortTest -> D:\Code2025\RavenWork\Bogosort\BogosortTest\bin\Debug\net9.0\BogosortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTests.cs(13,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj]
+D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTests.cs(14,41): warning CS8604: Possible null reference argument for parameter 'array' in 'void BogosortAlgorithm.Sort<int>(int[] array)'. [D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.25
+
+</CompilerResponse>
+2025-02-23 7:12:00 PM
+BogosortTest
+
+WritePatch ran compiler. 2025-02-23 7:12:03 PM
+Bogosort
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Bogosort -> D:\Code2025\RavenWork\Bogosort\Bogosort\bin\Debug\net9.0\Bogosort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.62
+
+
+WritePatch: Code is Complete.
+Bogosort
+
+WritePatch ran compiler. 2025-02-23 7:12:17 PM
+BogosortTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Bogosort -> D:\Code2025\RavenWork\Bogosort\Bogosort\bin\Debug\net9.0\Bogosort.dll
+  BogosortTest -> D:\Code2025\RavenWork\Bogosort\BogosortTest\bin\Debug\net9.0\BogosortTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.76
+
+
+WritePatch: Code is Complete.
+BogosortTest
+
+TestResult:
+[OUTPUT 2025-02-23 7:12:50 PM]   Passed TestSort_Synthetic_RandomStrings [9 ms]
+[OUTPUT 2025-02-23 7:12:46 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:12:46 PM] Test run for D:\Code2025\RavenWork\Bogosort\BogosortTest\bin\Debug\net9.0\BogosortTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:12:45 PM]   BogosortTest -> D:\Code2025\RavenWork\Bogosort\BogosortTest\bin\Debug\net9.0\BogosortTest.dll
+[OUTPUT 2025-02-23 7:12:44 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:12:49 PM] Test Parallelization enabled for D:\Code2025\RavenWork\Bogosort\BogosortTest\bin\Debug\net9.0\BogosortTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:12:48 PM] D:\Code2025\RavenWork\Bogosort\BogosortTest\bin\Debug\net9.0\BogosortTest.dll
+[OUTPUT 2025-02-23 7:12:47 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:12:47 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:12:45 PM]   Bogosort -> D:\Code2025\RavenWork\Bogosort\Bogosort\bin\Debug\net9.0\Bogosort.dll
+[OUTPUT 2025-02-23 7:12:44 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 7:12:50 PM] All tests passed successfully.
+[INFO 2025-02-23 7:12:50 PM] Test process completed. Duration: 7.32 seconds.
+[INFO 2025-02-23 7:12:50 PM] Process exited with code 0.
+[INFO 2025-02-23 7:12:42 PM] Command: dotnet test "D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:12:42 PM] Starting test for project: D:\Code2025\RavenWork\Bogosort\BogosortTest\BogosortTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
