@@ -1,0 +1,596 @@
+<ActRecord>
+  <ProjectName>Bcrypt</ProjectName>
+  <ProjectDescription>bcrypt</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>bcrypt</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\Bcrypt</SolutionFolderPath>
+  <ProjectFolderName>Bcrypt</ProjectFolderName>
+  <ProjectName>Bcrypt</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:15:14 AM
+Bcrypt</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 9:17:37 AM
+Bcrypt</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:17:38 AM
+Bcrypt</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:18:22 AM
+Bcrypt</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\Bcrypt\Bcrypt\Bcrypt.cs(19,45): warning SYSLIB0041: 'Rfc2898DeriveBytes.Rfc2898DeriveBytes(string, byte[], int)' is obsolete: 'The default hash algorithm and iteration counts in Rfc2898DeriveBytes constructors are outdated and insecure. Use a constructor that accepts the hash algorithm and the number of iterations.' (https://aka.ms/dotnet-warnings/SYSLIB0041) [D:\Code2025\RavenWork\Bcrypt\Bcrypt\Bcrypt.csproj]
+D:\Code2025\RavenWork\Bcrypt\Bcrypt\Bcrypt.cs(59,45): warning SYSLIB0041: 'Rfc2898DeriveBytes.Rfc2898DeriveBytes(string, byte[], int)' is obsolete: 'The default hash algorithm and iteration counts in Rfc2898DeriveBytes constructors are outdated and insecure. Use a constructor that accepts the hash algorithm and the number of iterations.' (https://aka.ms/dotnet-warnings/SYSLIB0041) [D:\Code2025\RavenWork\Bcrypt\Bcrypt\Bcrypt.csproj]
+  Bcrypt -> D:\Code2025\RavenWork\Bcrypt\Bcrypt\bin\Debug\net9.0\Bcrypt.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Bcrypt\Bcrypt\Bcrypt.cs(19,45): warning SYSLIB0041: 'Rfc2898DeriveBytes.Rfc2898DeriveBytes(string, byte[], int)' is obsolete: 'The default hash algorithm and iteration counts in Rfc2898DeriveBytes constructors are outdated and insecure. Use a constructor that accepts the hash algorithm and the number of iterations.' (https://aka.ms/dotnet-warnings/SYSLIB0041) [D:\Code2025\RavenWork\Bcrypt\Bcrypt\Bcrypt.csproj]
+D:\Code2025\RavenWork\Bcrypt\Bcrypt\Bcrypt.cs(59,45): warning SYSLIB0041: 'Rfc2898DeriveBytes.Rfc2898DeriveBytes(string, byte[], int)' is obsolete: 'The default hash algorithm and iteration counts in Rfc2898DeriveBytes constructors are outdated and insecure. Use a constructor that accepts the hash algorithm and the number of iterations.' (https://aka.ms/dotnet-warnings/SYSLIB0041) [D:\Code2025\RavenWork\Bcrypt\Bcrypt\Bcrypt.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+]]></string>
+    <string>WritePatch: Compile failed.
+Bcrypt</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:18:23 AM
+Bcrypt</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:18:23 AM
+Bcrypt</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:18:50 AM
+Bcrypt</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Bcrypt -> D:\Code2025\RavenWork\Bcrypt\Bcrypt\bin\Debug\net9.0\Bcrypt.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.36
+]]></string>
+    <string>WritePatch: Code is not Complete.
+Bcrypt</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:19:24 AM
+Bcrypt</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\Bcrypt\Bcrypt
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Bcrypt -> D:\Code2025\RavenWork\Bcrypt\Bcrypt\bin\Debug\net9.0\Bcrypt.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.36
+
+</CompilerResponse>
+2025-02-23 9:19:24 AM
+Bcrypt]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 9:19:26 AM
+Bcrypt</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Bcrypt -> D:\Code2025\RavenWork\Bcrypt\Bcrypt\bin\Debug\net9.0\Bcrypt.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+]]></string>
+    <string>WritePatch: Code is not Complete.
+Bcrypt</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:20:07 AM
+Bcrypt</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:21:42 AM
+Bcrypt</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Bcrypt -> D:\Code2025\RavenWork\Bcrypt\Bcrypt\bin\Debug\net9.0\Bcrypt.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.05
+]]></string>
+    <string>WritePatch: Code is Complete.
+Bcrypt</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:22:24 AM
+BcryptTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:23:00 AM
+BcryptTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj (in 255 ms).
+  1 of 2 projects are up-to-date for restore.
+  Bcrypt -> D:\Code2025\RavenWork\Bcrypt\Bcrypt\bin\Debug\net9.0\Bcrypt.dll
+D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTests.cs(44,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj]
+D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTests.cs(53,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj]
+  BcryptTest -> D:\Code2025\RavenWork\Bcrypt\BcryptTest\bin\Debug\net9.0\BcryptTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTests.cs(44,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj]
+D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTests.cs(53,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.84
+]]></string>
+    <string>WritePatch: Compile failed.
+BcryptTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:23:02 AM
+BcryptTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:23:03 AM
+BcryptTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:23:42 AM
+BcryptTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Bcrypt -> D:\Code2025\RavenWork\Bcrypt\Bcrypt\bin\Debug\net9.0\Bcrypt.dll
+  BcryptTest -> D:\Code2025\RavenWork\Bcrypt\BcryptTest\bin\Debug\net9.0\BcryptTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.34
+]]></string>
+    <string>WritePatch: Code is not Complete.
+BcryptTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:24:07 AM
+BcryptTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:24:07 AM
+BcryptTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:24:51 AM
+BcryptTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Bcrypt -> D:\Code2025\RavenWork\Bcrypt\Bcrypt\bin\Debug\net9.0\Bcrypt.dll
+D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTests.cs(44,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj]
+D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTests.cs(53,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj]
+  BcryptTest -> D:\Code2025\RavenWork\Bcrypt\BcryptTest\bin\Debug\net9.0\BcryptTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTests.cs(44,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj]
+D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTests.cs(53,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.54
+]]></string>
+    <string>WritePatch: Compile failed.
+BcryptTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:24:52 AM
+BcryptTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\Bcrypt\BcryptTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Bcrypt -> D:\Code2025\RavenWork\Bcrypt\Bcrypt\bin\Debug\net9.0\Bcrypt.dll
+D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTests.cs(44,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj]
+D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTests.cs(53,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj]
+  BcryptTest -> D:\Code2025\RavenWork\Bcrypt\BcryptTest\bin\Debug\net9.0\BcryptTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTests.cs(44,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj]
+D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTests.cs(53,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.54
+
+</CompilerResponse>
+2025-02-23 9:24:52 AM
+BcryptTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 9:24:54 AM
+Bcrypt</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Bcrypt -> D:\Code2025\RavenWork\Bcrypt\Bcrypt\bin\Debug\net9.0\Bcrypt.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+]]></string>
+    <string>WritePatch: Code is Complete.
+Bcrypt</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:26:17 AM
+BcryptTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Bcrypt -> D:\Code2025\RavenWork\Bcrypt\Bcrypt\bin\Debug\net9.0\Bcrypt.dll
+  BcryptTest -> D:\Code2025\RavenWork\Bcrypt\BcryptTest\bin\Debug\net9.0\BcryptTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.28
+]]></string>
+    <string>WritePatch: Code is Complete.
+BcryptTest</string>
+    <string>[INFO 2025-02-23 9:26:43 AM] Starting test for project: D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj</string>
+    <string>[INFO 2025-02-23 9:26:43 AM] Starting test for project: D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj</string>
+    <string>[INFO 2025-02-23 9:26:43 AM] Starting test for project: D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj</string>
+    <string>[INFO 2025-02-23 9:26:43 AM] Starting test for project: D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj</string>
+    <string>[INFO 2025-02-23 9:26:43 AM] Starting test for project: D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj</string>
+    <string>[INFO 2025-02-23 9:26:43 AM] Starting test for project: D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj</string>
+    <string>[INFO 2025-02-23 9:26:43 AM] Starting test for project: D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj</string>
+    <string>[INFO 2025-02-23 9:26:43 AM] Starting test for project: D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj</string>
+    <string>[INFO 2025-02-23 9:26:43 AM] Starting test for project: D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj</string>
+    <string>[INFO 2025-02-23 9:26:43 AM] Starting test for project: D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj</string>
+    <string>[INFO 2025-02-23 9:26:43 AM] Starting test for project: D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj</string>
+    <string>[INFO 2025-02-23 9:26:43 AM] Starting test for project: D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj</string>
+    <string>[INFO 2025-02-23 9:26:43 AM] Starting test for project: D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj</string>
+    <string>[INFO 2025-02-23 9:26:43 AM] Starting test for project: D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 9:26:47 AM] All tests passed successfully.
+[INFO 2025-02-23 9:26:47 AM] Test process completed. Duration: 4.47 seconds.
+[INFO 2025-02-23 9:26:47 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 9:26:47 AM] Test Parallelization enabled for D:\Code2025\RavenWork\Bcrypt\BcryptTest\bin\Debug\net9.0\BcryptTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 9:26:45 AM]   Bcrypt -> D:\Code2025\RavenWork\Bcrypt\Bcrypt\bin\Debug\net9.0\Bcrypt.dll
+[OUTPUT 2025-02-23 9:26:48 AM]   Passed TestHashAndVerify [15 ms]
+[OUTPUT 2025-02-23 9:26:47 AM]   Passed TestNullPasswordHash [9 ms]
+[OUTPUT 2025-02-23 9:26:46 AM] D:\Code2025\RavenWork\Bcrypt\BcryptTest\bin\Debug\net9.0\BcryptTest.dll
+[OUTPUT 2025-02-23 9:26:46 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 9:26:46 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 9:26:46 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 9:26:45 AM] Test run for D:\Code2025\RavenWork\Bcrypt\BcryptTest\bin\Debug\net9.0\BcryptTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 9:26:45 AM]   BcryptTest -> D:\Code2025\RavenWork\Bcrypt\BcryptTest\bin\Debug\net9.0\BcryptTest.dll
+[OUTPUT 2025-02-23 9:26:44 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 9:26:44 AM]   Determining projects to restore...
+[INFO 2025-02-23 9:26:43 AM] Command: dotnet test "D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 9:26:43 AM] Starting test for project: D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 9:15:14 AM
+Bcrypt
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 9:17:37 AM
+Bcrypt
+
+WritePatch Started CycleStep. 2025-02-23 9:17:38 AM
+Bcrypt
+
+WritePatch ran compiler. 2025-02-23 9:18:22 AM
+Bcrypt
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\Bcrypt\Bcrypt\Bcrypt.cs(19,45): warning SYSLIB0041: 'Rfc2898DeriveBytes.Rfc2898DeriveBytes(string, byte[], int)' is obsolete: 'The default hash algorithm and iteration counts in Rfc2898DeriveBytes constructors are outdated and insecure. Use a constructor that accepts the hash algorithm and the number of iterations.' (https://aka.ms/dotnet-warnings/SYSLIB0041) [D:\Code2025\RavenWork\Bcrypt\Bcrypt\Bcrypt.csproj]
+D:\Code2025\RavenWork\Bcrypt\Bcrypt\Bcrypt.cs(59,45): warning SYSLIB0041: 'Rfc2898DeriveBytes.Rfc2898DeriveBytes(string, byte[], int)' is obsolete: 'The default hash algorithm and iteration counts in Rfc2898DeriveBytes constructors are outdated and insecure. Use a constructor that accepts the hash algorithm and the number of iterations.' (https://aka.ms/dotnet-warnings/SYSLIB0041) [D:\Code2025\RavenWork\Bcrypt\Bcrypt\Bcrypt.csproj]
+  Bcrypt -> D:\Code2025\RavenWork\Bcrypt\Bcrypt\bin\Debug\net9.0\Bcrypt.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Bcrypt\Bcrypt\Bcrypt.cs(19,45): warning SYSLIB0041: 'Rfc2898DeriveBytes.Rfc2898DeriveBytes(string, byte[], int)' is obsolete: 'The default hash algorithm and iteration counts in Rfc2898DeriveBytes constructors are outdated and insecure. Use a constructor that accepts the hash algorithm and the number of iterations.' (https://aka.ms/dotnet-warnings/SYSLIB0041) [D:\Code2025\RavenWork\Bcrypt\Bcrypt\Bcrypt.csproj]
+D:\Code2025\RavenWork\Bcrypt\Bcrypt\Bcrypt.cs(59,45): warning SYSLIB0041: 'Rfc2898DeriveBytes.Rfc2898DeriveBytes(string, byte[], int)' is obsolete: 'The default hash algorithm and iteration counts in Rfc2898DeriveBytes constructors are outdated and insecure. Use a constructor that accepts the hash algorithm and the number of iterations.' (https://aka.ms/dotnet-warnings/SYSLIB0041) [D:\Code2025\RavenWork\Bcrypt\Bcrypt\Bcrypt.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+
+
+WritePatch: Compile failed.
+Bcrypt
+
+Finished WritePatch cycle step.
+2025-02-23 9:18:23 AM
+Bcrypt
+
+WritePatch Started CycleStep. 2025-02-23 9:18:23 AM
+Bcrypt
+
+WritePatch ran compiler. 2025-02-23 9:18:50 AM
+Bcrypt
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Bcrypt -> D:\Code2025\RavenWork\Bcrypt\Bcrypt\bin\Debug\net9.0\Bcrypt.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.36
+
+
+WritePatch: Code is not Complete.
+Bcrypt
+
+Finished WritePatch cycle step.
+2025-02-23 9:19:24 AM
+Bcrypt
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\Bcrypt\Bcrypt
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Bcrypt -> D:\Code2025\RavenWork\Bcrypt\Bcrypt\bin\Debug\net9.0\Bcrypt.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.36
+
+</CompilerResponse>
+2025-02-23 9:19:24 AM
+Bcrypt
+
+WritePatch ran compiler. 2025-02-23 9:19:26 AM
+Bcrypt
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Bcrypt -> D:\Code2025\RavenWork\Bcrypt\Bcrypt\bin\Debug\net9.0\Bcrypt.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+
+
+WritePatch: Code is not Complete.
+Bcrypt
+
+WritePatch Started CycleStep. 2025-02-23 9:20:07 AM
+Bcrypt
+
+WritePatch ran compiler. 2025-02-23 9:21:42 AM
+Bcrypt
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Bcrypt -> D:\Code2025\RavenWork\Bcrypt\Bcrypt\bin\Debug\net9.0\Bcrypt.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.05
+
+
+WritePatch: Code is Complete.
+Bcrypt
+
+WritePatch Started CycleStep. 2025-02-23 9:22:24 AM
+BcryptTest
+
+WritePatch ran compiler. 2025-02-23 9:23:00 AM
+BcryptTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj (in 255 ms).
+  1 of 2 projects are up-to-date for restore.
+  Bcrypt -> D:\Code2025\RavenWork\Bcrypt\Bcrypt\bin\Debug\net9.0\Bcrypt.dll
+D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTests.cs(44,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj]
+D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTests.cs(53,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj]
+  BcryptTest -> D:\Code2025\RavenWork\Bcrypt\BcryptTest\bin\Debug\net9.0\BcryptTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTests.cs(44,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj]
+D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTests.cs(53,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.84
+
+
+WritePatch: Compile failed.
+BcryptTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:23:02 AM
+BcryptTest
+
+WritePatch Started CycleStep. 2025-02-23 9:23:03 AM
+BcryptTest
+
+WritePatch ran compiler. 2025-02-23 9:23:42 AM
+BcryptTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Bcrypt -> D:\Code2025\RavenWork\Bcrypt\Bcrypt\bin\Debug\net9.0\Bcrypt.dll
+  BcryptTest -> D:\Code2025\RavenWork\Bcrypt\BcryptTest\bin\Debug\net9.0\BcryptTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.34
+
+
+WritePatch: Code is not Complete.
+BcryptTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:24:07 AM
+BcryptTest
+
+WritePatch Started CycleStep. 2025-02-23 9:24:07 AM
+BcryptTest
+
+WritePatch ran compiler. 2025-02-23 9:24:51 AM
+BcryptTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Bcrypt -> D:\Code2025\RavenWork\Bcrypt\Bcrypt\bin\Debug\net9.0\Bcrypt.dll
+D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTests.cs(44,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj]
+D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTests.cs(53,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj]
+  BcryptTest -> D:\Code2025\RavenWork\Bcrypt\BcryptTest\bin\Debug\net9.0\BcryptTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTests.cs(44,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj]
+D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTests.cs(53,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.54
+
+
+WritePatch: Compile failed.
+BcryptTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:24:52 AM
+BcryptTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\Bcrypt\BcryptTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Bcrypt -> D:\Code2025\RavenWork\Bcrypt\Bcrypt\bin\Debug\net9.0\Bcrypt.dll
+D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTests.cs(44,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj]
+D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTests.cs(53,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj]
+  BcryptTest -> D:\Code2025\RavenWork\Bcrypt\BcryptTest\bin\Debug\net9.0\BcryptTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTests.cs(44,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj]
+D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTests.cs(53,57): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.54
+
+</CompilerResponse>
+2025-02-23 9:24:52 AM
+BcryptTest
+
+WritePatch ran compiler. 2025-02-23 9:24:54 AM
+Bcrypt
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Bcrypt -> D:\Code2025\RavenWork\Bcrypt\Bcrypt\bin\Debug\net9.0\Bcrypt.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+
+
+WritePatch: Code is Complete.
+Bcrypt
+
+WritePatch ran compiler. 2025-02-23 9:26:17 AM
+BcryptTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Bcrypt -> D:\Code2025\RavenWork\Bcrypt\Bcrypt\bin\Debug\net9.0\Bcrypt.dll
+  BcryptTest -> D:\Code2025\RavenWork\Bcrypt\BcryptTest\bin\Debug\net9.0\BcryptTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.28
+
+
+WritePatch: Code is Complete.
+BcryptTest
+
+TestResult:
+[SUCCESS 2025-02-23 9:26:47 AM] All tests passed successfully.
+[INFO 2025-02-23 9:26:47 AM] Test process completed. Duration: 4.47 seconds.
+[INFO 2025-02-23 9:26:47 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 9:26:47 AM] Test Parallelization enabled for D:\Code2025\RavenWork\Bcrypt\BcryptTest\bin\Debug\net9.0\BcryptTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 9:26:45 AM]   Bcrypt -> D:\Code2025\RavenWork\Bcrypt\Bcrypt\bin\Debug\net9.0\Bcrypt.dll
+[OUTPUT 2025-02-23 9:26:48 AM]   Passed TestHashAndVerify [15 ms]
+[OUTPUT 2025-02-23 9:26:47 AM]   Passed TestNullPasswordHash [9 ms]
+[OUTPUT 2025-02-23 9:26:46 AM] D:\Code2025\RavenWork\Bcrypt\BcryptTest\bin\Debug\net9.0\BcryptTest.dll
+[OUTPUT 2025-02-23 9:26:46 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 9:26:46 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 9:26:46 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 9:26:45 AM] Test run for D:\Code2025\RavenWork\Bcrypt\BcryptTest\bin\Debug\net9.0\BcryptTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 9:26:45 AM]   BcryptTest -> D:\Code2025\RavenWork\Bcrypt\BcryptTest\bin\Debug\net9.0\BcryptTest.dll
+[OUTPUT 2025-02-23 9:26:44 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 9:26:44 AM]   Determining projects to restore...
+[INFO 2025-02-23 9:26:43 AM] Command: dotnet test "D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 9:26:43 AM] Starting test for project: D:\Code2025\RavenWork\Bcrypt\BcryptTest\BcryptTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
