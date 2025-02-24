@@ -1,0 +1,585 @@
+<ActRecord>
+  <ProjectName>RelevanceVectorMachine</ProjectName>
+  <ProjectDescription>Relevance‑Vector Machine (RVM): Similar to SVM but with probabilistic outputs</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Relevance‑Vector Machine (RVM): Similar to SVM but with probabilistic outputs</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\RelevanceVectorMachine</SolutionFolderPath>
+  <ProjectFolderName>RelevanceVectorMachine</ProjectFolderName>
+  <ProjectName>RelevanceVectorMachine</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:42:23 AM
+RelevanceVectorMachine</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:43:00 AM
+RelevanceVectorMachine</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachine\RVM.cs(7,26): warning CS8618: Non-nullable field 'Weights' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachine\RelevanceVectorMachine.csproj]
+  RelevanceVectorMachine -> D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachine\bin\Debug\net9.0\RelevanceVectorMachine.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachine\RVM.cs(7,26): warning CS8618: Non-nullable field 'Weights' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachine\RelevanceVectorMachine.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+]]></string>
+    <string>WritePatch: Compile failed.
+RelevanceVectorMachine</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:43:01 AM
+RelevanceVectorMachine</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:43:01 AM
+RelevanceVectorMachine</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:43:28 AM
+RelevanceVectorMachine</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RelevanceVectorMachine -> D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachine\bin\Debug\net9.0\RelevanceVectorMachine.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.24
+]]></string>
+    <string>WritePatch: Code is not Complete.
+RelevanceVectorMachine</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:43:40 AM
+RelevanceVectorMachine</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:43:40 AM
+RelevanceVectorMachine</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:44:20 AM
+RelevanceVectorMachine</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RelevanceVectorMachine -> D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachine\bin\Debug\net9.0\RelevanceVectorMachine.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.75
+]]></string>
+    <string>WritePatch: Code is Complete.
+RelevanceVectorMachine</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:44:58 AM
+RelevanceVectorMachineTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:45:40 AM
+RelevanceVectorMachineTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj (in 177 ms).
+  1 of 2 projects are up-to-date for restore.
+  RelevanceVectorMachine -> D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachine\bin\Debug\net9.0\RelevanceVectorMachine.dll
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(14,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(14,33): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(15,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(23,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+  RelevanceVectorMachineTest -> D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\bin\Debug\net9.0\RelevanceVectorMachineTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(14,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(14,33): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(15,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(23,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.32
+]]></string>
+    <string>WritePatch: Compile failed.
+RelevanceVectorMachineTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:45:41 AM
+RelevanceVectorMachineTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:45:42 AM
+RelevanceVectorMachineTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:46:28 AM
+RelevanceVectorMachineTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RelevanceVectorMachine -> D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachine\bin\Debug\net9.0\RelevanceVectorMachine.dll
+  RelevanceVectorMachineTest -> D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\bin\Debug\net9.0\RelevanceVectorMachineTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87
+]]></string>
+    <string>WritePatch: Code is not Complete.
+RelevanceVectorMachineTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:46:47 AM
+RelevanceVectorMachineTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:46:48 AM
+RelevanceVectorMachineTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:47:46 AM
+RelevanceVectorMachineTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RelevanceVectorMachine -> D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachine\bin\Debug\net9.0\RelevanceVectorMachine.dll
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(14,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(14,33): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(15,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(23,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+  RelevanceVectorMachineTest -> D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\bin\Debug\net9.0\RelevanceVectorMachineTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(14,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(14,33): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(15,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(23,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+]]></string>
+    <string>WritePatch: Compile failed.
+RelevanceVectorMachineTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:47:47 AM
+RelevanceVectorMachineTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RelevanceVectorMachine -> D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachine\bin\Debug\net9.0\RelevanceVectorMachine.dll
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(14,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(14,33): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(15,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(23,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+  RelevanceVectorMachineTest -> D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\bin\Debug\net9.0\RelevanceVectorMachineTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(14,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(14,33): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(15,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(23,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+
+</CompilerResponse>
+2025-02-23 7:47:47 AM
+RelevanceVectorMachineTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 7:47:49 AM
+RelevanceVectorMachine</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RelevanceVectorMachine -> D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachine\bin\Debug\net9.0\RelevanceVectorMachine.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.79
+]]></string>
+    <string>WritePatch: Code is not Complete.
+RelevanceVectorMachine</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:48:43 AM
+RelevanceVectorMachine</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:51:15 AM
+RelevanceVectorMachine</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RelevanceVectorMachine -> D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachine\bin\Debug\net9.0\RelevanceVectorMachine.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.72
+]]></string>
+    <string>WritePatch: Code is Complete.
+RelevanceVectorMachine</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:53:06 AM
+RelevanceVectorMachineTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RelevanceVectorMachine -> D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachine\bin\Debug\net9.0\RelevanceVectorMachine.dll
+  RelevanceVectorMachineTest -> D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\bin\Debug\net9.0\RelevanceVectorMachineTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.90
+]]></string>
+    <string>WritePatch: Code is Complete.
+RelevanceVectorMachineTest</string>
+    <string>[INFO 2025-02-23 7:53:44 AM] Starting test for project: D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj</string>
+    <string>[INFO 2025-02-23 7:53:44 AM] Starting test for project: D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj</string>
+    <string>[INFO 2025-02-23 7:53:44 AM] Starting test for project: D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj</string>
+    <string>[INFO 2025-02-23 7:53:44 AM] Starting test for project: D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj</string>
+    <string>[INFO 2025-02-23 7:53:44 AM] Starting test for project: D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj</string>
+    <string>[INFO 2025-02-23 7:53:44 AM] Starting test for project: D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj</string>
+    <string>[INFO 2025-02-23 7:53:44 AM] Starting test for project: D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj</string>
+    <string>[INFO 2025-02-23 7:53:44 AM] Starting test for project: D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj</string>
+    <string>[INFO 2025-02-23 7:53:44 AM] Starting test for project: D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj</string>
+    <string>[INFO 2025-02-23 7:53:44 AM] Starting test for project: D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj</string>
+    <string>[INFO 2025-02-23 7:53:44 AM] Starting test for project: D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj</string>
+    <string>[INFO 2025-02-23 7:53:44 AM] Starting test for project: D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj</string>
+    <string>[INFO 2025-02-23 7:53:44 AM] Starting test for project: D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj</string>
+    <string>[INFO 2025-02-23 7:53:44 AM] Starting test for project: D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj</string>
+    <string>[INFO 2025-02-23 7:53:44 AM] Starting test for project: D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj</string>
+    <string>[INFO 2025-02-23 7:53:44 AM] Starting test for project: D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj</string>
+    <string>[INFO 2025-02-23 7:53:44 AM] Starting test for project: D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj</string>
+    <string>[INFO 2025-02-23 7:53:44 AM] Starting test for project: D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj</string>
+    <string>[INFO 2025-02-23 7:53:44 AM] Starting test for project: D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 7:54:38 AM] Test Run Successful.
+[OUTPUT 2025-02-23 7:54:37 AM]   Passed TestSyntheticLargeData [50 s]
+[OUTPUT 2025-02-23 7:53:49 AM]   Passed TestTrainAndPredictSimple [4 ms]
+[OUTPUT 2025-02-23 7:53:49 AM]   Passed TestPredictProbabilityWithNullInput [3 ms]
+[OUTPUT 2025-02-23 7:53:49 AM]   Passed TestTrainWithNullInputs [3 ms]
+[OUTPUT 2025-02-23 7:53:48 AM]   Passed TestEmptyTrainingData [3 ms]
+[OUTPUT 2025-02-23 7:53:48 AM]   Passed TestPredictProbabilityWithWrongDimension [3 ms]
+[OUTPUT 2025-02-23 7:53:47 AM] Test Parallelization enabled for D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\bin\Debug\net9.0\RelevanceVectorMachineTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:53:47 AM] D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\bin\Debug\net9.0\RelevanceVectorMachineTest.dll
+[OUTPUT 2025-02-23 7:53:47 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:53:46 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:53:46 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:53:46 AM] Test run for D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\bin\Debug\net9.0\RelevanceVectorMachineTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:53:46 AM]   RelevanceVectorMachineTest -> D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\bin\Debug\net9.0\RelevanceVectorMachineTest.dll
+[OUTPUT 2025-02-23 7:53:45 AM]   RelevanceVectorMachine -> D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachine\bin\Debug\net9.0\RelevanceVectorMachine.dll
+[OUTPUT 2025-02-23 7:53:45 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:53:45 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 7:54:37 AM] All tests passed successfully.
+[INFO 2025-02-23 7:54:37 AM] Test process completed. Duration: 53.50 seconds.
+[INFO 2025-02-23 7:54:37 AM] Process exited with code 0.
+[INFO 2025-02-23 7:53:44 AM] Command: dotnet test "D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:53:44 AM] Starting test for project: D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 7:42:23 AM
+RelevanceVectorMachine
+
+WritePatch ran compiler. 2025-02-23 7:43:00 AM
+RelevanceVectorMachine
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachine\RVM.cs(7,26): warning CS8618: Non-nullable field 'Weights' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachine\RelevanceVectorMachine.csproj]
+  RelevanceVectorMachine -> D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachine\bin\Debug\net9.0\RelevanceVectorMachine.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachine\RVM.cs(7,26): warning CS8618: Non-nullable field 'Weights' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachine\RelevanceVectorMachine.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+
+
+WritePatch: Compile failed.
+RelevanceVectorMachine
+
+Finished WritePatch cycle step.
+2025-02-23 7:43:01 AM
+RelevanceVectorMachine
+
+WritePatch Started CycleStep. 2025-02-23 7:43:01 AM
+RelevanceVectorMachine
+
+WritePatch ran compiler. 2025-02-23 7:43:28 AM
+RelevanceVectorMachine
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RelevanceVectorMachine -> D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachine\bin\Debug\net9.0\RelevanceVectorMachine.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.24
+
+
+WritePatch: Code is not Complete.
+RelevanceVectorMachine
+
+Finished WritePatch cycle step.
+2025-02-23 7:43:40 AM
+RelevanceVectorMachine
+
+WritePatch Started CycleStep. 2025-02-23 7:43:40 AM
+RelevanceVectorMachine
+
+WritePatch ran compiler. 2025-02-23 7:44:20 AM
+RelevanceVectorMachine
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RelevanceVectorMachine -> D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachine\bin\Debug\net9.0\RelevanceVectorMachine.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.75
+
+
+WritePatch: Code is Complete.
+RelevanceVectorMachine
+
+WritePatch Started CycleStep. 2025-02-23 7:44:58 AM
+RelevanceVectorMachineTest
+
+WritePatch ran compiler. 2025-02-23 7:45:40 AM
+RelevanceVectorMachineTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj (in 177 ms).
+  1 of 2 projects are up-to-date for restore.
+  RelevanceVectorMachine -> D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachine\bin\Debug\net9.0\RelevanceVectorMachine.dll
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(14,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(14,33): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(15,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(23,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+  RelevanceVectorMachineTest -> D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\bin\Debug\net9.0\RelevanceVectorMachineTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(14,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(14,33): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(15,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(23,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.32
+
+
+WritePatch: Compile failed.
+RelevanceVectorMachineTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:45:41 AM
+RelevanceVectorMachineTest
+
+WritePatch Started CycleStep. 2025-02-23 7:45:42 AM
+RelevanceVectorMachineTest
+
+WritePatch ran compiler. 2025-02-23 7:46:28 AM
+RelevanceVectorMachineTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RelevanceVectorMachine -> D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachine\bin\Debug\net9.0\RelevanceVectorMachine.dll
+  RelevanceVectorMachineTest -> D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\bin\Debug\net9.0\RelevanceVectorMachineTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87
+
+
+WritePatch: Code is not Complete.
+RelevanceVectorMachineTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:46:47 AM
+RelevanceVectorMachineTest
+
+WritePatch Started CycleStep. 2025-02-23 7:46:48 AM
+RelevanceVectorMachineTest
+
+WritePatch ran compiler. 2025-02-23 7:47:46 AM
+RelevanceVectorMachineTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RelevanceVectorMachine -> D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachine\bin\Debug\net9.0\RelevanceVectorMachine.dll
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(14,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(14,33): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(15,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(23,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+  RelevanceVectorMachineTest -> D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\bin\Debug\net9.0\RelevanceVectorMachineTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(14,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(14,33): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(15,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(23,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+
+
+WritePatch: Compile failed.
+RelevanceVectorMachineTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:47:47 AM
+RelevanceVectorMachineTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RelevanceVectorMachine -> D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachine\bin\Debug\net9.0\RelevanceVectorMachine.dll
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(14,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(14,33): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(15,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(23,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+  RelevanceVectorMachineTest -> D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\bin\Debug\net9.0\RelevanceVectorMachineTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(14,27): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(14,33): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(15,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTests.cs(23,61): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+
+</CompilerResponse>
+2025-02-23 7:47:47 AM
+RelevanceVectorMachineTest
+
+WritePatch ran compiler. 2025-02-23 7:47:49 AM
+RelevanceVectorMachine
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RelevanceVectorMachine -> D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachine\bin\Debug\net9.0\RelevanceVectorMachine.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.79
+
+
+WritePatch: Code is not Complete.
+RelevanceVectorMachine
+
+WritePatch Started CycleStep. 2025-02-23 7:48:43 AM
+RelevanceVectorMachine
+
+WritePatch ran compiler. 2025-02-23 7:51:15 AM
+RelevanceVectorMachine
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RelevanceVectorMachine -> D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachine\bin\Debug\net9.0\RelevanceVectorMachine.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.72
+
+
+WritePatch: Code is Complete.
+RelevanceVectorMachine
+
+WritePatch ran compiler. 2025-02-23 7:53:06 AM
+RelevanceVectorMachineTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RelevanceVectorMachine -> D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachine\bin\Debug\net9.0\RelevanceVectorMachine.dll
+  RelevanceVectorMachineTest -> D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\bin\Debug\net9.0\RelevanceVectorMachineTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.90
+
+
+WritePatch: Code is Complete.
+RelevanceVectorMachineTest
+
+TestResult:
+[OUTPUT 2025-02-23 7:54:38 AM] Test Run Successful.
+[OUTPUT 2025-02-23 7:54:37 AM]   Passed TestSyntheticLargeData [50 s]
+[OUTPUT 2025-02-23 7:53:49 AM]   Passed TestTrainAndPredictSimple [4 ms]
+[OUTPUT 2025-02-23 7:53:49 AM]   Passed TestPredictProbabilityWithNullInput [3 ms]
+[OUTPUT 2025-02-23 7:53:49 AM]   Passed TestTrainWithNullInputs [3 ms]
+[OUTPUT 2025-02-23 7:53:48 AM]   Passed TestEmptyTrainingData [3 ms]
+[OUTPUT 2025-02-23 7:53:48 AM]   Passed TestPredictProbabilityWithWrongDimension [3 ms]
+[OUTPUT 2025-02-23 7:53:47 AM] Test Parallelization enabled for D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\bin\Debug\net9.0\RelevanceVectorMachineTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:53:47 AM] D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\bin\Debug\net9.0\RelevanceVectorMachineTest.dll
+[OUTPUT 2025-02-23 7:53:47 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:53:46 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:53:46 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:53:46 AM] Test run for D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\bin\Debug\net9.0\RelevanceVectorMachineTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:53:46 AM]   RelevanceVectorMachineTest -> D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\bin\Debug\net9.0\RelevanceVectorMachineTest.dll
+[OUTPUT 2025-02-23 7:53:45 AM]   RelevanceVectorMachine -> D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachine\bin\Debug\net9.0\RelevanceVectorMachine.dll
+[OUTPUT 2025-02-23 7:53:45 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:53:45 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 7:54:37 AM] All tests passed successfully.
+[INFO 2025-02-23 7:54:37 AM] Test process completed. Duration: 53.50 seconds.
+[INFO 2025-02-23 7:54:37 AM] Process exited with code 0.
+[INFO 2025-02-23 7:53:44 AM] Command: dotnet test "D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:53:44 AM] Starting test for project: D:\Code2025\RavenWork\RelevanceVectorMachine\RelevanceVectorMachineTest\RelevanceVectorMachineTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
