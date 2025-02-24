@@ -1,0 +1,343 @@
+<ActRecord>
+  <ProjectName>DepthFirstSearch</ProjectName>
+  <ProjectDescription>Depth-First Search: Traverses a graph by exploring as far as possible along each branch before backtracking to explore alternative paths.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Depth-First Search: Traverses a graph by exploring as far as possible along each branch before backtracking to explore alternative paths.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\DepthFirstSearch</SolutionFolderPath>
+  <ProjectFolderName>DepthFirstSearch</ProjectFolderName>
+  <ProjectName>DepthFirstSearch</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:37:49 PM
+DepthFirstSearch</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:38:46 PM
+DepthFirstSearch</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DepthFirstSearch -> D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearch\bin\Debug\net9.0\DepthFirstSearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.80
+]]></string>
+    <string>WritePatch: Code is Complete.
+DepthFirstSearch</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:39:01 PM
+DepthFirstSearchTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:39:52 PM
+DepthFirstSearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\DepthFirstSearchTest.csproj (in 433 ms).
+  1 of 2 projects are up-to-date for restore.
+  DepthFirstSearch -> D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearch\bin\Debug\net9.0\DepthFirstSearch.dll
+D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\DepthFirstSearchTests.cs(54,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\DepthFirstSearchTest.csproj]
+  DepthFirstSearchTest -> D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\bin\Debug\net9.0\DepthFirstSearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\DepthFirstSearchTests.cs(54,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\DepthFirstSearchTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.37
+]]></string>
+    <string>WritePatch: Compile failed.
+DepthFirstSearchTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:39:54 PM
+DepthFirstSearchTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:39:54 PM
+DepthFirstSearchTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:40:27 PM
+DepthFirstSearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DepthFirstSearch -> D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearch\bin\Debug\net9.0\DepthFirstSearch.dll
+  DepthFirstSearchTest -> D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\bin\Debug\net9.0\DepthFirstSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.68
+]]></string>
+    <string>WritePatch: Code is not Complete.
+DepthFirstSearchTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:40:47 PM
+DepthFirstSearchTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:40:47 PM
+DepthFirstSearchTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 7:41:51 PM
+DepthFirstSearchTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DepthFirstSearch -> D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearch\bin\Debug\net9.0\DepthFirstSearch.dll
+  DepthFirstSearchTest -> D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\bin\Debug\net9.0\DepthFirstSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.68
+
+</CompilerResponse>
+2025-02-23 7:41:52 PM
+DepthFirstSearchTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 7:41:54 PM
+DepthFirstSearch</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DepthFirstSearch -> D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearch\bin\Debug\net9.0\DepthFirstSearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.45
+]]></string>
+    <string>WritePatch: Code is Complete.
+DepthFirstSearch</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:42:10 PM
+DepthFirstSearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DepthFirstSearch -> D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearch\bin\Debug\net9.0\DepthFirstSearch.dll
+  DepthFirstSearchTest -> D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\bin\Debug\net9.0\DepthFirstSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.91
+]]></string>
+    <string>WritePatch: Code is Complete.
+DepthFirstSearchTest</string>
+    <string>[INFO 2025-02-23 7:42:26 PM] Starting test for project: D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\DepthFirstSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:26 PM] Starting test for project: D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\DepthFirstSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:26 PM] Starting test for project: D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\DepthFirstSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:26 PM] Starting test for project: D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\DepthFirstSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:26 PM] Starting test for project: D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\DepthFirstSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:26 PM] Starting test for project: D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\DepthFirstSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:26 PM] Starting test for project: D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\DepthFirstSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:26 PM] Starting test for project: D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\DepthFirstSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:26 PM] Starting test for project: D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\DepthFirstSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:26 PM] Starting test for project: D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\DepthFirstSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:26 PM] Starting test for project: D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\DepthFirstSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:26 PM] Starting test for project: D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\DepthFirstSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:26 PM] Starting test for project: D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\DepthFirstSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:26 PM] Starting test for project: D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\DepthFirstSearchTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 7:42:34 PM]   Passed TestNullGraph [9 ms]
+[OUTPUT 2025-02-23 7:42:33 PM]   Passed TestSingleVertex [11 ms]
+[SUCCESS 2025-02-23 7:42:33 PM] All tests passed successfully.
+[INFO 2025-02-23 7:42:33 PM] Test process completed. Duration: 7.19 seconds.
+[INFO 2025-02-23 7:42:33 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 7:42:33 PM] Test Parallelization enabled for D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\bin\Debug\net9.0\DepthFirstSearchTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:42:31 PM] D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\bin\Debug\net9.0\DepthFirstSearchTest.dll
+[OUTPUT 2025-02-23 7:42:31 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:42:30 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:42:28 PM]   DepthFirstSearch -> D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearch\bin\Debug\net9.0\DepthFirstSearch.dll
+[OUTPUT 2025-02-23 7:42:27 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 7:42:30 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:42:29 PM] Test run for D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\bin\Debug\net9.0\DepthFirstSearchTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:42:29 PM]   DepthFirstSearchTest -> D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\bin\Debug\net9.0\DepthFirstSearchTest.dll
+[OUTPUT 2025-02-23 7:42:28 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 7:42:26 PM] Command: dotnet test "D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\DepthFirstSearchTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:42:26 PM] Starting test for project: D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\DepthFirstSearchTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 7:37:49 PM
+DepthFirstSearch
+
+WritePatch ran compiler. 2025-02-23 7:38:46 PM
+DepthFirstSearch
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DepthFirstSearch -> D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearch\bin\Debug\net9.0\DepthFirstSearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.80
+
+
+WritePatch: Code is Complete.
+DepthFirstSearch
+
+WritePatch Started CycleStep. 2025-02-23 7:39:01 PM
+DepthFirstSearchTest
+
+WritePatch ran compiler. 2025-02-23 7:39:52 PM
+DepthFirstSearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\DepthFirstSearchTest.csproj (in 433 ms).
+  1 of 2 projects are up-to-date for restore.
+  DepthFirstSearch -> D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearch\bin\Debug\net9.0\DepthFirstSearch.dll
+D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\DepthFirstSearchTests.cs(54,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\DepthFirstSearchTest.csproj]
+  DepthFirstSearchTest -> D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\bin\Debug\net9.0\DepthFirstSearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\DepthFirstSearchTests.cs(54,67): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\DepthFirstSearchTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.37
+
+
+WritePatch: Compile failed.
+DepthFirstSearchTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:39:54 PM
+DepthFirstSearchTest
+
+WritePatch Started CycleStep. 2025-02-23 7:39:54 PM
+DepthFirstSearchTest
+
+WritePatch ran compiler. 2025-02-23 7:40:27 PM
+DepthFirstSearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DepthFirstSearch -> D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearch\bin\Debug\net9.0\DepthFirstSearch.dll
+  DepthFirstSearchTest -> D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\bin\Debug\net9.0\DepthFirstSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.68
+
+
+WritePatch: Code is not Complete.
+DepthFirstSearchTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:40:47 PM
+DepthFirstSearchTest
+
+WritePatch Started CycleStep. 2025-02-23 7:40:47 PM
+DepthFirstSearchTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 7:41:51 PM
+DepthFirstSearchTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DepthFirstSearch -> D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearch\bin\Debug\net9.0\DepthFirstSearch.dll
+  DepthFirstSearchTest -> D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\bin\Debug\net9.0\DepthFirstSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.68
+
+</CompilerResponse>
+2025-02-23 7:41:52 PM
+DepthFirstSearchTest
+
+WritePatch ran compiler. 2025-02-23 7:41:54 PM
+DepthFirstSearch
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DepthFirstSearch -> D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearch\bin\Debug\net9.0\DepthFirstSearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.45
+
+
+WritePatch: Code is Complete.
+DepthFirstSearch
+
+WritePatch ran compiler. 2025-02-23 7:42:10 PM
+DepthFirstSearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DepthFirstSearch -> D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearch\bin\Debug\net9.0\DepthFirstSearch.dll
+  DepthFirstSearchTest -> D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\bin\Debug\net9.0\DepthFirstSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.91
+
+
+WritePatch: Code is Complete.
+DepthFirstSearchTest
+
+TestResult:
+[OUTPUT 2025-02-23 7:42:34 PM]   Passed TestNullGraph [9 ms]
+[OUTPUT 2025-02-23 7:42:33 PM]   Passed TestSingleVertex [11 ms]
+[SUCCESS 2025-02-23 7:42:33 PM] All tests passed successfully.
+[INFO 2025-02-23 7:42:33 PM] Test process completed. Duration: 7.19 seconds.
+[INFO 2025-02-23 7:42:33 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 7:42:33 PM] Test Parallelization enabled for D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\bin\Debug\net9.0\DepthFirstSearchTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:42:31 PM] D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\bin\Debug\net9.0\DepthFirstSearchTest.dll
+[OUTPUT 2025-02-23 7:42:31 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:42:30 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:42:28 PM]   DepthFirstSearch -> D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearch\bin\Debug\net9.0\DepthFirstSearch.dll
+[OUTPUT 2025-02-23 7:42:27 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 7:42:30 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:42:29 PM] Test run for D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\bin\Debug\net9.0\DepthFirstSearchTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:42:29 PM]   DepthFirstSearchTest -> D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\bin\Debug\net9.0\DepthFirstSearchTest.dll
+[OUTPUT 2025-02-23 7:42:28 PM]   All projects are up-to-date for restore.
+[INFO 2025-02-23 7:42:26 PM] Command: dotnet test "D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\DepthFirstSearchTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:42:26 PM] Starting test for project: D:\Code2025\RavenWork\DepthFirstSearch\DepthFirstSearchTest\DepthFirstSearchTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
