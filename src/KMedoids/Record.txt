@@ -1,0 +1,156 @@
+<ActRecord>
+  <ProjectName>KMedoids</ProjectName>
+  <ProjectDescription>k‑medoids: Similar to k‑means but chooses actual data points (medoids) as centers</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>k‑medoids: Similar to k‑means but chooses actual data points (medoids) as centers</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\KMedoids</SolutionFolderPath>
+  <ProjectFolderName>KMedoids</ProjectFolderName>
+  <ProjectName>KMedoids</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:00:31 PM
+KMedoids</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:01:06 PM
+KMedoids</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KMedoids -> D:\Code2025\RavenWork\KMedoids\KMedoids\bin\Debug\net9.0\KMedoids.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+]]></string>
+    <string>WritePatch: Code is Complete.
+KMedoids</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:01:25 PM
+KMedoidsTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:02:02 PM
+KMedoidsTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\KMedoids\KMedoidsTest\KMedoidsTest.csproj (in 230 ms).
+  1 of 2 projects are up-to-date for restore.
+  KMedoids -> D:\Code2025\RavenWork\KMedoids\KMedoids\bin\Debug\net9.0\KMedoids.dll
+  KMedoidsTest -> D:\Code2025\RavenWork\KMedoids\KMedoidsTest\bin\Debug\net9.0\KMedoidsTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.59
+]]></string>
+    <string>WritePatch: Code is Complete.
+KMedoidsTest</string>
+    <string>[INFO 2025-02-23 12:02:19 PM] Starting test for project: D:\Code2025\RavenWork\KMedoids\KMedoidsTest\KMedoidsTest.csproj</string>
+    <string>[INFO 2025-02-23 12:02:19 PM] Starting test for project: D:\Code2025\RavenWork\KMedoids\KMedoidsTest\KMedoidsTest.csproj</string>
+    <string>[INFO 2025-02-23 12:02:19 PM] Starting test for project: D:\Code2025\RavenWork\KMedoids\KMedoidsTest\KMedoidsTest.csproj</string>
+    <string>[INFO 2025-02-23 12:02:19 PM] Starting test for project: D:\Code2025\RavenWork\KMedoids\KMedoidsTest\KMedoidsTest.csproj</string>
+    <string>[INFO 2025-02-23 12:02:19 PM] Starting test for project: D:\Code2025\RavenWork\KMedoids\KMedoidsTest\KMedoidsTest.csproj</string>
+    <string>[INFO 2025-02-23 12:02:19 PM] Starting test for project: D:\Code2025\RavenWork\KMedoids\KMedoidsTest\KMedoidsTest.csproj</string>
+    <string>[INFO 2025-02-23 12:02:19 PM] Starting test for project: D:\Code2025\RavenWork\KMedoids\KMedoidsTest\KMedoidsTest.csproj</string>
+    <string>[INFO 2025-02-23 12:02:19 PM] Starting test for project: D:\Code2025\RavenWork\KMedoids\KMedoidsTest\KMedoidsTest.csproj</string>
+    <string>[INFO 2025-02-23 12:02:19 PM] Starting test for project: D:\Code2025\RavenWork\KMedoids\KMedoidsTest\KMedoidsTest.csproj</string>
+    <string>[INFO 2025-02-23 12:02:19 PM] Starting test for project: D:\Code2025\RavenWork\KMedoids\KMedoidsTest\KMedoidsTest.csproj</string>
+    <string>[INFO 2025-02-23 12:02:19 PM] Starting test for project: D:\Code2025\RavenWork\KMedoids\KMedoidsTest\KMedoidsTest.csproj</string>
+    <string>[INFO 2025-02-23 12:02:19 PM] Starting test for project: D:\Code2025\RavenWork\KMedoids\KMedoidsTest\KMedoidsTest.csproj</string>
+    <string>[INFO 2025-02-23 12:02:19 PM] Starting test for project: D:\Code2025\RavenWork\KMedoids\KMedoidsTest\KMedoidsTest.csproj</string>
+    <string>[INFO 2025-02-23 12:02:19 PM] Starting test for project: D:\Code2025\RavenWork\KMedoids\KMedoidsTest\KMedoidsTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 12:02:23 PM] All tests passed successfully.
+[INFO 2025-02-23 12:02:23 PM] Test process completed. Duration: 3.80 seconds.
+[INFO 2025-02-23 12:02:23 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 12:02:23 PM]   Passed TestBasicClustering [5 ms]
+[OUTPUT 2025-02-23 12:02:23 PM]   Passed TestClusterWithEmptyPoints [5 ms]
+[OUTPUT 2025-02-23 12:02:22 PM] Test Parallelization enabled for D:\Code2025\RavenWork\KMedoids\KMedoidsTest\bin\Debug\net9.0\KMedoidsTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 12:02:21 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 12:02:21 PM] Test run for D:\Code2025\RavenWork\KMedoids\KMedoidsTest\bin\Debug\net9.0\KMedoidsTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 12:02:21 PM]   KMedoidsTest -> D:\Code2025\RavenWork\KMedoids\KMedoidsTest\bin\Debug\net9.0\KMedoidsTest.dll
+[OUTPUT 2025-02-23 12:02:20 PM]   KMedoids -> D:\Code2025\RavenWork\KMedoids\KMedoids\bin\Debug\net9.0\KMedoids.dll
+[OUTPUT 2025-02-23 12:02:20 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 12:02:22 PM] D:\Code2025\RavenWork\KMedoids\KMedoidsTest\bin\Debug\net9.0\KMedoidsTest.dll
+[OUTPUT 2025-02-23 12:02:22 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 12:02:21 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 12:02:20 PM]   Determining projects to restore...
+[INFO 2025-02-23 12:02:19 PM] Command: dotnet test "D:\Code2025\RavenWork\KMedoids\KMedoidsTest\KMedoidsTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 12:02:19 PM] Starting test for project: D:\Code2025\RavenWork\KMedoids\KMedoidsTest\KMedoidsTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 12:00:31 PM
+KMedoids
+
+WritePatch ran compiler. 2025-02-23 12:01:06 PM
+KMedoids
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KMedoids -> D:\Code2025\RavenWork\KMedoids\KMedoids\bin\Debug\net9.0\KMedoids.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+
+
+WritePatch: Code is Complete.
+KMedoids
+
+WritePatch Started CycleStep. 2025-02-23 12:01:25 PM
+KMedoidsTest
+
+WritePatch ran compiler. 2025-02-23 12:02:02 PM
+KMedoidsTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\KMedoids\KMedoidsTest\KMedoidsTest.csproj (in 230 ms).
+  1 of 2 projects are up-to-date for restore.
+  KMedoids -> D:\Code2025\RavenWork\KMedoids\KMedoids\bin\Debug\net9.0\KMedoids.dll
+  KMedoidsTest -> D:\Code2025\RavenWork\KMedoids\KMedoidsTest\bin\Debug\net9.0\KMedoidsTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.59
+
+
+WritePatch: Code is Complete.
+KMedoidsTest
+
+TestResult:
+[SUCCESS 2025-02-23 12:02:23 PM] All tests passed successfully.
+[INFO 2025-02-23 12:02:23 PM] Test process completed. Duration: 3.80 seconds.
+[INFO 2025-02-23 12:02:23 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 12:02:23 PM]   Passed TestBasicClustering [5 ms]
+[OUTPUT 2025-02-23 12:02:23 PM]   Passed TestClusterWithEmptyPoints [5 ms]
+[OUTPUT 2025-02-23 12:02:22 PM] Test Parallelization enabled for D:\Code2025\RavenWork\KMedoids\KMedoidsTest\bin\Debug\net9.0\KMedoidsTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 12:02:21 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 12:02:21 PM] Test run for D:\Code2025\RavenWork\KMedoids\KMedoidsTest\bin\Debug\net9.0\KMedoidsTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 12:02:21 PM]   KMedoidsTest -> D:\Code2025\RavenWork\KMedoids\KMedoidsTest\bin\Debug\net9.0\KMedoidsTest.dll
+[OUTPUT 2025-02-23 12:02:20 PM]   KMedoids -> D:\Code2025\RavenWork\KMedoids\KMedoids\bin\Debug\net9.0\KMedoids.dll
+[OUTPUT 2025-02-23 12:02:20 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 12:02:22 PM] D:\Code2025\RavenWork\KMedoids\KMedoidsTest\bin\Debug\net9.0\KMedoidsTest.dll
+[OUTPUT 2025-02-23 12:02:22 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 12:02:21 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 12:02:20 PM]   Determining projects to restore...
+[INFO 2025-02-23 12:02:19 PM] Command: dotnet test "D:\Code2025\RavenWork\KMedoids\KMedoidsTest\KMedoidsTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 12:02:19 PM] Starting test for project: D:\Code2025\RavenWork\KMedoids\KMedoidsTest\KMedoidsTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
