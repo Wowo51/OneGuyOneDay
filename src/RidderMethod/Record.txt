@@ -1,0 +1,391 @@
+<ActRecord>
+  <ProjectName>RidderMethod</ProjectName>
+  <ProjectDescription><![CDATA[Ridder's method – A bracketing algorithm for finding roots that uses exponential scaling for improved convergence.]]></ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification><![CDATA[Ridder's method – A bracketing algorithm for finding roots that uses exponential scaling for improved convergence.]]]]><![CDATA[></WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\RidderMethod</SolutionFolderPath>
+  <ProjectFolderName>RidderMethod</ProjectFolderName>
+  <ProjectName>RidderMethod</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 5:10:42 PM
+RidderMethod</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:11:35 PM
+RidderMethod</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RidderMethod -> D:\Code2025\RavenWork\RidderMethod\RidderMethod\bin\Debug\net9.0\RidderMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.26
+]]></string>
+    <string>WritePatch: Code is Complete.
+RidderMethod</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 5:12:04 PM
+RidderMethodTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:12:53 PM
+RidderMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodTest.csproj (in 463 ms).
+  1 of 2 projects are up-to-date for restore.
+  RidderMethod -> D:\Code2025\RavenWork\RidderMethod\RidderMethod\bin\Debug\net9.0\RidderMethod.dll
+D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodSolverTests.cs(13,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodTest.csproj]
+  RidderMethodTest -> D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\bin\Debug\net9.0\RidderMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodSolverTests.cs(13,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.84
+]]></string>
+    <string>WritePatch: Compile failed.
+RidderMethodTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 5:12:54 PM
+RidderMethodTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 5:12:54 PM
+RidderMethodTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:13:27 PM
+RidderMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RidderMethod -> D:\Code2025\RavenWork\RidderMethod\RidderMethod\bin\Debug\net9.0\RidderMethod.dll
+  RidderMethodTest -> D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\bin\Debug\net9.0\RidderMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.18
+]]></string>
+    <string>WritePatch: Code is not Complete.
+RidderMethodTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 5:13:39 PM
+RidderMethodTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 5:13:40 PM
+RidderMethodTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:14:34 PM
+RidderMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RidderMethod -> D:\Code2025\RavenWork\RidderMethod\RidderMethod\bin\Debug\net9.0\RidderMethod.dll
+D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodSolverTests.cs(13,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodTest.csproj]
+  RidderMethodTest -> D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\bin\Debug\net9.0\RidderMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodSolverTests.cs(13,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.42
+]]></string>
+    <string>WritePatch: Compile failed.
+RidderMethodTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 5:14:35 PM
+RidderMethodTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\RidderMethod\RidderMethodTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RidderMethod -> D:\Code2025\RavenWork\RidderMethod\RidderMethod\bin\Debug\net9.0\RidderMethod.dll
+D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodSolverTests.cs(13,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodTest.csproj]
+  RidderMethodTest -> D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\bin\Debug\net9.0\RidderMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodSolverTests.cs(13,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.42
+
+</CompilerResponse>
+2025-02-23 5:14:36 PM
+RidderMethodTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 5:14:38 PM
+RidderMethod</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RidderMethod -> D:\Code2025\RavenWork\RidderMethod\RidderMethod\bin\Debug\net9.0\RidderMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.61
+]]></string>
+    <string>WritePatch: Code is Complete.
+RidderMethod</string>
+    <string>WritePatch ran compiler. 2025-02-23 5:15:17 PM
+RidderMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RidderMethod -> D:\Code2025\RavenWork\RidderMethod\RidderMethod\bin\Debug\net9.0\RidderMethod.dll
+  RidderMethodTest -> D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\bin\Debug\net9.0\RidderMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.04
+]]></string>
+    <string>WritePatch: Code is Complete.
+RidderMethodTest</string>
+    <string>[INFO 2025-02-23 5:15:32 PM] Starting test for project: D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 5:15:32 PM] Starting test for project: D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 5:15:32 PM] Starting test for project: D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 5:15:32 PM] Starting test for project: D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 5:15:32 PM] Starting test for project: D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 5:15:32 PM] Starting test for project: D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 5:15:32 PM] Starting test for project: D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 5:15:32 PM] Starting test for project: D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 5:15:32 PM] Starting test for project: D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 5:15:32 PM] Starting test for project: D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 5:15:32 PM] Starting test for project: D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 5:15:32 PM] Starting test for project: D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 5:15:32 PM] Starting test for project: D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 5:15:39 PM]   Passed TestSquareFunctionPositiveRoot [7 ms]
+[OUTPUT 2025-02-23 5:15:38 PM] D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\bin\Debug\net9.0\RidderMethodTest.dll
+[OUTPUT 2025-02-23 5:15:37 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 5:15:37 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 5:15:35 PM]   RidderMethod -> D:\Code2025\RavenWork\RidderMethod\RidderMethod\bin\Debug\net9.0\RidderMethod.dll
+[OUTPUT 2025-02-23 5:15:38 PM] Test Parallelization enabled for D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\bin\Debug\net9.0\RidderMethodTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 5:15:36 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 5:15:36 PM] Test run for D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\bin\Debug\net9.0\RidderMethodTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 5:15:35 PM]   RidderMethodTest -> D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\bin\Debug\net9.0\RidderMethodTest.dll
+[OUTPUT 2025-02-23 5:15:34 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 5:15:33 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 5:15:39 PM] All tests passed successfully.
+[INFO 2025-02-23 5:15:39 PM] Test process completed. Duration: 6.86 seconds.
+[INFO 2025-02-23 5:15:39 PM] Process exited with code 0.
+[INFO 2025-02-23 5:15:32 PM] Command: dotnet test "D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 5:15:32 PM] Starting test for project: D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 5:10:42 PM
+RidderMethod
+
+WritePatch ran compiler. 2025-02-23 5:11:35 PM
+RidderMethod
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RidderMethod -> D:\Code2025\RavenWork\RidderMethod\RidderMethod\bin\Debug\net9.0\RidderMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.26
+
+
+WritePatch: Code is Complete.
+RidderMethod
+
+WritePatch Started CycleStep. 2025-02-23 5:12:04 PM
+RidderMethodTest
+
+WritePatch ran compiler. 2025-02-23 5:12:53 PM
+RidderMethodTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodTest.csproj (in 463 ms).
+  1 of 2 projects are up-to-date for restore.
+  RidderMethod -> D:\Code2025\RavenWork\RidderMethod\RidderMethod\bin\Debug\net9.0\RidderMethod.dll
+D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodSolverTests.cs(13,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodTest.csproj]
+  RidderMethodTest -> D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\bin\Debug\net9.0\RidderMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodSolverTests.cs(13,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.84
+
+
+WritePatch: Compile failed.
+RidderMethodTest
+
+Finished WritePatch cycle step.
+2025-02-23 5:12:54 PM
+RidderMethodTest
+
+WritePatch Started CycleStep. 2025-02-23 5:12:54 PM
+RidderMethodTest
+
+WritePatch ran compiler. 2025-02-23 5:13:27 PM
+RidderMethodTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RidderMethod -> D:\Code2025\RavenWork\RidderMethod\RidderMethod\bin\Debug\net9.0\RidderMethod.dll
+  RidderMethodTest -> D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\bin\Debug\net9.0\RidderMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.18
+
+
+WritePatch: Code is not Complete.
+RidderMethodTest
+
+Finished WritePatch cycle step.
+2025-02-23 5:13:39 PM
+RidderMethodTest
+
+WritePatch Started CycleStep. 2025-02-23 5:13:40 PM
+RidderMethodTest
+
+WritePatch ran compiler. 2025-02-23 5:14:34 PM
+RidderMethodTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RidderMethod -> D:\Code2025\RavenWork\RidderMethod\RidderMethod\bin\Debug\net9.0\RidderMethod.dll
+D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodSolverTests.cs(13,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodTest.csproj]
+  RidderMethodTest -> D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\bin\Debug\net9.0\RidderMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodSolverTests.cs(13,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.42
+
+
+WritePatch: Compile failed.
+RidderMethodTest
+
+Finished WritePatch cycle step.
+2025-02-23 5:14:35 PM
+RidderMethodTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\RidderMethod\RidderMethodTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RidderMethod -> D:\Code2025\RavenWork\RidderMethod\RidderMethod\bin\Debug\net9.0\RidderMethod.dll
+D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodSolverTests.cs(13,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodTest.csproj]
+  RidderMethodTest -> D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\bin\Debug\net9.0\RidderMethodTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodSolverTests.cs(13,54): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.42
+
+</CompilerResponse>
+2025-02-23 5:14:36 PM
+RidderMethodTest
+
+WritePatch ran compiler. 2025-02-23 5:14:38 PM
+RidderMethod
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RidderMethod -> D:\Code2025\RavenWork\RidderMethod\RidderMethod\bin\Debug\net9.0\RidderMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.61
+
+
+WritePatch: Code is Complete.
+RidderMethod
+
+WritePatch ran compiler. 2025-02-23 5:15:17 PM
+RidderMethodTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  RidderMethod -> D:\Code2025\RavenWork\RidderMethod\RidderMethod\bin\Debug\net9.0\RidderMethod.dll
+  RidderMethodTest -> D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\bin\Debug\net9.0\RidderMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.04
+
+
+WritePatch: Code is Complete.
+RidderMethodTest
+
+TestResult:
+[OUTPUT 2025-02-23 5:15:39 PM]   Passed TestSquareFunctionPositiveRoot [7 ms]
+[OUTPUT 2025-02-23 5:15:38 PM] D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\bin\Debug\net9.0\RidderMethodTest.dll
+[OUTPUT 2025-02-23 5:15:37 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 5:15:37 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 5:15:35 PM]   RidderMethod -> D:\Code2025\RavenWork\RidderMethod\RidderMethod\bin\Debug\net9.0\RidderMethod.dll
+[OUTPUT 2025-02-23 5:15:38 PM] Test Parallelization enabled for D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\bin\Debug\net9.0\RidderMethodTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 5:15:36 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 5:15:36 PM] Test run for D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\bin\Debug\net9.0\RidderMethodTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 5:15:35 PM]   RidderMethodTest -> D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\bin\Debug\net9.0\RidderMethodTest.dll
+[OUTPUT 2025-02-23 5:15:34 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 5:15:33 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 5:15:39 PM] All tests passed successfully.
+[INFO 2025-02-23 5:15:39 PM] Test process completed. Duration: 6.86 seconds.
+[INFO 2025-02-23 5:15:39 PM] Process exited with code 0.
+[INFO 2025-02-23 5:15:32 PM] Command: dotnet test "D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 5:15:32 PM] Starting test for project: D:\Code2025\RavenWork\RidderMethod\RidderMethodTest\RidderMethodTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
