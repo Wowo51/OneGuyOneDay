@@ -1,0 +1,342 @@
+<ActRecord>
+  <ProjectName>PowerIteration</ProjectName>
+  <ProjectDescription>Power iteration – A method for approximating the dominant eigenvalue and its associated eigenvector.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Power iteration – A method for approximating the dominant eigenvalue and its associated eigenvector.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\PowerIteration</SolutionFolderPath>
+  <ProjectFolderName>PowerIteration</ProjectFolderName>
+  <ProjectName>PowerIteration</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:42:11 PM
+PowerIteration</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:43:31 PM
+PowerIteration</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PowerIteration -> D:\Code2025\RavenWork\PowerIteration\PowerIteration\bin\Debug\net9.0\PowerIteration.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+]]></string>
+    <string>WritePatch: Code is Complete.
+PowerIteration</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:44:45 PM
+PowerIterationTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 12:45:51 PM
+PowerIterationTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:46:08 PM
+PowerIterationTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:47:13 PM
+PowerIterationTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj (in 235 ms).
+  1 of 2 projects are up-to-date for restore.
+  PowerIteration -> D:\Code2025\RavenWork\PowerIteration\PowerIteration\bin\Debug\net9.0\PowerIteration.dll
+D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationAlgorithmTests.cs(64,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj]
+D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationAlgorithmTests.cs(72,96): warning CS8604: Possible null reference argument for parameter 'matrix' in '(double eigenvalue, double[] eigenvector) PowerIterationAlgorithm.Compute(double[,] matrix, double[] initial, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj]
+D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationAlgorithmTests.cs(91,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj]
+D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationAlgorithmTests.cs(94,104): warning CS8604: Possible null reference argument for parameter 'initial' in '(double eigenvalue, double[] eigenvector) PowerIterationAlgorithm.Compute(double[,] matrix, double[] initial, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj]
+  PowerIterationTest -> D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\bin\Debug\net9.0\PowerIterationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationAlgorithmTests.cs(64,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj]
+D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationAlgorithmTests.cs(72,96): warning CS8604: Possible null reference argument for parameter 'matrix' in '(double eigenvalue, double[] eigenvector) PowerIterationAlgorithm.Compute(double[,] matrix, double[] initial, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj]
+D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationAlgorithmTests.cs(91,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj]
+D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationAlgorithmTests.cs(94,104): warning CS8604: Possible null reference argument for parameter 'initial' in '(double eigenvalue, double[] eigenvector) PowerIterationAlgorithm.Compute(double[,] matrix, double[] initial, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.64
+]]></string>
+    <string>WritePatch: Compile failed.
+PowerIterationTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 12:47:42 PM
+PowerIterationTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:47:52 PM
+PowerIterationTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:48:56 PM
+PowerIterationTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PowerIteration -> D:\Code2025\RavenWork\PowerIteration\PowerIteration\bin\Debug\net9.0\PowerIteration.dll
+D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationAlgorithmTests.cs(72,96): warning CS8604: Possible null reference argument for parameter 'matrix' in '(double eigenvalue, double[] eigenvector) PowerIterationAlgorithm.Compute(double[,] matrix, double[] initial, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj]
+D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationAlgorithmTests.cs(94,104): warning CS8604: Possible null reference argument for parameter 'initial' in '(double eigenvalue, double[] eigenvector) PowerIterationAlgorithm.Compute(double[,] matrix, double[] initial, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj]
+  PowerIterationTest -> D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\bin\Debug\net9.0\PowerIterationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationAlgorithmTests.cs(72,96): warning CS8604: Possible null reference argument for parameter 'matrix' in '(double eigenvalue, double[] eigenvector) PowerIterationAlgorithm.Compute(double[,] matrix, double[] initial, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj]
+D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationAlgorithmTests.cs(94,104): warning CS8604: Possible null reference argument for parameter 'initial' in '(double eigenvalue, double[] eigenvector) PowerIterationAlgorithm.Compute(double[,] matrix, double[] initial, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.35
+]]></string>
+    <string>WritePatch: Compile failed.
+PowerIterationTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 12:49:36 PM
+PowerIterationTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\PowerIteration\PowerIterationTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PowerIteration -> D:\Code2025\RavenWork\PowerIteration\PowerIteration\bin\Debug\net9.0\PowerIteration.dll
+D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationAlgorithmTests.cs(72,96): warning CS8604: Possible null reference argument for parameter 'matrix' in '(double eigenvalue, double[] eigenvector) PowerIterationAlgorithm.Compute(double[,] matrix, double[] initial, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj]
+D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationAlgorithmTests.cs(94,104): warning CS8604: Possible null reference argument for parameter 'initial' in '(double eigenvalue, double[] eigenvector) PowerIterationAlgorithm.Compute(double[,] matrix, double[] initial, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj]
+  PowerIterationTest -> D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\bin\Debug\net9.0\PowerIterationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationAlgorithmTests.cs(72,96): warning CS8604: Possible null reference argument for parameter 'matrix' in '(double eigenvalue, double[] eigenvector) PowerIterationAlgorithm.Compute(double[,] matrix, double[] initial, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj]
+D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationAlgorithmTests.cs(94,104): warning CS8604: Possible null reference argument for parameter 'initial' in '(double eigenvalue, double[] eigenvector) PowerIterationAlgorithm.Compute(double[,] matrix, double[] initial, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.35
+
+</CompilerResponse>
+2025-02-23 12:49:45 PM
+PowerIterationTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 12:49:55 PM
+PowerIteration</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PowerIteration -> D:\Code2025\RavenWork\PowerIteration\PowerIteration\bin\Debug\net9.0\PowerIteration.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.82
+]]></string>
+    <string>WritePatch: Code is Complete.
+PowerIteration</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:50:56 PM
+PowerIterationTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PowerIteration -> D:\Code2025\RavenWork\PowerIteration\PowerIteration\bin\Debug\net9.0\PowerIteration.dll
+  PowerIterationTest -> D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\bin\Debug\net9.0\PowerIterationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.20
+]]></string>
+    <string>WritePatch: Code is Complete.
+PowerIterationTest</string>
+    <string>[INFO 2025-02-23 12:52:19 PM] Starting test for project: D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj</string>
+    <string>[INFO 2025-02-23 12:52:19 PM] Starting test for project: D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj</string>
+    <string>[INFO 2025-02-23 12:52:19 PM] Starting test for project: D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 12:52:32 PM] All tests passed successfully.
+[INFO 2025-02-23 12:52:32 PM] Test process completed. Duration: 12.65 seconds.
+[INFO 2025-02-23 12:52:32 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 12:52:29 PM]   Determining projects to restore...
+[INFO 2025-02-23 12:52:19 PM] Command: dotnet test "D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 12:52:19 PM] Starting test for project: D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 12:42:11 PM
+PowerIteration
+
+WritePatch ran compiler. 2025-02-23 12:43:31 PM
+PowerIteration
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PowerIteration -> D:\Code2025\RavenWork\PowerIteration\PowerIteration\bin\Debug\net9.0\PowerIteration.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+
+
+WritePatch: Code is Complete.
+PowerIteration
+
+WritePatch Started CycleStep. 2025-02-23 12:44:45 PM
+PowerIterationTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 12:45:51 PM
+PowerIterationTest
+
+WritePatch Started CycleStep. 2025-02-23 12:46:08 PM
+PowerIterationTest
+
+WritePatch ran compiler. 2025-02-23 12:47:13 PM
+PowerIterationTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj (in 235 ms).
+  1 of 2 projects are up-to-date for restore.
+  PowerIteration -> D:\Code2025\RavenWork\PowerIteration\PowerIteration\bin\Debug\net9.0\PowerIteration.dll
+D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationAlgorithmTests.cs(64,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj]
+D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationAlgorithmTests.cs(72,96): warning CS8604: Possible null reference argument for parameter 'matrix' in '(double eigenvalue, double[] eigenvector) PowerIterationAlgorithm.Compute(double[,] matrix, double[] initial, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj]
+D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationAlgorithmTests.cs(91,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj]
+D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationAlgorithmTests.cs(94,104): warning CS8604: Possible null reference argument for parameter 'initial' in '(double eigenvalue, double[] eigenvector) PowerIterationAlgorithm.Compute(double[,] matrix, double[] initial, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj]
+  PowerIterationTest -> D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\bin\Debug\net9.0\PowerIterationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationAlgorithmTests.cs(64,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj]
+D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationAlgorithmTests.cs(72,96): warning CS8604: Possible null reference argument for parameter 'matrix' in '(double eigenvalue, double[] eigenvector) PowerIterationAlgorithm.Compute(double[,] matrix, double[] initial, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj]
+D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationAlgorithmTests.cs(91,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj]
+D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationAlgorithmTests.cs(94,104): warning CS8604: Possible null reference argument for parameter 'initial' in '(double eigenvalue, double[] eigenvector) PowerIterationAlgorithm.Compute(double[,] matrix, double[] initial, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.64
+
+
+WritePatch: Compile failed.
+PowerIterationTest
+
+Finished WritePatch cycle step.
+2025-02-23 12:47:42 PM
+PowerIterationTest
+
+WritePatch Started CycleStep. 2025-02-23 12:47:52 PM
+PowerIterationTest
+
+WritePatch ran compiler. 2025-02-23 12:48:56 PM
+PowerIterationTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PowerIteration -> D:\Code2025\RavenWork\PowerIteration\PowerIteration\bin\Debug\net9.0\PowerIteration.dll
+D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationAlgorithmTests.cs(72,96): warning CS8604: Possible null reference argument for parameter 'matrix' in '(double eigenvalue, double[] eigenvector) PowerIterationAlgorithm.Compute(double[,] matrix, double[] initial, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj]
+D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationAlgorithmTests.cs(94,104): warning CS8604: Possible null reference argument for parameter 'initial' in '(double eigenvalue, double[] eigenvector) PowerIterationAlgorithm.Compute(double[,] matrix, double[] initial, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj]
+  PowerIterationTest -> D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\bin\Debug\net9.0\PowerIterationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationAlgorithmTests.cs(72,96): warning CS8604: Possible null reference argument for parameter 'matrix' in '(double eigenvalue, double[] eigenvector) PowerIterationAlgorithm.Compute(double[,] matrix, double[] initial, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj]
+D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationAlgorithmTests.cs(94,104): warning CS8604: Possible null reference argument for parameter 'initial' in '(double eigenvalue, double[] eigenvector) PowerIterationAlgorithm.Compute(double[,] matrix, double[] initial, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.35
+
+
+WritePatch: Compile failed.
+PowerIterationTest
+
+Finished WritePatch cycle step.
+2025-02-23 12:49:36 PM
+PowerIterationTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\PowerIteration\PowerIterationTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PowerIteration -> D:\Code2025\RavenWork\PowerIteration\PowerIteration\bin\Debug\net9.0\PowerIteration.dll
+D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationAlgorithmTests.cs(72,96): warning CS8604: Possible null reference argument for parameter 'matrix' in '(double eigenvalue, double[] eigenvector) PowerIterationAlgorithm.Compute(double[,] matrix, double[] initial, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj]
+D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationAlgorithmTests.cs(94,104): warning CS8604: Possible null reference argument for parameter 'initial' in '(double eigenvalue, double[] eigenvector) PowerIterationAlgorithm.Compute(double[,] matrix, double[] initial, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj]
+  PowerIterationTest -> D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\bin\Debug\net9.0\PowerIterationTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationAlgorithmTests.cs(72,96): warning CS8604: Possible null reference argument for parameter 'matrix' in '(double eigenvalue, double[] eigenvector) PowerIterationAlgorithm.Compute(double[,] matrix, double[] initial, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj]
+D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationAlgorithmTests.cs(94,104): warning CS8604: Possible null reference argument for parameter 'initial' in '(double eigenvalue, double[] eigenvector) PowerIterationAlgorithm.Compute(double[,] matrix, double[] initial, double tolerance, int maxIterations)'. [D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.35
+
+</CompilerResponse>
+2025-02-23 12:49:45 PM
+PowerIterationTest
+
+WritePatch ran compiler. 2025-02-23 12:49:55 PM
+PowerIteration
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PowerIteration -> D:\Code2025\RavenWork\PowerIteration\PowerIteration\bin\Debug\net9.0\PowerIteration.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.82
+
+
+WritePatch: Code is Complete.
+PowerIteration
+
+WritePatch ran compiler. 2025-02-23 12:50:56 PM
+PowerIterationTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PowerIteration -> D:\Code2025\RavenWork\PowerIteration\PowerIteration\bin\Debug\net9.0\PowerIteration.dll
+  PowerIterationTest -> D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\bin\Debug\net9.0\PowerIterationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.20
+
+
+WritePatch: Code is Complete.
+PowerIterationTest
+
+TestResult:
+[SUCCESS 2025-02-23 12:52:32 PM] All tests passed successfully.
+[INFO 2025-02-23 12:52:32 PM] Test process completed. Duration: 12.65 seconds.
+[INFO 2025-02-23 12:52:32 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 12:52:29 PM]   Determining projects to restore...
+[INFO 2025-02-23 12:52:19 PM] Command: dotnet test "D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 12:52:19 PM] Starting test for project: D:\Code2025\RavenWork\PowerIteration\PowerIterationTest\PowerIterationTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
