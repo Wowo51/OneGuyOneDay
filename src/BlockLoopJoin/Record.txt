@@ -1,0 +1,414 @@
+<ActRecord>
+  <ProjectName>BlockLoopJoin</ProjectName>
+  <ProjectDescription>Block nested loop join</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Block nested loop join</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\BlockLoopJoin</SolutionFolderPath>
+  <ProjectFolderName>BlockLoopJoin</ProjectFolderName>
+  <ProjectName>BlockLoopJoin</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:45:34 AM
+BlockLoopJoin</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:46:05 AM
+BlockLoopJoin</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BlockLoopJoin -> D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoin\bin\Debug\net9.0\BlockLoopJoin.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.09
+]]></string>
+    <string>WritePatch: Code is Complete.
+BlockLoopJoin</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:46:40 AM
+BlockLoopJoinTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:47:41 AM
+BlockLoopJoinTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj (in 313 ms).
+  1 of 2 projects are up-to-date for restore.
+  BlockLoopJoin -> D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoin\bin\Debug\net9.0\BlockLoopJoin.dll
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(14,37): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(21,86): warning CS8604: Possible null reference argument for parameter 'left' in 'IEnumerable<(int, int)> BlockNestedLoopJoin.Join<int, int, int>(IEnumerable<int> left, IEnumerable<int> right, Func<int, int> leftKeySelector, Func<int, int> rightKeySelector, int blockSize)'. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(35,38): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(36,92): warning CS8604: Possible null reference argument for parameter 'right' in 'IEnumerable<(int, int)> BlockNestedLoopJoin.Join<int, int, int>(IEnumerable<int> left, IEnumerable<int> right, Func<int, int> leftKeySelector, Func<int, int> rightKeySelector, int blockSize)'. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(56,100): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(59,114): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+  BlockLoopJoinTest -> D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\bin\Debug\net9.0\BlockLoopJoinTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(14,37): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(21,86): warning CS8604: Possible null reference argument for parameter 'left' in 'IEnumerable<(int, int)> BlockNestedLoopJoin.Join<int, int, int>(IEnumerable<int> left, IEnumerable<int> right, Func<int, int> leftKeySelector, Func<int, int> rightKeySelector, int blockSize)'. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(35,38): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(36,92): warning CS8604: Possible null reference argument for parameter 'right' in 'IEnumerable<(int, int)> BlockNestedLoopJoin.Join<int, int, int>(IEnumerable<int> left, IEnumerable<int> right, Func<int, int> leftKeySelector, Func<int, int> rightKeySelector, int blockSize)'. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(56,100): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(59,114): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+    6 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.48
+]]></string>
+    <string>WritePatch: Compile failed.
+BlockLoopJoinTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:47:42 AM
+BlockLoopJoinTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:47:42 AM
+BlockLoopJoinTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:48:40 AM
+BlockLoopJoinTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BlockLoopJoin -> D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoin\bin\Debug\net9.0\BlockLoopJoin.dll
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(21,86): warning CS8604: Possible null reference argument for parameter 'left' in 'IEnumerable<(int, int)> BlockNestedLoopJoin.Join<int, int, int>(IEnumerable<int> left, IEnumerable<int> right, Func<int, int> leftKeySelector, Func<int, int> rightKeySelector, int blockSize)'. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(36,92): warning CS8604: Possible null reference argument for parameter 'right' in 'IEnumerable<(int, int)> BlockNestedLoopJoin.Join<int, int, int>(IEnumerable<int> left, IEnumerable<int> right, Func<int, int> leftKeySelector, Func<int, int> rightKeySelector, int blockSize)'. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(56,100): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(59,114): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+  BlockLoopJoinTest -> D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\bin\Debug\net9.0\BlockLoopJoinTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(21,86): warning CS8604: Possible null reference argument for parameter 'left' in 'IEnumerable<(int, int)> BlockNestedLoopJoin.Join<int, int, int>(IEnumerable<int> left, IEnumerable<int> right, Func<int, int> leftKeySelector, Func<int, int> rightKeySelector, int blockSize)'. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(36,92): warning CS8604: Possible null reference argument for parameter 'right' in 'IEnumerable<(int, int)> BlockNestedLoopJoin.Join<int, int, int>(IEnumerable<int> left, IEnumerable<int> right, Func<int, int> leftKeySelector, Func<int, int> rightKeySelector, int blockSize)'. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(56,100): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(59,114): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.67
+]]></string>
+    <string>WritePatch: Compile failed.
+BlockLoopJoinTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:48:41 AM
+BlockLoopJoinTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:48:41 AM
+BlockLoopJoinTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:49:23 AM
+BlockLoopJoinTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BlockLoopJoin -> D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoin\bin\Debug\net9.0\BlockLoopJoin.dll
+  BlockLoopJoinTest -> D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\bin\Debug\net9.0\BlockLoopJoinTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.53
+]]></string>
+    <string>WritePatch: Code is not Complete.
+BlockLoopJoinTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:49:55 AM
+BlockLoopJoinTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BlockLoopJoin -> D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoin\bin\Debug\net9.0\BlockLoopJoin.dll
+  BlockLoopJoinTest -> D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\bin\Debug\net9.0\BlockLoopJoinTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.53
+
+</CompilerResponse>
+2025-02-23 8:49:55 AM
+BlockLoopJoinTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 8:49:57 AM
+BlockLoopJoin</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BlockLoopJoin -> D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoin\bin\Debug\net9.0\BlockLoopJoin.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.19
+]]></string>
+    <string>WritePatch: Code is Complete.
+BlockLoopJoin</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:50:16 AM
+BlockLoopJoinTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BlockLoopJoin -> D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoin\bin\Debug\net9.0\BlockLoopJoin.dll
+  BlockLoopJoinTest -> D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\bin\Debug\net9.0\BlockLoopJoinTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.14
+]]></string>
+    <string>WritePatch: Code is Complete.
+BlockLoopJoinTest</string>
+    <string>[INFO 2025-02-23 8:50:32 AM] Starting test for project: D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj</string>
+    <string>[INFO 2025-02-23 8:50:32 AM] Starting test for project: D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj</string>
+    <string>[INFO 2025-02-23 8:50:32 AM] Starting test for project: D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj</string>
+    <string>[INFO 2025-02-23 8:50:32 AM] Starting test for project: D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj</string>
+    <string>[INFO 2025-02-23 8:50:32 AM] Starting test for project: D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj</string>
+    <string>[INFO 2025-02-23 8:50:32 AM] Starting test for project: D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj</string>
+    <string>[INFO 2025-02-23 8:50:32 AM] Starting test for project: D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj</string>
+    <string>[INFO 2025-02-23 8:50:32 AM] Starting test for project: D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj</string>
+    <string>[INFO 2025-02-23 8:50:32 AM] Starting test for project: D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj</string>
+    <string>[INFO 2025-02-23 8:50:32 AM] Starting test for project: D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj</string>
+    <string>[INFO 2025-02-23 8:50:32 AM] Starting test for project: D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj</string>
+    <string>[INFO 2025-02-23 8:50:32 AM] Starting test for project: D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 8:50:38 AM] Test Parallelization enabled for D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\bin\Debug\net9.0\BlockLoopJoinTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 8:50:35 AM]   BlockLoopJoin -> D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoin\bin\Debug\net9.0\BlockLoopJoin.dll
+[OUTPUT 2025-02-23 8:50:34 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:50:37 AM] D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\bin\Debug\net9.0\BlockLoopJoinTest.dll
+[OUTPUT 2025-02-23 8:50:37 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 8:50:37 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:50:36 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:50:36 AM] Test run for D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\bin\Debug\net9.0\BlockLoopJoinTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:50:35 AM]   BlockLoopJoinTest -> D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\bin\Debug\net9.0\BlockLoopJoinTest.dll
+[OUTPUT 2025-02-23 8:50:33 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 8:50:37 AM] All tests passed successfully.
+[INFO 2025-02-23 8:50:37 AM] Test process completed. Duration: 5.21 seconds.
+[INFO 2025-02-23 8:50:37 AM] Process exited with code 0.
+[INFO 2025-02-23 8:50:32 AM] Command: dotnet test "D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:50:32 AM] Starting test for project: D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 8:45:34 AM
+BlockLoopJoin
+
+WritePatch ran compiler. 2025-02-23 8:46:05 AM
+BlockLoopJoin
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BlockLoopJoin -> D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoin\bin\Debug\net9.0\BlockLoopJoin.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.09
+
+
+WritePatch: Code is Complete.
+BlockLoopJoin
+
+WritePatch Started CycleStep. 2025-02-23 8:46:40 AM
+BlockLoopJoinTest
+
+WritePatch ran compiler. 2025-02-23 8:47:41 AM
+BlockLoopJoinTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj (in 313 ms).
+  1 of 2 projects are up-to-date for restore.
+  BlockLoopJoin -> D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoin\bin\Debug\net9.0\BlockLoopJoin.dll
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(14,37): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(21,86): warning CS8604: Possible null reference argument for parameter 'left' in 'IEnumerable<(int, int)> BlockNestedLoopJoin.Join<int, int, int>(IEnumerable<int> left, IEnumerable<int> right, Func<int, int> leftKeySelector, Func<int, int> rightKeySelector, int blockSize)'. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(35,38): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(36,92): warning CS8604: Possible null reference argument for parameter 'right' in 'IEnumerable<(int, int)> BlockNestedLoopJoin.Join<int, int, int>(IEnumerable<int> left, IEnumerable<int> right, Func<int, int> leftKeySelector, Func<int, int> rightKeySelector, int blockSize)'. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(56,100): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(59,114): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+  BlockLoopJoinTest -> D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\bin\Debug\net9.0\BlockLoopJoinTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(14,37): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(21,86): warning CS8604: Possible null reference argument for parameter 'left' in 'IEnumerable<(int, int)> BlockNestedLoopJoin.Join<int, int, int>(IEnumerable<int> left, IEnumerable<int> right, Func<int, int> leftKeySelector, Func<int, int> rightKeySelector, int blockSize)'. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(35,38): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(36,92): warning CS8604: Possible null reference argument for parameter 'right' in 'IEnumerable<(int, int)> BlockNestedLoopJoin.Join<int, int, int>(IEnumerable<int> left, IEnumerable<int> right, Func<int, int> leftKeySelector, Func<int, int> rightKeySelector, int blockSize)'. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(56,100): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(59,114): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+    6 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.48
+
+
+WritePatch: Compile failed.
+BlockLoopJoinTest
+
+Finished WritePatch cycle step.
+2025-02-23 8:47:42 AM
+BlockLoopJoinTest
+
+WritePatch Started CycleStep. 2025-02-23 8:47:42 AM
+BlockLoopJoinTest
+
+WritePatch ran compiler. 2025-02-23 8:48:40 AM
+BlockLoopJoinTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BlockLoopJoin -> D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoin\bin\Debug\net9.0\BlockLoopJoin.dll
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(21,86): warning CS8604: Possible null reference argument for parameter 'left' in 'IEnumerable<(int, int)> BlockNestedLoopJoin.Join<int, int, int>(IEnumerable<int> left, IEnumerable<int> right, Func<int, int> leftKeySelector, Func<int, int> rightKeySelector, int blockSize)'. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(36,92): warning CS8604: Possible null reference argument for parameter 'right' in 'IEnumerable<(int, int)> BlockNestedLoopJoin.Join<int, int, int>(IEnumerable<int> left, IEnumerable<int> right, Func<int, int> leftKeySelector, Func<int, int> rightKeySelector, int blockSize)'. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(56,100): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(59,114): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+  BlockLoopJoinTest -> D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\bin\Debug\net9.0\BlockLoopJoinTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(21,86): warning CS8604: Possible null reference argument for parameter 'left' in 'IEnumerable<(int, int)> BlockNestedLoopJoin.Join<int, int, int>(IEnumerable<int> left, IEnumerable<int> right, Func<int, int> leftKeySelector, Func<int, int> rightKeySelector, int blockSize)'. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(36,92): warning CS8604: Possible null reference argument for parameter 'right' in 'IEnumerable<(int, int)> BlockNestedLoopJoin.Join<int, int, int>(IEnumerable<int> left, IEnumerable<int> right, Func<int, int> leftKeySelector, Func<int, int> rightKeySelector, int blockSize)'. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(56,100): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinUnitTests.cs(59,114): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.67
+
+
+WritePatch: Compile failed.
+BlockLoopJoinTest
+
+Finished WritePatch cycle step.
+2025-02-23 8:48:41 AM
+BlockLoopJoinTest
+
+WritePatch Started CycleStep. 2025-02-23 8:48:41 AM
+BlockLoopJoinTest
+
+WritePatch ran compiler. 2025-02-23 8:49:23 AM
+BlockLoopJoinTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BlockLoopJoin -> D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoin\bin\Debug\net9.0\BlockLoopJoin.dll
+  BlockLoopJoinTest -> D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\bin\Debug\net9.0\BlockLoopJoinTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.53
+
+
+WritePatch: Code is not Complete.
+BlockLoopJoinTest
+
+Finished WritePatch cycle step.
+2025-02-23 8:49:55 AM
+BlockLoopJoinTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BlockLoopJoin -> D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoin\bin\Debug\net9.0\BlockLoopJoin.dll
+  BlockLoopJoinTest -> D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\bin\Debug\net9.0\BlockLoopJoinTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.53
+
+</CompilerResponse>
+2025-02-23 8:49:55 AM
+BlockLoopJoinTest
+
+WritePatch ran compiler. 2025-02-23 8:49:57 AM
+BlockLoopJoin
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BlockLoopJoin -> D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoin\bin\Debug\net9.0\BlockLoopJoin.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.19
+
+
+WritePatch: Code is Complete.
+BlockLoopJoin
+
+WritePatch ran compiler. 2025-02-23 8:50:16 AM
+BlockLoopJoinTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BlockLoopJoin -> D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoin\bin\Debug\net9.0\BlockLoopJoin.dll
+  BlockLoopJoinTest -> D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\bin\Debug\net9.0\BlockLoopJoinTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.14
+
+
+WritePatch: Code is Complete.
+BlockLoopJoinTest
+
+TestResult:
+[OUTPUT 2025-02-23 8:50:38 AM] Test Parallelization enabled for D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\bin\Debug\net9.0\BlockLoopJoinTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 8:50:35 AM]   BlockLoopJoin -> D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoin\bin\Debug\net9.0\BlockLoopJoin.dll
+[OUTPUT 2025-02-23 8:50:34 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:50:37 AM] D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\bin\Debug\net9.0\BlockLoopJoinTest.dll
+[OUTPUT 2025-02-23 8:50:37 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 8:50:37 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:50:36 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:50:36 AM] Test run for D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\bin\Debug\net9.0\BlockLoopJoinTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:50:35 AM]   BlockLoopJoinTest -> D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\bin\Debug\net9.0\BlockLoopJoinTest.dll
+[OUTPUT 2025-02-23 8:50:33 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 8:50:37 AM] All tests passed successfully.
+[INFO 2025-02-23 8:50:37 AM] Test process completed. Duration: 5.21 seconds.
+[INFO 2025-02-23 8:50:37 AM] Process exited with code 0.
+[INFO 2025-02-23 8:50:32 AM] Command: dotnet test "D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:50:32 AM] Starting test for project: D:\Code2025\RavenWork\BlockLoopJoin\BlockLoopJoinTest\BlockLoopJoinTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
