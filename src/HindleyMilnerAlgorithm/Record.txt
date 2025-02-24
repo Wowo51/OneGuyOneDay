@@ -1,0 +1,438 @@
+<ActRecord>
+  <ProjectName>HindleyMilnerAlgorithm</ProjectName>
+  <ProjectDescription>Hindley–Milner type inference algorithm</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Hindley–Milner type inference algorithm</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\HindleyMilnerAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>HindleyMilnerAlgorithm</ProjectFolderName>
+  <ProjectName>HindleyMilnerAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:33:49 AM
+HindleyMilnerAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:35:53 AM
+HindleyMilnerAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HindleyMilnerAlgorithm -> D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithm\bin\Debug\net9.0\HindleyMilnerAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+]]></string>
+    <string>WritePatch: Code is not Complete.
+HindleyMilnerAlgorithm</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:36:23 AM
+HindleyMilnerAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:36:23 AM
+HindleyMilnerAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:37:12 AM
+HindleyMilnerAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HindleyMilnerAlgorithm -> D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithm\bin\Debug\net9.0\HindleyMilnerAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+]]></string>
+    <string>WritePatch: Code is Complete.
+HindleyMilnerAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:37:48 AM
+HindleyMilnerAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:40:00 AM
+HindleyMilnerAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj (in 271 ms).
+  1 of 2 projects are up-to-date for restore.
+  HindleyMilnerAlgorithm -> D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithm\bin\Debug\net9.0\HindleyMilnerAlgorithm.dll
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(32,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(33,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(51,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(52,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(69,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(70,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+  HindleyMilnerAlgorithmTest -> D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\bin\Debug\net9.0\HindleyMilnerAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(32,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(33,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(51,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(52,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(69,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(70,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+    6 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.88
+]]></string>
+    <string>WritePatch: Compile failed.
+HindleyMilnerAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:40:05 AM
+HindleyMilnerAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:40:06 AM
+HindleyMilnerAlgorithmTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 11:40:52 AM
+HindleyMilnerAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:40:53 AM
+HindleyMilnerAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:43:29 AM
+HindleyMilnerAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HindleyMilnerAlgorithm -> D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithm\bin\Debug\net9.0\HindleyMilnerAlgorithm.dll
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(32,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(33,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(51,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(52,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(69,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(70,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+  HindleyMilnerAlgorithmTest -> D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\bin\Debug\net9.0\HindleyMilnerAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(32,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(33,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(51,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(52,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(69,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(70,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+    6 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.33
+]]></string>
+    <string>WritePatch: Compile failed.
+HindleyMilnerAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:43:32 AM
+HindleyMilnerAlgorithmTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HindleyMilnerAlgorithm -> D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithm\bin\Debug\net9.0\HindleyMilnerAlgorithm.dll
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(32,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(33,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(51,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(52,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(69,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(70,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+  HindleyMilnerAlgorithmTest -> D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\bin\Debug\net9.0\HindleyMilnerAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(32,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(33,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(51,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(52,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(69,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(70,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+    6 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.33
+
+</CompilerResponse>
+2025-02-23 11:43:34 AM
+HindleyMilnerAlgorithmTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 11:43:37 AM
+HindleyMilnerAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HindleyMilnerAlgorithm -> D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithm\bin\Debug\net9.0\HindleyMilnerAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.05
+]]></string>
+    <string>WritePatch: Code is Complete.
+HindleyMilnerAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:44:04 AM
+HindleyMilnerAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HindleyMilnerAlgorithm -> D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithm\bin\Debug\net9.0\HindleyMilnerAlgorithm.dll
+  HindleyMilnerAlgorithmTest -> D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\bin\Debug\net9.0\HindleyMilnerAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.19
+]]></string>
+    <string>WritePatch: Code is Complete.
+HindleyMilnerAlgorithmTest</string>
+    <string>[INFO 2025-02-23 11:44:29 AM] Starting test for project: D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:44:29 AM] Starting test for project: D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:44:29 AM] Starting test for project: D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:44:29 AM] Starting test for project: D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:44:29 AM] Starting test for project: D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:44:29 AM] Starting test for project: D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 11:44:35 AM] All tests passed successfully.
+[INFO 2025-02-23 11:44:35 AM] Test process completed. Duration: 5.86 seconds.
+[INFO 2025-02-23 11:44:35 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 11:44:37 AM]   HindleyMilnerAlgorithmTest -> D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\bin\Debug\net9.0\HindleyMilnerAlgorithmTest.dll
+[OUTPUT 2025-02-23 11:44:34 AM]   HindleyMilnerAlgorithm -> D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithm\bin\Debug\net9.0\HindleyMilnerAlgorithm.dll
+[OUTPUT 2025-02-23 11:44:32 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:44:31 AM]   Determining projects to restore...
+[INFO 2025-02-23 11:44:29 AM] Command: dotnet test "D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:44:29 AM] Starting test for project: D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 11:33:49 AM
+HindleyMilnerAlgorithm
+
+WritePatch ran compiler. 2025-02-23 11:35:53 AM
+HindleyMilnerAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HindleyMilnerAlgorithm -> D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithm\bin\Debug\net9.0\HindleyMilnerAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+
+
+WritePatch: Code is not Complete.
+HindleyMilnerAlgorithm
+
+Finished WritePatch cycle step.
+2025-02-23 11:36:23 AM
+HindleyMilnerAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 11:36:23 AM
+HindleyMilnerAlgorithm
+
+WritePatch ran compiler. 2025-02-23 11:37:12 AM
+HindleyMilnerAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HindleyMilnerAlgorithm -> D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithm\bin\Debug\net9.0\HindleyMilnerAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+
+
+WritePatch: Code is Complete.
+HindleyMilnerAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 11:37:48 AM
+HindleyMilnerAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 11:40:00 AM
+HindleyMilnerAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj (in 271 ms).
+  1 of 2 projects are up-to-date for restore.
+  HindleyMilnerAlgorithm -> D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithm\bin\Debug\net9.0\HindleyMilnerAlgorithm.dll
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(32,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(33,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(51,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(52,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(69,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(70,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+  HindleyMilnerAlgorithmTest -> D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\bin\Debug\net9.0\HindleyMilnerAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(32,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(33,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(51,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(52,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(69,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(70,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+    6 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.88
+
+
+WritePatch: Compile failed.
+HindleyMilnerAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:40:05 AM
+HindleyMilnerAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 11:40:06 AM
+HindleyMilnerAlgorithmTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 11:40:52 AM
+HindleyMilnerAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 11:40:53 AM
+HindleyMilnerAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 11:43:29 AM
+HindleyMilnerAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HindleyMilnerAlgorithm -> D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithm\bin\Debug\net9.0\HindleyMilnerAlgorithm.dll
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(32,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(33,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(51,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(52,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(69,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(70,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+  HindleyMilnerAlgorithmTest -> D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\bin\Debug\net9.0\HindleyMilnerAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(32,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(33,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(51,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(52,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(69,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(70,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+    6 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.33
+
+
+WritePatch: Compile failed.
+HindleyMilnerAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:43:32 AM
+HindleyMilnerAlgorithmTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HindleyMilnerAlgorithm -> D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithm\bin\Debug\net9.0\HindleyMilnerAlgorithm.dll
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(32,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(33,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(51,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(52,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(69,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(70,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+  HindleyMilnerAlgorithmTest -> D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\bin\Debug\net9.0\HindleyMilnerAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(32,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(33,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(51,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(52,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(69,32): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTests.cs(70,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj]
+    6 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.33
+
+</CompilerResponse>
+2025-02-23 11:43:34 AM
+HindleyMilnerAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 11:43:37 AM
+HindleyMilnerAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HindleyMilnerAlgorithm -> D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithm\bin\Debug\net9.0\HindleyMilnerAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.05
+
+
+WritePatch: Code is Complete.
+HindleyMilnerAlgorithm
+
+WritePatch ran compiler. 2025-02-23 11:44:04 AM
+HindleyMilnerAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HindleyMilnerAlgorithm -> D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithm\bin\Debug\net9.0\HindleyMilnerAlgorithm.dll
+  HindleyMilnerAlgorithmTest -> D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\bin\Debug\net9.0\HindleyMilnerAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.19
+
+
+WritePatch: Code is Complete.
+HindleyMilnerAlgorithmTest
+
+TestResult:
+[SUCCESS 2025-02-23 11:44:35 AM] All tests passed successfully.
+[INFO 2025-02-23 11:44:35 AM] Test process completed. Duration: 5.86 seconds.
+[INFO 2025-02-23 11:44:35 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 11:44:37 AM]   HindleyMilnerAlgorithmTest -> D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\bin\Debug\net9.0\HindleyMilnerAlgorithmTest.dll
+[OUTPUT 2025-02-23 11:44:34 AM]   HindleyMilnerAlgorithm -> D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithm\bin\Debug\net9.0\HindleyMilnerAlgorithm.dll
+[OUTPUT 2025-02-23 11:44:32 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:44:31 AM]   Determining projects to restore...
+[INFO 2025-02-23 11:44:29 AM] Command: dotnet test "D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:44:29 AM] Starting test for project: D:\Code2025\RavenWork\HindleyMilnerAlgorithm\HindleyMilnerAlgorithmTest\HindleyMilnerAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
