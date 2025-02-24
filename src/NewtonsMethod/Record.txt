@@ -1,0 +1,111 @@
+<ActRecord>
+  <ProjectName>NewtonsMethod</ProjectName>
+  <ProjectDescription>Newton’s method – An iterative procedure for finding roots of a real-valued function.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Newton’s method – An iterative procedure for finding roots of a real-valued function.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\NewtonsMethod</SolutionFolderPath>
+  <ProjectFolderName>NewtonsMethod</ProjectFolderName>
+  <ProjectName>NewtonsMethod</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch ran compiler. 2025-02-23 12:42:20 PM
+NewtonsMethod</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  NewtonsMethod -> D:\Code2025\RavenWork\NewtonsMethod\NewtonsMethod\bin\Debug\net9.0\NewtonsMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.00
+]]></string>
+    <string>WritePatch: Code is Complete.
+NewtonsMethod</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:43:49 PM
+NewtonsMethodTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  NewtonsMethod -> D:\Code2025\RavenWork\NewtonsMethod\NewtonsMethod\bin\Debug\net9.0\NewtonsMethod.dll
+  NewtonsMethodTest -> D:\Code2025\RavenWork\NewtonsMethod\NewtonsMethodTest\bin\Debug\net9.0\NewtonsMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.22
+]]></string>
+    <string>WritePatch: Code is Complete.
+NewtonsMethodTest</string>
+    <string>[INFO 2025-02-23 12:44:44 PM] Starting test for project: D:\Code2025\RavenWork\NewtonsMethod\NewtonsMethodTest\NewtonsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 12:44:44 PM] Starting test for project: D:\Code2025\RavenWork\NewtonsMethod\NewtonsMethodTest\NewtonsMethodTest.csproj</string>
+    <string>[INFO 2025-02-23 12:44:44 PM] Starting test for project: D:\Code2025\RavenWork\NewtonsMethod\NewtonsMethodTest\NewtonsMethodTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 12:44:58 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 12:45:01 PM] All tests passed successfully.
+[INFO 2025-02-23 12:45:01 PM] Test process completed. Duration: 17.50 seconds.
+[INFO 2025-02-23 12:45:01 PM] Process exited with code 0.
+[INFO 2025-02-23 12:44:44 PM] Command: dotnet test "D:\Code2025\RavenWork\NewtonsMethod\NewtonsMethodTest\NewtonsMethodTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 12:44:44 PM] Starting test for project: D:\Code2025\RavenWork\NewtonsMethod\NewtonsMethodTest\NewtonsMethodTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch ran compiler. 2025-02-23 12:42:20 PM
+NewtonsMethod
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  NewtonsMethod -> D:\Code2025\RavenWork\NewtonsMethod\NewtonsMethod\bin\Debug\net9.0\NewtonsMethod.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.00
+
+
+WritePatch: Code is Complete.
+NewtonsMethod
+
+WritePatch ran compiler. 2025-02-23 12:43:49 PM
+NewtonsMethodTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  NewtonsMethod -> D:\Code2025\RavenWork\NewtonsMethod\NewtonsMethod\bin\Debug\net9.0\NewtonsMethod.dll
+  NewtonsMethodTest -> D:\Code2025\RavenWork\NewtonsMethod\NewtonsMethodTest\bin\Debug\net9.0\NewtonsMethodTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.22
+
+
+WritePatch: Code is Complete.
+NewtonsMethodTest
+
+TestResult:
+[OUTPUT 2025-02-23 12:44:58 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 12:45:01 PM] All tests passed successfully.
+[INFO 2025-02-23 12:45:01 PM] Test process completed. Duration: 17.50 seconds.
+[INFO 2025-02-23 12:45:01 PM] Process exited with code 0.
+[INFO 2025-02-23 12:44:44 PM] Command: dotnet test "D:\Code2025\RavenWork\NewtonsMethod\NewtonsMethodTest\NewtonsMethodTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 12:44:44 PM] Starting test for project: D:\Code2025\RavenWork\NewtonsMethod\NewtonsMethodTest\NewtonsMethodTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
