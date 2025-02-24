@@ -1,0 +1,372 @@
+<ActRecord>
+  <ProjectName>GibbsSampling</ProjectName>
+  <ProjectDescription>Gibbs sampling – A Markov chain Monte Carlo algorithm for generating samples from a joint probability distribution.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Gibbs sampling – A Markov chain Monte Carlo algorithm for generating samples from a joint probability distribution.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\GibbsSampling</SolutionFolderPath>
+  <ProjectFolderName>GibbsSampling</ProjectFolderName>
+  <ProjectName>GibbsSampling</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:25:35 PM
+GibbsSampling</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:27:01 PM
+GibbsSampling</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GibbsSampling -> D:\Code2025\RavenWork\GibbsSampling\GibbsSampling\bin\Debug\net9.0\GibbsSampling.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+]]></string>
+    <string>WritePatch: Code is Complete.
+GibbsSampling</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:28:23 PM
+GibbsSamplingTest</string>
+    <string>Exception: The request was canceled due to the configured HttpClient.Timeout of 200 seconds elapsing.</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:32:09 PM
+GibbsSamplingTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:33:52 PM
+GibbsSamplingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj (in 226 ms).
+  1 of 2 projects are up-to-date for restore.
+  GibbsSampling -> D:\Code2025\RavenWork\GibbsSampling\GibbsSampling\bin\Debug\net9.0\GibbsSampling.dll
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(121,37): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(127,53): warning CS8604: Possible null reference argument for parameter 'initialState' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(140,62): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(141,67): warning CS8604: Possible null reference argument for parameter 'samplers' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(149,37): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(150,62): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(151,53): warning CS8604: Possible null reference argument for parameter 'initialState' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(151,67): warning CS8604: Possible null reference argument for parameter 'samplers' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+  GibbsSamplingTest -> D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\bin\Debug\net9.0\GibbsSamplingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(121,37): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(127,53): warning CS8604: Possible null reference argument for parameter 'initialState' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(140,62): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(141,67): warning CS8604: Possible null reference argument for parameter 'samplers' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(149,37): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(150,62): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(151,53): warning CS8604: Possible null reference argument for parameter 'initialState' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(151,67): warning CS8604: Possible null reference argument for parameter 'samplers' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+    8 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.60
+]]></string>
+    <string>WritePatch: Compile failed.
+GibbsSamplingTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 12:34:34 PM
+GibbsSamplingTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:34:57 PM
+GibbsSamplingTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:38:18 PM
+GibbsSamplingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GibbsSampling -> D:\Code2025\RavenWork\GibbsSampling\GibbsSampling\bin\Debug\net9.0\GibbsSampling.dll
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(127,53): warning CS8604: Possible null reference argument for parameter 'initialState' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(141,67): warning CS8604: Possible null reference argument for parameter 'samplers' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(151,53): warning CS8604: Possible null reference argument for parameter 'initialState' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(151,67): warning CS8604: Possible null reference argument for parameter 'samplers' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+  GibbsSamplingTest -> D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\bin\Debug\net9.0\GibbsSamplingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(127,53): warning CS8604: Possible null reference argument for parameter 'initialState' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(141,67): warning CS8604: Possible null reference argument for parameter 'samplers' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(151,53): warning CS8604: Possible null reference argument for parameter 'initialState' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(151,67): warning CS8604: Possible null reference argument for parameter 'samplers' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.20
+]]></string>
+    <string>WritePatch: Compile failed.
+GibbsSamplingTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 12:38:34 PM
+GibbsSamplingTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GibbsSampling -> D:\Code2025\RavenWork\GibbsSampling\GibbsSampling\bin\Debug\net9.0\GibbsSampling.dll
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(127,53): warning CS8604: Possible null reference argument for parameter 'initialState' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(141,67): warning CS8604: Possible null reference argument for parameter 'samplers' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(151,53): warning CS8604: Possible null reference argument for parameter 'initialState' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(151,67): warning CS8604: Possible null reference argument for parameter 'samplers' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+  GibbsSamplingTest -> D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\bin\Debug\net9.0\GibbsSamplingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(127,53): warning CS8604: Possible null reference argument for parameter 'initialState' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(141,67): warning CS8604: Possible null reference argument for parameter 'samplers' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(151,53): warning CS8604: Possible null reference argument for parameter 'initialState' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(151,67): warning CS8604: Possible null reference argument for parameter 'samplers' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.20
+
+</CompilerResponse>
+2025-02-23 12:38:48 PM
+GibbsSamplingTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 12:39:04 PM
+GibbsSampling</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GibbsSampling -> D:\Code2025\RavenWork\GibbsSampling\GibbsSampling\bin\Debug\net9.0\GibbsSampling.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+]]></string>
+    <string>WritePatch: Code is Complete.
+GibbsSampling</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:39:51 PM
+GibbsSamplingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GibbsSampling -> D:\Code2025\RavenWork\GibbsSampling\GibbsSampling\bin\Debug\net9.0\GibbsSampling.dll
+  GibbsSamplingTest -> D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\bin\Debug\net9.0\GibbsSamplingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.18
+]]></string>
+    <string>WritePatch: Code is Complete.
+GibbsSamplingTest</string>
+    <string>[INFO 2025-02-23 12:40:59 PM] Starting test for project: D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj</string>
+    <string>[INFO 2025-02-23 12:40:59 PM] Starting test for project: D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj</string>
+    <string>[INFO 2025-02-23 12:40:59 PM] Starting test for project: D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 12:41:17 PM] All tests passed successfully.
+[INFO 2025-02-23 12:41:17 PM] Test process completed. Duration: 17.17 seconds.
+[INFO 2025-02-23 12:41:17 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 12:41:14 PM]   Determining projects to restore...
+[INFO 2025-02-23 12:40:59 PM] Command: dotnet test "D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 12:40:59 PM] Starting test for project: D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 12:25:35 PM
+GibbsSampling
+
+WritePatch ran compiler. 2025-02-23 12:27:01 PM
+GibbsSampling
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GibbsSampling -> D:\Code2025\RavenWork\GibbsSampling\GibbsSampling\bin\Debug\net9.0\GibbsSampling.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+
+
+WritePatch: Code is Complete.
+GibbsSampling
+
+WritePatch Started CycleStep. 2025-02-23 12:28:23 PM
+GibbsSamplingTest
+
+Exception: The request was canceled due to the configured HttpClient.Timeout of 200 seconds elapsing.
+
+WritePatch Started CycleStep. 2025-02-23 12:32:09 PM
+GibbsSamplingTest
+
+WritePatch ran compiler. 2025-02-23 12:33:52 PM
+GibbsSamplingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj (in 226 ms).
+  1 of 2 projects are up-to-date for restore.
+  GibbsSampling -> D:\Code2025\RavenWork\GibbsSampling\GibbsSampling\bin\Debug\net9.0\GibbsSampling.dll
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(121,37): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(127,53): warning CS8604: Possible null reference argument for parameter 'initialState' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(140,62): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(141,67): warning CS8604: Possible null reference argument for parameter 'samplers' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(149,37): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(150,62): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(151,53): warning CS8604: Possible null reference argument for parameter 'initialState' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(151,67): warning CS8604: Possible null reference argument for parameter 'samplers' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+  GibbsSamplingTest -> D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\bin\Debug\net9.0\GibbsSamplingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(121,37): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(127,53): warning CS8604: Possible null reference argument for parameter 'initialState' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(140,62): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(141,67): warning CS8604: Possible null reference argument for parameter 'samplers' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(149,37): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(150,62): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(151,53): warning CS8604: Possible null reference argument for parameter 'initialState' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(151,67): warning CS8604: Possible null reference argument for parameter 'samplers' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+    8 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.60
+
+
+WritePatch: Compile failed.
+GibbsSamplingTest
+
+Finished WritePatch cycle step.
+2025-02-23 12:34:34 PM
+GibbsSamplingTest
+
+WritePatch Started CycleStep. 2025-02-23 12:34:57 PM
+GibbsSamplingTest
+
+WritePatch ran compiler. 2025-02-23 12:38:18 PM
+GibbsSamplingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GibbsSampling -> D:\Code2025\RavenWork\GibbsSampling\GibbsSampling\bin\Debug\net9.0\GibbsSampling.dll
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(127,53): warning CS8604: Possible null reference argument for parameter 'initialState' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(141,67): warning CS8604: Possible null reference argument for parameter 'samplers' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(151,53): warning CS8604: Possible null reference argument for parameter 'initialState' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(151,67): warning CS8604: Possible null reference argument for parameter 'samplers' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+  GibbsSamplingTest -> D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\bin\Debug\net9.0\GibbsSamplingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(127,53): warning CS8604: Possible null reference argument for parameter 'initialState' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(141,67): warning CS8604: Possible null reference argument for parameter 'samplers' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(151,53): warning CS8604: Possible null reference argument for parameter 'initialState' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(151,67): warning CS8604: Possible null reference argument for parameter 'samplers' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.20
+
+
+WritePatch: Compile failed.
+GibbsSamplingTest
+
+Finished WritePatch cycle step.
+2025-02-23 12:38:34 PM
+GibbsSamplingTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GibbsSampling -> D:\Code2025\RavenWork\GibbsSampling\GibbsSampling\bin\Debug\net9.0\GibbsSampling.dll
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(127,53): warning CS8604: Possible null reference argument for parameter 'initialState' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(141,67): warning CS8604: Possible null reference argument for parameter 'samplers' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(151,53): warning CS8604: Possible null reference argument for parameter 'initialState' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(151,67): warning CS8604: Possible null reference argument for parameter 'samplers' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+  GibbsSamplingTest -> D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\bin\Debug\net9.0\GibbsSamplingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(127,53): warning CS8604: Possible null reference argument for parameter 'initialState' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(141,67): warning CS8604: Possible null reference argument for parameter 'samplers' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(151,53): warning CS8604: Possible null reference argument for parameter 'initialState' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplerTests.cs(151,67): warning CS8604: Possible null reference argument for parameter 'samplers' in 'GibbsSampler.GibbsSampler(double[] initialState, List<ConditionalSampler> samplers)'. [D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.20
+
+</CompilerResponse>
+2025-02-23 12:38:48 PM
+GibbsSamplingTest
+
+WritePatch ran compiler. 2025-02-23 12:39:04 PM
+GibbsSampling
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GibbsSampling -> D:\Code2025\RavenWork\GibbsSampling\GibbsSampling\bin\Debug\net9.0\GibbsSampling.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+
+
+WritePatch: Code is Complete.
+GibbsSampling
+
+WritePatch ran compiler. 2025-02-23 12:39:51 PM
+GibbsSamplingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GibbsSampling -> D:\Code2025\RavenWork\GibbsSampling\GibbsSampling\bin\Debug\net9.0\GibbsSampling.dll
+  GibbsSamplingTest -> D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\bin\Debug\net9.0\GibbsSamplingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.18
+
+
+WritePatch: Code is Complete.
+GibbsSamplingTest
+
+TestResult:
+[SUCCESS 2025-02-23 12:41:17 PM] All tests passed successfully.
+[INFO 2025-02-23 12:41:17 PM] Test process completed. Duration: 17.17 seconds.
+[INFO 2025-02-23 12:41:17 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 12:41:14 PM]   Determining projects to restore...
+[INFO 2025-02-23 12:40:59 PM] Command: dotnet test "D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 12:40:59 PM] Starting test for project: D:\Code2025\RavenWork\GibbsSampling\GibbsSamplingTest\GibbsSamplingTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
