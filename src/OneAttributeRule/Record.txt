@@ -1,0 +1,444 @@
+<ActRecord>
+  <ProjectName>OneAttributeRule</ProjectName>
+  <ProjectDescription>One‑attribute rule</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>One‑attribute rule</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\OneAttributeRule</SolutionFolderPath>
+  <ProjectFolderName>OneAttributeRule</ProjectFolderName>
+  <ProjectName>OneAttributeRule</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 3:18:06 PM
+OneAttributeRule</string>
+    <string>WritePatch ran compiler. 2025-02-23 3:18:54 PM
+OneAttributeRule</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OneAttributeRule -> D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRule\bin\Debug\net9.0\OneAttributeRule.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.47
+]]></string>
+    <string>WritePatch: Code is Complete.
+OneAttributeRule</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 3:19:06 PM
+OneAttributeRuleTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 3:19:40 PM
+OneAttributeRuleTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj (in 372 ms).
+  1 of 2 projects are up-to-date for restore.
+  OneAttributeRule -> D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRule\bin\Debug\net9.0\OneAttributeRule.dll
+  OneAttributeRuleTest -> D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\bin\Debug\net9.0\OneAttributeRuleTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.52
+]]></string>
+    <string>WritePatch: Code is not Complete.
+OneAttributeRuleTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 3:20:03 PM
+OneAttributeRuleTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 3:20:03 PM
+OneAttributeRuleTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 3:20:47 PM
+OneAttributeRuleTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OneAttributeRule -> D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRule\bin\Debug\net9.0\OneAttributeRule.dll
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(113,30): warning CS8618: Non-nullable property 'AttributedProperty' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(23,55): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(24,35): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(41,55): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(42,35): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+  OneAttributeRuleTest -> D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\bin\Debug\net9.0\OneAttributeRuleTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(113,30): warning CS8618: Non-nullable property 'AttributedProperty' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(23,55): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(24,35): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(41,55): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(42,35): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+    5 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.43
+]]></string>
+    <string>WritePatch: Compile failed.
+OneAttributeRuleTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 3:20:48 PM
+OneAttributeRuleTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 3:20:49 PM
+OneAttributeRuleTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 3:21:26 PM
+OneAttributeRuleTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OneAttributeRule -> D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRule\bin\Debug\net9.0\OneAttributeRule.dll
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(113,30): warning CS8618: Non-nullable property 'AttributedProperty' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(23,55): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(24,35): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(41,55): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(42,35): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+  OneAttributeRuleTest -> D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\bin\Debug\net9.0\OneAttributeRuleTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(113,30): warning CS8618: Non-nullable property 'AttributedProperty' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(23,55): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(24,35): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(41,55): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(42,35): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+    5 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.43
+
+</CompilerResponse>
+2025-02-23 3:21:26 PM
+OneAttributeRuleTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 3:21:28 PM
+OneAttributeRule</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OneAttributeRule -> D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRule\bin\Debug\net9.0\OneAttributeRule.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.11
+]]></string>
+    <string>WritePatch: Code is Complete.
+OneAttributeRule</string>
+    <string>WritePatch ran compiler. 2025-02-23 3:21:41 PM
+OneAttributeRuleTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OneAttributeRule -> D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRule\bin\Debug\net9.0\OneAttributeRule.dll
+  OneAttributeRuleTest -> D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\bin\Debug\net9.0\OneAttributeRuleTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.59
+]]></string>
+    <string>WritePatch: Code is Complete.
+OneAttributeRuleTest</string>
+    <string>[INFO 2025-02-23 3:21:54 PM] Starting test for project: D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:54 PM] Starting test for project: D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:54 PM] Starting test for project: D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:54 PM] Starting test for project: D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:54 PM] Starting test for project: D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:54 PM] Starting test for project: D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:54 PM] Starting test for project: D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:54 PM] Starting test for project: D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:54 PM] Starting test for project: D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:54 PM] Starting test for project: D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:54 PM] Starting test for project: D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:54 PM] Starting test for project: D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:54 PM] Starting test for project: D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:54 PM] Starting test for project: D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:54 PM] Starting test for project: D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:54 PM] Starting test for project: D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:54 PM] Starting test for project: D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:54 PM] Starting test for project: D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:54 PM] Starting test for project: D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:54 PM] Starting test for project: D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:54 PM] Starting test for project: D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:54 PM] Starting test for project: D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:54 PM] Starting test for project: D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:54 PM] Starting test for project: D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:54 PM] Starting test for project: D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:54 PM] Starting test for project: D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:54 PM] Starting test for project: D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:54 PM] Starting test for project: D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:54 PM] Starting test for project: D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:54 PM] Starting test for project: D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:54 PM] Starting test for project: D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:54 PM] Starting test for project: D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:54 PM] Starting test for project: D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:54 PM] Starting test for project: D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj</string>
+    <string>[INFO 2025-02-23 3:21:54 PM] Starting test for project: D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 3:22:07 PM] All tests passed successfully.
+[INFO 2025-02-23 3:22:07 PM] Test process completed. Duration: 12.85 seconds.
+[INFO 2025-02-23 3:22:07 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 3:22:07 PM]   Passed TestSyntheticDataLargeSet (14) [< 1 ms]
+[OUTPUT 2025-02-23 3:22:07 PM]   Passed TestSyntheticDataLargeSet (11) [< 1 ms]
+[OUTPUT 2025-02-23 3:21:57 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 3:21:57 PM] Test run for D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\bin\Debug\net9.0\OneAttributeRuleTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 3:21:56 PM]   OneAttributeRuleTest -> D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\bin\Debug\net9.0\OneAttributeRuleTest.dll
+[OUTPUT 2025-02-23 3:21:56 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 3:21:59 PM] Test Parallelization enabled for D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\bin\Debug\net9.0\OneAttributeRuleTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 3:21:59 PM] D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\bin\Debug\net9.0\OneAttributeRuleTest.dll
+[OUTPUT 2025-02-23 3:21:58 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 3:21:57 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 3:21:56 PM]   OneAttributeRule -> D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRule\bin\Debug\net9.0\OneAttributeRule.dll
+[OUTPUT 2025-02-23 3:21:55 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 3:22:06 PM]   Passed TestSyntheticDataLargeSet (17) [< 1 ms]
+[OUTPUT 2025-02-23 3:22:06 PM]   Passed TestSyntheticDataLargeSet (26) [< 1 ms]
+[OUTPUT 2025-02-23 3:22:06 PM]   Passed TestSyntheticDataLargeSet (25) [< 1 ms]
+[OUTPUT 2025-02-23 3:22:06 PM]   Passed TestSyntheticDataLargeSet (24) [< 1 ms]
+[OUTPUT 2025-02-23 3:22:05 PM]   Passed TestSyntheticDataLargeSet (12) [< 1 ms]
+[OUTPUT 2025-02-23 3:22:05 PM]   Passed TestSyntheticDataLargeSet (13) [< 1 ms]
+[OUTPUT 2025-02-23 3:22:05 PM]   Passed TestAttributeApplicationOnProperty [6 ms]
+[OUTPUT 2025-02-23 3:22:04 PM]   Passed TestSyntheticDataLargeSet (4) [< 1 ms]
+[OUTPUT 2025-02-23 3:22:04 PM]   Passed TestSyntheticDataLargeSet (5) [< 1 ms]
+[OUTPUT 2025-02-23 3:22:04 PM]   Passed TestSyntheticDataLargeSet (7) [< 1 ms]
+[OUTPUT 2025-02-23 3:22:03 PM]   Passed TestSyntheticData (1) [< 1 ms]
+[OUTPUT 2025-02-23 3:22:03 PM]   Passed TestSyntheticData (3) [< 1 ms]
+[OUTPUT 2025-02-23 3:22:03 PM]   Passed TestSyntheticDataLargeSet (6) [< 1 ms]
+[OUTPUT 2025-02-23 3:22:03 PM]   Passed TestSyntheticDataLargeSet (3) [< 1 ms]
+[OUTPUT 2025-02-23 3:22:02 PM]   Passed TestSyntheticDataLargeSet (1) [< 1 ms]
+[OUTPUT 2025-02-23 3:22:02 PM]   Passed TestSyntheticDataLargeSet (2) [< 1 ms]
+[OUTPUT 2025-02-23 3:22:01 PM]   Passed TestNoAttribute [6 ms]
+[OUTPUT 2025-02-23 3:22:01 PM]   Passed TestAttributeInheritance [< 1 ms]
+[OUTPUT 2025-02-23 3:22:01 PM]   Passed TestAttributeApplicationOnMethod [6 ms]
+[OUTPUT 2025-02-23 3:22:00 PM]   Passed TestSyntheticData (2) [< 1 ms]
+[OUTPUT 2025-02-23 3:22:00 PM]   Passed TestAttributeApplicationOnClass [6 ms]
+[INFO 2025-02-23 3:21:54 PM] Command: dotnet test "D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 3:21:54 PM] Starting test for project: D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 3:18:06 PM
+OneAttributeRule
+
+WritePatch ran compiler. 2025-02-23 3:18:54 PM
+OneAttributeRule
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OneAttributeRule -> D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRule\bin\Debug\net9.0\OneAttributeRule.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.47
+
+
+WritePatch: Code is Complete.
+OneAttributeRule
+
+WritePatch Started CycleStep. 2025-02-23 3:19:06 PM
+OneAttributeRuleTest
+
+WritePatch ran compiler. 2025-02-23 3:19:40 PM
+OneAttributeRuleTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj (in 372 ms).
+  1 of 2 projects are up-to-date for restore.
+  OneAttributeRule -> D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRule\bin\Debug\net9.0\OneAttributeRule.dll
+  OneAttributeRuleTest -> D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\bin\Debug\net9.0\OneAttributeRuleTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.52
+
+
+WritePatch: Code is not Complete.
+OneAttributeRuleTest
+
+Finished WritePatch cycle step.
+2025-02-23 3:20:03 PM
+OneAttributeRuleTest
+
+WritePatch Started CycleStep. 2025-02-23 3:20:03 PM
+OneAttributeRuleTest
+
+WritePatch ran compiler. 2025-02-23 3:20:47 PM
+OneAttributeRuleTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OneAttributeRule -> D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRule\bin\Debug\net9.0\OneAttributeRule.dll
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(113,30): warning CS8618: Non-nullable property 'AttributedProperty' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(23,55): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(24,35): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(41,55): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(42,35): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+  OneAttributeRuleTest -> D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\bin\Debug\net9.0\OneAttributeRuleTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(113,30): warning CS8618: Non-nullable property 'AttributedProperty' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(23,55): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(24,35): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(41,55): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(42,35): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+    5 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.43
+
+
+WritePatch: Compile failed.
+OneAttributeRuleTest
+
+Finished WritePatch cycle step.
+2025-02-23 3:20:48 PM
+OneAttributeRuleTest
+
+WritePatch Started CycleStep. 2025-02-23 3:20:49 PM
+OneAttributeRuleTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 3:21:26 PM
+OneAttributeRuleTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OneAttributeRule -> D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRule\bin\Debug\net9.0\OneAttributeRule.dll
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(113,30): warning CS8618: Non-nullable property 'AttributedProperty' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(23,55): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(24,35): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(41,55): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(42,35): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+  OneAttributeRuleTest -> D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\bin\Debug\net9.0\OneAttributeRuleTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(113,30): warning CS8618: Non-nullable property 'AttributedProperty' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(23,55): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(24,35): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(41,55): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTests.cs(42,35): warning CS8602: Dereference of a possibly null reference. [D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj]
+    5 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.43
+
+</CompilerResponse>
+2025-02-23 3:21:26 PM
+OneAttributeRuleTest
+
+WritePatch ran compiler. 2025-02-23 3:21:28 PM
+OneAttributeRule
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OneAttributeRule -> D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRule\bin\Debug\net9.0\OneAttributeRule.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.11
+
+
+WritePatch: Code is Complete.
+OneAttributeRule
+
+WritePatch ran compiler. 2025-02-23 3:21:41 PM
+OneAttributeRuleTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OneAttributeRule -> D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRule\bin\Debug\net9.0\OneAttributeRule.dll
+  OneAttributeRuleTest -> D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\bin\Debug\net9.0\OneAttributeRuleTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.59
+
+
+WritePatch: Code is Complete.
+OneAttributeRuleTest
+
+TestResult:
+[SUCCESS 2025-02-23 3:22:07 PM] All tests passed successfully.
+[INFO 2025-02-23 3:22:07 PM] Test process completed. Duration: 12.85 seconds.
+[INFO 2025-02-23 3:22:07 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 3:22:07 PM]   Passed TestSyntheticDataLargeSet (14) [< 1 ms]
+[OUTPUT 2025-02-23 3:22:07 PM]   Passed TestSyntheticDataLargeSet (11) [< 1 ms]
+[OUTPUT 2025-02-23 3:21:57 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 3:21:57 PM] Test run for D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\bin\Debug\net9.0\OneAttributeRuleTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 3:21:56 PM]   OneAttributeRuleTest -> D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\bin\Debug\net9.0\OneAttributeRuleTest.dll
+[OUTPUT 2025-02-23 3:21:56 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 3:21:59 PM] Test Parallelization enabled for D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\bin\Debug\net9.0\OneAttributeRuleTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 3:21:59 PM] D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\bin\Debug\net9.0\OneAttributeRuleTest.dll
+[OUTPUT 2025-02-23 3:21:58 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 3:21:57 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 3:21:56 PM]   OneAttributeRule -> D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRule\bin\Debug\net9.0\OneAttributeRule.dll
+[OUTPUT 2025-02-23 3:21:55 PM]   Determining projects to restore...
+[OUTPUT 2025-02-23 3:22:06 PM]   Passed TestSyntheticDataLargeSet (17) [< 1 ms]
+[OUTPUT 2025-02-23 3:22:06 PM]   Passed TestSyntheticDataLargeSet (26) [< 1 ms]
+[OUTPUT 2025-02-23 3:22:06 PM]   Passed TestSyntheticDataLargeSet (25) [< 1 ms]
+[OUTPUT 2025-02-23 3:22:06 PM]   Passed TestSyntheticDataLargeSet (24) [< 1 ms]
+[OUTPUT 2025-02-23 3:22:05 PM]   Passed TestSyntheticDataLargeSet (12) [< 1 ms]
+[OUTPUT 2025-02-23 3:22:05 PM]   Passed TestSyntheticDataLargeSet (13) [< 1 ms]
+[OUTPUT 2025-02-23 3:22:05 PM]   Passed TestAttributeApplicationOnProperty [6 ms]
+[OUTPUT 2025-02-23 3:22:04 PM]   Passed TestSyntheticDataLargeSet (4) [< 1 ms]
+[OUTPUT 2025-02-23 3:22:04 PM]   Passed TestSyntheticDataLargeSet (5) [< 1 ms]
+[OUTPUT 2025-02-23 3:22:04 PM]   Passed TestSyntheticDataLargeSet (7) [< 1 ms]
+[OUTPUT 2025-02-23 3:22:03 PM]   Passed TestSyntheticData (1) [< 1 ms]
+[OUTPUT 2025-02-23 3:22:03 PM]   Passed TestSyntheticData (3) [< 1 ms]
+[OUTPUT 2025-02-23 3:22:03 PM]   Passed TestSyntheticDataLargeSet (6) [< 1 ms]
+[OUTPUT 2025-02-23 3:22:03 PM]   Passed TestSyntheticDataLargeSet (3) [< 1 ms]
+[OUTPUT 2025-02-23 3:22:02 PM]   Passed TestSyntheticDataLargeSet (1) [< 1 ms]
+[OUTPUT 2025-02-23 3:22:02 PM]   Passed TestSyntheticDataLargeSet (2) [< 1 ms]
+[OUTPUT 2025-02-23 3:22:01 PM]   Passed TestNoAttribute [6 ms]
+[OUTPUT 2025-02-23 3:22:01 PM]   Passed TestAttributeInheritance [< 1 ms]
+[OUTPUT 2025-02-23 3:22:01 PM]   Passed TestAttributeApplicationOnMethod [6 ms]
+[OUTPUT 2025-02-23 3:22:00 PM]   Passed TestSyntheticData (2) [< 1 ms]
+[OUTPUT 2025-02-23 3:22:00 PM]   Passed TestAttributeApplicationOnClass [6 ms]
+[INFO 2025-02-23 3:21:54 PM] Command: dotnet test "D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 3:21:54 PM] Starting test for project: D:\Code2025\RavenWork\OneAttributeRule\OneAttributeRuleTest\OneAttributeRuleTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
