@@ -1,0 +1,581 @@
+<ActRecord>
+  <ProjectName>FitnessProportionateSelection</ProjectName>
+  <ProjectDescription>Fitness proportionate selection (roulette-wheel selection) – A method for selecting individuals in a population based on their relative fitness.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Fitness proportionate selection (roulette-wheel selection) – A method for selecting individuals in a population based on their relative fitness.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\FitnessProportionateSelection</SolutionFolderPath>
+  <ProjectFolderName>FitnessProportionateSelection</ProjectFolderName>
+  <ProjectName>FitnessProportionateSelection</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:30:14 AM
+FitnessProportionateSelection</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:30:33 AM
+FitnessProportionateSelection</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelection\RouletteWheelSelector.cs(13,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelection\FitnessProportionateSelection.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelection\RouletteWheelSelector.cs(19,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelection\FitnessProportionateSelection.csproj]
+  FitnessProportionateSelection -> D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelection\bin\Debug\net9.0\FitnessProportionateSelection.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelection\RouletteWheelSelector.cs(13,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelection\FitnessProportionateSelection.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelection\RouletteWheelSelector.cs(19,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelection\FitnessProportionateSelection.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+]]></string>
+    <string>WritePatch: Compile failed.
+FitnessProportionateSelection</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:30:34 AM
+FitnessProportionateSelection</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:30:34 AM
+FitnessProportionateSelection</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:31:03 AM
+FitnessProportionateSelection</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FitnessProportionateSelection -> D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelection\bin\Debug\net9.0\FitnessProportionateSelection.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.91
+]]></string>
+    <string>WritePatch: Code is Complete.
+FitnessProportionateSelection</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:31:23 AM
+FitnessProportionateSelectionTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:32:15 AM
+FitnessProportionateSelectionTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj (in 221 ms).
+  1 of 2 projects are up-to-date for restore.
+  FitnessProportionateSelection -> D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelection\bin\Debug\net9.0\FitnessProportionateSelection.dll
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(32,66): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(32,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(43,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(43,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(54,82): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(54,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(62,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(73,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(88,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(102,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(116,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+  FitnessProportionateSelectionTest -> D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\bin\Debug\net9.0\FitnessProportionateSelectionTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(32,66): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(32,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(43,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(43,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(54,82): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(54,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(62,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(73,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(88,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(102,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(116,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+    11 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.63
+]]></string>
+    <string>WritePatch: Compile failed.
+FitnessProportionateSelectionTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:32:17 AM
+FitnessProportionateSelectionTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:32:17 AM
+FitnessProportionateSelectionTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:32:43 AM
+FitnessProportionateSelectionTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FitnessProportionateSelection -> D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelection\bin\Debug\net9.0\FitnessProportionateSelection.dll
+  FitnessProportionateSelectionTest -> D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\bin\Debug\net9.0\FitnessProportionateSelectionTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.14
+]]></string>
+    <string>WritePatch: Code is not Complete.
+FitnessProportionateSelectionTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:33:21 AM
+FitnessProportionateSelectionTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:33:21 AM
+FitnessProportionateSelectionTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:34:00 AM
+FitnessProportionateSelectionTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FitnessProportionateSelection -> D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelection\bin\Debug\net9.0\FitnessProportionateSelection.dll
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(32,66): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(32,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(43,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(43,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(54,82): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(54,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(62,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(73,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(86,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(98,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(110,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(128,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(147,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+  FitnessProportionateSelectionTest -> D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\bin\Debug\net9.0\FitnessProportionateSelectionTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(32,66): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(32,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(43,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(43,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(54,82): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(54,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(62,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(73,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(86,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(98,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(110,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(128,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(147,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+    13 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.15
+]]></string>
+    <string>WritePatch: Compile failed.
+FitnessProportionateSelectionTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:34:01 AM
+FitnessProportionateSelectionTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FitnessProportionateSelection -> D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelection\bin\Debug\net9.0\FitnessProportionateSelection.dll
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(32,66): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(32,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(43,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(43,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(54,82): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(54,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(62,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(73,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(86,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(98,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(110,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(128,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(147,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+  FitnessProportionateSelectionTest -> D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\bin\Debug\net9.0\FitnessProportionateSelectionTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(32,66): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(32,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(43,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(43,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(54,82): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(54,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(62,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(73,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(86,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(98,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(110,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(128,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(147,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+    13 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.15
+
+</CompilerResponse>
+2025-02-23 11:34:01 AM
+FitnessProportionateSelectionTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 11:34:03 AM
+FitnessProportionateSelection</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FitnessProportionateSelection -> D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelection\bin\Debug\net9.0\FitnessProportionateSelection.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.84
+]]></string>
+    <string>WritePatch: Code is Complete.
+FitnessProportionateSelection</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:34:26 AM
+FitnessProportionateSelectionTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FitnessProportionateSelection -> D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelection\bin\Debug\net9.0\FitnessProportionateSelection.dll
+  FitnessProportionateSelectionTest -> D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\bin\Debug\net9.0\FitnessProportionateSelectionTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.09
+]]></string>
+    <string>WritePatch: Code is Complete.
+FitnessProportionateSelectionTest</string>
+    <string>[INFO 2025-02-23 11:34:37 AM] Starting test for project: D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj</string>
+    <string>[INFO 2025-02-23 11:34:37 AM] Starting test for project: D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj</string>
+    <string>[INFO 2025-02-23 11:34:37 AM] Starting test for project: D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj</string>
+    <string>[INFO 2025-02-23 11:34:37 AM] Starting test for project: D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj</string>
+    <string>[INFO 2025-02-23 11:34:37 AM] Starting test for project: D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj</string>
+    <string>[INFO 2025-02-23 11:34:37 AM] Starting test for project: D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj</string>
+    <string>[INFO 2025-02-23 11:34:37 AM] Starting test for project: D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj</string>
+    <string>[INFO 2025-02-23 11:34:37 AM] Starting test for project: D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj</string>
+    <string>[INFO 2025-02-23 11:34:37 AM] Starting test for project: D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj</string>
+    <string>[INFO 2025-02-23 11:34:37 AM] Starting test for project: D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj</string>
+    <string>[INFO 2025-02-23 11:34:37 AM] Starting test for project: D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj</string>
+    <string>[INFO 2025-02-23 11:34:37 AM] Starting test for project: D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 11:34:41 AM] Test Parallelization enabled for D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\bin\Debug\net9.0\FitnessProportionateSelectionTest.dll (Workers: 16, Scope: MethodLevel)
+[SUCCESS 2025-02-23 11:34:40 AM] All tests passed successfully.
+[INFO 2025-02-23 11:34:40 AM] Test process completed. Duration: 3.55 seconds.
+[INFO 2025-02-23 11:34:40 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 11:34:40 AM] D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\bin\Debug\net9.0\FitnessProportionateSelectionTest.dll
+[OUTPUT 2025-02-23 11:34:40 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:34:40 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:34:39 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:34:39 AM] Test run for D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\bin\Debug\net9.0\FitnessProportionateSelectionTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:34:39 AM]   FitnessProportionateSelectionTest -> D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\bin\Debug\net9.0\FitnessProportionateSelectionTest.dll
+[OUTPUT 2025-02-23 11:34:38 AM]   FitnessProportionateSelection -> D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelection\bin\Debug\net9.0\FitnessProportionateSelection.dll
+[OUTPUT 2025-02-23 11:34:38 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:34:38 AM]   Determining projects to restore...
+[INFO 2025-02-23 11:34:37 AM] Command: dotnet test "D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:34:37 AM] Starting test for project: D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 11:30:14 AM
+FitnessProportionateSelection
+
+WritePatch ran compiler. 2025-02-23 11:30:33 AM
+FitnessProportionateSelection
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelection\RouletteWheelSelector.cs(13,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelection\FitnessProportionateSelection.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelection\RouletteWheelSelector.cs(19,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelection\FitnessProportionateSelection.csproj]
+  FitnessProportionateSelection -> D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelection\bin\Debug\net9.0\FitnessProportionateSelection.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelection\RouletteWheelSelector.cs(13,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelection\FitnessProportionateSelection.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelection\RouletteWheelSelector.cs(19,24): warning CS8603: Possible null reference return. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelection\FitnessProportionateSelection.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+
+
+WritePatch: Compile failed.
+FitnessProportionateSelection
+
+Finished WritePatch cycle step.
+2025-02-23 11:30:34 AM
+FitnessProportionateSelection
+
+WritePatch Started CycleStep. 2025-02-23 11:30:34 AM
+FitnessProportionateSelection
+
+WritePatch ran compiler. 2025-02-23 11:31:03 AM
+FitnessProportionateSelection
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FitnessProportionateSelection -> D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelection\bin\Debug\net9.0\FitnessProportionateSelection.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.91
+
+
+WritePatch: Code is Complete.
+FitnessProportionateSelection
+
+WritePatch Started CycleStep. 2025-02-23 11:31:23 AM
+FitnessProportionateSelectionTest
+
+WritePatch ran compiler. 2025-02-23 11:32:15 AM
+FitnessProportionateSelectionTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj (in 221 ms).
+  1 of 2 projects are up-to-date for restore.
+  FitnessProportionateSelection -> D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelection\bin\Debug\net9.0\FitnessProportionateSelection.dll
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(32,66): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(32,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(43,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(43,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(54,82): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(54,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(62,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(73,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(88,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(102,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(116,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+  FitnessProportionateSelectionTest -> D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\bin\Debug\net9.0\FitnessProportionateSelectionTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(32,66): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(32,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(43,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(43,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(54,82): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(54,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(62,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(73,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(88,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(102,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(116,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+    11 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.63
+
+
+WritePatch: Compile failed.
+FitnessProportionateSelectionTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:32:17 AM
+FitnessProportionateSelectionTest
+
+WritePatch Started CycleStep. 2025-02-23 11:32:17 AM
+FitnessProportionateSelectionTest
+
+WritePatch ran compiler. 2025-02-23 11:32:43 AM
+FitnessProportionateSelectionTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FitnessProportionateSelection -> D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelection\bin\Debug\net9.0\FitnessProportionateSelection.dll
+  FitnessProportionateSelectionTest -> D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\bin\Debug\net9.0\FitnessProportionateSelectionTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.14
+
+
+WritePatch: Code is not Complete.
+FitnessProportionateSelectionTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:33:21 AM
+FitnessProportionateSelectionTest
+
+WritePatch Started CycleStep. 2025-02-23 11:33:21 AM
+FitnessProportionateSelectionTest
+
+WritePatch ran compiler. 2025-02-23 11:34:00 AM
+FitnessProportionateSelectionTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FitnessProportionateSelection -> D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelection\bin\Debug\net9.0\FitnessProportionateSelection.dll
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(32,66): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(32,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(43,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(43,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(54,82): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(54,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(62,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(73,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(86,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(98,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(110,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(128,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(147,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+  FitnessProportionateSelectionTest -> D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\bin\Debug\net9.0\FitnessProportionateSelectionTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(32,66): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(32,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(43,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(43,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(54,82): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(54,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(62,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(73,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(86,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(98,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(110,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(128,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(147,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+    13 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.15
+
+
+WritePatch: Compile failed.
+FitnessProportionateSelectionTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:34:01 AM
+FitnessProportionateSelectionTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FitnessProportionateSelection -> D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelection\bin\Debug\net9.0\FitnessProportionateSelection.dll
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(32,66): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(32,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(43,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(43,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(54,82): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(54,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(62,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(73,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(86,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(98,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(110,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(128,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(147,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+  FitnessProportionateSelectionTest -> D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\bin\Debug\net9.0\FitnessProportionateSelectionTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(32,66): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(32,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(43,72): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(43,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(54,82): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(54,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(62,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(73,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(86,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(98,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(110,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(128,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\RouletteWheelSelectorTests.cs(147,29): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj]
+    13 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.15
+
+</CompilerResponse>
+2025-02-23 11:34:01 AM
+FitnessProportionateSelectionTest
+
+WritePatch ran compiler. 2025-02-23 11:34:03 AM
+FitnessProportionateSelection
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FitnessProportionateSelection -> D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelection\bin\Debug\net9.0\FitnessProportionateSelection.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.84
+
+
+WritePatch: Code is Complete.
+FitnessProportionateSelection
+
+WritePatch ran compiler. 2025-02-23 11:34:26 AM
+FitnessProportionateSelectionTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FitnessProportionateSelection -> D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelection\bin\Debug\net9.0\FitnessProportionateSelection.dll
+  FitnessProportionateSelectionTest -> D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\bin\Debug\net9.0\FitnessProportionateSelectionTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.09
+
+
+WritePatch: Code is Complete.
+FitnessProportionateSelectionTest
+
+TestResult:
+[OUTPUT 2025-02-23 11:34:41 AM] Test Parallelization enabled for D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\bin\Debug\net9.0\FitnessProportionateSelectionTest.dll (Workers: 16, Scope: MethodLevel)
+[SUCCESS 2025-02-23 11:34:40 AM] All tests passed successfully.
+[INFO 2025-02-23 11:34:40 AM] Test process completed. Duration: 3.55 seconds.
+[INFO 2025-02-23 11:34:40 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 11:34:40 AM] D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\bin\Debug\net9.0\FitnessProportionateSelectionTest.dll
+[OUTPUT 2025-02-23 11:34:40 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:34:40 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:34:39 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:34:39 AM] Test run for D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\bin\Debug\net9.0\FitnessProportionateSelectionTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:34:39 AM]   FitnessProportionateSelectionTest -> D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\bin\Debug\net9.0\FitnessProportionateSelectionTest.dll
+[OUTPUT 2025-02-23 11:34:38 AM]   FitnessProportionateSelection -> D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelection\bin\Debug\net9.0\FitnessProportionateSelection.dll
+[OUTPUT 2025-02-23 11:34:38 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:34:38 AM]   Determining projects to restore...
+[INFO 2025-02-23 11:34:37 AM] Command: dotnet test "D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:34:37 AM] Starting test for project: D:\Code2025\RavenWork\FitnessProportionateSelection\FitnessProportionateSelectionTest\FitnessProportionateSelectionTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
