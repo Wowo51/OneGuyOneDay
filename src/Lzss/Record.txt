@@ -1,0 +1,397 @@
+<ActRecord>
+  <ProjectName>Lzss</ProjectName>
+  <ProjectDescription>Lempel–Ziv–Storer–Szymanski (LZSS)</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Lempel–Ziv–Storer–Szymanski (LZSS)</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\Lzss</SolutionFolderPath>
+  <ProjectFolderName>Lzss</ProjectFolderName>
+  <ProjectName>Lzss</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:24:43 PM
+Lzss</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:25:42 PM
+Lzss</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Lzss -> D:\Code2025\RavenWork\Lzss\Lzss\bin\Debug\net9.0\Lzss.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.39
+]]></string>
+    <string>WritePatch: Code is Complete.
+Lzss</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:26:03 PM
+LzssTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:26:53 PM
+LzssTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj (in 354 ms).
+  1 of 2 projects are up-to-date for restore.
+  Lzss -> D:\Code2025\RavenWork\Lzss\Lzss\bin\Debug\net9.0\Lzss.dll
+D:\Code2025\RavenWork\Lzss\LzssTest\LzssCompressorTests.cs(15,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj]
+D:\Code2025\RavenWork\Lzss\LzssTest\LzssCompressorTests.cs(23,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj]
+  LzssTest -> D:\Code2025\RavenWork\Lzss\LzssTest\bin\Debug\net9.0\LzssTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Lzss\LzssTest\LzssCompressorTests.cs(15,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj]
+D:\Code2025\RavenWork\Lzss\LzssTest\LzssCompressorTests.cs(23,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.51
+]]></string>
+    <string>WritePatch: Compile failed.
+LzssTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:26:54 PM
+LzssTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:26:55 PM
+LzssTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:27:39 PM
+LzssTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Lzss -> D:\Code2025\RavenWork\Lzss\Lzss\bin\Debug\net9.0\Lzss.dll
+  LzssTest -> D:\Code2025\RavenWork\Lzss\LzssTest\bin\Debug\net9.0\LzssTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.50
+]]></string>
+    <string>WritePatch: Code is not Complete.
+LzssTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:27:56 PM
+LzssTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:27:57 PM
+LzssTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:28:53 PM
+LzssTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Lzss -> D:\Code2025\RavenWork\Lzss\Lzss\bin\Debug\net9.0\Lzss.dll
+D:\Code2025\RavenWork\Lzss\LzssTest\LzssCompressorTests.cs(15,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj]
+D:\Code2025\RavenWork\Lzss\LzssTest\LzssCompressorTests.cs(23,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj]
+  LzssTest -> D:\Code2025\RavenWork\Lzss\LzssTest\bin\Debug\net9.0\LzssTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Lzss\LzssTest\LzssCompressorTests.cs(15,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj]
+D:\Code2025\RavenWork\Lzss\LzssTest\LzssCompressorTests.cs(23,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.58
+]]></string>
+    <string>WritePatch: Compile failed.
+LzssTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:28:55 PM
+LzssTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\Lzss\LzssTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Lzss -> D:\Code2025\RavenWork\Lzss\Lzss\bin\Debug\net9.0\Lzss.dll
+D:\Code2025\RavenWork\Lzss\LzssTest\LzssCompressorTests.cs(15,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj]
+D:\Code2025\RavenWork\Lzss\LzssTest\LzssCompressorTests.cs(23,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj]
+  LzssTest -> D:\Code2025\RavenWork\Lzss\LzssTest\bin\Debug\net9.0\LzssTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Lzss\LzssTest\LzssCompressorTests.cs(15,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj]
+D:\Code2025\RavenWork\Lzss\LzssTest\LzssCompressorTests.cs(23,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.58
+
+</CompilerResponse>
+2025-02-23 2:28:55 PM
+LzssTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 2:28:57 PM
+Lzss</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Lzss -> D:\Code2025\RavenWork\Lzss\Lzss\bin\Debug\net9.0\Lzss.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+]]></string>
+    <string>WritePatch: Code is Complete.
+Lzss</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:29:13 PM
+LzssTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Lzss -> D:\Code2025\RavenWork\Lzss\Lzss\bin\Debug\net9.0\Lzss.dll
+  LzssTest -> D:\Code2025\RavenWork\Lzss\LzssTest\bin\Debug\net9.0\LzssTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.37
+]]></string>
+    <string>WritePatch: Code is Complete.
+LzssTest</string>
+    <string>[INFO 2025-02-23 2:29:20 PM] Starting test for project: D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj</string>
+    <string>[INFO 2025-02-23 2:29:20 PM] Starting test for project: D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj</string>
+    <string>[INFO 2025-02-23 2:29:20 PM] Starting test for project: D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj</string>
+    <string>[INFO 2025-02-23 2:29:20 PM] Starting test for project: D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj</string>
+    <string>[INFO 2025-02-23 2:29:20 PM] Starting test for project: D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj</string>
+    <string>[INFO 2025-02-23 2:29:20 PM] Starting test for project: D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj</string>
+    <string>[INFO 2025-02-23 2:29:20 PM] Starting test for project: D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj</string>
+    <string>[INFO 2025-02-23 2:29:20 PM] Starting test for project: D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj</string>
+    <string>[INFO 2025-02-23 2:29:20 PM] Starting test for project: D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj</string>
+    <string>[INFO 2025-02-23 2:29:20 PM] Starting test for project: D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj</string>
+    <string>[INFO 2025-02-23 2:29:20 PM] Starting test for project: D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 2:29:25 PM] All tests passed successfully.
+[INFO 2025-02-23 2:29:25 PM] Test process completed. Duration: 4.76 seconds.
+[INFO 2025-02-23 2:29:25 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 2:29:26 PM] D:\Code2025\RavenWork\Lzss\LzssTest\bin\Debug\net9.0\LzssTest.dll
+[OUTPUT 2025-02-23 2:29:25 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 2:29:24 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 2:29:24 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 2:29:22 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 2:29:23 PM] Test run for D:\Code2025\RavenWork\Lzss\LzssTest\bin\Debug\net9.0\LzssTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 2:29:23 PM]   LzssTest -> D:\Code2025\RavenWork\Lzss\LzssTest\bin\Debug\net9.0\LzssTest.dll
+[OUTPUT 2025-02-23 2:29:22 PM]   Lzss -> D:\Code2025\RavenWork\Lzss\Lzss\bin\Debug\net9.0\Lzss.dll
+[OUTPUT 2025-02-23 2:29:21 PM]   Determining projects to restore...
+[INFO 2025-02-23 2:29:20 PM] Command: dotnet test "D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 2:29:20 PM] Starting test for project: D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 2:24:43 PM
+Lzss
+
+WritePatch ran compiler. 2025-02-23 2:25:42 PM
+Lzss
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Lzss -> D:\Code2025\RavenWork\Lzss\Lzss\bin\Debug\net9.0\Lzss.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.39
+
+
+WritePatch: Code is Complete.
+Lzss
+
+WritePatch Started CycleStep. 2025-02-23 2:26:03 PM
+LzssTest
+
+WritePatch ran compiler. 2025-02-23 2:26:53 PM
+LzssTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj (in 354 ms).
+  1 of 2 projects are up-to-date for restore.
+  Lzss -> D:\Code2025\RavenWork\Lzss\Lzss\bin\Debug\net9.0\Lzss.dll
+D:\Code2025\RavenWork\Lzss\LzssTest\LzssCompressorTests.cs(15,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj]
+D:\Code2025\RavenWork\Lzss\LzssTest\LzssCompressorTests.cs(23,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj]
+  LzssTest -> D:\Code2025\RavenWork\Lzss\LzssTest\bin\Debug\net9.0\LzssTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Lzss\LzssTest\LzssCompressorTests.cs(15,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj]
+D:\Code2025\RavenWork\Lzss\LzssTest\LzssCompressorTests.cs(23,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.51
+
+
+WritePatch: Compile failed.
+LzssTest
+
+Finished WritePatch cycle step.
+2025-02-23 2:26:54 PM
+LzssTest
+
+WritePatch Started CycleStep. 2025-02-23 2:26:55 PM
+LzssTest
+
+WritePatch ran compiler. 2025-02-23 2:27:39 PM
+LzssTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Lzss -> D:\Code2025\RavenWork\Lzss\Lzss\bin\Debug\net9.0\Lzss.dll
+  LzssTest -> D:\Code2025\RavenWork\Lzss\LzssTest\bin\Debug\net9.0\LzssTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.50
+
+
+WritePatch: Code is not Complete.
+LzssTest
+
+Finished WritePatch cycle step.
+2025-02-23 2:27:56 PM
+LzssTest
+
+WritePatch Started CycleStep. 2025-02-23 2:27:57 PM
+LzssTest
+
+WritePatch ran compiler. 2025-02-23 2:28:53 PM
+LzssTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Lzss -> D:\Code2025\RavenWork\Lzss\Lzss\bin\Debug\net9.0\Lzss.dll
+D:\Code2025\RavenWork\Lzss\LzssTest\LzssCompressorTests.cs(15,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj]
+D:\Code2025\RavenWork\Lzss\LzssTest\LzssCompressorTests.cs(23,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj]
+  LzssTest -> D:\Code2025\RavenWork\Lzss\LzssTest\bin\Debug\net9.0\LzssTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Lzss\LzssTest\LzssCompressorTests.cs(15,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj]
+D:\Code2025\RavenWork\Lzss\LzssTest\LzssCompressorTests.cs(23,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.58
+
+
+WritePatch: Compile failed.
+LzssTest
+
+Finished WritePatch cycle step.
+2025-02-23 2:28:55 PM
+LzssTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\Lzss\LzssTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Lzss -> D:\Code2025\RavenWork\Lzss\Lzss\bin\Debug\net9.0\Lzss.dll
+D:\Code2025\RavenWork\Lzss\LzssTest\LzssCompressorTests.cs(15,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj]
+D:\Code2025\RavenWork\Lzss\LzssTest\LzssCompressorTests.cs(23,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj]
+  LzssTest -> D:\Code2025\RavenWork\Lzss\LzssTest\bin\Debug\net9.0\LzssTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Lzss\LzssTest\LzssCompressorTests.cs(15,53): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj]
+D:\Code2025\RavenWork\Lzss\LzssTest\LzssCompressorTests.cs(23,55): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.58
+
+</CompilerResponse>
+2025-02-23 2:28:55 PM
+LzssTest
+
+WritePatch ran compiler. 2025-02-23 2:28:57 PM
+Lzss
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Lzss -> D:\Code2025\RavenWork\Lzss\Lzss\bin\Debug\net9.0\Lzss.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+
+
+WritePatch: Code is Complete.
+Lzss
+
+WritePatch ran compiler. 2025-02-23 2:29:13 PM
+LzssTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Lzss -> D:\Code2025\RavenWork\Lzss\Lzss\bin\Debug\net9.0\Lzss.dll
+  LzssTest -> D:\Code2025\RavenWork\Lzss\LzssTest\bin\Debug\net9.0\LzssTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.37
+
+
+WritePatch: Code is Complete.
+LzssTest
+
+TestResult:
+[SUCCESS 2025-02-23 2:29:25 PM] All tests passed successfully.
+[INFO 2025-02-23 2:29:25 PM] Test process completed. Duration: 4.76 seconds.
+[INFO 2025-02-23 2:29:25 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 2:29:26 PM] D:\Code2025\RavenWork\Lzss\LzssTest\bin\Debug\net9.0\LzssTest.dll
+[OUTPUT 2025-02-23 2:29:25 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 2:29:24 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 2:29:24 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 2:29:22 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 2:29:23 PM] Test run for D:\Code2025\RavenWork\Lzss\LzssTest\bin\Debug\net9.0\LzssTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 2:29:23 PM]   LzssTest -> D:\Code2025\RavenWork\Lzss\LzssTest\bin\Debug\net9.0\LzssTest.dll
+[OUTPUT 2025-02-23 2:29:22 PM]   Lzss -> D:\Code2025\RavenWork\Lzss\Lzss\bin\Debug\net9.0\Lzss.dll
+[OUTPUT 2025-02-23 2:29:21 PM]   Determining projects to restore...
+[INFO 2025-02-23 2:29:20 PM] Command: dotnet test "D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 2:29:20 PM] Starting test for project: D:\Code2025\RavenWork\Lzss\LzssTest\LzssTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
