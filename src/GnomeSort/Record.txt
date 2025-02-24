@@ -1,0 +1,359 @@
+<ActRecord>
+  <ProjectName>GnomeSort</ProjectName>
+  <ProjectDescription>Gnome sort</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Gnome sort</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\GnomeSort</SolutionFolderPath>
+  <ProjectFolderName>GnomeSort</ProjectFolderName>
+  <ProjectName>GnomeSort</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:54:05 AM
+GnomeSort</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:54:33 AM
+GnomeSort</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GnomeSort -> D:\Code2025\RavenWork\GnomeSort\GnomeSort\bin\Debug\net9.0\GnomeSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.61
+]]></string>
+    <string>WritePatch: Code is Complete.
+GnomeSort</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:55:00 AM
+GnomeSortTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:55:35 AM
+GnomeSortTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSortTest.csproj (in 514 ms).
+  1 of 2 projects are up-to-date for restore.
+  GnomeSort -> D:\Code2025\RavenWork\GnomeSort\GnomeSort\bin\Debug\net9.0\GnomeSort.dll
+D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSorterTests.cs(13,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSortTest.csproj]
+D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSorterTests.cs(14,30): warning CS8604: Possible null reference argument for parameter 'array' in 'void GnomeSorter.Sort(int[] array)'. [D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSortTest.csproj]
+  GnomeSortTest -> D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\bin\Debug\net9.0\GnomeSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSorterTests.cs(13,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSortTest.csproj]
+D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSorterTests.cs(14,30): warning CS8604: Possible null reference argument for parameter 'array' in 'void GnomeSorter.Sort(int[] array)'. [D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSortTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.78
+]]></string>
+    <string>WritePatch: Compile failed.
+GnomeSortTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:55:35 AM
+GnomeSortTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:55:35 AM
+GnomeSortTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:56:06 AM
+GnomeSortTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GnomeSort -> D:\Code2025\RavenWork\GnomeSort\GnomeSort\bin\Debug\net9.0\GnomeSort.dll
+D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSorterTests.cs(14,30): warning CS8604: Possible null reference argument for parameter 'array' in 'void GnomeSorter.Sort(int[] array)'. [D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSortTest.csproj]
+  GnomeSortTest -> D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\bin\Debug\net9.0\GnomeSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSorterTests.cs(14,30): warning CS8604: Possible null reference argument for parameter 'array' in 'void GnomeSorter.Sort(int[] array)'. [D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSortTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.15
+]]></string>
+    <string>WritePatch: Compile failed.
+GnomeSortTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:56:07 AM
+GnomeSortTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:56:07 AM
+GnomeSortTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 9:56:24 AM
+GnomeSortTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\GnomeSort\GnomeSortTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GnomeSort -> D:\Code2025\RavenWork\GnomeSort\GnomeSort\bin\Debug\net9.0\GnomeSort.dll
+D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSorterTests.cs(14,30): warning CS8604: Possible null reference argument for parameter 'array' in 'void GnomeSorter.Sort(int[] array)'. [D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSortTest.csproj]
+  GnomeSortTest -> D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\bin\Debug\net9.0\GnomeSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSorterTests.cs(14,30): warning CS8604: Possible null reference argument for parameter 'array' in 'void GnomeSorter.Sort(int[] array)'. [D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSortTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.15
+
+</CompilerResponse>
+2025-02-23 9:56:24 AM
+GnomeSortTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 9:56:26 AM
+GnomeSort</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GnomeSort -> D:\Code2025\RavenWork\GnomeSort\GnomeSort\bin\Debug\net9.0\GnomeSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.00
+]]></string>
+    <string>WritePatch: Code is Complete.
+GnomeSort</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:56:52 AM
+GnomeSortTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GnomeSort -> D:\Code2025\RavenWork\GnomeSort\GnomeSort\bin\Debug\net9.0\GnomeSort.dll
+  GnomeSortTest -> D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\bin\Debug\net9.0\GnomeSortTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.19
+]]></string>
+    <string>WritePatch: Code is Complete.
+GnomeSortTest</string>
+    <string>[INFO 2025-02-23 9:58:22 AM] Starting test for project: D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSortTest.csproj</string>
+    <string>[INFO 2025-02-23 9:58:22 AM] Starting test for project: D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSortTest.csproj</string>
+    <string>[INFO 2025-02-23 9:58:22 AM] Starting test for project: D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSortTest.csproj</string>
+    <string>[INFO 2025-02-23 9:58:22 AM] Starting test for project: D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSortTest.csproj</string>
+    <string>[INFO 2025-02-23 9:58:22 AM] Starting test for project: D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSortTest.csproj</string>
+    <string>[INFO 2025-02-23 9:58:22 AM] Starting test for project: D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSortTest.csproj</string>
+    <string>[INFO 2025-02-23 9:58:22 AM] Starting test for project: D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSortTest.csproj</string>
+    <string>[INFO 2025-02-23 9:58:22 AM] Starting test for project: D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSortTest.csproj</string>
+    <string>[INFO 2025-02-23 9:58:22 AM] Starting test for project: D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSortTest.csproj</string>
+    <string>[INFO 2025-02-23 9:58:22 AM] Starting test for project: D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSortTest.csproj</string>
+    <string>[INFO 2025-02-23 9:58:22 AM] Starting test for project: D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSortTest.csproj</string>
+    <string>[INFO 2025-02-23 9:58:22 AM] Starting test for project: D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSortTest.csproj</string>
+    <string>[INFO 2025-02-23 9:58:22 AM] Starting test for project: D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSortTest.csproj</string>
+    <string>[INFO 2025-02-23 9:58:22 AM] Starting test for project: D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSortTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 9:58:25 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 9:58:24 AM] Test run for D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\bin\Debug\net9.0\GnomeSortTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 9:58:24 AM]   GnomeSortTest -> D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\bin\Debug\net9.0\GnomeSortTest.dll
+[SUCCESS 2025-02-23 9:58:27 AM] All tests passed successfully.
+[INFO 2025-02-23 9:58:27 AM] Test process completed. Duration: 4.44 seconds.
+[INFO 2025-02-23 9:58:27 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 9:58:26 AM] Test Parallelization enabled for D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\bin\Debug\net9.0\GnomeSortTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 9:58:23 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 9:58:25 AM] D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\bin\Debug\net9.0\GnomeSortTest.dll
+[OUTPUT 2025-02-23 9:58:25 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 9:58:25 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 9:58:24 AM]   GnomeSort -> D:\Code2025\RavenWork\GnomeSort\GnomeSort\bin\Debug\net9.0\GnomeSort.dll
+[OUTPUT 2025-02-23 9:58:23 AM]   Determining projects to restore...
+[OUTPUT 2025-02-23 9:58:27 AM]   Passed TestEmptyArray [4 ms]
+[OUTPUT 2025-02-23 9:58:27 AM]   Passed TestRandomLargeArray [6 ms]
+[INFO 2025-02-23 9:58:22 AM] Command: dotnet test "D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSortTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 9:58:22 AM] Starting test for project: D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSortTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 9:54:05 AM
+GnomeSort
+
+WritePatch ran compiler. 2025-02-23 9:54:33 AM
+GnomeSort
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GnomeSort -> D:\Code2025\RavenWork\GnomeSort\GnomeSort\bin\Debug\net9.0\GnomeSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.61
+
+
+WritePatch: Code is Complete.
+GnomeSort
+
+WritePatch Started CycleStep. 2025-02-23 9:55:00 AM
+GnomeSortTest
+
+WritePatch ran compiler. 2025-02-23 9:55:35 AM
+GnomeSortTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSortTest.csproj (in 514 ms).
+  1 of 2 projects are up-to-date for restore.
+  GnomeSort -> D:\Code2025\RavenWork\GnomeSort\GnomeSort\bin\Debug\net9.0\GnomeSort.dll
+D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSorterTests.cs(13,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSortTest.csproj]
+D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSorterTests.cs(14,30): warning CS8604: Possible null reference argument for parameter 'array' in 'void GnomeSorter.Sort(int[] array)'. [D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSortTest.csproj]
+  GnomeSortTest -> D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\bin\Debug\net9.0\GnomeSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSorterTests.cs(13,27): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSortTest.csproj]
+D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSorterTests.cs(14,30): warning CS8604: Possible null reference argument for parameter 'array' in 'void GnomeSorter.Sort(int[] array)'. [D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSortTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.78
+
+
+WritePatch: Compile failed.
+GnomeSortTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:55:35 AM
+GnomeSortTest
+
+WritePatch Started CycleStep. 2025-02-23 9:55:35 AM
+GnomeSortTest
+
+WritePatch ran compiler. 2025-02-23 9:56:06 AM
+GnomeSortTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GnomeSort -> D:\Code2025\RavenWork\GnomeSort\GnomeSort\bin\Debug\net9.0\GnomeSort.dll
+D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSorterTests.cs(14,30): warning CS8604: Possible null reference argument for parameter 'array' in 'void GnomeSorter.Sort(int[] array)'. [D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSortTest.csproj]
+  GnomeSortTest -> D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\bin\Debug\net9.0\GnomeSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSorterTests.cs(14,30): warning CS8604: Possible null reference argument for parameter 'array' in 'void GnomeSorter.Sort(int[] array)'. [D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSortTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.15
+
+
+WritePatch: Compile failed.
+GnomeSortTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:56:07 AM
+GnomeSortTest
+
+WritePatch Started CycleStep. 2025-02-23 9:56:07 AM
+GnomeSortTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 9:56:24 AM
+GnomeSortTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\GnomeSort\GnomeSortTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GnomeSort -> D:\Code2025\RavenWork\GnomeSort\GnomeSort\bin\Debug\net9.0\GnomeSort.dll
+D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSorterTests.cs(14,30): warning CS8604: Possible null reference argument for parameter 'array' in 'void GnomeSorter.Sort(int[] array)'. [D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSortTest.csproj]
+  GnomeSortTest -> D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\bin\Debug\net9.0\GnomeSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSorterTests.cs(14,30): warning CS8604: Possible null reference argument for parameter 'array' in 'void GnomeSorter.Sort(int[] array)'. [D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSortTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.15
+
+</CompilerResponse>
+2025-02-23 9:56:24 AM
+GnomeSortTest
+
+WritePatch ran compiler. 2025-02-23 9:56:26 AM
+GnomeSort
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GnomeSort -> D:\Code2025\RavenWork\GnomeSort\GnomeSort\bin\Debug\net9.0\GnomeSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.00
+
+
+WritePatch: Code is Complete.
+GnomeSort
+
+WritePatch ran compiler. 2025-02-23 9:56:52 AM
+GnomeSortTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GnomeSort -> D:\Code2025\RavenWork\GnomeSort\GnomeSort\bin\Debug\net9.0\GnomeSort.dll
+  GnomeSortTest -> D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\bin\Debug\net9.0\GnomeSortTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.19
+
+
+WritePatch: Code is Complete.
+GnomeSortTest
+
+TestResult:
+[OUTPUT 2025-02-23 9:58:25 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 9:58:24 AM] Test run for D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\bin\Debug\net9.0\GnomeSortTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 9:58:24 AM]   GnomeSortTest -> D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\bin\Debug\net9.0\GnomeSortTest.dll
+[SUCCESS 2025-02-23 9:58:27 AM] All tests passed successfully.
+[INFO 2025-02-23 9:58:27 AM] Test process completed. Duration: 4.44 seconds.
+[INFO 2025-02-23 9:58:27 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 9:58:26 AM] Test Parallelization enabled for D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\bin\Debug\net9.0\GnomeSortTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 9:58:23 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 9:58:25 AM] D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\bin\Debug\net9.0\GnomeSortTest.dll
+[OUTPUT 2025-02-23 9:58:25 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 9:58:25 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 9:58:24 AM]   GnomeSort -> D:\Code2025\RavenWork\GnomeSort\GnomeSort\bin\Debug\net9.0\GnomeSort.dll
+[OUTPUT 2025-02-23 9:58:23 AM]   Determining projects to restore...
+[OUTPUT 2025-02-23 9:58:27 AM]   Passed TestEmptyArray [4 ms]
+[OUTPUT 2025-02-23 9:58:27 AM]   Passed TestRandomLargeArray [6 ms]
+[INFO 2025-02-23 9:58:22 AM] Command: dotnet test "D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSortTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 9:58:22 AM] Starting test for project: D:\Code2025\RavenWork\GnomeSort\GnomeSortTest\GnomeSortTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
