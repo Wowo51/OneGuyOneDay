@@ -1,0 +1,329 @@
+<ActRecord>
+  <ProjectName>HeapSort</ProjectName>
+  <ProjectDescription>Heapsort: convert the list into a heap, keep removing the largest element from the heap and adding it to the end of the list</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Heapsort: convert the list into a heap, keep removing the largest element from the heap and adding it to the end of the list</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\HeapSort</SolutionFolderPath>
+  <ProjectFolderName>HeapSort</ProjectFolderName>
+  <ProjectName>HeapSort</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:54:13 PM
+HeapSort</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:55:10 PM
+HeapSort</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HeapSort -> D:\Code2025\RavenWork\HeapSort\HeapSort\bin\Debug\net9.0\HeapSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+]]></string>
+    <string>WritePatch: Code is Complete.
+HeapSort</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:55:57 PM
+HeapSortTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 12:56:35 PM
+HeapSortTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:56:56 PM
+HeapSortTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:58:01 PM
+HeapSortTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSortTest.csproj (in 265 ms).
+  1 of 2 projects are up-to-date for restore.
+  HeapSort -> D:\Code2025\RavenWork\HeapSort\HeapSort\bin\Debug\net9.0\HeapSort.dll
+D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSorterTests.cs(14,30): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSortTest.csproj]
+D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSorterTests.cs(15,34): warning CS8604: Possible null reference argument for parameter 'list' in 'void HeapSorter.Sort<int>(List<int> list)'. [D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSortTest.csproj]
+  HeapSortTest -> D:\Code2025\RavenWork\HeapSort\HeapSortTest\bin\Debug\net9.0\HeapSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSorterTests.cs(14,30): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSortTest.csproj]
+D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSorterTests.cs(15,34): warning CS8604: Possible null reference argument for parameter 'list' in 'void HeapSorter.Sort<int>(List<int> list)'. [D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSortTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.87
+]]></string>
+    <string>WritePatch: Compile failed.
+HeapSortTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 12:58:48 PM
+HeapSortTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:59:07 PM
+HeapSortTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:00:24 PM
+HeapSortTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HeapSort -> D:\Code2025\RavenWork\HeapSort\HeapSort\bin\Debug\net9.0\HeapSort.dll
+D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSorterTests.cs(15,34): warning CS8604: Possible null reference argument for parameter 'list' in 'void HeapSorter.Sort<int>(List<int> list)'. [D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSortTest.csproj]
+  HeapSortTest -> D:\Code2025\RavenWork\HeapSort\HeapSortTest\bin\Debug\net9.0\HeapSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSorterTests.cs(15,34): warning CS8604: Possible null reference argument for parameter 'list' in 'void HeapSorter.Sort<int>(List<int> list)'. [D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSortTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.27
+]]></string>
+    <string>WritePatch: Compile failed.
+HeapSortTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:01:08 PM
+HeapSortTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\HeapSort\HeapSortTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HeapSort -> D:\Code2025\RavenWork\HeapSort\HeapSort\bin\Debug\net9.0\HeapSort.dll
+D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSorterTests.cs(15,34): warning CS8604: Possible null reference argument for parameter 'list' in 'void HeapSorter.Sort<int>(List<int> list)'. [D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSortTest.csproj]
+  HeapSortTest -> D:\Code2025\RavenWork\HeapSort\HeapSortTest\bin\Debug\net9.0\HeapSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSorterTests.cs(15,34): warning CS8604: Possible null reference argument for parameter 'list' in 'void HeapSorter.Sort<int>(List<int> list)'. [D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSortTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.27
+
+</CompilerResponse>
+2025-02-23 1:01:17 PM
+HeapSortTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 1:01:28 PM
+HeapSort</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HeapSort -> D:\Code2025\RavenWork\HeapSort\HeapSort\bin\Debug\net9.0\HeapSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+]]></string>
+    <string>WritePatch: Code is Complete.
+HeapSort</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:02:15 PM
+HeapSortTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HeapSort -> D:\Code2025\RavenWork\HeapSort\HeapSort\bin\Debug\net9.0\HeapSort.dll
+  HeapSortTest -> D:\Code2025\RavenWork\HeapSort\HeapSortTest\bin\Debug\net9.0\HeapSortTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.22
+]]></string>
+    <string>WritePatch: Code is Complete.
+HeapSortTest</string>
+    <string>[INFO 2025-02-23 1:03:29 PM] Starting test for project: D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSortTest.csproj</string>
+    <string>[INFO 2025-02-23 1:03:29 PM] Starting test for project: D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSortTest.csproj</string>
+    <string>[INFO 2025-02-23 1:03:29 PM] Starting test for project: D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSortTest.csproj</string>
+    <string>[INFO 2025-02-23 1:03:29 PM] Starting test for project: D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSortTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 1:03:51 PM] All tests passed successfully.
+[INFO 2025-02-23 1:03:51 PM] Test process completed. Duration: 21.67 seconds.
+[INFO 2025-02-23 1:03:51 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 1:04:16 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:03:48 PM]   Determining projects to restore...
+[INFO 2025-02-23 1:03:29 PM] Command: dotnet test "D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSortTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:03:29 PM] Starting test for project: D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSortTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 12:54:13 PM
+HeapSort
+
+WritePatch ran compiler. 2025-02-23 12:55:10 PM
+HeapSort
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HeapSort -> D:\Code2025\RavenWork\HeapSort\HeapSort\bin\Debug\net9.0\HeapSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+
+
+WritePatch: Code is Complete.
+HeapSort
+
+WritePatch Started CycleStep. 2025-02-23 12:55:57 PM
+HeapSortTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 12:56:35 PM
+HeapSortTest
+
+WritePatch Started CycleStep. 2025-02-23 12:56:56 PM
+HeapSortTest
+
+WritePatch ran compiler. 2025-02-23 12:58:01 PM
+HeapSortTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSortTest.csproj (in 265 ms).
+  1 of 2 projects are up-to-date for restore.
+  HeapSort -> D:\Code2025\RavenWork\HeapSort\HeapSort\bin\Debug\net9.0\HeapSort.dll
+D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSorterTests.cs(14,30): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSortTest.csproj]
+D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSorterTests.cs(15,34): warning CS8604: Possible null reference argument for parameter 'list' in 'void HeapSorter.Sort<int>(List<int> list)'. [D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSortTest.csproj]
+  HeapSortTest -> D:\Code2025\RavenWork\HeapSort\HeapSortTest\bin\Debug\net9.0\HeapSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSorterTests.cs(14,30): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSortTest.csproj]
+D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSorterTests.cs(15,34): warning CS8604: Possible null reference argument for parameter 'list' in 'void HeapSorter.Sort<int>(List<int> list)'. [D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSortTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.87
+
+
+WritePatch: Compile failed.
+HeapSortTest
+
+Finished WritePatch cycle step.
+2025-02-23 12:58:48 PM
+HeapSortTest
+
+WritePatch Started CycleStep. 2025-02-23 12:59:07 PM
+HeapSortTest
+
+WritePatch ran compiler. 2025-02-23 1:00:24 PM
+HeapSortTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HeapSort -> D:\Code2025\RavenWork\HeapSort\HeapSort\bin\Debug\net9.0\HeapSort.dll
+D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSorterTests.cs(15,34): warning CS8604: Possible null reference argument for parameter 'list' in 'void HeapSorter.Sort<int>(List<int> list)'. [D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSortTest.csproj]
+  HeapSortTest -> D:\Code2025\RavenWork\HeapSort\HeapSortTest\bin\Debug\net9.0\HeapSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSorterTests.cs(15,34): warning CS8604: Possible null reference argument for parameter 'list' in 'void HeapSorter.Sort<int>(List<int> list)'. [D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSortTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.27
+
+
+WritePatch: Compile failed.
+HeapSortTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:01:08 PM
+HeapSortTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\HeapSort\HeapSortTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HeapSort -> D:\Code2025\RavenWork\HeapSort\HeapSort\bin\Debug\net9.0\HeapSort.dll
+D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSorterTests.cs(15,34): warning CS8604: Possible null reference argument for parameter 'list' in 'void HeapSorter.Sort<int>(List<int> list)'. [D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSortTest.csproj]
+  HeapSortTest -> D:\Code2025\RavenWork\HeapSort\HeapSortTest\bin\Debug\net9.0\HeapSortTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSorterTests.cs(15,34): warning CS8604: Possible null reference argument for parameter 'list' in 'void HeapSorter.Sort<int>(List<int> list)'. [D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSortTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.27
+
+</CompilerResponse>
+2025-02-23 1:01:17 PM
+HeapSortTest
+
+WritePatch ran compiler. 2025-02-23 1:01:28 PM
+HeapSort
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HeapSort -> D:\Code2025\RavenWork\HeapSort\HeapSort\bin\Debug\net9.0\HeapSort.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+
+
+WritePatch: Code is Complete.
+HeapSort
+
+WritePatch ran compiler. 2025-02-23 1:02:15 PM
+HeapSortTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HeapSort -> D:\Code2025\RavenWork\HeapSort\HeapSort\bin\Debug\net9.0\HeapSort.dll
+  HeapSortTest -> D:\Code2025\RavenWork\HeapSort\HeapSortTest\bin\Debug\net9.0\HeapSortTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.22
+
+
+WritePatch: Code is Complete.
+HeapSortTest
+
+TestResult:
+[SUCCESS 2025-02-23 1:03:51 PM] All tests passed successfully.
+[INFO 2025-02-23 1:03:51 PM] Test process completed. Duration: 21.67 seconds.
+[INFO 2025-02-23 1:03:51 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 1:04:16 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:03:48 PM]   Determining projects to restore...
+[INFO 2025-02-23 1:03:29 PM] Command: dotnet test "D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSortTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:03:29 PM] Starting test for project: D:\Code2025\RavenWork\HeapSort\HeapSortTest\HeapSortTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
