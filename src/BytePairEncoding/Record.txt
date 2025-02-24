@@ -1,0 +1,429 @@
+<ActRecord>
+  <ProjectName>BytePairEncoding</ProjectName>
+  <ProjectDescription>Byte pair encoding (BPE)</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Byte pair encoding (BPE)</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\BytePairEncoding</SolutionFolderPath>
+  <ProjectFolderName>BytePairEncoding</ProjectFolderName>
+  <ProjectName>BytePairEncoding</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:11:30 AM
+BytePairEncoding</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:12:34 AM
+BytePairEncoding</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\BytePairEncoding\BytePairEncoding\BytePairEncoder.cs(30,43): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BytePairEncoding\BytePairEncoding\BytePairEncoding.csproj]
+  BytePairEncoding -> D:\Code2025\RavenWork\BytePairEncoding\BytePairEncoding\bin\Debug\net9.0\BytePairEncoding.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BytePairEncoding\BytePairEncoding\BytePairEncoder.cs(30,43): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BytePairEncoding\BytePairEncoding\BytePairEncoding.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.61
+]]></string>
+    <string>WritePatch: Compile failed.
+BytePairEncoding</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:12:39 AM
+BytePairEncoding</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:12:40 AM
+BytePairEncoding</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:13:10 AM
+BytePairEncoding</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BytePairEncoding -> D:\Code2025\RavenWork\BytePairEncoding\BytePairEncoding\bin\Debug\net9.0\BytePairEncoding.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.03
+]]></string>
+    <string>WritePatch: Code is Complete.
+BytePairEncoding</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:13:30 AM
+BytePairEncodingTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:14:45 AM
+BytePairEncodingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\BytePairEncodingTest.csproj (in 284 ms).
+  1 of 2 projects are up-to-date for restore.
+  BytePairEncoding -> D:\Code2025\RavenWork\BytePairEncoding\BytePairEncoding\bin\Debug\net9.0\BytePairEncoding.dll
+D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\BytePairEncoderTests.cs(15,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\BytePairEncodingTest.csproj]
+  BytePairEncodingTest -> D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\bin\Debug\net9.0\BytePairEncodingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\BytePairEncoderTests.cs(15,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\BytePairEncodingTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.94
+]]></string>
+    <string>WritePatch: Compile failed.
+BytePairEncodingTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:14:46 AM
+BytePairEncodingTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:14:47 AM
+BytePairEncodingTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:15:17 AM
+BytePairEncodingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BytePairEncoding -> D:\Code2025\RavenWork\BytePairEncoding\BytePairEncoding\bin\Debug\net9.0\BytePairEncoding.dll
+  BytePairEncodingTest -> D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\bin\Debug\net9.0\BytePairEncodingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.12
+]]></string>
+    <string>WritePatch: Code is not Complete.
+BytePairEncodingTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:15:32 AM
+BytePairEncodingTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:15:32 AM
+BytePairEncodingTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:17:32 AM
+BytePairEncodingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BytePairEncoding -> D:\Code2025\RavenWork\BytePairEncoding\BytePairEncoding\bin\Debug\net9.0\BytePairEncoding.dll
+D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\BytePairEncoderTests.cs(15,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\BytePairEncodingTest.csproj]
+  BytePairEncodingTest -> D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\bin\Debug\net9.0\BytePairEncodingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\BytePairEncoderTests.cs(15,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\BytePairEncodingTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.40
+]]></string>
+    <string>WritePatch: Compile failed.
+BytePairEncodingTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:17:34 AM
+BytePairEncodingTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BytePairEncoding -> D:\Code2025\RavenWork\BytePairEncoding\BytePairEncoding\bin\Debug\net9.0\BytePairEncoding.dll
+D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\BytePairEncoderTests.cs(15,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\BytePairEncodingTest.csproj]
+  BytePairEncodingTest -> D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\bin\Debug\net9.0\BytePairEncodingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\BytePairEncoderTests.cs(15,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\BytePairEncodingTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.40
+
+</CompilerResponse>
+2025-02-23 9:17:34 AM
+BytePairEncodingTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 9:17:37 AM
+BytePairEncoding</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BytePairEncoding -> D:\Code2025\RavenWork\BytePairEncoding\BytePairEncoding\bin\Debug\net9.0\BytePairEncoding.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.99
+]]></string>
+    <string>WritePatch: Code is Complete.
+BytePairEncoding</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:18:10 AM
+BytePairEncodingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BytePairEncoding -> D:\Code2025\RavenWork\BytePairEncoding\BytePairEncoding\bin\Debug\net9.0\BytePairEncoding.dll
+  BytePairEncodingTest -> D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\bin\Debug\net9.0\BytePairEncodingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.20
+]]></string>
+    <string>WritePatch: Code is Complete.
+BytePairEncodingTest</string>
+    <string>[INFO 2025-02-23 9:18:30 AM] Starting test for project: D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\BytePairEncodingTest.csproj</string>
+    <string>[INFO 2025-02-23 9:18:30 AM] Starting test for project: D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\BytePairEncodingTest.csproj</string>
+    <string>[INFO 2025-02-23 9:18:30 AM] Starting test for project: D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\BytePairEncodingTest.csproj</string>
+    <string>[INFO 2025-02-23 9:18:30 AM] Starting test for project: D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\BytePairEncodingTest.csproj</string>
+    <string>[INFO 2025-02-23 9:18:30 AM] Starting test for project: D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\BytePairEncodingTest.csproj</string>
+    <string>[INFO 2025-02-23 9:18:30 AM] Starting test for project: D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\BytePairEncodingTest.csproj</string>
+    <string>[INFO 2025-02-23 9:18:30 AM] Starting test for project: D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\BytePairEncodingTest.csproj</string>
+    <string>[INFO 2025-02-23 9:18:30 AM] Starting test for project: D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\BytePairEncodingTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 9:18:33 AM]   BytePairEncoding -> D:\Code2025\RavenWork\BytePairEncoding\BytePairEncoding\bin\Debug\net9.0\BytePairEncoding.dll
+[OUTPUT 2025-02-23 9:18:32 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 9:18:35 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 9:18:34 AM] Test run for D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\bin\Debug\net9.0\BytePairEncodingTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 9:18:33 AM]   BytePairEncodingTest -> D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\bin\Debug\net9.0\BytePairEncodingTest.dll
+[OUTPUT 2025-02-23 9:18:31 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 9:18:34 AM] All tests passed successfully.
+[INFO 2025-02-23 9:18:34 AM] Test process completed. Duration: 4.61 seconds.
+[INFO 2025-02-23 9:18:34 AM] Process exited with code 0.
+[INFO 2025-02-23 9:18:30 AM] Command: dotnet test "D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\BytePairEncodingTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 9:18:30 AM] Starting test for project: D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\BytePairEncodingTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 9:11:30 AM
+BytePairEncoding
+
+WritePatch ran compiler. 2025-02-23 9:12:34 AM
+BytePairEncoding
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\BytePairEncoding\BytePairEncoding\BytePairEncoder.cs(30,43): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BytePairEncoding\BytePairEncoding\BytePairEncoding.csproj]
+  BytePairEncoding -> D:\Code2025\RavenWork\BytePairEncoding\BytePairEncoding\bin\Debug\net9.0\BytePairEncoding.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BytePairEncoding\BytePairEncoding\BytePairEncoder.cs(30,43): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BytePairEncoding\BytePairEncoding\BytePairEncoding.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.61
+
+
+WritePatch: Compile failed.
+BytePairEncoding
+
+Finished WritePatch cycle step.
+2025-02-23 9:12:39 AM
+BytePairEncoding
+
+WritePatch Started CycleStep. 2025-02-23 9:12:40 AM
+BytePairEncoding
+
+WritePatch ran compiler. 2025-02-23 9:13:10 AM
+BytePairEncoding
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BytePairEncoding -> D:\Code2025\RavenWork\BytePairEncoding\BytePairEncoding\bin\Debug\net9.0\BytePairEncoding.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.03
+
+
+WritePatch: Code is Complete.
+BytePairEncoding
+
+WritePatch Started CycleStep. 2025-02-23 9:13:30 AM
+BytePairEncodingTest
+
+WritePatch ran compiler. 2025-02-23 9:14:45 AM
+BytePairEncodingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\BytePairEncodingTest.csproj (in 284 ms).
+  1 of 2 projects are up-to-date for restore.
+  BytePairEncoding -> D:\Code2025\RavenWork\BytePairEncoding\BytePairEncoding\bin\Debug\net9.0\BytePairEncoding.dll
+D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\BytePairEncoderTests.cs(15,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\BytePairEncodingTest.csproj]
+  BytePairEncodingTest -> D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\bin\Debug\net9.0\BytePairEncodingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\BytePairEncoderTests.cs(15,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\BytePairEncodingTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.94
+
+
+WritePatch: Compile failed.
+BytePairEncodingTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:14:46 AM
+BytePairEncodingTest
+
+WritePatch Started CycleStep. 2025-02-23 9:14:47 AM
+BytePairEncodingTest
+
+WritePatch ran compiler. 2025-02-23 9:15:17 AM
+BytePairEncodingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BytePairEncoding -> D:\Code2025\RavenWork\BytePairEncoding\BytePairEncoding\bin\Debug\net9.0\BytePairEncoding.dll
+  BytePairEncodingTest -> D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\bin\Debug\net9.0\BytePairEncodingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.12
+
+
+WritePatch: Code is not Complete.
+BytePairEncodingTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:15:32 AM
+BytePairEncodingTest
+
+WritePatch Started CycleStep. 2025-02-23 9:15:32 AM
+BytePairEncodingTest
+
+WritePatch ran compiler. 2025-02-23 9:17:32 AM
+BytePairEncodingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BytePairEncoding -> D:\Code2025\RavenWork\BytePairEncoding\BytePairEncoding\bin\Debug\net9.0\BytePairEncoding.dll
+D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\BytePairEncoderTests.cs(15,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\BytePairEncodingTest.csproj]
+  BytePairEncodingTest -> D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\bin\Debug\net9.0\BytePairEncodingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\BytePairEncoderTests.cs(15,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\BytePairEncodingTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.40
+
+
+WritePatch: Compile failed.
+BytePairEncodingTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:17:34 AM
+BytePairEncodingTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BytePairEncoding -> D:\Code2025\RavenWork\BytePairEncoding\BytePairEncoding\bin\Debug\net9.0\BytePairEncoding.dll
+D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\BytePairEncoderTests.cs(15,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\BytePairEncodingTest.csproj]
+  BytePairEncodingTest -> D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\bin\Debug\net9.0\BytePairEncodingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\BytePairEncoderTests.cs(15,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\BytePairEncodingTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.40
+
+</CompilerResponse>
+2025-02-23 9:17:34 AM
+BytePairEncodingTest
+
+WritePatch ran compiler. 2025-02-23 9:17:37 AM
+BytePairEncoding
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BytePairEncoding -> D:\Code2025\RavenWork\BytePairEncoding\BytePairEncoding\bin\Debug\net9.0\BytePairEncoding.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.99
+
+
+WritePatch: Code is Complete.
+BytePairEncoding
+
+WritePatch ran compiler. 2025-02-23 9:18:10 AM
+BytePairEncodingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BytePairEncoding -> D:\Code2025\RavenWork\BytePairEncoding\BytePairEncoding\bin\Debug\net9.0\BytePairEncoding.dll
+  BytePairEncodingTest -> D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\bin\Debug\net9.0\BytePairEncodingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.20
+
+
+WritePatch: Code is Complete.
+BytePairEncodingTest
+
+TestResult:
+[OUTPUT 2025-02-23 9:18:33 AM]   BytePairEncoding -> D:\Code2025\RavenWork\BytePairEncoding\BytePairEncoding\bin\Debug\net9.0\BytePairEncoding.dll
+[OUTPUT 2025-02-23 9:18:32 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 9:18:35 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 9:18:34 AM] Test run for D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\bin\Debug\net9.0\BytePairEncodingTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 9:18:33 AM]   BytePairEncodingTest -> D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\bin\Debug\net9.0\BytePairEncodingTest.dll
+[OUTPUT 2025-02-23 9:18:31 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 9:18:34 AM] All tests passed successfully.
+[INFO 2025-02-23 9:18:34 AM] Test process completed. Duration: 4.61 seconds.
+[INFO 2025-02-23 9:18:34 AM] Process exited with code 0.
+[INFO 2025-02-23 9:18:30 AM] Command: dotnet test "D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\BytePairEncodingTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 9:18:30 AM] Starting test for project: D:\Code2025\RavenWork\BytePairEncoding\BytePairEncodingTest\BytePairEncodingTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
