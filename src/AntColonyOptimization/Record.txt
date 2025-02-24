@@ -1,0 +1,220 @@
+<ActRecord>
+  <ProjectName>AntColonyOptimization</ProjectName>
+  <ProjectDescription>Ant colony optimization – An algorithm inspired by the foraging behavior of ants to solve combinatorial optimization problems.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Ant colony optimization – An algorithm inspired by the foraging behavior of ants to solve combinatorial optimization problems.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\AntColonyOptimization</SolutionFolderPath>
+  <ProjectFolderName>AntColonyOptimization</ProjectFolderName>
+  <ProjectName>AntColonyOptimization</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:11:06 PM
+AntColonyOptimization</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:11:43 PM
+AntColonyOptimization</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimization\AntColonyOptimizer.cs(45,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimization\AntColonyOptimization.csproj]
+D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimization\AntColonyOptimizer.cs(67,49): warning CS8604: Possible null reference argument for parameter 'item1' in 'Tuple<List<int>, double>.Tuple(List<int> item1, double item2)'. [D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimization\AntColonyOptimization.csproj]
+  AntColonyOptimization -> D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimization\bin\Debug\net9.0\AntColonyOptimization.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimization\AntColonyOptimizer.cs(45,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimization\AntColonyOptimization.csproj]
+D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimization\AntColonyOptimizer.cs(67,49): warning CS8604: Possible null reference argument for parameter 'item1' in 'Tuple<List<int>, double>.Tuple(List<int> item1, double item2)'. [D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimization\AntColonyOptimization.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.28
+]]></string>
+    <string>WritePatch: Compile failed.
+AntColonyOptimization</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 12:11:44 PM
+AntColonyOptimization</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:11:45 PM
+AntColonyOptimization</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 12:12:29 PM
+AntColonyOptimization</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:12:29 PM
+AntColonyOptimization</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:13:20 PM
+AntColonyOptimization</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AntColonyOptimization -> D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimization\bin\Debug\net9.0\AntColonyOptimization.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.92
+]]></string>
+    <string>WritePatch: Code is Complete.
+AntColonyOptimization</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 12:13:33 PM
+AntColonyOptimizationTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 12:14:35 PM
+AntColonyOptimizationTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimizationTest\AntColonyOptimizationTest.csproj (in 261 ms).
+  1 of 2 projects are up-to-date for restore.
+  AntColonyOptimization -> D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimization\bin\Debug\net9.0\AntColonyOptimization.dll
+  AntColonyOptimizationTest -> D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimizationTest\bin\Debug\net9.0\AntColonyOptimizationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.71
+]]></string>
+    <string>WritePatch: Code is Complete.
+AntColonyOptimizationTest</string>
+    <string>[INFO 2025-02-23 12:14:58 PM] Starting test for project: D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimizationTest\AntColonyOptimizationTest.csproj</string>
+    <string>[INFO 2025-02-23 12:14:58 PM] Starting test for project: D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimizationTest\AntColonyOptimizationTest.csproj</string>
+    <string>[INFO 2025-02-23 12:14:58 PM] Starting test for project: D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimizationTest\AntColonyOptimizationTest.csproj</string>
+    <string>[INFO 2025-02-23 12:14:58 PM] Starting test for project: D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimizationTest\AntColonyOptimizationTest.csproj</string>
+    <string>[INFO 2025-02-23 12:14:58 PM] Starting test for project: D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimizationTest\AntColonyOptimizationTest.csproj</string>
+    <string>[INFO 2025-02-23 12:14:58 PM] Starting test for project: D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimizationTest\AntColonyOptimizationTest.csproj</string>
+    <string>[INFO 2025-02-23 12:14:58 PM] Starting test for project: D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimizationTest\AntColonyOptimizationTest.csproj</string>
+    <string>[INFO 2025-02-23 12:14:58 PM] Starting test for project: D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimizationTest\AntColonyOptimizationTest.csproj</string>
+    <string>[INFO 2025-02-23 12:14:58 PM] Starting test for project: D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimizationTest\AntColonyOptimizationTest.csproj</string>
+    <string>[INFO 2025-02-23 12:14:58 PM] Starting test for project: D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimizationTest\AntColonyOptimizationTest.csproj</string>
+    <string>[INFO 2025-02-23 12:14:58 PM] Starting test for project: D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimizationTest\AntColonyOptimizationTest.csproj</string>
+    <string>[INFO 2025-02-23 12:14:58 PM] Starting test for project: D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimizationTest\AntColonyOptimizationTest.csproj</string>
+    <string>[INFO 2025-02-23 12:14:58 PM] Starting test for project: D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimizationTest\AntColonyOptimizationTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 12:15:01 PM] All tests passed successfully.
+[INFO 2025-02-23 12:15:01 PM] Test process completed. Duration: 3.55 seconds.
+[INFO 2025-02-23 12:15:01 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 12:15:00 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 12:14:59 PM] Test run for D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimizationTest\bin\Debug\net9.0\AntColonyOptimizationTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 12:14:59 PM]   AntColonyOptimizationTest -> D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimizationTest\bin\Debug\net9.0\AntColonyOptimizationTest.dll
+[OUTPUT 2025-02-23 12:14:59 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 12:15:01 PM]   Passed TestOptimizeReturnsNonTrivialRouteLength [6 ms]
+[OUTPUT 2025-02-23 12:15:01 PM] Test Parallelization enabled for D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimizationTest\bin\Debug\net9.0\AntColonyOptimizationTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 12:15:00 PM] D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimizationTest\bin\Debug\net9.0\AntColonyOptimizationTest.dll
+[OUTPUT 2025-02-23 12:15:00 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 12:15:00 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 12:14:59 PM]   AntColonyOptimization -> D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimization\bin\Debug\net9.0\AntColonyOptimization.dll
+[OUTPUT 2025-02-23 12:14:58 PM]   Determining projects to restore...
+[INFO 2025-02-23 12:14:58 PM] Command: dotnet test "D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimizationTest\AntColonyOptimizationTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 12:14:58 PM] Starting test for project: D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimizationTest\AntColonyOptimizationTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 12:11:06 PM
+AntColonyOptimization
+
+WritePatch ran compiler. 2025-02-23 12:11:43 PM
+AntColonyOptimization
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimization\AntColonyOptimizer.cs(45,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimization\AntColonyOptimization.csproj]
+D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimization\AntColonyOptimizer.cs(67,49): warning CS8604: Possible null reference argument for parameter 'item1' in 'Tuple<List<int>, double>.Tuple(List<int> item1, double item2)'. [D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimization\AntColonyOptimization.csproj]
+  AntColonyOptimization -> D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimization\bin\Debug\net9.0\AntColonyOptimization.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimization\AntColonyOptimizer.cs(45,35): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimization\AntColonyOptimization.csproj]
+D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimization\AntColonyOptimizer.cs(67,49): warning CS8604: Possible null reference argument for parameter 'item1' in 'Tuple<List<int>, double>.Tuple(List<int> item1, double item2)'. [D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimization\AntColonyOptimization.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.28
+
+
+WritePatch: Compile failed.
+AntColonyOptimization
+
+Finished WritePatch cycle step.
+2025-02-23 12:11:44 PM
+AntColonyOptimization
+
+WritePatch Started CycleStep. 2025-02-23 12:11:45 PM
+AntColonyOptimization
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 12:12:29 PM
+AntColonyOptimization
+
+WritePatch Started CycleStep. 2025-02-23 12:12:29 PM
+AntColonyOptimization
+
+WritePatch ran compiler. 2025-02-23 12:13:20 PM
+AntColonyOptimization
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AntColonyOptimization -> D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimization\bin\Debug\net9.0\AntColonyOptimization.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.92
+
+
+WritePatch: Code is Complete.
+AntColonyOptimization
+
+WritePatch Started CycleStep. 2025-02-23 12:13:33 PM
+AntColonyOptimizationTest
+
+WritePatch ran compiler. 2025-02-23 12:14:35 PM
+AntColonyOptimizationTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimizationTest\AntColonyOptimizationTest.csproj (in 261 ms).
+  1 of 2 projects are up-to-date for restore.
+  AntColonyOptimization -> D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimization\bin\Debug\net9.0\AntColonyOptimization.dll
+  AntColonyOptimizationTest -> D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimizationTest\bin\Debug\net9.0\AntColonyOptimizationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.71
+
+
+WritePatch: Code is Complete.
+AntColonyOptimizationTest
+
+TestResult:
+[SUCCESS 2025-02-23 12:15:01 PM] All tests passed successfully.
+[INFO 2025-02-23 12:15:01 PM] Test process completed. Duration: 3.55 seconds.
+[INFO 2025-02-23 12:15:01 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 12:15:00 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 12:14:59 PM] Test run for D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimizationTest\bin\Debug\net9.0\AntColonyOptimizationTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 12:14:59 PM]   AntColonyOptimizationTest -> D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimizationTest\bin\Debug\net9.0\AntColonyOptimizationTest.dll
+[OUTPUT 2025-02-23 12:14:59 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 12:15:01 PM]   Passed TestOptimizeReturnsNonTrivialRouteLength [6 ms]
+[OUTPUT 2025-02-23 12:15:01 PM] Test Parallelization enabled for D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimizationTest\bin\Debug\net9.0\AntColonyOptimizationTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 12:15:00 PM] D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimizationTest\bin\Debug\net9.0\AntColonyOptimizationTest.dll
+[OUTPUT 2025-02-23 12:15:00 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 12:15:00 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 12:14:59 PM]   AntColonyOptimization -> D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimization\bin\Debug\net9.0\AntColonyOptimization.dll
+[OUTPUT 2025-02-23 12:14:58 PM]   Determining projects to restore...
+[INFO 2025-02-23 12:14:58 PM] Command: dotnet test "D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimizationTest\AntColonyOptimizationTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 12:14:58 PM] Starting test for project: D:\Code2025\RavenWork\AntColonyOptimization\AntColonyOptimizationTest\AntColonyOptimizationTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
