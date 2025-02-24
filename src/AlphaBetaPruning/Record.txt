@@ -1,0 +1,391 @@
+<ActRecord>
+  <ProjectName>AlphaBetaPruning</ProjectName>
+  <ProjectDescription>Alpha–beta pruning – A search algorithm that reduces the number of nodes evaluated in minimax game trees.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Alpha–beta pruning – A search algorithm that reduces the number of nodes evaluated in minimax game trees.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\AlphaBetaPruning</SolutionFolderPath>
+  <ProjectFolderName>AlphaBetaPruning</ProjectFolderName>
+  <ProjectName>AlphaBetaPruning</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:57:33 AM
+AlphaBetaPruning</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:58:13 AM
+AlphaBetaPruning</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AlphaBetaPruning -> D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruning\bin\Debug\net9.0\AlphaBetaPruning.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.82
+]]></string>
+    <string>WritePatch: Code is Complete.
+AlphaBetaPruning</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:58:24 AM
+AlphaBetaPruningTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 6:59:34 AM
+AlphaBetaPruningTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPruningTest.csproj (in 228 ms).
+  1 of 2 projects are up-to-date for restore.
+  AlphaBetaPruning -> D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruning\bin\Debug\net9.0\AlphaBetaPruning.dll
+D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPrunerTests.cs(14,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPruningTest.csproj]
+  AlphaBetaPruningTest -> D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\bin\Debug\net9.0\AlphaBetaPruningTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPrunerTests.cs(14,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPruningTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.57
+]]></string>
+    <string>WritePatch: Compile failed.
+AlphaBetaPruningTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 6:59:35 AM
+AlphaBetaPruningTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 6:59:36 AM
+AlphaBetaPruningTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:00:14 AM
+AlphaBetaPruningTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AlphaBetaPruning -> D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruning\bin\Debug\net9.0\AlphaBetaPruning.dll
+  AlphaBetaPruningTest -> D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\bin\Debug\net9.0\AlphaBetaPruningTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.90
+]]></string>
+    <string>WritePatch: Code is not Complete.
+AlphaBetaPruningTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:00:37 AM
+AlphaBetaPruningTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:00:37 AM
+AlphaBetaPruningTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:01:54 AM
+AlphaBetaPruningTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AlphaBetaPruning -> D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruning\bin\Debug\net9.0\AlphaBetaPruning.dll
+D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPrunerTests.cs(14,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPruningTest.csproj]
+  AlphaBetaPruningTest -> D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\bin\Debug\net9.0\AlphaBetaPruningTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPrunerTests.cs(14,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPruningTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87
+]]></string>
+    <string>WritePatch: Compile failed.
+AlphaBetaPruningTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:01:55 AM
+AlphaBetaPruningTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AlphaBetaPruning -> D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruning\bin\Debug\net9.0\AlphaBetaPruning.dll
+D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPrunerTests.cs(14,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPruningTest.csproj]
+  AlphaBetaPruningTest -> D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\bin\Debug\net9.0\AlphaBetaPruningTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPrunerTests.cs(14,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPruningTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87
+
+</CompilerResponse>
+2025-02-23 7:01:55 AM
+AlphaBetaPruningTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 7:01:56 AM
+AlphaBetaPruning</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AlphaBetaPruning -> D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruning\bin\Debug\net9.0\AlphaBetaPruning.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.72
+]]></string>
+    <string>WritePatch: Code is Complete.
+AlphaBetaPruning</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:02:06 AM
+AlphaBetaPruningTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AlphaBetaPruning -> D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruning\bin\Debug\net9.0\AlphaBetaPruning.dll
+  AlphaBetaPruningTest -> D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\bin\Debug\net9.0\AlphaBetaPruningTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.83
+]]></string>
+    <string>WritePatch: Code is Complete.
+AlphaBetaPruningTest</string>
+    <string>[INFO 2025-02-23 7:02:45 AM] Starting test for project: D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPruningTest.csproj</string>
+    <string>[INFO 2025-02-23 7:02:45 AM] Starting test for project: D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPruningTest.csproj</string>
+    <string>[INFO 2025-02-23 7:02:45 AM] Starting test for project: D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPruningTest.csproj</string>
+    <string>[INFO 2025-02-23 7:02:45 AM] Starting test for project: D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPruningTest.csproj</string>
+    <string>[INFO 2025-02-23 7:02:45 AM] Starting test for project: D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPruningTest.csproj</string>
+    <string>[INFO 2025-02-23 7:02:45 AM] Starting test for project: D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPruningTest.csproj</string>
+    <string>[INFO 2025-02-23 7:02:45 AM] Starting test for project: D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPruningTest.csproj</string>
+    <string>[INFO 2025-02-23 7:02:45 AM] Starting test for project: D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPruningTest.csproj</string>
+    <string>[INFO 2025-02-23 7:02:45 AM] Starting test for project: D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPruningTest.csproj</string>
+    <string>[INFO 2025-02-23 7:02:45 AM] Starting test for project: D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPruningTest.csproj</string>
+    <string>[INFO 2025-02-23 7:02:45 AM] Starting test for project: D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPruningTest.csproj</string>
+    <string>[INFO 2025-02-23 7:02:45 AM] Starting test for project: D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPruningTest.csproj</string>
+    <string>[INFO 2025-02-23 7:02:45 AM] Starting test for project: D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPruningTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 7:02:48 AM] All tests passed successfully.
+[INFO 2025-02-23 7:02:48 AM] Test process completed. Duration: 3.07 seconds.
+[INFO 2025-02-23 7:02:48 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 7:02:48 AM]   Passed Test_NullNode_ReturnsZero [2 ms]
+[OUTPUT 2025-02-23 7:02:48 AM] Test Parallelization enabled for D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\bin\Debug\net9.0\AlphaBetaPruningTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:02:47 AM] D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\bin\Debug\net9.0\AlphaBetaPruningTest.dll
+[OUTPUT 2025-02-23 7:02:47 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:02:47 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:02:47 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:02:47 AM] Test run for D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\bin\Debug\net9.0\AlphaBetaPruningTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:02:47 AM]   AlphaBetaPruningTest -> D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\bin\Debug\net9.0\AlphaBetaPruningTest.dll
+[OUTPUT 2025-02-23 7:02:46 AM]   AlphaBetaPruning -> D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruning\bin\Debug\net9.0\AlphaBetaPruning.dll
+[OUTPUT 2025-02-23 7:02:46 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:02:46 AM]   Determining projects to restore...
+[INFO 2025-02-23 7:02:45 AM] Command: dotnet test "D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPruningTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:02:45 AM] Starting test for project: D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPruningTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 6:57:33 AM
+AlphaBetaPruning
+
+WritePatch ran compiler. 2025-02-23 6:58:13 AM
+AlphaBetaPruning
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AlphaBetaPruning -> D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruning\bin\Debug\net9.0\AlphaBetaPruning.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.82
+
+
+WritePatch: Code is Complete.
+AlphaBetaPruning
+
+WritePatch Started CycleStep. 2025-02-23 6:58:24 AM
+AlphaBetaPruningTest
+
+WritePatch ran compiler. 2025-02-23 6:59:34 AM
+AlphaBetaPruningTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPruningTest.csproj (in 228 ms).
+  1 of 2 projects are up-to-date for restore.
+  AlphaBetaPruning -> D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruning\bin\Debug\net9.0\AlphaBetaPruning.dll
+D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPrunerTests.cs(14,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPruningTest.csproj]
+  AlphaBetaPruningTest -> D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\bin\Debug\net9.0\AlphaBetaPruningTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPrunerTests.cs(14,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPruningTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.57
+
+
+WritePatch: Compile failed.
+AlphaBetaPruningTest
+
+Finished WritePatch cycle step.
+2025-02-23 6:59:35 AM
+AlphaBetaPruningTest
+
+WritePatch Started CycleStep. 2025-02-23 6:59:36 AM
+AlphaBetaPruningTest
+
+WritePatch ran compiler. 2025-02-23 7:00:14 AM
+AlphaBetaPruningTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AlphaBetaPruning -> D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruning\bin\Debug\net9.0\AlphaBetaPruning.dll
+  AlphaBetaPruningTest -> D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\bin\Debug\net9.0\AlphaBetaPruningTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.90
+
+
+WritePatch: Code is not Complete.
+AlphaBetaPruningTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:00:37 AM
+AlphaBetaPruningTest
+
+WritePatch Started CycleStep. 2025-02-23 7:00:37 AM
+AlphaBetaPruningTest
+
+WritePatch ran compiler. 2025-02-23 7:01:54 AM
+AlphaBetaPruningTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AlphaBetaPruning -> D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruning\bin\Debug\net9.0\AlphaBetaPruning.dll
+D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPrunerTests.cs(14,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPruningTest.csproj]
+  AlphaBetaPruningTest -> D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\bin\Debug\net9.0\AlphaBetaPruningTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPrunerTests.cs(14,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPruningTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87
+
+
+WritePatch: Compile failed.
+AlphaBetaPruningTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:01:55 AM
+AlphaBetaPruningTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AlphaBetaPruning -> D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruning\bin\Debug\net9.0\AlphaBetaPruning.dll
+D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPrunerTests.cs(14,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPruningTest.csproj]
+  AlphaBetaPruningTest -> D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\bin\Debug\net9.0\AlphaBetaPruningTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPrunerTests.cs(14,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPruningTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87
+
+</CompilerResponse>
+2025-02-23 7:01:55 AM
+AlphaBetaPruningTest
+
+WritePatch ran compiler. 2025-02-23 7:01:56 AM
+AlphaBetaPruning
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AlphaBetaPruning -> D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruning\bin\Debug\net9.0\AlphaBetaPruning.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.72
+
+
+WritePatch: Code is Complete.
+AlphaBetaPruning
+
+WritePatch ran compiler. 2025-02-23 7:02:06 AM
+AlphaBetaPruningTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AlphaBetaPruning -> D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruning\bin\Debug\net9.0\AlphaBetaPruning.dll
+  AlphaBetaPruningTest -> D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\bin\Debug\net9.0\AlphaBetaPruningTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.83
+
+
+WritePatch: Code is Complete.
+AlphaBetaPruningTest
+
+TestResult:
+[SUCCESS 2025-02-23 7:02:48 AM] All tests passed successfully.
+[INFO 2025-02-23 7:02:48 AM] Test process completed. Duration: 3.07 seconds.
+[INFO 2025-02-23 7:02:48 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 7:02:48 AM]   Passed Test_NullNode_ReturnsZero [2 ms]
+[OUTPUT 2025-02-23 7:02:48 AM] Test Parallelization enabled for D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\bin\Debug\net9.0\AlphaBetaPruningTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:02:47 AM] D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\bin\Debug\net9.0\AlphaBetaPruningTest.dll
+[OUTPUT 2025-02-23 7:02:47 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:02:47 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:02:47 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:02:47 AM] Test run for D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\bin\Debug\net9.0\AlphaBetaPruningTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:02:47 AM]   AlphaBetaPruningTest -> D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\bin\Debug\net9.0\AlphaBetaPruningTest.dll
+[OUTPUT 2025-02-23 7:02:46 AM]   AlphaBetaPruning -> D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruning\bin\Debug\net9.0\AlphaBetaPruning.dll
+[OUTPUT 2025-02-23 7:02:46 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:02:46 AM]   Determining projects to restore...
+[INFO 2025-02-23 7:02:45 AM] Command: dotnet test "D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPruningTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:02:45 AM] Starting test for project: D:\Code2025\RavenWork\AlphaBetaPruning\AlphaBetaPruningTest\AlphaBetaPruningTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
