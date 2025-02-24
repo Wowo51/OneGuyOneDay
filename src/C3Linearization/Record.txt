@@ -1,0 +1,208 @@
+<ActRecord>
+  <ProjectName>C3Linearization</ProjectName>
+  <ProjectDescription>C3 linearization: Obtains a consistent linearization of a multiple inheritance hierarchy</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>C3 linearization: Obtains a consistent linearization of a multiple inheritance hierarchy</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\C3Linearization</SolutionFolderPath>
+  <ProjectFolderName>C3Linearization</ProjectFolderName>
+  <ProjectName>C3Linearization</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:57:57 PM
+C3Linearization</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:58:25 PM
+C3Linearization</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\C3Linearization\C3Linearization\C3Linearizer.cs(12,51): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\C3Linearization\C3Linearization\C3Linearization.csproj]
+D:\Code2025\RavenWork\C3Linearization\C3Linearization\C3Linearizer.cs(39,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\C3Linearization\C3Linearization\C3Linearization.csproj]
+D:\Code2025\RavenWork\C3Linearization\C3Linearization\C3Linearizer.cs(76,28): warning CS8604: Possible null reference argument for parameter 'item' in 'void List<T>.Add(T item)'. [D:\Code2025\RavenWork\C3Linearization\C3Linearization\C3Linearization.csproj]
+  C3Linearization -> D:\Code2025\RavenWork\C3Linearization\C3Linearization\bin\Debug\net9.0\C3Linearization.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\C3Linearization\C3Linearization\C3Linearizer.cs(12,51): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\C3Linearization\C3Linearization\C3Linearization.csproj]
+D:\Code2025\RavenWork\C3Linearization\C3Linearization\C3Linearizer.cs(39,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\C3Linearization\C3Linearization\C3Linearization.csproj]
+D:\Code2025\RavenWork\C3Linearization\C3Linearization\C3Linearizer.cs(76,28): warning CS8604: Possible null reference argument for parameter 'item' in 'void List<T>.Add(T item)'. [D:\Code2025\RavenWork\C3Linearization\C3Linearization\C3Linearization.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.58
+]]></string>
+    <string>WritePatch: Compile failed.
+C3Linearization</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 2:58:26 PM
+C3Linearization</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:58:27 PM
+C3Linearization</string>
+    <string>WritePatch ran compiler. 2025-02-23 2:59:19 PM
+C3Linearization</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  C3Linearization -> D:\Code2025\RavenWork\C3Linearization\C3Linearization\bin\Debug\net9.0\C3Linearization.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.26
+]]></string>
+    <string>WritePatch: Code is Complete.
+C3Linearization</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 2:59:33 PM
+C3LinearizationTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 3:00:54 PM
+C3LinearizationTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\C3Linearization\C3LinearizationTest\C3LinearizationTest.csproj (in 379 ms).
+  1 of 2 projects are up-to-date for restore.
+  C3Linearization -> D:\Code2025\RavenWork\C3Linearization\C3Linearization\bin\Debug\net9.0\C3Linearization.dll
+  C3LinearizationTest -> D:\Code2025\RavenWork\C3Linearization\C3LinearizationTest\bin\Debug\net9.0\C3LinearizationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.71
+]]></string>
+    <string>WritePatch: Code is Complete.
+C3LinearizationTest</string>
+    <string>[INFO 2025-02-23 3:01:12 PM] Starting test for project: D:\Code2025\RavenWork\C3Linearization\C3LinearizationTest\C3LinearizationTest.csproj</string>
+    <string>[INFO 2025-02-23 3:01:12 PM] Starting test for project: D:\Code2025\RavenWork\C3Linearization\C3LinearizationTest\C3LinearizationTest.csproj</string>
+    <string>[INFO 2025-02-23 3:01:12 PM] Starting test for project: D:\Code2025\RavenWork\C3Linearization\C3LinearizationTest\C3LinearizationTest.csproj</string>
+    <string>[INFO 2025-02-23 3:01:12 PM] Starting test for project: D:\Code2025\RavenWork\C3Linearization\C3LinearizationTest\C3LinearizationTest.csproj</string>
+    <string>[INFO 2025-02-23 3:01:12 PM] Starting test for project: D:\Code2025\RavenWork\C3Linearization\C3LinearizationTest\C3LinearizationTest.csproj</string>
+    <string>[INFO 2025-02-23 3:01:12 PM] Starting test for project: D:\Code2025\RavenWork\C3Linearization\C3LinearizationTest\C3LinearizationTest.csproj</string>
+    <string>[INFO 2025-02-23 3:01:12 PM] Starting test for project: D:\Code2025\RavenWork\C3Linearization\C3LinearizationTest\C3LinearizationTest.csproj</string>
+    <string>[INFO 2025-02-23 3:01:12 PM] Starting test for project: D:\Code2025\RavenWork\C3Linearization\C3LinearizationTest\C3LinearizationTest.csproj</string>
+    <string>[INFO 2025-02-23 3:01:12 PM] Starting test for project: D:\Code2025\RavenWork\C3Linearization\C3LinearizationTest\C3LinearizationTest.csproj</string>
+    <string>[INFO 2025-02-23 3:01:12 PM] Starting test for project: D:\Code2025\RavenWork\C3Linearization\C3LinearizationTest\C3LinearizationTest.csproj</string>
+    <string>[INFO 2025-02-23 3:01:12 PM] Starting test for project: D:\Code2025\RavenWork\C3Linearization\C3LinearizationTest\C3LinearizationTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 3:01:18 PM] All tests passed successfully.
+[INFO 2025-02-23 3:01:18 PM] Test process completed. Duration: 5.68 seconds.
+[INFO 2025-02-23 3:01:18 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 3:01:14 PM]   C3Linearization -> D:\Code2025\RavenWork\C3Linearization\C3Linearization\bin\Debug\net9.0\C3Linearization.dll
+[OUTPUT 2025-02-23 3:01:18 PM] D:\Code2025\RavenWork\C3Linearization\C3LinearizationTest\bin\Debug\net9.0\C3LinearizationTest.dll
+[OUTPUT 2025-02-23 3:01:17 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 3:01:17 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 3:01:17 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 3:01:16 PM] Test run for D:\Code2025\RavenWork\C3Linearization\C3LinearizationTest\bin\Debug\net9.0\C3LinearizationTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 3:01:15 PM]   C3LinearizationTest -> D:\Code2025\RavenWork\C3Linearization\C3LinearizationTest\bin\Debug\net9.0\C3LinearizationTest.dll
+[OUTPUT 2025-02-23 3:01:14 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 3:01:14 PM]   Determining projects to restore...
+[INFO 2025-02-23 3:01:12 PM] Command: dotnet test "D:\Code2025\RavenWork\C3Linearization\C3LinearizationTest\C3LinearizationTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 3:01:12 PM] Starting test for project: D:\Code2025\RavenWork\C3Linearization\C3LinearizationTest\C3LinearizationTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 2:57:57 PM
+C3Linearization
+
+WritePatch ran compiler. 2025-02-23 2:58:25 PM
+C3Linearization
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\C3Linearization\C3Linearization\C3Linearizer.cs(12,51): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\C3Linearization\C3Linearization\C3Linearization.csproj]
+D:\Code2025\RavenWork\C3Linearization\C3Linearization\C3Linearizer.cs(39,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\C3Linearization\C3Linearization\C3Linearization.csproj]
+D:\Code2025\RavenWork\C3Linearization\C3Linearization\C3Linearizer.cs(76,28): warning CS8604: Possible null reference argument for parameter 'item' in 'void List<T>.Add(T item)'. [D:\Code2025\RavenWork\C3Linearization\C3Linearization\C3Linearization.csproj]
+  C3Linearization -> D:\Code2025\RavenWork\C3Linearization\C3Linearization\bin\Debug\net9.0\C3Linearization.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\C3Linearization\C3Linearization\C3Linearizer.cs(12,51): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\C3Linearization\C3Linearization\C3Linearization.csproj]
+D:\Code2025\RavenWork\C3Linearization\C3Linearization\C3Linearizer.cs(39,31): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\C3Linearization\C3Linearization\C3Linearization.csproj]
+D:\Code2025\RavenWork\C3Linearization\C3Linearization\C3Linearizer.cs(76,28): warning CS8604: Possible null reference argument for parameter 'item' in 'void List<T>.Add(T item)'. [D:\Code2025\RavenWork\C3Linearization\C3Linearization\C3Linearization.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.58
+
+
+WritePatch: Compile failed.
+C3Linearization
+
+Finished WritePatch cycle step.
+2025-02-23 2:58:26 PM
+C3Linearization
+
+WritePatch Started CycleStep. 2025-02-23 2:58:27 PM
+C3Linearization
+
+WritePatch ran compiler. 2025-02-23 2:59:19 PM
+C3Linearization
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  C3Linearization -> D:\Code2025\RavenWork\C3Linearization\C3Linearization\bin\Debug\net9.0\C3Linearization.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.26
+
+
+WritePatch: Code is Complete.
+C3Linearization
+
+WritePatch Started CycleStep. 2025-02-23 2:59:33 PM
+C3LinearizationTest
+
+WritePatch ran compiler. 2025-02-23 3:00:54 PM
+C3LinearizationTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\C3Linearization\C3LinearizationTest\C3LinearizationTest.csproj (in 379 ms).
+  1 of 2 projects are up-to-date for restore.
+  C3Linearization -> D:\Code2025\RavenWork\C3Linearization\C3Linearization\bin\Debug\net9.0\C3Linearization.dll
+  C3LinearizationTest -> D:\Code2025\RavenWork\C3Linearization\C3LinearizationTest\bin\Debug\net9.0\C3LinearizationTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.71
+
+
+WritePatch: Code is Complete.
+C3LinearizationTest
+
+TestResult:
+[SUCCESS 2025-02-23 3:01:18 PM] All tests passed successfully.
+[INFO 2025-02-23 3:01:18 PM] Test process completed. Duration: 5.68 seconds.
+[INFO 2025-02-23 3:01:18 PM] Process exited with code 0.
+[OUTPUT 2025-02-23 3:01:14 PM]   C3Linearization -> D:\Code2025\RavenWork\C3Linearization\C3Linearization\bin\Debug\net9.0\C3Linearization.dll
+[OUTPUT 2025-02-23 3:01:18 PM] D:\Code2025\RavenWork\C3Linearization\C3LinearizationTest\bin\Debug\net9.0\C3LinearizationTest.dll
+[OUTPUT 2025-02-23 3:01:17 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 3:01:17 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 3:01:17 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 3:01:16 PM] Test run for D:\Code2025\RavenWork\C3Linearization\C3LinearizationTest\bin\Debug\net9.0\C3LinearizationTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 3:01:15 PM]   C3LinearizationTest -> D:\Code2025\RavenWork\C3Linearization\C3LinearizationTest\bin\Debug\net9.0\C3LinearizationTest.dll
+[OUTPUT 2025-02-23 3:01:14 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 3:01:14 PM]   Determining projects to restore...
+[INFO 2025-02-23 3:01:12 PM] Command: dotnet test "D:\Code2025\RavenWork\C3Linearization\C3LinearizationTest\C3LinearizationTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 3:01:12 PM] Starting test for project: D:\Code2025\RavenWork\C3Linearization\C3LinearizationTest\C3LinearizationTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
