@@ -1,0 +1,385 @@
+<ActRecord>
+  <ProjectName>Adler32</ProjectName>
+  <ProjectDescription>Adler‑32</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Adler‑32</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\Adler32</SolutionFolderPath>
+  <ProjectFolderName>Adler32</ProjectFolderName>
+  <ProjectName>Adler32</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:35:14 AM
+Adler32</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:36:18 AM
+Adler32</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Adler32 -> D:\Code2025\RavenWork\Adler32\Adler32\bin\Debug\net9.0\Adler32.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+]]></string>
+    <string>WritePatch: Code is Complete.
+Adler32</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:36:29 AM
+Adler32Test</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:38:31 AM
+Adler32Test</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32Test.csproj (in 182 ms).
+  1 of 2 projects are up-to-date for restore.
+  Adler32 -> D:\Code2025\RavenWork\Adler32\Adler32\bin\Debug\net9.0\Adler32.dll
+D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32UnitTests.cs(14,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32Test.csproj]
+  Adler32Test -> D:\Code2025\RavenWork\Adler32\Adler32Test\bin\Debug\net9.0\Adler32Test.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32UnitTests.cs(14,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32Test.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.30
+]]></string>
+    <string>WritePatch: Compile failed.
+Adler32Test</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:38:32 AM
+Adler32Test</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:38:32 AM
+Adler32Test</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:39:03 AM
+Adler32Test</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Adler32 -> D:\Code2025\RavenWork\Adler32\Adler32\bin\Debug\net9.0\Adler32.dll
+  Adler32Test -> D:\Code2025\RavenWork\Adler32\Adler32Test\bin\Debug\net9.0\Adler32Test.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87
+]]></string>
+    <string>WritePatch: Code is not Complete.
+Adler32Test</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:39:14 AM
+Adler32Test</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:39:14 AM
+Adler32Test</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:40:09 AM
+Adler32Test</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Adler32 -> D:\Code2025\RavenWork\Adler32\Adler32\bin\Debug\net9.0\Adler32.dll
+D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32UnitTests.cs(14,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32Test.csproj]
+  Adler32Test -> D:\Code2025\RavenWork\Adler32\Adler32Test\bin\Debug\net9.0\Adler32Test.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32UnitTests.cs(14,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32Test.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+]]></string>
+    <string>WritePatch: Compile failed.
+Adler32Test</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:40:10 AM
+Adler32Test</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\Adler32\Adler32Test
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Adler32 -> D:\Code2025\RavenWork\Adler32\Adler32\bin\Debug\net9.0\Adler32.dll
+D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32UnitTests.cs(14,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32Test.csproj]
+  Adler32Test -> D:\Code2025\RavenWork\Adler32\Adler32Test\bin\Debug\net9.0\Adler32Test.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32UnitTests.cs(14,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32Test.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+
+</CompilerResponse>
+2025-02-23 7:40:10 AM
+Adler32Test]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 7:40:11 AM
+Adler32</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Adler32 -> D:\Code2025\RavenWork\Adler32\Adler32\bin\Debug\net9.0\Adler32.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.78
+]]></string>
+    <string>WritePatch: Code is Complete.
+Adler32</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:40:19 AM
+Adler32Test</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Adler32 -> D:\Code2025\RavenWork\Adler32\Adler32\bin\Debug\net9.0\Adler32.dll
+  Adler32Test -> D:\Code2025\RavenWork\Adler32\Adler32Test\bin\Debug\net9.0\Adler32Test.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87
+]]></string>
+    <string>WritePatch: Code is Complete.
+Adler32Test</string>
+    <string>[INFO 2025-02-23 7:40:33 AM] Starting test for project: D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32Test.csproj</string>
+    <string>[INFO 2025-02-23 7:40:33 AM] Starting test for project: D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32Test.csproj</string>
+    <string>[INFO 2025-02-23 7:40:33 AM] Starting test for project: D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32Test.csproj</string>
+    <string>[INFO 2025-02-23 7:40:33 AM] Starting test for project: D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32Test.csproj</string>
+    <string>[INFO 2025-02-23 7:40:33 AM] Starting test for project: D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32Test.csproj</string>
+    <string>[INFO 2025-02-23 7:40:33 AM] Starting test for project: D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32Test.csproj</string>
+    <string>[INFO 2025-02-23 7:40:33 AM] Starting test for project: D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32Test.csproj</string>
+    <string>[INFO 2025-02-23 7:40:33 AM] Starting test for project: D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32Test.csproj</string>
+    <string>[INFO 2025-02-23 7:40:33 AM] Starting test for project: D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32Test.csproj</string>
+    <string>[INFO 2025-02-23 7:40:33 AM] Starting test for project: D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32Test.csproj</string>
+    <string>[INFO 2025-02-23 7:40:33 AM] Starting test for project: D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32Test.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 7:40:36 AM] All tests passed successfully.
+[INFO 2025-02-23 7:40:36 AM] Test process completed. Duration: 2.96 seconds.
+[INFO 2025-02-23 7:40:36 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 7:40:36 AM] D:\Code2025\RavenWork\Adler32\Adler32Test\bin\Debug\net9.0\Adler32Test.dll
+[OUTPUT 2025-02-23 7:40:36 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:40:36 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:40:35 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:40:35 AM] Test run for D:\Code2025\RavenWork\Adler32\Adler32Test\bin\Debug\net9.0\Adler32Test.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:40:35 AM]   Adler32Test -> D:\Code2025\RavenWork\Adler32\Adler32Test\bin\Debug\net9.0\Adler32Test.dll
+[OUTPUT 2025-02-23 7:40:34 AM]   Adler32 -> D:\Code2025\RavenWork\Adler32\Adler32\bin\Debug\net9.0\Adler32.dll
+[OUTPUT 2025-02-23 7:40:34 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:40:34 AM]   Determining projects to restore...
+[INFO 2025-02-23 7:40:33 AM] Command: dotnet test "D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32Test.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:40:33 AM] Starting test for project: D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32Test.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 7:35:14 AM
+Adler32
+
+WritePatch ran compiler. 2025-02-23 7:36:18 AM
+Adler32
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Adler32 -> D:\Code2025\RavenWork\Adler32\Adler32\bin\Debug\net9.0\Adler32.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+
+
+WritePatch: Code is Complete.
+Adler32
+
+WritePatch Started CycleStep. 2025-02-23 7:36:29 AM
+Adler32Test
+
+WritePatch ran compiler. 2025-02-23 7:38:31 AM
+Adler32Test
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32Test.csproj (in 182 ms).
+  1 of 2 projects are up-to-date for restore.
+  Adler32 -> D:\Code2025\RavenWork\Adler32\Adler32\bin\Debug\net9.0\Adler32.dll
+D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32UnitTests.cs(14,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32Test.csproj]
+  Adler32Test -> D:\Code2025\RavenWork\Adler32\Adler32Test\bin\Debug\net9.0\Adler32Test.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32UnitTests.cs(14,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32Test.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.30
+
+
+WritePatch: Compile failed.
+Adler32Test
+
+Finished WritePatch cycle step.
+2025-02-23 7:38:32 AM
+Adler32Test
+
+WritePatch Started CycleStep. 2025-02-23 7:38:32 AM
+Adler32Test
+
+WritePatch ran compiler. 2025-02-23 7:39:03 AM
+Adler32Test
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Adler32 -> D:\Code2025\RavenWork\Adler32\Adler32\bin\Debug\net9.0\Adler32.dll
+  Adler32Test -> D:\Code2025\RavenWork\Adler32\Adler32Test\bin\Debug\net9.0\Adler32Test.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87
+
+
+WritePatch: Code is not Complete.
+Adler32Test
+
+Finished WritePatch cycle step.
+2025-02-23 7:39:14 AM
+Adler32Test
+
+WritePatch Started CycleStep. 2025-02-23 7:39:14 AM
+Adler32Test
+
+WritePatch ran compiler. 2025-02-23 7:40:09 AM
+Adler32Test
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Adler32 -> D:\Code2025\RavenWork\Adler32\Adler32\bin\Debug\net9.0\Adler32.dll
+D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32UnitTests.cs(14,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32Test.csproj]
+  Adler32Test -> D:\Code2025\RavenWork\Adler32\Adler32Test\bin\Debug\net9.0\Adler32Test.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32UnitTests.cs(14,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32Test.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+
+
+WritePatch: Compile failed.
+Adler32Test
+
+Finished WritePatch cycle step.
+2025-02-23 7:40:10 AM
+Adler32Test
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\Adler32\Adler32Test
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Adler32 -> D:\Code2025\RavenWork\Adler32\Adler32\bin\Debug\net9.0\Adler32.dll
+D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32UnitTests.cs(14,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32Test.csproj]
+  Adler32Test -> D:\Code2025\RavenWork\Adler32\Adler32Test\bin\Debug\net9.0\Adler32Test.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32UnitTests.cs(14,51): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32Test.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+
+</CompilerResponse>
+2025-02-23 7:40:10 AM
+Adler32Test
+
+WritePatch ran compiler. 2025-02-23 7:40:11 AM
+Adler32
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Adler32 -> D:\Code2025\RavenWork\Adler32\Adler32\bin\Debug\net9.0\Adler32.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.78
+
+
+WritePatch: Code is Complete.
+Adler32
+
+WritePatch ran compiler. 2025-02-23 7:40:19 AM
+Adler32Test
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Adler32 -> D:\Code2025\RavenWork\Adler32\Adler32\bin\Debug\net9.0\Adler32.dll
+  Adler32Test -> D:\Code2025\RavenWork\Adler32\Adler32Test\bin\Debug\net9.0\Adler32Test.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87
+
+
+WritePatch: Code is Complete.
+Adler32Test
+
+TestResult:
+[SUCCESS 2025-02-23 7:40:36 AM] All tests passed successfully.
+[INFO 2025-02-23 7:40:36 AM] Test process completed. Duration: 2.96 seconds.
+[INFO 2025-02-23 7:40:36 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 7:40:36 AM] D:\Code2025\RavenWork\Adler32\Adler32Test\bin\Debug\net9.0\Adler32Test.dll
+[OUTPUT 2025-02-23 7:40:36 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:40:36 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:40:35 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:40:35 AM] Test run for D:\Code2025\RavenWork\Adler32\Adler32Test\bin\Debug\net9.0\Adler32Test.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:40:35 AM]   Adler32Test -> D:\Code2025\RavenWork\Adler32\Adler32Test\bin\Debug\net9.0\Adler32Test.dll
+[OUTPUT 2025-02-23 7:40:34 AM]   Adler32 -> D:\Code2025\RavenWork\Adler32\Adler32\bin\Debug\net9.0\Adler32.dll
+[OUTPUT 2025-02-23 7:40:34 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:40:34 AM]   Determining projects to restore...
+[INFO 2025-02-23 7:40:33 AM] Command: dotnet test "D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32Test.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:40:33 AM] Starting test for project: D:\Code2025\RavenWork\Adler32\Adler32Test\Adler32Test.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
