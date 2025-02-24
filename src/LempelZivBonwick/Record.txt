@@ -1,0 +1,367 @@
+<ActRecord>
+  <ProjectName>LempelZivBonwick</ProjectName>
+  <ProjectDescription>Lempel–Ziv Jeff Bonwick (LZJB)</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Lempel–Ziv Jeff Bonwick (LZJB)</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\LempelZivBonwick</SolutionFolderPath>
+  <ProjectFolderName>LempelZivBonwick</ProjectFolderName>
+  <ProjectName>LempelZivBonwick</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:33:42 AM
+LempelZivBonwick</string>
+    <string>Exception: The request was canceled due to the configured HttpClient.Timeout of 200 seconds elapsing.</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:37:02 AM
+LempelZivBonwick</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:39:39 AM
+LempelZivBonwick</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LempelZivBonwick -> D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwick\bin\Debug\net9.0\LempelZivBonwick.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+]]></string>
+    <string>WritePatch: Code is Complete.
+LempelZivBonwick</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:39:57 AM
+LempelZivBonwickTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:40:23 AM
+LempelZivBonwickTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LempelZivBonwickTest.csproj (in 188 ms).
+  1 of 2 projects are up-to-date for restore.
+  LempelZivBonwick -> D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwick\bin\Debug\net9.0\LempelZivBonwick.dll
+D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LZJBTests.cs(13,43): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LempelZivBonwickTest.csproj]
+D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LZJBTests.cs(21,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LempelZivBonwickTest.csproj]
+  LempelZivBonwickTest -> D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\bin\Debug\net9.0\LempelZivBonwickTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LZJBTests.cs(13,43): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LempelZivBonwickTest.csproj]
+D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LZJBTests.cs(21,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LempelZivBonwickTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.42
+]]></string>
+    <string>WritePatch: Compile failed.
+LempelZivBonwickTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:40:24 AM
+LempelZivBonwickTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:40:24 AM
+LempelZivBonwickTest</string>
+    <string>WritePatch: WriteSpecification extraction failed. 2025-02-23 7:40:58 AM
+LempelZivBonwickTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 7:40:58 AM
+LempelZivBonwickTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:41:34 AM
+LempelZivBonwickTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LempelZivBonwick -> D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwick\bin\Debug\net9.0\LempelZivBonwick.dll
+  LempelZivBonwickTest -> D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\bin\Debug\net9.0\LempelZivBonwickTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+]]></string>
+    <string>WritePatch: Code is not Complete.
+LempelZivBonwickTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 7:41:52 AM
+LempelZivBonwickTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LempelZivBonwick -> D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwick\bin\Debug\net9.0\LempelZivBonwick.dll
+  LempelZivBonwickTest -> D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\bin\Debug\net9.0\LempelZivBonwickTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+
+</CompilerResponse>
+2025-02-23 7:41:52 AM
+LempelZivBonwickTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 7:41:53 AM
+LempelZivBonwick</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LempelZivBonwick -> D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwick\bin\Debug\net9.0\LempelZivBonwick.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.67
+]]></string>
+    <string>WritePatch: Code is Complete.
+LempelZivBonwick</string>
+    <string>WritePatch ran compiler. 2025-02-23 7:42:12 AM
+LempelZivBonwickTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LempelZivBonwick -> D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwick\bin\Debug\net9.0\LempelZivBonwick.dll
+  LempelZivBonwickTest -> D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\bin\Debug\net9.0\LempelZivBonwickTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+]]></string>
+    <string>WritePatch: Code is Complete.
+LempelZivBonwickTest</string>
+    <string>[INFO 2025-02-23 7:42:25 AM] Starting test for project: D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LempelZivBonwickTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:25 AM] Starting test for project: D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LempelZivBonwickTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:25 AM] Starting test for project: D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LempelZivBonwickTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:25 AM] Starting test for project: D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LempelZivBonwickTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:25 AM] Starting test for project: D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LempelZivBonwickTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:25 AM] Starting test for project: D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LempelZivBonwickTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:25 AM] Starting test for project: D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LempelZivBonwickTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:25 AM] Starting test for project: D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LempelZivBonwickTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:25 AM] Starting test for project: D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LempelZivBonwickTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:25 AM] Starting test for project: D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LempelZivBonwickTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:25 AM] Starting test for project: D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LempelZivBonwickTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:25 AM] Starting test for project: D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LempelZivBonwickTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:25 AM] Starting test for project: D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LempelZivBonwickTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:25 AM] Starting test for project: D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LempelZivBonwickTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:25 AM] Starting test for project: D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LempelZivBonwickTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:25 AM] Starting test for project: D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LempelZivBonwickTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:25 AM] Starting test for project: D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LempelZivBonwickTest.csproj</string>
+    <string>[INFO 2025-02-23 7:42:25 AM] Starting test for project: D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LempelZivBonwickTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 7:42:30 AM] All tests passed successfully.
+[INFO 2025-02-23 7:42:30 AM] Test process completed. Duration: 5.85 seconds.
+[INFO 2025-02-23 7:42:30 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 7:42:31 AM]   Passed CompressDecompress_RoundTrip_LargeData [2 s]
+[OUTPUT 2025-02-23 7:42:30 AM]   Passed CompressDecompress_RoundTrip_RepetitiveData [44 ms]
+[OUTPUT 2025-02-23 7:42:30 AM]   Passed Decompress_NullInput_ReturnsEmptyArray [4 ms]
+[OUTPUT 2025-02-23 7:42:30 AM]   Passed CompressDecompress_RoundTrip_EmptyArray [4 ms]
+[OUTPUT 2025-02-23 7:42:29 AM]   Passed Compress_NullInput_ReturnsEmptyArray [4 ms]
+[OUTPUT 2025-02-23 7:42:29 AM]   Passed CompressDecompress_RoundTrip_SmallData [4 ms]
+[OUTPUT 2025-02-23 7:42:29 AM] Test Parallelization enabled for D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\bin\Debug\net9.0\LempelZivBonwickTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:42:29 AM] D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\bin\Debug\net9.0\LempelZivBonwickTest.dll
+[OUTPUT 2025-02-23 7:42:28 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:42:28 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:42:28 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:42:27 AM] Test run for D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\bin\Debug\net9.0\LempelZivBonwickTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:42:27 AM]   LempelZivBonwickTest -> D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\bin\Debug\net9.0\LempelZivBonwickTest.dll
+[OUTPUT 2025-02-23 7:42:26 AM]   LempelZivBonwick -> D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwick\bin\Debug\net9.0\LempelZivBonwick.dll
+[OUTPUT 2025-02-23 7:42:26 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:42:26 AM]   Determining projects to restore...
+[INFO 2025-02-23 7:42:25 AM] Command: dotnet test "D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LempelZivBonwickTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:42:25 AM] Starting test for project: D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LempelZivBonwickTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 7:33:42 AM
+LempelZivBonwick
+
+Exception: The request was canceled due to the configured HttpClient.Timeout of 200 seconds elapsing.
+
+WritePatch Started CycleStep. 2025-02-23 7:37:02 AM
+LempelZivBonwick
+
+WritePatch ran compiler. 2025-02-23 7:39:39 AM
+LempelZivBonwick
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LempelZivBonwick -> D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwick\bin\Debug\net9.0\LempelZivBonwick.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+
+
+WritePatch: Code is Complete.
+LempelZivBonwick
+
+WritePatch Started CycleStep. 2025-02-23 7:39:57 AM
+LempelZivBonwickTest
+
+WritePatch ran compiler. 2025-02-23 7:40:23 AM
+LempelZivBonwickTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LempelZivBonwickTest.csproj (in 188 ms).
+  1 of 2 projects are up-to-date for restore.
+  LempelZivBonwick -> D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwick\bin\Debug\net9.0\LempelZivBonwick.dll
+D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LZJBTests.cs(13,43): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LempelZivBonwickTest.csproj]
+D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LZJBTests.cs(21,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LempelZivBonwickTest.csproj]
+  LempelZivBonwickTest -> D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\bin\Debug\net9.0\LempelZivBonwickTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LZJBTests.cs(13,43): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LempelZivBonwickTest.csproj]
+D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LZJBTests.cs(21,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LempelZivBonwickTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.42
+
+
+WritePatch: Compile failed.
+LempelZivBonwickTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:40:24 AM
+LempelZivBonwickTest
+
+WritePatch Started CycleStep. 2025-02-23 7:40:24 AM
+LempelZivBonwickTest
+
+WritePatch: WriteSpecification extraction failed. 2025-02-23 7:40:58 AM
+LempelZivBonwickTest
+
+WritePatch Started CycleStep. 2025-02-23 7:40:58 AM
+LempelZivBonwickTest
+
+WritePatch ran compiler. 2025-02-23 7:41:34 AM
+LempelZivBonwickTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LempelZivBonwick -> D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwick\bin\Debug\net9.0\LempelZivBonwick.dll
+  LempelZivBonwickTest -> D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\bin\Debug\net9.0\LempelZivBonwickTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+
+
+WritePatch: Code is not Complete.
+LempelZivBonwickTest
+
+Finished WritePatch cycle step.
+2025-02-23 7:41:52 AM
+LempelZivBonwickTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LempelZivBonwick -> D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwick\bin\Debug\net9.0\LempelZivBonwick.dll
+  LempelZivBonwickTest -> D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\bin\Debug\net9.0\LempelZivBonwickTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+
+</CompilerResponse>
+2025-02-23 7:41:52 AM
+LempelZivBonwickTest
+
+WritePatch ran compiler. 2025-02-23 7:41:53 AM
+LempelZivBonwick
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LempelZivBonwick -> D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwick\bin\Debug\net9.0\LempelZivBonwick.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.67
+
+
+WritePatch: Code is Complete.
+LempelZivBonwick
+
+WritePatch ran compiler. 2025-02-23 7:42:12 AM
+LempelZivBonwickTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  LempelZivBonwick -> D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwick\bin\Debug\net9.0\LempelZivBonwick.dll
+  LempelZivBonwickTest -> D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\bin\Debug\net9.0\LempelZivBonwickTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+
+
+WritePatch: Code is Complete.
+LempelZivBonwickTest
+
+TestResult:
+[SUCCESS 2025-02-23 7:42:30 AM] All tests passed successfully.
+[INFO 2025-02-23 7:42:30 AM] Test process completed. Duration: 5.85 seconds.
+[INFO 2025-02-23 7:42:30 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 7:42:31 AM]   Passed CompressDecompress_RoundTrip_LargeData [2 s]
+[OUTPUT 2025-02-23 7:42:30 AM]   Passed CompressDecompress_RoundTrip_RepetitiveData [44 ms]
+[OUTPUT 2025-02-23 7:42:30 AM]   Passed Decompress_NullInput_ReturnsEmptyArray [4 ms]
+[OUTPUT 2025-02-23 7:42:30 AM]   Passed CompressDecompress_RoundTrip_EmptyArray [4 ms]
+[OUTPUT 2025-02-23 7:42:29 AM]   Passed Compress_NullInput_ReturnsEmptyArray [4 ms]
+[OUTPUT 2025-02-23 7:42:29 AM]   Passed CompressDecompress_RoundTrip_SmallData [4 ms]
+[OUTPUT 2025-02-23 7:42:29 AM] Test Parallelization enabled for D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\bin\Debug\net9.0\LempelZivBonwickTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 7:42:29 AM] D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\bin\Debug\net9.0\LempelZivBonwickTest.dll
+[OUTPUT 2025-02-23 7:42:28 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 7:42:28 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 7:42:28 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 7:42:27 AM] Test run for D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\bin\Debug\net9.0\LempelZivBonwickTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 7:42:27 AM]   LempelZivBonwickTest -> D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\bin\Debug\net9.0\LempelZivBonwickTest.dll
+[OUTPUT 2025-02-23 7:42:26 AM]   LempelZivBonwick -> D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwick\bin\Debug\net9.0\LempelZivBonwick.dll
+[OUTPUT 2025-02-23 7:42:26 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 7:42:26 AM]   Determining projects to restore...
+[INFO 2025-02-23 7:42:25 AM] Command: dotnet test "D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LempelZivBonwickTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 7:42:25 AM] Starting test for project: D:\Code2025\RavenWork\LempelZivBonwick\LempelZivBonwickTest\LempelZivBonwickTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
