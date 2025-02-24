@@ -1,0 +1,422 @@
+<ActRecord>
+  <ProjectName>BurstSortTrie</ProjectName>
+  <ProjectDescription>Burstsort: build a compact, cache efficient burst trie and then traverse it to create sorted output</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Burstsort: build a compact, cache efficient burst trie and then traverse it to create sorted output</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\BurstSortTrie</SolutionFolderPath>
+  <ProjectFolderName>BurstSortTrie</ProjectFolderName>
+  <ProjectName>BurstSortTrie</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:00:29 AM
+BurstSortTrie</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:01:15 AM
+BurstSortTrie</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BurstSortTrie -> D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrie\bin\Debug\net9.0\BurstSortTrie.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+]]></string>
+    <string>WritePatch: Code is Complete.
+BurstSortTrie</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:01:46 AM
+BurstSortTrieTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:02:25 AM
+BurstSortTrieTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj (in 261 ms).
+  1 of 2 projects are up-to-date for restore.
+  BurstSortTrie -> D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrie\bin\Debug\net9.0\BurstSortTrie.dll
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(15,34): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(16,52): warning CS8604: Possible null reference argument for parameter 'words' in 'List<string> BurstSorter.Sort(List<string> words)'. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(77,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(79,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+  BurstSortTrieTest -> D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\bin\Debug\net9.0\BurstSortTrieTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(15,34): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(16,52): warning CS8604: Possible null reference argument for parameter 'words' in 'List<string> BurstSorter.Sort(List<string> words)'. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(77,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(79,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.82
+]]></string>
+    <string>WritePatch: Compile failed.
+BurstSortTrieTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:02:25 AM
+BurstSortTrieTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:02:26 AM
+BurstSortTrieTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:03:34 AM
+BurstSortTrieTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BurstSortTrie -> D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrie\bin\Debug\net9.0\BurstSortTrie.dll
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(16,52): warning CS8604: Possible null reference argument for parameter 'words' in 'List<string> BurstSorter.Sort(List<string> words)'. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(16,52): warning CS8620: Argument of type 'List<string?>' cannot be used for parameter 'words' of type 'List<string>' in 'List<string> BurstSorter.Sort(List<string> words)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(24,52): warning CS8620: Argument of type 'List<string?>' cannot be used for parameter 'words' of type 'List<string>' in 'List<string> BurstSorter.Sort(List<string> words)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(35,52): warning CS8620: Argument of type 'List<string?>' cannot be used for parameter 'words' of type 'List<string>' in 'List<string> BurstSorter.Sort(List<string> words)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(49,52): warning CS8620: Argument of type 'List<string?>' cannot be used for parameter 'words' of type 'List<string>' in 'List<string> BurstSorter.Sort(List<string> words)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(66,52): warning CS8620: Argument of type 'List<string?>' cannot be used for parameter 'words' of type 'List<string>' in 'List<string> BurstSorter.Sort(List<string> words)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(82,52): warning CS8620: Argument of type 'List<string?>' cannot be used for parameter 'words' of type 'List<string>' in 'List<string> BurstSorter.Sort(List<string> words)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(107,52): warning CS8620: Argument of type 'List<string?>' cannot be used for parameter 'words' of type 'List<string>' in 'List<string> BurstSorter.Sort(List<string> words)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+  BurstSortTrieTest -> D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\bin\Debug\net9.0\BurstSortTrieTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(16,52): warning CS8604: Possible null reference argument for parameter 'words' in 'List<string> BurstSorter.Sort(List<string> words)'. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(16,52): warning CS8620: Argument of type 'List<string?>' cannot be used for parameter 'words' of type 'List<string>' in 'List<string> BurstSorter.Sort(List<string> words)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(24,52): warning CS8620: Argument of type 'List<string?>' cannot be used for parameter 'words' of type 'List<string>' in 'List<string> BurstSorter.Sort(List<string> words)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(35,52): warning CS8620: Argument of type 'List<string?>' cannot be used for parameter 'words' of type 'List<string>' in 'List<string> BurstSorter.Sort(List<string> words)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(49,52): warning CS8620: Argument of type 'List<string?>' cannot be used for parameter 'words' of type 'List<string>' in 'List<string> BurstSorter.Sort(List<string> words)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(66,52): warning CS8620: Argument of type 'List<string?>' cannot be used for parameter 'words' of type 'List<string>' in 'List<string> BurstSorter.Sort(List<string> words)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(82,52): warning CS8620: Argument of type 'List<string?>' cannot be used for parameter 'words' of type 'List<string>' in 'List<string> BurstSorter.Sort(List<string> words)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(107,52): warning CS8620: Argument of type 'List<string?>' cannot be used for parameter 'words' of type 'List<string>' in 'List<string> BurstSorter.Sort(List<string> words)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+    8 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.32
+]]></string>
+    <string>WritePatch: Compile failed.
+BurstSortTrieTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:03:35 AM
+BurstSortTrieTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:03:35 AM
+BurstSortTrieTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:04:00 AM
+BurstSortTrieTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BurstSortTrie -> D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrie\bin\Debug\net9.0\BurstSortTrie.dll
+  BurstSortTrieTest -> D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\bin\Debug\net9.0\BurstSortTrieTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.28
+]]></string>
+    <string>WritePatch: Code is not Complete.
+BurstSortTrieTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:04:42 AM
+BurstSortTrieTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BurstSortTrie -> D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrie\bin\Debug\net9.0\BurstSortTrie.dll
+  BurstSortTrieTest -> D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\bin\Debug\net9.0\BurstSortTrieTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.28
+
+</CompilerResponse>
+2025-02-23 11:04:42 AM
+BurstSortTrieTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 11:04:44 AM
+BurstSortTrie</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BurstSortTrie -> D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrie\bin\Debug\net9.0\BurstSortTrie.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+]]></string>
+    <string>WritePatch: Code is Complete.
+BurstSortTrie</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:05:44 AM
+BurstSortTrieTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BurstSortTrie -> D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrie\bin\Debug\net9.0\BurstSortTrie.dll
+  BurstSortTrieTest -> D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\bin\Debug\net9.0\BurstSortTrieTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.18
+]]></string>
+    <string>WritePatch: Code is Complete.
+BurstSortTrieTest</string>
+    <string>[INFO 2025-02-23 11:06:04 AM] Starting test for project: D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj</string>
+    <string>[INFO 2025-02-23 11:06:04 AM] Starting test for project: D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj</string>
+    <string>[INFO 2025-02-23 11:06:04 AM] Starting test for project: D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj</string>
+    <string>[INFO 2025-02-23 11:06:04 AM] Starting test for project: D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj</string>
+    <string>[INFO 2025-02-23 11:06:04 AM] Starting test for project: D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj</string>
+    <string>[INFO 2025-02-23 11:06:04 AM] Starting test for project: D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj</string>
+    <string>[INFO 2025-02-23 11:06:04 AM] Starting test for project: D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj</string>
+    <string>[INFO 2025-02-23 11:06:04 AM] Starting test for project: D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj</string>
+    <string>[INFO 2025-02-23 11:06:04 AM] Starting test for project: D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj</string>
+    <string>[INFO 2025-02-23 11:06:04 AM] Starting test for project: D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj</string>
+    <string>[INFO 2025-02-23 11:06:04 AM] Starting test for project: D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj</string>
+    <string>[INFO 2025-02-23 11:06:04 AM] Starting test for project: D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 11:06:08 AM] Test Parallelization enabled for D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\bin\Debug\net9.0\BurstSortTrieTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 11:06:08 AM] D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\bin\Debug\net9.0\BurstSortTrieTest.dll
+[OUTPUT 2025-02-23 11:06:08 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:06:07 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:06:07 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:06:07 AM] Test run for D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\bin\Debug\net9.0\BurstSortTrieTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:06:06 AM]   BurstSortTrieTest -> D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\bin\Debug\net9.0\BurstSortTrieTest.dll
+[OUTPUT 2025-02-23 11:06:06 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:06:06 AM]   BurstSortTrie -> D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrie\bin\Debug\net9.0\BurstSortTrie.dll
+[OUTPUT 2025-02-23 11:06:05 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 11:06:08 AM] All tests passed successfully.
+[INFO 2025-02-23 11:06:08 AM] Test process completed. Duration: 3.82 seconds.
+[INFO 2025-02-23 11:06:08 AM] Process exited with code 0.
+[INFO 2025-02-23 11:06:04 AM] Command: dotnet test "D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:06:04 AM] Starting test for project: D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 11:00:29 AM
+BurstSortTrie
+
+WritePatch ran compiler. 2025-02-23 11:01:15 AM
+BurstSortTrie
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BurstSortTrie -> D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrie\bin\Debug\net9.0\BurstSortTrie.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+
+
+WritePatch: Code is Complete.
+BurstSortTrie
+
+WritePatch Started CycleStep. 2025-02-23 11:01:46 AM
+BurstSortTrieTest
+
+WritePatch ran compiler. 2025-02-23 11:02:25 AM
+BurstSortTrieTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj (in 261 ms).
+  1 of 2 projects are up-to-date for restore.
+  BurstSortTrie -> D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrie\bin\Debug\net9.0\BurstSortTrie.dll
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(15,34): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(16,52): warning CS8604: Possible null reference argument for parameter 'words' in 'List<string> BurstSorter.Sort(List<string> words)'. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(77,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(79,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+  BurstSortTrieTest -> D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\bin\Debug\net9.0\BurstSortTrieTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(15,34): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(16,52): warning CS8604: Possible null reference argument for parameter 'words' in 'List<string> BurstSorter.Sort(List<string> words)'. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(77,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(79,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.82
+
+
+WritePatch: Compile failed.
+BurstSortTrieTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:02:25 AM
+BurstSortTrieTest
+
+WritePatch Started CycleStep. 2025-02-23 11:02:26 AM
+BurstSortTrieTest
+
+WritePatch ran compiler. 2025-02-23 11:03:34 AM
+BurstSortTrieTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BurstSortTrie -> D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrie\bin\Debug\net9.0\BurstSortTrie.dll
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(16,52): warning CS8604: Possible null reference argument for parameter 'words' in 'List<string> BurstSorter.Sort(List<string> words)'. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(16,52): warning CS8620: Argument of type 'List<string?>' cannot be used for parameter 'words' of type 'List<string>' in 'List<string> BurstSorter.Sort(List<string> words)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(24,52): warning CS8620: Argument of type 'List<string?>' cannot be used for parameter 'words' of type 'List<string>' in 'List<string> BurstSorter.Sort(List<string> words)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(35,52): warning CS8620: Argument of type 'List<string?>' cannot be used for parameter 'words' of type 'List<string>' in 'List<string> BurstSorter.Sort(List<string> words)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(49,52): warning CS8620: Argument of type 'List<string?>' cannot be used for parameter 'words' of type 'List<string>' in 'List<string> BurstSorter.Sort(List<string> words)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(66,52): warning CS8620: Argument of type 'List<string?>' cannot be used for parameter 'words' of type 'List<string>' in 'List<string> BurstSorter.Sort(List<string> words)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(82,52): warning CS8620: Argument of type 'List<string?>' cannot be used for parameter 'words' of type 'List<string>' in 'List<string> BurstSorter.Sort(List<string> words)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(107,52): warning CS8620: Argument of type 'List<string?>' cannot be used for parameter 'words' of type 'List<string>' in 'List<string> BurstSorter.Sort(List<string> words)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+  BurstSortTrieTest -> D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\bin\Debug\net9.0\BurstSortTrieTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(16,52): warning CS8604: Possible null reference argument for parameter 'words' in 'List<string> BurstSorter.Sort(List<string> words)'. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(16,52): warning CS8620: Argument of type 'List<string?>' cannot be used for parameter 'words' of type 'List<string>' in 'List<string> BurstSorter.Sort(List<string> words)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(24,52): warning CS8620: Argument of type 'List<string?>' cannot be used for parameter 'words' of type 'List<string>' in 'List<string> BurstSorter.Sort(List<string> words)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(35,52): warning CS8620: Argument of type 'List<string?>' cannot be used for parameter 'words' of type 'List<string>' in 'List<string> BurstSorter.Sort(List<string> words)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(49,52): warning CS8620: Argument of type 'List<string?>' cannot be used for parameter 'words' of type 'List<string>' in 'List<string> BurstSorter.Sort(List<string> words)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(66,52): warning CS8620: Argument of type 'List<string?>' cannot be used for parameter 'words' of type 'List<string>' in 'List<string> BurstSorter.Sort(List<string> words)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(82,52): warning CS8620: Argument of type 'List<string?>' cannot be used for parameter 'words' of type 'List<string>' in 'List<string> BurstSorter.Sort(List<string> words)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTests.cs(107,52): warning CS8620: Argument of type 'List<string?>' cannot be used for parameter 'words' of type 'List<string>' in 'List<string> BurstSorter.Sort(List<string> words)' due to differences in the nullability of reference types. [D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj]
+    8 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.32
+
+
+WritePatch: Compile failed.
+BurstSortTrieTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:03:35 AM
+BurstSortTrieTest
+
+WritePatch Started CycleStep. 2025-02-23 11:03:35 AM
+BurstSortTrieTest
+
+WritePatch ran compiler. 2025-02-23 11:04:00 AM
+BurstSortTrieTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BurstSortTrie -> D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrie\bin\Debug\net9.0\BurstSortTrie.dll
+  BurstSortTrieTest -> D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\bin\Debug\net9.0\BurstSortTrieTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.28
+
+
+WritePatch: Code is not Complete.
+BurstSortTrieTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:04:42 AM
+BurstSortTrieTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BurstSortTrie -> D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrie\bin\Debug\net9.0\BurstSortTrie.dll
+  BurstSortTrieTest -> D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\bin\Debug\net9.0\BurstSortTrieTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.28
+
+</CompilerResponse>
+2025-02-23 11:04:42 AM
+BurstSortTrieTest
+
+WritePatch ran compiler. 2025-02-23 11:04:44 AM
+BurstSortTrie
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BurstSortTrie -> D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrie\bin\Debug\net9.0\BurstSortTrie.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+
+
+WritePatch: Code is Complete.
+BurstSortTrie
+
+WritePatch ran compiler. 2025-02-23 11:05:44 AM
+BurstSortTrieTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BurstSortTrie -> D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrie\bin\Debug\net9.0\BurstSortTrie.dll
+  BurstSortTrieTest -> D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\bin\Debug\net9.0\BurstSortTrieTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.18
+
+
+WritePatch: Code is Complete.
+BurstSortTrieTest
+
+TestResult:
+[OUTPUT 2025-02-23 11:06:08 AM] Test Parallelization enabled for D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\bin\Debug\net9.0\BurstSortTrieTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 11:06:08 AM] D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\bin\Debug\net9.0\BurstSortTrieTest.dll
+[OUTPUT 2025-02-23 11:06:08 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:06:07 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:06:07 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:06:07 AM] Test run for D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\bin\Debug\net9.0\BurstSortTrieTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:06:06 AM]   BurstSortTrieTest -> D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\bin\Debug\net9.0\BurstSortTrieTest.dll
+[OUTPUT 2025-02-23 11:06:06 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:06:06 AM]   BurstSortTrie -> D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrie\bin\Debug\net9.0\BurstSortTrie.dll
+[OUTPUT 2025-02-23 11:06:05 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 11:06:08 AM] All tests passed successfully.
+[INFO 2025-02-23 11:06:08 AM] Test process completed. Duration: 3.82 seconds.
+[INFO 2025-02-23 11:06:08 AM] Process exited with code 0.
+[INFO 2025-02-23 11:06:04 AM] Command: dotnet test "D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:06:04 AM] Starting test for project: D:\Code2025\RavenWork\BurstSortTrie\BurstSortTrieTest\BurstSortTrieTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
