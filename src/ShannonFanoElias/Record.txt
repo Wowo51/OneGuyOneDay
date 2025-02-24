@@ -1,0 +1,383 @@
+<ActRecord>
+  <ProjectName>ShannonFanoElias</ProjectName>
+  <ProjectDescription>Shannon–Fano–Elias coding: A precursor to arithmetic encoding</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Shannon–Fano–Elias coding: A precursor to arithmetic encoding</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\ShannonFanoElias</SolutionFolderPath>
+  <ProjectFolderName>ShannonFanoElias</ProjectFolderName>
+  <ProjectName>ShannonFanoElias</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:25:20 AM
+ShannonFanoElias</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:25:58 AM
+ShannonFanoElias</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ShannonFanoElias -> D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoElias\bin\Debug\net9.0\ShannonFanoElias.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.21
+]]></string>
+    <string>WritePatch: Code is Complete.
+ShannonFanoElias</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:26:13 AM
+ShannonFanoEliasTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:26:58 AM
+ShannonFanoEliasTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\ShannonFanoEliasTest.csproj (in 289 ms).
+  1 of 2 projects are up-to-date for restore.
+  ShannonFanoElias -> D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoElias\bin\Debug\net9.0\ShannonFanoElias.dll
+D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\EncoderTests.cs(15,48): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\ShannonFanoEliasTest.csproj]
+D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\EncoderTests.cs(16,64): warning CS8604: Possible null reference argument for parameter 'symbolProbabilities' in 'Dictionary<string, string> Encoder.Encode(Dictionary<string, double> symbolProbabilities)'. [D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\ShannonFanoEliasTest.csproj]
+  ShannonFanoEliasTest -> D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\bin\Debug\net9.0\ShannonFanoEliasTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\EncoderTests.cs(15,48): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\ShannonFanoEliasTest.csproj]
+D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\EncoderTests.cs(16,64): warning CS8604: Possible null reference argument for parameter 'symbolProbabilities' in 'Dictionary<string, string> Encoder.Encode(Dictionary<string, double> symbolProbabilities)'. [D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\ShannonFanoEliasTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.04
+]]></string>
+    <string>WritePatch: Compile failed.
+ShannonFanoEliasTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:26:59 AM
+ShannonFanoEliasTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:26:59 AM
+ShannonFanoEliasTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:27:33 AM
+ShannonFanoEliasTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ShannonFanoElias -> D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoElias\bin\Debug\net9.0\ShannonFanoElias.dll
+D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\EncoderTests.cs(16,64): warning CS8604: Possible null reference argument for parameter 'symbolProbabilities' in 'Dictionary<string, string> Encoder.Encode(Dictionary<string, double> symbolProbabilities)'. [D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\ShannonFanoEliasTest.csproj]
+  ShannonFanoEliasTest -> D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\bin\Debug\net9.0\ShannonFanoEliasTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\EncoderTests.cs(16,64): warning CS8604: Possible null reference argument for parameter 'symbolProbabilities' in 'Dictionary<string, string> Encoder.Encode(Dictionary<string, double> symbolProbabilities)'. [D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\ShannonFanoEliasTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.47
+]]></string>
+    <string>WritePatch: Compile failed.
+ShannonFanoEliasTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:27:34 AM
+ShannonFanoEliasTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:27:35 AM
+ShannonFanoEliasTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:28:10 AM
+ShannonFanoEliasTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ShannonFanoElias -> D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoElias\bin\Debug\net9.0\ShannonFanoElias.dll
+  ShannonFanoEliasTest -> D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\bin\Debug\net9.0\ShannonFanoEliasTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.08
+]]></string>
+    <string>WritePatch: Code is not Complete.
+ShannonFanoEliasTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:28:42 AM
+ShannonFanoEliasTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ShannonFanoElias -> D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoElias\bin\Debug\net9.0\ShannonFanoElias.dll
+  ShannonFanoEliasTest -> D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\bin\Debug\net9.0\ShannonFanoEliasTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.08
+
+</CompilerResponse>
+2025-02-23 11:28:42 AM
+ShannonFanoEliasTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 11:28:43 AM
+ShannonFanoElias</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ShannonFanoElias -> D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoElias\bin\Debug\net9.0\ShannonFanoElias.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+]]></string>
+    <string>WritePatch: Code is Complete.
+ShannonFanoElias</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:29:47 AM
+ShannonFanoEliasTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ShannonFanoElias -> D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoElias\bin\Debug\net9.0\ShannonFanoElias.dll
+  ShannonFanoEliasTest -> D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\bin\Debug\net9.0\ShannonFanoEliasTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.05
+]]></string>
+    <string>WritePatch: Code is Complete.
+ShannonFanoEliasTest</string>
+    <string>[INFO 2025-02-23 11:30:34 AM] Starting test for project: D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\ShannonFanoEliasTest.csproj</string>
+    <string>[INFO 2025-02-23 11:30:34 AM] Starting test for project: D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\ShannonFanoEliasTest.csproj</string>
+    <string>[INFO 2025-02-23 11:30:34 AM] Starting test for project: D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\ShannonFanoEliasTest.csproj</string>
+    <string>[INFO 2025-02-23 11:30:34 AM] Starting test for project: D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\ShannonFanoEliasTest.csproj</string>
+    <string>[INFO 2025-02-23 11:30:34 AM] Starting test for project: D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\ShannonFanoEliasTest.csproj</string>
+    <string>[INFO 2025-02-23 11:30:34 AM] Starting test for project: D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\ShannonFanoEliasTest.csproj</string>
+    <string>[INFO 2025-02-23 11:30:34 AM] Starting test for project: D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\ShannonFanoEliasTest.csproj</string>
+    <string>[INFO 2025-02-23 11:30:34 AM] Starting test for project: D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\ShannonFanoEliasTest.csproj</string>
+    <string>[INFO 2025-02-23 11:30:34 AM] Starting test for project: D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\ShannonFanoEliasTest.csproj</string>
+    <string>[INFO 2025-02-23 11:30:34 AM] Starting test for project: D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\ShannonFanoEliasTest.csproj</string>
+    <string>[INFO 2025-02-23 11:30:34 AM] Starting test for project: D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\ShannonFanoEliasTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 11:30:38 AM] All tests passed successfully.
+[INFO 2025-02-23 11:30:38 AM] Test process completed. Duration: 3.70 seconds.
+[INFO 2025-02-23 11:30:38 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 11:30:38 AM] D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\bin\Debug\net9.0\ShannonFanoEliasTest.dll
+[OUTPUT 2025-02-23 11:30:38 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:30:37 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:30:37 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:30:37 AM] Test run for D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\bin\Debug\net9.0\ShannonFanoEliasTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:30:36 AM]   ShannonFanoEliasTest -> D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\bin\Debug\net9.0\ShannonFanoEliasTest.dll
+[OUTPUT 2025-02-23 11:30:36 AM]   ShannonFanoElias -> D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoElias\bin\Debug\net9.0\ShannonFanoElias.dll
+[OUTPUT 2025-02-23 11:30:36 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:30:35 AM]   Determining projects to restore...
+[INFO 2025-02-23 11:30:34 AM] Command: dotnet test "D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\ShannonFanoEliasTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:30:34 AM] Starting test for project: D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\ShannonFanoEliasTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 11:25:20 AM
+ShannonFanoElias
+
+WritePatch ran compiler. 2025-02-23 11:25:58 AM
+ShannonFanoElias
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ShannonFanoElias -> D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoElias\bin\Debug\net9.0\ShannonFanoElias.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.21
+
+
+WritePatch: Code is Complete.
+ShannonFanoElias
+
+WritePatch Started CycleStep. 2025-02-23 11:26:13 AM
+ShannonFanoEliasTest
+
+WritePatch ran compiler. 2025-02-23 11:26:58 AM
+ShannonFanoEliasTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\ShannonFanoEliasTest.csproj (in 289 ms).
+  1 of 2 projects are up-to-date for restore.
+  ShannonFanoElias -> D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoElias\bin\Debug\net9.0\ShannonFanoElias.dll
+D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\EncoderTests.cs(15,48): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\ShannonFanoEliasTest.csproj]
+D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\EncoderTests.cs(16,64): warning CS8604: Possible null reference argument for parameter 'symbolProbabilities' in 'Dictionary<string, string> Encoder.Encode(Dictionary<string, double> symbolProbabilities)'. [D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\ShannonFanoEliasTest.csproj]
+  ShannonFanoEliasTest -> D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\bin\Debug\net9.0\ShannonFanoEliasTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\EncoderTests.cs(15,48): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\ShannonFanoEliasTest.csproj]
+D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\EncoderTests.cs(16,64): warning CS8604: Possible null reference argument for parameter 'symbolProbabilities' in 'Dictionary<string, string> Encoder.Encode(Dictionary<string, double> symbolProbabilities)'. [D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\ShannonFanoEliasTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.04
+
+
+WritePatch: Compile failed.
+ShannonFanoEliasTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:26:59 AM
+ShannonFanoEliasTest
+
+WritePatch Started CycleStep. 2025-02-23 11:26:59 AM
+ShannonFanoEliasTest
+
+WritePatch ran compiler. 2025-02-23 11:27:33 AM
+ShannonFanoEliasTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ShannonFanoElias -> D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoElias\bin\Debug\net9.0\ShannonFanoElias.dll
+D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\EncoderTests.cs(16,64): warning CS8604: Possible null reference argument for parameter 'symbolProbabilities' in 'Dictionary<string, string> Encoder.Encode(Dictionary<string, double> symbolProbabilities)'. [D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\ShannonFanoEliasTest.csproj]
+  ShannonFanoEliasTest -> D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\bin\Debug\net9.0\ShannonFanoEliasTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\EncoderTests.cs(16,64): warning CS8604: Possible null reference argument for parameter 'symbolProbabilities' in 'Dictionary<string, string> Encoder.Encode(Dictionary<string, double> symbolProbabilities)'. [D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\ShannonFanoEliasTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.47
+
+
+WritePatch: Compile failed.
+ShannonFanoEliasTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:27:34 AM
+ShannonFanoEliasTest
+
+WritePatch Started CycleStep. 2025-02-23 11:27:35 AM
+ShannonFanoEliasTest
+
+WritePatch ran compiler. 2025-02-23 11:28:10 AM
+ShannonFanoEliasTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ShannonFanoElias -> D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoElias\bin\Debug\net9.0\ShannonFanoElias.dll
+  ShannonFanoEliasTest -> D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\bin\Debug\net9.0\ShannonFanoEliasTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.08
+
+
+WritePatch: Code is not Complete.
+ShannonFanoEliasTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:28:42 AM
+ShannonFanoEliasTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ShannonFanoElias -> D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoElias\bin\Debug\net9.0\ShannonFanoElias.dll
+  ShannonFanoEliasTest -> D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\bin\Debug\net9.0\ShannonFanoEliasTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.08
+
+</CompilerResponse>
+2025-02-23 11:28:42 AM
+ShannonFanoEliasTest
+
+WritePatch ran compiler. 2025-02-23 11:28:43 AM
+ShannonFanoElias
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ShannonFanoElias -> D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoElias\bin\Debug\net9.0\ShannonFanoElias.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+
+
+WritePatch: Code is Complete.
+ShannonFanoElias
+
+WritePatch ran compiler. 2025-02-23 11:29:47 AM
+ShannonFanoEliasTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ShannonFanoElias -> D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoElias\bin\Debug\net9.0\ShannonFanoElias.dll
+  ShannonFanoEliasTest -> D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\bin\Debug\net9.0\ShannonFanoEliasTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.05
+
+
+WritePatch: Code is Complete.
+ShannonFanoEliasTest
+
+TestResult:
+[SUCCESS 2025-02-23 11:30:38 AM] All tests passed successfully.
+[INFO 2025-02-23 11:30:38 AM] Test process completed. Duration: 3.70 seconds.
+[INFO 2025-02-23 11:30:38 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 11:30:38 AM] D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\bin\Debug\net9.0\ShannonFanoEliasTest.dll
+[OUTPUT 2025-02-23 11:30:38 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:30:37 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:30:37 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:30:37 AM] Test run for D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\bin\Debug\net9.0\ShannonFanoEliasTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:30:36 AM]   ShannonFanoEliasTest -> D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\bin\Debug\net9.0\ShannonFanoEliasTest.dll
+[OUTPUT 2025-02-23 11:30:36 AM]   ShannonFanoElias -> D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoElias\bin\Debug\net9.0\ShannonFanoElias.dll
+[OUTPUT 2025-02-23 11:30:36 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:30:35 AM]   Determining projects to restore...
+[INFO 2025-02-23 11:30:34 AM] Command: dotnet test "D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\ShannonFanoEliasTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:30:34 AM] Starting test for project: D:\Code2025\RavenWork\ShannonFanoElias\ShannonFanoEliasTest\ShannonFanoEliasTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
