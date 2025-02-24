@@ -1,0 +1,406 @@
+<ActRecord>
+  <ProjectName>ScoringAlgorithm</ProjectName>
+  <ProjectDescription>Scoring algorithm: A form of Newton’s method used to solve maximum likelihood equations numerically</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Scoring algorithm: A form of Newton’s method used to solve maximum likelihood equations numerically</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\ScoringAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>ScoringAlgorithm</ProjectFolderName>
+  <ProjectName>ScoringAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:32:24 AM
+ScoringAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:33:04 AM
+ScoringAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ScoringAlgorithm -> D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithm\bin\Debug\net9.0\ScoringAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.00
+]]></string>
+    <string>WritePatch: Code is Complete.
+ScoringAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:33:19 AM
+ScoringAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:34:08 AM
+ScoringAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj (in 219 ms).
+  1 of 2 projects are up-to-date for restore.
+  ScoringAlgorithm -> D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithm\bin\Debug\net9.0\ScoringAlgorithm.dll
+D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\NewtonScoringAlgorithmTests.cs(57,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj]
+D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\NewtonScoringAlgorithmTests.cs(70,69): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj]
+  ScoringAlgorithmTest -> D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\bin\Debug\net9.0\ScoringAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\NewtonScoringAlgorithmTests.cs(57,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj]
+D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\NewtonScoringAlgorithmTests.cs(70,69): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.64
+]]></string>
+    <string>WritePatch: Compile failed.
+ScoringAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:34:09 AM
+ScoringAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:34:09 AM
+ScoringAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:34:25 AM
+ScoringAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ScoringAlgorithm -> D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithm\bin\Debug\net9.0\ScoringAlgorithm.dll
+  ScoringAlgorithmTest -> D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\bin\Debug\net9.0\ScoringAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.11
+]]></string>
+    <string>WritePatch: Code is not Complete.
+ScoringAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:34:43 AM
+ScoringAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:34:43 AM
+ScoringAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:35:23 AM
+ScoringAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ScoringAlgorithm -> D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithm\bin\Debug\net9.0\ScoringAlgorithm.dll
+D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\NewtonScoringAlgorithmTests.cs(57,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj]
+D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\NewtonScoringAlgorithmTests.cs(70,69): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj]
+  ScoringAlgorithmTest -> D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\bin\Debug\net9.0\ScoringAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\NewtonScoringAlgorithmTests.cs(57,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj]
+D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\NewtonScoringAlgorithmTests.cs(70,69): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.13
+]]></string>
+    <string>WritePatch: Compile failed.
+ScoringAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 10:35:24 AM
+ScoringAlgorithmTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ScoringAlgorithm -> D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithm\bin\Debug\net9.0\ScoringAlgorithm.dll
+D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\NewtonScoringAlgorithmTests.cs(57,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj]
+D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\NewtonScoringAlgorithmTests.cs(70,69): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj]
+  ScoringAlgorithmTest -> D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\bin\Debug\net9.0\ScoringAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\NewtonScoringAlgorithmTests.cs(57,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj]
+D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\NewtonScoringAlgorithmTests.cs(70,69): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.13
+
+</CompilerResponse>
+2025-02-23 10:35:24 AM
+ScoringAlgorithmTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 10:35:26 AM
+ScoringAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ScoringAlgorithm -> D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithm\bin\Debug\net9.0\ScoringAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+]]></string>
+    <string>WritePatch: Code is Complete.
+ScoringAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:35:34 AM
+ScoringAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ScoringAlgorithm -> D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithm\bin\Debug\net9.0\ScoringAlgorithm.dll
+  ScoringAlgorithmTest -> D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\bin\Debug\net9.0\ScoringAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+]]></string>
+    <string>WritePatch: Code is Complete.
+ScoringAlgorithmTest</string>
+    <string>[INFO 2025-02-23 10:35:54 AM] Starting test for project: D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:35:54 AM] Starting test for project: D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:35:54 AM] Starting test for project: D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:35:54 AM] Starting test for project: D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:35:54 AM] Starting test for project: D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:35:54 AM] Starting test for project: D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:35:54 AM] Starting test for project: D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:35:54 AM] Starting test for project: D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:35:54 AM] Starting test for project: D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:35:54 AM] Starting test for project: D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:35:54 AM] Starting test for project: D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:35:54 AM] Starting test for project: D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:35:54 AM] Starting test for project: D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:35:54 AM] Starting test for project: D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 10:35:57 AM] All tests passed successfully.
+[INFO 2025-02-23 10:35:57 AM] Test process completed. Duration: 3.04 seconds.
+[INFO 2025-02-23 10:35:57 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 10:35:57 AM] D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\bin\Debug\net9.0\ScoringAlgorithmTest.dll
+[OUTPUT 2025-02-23 10:35:56 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:35:56 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:35:56 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:35:56 AM] Test run for D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\bin\Debug\net9.0\ScoringAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:35:55 AM]   ScoringAlgorithmTest -> D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\bin\Debug\net9.0\ScoringAlgorithmTest.dll
+[OUTPUT 2025-02-23 10:35:57 AM]   Passed TestConvergenceQuadraticFunction_Root1 [4 ms]
+[OUTPUT 2025-02-23 10:35:57 AM]   Passed TestZeroDerivativeValue [4 ms]
+[OUTPUT 2025-02-23 10:35:57 AM] Test Parallelization enabled for D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\bin\Debug\net9.0\ScoringAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:35:55 AM]   ScoringAlgorithm -> D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithm\bin\Debug\net9.0\ScoringAlgorithm.dll
+[OUTPUT 2025-02-23 10:35:55 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:35:55 AM]   Determining projects to restore...
+[INFO 2025-02-23 10:35:54 AM] Command: dotnet test "D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:35:54 AM] Starting test for project: D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 10:32:24 AM
+ScoringAlgorithm
+
+WritePatch ran compiler. 2025-02-23 10:33:04 AM
+ScoringAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ScoringAlgorithm -> D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithm\bin\Debug\net9.0\ScoringAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.00
+
+
+WritePatch: Code is Complete.
+ScoringAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 10:33:19 AM
+ScoringAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 10:34:08 AM
+ScoringAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj (in 219 ms).
+  1 of 2 projects are up-to-date for restore.
+  ScoringAlgorithm -> D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithm\bin\Debug\net9.0\ScoringAlgorithm.dll
+D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\NewtonScoringAlgorithmTests.cs(57,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj]
+D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\NewtonScoringAlgorithmTests.cs(70,69): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj]
+  ScoringAlgorithmTest -> D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\bin\Debug\net9.0\ScoringAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\NewtonScoringAlgorithmTests.cs(57,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj]
+D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\NewtonScoringAlgorithmTests.cs(70,69): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.64
+
+
+WritePatch: Compile failed.
+ScoringAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:34:09 AM
+ScoringAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 10:34:09 AM
+ScoringAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 10:34:25 AM
+ScoringAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ScoringAlgorithm -> D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithm\bin\Debug\net9.0\ScoringAlgorithm.dll
+  ScoringAlgorithmTest -> D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\bin\Debug\net9.0\ScoringAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.11
+
+
+WritePatch: Code is not Complete.
+ScoringAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:34:43 AM
+ScoringAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 10:34:43 AM
+ScoringAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 10:35:23 AM
+ScoringAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ScoringAlgorithm -> D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithm\bin\Debug\net9.0\ScoringAlgorithm.dll
+D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\NewtonScoringAlgorithmTests.cs(57,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj]
+D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\NewtonScoringAlgorithmTests.cs(70,69): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj]
+  ScoringAlgorithmTest -> D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\bin\Debug\net9.0\ScoringAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\NewtonScoringAlgorithmTests.cs(57,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj]
+D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\NewtonScoringAlgorithmTests.cs(70,69): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.13
+
+
+WritePatch: Compile failed.
+ScoringAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 10:35:24 AM
+ScoringAlgorithmTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ScoringAlgorithm -> D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithm\bin\Debug\net9.0\ScoringAlgorithm.dll
+D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\NewtonScoringAlgorithmTests.cs(57,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj]
+D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\NewtonScoringAlgorithmTests.cs(70,69): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj]
+  ScoringAlgorithmTest -> D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\bin\Debug\net9.0\ScoringAlgorithmTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\NewtonScoringAlgorithmTests.cs(57,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj]
+D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\NewtonScoringAlgorithmTests.cs(70,69): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.13
+
+</CompilerResponse>
+2025-02-23 10:35:24 AM
+ScoringAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 10:35:26 AM
+ScoringAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ScoringAlgorithm -> D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithm\bin\Debug\net9.0\ScoringAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+
+
+WritePatch: Code is Complete.
+ScoringAlgorithm
+
+WritePatch ran compiler. 2025-02-23 10:35:34 AM
+ScoringAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ScoringAlgorithm -> D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithm\bin\Debug\net9.0\ScoringAlgorithm.dll
+  ScoringAlgorithmTest -> D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\bin\Debug\net9.0\ScoringAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+
+
+WritePatch: Code is Complete.
+ScoringAlgorithmTest
+
+TestResult:
+[SUCCESS 2025-02-23 10:35:57 AM] All tests passed successfully.
+[INFO 2025-02-23 10:35:57 AM] Test process completed. Duration: 3.04 seconds.
+[INFO 2025-02-23 10:35:57 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 10:35:57 AM] D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\bin\Debug\net9.0\ScoringAlgorithmTest.dll
+[OUTPUT 2025-02-23 10:35:56 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:35:56 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:35:56 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:35:56 AM] Test run for D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\bin\Debug\net9.0\ScoringAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:35:55 AM]   ScoringAlgorithmTest -> D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\bin\Debug\net9.0\ScoringAlgorithmTest.dll
+[OUTPUT 2025-02-23 10:35:57 AM]   Passed TestConvergenceQuadraticFunction_Root1 [4 ms]
+[OUTPUT 2025-02-23 10:35:57 AM]   Passed TestZeroDerivativeValue [4 ms]
+[OUTPUT 2025-02-23 10:35:57 AM] Test Parallelization enabled for D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\bin\Debug\net9.0\ScoringAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:35:55 AM]   ScoringAlgorithm -> D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithm\bin\Debug\net9.0\ScoringAlgorithm.dll
+[OUTPUT 2025-02-23 10:35:55 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:35:55 AM]   Determining projects to restore...
+[INFO 2025-02-23 10:35:54 AM] Command: dotnet test "D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:35:54 AM] Starting test for project: D:\Code2025\RavenWork\ScoringAlgorithm\ScoringAlgorithmTest\ScoringAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
