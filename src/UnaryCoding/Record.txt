@@ -1,0 +1,370 @@
+<ActRecord>
+  <ProjectName>UnaryCoding</ProjectName>
+  <ProjectDescription>Unary coding: Represents a number n with n ones followed by a zero</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Unary coding: Represents a number n with n ones followed by a zero</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\UnaryCoding</SolutionFolderPath>
+  <ProjectFolderName>UnaryCoding</ProjectFolderName>
+  <ProjectName>UnaryCoding</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:57:32 AM
+UnaryCoding</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:59:32 AM
+UnaryCoding</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  UnaryCoding -> D:\Code2025\RavenWork\UnaryCoding\UnaryCoding\bin\Debug\net9.0\UnaryCoding.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+]]></string>
+    <string>WritePatch: Code is Complete.
+UnaryCoding</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:00:08 AM
+UnaryCodingTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:00:40 AM
+UnaryCodingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\UnaryCodingTest.csproj (in 272 ms).
+  1 of 2 projects are up-to-date for restore.
+  UnaryCoding -> D:\Code2025\RavenWork\UnaryCoding\UnaryCoding\bin\Debug\net9.0\UnaryCoding.dll
+D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\UnaryEncoderTests.cs(39,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\UnaryCodingTest.csproj]
+  UnaryCodingTest -> D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\bin\Debug\net9.0\UnaryCodingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\UnaryEncoderTests.cs(39,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\UnaryCodingTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.15
+]]></string>
+    <string>WritePatch: Compile failed.
+UnaryCodingTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:00:42 AM
+UnaryCodingTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:00:42 AM
+UnaryCodingTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:01:32 AM
+UnaryCodingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  UnaryCoding -> D:\Code2025\RavenWork\UnaryCoding\UnaryCoding\bin\Debug\net9.0\UnaryCoding.dll
+D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\UnaryEncoderTests.cs(40,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\UnaryCodingTest.csproj]
+  UnaryCodingTest -> D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\bin\Debug\net9.0\UnaryCodingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\UnaryEncoderTests.cs(40,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\UnaryCodingTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.69
+]]></string>
+    <string>WritePatch: Compile failed.
+UnaryCodingTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:01:34 AM
+UnaryCodingTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 9:01:34 AM
+UnaryCodingTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:02:40 AM
+UnaryCodingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  UnaryCoding -> D:\Code2025\RavenWork\UnaryCoding\UnaryCoding\bin\Debug\net9.0\UnaryCoding.dll
+  UnaryCodingTest -> D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\bin\Debug\net9.0\UnaryCodingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.57
+]]></string>
+    <string>WritePatch: Code is not Complete.
+UnaryCodingTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 9:02:55 AM
+UnaryCodingTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  UnaryCoding -> D:\Code2025\RavenWork\UnaryCoding\UnaryCoding\bin\Debug\net9.0\UnaryCoding.dll
+  UnaryCodingTest -> D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\bin\Debug\net9.0\UnaryCodingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.57
+
+</CompilerResponse>
+2025-02-23 9:02:56 AM
+UnaryCodingTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 9:02:58 AM
+UnaryCoding</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  UnaryCoding -> D:\Code2025\RavenWork\UnaryCoding\UnaryCoding\bin\Debug\net9.0\UnaryCoding.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.04
+]]></string>
+    <string>WritePatch: Code is Complete.
+UnaryCoding</string>
+    <string>WritePatch ran compiler. 2025-02-23 9:03:11 AM
+UnaryCodingTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  UnaryCoding -> D:\Code2025\RavenWork\UnaryCoding\UnaryCoding\bin\Debug\net9.0\UnaryCoding.dll
+  UnaryCodingTest -> D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\bin\Debug\net9.0\UnaryCodingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.25
+]]></string>
+    <string>WritePatch: Code is Complete.
+UnaryCodingTest</string>
+    <string>[INFO 2025-02-23 9:03:31 AM] Starting test for project: D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\UnaryCodingTest.csproj</string>
+    <string>[INFO 2025-02-23 9:03:31 AM] Starting test for project: D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\UnaryCodingTest.csproj</string>
+    <string>[INFO 2025-02-23 9:03:31 AM] Starting test for project: D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\UnaryCodingTest.csproj</string>
+    <string>[INFO 2025-02-23 9:03:31 AM] Starting test for project: D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\UnaryCodingTest.csproj</string>
+    <string>[INFO 2025-02-23 9:03:31 AM] Starting test for project: D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\UnaryCodingTest.csproj</string>
+    <string>[INFO 2025-02-23 9:03:31 AM] Starting test for project: D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\UnaryCodingTest.csproj</string>
+    <string>[INFO 2025-02-23 9:03:31 AM] Starting test for project: D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\UnaryCodingTest.csproj</string>
+    <string>[INFO 2025-02-23 9:03:31 AM] Starting test for project: D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\UnaryCodingTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 9:03:36 AM] All tests passed successfully.
+[INFO 2025-02-23 9:03:36 AM] Test process completed. Duration: 4.80 seconds.
+[INFO 2025-02-23 9:03:36 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 9:03:33 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 9:03:32 AM]   Determining projects to restore...
+[OUTPUT 2025-02-23 9:03:37 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 9:03:35 AM] Test run for D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\bin\Debug\net9.0\UnaryCodingTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 9:03:35 AM]   UnaryCodingTest -> D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\bin\Debug\net9.0\UnaryCodingTest.dll
+[OUTPUT 2025-02-23 9:03:34 AM]   UnaryCoding -> D:\Code2025\RavenWork\UnaryCoding\UnaryCoding\bin\Debug\net9.0\UnaryCoding.dll
+[INFO 2025-02-23 9:03:31 AM] Command: dotnet test "D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\UnaryCodingTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 9:03:31 AM] Starting test for project: D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\UnaryCodingTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 8:57:32 AM
+UnaryCoding
+
+WritePatch ran compiler. 2025-02-23 8:59:32 AM
+UnaryCoding
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  UnaryCoding -> D:\Code2025\RavenWork\UnaryCoding\UnaryCoding\bin\Debug\net9.0\UnaryCoding.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+
+
+WritePatch: Code is Complete.
+UnaryCoding
+
+WritePatch Started CycleStep. 2025-02-23 9:00:08 AM
+UnaryCodingTest
+
+WritePatch ran compiler. 2025-02-23 9:00:40 AM
+UnaryCodingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\UnaryCodingTest.csproj (in 272 ms).
+  1 of 2 projects are up-to-date for restore.
+  UnaryCoding -> D:\Code2025\RavenWork\UnaryCoding\UnaryCoding\bin\Debug\net9.0\UnaryCoding.dll
+D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\UnaryEncoderTests.cs(39,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\UnaryCodingTest.csproj]
+  UnaryCodingTest -> D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\bin\Debug\net9.0\UnaryCodingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\UnaryEncoderTests.cs(39,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\UnaryCodingTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.15
+
+
+WritePatch: Compile failed.
+UnaryCodingTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:00:42 AM
+UnaryCodingTest
+
+WritePatch Started CycleStep. 2025-02-23 9:00:42 AM
+UnaryCodingTest
+
+WritePatch ran compiler. 2025-02-23 9:01:32 AM
+UnaryCodingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  UnaryCoding -> D:\Code2025\RavenWork\UnaryCoding\UnaryCoding\bin\Debug\net9.0\UnaryCoding.dll
+D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\UnaryEncoderTests.cs(40,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\UnaryCodingTest.csproj]
+  UnaryCodingTest -> D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\bin\Debug\net9.0\UnaryCodingTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\UnaryEncoderTests.cs(40,50): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\UnaryCodingTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.69
+
+
+WritePatch: Compile failed.
+UnaryCodingTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:01:34 AM
+UnaryCodingTest
+
+WritePatch Started CycleStep. 2025-02-23 9:01:34 AM
+UnaryCodingTest
+
+WritePatch ran compiler. 2025-02-23 9:02:40 AM
+UnaryCodingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  UnaryCoding -> D:\Code2025\RavenWork\UnaryCoding\UnaryCoding\bin\Debug\net9.0\UnaryCoding.dll
+  UnaryCodingTest -> D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\bin\Debug\net9.0\UnaryCodingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.57
+
+
+WritePatch: Code is not Complete.
+UnaryCodingTest
+
+Finished WritePatch cycle step.
+2025-02-23 9:02:55 AM
+UnaryCodingTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  UnaryCoding -> D:\Code2025\RavenWork\UnaryCoding\UnaryCoding\bin\Debug\net9.0\UnaryCoding.dll
+  UnaryCodingTest -> D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\bin\Debug\net9.0\UnaryCodingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.57
+
+</CompilerResponse>
+2025-02-23 9:02:56 AM
+UnaryCodingTest
+
+WritePatch ran compiler. 2025-02-23 9:02:58 AM
+UnaryCoding
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  UnaryCoding -> D:\Code2025\RavenWork\UnaryCoding\UnaryCoding\bin\Debug\net9.0\UnaryCoding.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.04
+
+
+WritePatch: Code is Complete.
+UnaryCoding
+
+WritePatch ran compiler. 2025-02-23 9:03:11 AM
+UnaryCodingTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  UnaryCoding -> D:\Code2025\RavenWork\UnaryCoding\UnaryCoding\bin\Debug\net9.0\UnaryCoding.dll
+  UnaryCodingTest -> D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\bin\Debug\net9.0\UnaryCodingTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.25
+
+
+WritePatch: Code is Complete.
+UnaryCodingTest
+
+TestResult:
+[SUCCESS 2025-02-23 9:03:36 AM] All tests passed successfully.
+[INFO 2025-02-23 9:03:36 AM] Test process completed. Duration: 4.80 seconds.
+[INFO 2025-02-23 9:03:36 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 9:03:33 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 9:03:32 AM]   Determining projects to restore...
+[OUTPUT 2025-02-23 9:03:37 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 9:03:35 AM] Test run for D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\bin\Debug\net9.0\UnaryCodingTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 9:03:35 AM]   UnaryCodingTest -> D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\bin\Debug\net9.0\UnaryCodingTest.dll
+[OUTPUT 2025-02-23 9:03:34 AM]   UnaryCoding -> D:\Code2025\RavenWork\UnaryCoding\UnaryCoding\bin\Debug\net9.0\UnaryCoding.dll
+[INFO 2025-02-23 9:03:31 AM] Command: dotnet test "D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\UnaryCodingTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 9:03:31 AM] Starting test for project: D:\Code2025\RavenWork\UnaryCoding\UnaryCodingTest\UnaryCodingTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
