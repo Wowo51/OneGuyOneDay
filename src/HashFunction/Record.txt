@@ -1,0 +1,421 @@
+<ActRecord>
+  <ProjectName>HashFunction</ProjectName>
+  <ProjectDescription>Hash function: Converts a large, variable‑sized amount of data into a small datum (often an index)</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Hash function: Converts a large, variable‑sized amount of data into a small datum (often an index)</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\HashFunction</SolutionFolderPath>
+  <ProjectFolderName>HashFunction</ProjectFolderName>
+  <ProjectName>HashFunction</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:03:23 AM
+HashFunction</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:03:50 AM
+HashFunction</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HashFunction -> D:\Code2025\RavenWork\HashFunction\HashFunction\bin\Debug\net9.0\HashFunction.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.82
+]]></string>
+    <string>WritePatch: Code is Complete.
+HashFunction</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:04:11 AM
+HashFunctionTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:05:41 AM
+HashFunctionTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj (in 187 ms).
+  1 of 2 projects are up-to-date for restore.
+  HashFunction -> D:\Code2025\RavenWork\HashFunction\HashFunction\bin\Debug\net9.0\HashFunction.dll
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(35,45): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(35,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(72,45): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(72,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+  HashFunctionTest -> D:\Code2025\RavenWork\HashFunction\HashFunctionTest\bin\Debug\net9.0\HashFunctionTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(35,45): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(35,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(72,45): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(72,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.34
+]]></string>
+    <string>WritePatch: Compile failed.
+HashFunctionTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:05:42 AM
+HashFunctionTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:05:42 AM
+HashFunctionTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:06:32 AM
+HashFunctionTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HashFunction -> D:\Code2025\RavenWork\HashFunction\HashFunction\bin\Debug\net9.0\HashFunction.dll
+  HashFunctionTest -> D:\Code2025\RavenWork\HashFunction\HashFunctionTest\bin\Debug\net9.0\HashFunctionTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.02
+]]></string>
+    <string>WritePatch: Code is not Complete.
+HashFunctionTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:07:13 AM
+HashFunctionTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 8:07:14 AM
+HashFunctionTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:08:51 AM
+HashFunctionTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HashFunction -> D:\Code2025\RavenWork\HashFunction\HashFunction\bin\Debug\net9.0\HashFunction.dll
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(35,45): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(35,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(72,45): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(72,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+  HashFunctionTest -> D:\Code2025\RavenWork\HashFunction\HashFunctionTest\bin\Debug\net9.0\HashFunctionTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(35,45): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(35,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(72,45): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(72,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+]]></string>
+    <string>WritePatch: Compile failed.
+HashFunctionTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 8:08:52 AM
+HashFunctionTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HashFunction -> D:\Code2025\RavenWork\HashFunction\HashFunction\bin\Debug\net9.0\HashFunction.dll
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(35,45): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(35,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(72,45): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(72,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+  HashFunctionTest -> D:\Code2025\RavenWork\HashFunction\HashFunctionTest\bin\Debug\net9.0\HashFunctionTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(35,45): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(35,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(72,45): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(72,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+
+</CompilerResponse>
+2025-02-23 8:08:52 AM
+HashFunctionTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 8:08:53 AM
+HashFunction</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HashFunction -> D:\Code2025\RavenWork\HashFunction\HashFunction\bin\Debug\net9.0\HashFunction.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.68
+]]></string>
+    <string>WritePatch: Code is Complete.
+HashFunction</string>
+    <string>WritePatch ran compiler. 2025-02-23 8:09:07 AM
+HashFunctionTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HashFunction -> D:\Code2025\RavenWork\HashFunction\HashFunction\bin\Debug\net9.0\HashFunction.dll
+  HashFunctionTest -> D:\Code2025\RavenWork\HashFunction\HashFunctionTest\bin\Debug\net9.0\HashFunctionTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.96
+]]></string>
+    <string>WritePatch: Code is Complete.
+HashFunctionTest</string>
+    <string>[INFO 2025-02-23 8:09:35 AM] Starting test for project: D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj</string>
+    <string>[INFO 2025-02-23 8:09:35 AM] Starting test for project: D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj</string>
+    <string>[INFO 2025-02-23 8:09:35 AM] Starting test for project: D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj</string>
+    <string>[INFO 2025-02-23 8:09:35 AM] Starting test for project: D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj</string>
+    <string>[INFO 2025-02-23 8:09:35 AM] Starting test for project: D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj</string>
+    <string>[INFO 2025-02-23 8:09:35 AM] Starting test for project: D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj</string>
+    <string>[INFO 2025-02-23 8:09:35 AM] Starting test for project: D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj</string>
+    <string>[INFO 2025-02-23 8:09:35 AM] Starting test for project: D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj</string>
+    <string>[INFO 2025-02-23 8:09:35 AM] Starting test for project: D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj</string>
+    <string>[INFO 2025-02-23 8:09:35 AM] Starting test for project: D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj</string>
+    <string>[INFO 2025-02-23 8:09:35 AM] Starting test for project: D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 8:09:38 AM] D:\Code2025\RavenWork\HashFunction\HashFunctionTest\bin\Debug\net9.0\HashFunctionTest.dll
+[OUTPUT 2025-02-23 8:09:38 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 8:09:37 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:09:37 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:09:37 AM] Test run for D:\Code2025\RavenWork\HashFunction\HashFunctionTest\bin\Debug\net9.0\HashFunctionTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:09:37 AM]   HashFunctionTest -> D:\Code2025\RavenWork\HashFunction\HashFunctionTest\bin\Debug\net9.0\HashFunctionTest.dll
+[OUTPUT 2025-02-23 8:09:36 AM]   HashFunction -> D:\Code2025\RavenWork\HashFunction\HashFunction\bin\Debug\net9.0\HashFunction.dll
+[OUTPUT 2025-02-23 8:09:36 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:09:36 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 8:09:38 AM] All tests passed successfully.
+[INFO 2025-02-23 8:09:38 AM] Test process completed. Duration: 2.96 seconds.
+[INFO 2025-02-23 8:09:38 AM] Process exited with code 0.
+[INFO 2025-02-23 8:09:35 AM] Command: dotnet test "D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:09:35 AM] Starting test for project: D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 8:03:23 AM
+HashFunction
+
+WritePatch ran compiler. 2025-02-23 8:03:50 AM
+HashFunction
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HashFunction -> D:\Code2025\RavenWork\HashFunction\HashFunction\bin\Debug\net9.0\HashFunction.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.82
+
+
+WritePatch: Code is Complete.
+HashFunction
+
+WritePatch Started CycleStep. 2025-02-23 8:04:11 AM
+HashFunctionTest
+
+WritePatch ran compiler. 2025-02-23 8:05:41 AM
+HashFunctionTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj (in 187 ms).
+  1 of 2 projects are up-to-date for restore.
+  HashFunction -> D:\Code2025\RavenWork\HashFunction\HashFunction\bin\Debug\net9.0\HashFunction.dll
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(35,45): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(35,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(72,45): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(72,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+  HashFunctionTest -> D:\Code2025\RavenWork\HashFunction\HashFunctionTest\bin\Debug\net9.0\HashFunctionTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(35,45): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(35,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(72,45): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(72,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.34
+
+
+WritePatch: Compile failed.
+HashFunctionTest
+
+Finished WritePatch cycle step.
+2025-02-23 8:05:42 AM
+HashFunctionTest
+
+WritePatch Started CycleStep. 2025-02-23 8:05:42 AM
+HashFunctionTest
+
+WritePatch ran compiler. 2025-02-23 8:06:32 AM
+HashFunctionTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HashFunction -> D:\Code2025\RavenWork\HashFunction\HashFunction\bin\Debug\net9.0\HashFunction.dll
+  HashFunctionTest -> D:\Code2025\RavenWork\HashFunction\HashFunctionTest\bin\Debug\net9.0\HashFunctionTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.02
+
+
+WritePatch: Code is not Complete.
+HashFunctionTest
+
+Finished WritePatch cycle step.
+2025-02-23 8:07:13 AM
+HashFunctionTest
+
+WritePatch Started CycleStep. 2025-02-23 8:07:14 AM
+HashFunctionTest
+
+WritePatch ran compiler. 2025-02-23 8:08:51 AM
+HashFunctionTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HashFunction -> D:\Code2025\RavenWork\HashFunction\HashFunction\bin\Debug\net9.0\HashFunction.dll
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(35,45): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(35,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(72,45): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(72,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+  HashFunctionTest -> D:\Code2025\RavenWork\HashFunction\HashFunctionTest\bin\Debug\net9.0\HashFunctionTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(35,45): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(35,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(72,45): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(72,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+
+
+WritePatch: Compile failed.
+HashFunctionTest
+
+Finished WritePatch cycle step.
+2025-02-23 8:08:52 AM
+HashFunctionTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HashFunction -> D:\Code2025\RavenWork\HashFunction\HashFunction\bin\Debug\net9.0\HashFunction.dll
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(35,45): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(35,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(72,45): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(72,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+  HashFunctionTest -> D:\Code2025\RavenWork\HashFunction\HashFunctionTest\bin\Debug\net9.0\HashFunctionTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(35,45): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(35,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(72,45): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HasherTests.cs(72,45): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj]
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+
+</CompilerResponse>
+2025-02-23 8:08:52 AM
+HashFunctionTest
+
+WritePatch ran compiler. 2025-02-23 8:08:53 AM
+HashFunction
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HashFunction -> D:\Code2025\RavenWork\HashFunction\HashFunction\bin\Debug\net9.0\HashFunction.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.68
+
+
+WritePatch: Code is Complete.
+HashFunction
+
+WritePatch ran compiler. 2025-02-23 8:09:07 AM
+HashFunctionTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  HashFunction -> D:\Code2025\RavenWork\HashFunction\HashFunction\bin\Debug\net9.0\HashFunction.dll
+  HashFunctionTest -> D:\Code2025\RavenWork\HashFunction\HashFunctionTest\bin\Debug\net9.0\HashFunctionTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.96
+
+
+WritePatch: Code is Complete.
+HashFunctionTest
+
+TestResult:
+[OUTPUT 2025-02-23 8:09:38 AM] D:\Code2025\RavenWork\HashFunction\HashFunctionTest\bin\Debug\net9.0\HashFunctionTest.dll
+[OUTPUT 2025-02-23 8:09:38 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 8:09:37 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 8:09:37 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 8:09:37 AM] Test run for D:\Code2025\RavenWork\HashFunction\HashFunctionTest\bin\Debug\net9.0\HashFunctionTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 8:09:37 AM]   HashFunctionTest -> D:\Code2025\RavenWork\HashFunction\HashFunctionTest\bin\Debug\net9.0\HashFunctionTest.dll
+[OUTPUT 2025-02-23 8:09:36 AM]   HashFunction -> D:\Code2025\RavenWork\HashFunction\HashFunction\bin\Debug\net9.0\HashFunction.dll
+[OUTPUT 2025-02-23 8:09:36 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 8:09:36 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 8:09:38 AM] All tests passed successfully.
+[INFO 2025-02-23 8:09:38 AM] Test process completed. Duration: 2.96 seconds.
+[INFO 2025-02-23 8:09:38 AM] Process exited with code 0.
+[INFO 2025-02-23 8:09:35 AM] Command: dotnet test "D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 8:09:35 AM] Starting test for project: D:\Code2025\RavenWork\HashFunction\HashFunctionTest\HashFunctionTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
