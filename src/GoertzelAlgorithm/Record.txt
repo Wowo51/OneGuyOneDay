@@ -1,0 +1,156 @@
+<ActRecord>
+  <ProjectName>GoertzelAlgorithm</ProjectName>
+  <ProjectDescription>Goertzel algorithm: Identifies a particular frequency component in a signal (e.g. for DTMF decoding)</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Goertzel algorithm: Identifies a particular frequency component in a signal (e.g. for DTMF decoding)</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\GoertzelAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>GoertzelAlgorithm</ProjectFolderName>
+  <ProjectName>GoertzelAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:14:26 AM
+GoertzelAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:14:49 AM
+GoertzelAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GoertzelAlgorithm -> D:\Code2025\RavenWork\GoertzelAlgorithm\GoertzelAlgorithm\bin\Debug\net9.0\GoertzelAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+]]></string>
+    <string>WritePatch: Code is Complete.
+GoertzelAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 10:15:01 AM
+GoertzelAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 10:15:51 AM
+GoertzelAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\GoertzelAlgorithm\GoertzelAlgorithmTest\GoertzelAlgorithmTest.csproj (in 207 ms).
+  1 of 2 projects are up-to-date for restore.
+  GoertzelAlgorithm -> D:\Code2025\RavenWork\GoertzelAlgorithm\GoertzelAlgorithm\bin\Debug\net9.0\GoertzelAlgorithm.dll
+  GoertzelAlgorithmTest -> D:\Code2025\RavenWork\GoertzelAlgorithm\GoertzelAlgorithmTest\bin\Debug\net9.0\GoertzelAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.56
+]]></string>
+    <string>WritePatch: Code is Complete.
+GoertzelAlgorithmTest</string>
+    <string>[INFO 2025-02-23 10:15:59 AM] Starting test for project: D:\Code2025\RavenWork\GoertzelAlgorithm\GoertzelAlgorithmTest\GoertzelAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:15:59 AM] Starting test for project: D:\Code2025\RavenWork\GoertzelAlgorithm\GoertzelAlgorithmTest\GoertzelAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:15:59 AM] Starting test for project: D:\Code2025\RavenWork\GoertzelAlgorithm\GoertzelAlgorithmTest\GoertzelAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:15:59 AM] Starting test for project: D:\Code2025\RavenWork\GoertzelAlgorithm\GoertzelAlgorithmTest\GoertzelAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:15:59 AM] Starting test for project: D:\Code2025\RavenWork\GoertzelAlgorithm\GoertzelAlgorithmTest\GoertzelAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:15:59 AM] Starting test for project: D:\Code2025\RavenWork\GoertzelAlgorithm\GoertzelAlgorithmTest\GoertzelAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:15:59 AM] Starting test for project: D:\Code2025\RavenWork\GoertzelAlgorithm\GoertzelAlgorithmTest\GoertzelAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:15:59 AM] Starting test for project: D:\Code2025\RavenWork\GoertzelAlgorithm\GoertzelAlgorithmTest\GoertzelAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:15:59 AM] Starting test for project: D:\Code2025\RavenWork\GoertzelAlgorithm\GoertzelAlgorithmTest\GoertzelAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:15:59 AM] Starting test for project: D:\Code2025\RavenWork\GoertzelAlgorithm\GoertzelAlgorithmTest\GoertzelAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:15:59 AM] Starting test for project: D:\Code2025\RavenWork\GoertzelAlgorithm\GoertzelAlgorithmTest\GoertzelAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:15:59 AM] Starting test for project: D:\Code2025\RavenWork\GoertzelAlgorithm\GoertzelAlgorithmTest\GoertzelAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:15:59 AM] Starting test for project: D:\Code2025\RavenWork\GoertzelAlgorithm\GoertzelAlgorithmTest\GoertzelAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 10:15:59 AM] Starting test for project: D:\Code2025\RavenWork\GoertzelAlgorithm\GoertzelAlgorithmTest\GoertzelAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 10:16:03 AM]   Passed TestNoiseWithSineComponentDetection [4 ms]
+[OUTPUT 2025-02-23 10:16:03 AM]   Passed TestSineWaveDetection [4 ms]
+[OUTPUT 2025-02-23 10:16:02 AM] Test Parallelization enabled for D:\Code2025\RavenWork\GoertzelAlgorithm\GoertzelAlgorithmTest\bin\Debug\net9.0\GoertzelAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:16:02 AM] D:\Code2025\RavenWork\GoertzelAlgorithm\GoertzelAlgorithmTest\bin\Debug\net9.0\GoertzelAlgorithmTest.dll
+[OUTPUT 2025-02-23 10:16:02 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:16:01 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:16:01 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:16:01 AM] Test run for D:\Code2025\RavenWork\GoertzelAlgorithm\GoertzelAlgorithmTest\bin\Debug\net9.0\GoertzelAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:16:01 AM]   GoertzelAlgorithmTest -> D:\Code2025\RavenWork\GoertzelAlgorithm\GoertzelAlgorithmTest\bin\Debug\net9.0\GoertzelAlgorithmTest.dll
+[OUTPUT 2025-02-23 10:16:01 AM]   GoertzelAlgorithm -> D:\Code2025\RavenWork\GoertzelAlgorithm\GoertzelAlgorithm\bin\Debug\net9.0\GoertzelAlgorithm.dll
+[OUTPUT 2025-02-23 10:16:00 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:16:00 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 10:16:03 AM] All tests passed successfully.
+[INFO 2025-02-23 10:16:03 AM] Test process completed. Duration: 3.16 seconds.
+[INFO 2025-02-23 10:16:03 AM] Process exited with code 0.
+[INFO 2025-02-23 10:15:59 AM] Command: dotnet test "D:\Code2025\RavenWork\GoertzelAlgorithm\GoertzelAlgorithmTest\GoertzelAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:15:59 AM] Starting test for project: D:\Code2025\RavenWork\GoertzelAlgorithm\GoertzelAlgorithmTest\GoertzelAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 10:14:26 AM
+GoertzelAlgorithm
+
+WritePatch ran compiler. 2025-02-23 10:14:49 AM
+GoertzelAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GoertzelAlgorithm -> D:\Code2025\RavenWork\GoertzelAlgorithm\GoertzelAlgorithm\bin\Debug\net9.0\GoertzelAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+
+
+WritePatch: Code is Complete.
+GoertzelAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 10:15:01 AM
+GoertzelAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 10:15:51 AM
+GoertzelAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\GoertzelAlgorithm\GoertzelAlgorithmTest\GoertzelAlgorithmTest.csproj (in 207 ms).
+  1 of 2 projects are up-to-date for restore.
+  GoertzelAlgorithm -> D:\Code2025\RavenWork\GoertzelAlgorithm\GoertzelAlgorithm\bin\Debug\net9.0\GoertzelAlgorithm.dll
+  GoertzelAlgorithmTest -> D:\Code2025\RavenWork\GoertzelAlgorithm\GoertzelAlgorithmTest\bin\Debug\net9.0\GoertzelAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.56
+
+
+WritePatch: Code is Complete.
+GoertzelAlgorithmTest
+
+TestResult:
+[OUTPUT 2025-02-23 10:16:03 AM]   Passed TestNoiseWithSineComponentDetection [4 ms]
+[OUTPUT 2025-02-23 10:16:03 AM]   Passed TestSineWaveDetection [4 ms]
+[OUTPUT 2025-02-23 10:16:02 AM] Test Parallelization enabled for D:\Code2025\RavenWork\GoertzelAlgorithm\GoertzelAlgorithmTest\bin\Debug\net9.0\GoertzelAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 10:16:02 AM] D:\Code2025\RavenWork\GoertzelAlgorithm\GoertzelAlgorithmTest\bin\Debug\net9.0\GoertzelAlgorithmTest.dll
+[OUTPUT 2025-02-23 10:16:02 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 10:16:01 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 10:16:01 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 10:16:01 AM] Test run for D:\Code2025\RavenWork\GoertzelAlgorithm\GoertzelAlgorithmTest\bin\Debug\net9.0\GoertzelAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 10:16:01 AM]   GoertzelAlgorithmTest -> D:\Code2025\RavenWork\GoertzelAlgorithm\GoertzelAlgorithmTest\bin\Debug\net9.0\GoertzelAlgorithmTest.dll
+[OUTPUT 2025-02-23 10:16:01 AM]   GoertzelAlgorithm -> D:\Code2025\RavenWork\GoertzelAlgorithm\GoertzelAlgorithm\bin\Debug\net9.0\GoertzelAlgorithm.dll
+[OUTPUT 2025-02-23 10:16:00 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 10:16:00 AM]   Determining projects to restore...
+[SUCCESS 2025-02-23 10:16:03 AM] All tests passed successfully.
+[INFO 2025-02-23 10:16:03 AM] Test process completed. Duration: 3.16 seconds.
+[INFO 2025-02-23 10:16:03 AM] Process exited with code 0.
+[INFO 2025-02-23 10:15:59 AM] Command: dotnet test "D:\Code2025\RavenWork\GoertzelAlgorithm\GoertzelAlgorithmTest\GoertzelAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 10:15:59 AM] Starting test for project: D:\Code2025\RavenWork\GoertzelAlgorithm\GoertzelAlgorithmTest\GoertzelAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
