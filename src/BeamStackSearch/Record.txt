@@ -1,0 +1,429 @@
+<ActRecord>
+  <ProjectName>BeamStackSearch</ProjectName>
+  <ProjectDescription>Beam Stack Search: Integrates beam search with backtracking to balance memory efficiency and search completeness.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Beam Stack Search: Integrates beam search with backtracking to balance memory efficiency and search completeness.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\BeamStackSearch</SolutionFolderPath>
+  <ProjectFolderName>BeamStackSearch</ProjectFolderName>
+  <ProjectName>BeamStackSearch</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:13:13 PM
+BeamStackSearch</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:14:14 PM
+BeamStackSearch</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearch\BeamStackSearchAlgorithm.cs(65,41): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearch\BeamStackSearch.csproj]
+  BeamStackSearch -> D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearch\bin\Debug\net9.0\BeamStackSearch.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearch\BeamStackSearchAlgorithm.cs(65,41): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearch\BeamStackSearch.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.02
+]]></string>
+    <string>WritePatch: Compile failed.
+BeamStackSearch</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:14:18 PM
+BeamStackSearch</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:14:19 PM
+BeamStackSearch</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:14:52 PM
+BeamStackSearch</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BeamStackSearch -> D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearch\bin\Debug\net9.0\BeamStackSearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+]]></string>
+    <string>WritePatch: Code is Complete.
+BeamStackSearch</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:15:09 PM
+BeamStackSearchTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:16:36 PM
+BeamStackSearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\BeamStackSearchTest.csproj (in 225 ms).
+  1 of 2 projects are up-to-date for restore.
+  BeamStackSearch -> D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearch\bin\Debug\net9.0\BeamStackSearch.dll
+D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\BeamStackSearchAlgorithmTests.cs(15,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\BeamStackSearchTest.csproj]
+  BeamStackSearchTest -> D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\bin\Debug\net9.0\BeamStackSearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\BeamStackSearchAlgorithmTests.cs(15,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\BeamStackSearchTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.63
+]]></string>
+    <string>WritePatch: Compile failed.
+BeamStackSearchTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:16:37 PM
+BeamStackSearchTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:16:37 PM
+BeamStackSearchTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:17:36 PM
+BeamStackSearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BeamStackSearch -> D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearch\bin\Debug\net9.0\BeamStackSearch.dll
+D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\BeamStackSearchAlgorithmTests.cs(15,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\BeamStackSearchTest.csproj]
+  BeamStackSearchTest -> D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\bin\Debug\net9.0\BeamStackSearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\BeamStackSearchAlgorithmTests.cs(15,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\BeamStackSearchTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.20
+]]></string>
+    <string>WritePatch: Compile failed.
+BeamStackSearchTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:17:36 PM
+BeamStackSearchTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 1:17:37 PM
+BeamStackSearchTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:19:00 PM
+BeamStackSearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BeamStackSearch -> D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearch\bin\Debug\net9.0\BeamStackSearch.dll
+  BeamStackSearchTest -> D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\bin\Debug\net9.0\BeamStackSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.00
+]]></string>
+    <string>WritePatch: Code is not Complete.
+BeamStackSearchTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 1:19:19 PM
+BeamStackSearchTest</string>
+    <string><![CDATA[WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BeamStackSearch -> D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearch\bin\Debug\net9.0\BeamStackSearch.dll
+  BeamStackSearchTest -> D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\bin\Debug\net9.0\BeamStackSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.00
+
+</CompilerResponse>
+2025-02-23 1:19:20 PM
+BeamStackSearchTest]]></string>
+    <string>WritePatch ran compiler. 2025-02-23 1:19:21 PM
+BeamStackSearch</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BeamStackSearch -> D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearch\bin\Debug\net9.0\BeamStackSearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.78
+]]></string>
+    <string>WritePatch: Code is Complete.
+BeamStackSearch</string>
+    <string>WritePatch ran compiler. 2025-02-23 1:19:54 PM
+BeamStackSearchTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BeamStackSearch -> D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearch\bin\Debug\net9.0\BeamStackSearch.dll
+  BeamStackSearchTest -> D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\bin\Debug\net9.0\BeamStackSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.99
+]]></string>
+    <string>WritePatch: Code is Complete.
+BeamStackSearchTest</string>
+    <string>[INFO 2025-02-23 1:20:19 PM] Starting test for project: D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\BeamStackSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:20:19 PM] Starting test for project: D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\BeamStackSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:20:19 PM] Starting test for project: D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\BeamStackSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:20:19 PM] Starting test for project: D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\BeamStackSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:20:19 PM] Starting test for project: D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\BeamStackSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:20:19 PM] Starting test for project: D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\BeamStackSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:20:19 PM] Starting test for project: D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\BeamStackSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:20:19 PM] Starting test for project: D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\BeamStackSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:20:19 PM] Starting test for project: D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\BeamStackSearchTest.csproj</string>
+    <string>[INFO 2025-02-23 1:20:19 PM] Starting test for project: D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\BeamStackSearchTest.csproj</string>
+    <string><![CDATA[TestResult:
+[OUTPUT 2025-02-23 1:20:23 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 1:20:23 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 1:20:22 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 1:20:22 PM] Test run for D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\bin\Debug\net9.0\BeamStackSearchTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 1:20:22 PM]   BeamStackSearchTest -> D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\bin\Debug\net9.0\BeamStackSearchTest.dll
+[OUTPUT 2025-02-23 1:20:21 PM]   BeamStackSearch -> D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearch\bin\Debug\net9.0\BeamStackSearch.dll
+[OUTPUT 2025-02-23 1:20:21 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:20:20 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 1:20:23 PM] All tests passed successfully.
+[INFO 2025-02-23 1:20:23 PM] Test process completed. Duration: 3.65 seconds.
+[INFO 2025-02-23 1:20:23 PM] Process exited with code 0.
+[INFO 2025-02-23 1:20:19 PM] Command: dotnet test "D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\BeamStackSearchTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:20:19 PM] Starting test for project: D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\BeamStackSearchTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 1:13:13 PM
+BeamStackSearch
+
+WritePatch ran compiler. 2025-02-23 1:14:14 PM
+BeamStackSearch
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearch\BeamStackSearchAlgorithm.cs(65,41): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearch\BeamStackSearch.csproj]
+  BeamStackSearch -> D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearch\bin\Debug\net9.0\BeamStackSearch.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearch\BeamStackSearchAlgorithm.cs(65,41): warning CS8600: Converting null literal or possible null value to non-nullable type. [D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearch\BeamStackSearch.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.02
+
+
+WritePatch: Compile failed.
+BeamStackSearch
+
+Finished WritePatch cycle step.
+2025-02-23 1:14:18 PM
+BeamStackSearch
+
+WritePatch Started CycleStep. 2025-02-23 1:14:19 PM
+BeamStackSearch
+
+WritePatch ran compiler. 2025-02-23 1:14:52 PM
+BeamStackSearch
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BeamStackSearch -> D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearch\bin\Debug\net9.0\BeamStackSearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+
+
+WritePatch: Code is Complete.
+BeamStackSearch
+
+WritePatch Started CycleStep. 2025-02-23 1:15:09 PM
+BeamStackSearchTest
+
+WritePatch ran compiler. 2025-02-23 1:16:36 PM
+BeamStackSearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\BeamStackSearchTest.csproj (in 225 ms).
+  1 of 2 projects are up-to-date for restore.
+  BeamStackSearch -> D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearch\bin\Debug\net9.0\BeamStackSearch.dll
+D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\BeamStackSearchAlgorithmTests.cs(15,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\BeamStackSearchTest.csproj]
+  BeamStackSearchTest -> D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\bin\Debug\net9.0\BeamStackSearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\BeamStackSearchAlgorithmTests.cs(15,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\BeamStackSearchTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.63
+
+
+WritePatch: Compile failed.
+BeamStackSearchTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:16:37 PM
+BeamStackSearchTest
+
+WritePatch Started CycleStep. 2025-02-23 1:16:37 PM
+BeamStackSearchTest
+
+WritePatch ran compiler. 2025-02-23 1:17:36 PM
+BeamStackSearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BeamStackSearch -> D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearch\bin\Debug\net9.0\BeamStackSearch.dll
+D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\BeamStackSearchAlgorithmTests.cs(15,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\BeamStackSearchTest.csproj]
+  BeamStackSearchTest -> D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\bin\Debug\net9.0\BeamStackSearchTest.dll
+
+Build succeeded.
+
+D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\BeamStackSearchAlgorithmTests.cs(15,52): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\BeamStackSearchTest.csproj]
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.20
+
+
+WritePatch: Compile failed.
+BeamStackSearchTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:17:36 PM
+BeamStackSearchTest
+
+WritePatch Started CycleStep. 2025-02-23 1:17:37 PM
+BeamStackSearchTest
+
+WritePatch ran compiler. 2025-02-23 1:19:00 PM
+BeamStackSearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BeamStackSearch -> D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearch\bin\Debug\net9.0\BeamStackSearch.dll
+  BeamStackSearchTest -> D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\bin\Debug\net9.0\BeamStackSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.00
+
+
+WritePatch: Code is not Complete.
+BeamStackSearchTest
+
+Finished WritePatch cycle step.
+2025-02-23 1:19:19 PM
+BeamStackSearchTest
+
+WritePatch completed but failed. MaxPasses reached.
+<FolderPath>
+D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest
+</FolderPath>
+<CompilerResponse>
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BeamStackSearch -> D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearch\bin\Debug\net9.0\BeamStackSearch.dll
+  BeamStackSearchTest -> D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\bin\Debug\net9.0\BeamStackSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.00
+
+</CompilerResponse>
+2025-02-23 1:19:20 PM
+BeamStackSearchTest
+
+WritePatch ran compiler. 2025-02-23 1:19:21 PM
+BeamStackSearch
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BeamStackSearch -> D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearch\bin\Debug\net9.0\BeamStackSearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.78
+
+
+WritePatch: Code is Complete.
+BeamStackSearch
+
+WritePatch ran compiler. 2025-02-23 1:19:54 PM
+BeamStackSearchTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BeamStackSearch -> D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearch\bin\Debug\net9.0\BeamStackSearch.dll
+  BeamStackSearchTest -> D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\bin\Debug\net9.0\BeamStackSearchTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.99
+
+
+WritePatch: Code is Complete.
+BeamStackSearchTest
+
+TestResult:
+[OUTPUT 2025-02-23 1:20:23 PM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 1:20:23 PM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 1:20:22 PM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 1:20:22 PM] Test run for D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\bin\Debug\net9.0\BeamStackSearchTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 1:20:22 PM]   BeamStackSearchTest -> D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\bin\Debug\net9.0\BeamStackSearchTest.dll
+[OUTPUT 2025-02-23 1:20:21 PM]   BeamStackSearch -> D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearch\bin\Debug\net9.0\BeamStackSearch.dll
+[OUTPUT 2025-02-23 1:20:21 PM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 1:20:20 PM]   Determining projects to restore...
+[SUCCESS 2025-02-23 1:20:23 PM] All tests passed successfully.
+[INFO 2025-02-23 1:20:23 PM] Test process completed. Duration: 3.65 seconds.
+[INFO 2025-02-23 1:20:23 PM] Process exited with code 0.
+[INFO 2025-02-23 1:20:19 PM] Command: dotnet test "D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\BeamStackSearchTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 1:20:19 PM] Starting test for project: D:\Code2025\RavenWork\BeamStackSearch\BeamStackSearchTest\BeamStackSearchTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
