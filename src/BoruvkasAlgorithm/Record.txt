@@ -1,0 +1,211 @@
+<ActRecord>
+  <ProjectName>BoruvkasAlgorithm</ProjectName>
+  <ProjectDescription>Borůvka’s Algorithm: Computes a minimum spanning tree by repeatedly connecting each tree in a forest to its nearest neighboring vertex until a single spanning tree remains.</ProjectDescription>
+  <XMLSpecification><![CDATA[<WriteAndTestPatchSpecification>
+  <WriteSpecification>Borůvka’s Algorithm: Computes a minimum spanning tree by repeatedly connecting each tree in a forest to its nearest neighboring vertex until a single spanning tree remains.</WriteSpecification>
+  <TestSpecification>Write through unit tests.</TestSpecification>
+  <SolutionFolderPath>D:\Code2025\RavenWork\BoruvkasAlgorithm</SolutionFolderPath>
+  <ProjectFolderName>BoruvkasAlgorithm</ProjectFolderName>
+  <ProjectName>BoruvkasAlgorithm</ProjectName>
+  <ProjectType>CSharp ClassLibrary</ProjectType>
+  <WriteMaxPasses>3</WriteMaxPasses>
+  <TestMaxPasses>3</TestMaxPasses>
+  <WriteAndTestMaxPasses>5</WriteAndTestMaxPasses>
+  <Errors />
+  <ContextPaths />
+</WriteAndTestPatchSpecification>]]></XMLSpecification>
+  <Logs>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:06:56 AM
+BoruvkasAlgorithm</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:07:44 AM
+BoruvkasAlgorithm</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BoruvkasAlgorithm -> D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithm\bin\Debug\net9.0\BoruvkasAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.07
+]]></string>
+    <string>WritePatch: Code is Complete.
+BoruvkasAlgorithm</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:08:03 AM
+BoruvkasAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:08:50 AM
+BoruvkasAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithmTest\BoruvkasAlgorithmTest.csproj (in 244 ms).
+  1 of 2 projects are up-to-date for restore.
+  BoruvkasAlgorithm -> D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithm\bin\Debug\net9.0\BoruvkasAlgorithm.dll
+D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithmTest\BoruvkasAlgorithmTests.cs(20,48): error CS0103: The name 'BoruvkaAlgorithm' does not exist in the current context [D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithmTest\BoruvkasAlgorithmTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithmTest\BoruvkasAlgorithmTests.cs(20,48): error CS0103: The name 'BoruvkaAlgorithm' does not exist in the current context [D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithmTest\BoruvkasAlgorithmTest.csproj]
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.60
+
+
+Errors:]]></string>
+    <string>WritePatch: Compile failed.
+BoruvkasAlgorithmTest</string>
+    <string>Finished WritePatch cycle step.
+2025-02-23 11:08:51 AM
+BoruvkasAlgorithmTest</string>
+    <string>WritePatch Started CycleStep. 2025-02-23 11:08:51 AM
+BoruvkasAlgorithmTest</string>
+    <string>WritePatch ran compiler. 2025-02-23 11:09:30 AM
+BoruvkasAlgorithmTest</string>
+    <string><![CDATA[CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BoruvkasAlgorithm -> D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithm\bin\Debug\net9.0\BoruvkasAlgorithm.dll
+  BoruvkasAlgorithmTest -> D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithmTest\bin\Debug\net9.0\BoruvkasAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.45
+]]></string>
+    <string>WritePatch: Code is Complete.
+BoruvkasAlgorithmTest</string>
+    <string>[INFO 2025-02-23 11:10:04 AM] Starting test for project: D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithmTest\BoruvkasAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:10:04 AM] Starting test for project: D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithmTest\BoruvkasAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:10:04 AM] Starting test for project: D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithmTest\BoruvkasAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:10:04 AM] Starting test for project: D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithmTest\BoruvkasAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:10:04 AM] Starting test for project: D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithmTest\BoruvkasAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:10:04 AM] Starting test for project: D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithmTest\BoruvkasAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:10:04 AM] Starting test for project: D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithmTest\BoruvkasAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:10:04 AM] Starting test for project: D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithmTest\BoruvkasAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:10:04 AM] Starting test for project: D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithmTest\BoruvkasAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:10:04 AM] Starting test for project: D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithmTest\BoruvkasAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:10:04 AM] Starting test for project: D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithmTest\BoruvkasAlgorithmTest.csproj</string>
+    <string>[INFO 2025-02-23 11:10:04 AM] Starting test for project: D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithmTest\BoruvkasAlgorithmTest.csproj</string>
+    <string><![CDATA[TestResult:
+[SUCCESS 2025-02-23 11:10:07 AM] All tests passed successfully.
+[INFO 2025-02-23 11:10:07 AM] Test process completed. Duration: 3.64 seconds.
+[INFO 2025-02-23 11:10:07 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 11:10:08 AM] Test Parallelization enabled for D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithmTest\bin\Debug\net9.0\BoruvkasAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 11:10:07 AM] D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithmTest\bin\Debug\net9.0\BoruvkasAlgorithmTest.dll
+[OUTPUT 2025-02-23 11:10:07 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:10:07 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:10:06 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:10:06 AM] Test run for D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithmTest\bin\Debug\net9.0\BoruvkasAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:10:06 AM]   BoruvkasAlgorithmTest -> D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithmTest\bin\Debug\net9.0\BoruvkasAlgorithmTest.dll
+[OUTPUT 2025-02-23 11:10:05 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:10:05 AM]   BoruvkasAlgorithm -> D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithm\bin\Debug\net9.0\BoruvkasAlgorithm.dll
+[OUTPUT 2025-02-23 11:10:05 AM]   Determining projects to restore...
+[INFO 2025-02-23 11:10:04 AM] Command: dotnet test "D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithmTest\BoruvkasAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:10:04 AM] Starting test for project: D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithmTest\BoruvkasAlgorithmTest.csproj]]></string>
+    <string>Test succeeded!!!</string>
+  </Logs>
+  <ActResult><![CDATA[WritePatch Started CycleStep. 2025-02-23 11:06:56 AM
+BoruvkasAlgorithm
+
+WritePatch ran compiler. 2025-02-23 11:07:44 AM
+BoruvkasAlgorithm
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BoruvkasAlgorithm -> D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithm\bin\Debug\net9.0\BoruvkasAlgorithm.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.07
+
+
+WritePatch: Code is Complete.
+BoruvkasAlgorithm
+
+WritePatch Started CycleStep. 2025-02-23 11:08:03 AM
+BoruvkasAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 11:08:50 AM
+BoruvkasAlgorithmTest
+
+CompilerResponse
+Compile failed or had warnings.
+
+Output:
+  Determining projects to restore...
+  Restored D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithmTest\BoruvkasAlgorithmTest.csproj (in 244 ms).
+  1 of 2 projects are up-to-date for restore.
+  BoruvkasAlgorithm -> D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithm\bin\Debug\net9.0\BoruvkasAlgorithm.dll
+D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithmTest\BoruvkasAlgorithmTests.cs(20,48): error CS0103: The name 'BoruvkaAlgorithm' does not exist in the current context [D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithmTest\BoruvkasAlgorithmTest.csproj]
+
+Build FAILED.
+
+D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithmTest\BoruvkasAlgorithmTests.cs(20,48): error CS0103: The name 'BoruvkaAlgorithm' does not exist in the current context [D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithmTest\BoruvkasAlgorithmTest.csproj]
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.60
+
+
+Errors:
+
+WritePatch: Compile failed.
+BoruvkasAlgorithmTest
+
+Finished WritePatch cycle step.
+2025-02-23 11:08:51 AM
+BoruvkasAlgorithmTest
+
+WritePatch Started CycleStep. 2025-02-23 11:08:51 AM
+BoruvkasAlgorithmTest
+
+WritePatch ran compiler. 2025-02-23 11:09:30 AM
+BoruvkasAlgorithmTest
+
+CompilerResponse
+Compile succeeded.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  BoruvkasAlgorithm -> D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithm\bin\Debug\net9.0\BoruvkasAlgorithm.dll
+  BoruvkasAlgorithmTest -> D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithmTest\bin\Debug\net9.0\BoruvkasAlgorithmTest.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.45
+
+
+WritePatch: Code is Complete.
+BoruvkasAlgorithmTest
+
+TestResult:
+[SUCCESS 2025-02-23 11:10:07 AM] All tests passed successfully.
+[INFO 2025-02-23 11:10:07 AM] Test process completed. Duration: 3.64 seconds.
+[INFO 2025-02-23 11:10:07 AM] Process exited with code 0.
+[OUTPUT 2025-02-23 11:10:08 AM] Test Parallelization enabled for D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithmTest\bin\Debug\net9.0\BoruvkasAlgorithmTest.dll (Workers: 16, Scope: MethodLevel)
+[OUTPUT 2025-02-23 11:10:07 AM] D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithmTest\bin\Debug\net9.0\BoruvkasAlgorithmTest.dll
+[OUTPUT 2025-02-23 11:10:07 AM] A total of 1 test files matched the specified pattern.
+[OUTPUT 2025-02-23 11:10:07 AM] Starting test execution, please wait...
+[OUTPUT 2025-02-23 11:10:06 AM] VSTest version 17.12.0 (x64)
+[OUTPUT 2025-02-23 11:10:06 AM] Test run for D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithmTest\bin\Debug\net9.0\BoruvkasAlgorithmTest.dll (.NETCoreApp,Version=v9.0)
+[OUTPUT 2025-02-23 11:10:06 AM]   BoruvkasAlgorithmTest -> D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithmTest\bin\Debug\net9.0\BoruvkasAlgorithmTest.dll
+[OUTPUT 2025-02-23 11:10:05 AM]   All projects are up-to-date for restore.
+[OUTPUT 2025-02-23 11:10:05 AM]   BoruvkasAlgorithm -> D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithm\bin\Debug\net9.0\BoruvkasAlgorithm.dll
+[OUTPUT 2025-02-23 11:10:05 AM]   Determining projects to restore...
+[INFO 2025-02-23 11:10:04 AM] Command: dotnet test "D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithmTest\BoruvkasAlgorithmTest.csproj" --logger:"console;verbosity=detailed" --results-directory "TestResults"
+[INFO 2025-02-23 11:10:04 AM] Starting test for project: D:\Code2025\RavenWork\BoruvkasAlgorithm\BoruvkasAlgorithmTest\BoruvkasAlgorithmTest.csproj
+
+Test succeeded!!!]]></ActResult>
+</ActRecord>
